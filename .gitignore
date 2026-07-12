@@ -1,0 +1,14 @@
+# Логи сервера
+server/game/log/
+server/login/log/
+*.log
+
+# Бэкапы БД
+server/backup/*
+!server/backup/.gitkeep
+
+# Геодата качается отдельно (не храним в репозитории)
+server/game/data/geodata/*.l2j
+
+# Локальные конфиги окружения
+server/**/hexid.txt

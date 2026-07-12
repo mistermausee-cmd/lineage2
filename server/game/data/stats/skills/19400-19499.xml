@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="19400" toLevel="3" name="Elemental Spike - Decrease Dark Resistance">
+		<!-- Level 1: Decreases Dark attribute defense by 20 for 7 seconds. -->
+		<!-- Level 2: Decreases Dark attribute defense by 50 for 7 seconds. -->
+		<!-- Level 3: Decreases Dark attribute defense by 100 for 15 seconds. -->
+		<icon>icon.skill11011</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>5</abnormalLevel>
+		<abnormalTime>
+			<value level="1">7</value>
+			<value level="2">7</value>
+			<value level="3">15</value>
+		</abnormalTime>
+		<abnormalType>MULTI_DEBUFF_UNHOLY</abnormalType>
+		<activateRate>100</activateRate>
+		<affectScope>SINGLE</affectScope>
+		<attributeType>DARK</attributeType>
+		<attributeValue>20</attributeValue>
+		<basicProperty>NONE</basicProperty>
+		<hitCancelTime>0</hitCancelTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>4</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="DispelBySlot">
+				<dispel>MULTI_DEBUFF_FIRE,9;MULTI_DEBUFF_HOLY,9;MULTI_DEBUFF_WATER,9;MULTI_DEBUFF_WIND,9;MULTI_DEBUFF_EARTH,9</dispel>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">-20</value>
+					<value level="2">-50</value>
+					<value level="3">-100</value>
+				</amount>
+				<attribute>DARK</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19403" toLevel="3" name="Elemental Harmony">
+		<!-- Level 1: Harmony of attributes increases all attack attributes by 50 for 5 seconds. -->
+		<!-- Level 2: Harmony of attributes increases all attack attributes by 70 for 5 seconds. -->
+		<!-- Level 3: Harmony of attributes increases all attack attributes by 100 for 10 seconds. -->
+		<icon>icon.skill10044</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalTime>
+			<value level="1">5</value>
+			<value level="2">5</value>
+			<value level="3">10</value>
+		</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<effectPoint>696</effectPoint>
+		<isMagic>4</isMagic>
+		<mpConsume>70</mpConsume>
+		<reuseDelay>5000</reuseDelay>
+		<effects>
+			<effect name="AttackAttribute">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">70</value>
+					<value level="3">100</value>
+				</amount>
+				<attribute>FIRE</attribute>
+			</effect>
+			<effect name="AttackAttribute">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">70</value>
+					<value level="3">100</value>
+				</amount>
+				<attribute>WATER</attribute>
+			</effect>
+			<effect name="AttackAttribute">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">70</value>
+					<value level="3">100</value>
+				</amount>
+				<attribute>WIND</attribute>
+			</effect>
+			<effect name="AttackAttribute">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">70</value>
+					<value level="3">100</value>
+				</amount>
+				<attribute>EARTH</attribute>
+			</effect>
+			<effect name="AttackAttribute">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">70</value>
+					<value level="3">100</value>
+				</amount>
+				<attribute>HOLY</attribute>
+			</effect>
+			<effect name="AttackAttribute">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">70</value>
+					<value level="3">100</value>
+				</amount>
+				<attribute>DARK</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19404" toLevel="6" name="Fire Attribute">
+		<!-- Property Toggle Skill (Presentation) -->
+		<icon>icon.skill11046</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<effectPoint>696</effectPoint>
+		<isMagic>4</isMagic>
+		<mpConsume>70</mpConsume>
+		<effects>
+			<effect name="CallSkill">
+				<skillId>19403</skillId> <!-- Elemental Harmony -->
+				<skillLevel>1</skillLevel>
+				<skillLevelScaleTo>3</skillLevelScaleTo>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19405" toLevel="4" name="Summon Discarded Wizard's Soul">
+		<!-- Summons a Discarded Wizard's Soul. -->
+		<icon>icon.skill19405</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<coolTime>500</coolTime>
+		<hitTime>3500</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>
+			<value level="1">99</value>
+			<value level="2">101</value>
+			<value level="3">103</value>
+			<value level="4">105</value>
+		</magicLevel>
+		<mpConsume>
+			<value level="1">483</value>
+			<value level="2">495</value>
+			<value level="3">507</value>
+			<value level="4">519</value>
+		</mpConsume>
+		<reuseDelay>5000</reuseDelay>
+		<conditions>
+			<condition name="CanSummon" />
+		</conditions>
+		<effects>
+			<effect name="Summon">
+				<npcId>
+					<value level="1">15207</value>
+					<value level="2">15208</value>
+					<value level="3">15209</value>
+					<value level="4">15210</value>
+				</npcId>
+				<lifeTime>3600</lifeTime>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19406" toLevel="4" name="Curse from Deadland">
+		<!-- Inflicts dark magic attack on the enemies near you with 620 power while decreasing speed by 120 for 5 seconds and HP Regeneration received by 20%. -->
+		<icon>icon.action225</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+			<value level="4">4</value>
+		</abnormalLevel>
+		<abnormalTime>5</abnormalTime>
+		<abnormalType>SPEED_DOWN</abnormalType>
+		<activateRate>80</activateRate> <!-- Guessed -->
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>150</affectRange>
+		<affectScope>RANGE</affectScope>
+		<basicProperty>MAGIC</basicProperty> <!-- Guessed -->
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>500</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<magicLevel>
+			<value level="1">99</value>
+			<value level="2">101</value>
+			<value level="3">103</value>
+			<value level="4">105</value>
+		</magicLevel>
+		<mpConsume>72</mpConsume>
+		<reuseDelay>5000</reuseDelay>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>620</power>
+			</effect>
+			<effect name="Speed">
+				<amount>-120</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="HealEffect">
+				<amount>-20</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19407" toLevel="3" name="Essence of Mana">
+		<!-- Level 1: Increases M. Atk. by 30%, P. Def. by 30% and M. Critical Rate by 30%. -->
+		<!-- Level 2: Increases M. Atk. by 40%, P. Def. by 40% and M. Critical Rate by 40%. -->
+		<!-- Level 3: Increases M. Atk. by 50%, P. Def. by 50% and M. Critical Rate by 50%. -->
+		<icon>icon.skill11034</icon>
+		<operateType>T</operateType>
+		<mpConsume>36</mpConsume>
+		<effects>
+			<effect name="MagicalAttack">
+				<amount>
+					<value level="1">30</value>
+					<value level="2">40</value>
+					<value level="3">50</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">30</value>
+					<value level="2">40</value>
+					<value level="3">50</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>
+					<value level="1">30</value>
+					<value level="2">40</value>
+					<value level="3">50</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19408" toLevel="2" name="Embody Mana Armor">
+		<!-- Level 1: Embodies Mana Armor to reflect 10% of damage received and decrease 90%, and defend the rest by consuming MP. MP is consumed by 50 every second and this skill effect is removed if MP reaches 0. -->
+		<!-- Level 2: Embodies Mana Armor to reflect 10% of damage received and decrease 95%, and defend the rest by consuming MP. MP is consumed by 50 every second and this skill effect is removed if MP reaches 0. -->
+		<icon>icon.skill11065</icon>
+		<operateType>T</operateType>
+		<abnormalVisualEffect>MP_SHIELD</abnormalVisualEffect>
+		<mpConsume>36</mpConsume>
+		<reuseDelay>5000</reuseDelay>
+		<effects>
+			<effect name="DamageShield">
+				<amount>10</amount>
+			</effect>
+			<effect name="MpShield">
+				<amount>
+					<value level="1">90</value>
+					<value level="2">95</value>
+				</amount>
+			</effect>
+			<effect name="MpConsumePerLevel">
+				<power>50</power>
+				<ticks>1</ticks>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19409" toLevel="1" name="Curse Gloom">
+		<!-- Decreases M. Def. and all attribute defenses by 50% and 50, respectively, for 10 seconds. -->
+		<icon>icon.skill1263</icon>
+		<operateType>A2</operateType>
+		<abnormalLevel>2</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>MD_DOWN_AWAKEN</abnormalType>
+		<activateRate>100</activateRate>
+		<basicProperty>MAGIC</basicProperty>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="MagicalDefence">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>-50</amount>
+				<attribute>FIRE</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>-50</amount>
+				<attribute>WATER</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>-50</amount>
+				<attribute>WIND</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>-50</amount>
+				<attribute>EARTH</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>-50</amount>
+				<attribute>HOLY</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>-50</amount>
+				<attribute>DARK</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19410" toLevel="1" name="Elemental Crash (Wind)">
+		<!-- Elemental Buster inflicts Knock Back. -->
+		<icon>icon.skill11018</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>5</abnormalLevel>
+		<abnormalTime>1</abnormalTime>
+		<abnormalType>KNOCKDOWN</abnormalType>
+		<abnormalVisualEffect>KNOCKBACK</abnormalVisualEffect>
+		<activateRate>100</activateRate> <!-- Guessed -->
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<hitCancelTime>0</hitCancelTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<reuseDelay>10000</reuseDelay>
+		<trait>KNOCKDOWN</trait> <!-- Guessed -->
+		<effects>
+			<effect name="KnockBack">
+				<speed>600</speed>
+				<distance>100</distance>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19411" toLevel="1" name="Elemental Crash (Earth)">
+		<!-- Elemental Crash inflicts Hold for 3 seconds. -->
+		<icon>icon.skill11018</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>5</abnormalLevel>
+		<abnormalTime>3</abnormalTime>
+		<abnormalType>ROOT_MAGICALLY</abnormalType>
+		<abnormalVisualEffect>ROOT</abnormalVisualEffect>
+		<activateRate>80</activateRate> <!-- Guessed -->
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<hitCancelTime>0</hitCancelTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<reuseDelay>10000</reuseDelay>
+		<trait>HOLD</trait> <!-- Guessed -->
+		<effects>
+			<effect name="BlockMove" />
+		</effects>
+	</skill>
+	<skill id="19412" toLevel="1" name="Elemental Crash (Holy)">
+		<!-- Elemental Crash inflicts Stun for 2 seconds. -->
+		<icon>icon.skill11018</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>5</abnormalLevel>
+		<abnormalTime>2</abnormalTime>
+		<abnormalType>STUN</abnormalType>
+		<abnormalVisualEffect>STUN</abnormalVisualEffect>
+		<activateRate>90</activateRate> <!-- Guessed -->
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<hitCancelTime>0</hitCancelTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<reuseDelay>10000</reuseDelay>
+		<trait>SHOCK</trait> <!-- Guessed -->
+		<effects>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912</allowedSkills>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19413" toLevel="7" name="Elemental Burst: Water">
+		<!-- Elemental Burst inflicts Frozen for 3 seconds. -->
+		<icon>icon.skill11865</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>3</abnormalTime>
+		<abnormalType>FREEZE</abnormalType>
+		<abnormalVisualEffect>FROZEN_PILLAR</abnormalVisualEffect>
+		<activateRate>80</activateRate>
+		<affectScope>SINGLE</affectScope>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<magicLevel>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">101</value>
+			<value level="6">103</value>
+			<value level="7">105</value>
+		</magicLevel>
+		<trait>DERANGEMENT</trait>
+		<effects>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912</allowedSkills>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19414" toLevel="7" name="Elemental Burst: Wind">
+		<!-- Elemental Burst inflicts Knock Back. -->
+		<icon>icon.skill11865</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY_ONLY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>1</abnormalTime>
+		<abnormalType>KNOCKDOWN</abnormalType>
+		<abnormalVisualEffect>KNOCKBACK</abnormalVisualEffect>
+		<activateRate>100</activateRate> <!-- Guessed -->
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>200</affectRange>
+		<affectScope>RANGE</affectScope>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<magicLevel>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">101</value>
+			<value level="6">103</value>
+			<value level="7">105</value>
+		</magicLevel>
+		<trait>KNOCKBACK</trait>
+		<effects>
+			<effect name="KnockBack">
+				<distance>250</distance>
+				<speed>600</speed>
+				<knockDown>false</knockDown>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19415" toLevel="7" name="Elemental Burst: Earth">
+		<!-- Elemental Burst inflicts Hold for 5 seconds. -->
+		<icon>icon.skill11865</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY_ONLY</targetType>
+		<abnormalTime>5</abnormalTime>
+		<abnormalType>ROOT_MAGICALLY</abnormalType>
+		<abnormalVisualEffect>ROOT</abnormalVisualEffect>
+		<activateRate>80</activateRate> <!-- Guessed -->
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>200</affectRange>
+		<affectScope>RANGE</affectScope>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<magicLevel>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">101</value>
+			<value level="6">103</value>
+			<value level="7">105</value>
+		</magicLevel>
+		<trait>HOLD</trait>
+		<effects>
+			<effect name="BlockMove" />
+		</effects>
+	</skill>
+	<skill id="19416" toLevel="7" name="Elemental Burst: Holy">
+		<!-- Elemental Burst inflicts Stun for 3 seconds. -->
+		<icon>icon.skill11865</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY_ONLY</targetType>
+		<abnormalTime>5</abnormalTime>
+		<abnormalType>STUN</abnormalType>
+		<abnormalVisualEffect>STUN</abnormalVisualEffect>
+		<activateRate>80</activateRate> <!-- Guessed -->
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>200</affectRange>
+		<affectScope>RANGE</affectScope>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<magicLevel>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">101</value>
+			<value level="6">103</value>
+			<value level="7">105</value>
+		</magicLevel>
+		<trait>SHOCK</trait>
+		<effects>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912</allowedSkills>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19417" toLevel="7" name="Elemental Burst: Water">
+		<!-- Elemental Burst inflicts Frozen for 7 seconds. -->
+		<icon>icon.skill11865</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY_ONLY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>4</abnormalTime>
+		<abnormalType>FREEZE</abnormalType>
+		<abnormalVisualEffect>FROZEN_PILLAR</abnormalVisualEffect>
+		<activateRate>80</activateRate>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>40</affectRange>
+		<affectScope>RANGE</affectScope>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<magicLevel>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">101</value>
+			<value level="6">103</value>
+			<value level="7">105</value>
+		</magicLevel>
+		<trait>PARALYZE</trait>
+		<effects>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912</allowedSkills>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19418" toLevel="7" name="Elemental Burst: Wind">
+		<!-- Elemental Burst cancel target and inflicts Faint for 3 seconds. -->
+		<icon>icon.skill11865</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>3</abnormalTime>
+		<abnormalVisualEffect>STUN</abnormalVisualEffect>
+		<activateRate>100</activateRate> <!-- Guessed -->
+		<affectScope>SINGLE</affectScope>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<magicLevel>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">101</value>
+			<value level="6">103</value>
+			<value level="7">105</value>
+		</magicLevel>
+		<trait>SHOCK</trait>
+		<effects>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912</allowedSkills>
+			</effect>
+			<effect name="TargetCancel">
+				<chance>100</chance>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="19419" toLevel="7" name="Elemental Burst: Earth">
+		<!-- Elemental Burst inflicts Knock Down for 5 seconds. -->
+		<icon>icon.skill11865</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>5</abnormalTime>
+		<abnormalType>KNOCKDOWN</abnormalType>
+		<abnormalVisualEffect>KNOCKDOWN</abnormalVisualEffect>
+		<activateRate>90</activateRate> <!-- Guessed -->
+		<affectScope>SINGLE</affectScope>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<magicLevel>
+			<value level="1">85</value>
+			<value level="2">90</value>
+			<value level="3">95</value>
+			<value level="4">99</value>
+			<value level="5">101</value>
+			<value level="6">103</value>
+			<value level="7">105</value>
+		</magicLevel>
+		<trait>KNOCKBACK</trait>
+		<effects>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="19420" toLevel="4" name="Quadruple Elemental Blast">
+		<!-- Constant damage is inflicted for 5 seconds due to powerful magic and you enter the Knock Down state. -->
+		<icon>icon.skill11067</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>5</abnormalTime>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>RANGE</affectScope>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="BlockControl" />
+			<effect name="DamOverTime">
+				<power>160</power>
+				<ticks>1</ticks>
+			</effect>
+			<effect name="KnockBack">
+				<distance>100</distance>
+				<speed>600</speed>
+				<knockDown>true</knockDown>
+			</effect>
+		</effects>
+	</skill>
+</list>

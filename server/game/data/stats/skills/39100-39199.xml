@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="39101" toLevel="1" name="Chase Down">
+		<!-- Speed +66 for 15 seconds. -->
+		<icon>icon.skill0998</icon>
+		<operateType>A2</operateType>
+		<abnormalTime>15</abnormalTime>
+		<effectPoint>438</effectPoint>
+		<hitTime>1000</hitTime>
+		<reuseDelay>30000</reuseDelay>
+		<effects>
+			<effect name="Speed">
+				<amount>66</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="39102" toLevel="1" name="Sneak">
+		<!-- Do not receive preemptive attacks from monsters. -->
+		<icon>icon.skill10518</icon>
+		<operateType>T</operateType>
+		<targetType>SELF</targetType>
+		<abnormalType>STEALTH</abnormalType>
+		<abnormalVisualEffect>STEALTH</abnormalVisualEffect>
+		<affectScope>SINGLE</affectScope>
+		<magicCriticalRate>5</magicCriticalRate>
+		<mpConsume>1</mpConsume>
+		<effects>
+			<effect name="ChameleonRest">
+				<power>2</power>
+				<ticks>5</ticks>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="39169" toLevel="1" name="Cheer Firecracker">
+		<!-- Large firecracker that explodes in colorful light and fills the sky. -->
+		<icon>BranchSys.icon.br_firecracker_gold_i00</icon>
+		<operateType>A1</operateType>
+		<reuseDelay>10000</reuseDelay>
+	</skill>
+	<skill id="39171" toLevel="1" name="Member of the Balthus Knight">
+		<!-- You have dressed up as a member of the Balthus Knights for 1 hour. Gain opportunities to receive special supplies. -->
+		<icon>icon.ev_balthus_token</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>3600</abnormalTime>
+		<abnormalType>CHANGEBODY</abnormalType>
+		<abnormalVisualEffect>CHANGESHAPE_TRANSFORM</abnormalVisualEffect>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<effectPoint>0</effectPoint>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>500</hitTime>
+		<isMagic>4</isMagic> <!-- Magic Skill -->
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>49784</itemConsumeId>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>56</magicLevel>
+		<reuseDelay>60000</reuseDelay>
+		<stayAfterDeath>true</stayAfterDeath>
+		<conditions>
+			<condition name="CheckLevel">
+				<minLevel>85</minLevel>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="ExpModify">
+				<amount>10</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>10</amount>
+			</effect>
+		</effects>
+	</skill>
+</list>
