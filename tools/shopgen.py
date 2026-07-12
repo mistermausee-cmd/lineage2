@@ -24,14 +24,49 @@ def parse_items():
             iid = int(m.group(1))
             ct = re.search(r'crystal_type"\s+val="(\w+)"', block)
             bp = re.search(r'bodypart"\s+val="([a-z_;]+)"', block)
+            wt = re.search(r'weapon_type"\s+val="(\w+)"', block)
+            pr = re.search(r'price"\s+val="(\d+)"', block)
             items[iid] = {"id": iid, "name": m.group(2), "type": m.group(3),
                           "grade": ct.group(1) if ct else "",
-                          "bodypart": bp.group(1) if bp else ""}
+                          "bodypart": bp.group(1) if bp else "",
+                          "wtype": wt.group(1) if wt else "",
+                          "price": int(pr.group(1)) if pr else 0}
     return items
 
 WTYPES = ("Shaper","Cutter","Slasher","Avenger","Fighter","Stormer","Thrower",
           "Shooter","Buster","Caster","Retributer","Dualsword","Dual Dagger","Dual Blunt Weapon")
 ARMOR_BP = ("chest","legs","feet","gloves","head","alldress","onepiece")
+
+# --- Экипировка по грейдам (для прокачки 1->85), сверено со структурой L2Scripts (тайлы по грейдам) ---
+LVL_BAD = ("Blessed","Coupon","Appearance"," - ","Shadow","Common","Sealed","Cursed",
+           "Event","Rare","Limited","Box","Pack","Not in Use","Test","PvP",
+           "Corroded","Forgotten","Tattoo","Antique","Broken","Reward","Training")
+def weapons_by_grade(items, grade):
+    best = {}
+    for it in items.values():
+        if it["type"] != "Weapon" or it["grade"] != grade or not it["wtype"]:
+            continue
+        if any(b in it["name"] for b in LVL_BAD):
+            continue
+        wt = it["wtype"]
+        if wt not in best or it["price"] > best[wt]["price"]:
+            best[wt] = it
+    return sorted(best.values(), key=lambda x: x["id"])
+def armor_by_grade(items, grade):
+    slots = {}
+    for it in items.values():
+        if it["type"] != "Armor" or it["grade"] != grade or it["bodypart"] not in ARMOR_BP:
+            continue
+        if any(b in it["name"] for b in LVL_BAD):
+            continue
+        slots.setdefault(it["bodypart"], []).append(it)
+    out = []
+    for bp, lst in slots.items():
+        lst.sort(key=lambda x: -x["price"])
+        out += lst[:2]  # топ-2 на слот (heavy/light/robe варианты)
+    return sorted(out, key=lambda x: x["id"])
+def gear_by_grade(items, grade):
+    return weapons_by_grade(items, grade) + armor_by_grade(items, grade)
 
 def dedup_by_name(lst):
     seen = {}
@@ -114,6 +149,9 @@ CAT_PRICE = {
     600032: 150_000_000,   600033: 30_000_000,  600034: 50_000_000,    # dyes / skill-enchant codex / hair
     600040: 5_000_000,     600041: 2_000_000,   600042: 5_000_000,     # attribute stones / craft mats / R recipes
     600043: 1_000_000,     600044: 300_000_000,                        # boosters / bracelets
+    600046: 5_000_000,     600047: 10_000_000,                         # pets / shirts
+    600050: 100_000,       600051: 500_000,     600052: 2_000_000,     # leveling kits D / C / B
+    600053: 10_000_000,    600054: 30_000_000,  600055: 80_000_000,    # leveling kits A / S / S80
 }
 # Бакалея (расходники): (id, цена за 1 шт.)
 GROCERY = [(1540,6000),(5592,6000),(728,4000),
@@ -133,6 +171,11 @@ RECIPES = list(range(36732,36746)) + [32301,32302,32303]
 BOOSTERS = [15440,17095,17096,17097,17098,17099]
 # Браслеты (rbracelet, для брошки) + браслет агатиона
 BRACELETS = [19449,19455,19461,19471,19474,10139]
+# Рубашки-статы (underwear) и петы-саммоны (для соло)
+SHIRTS = [10207,10208]
+PETS = [2375,10163]
+# Наборы экипировки по грейдам для прокачки (грейд -> multisell id)
+LVL_GRADES = [("D",600050),("C",600051),("B",600052),("A",600053),("S",600054),("S80",600055)]
 EPIC_PRICE = {6660:1_500_000_000,6661:1_500_000_000,6662:1_500_000_000,
               6659:2_500_000_000,6658:3_000_000_000,8191:3_500_000_000,6657:5_000_000_000}
 ENCH_PRICE = {17526:8_000_000,19447:100_000_000,17527:4_000_000,19448:12_000_000}
@@ -174,6 +217,14 @@ def main():
         600042: fixed(by_ids(items, RECIPES), 600042),
         600043: fixed(by_ids(items, BOOSTERS), 600043),
         600044: fixed(by_ids(items, BRACELETS), 600044),
+        600046: fixed(by_ids(items, PETS), 600046),
+        600047: fixed(by_ids(items, SHIRTS), 600047),
+        600050: [(it, CAT_PRICE[600050]) for it in gear_by_grade(items, "D")],
+        600051: [(it, CAT_PRICE[600051]) for it in gear_by_grade(items, "C")],
+        600052: [(it, CAT_PRICE[600052]) for it in gear_by_grade(items, "B")],
+        600053: [(it, CAT_PRICE[600053]) for it in gear_by_grade(items, "A")],
+        600054: [(it, CAT_PRICE[600054]) for it in gear_by_grade(items, "S")],
+        600055: [(it, CAT_PRICE[600055]) for it in gear_by_grade(items, "S80")],
         600025: fixed(cloaks(items), 600025),
         600026: fixed(belts(items), 600026),
         600031: fixed(brooch_jewels(items), 600031),
@@ -210,8 +261,9 @@ def main():
 DEPARTMENTS = [
     ("weapons",  "Оружие",       [("Оружие R99",600001),("Оружие R95",600002),("Оружие R",600003)]),
     ("armor",    "Броня",        [("Броня R99",600004),("Броня R95",600005),("Броня R",600006)]),
+    ("level",    "Прокачка",     [("Грейд D",600050),("Грейд C",600051),("Грейд B",600052),("Грейд A",600053),("Грейд S",600054),("Грейд S80",600055)]),
     ("jewelry",  "Бижутерия",    [("Бижутерия R99",600007),("Эпик-бижутерия",600030),("Брошь и камни",600031),("Браслеты",600044)]),
-    ("accessory","Аксессуары",   [("Талисманы",600008),("Плащи",600025),("Пояса",600026),("Головные уборы",600034)]),
+    ("accessory","Аксессуары",   [("Талисманы",600008),("Плащи",600025),("Пояса",600026),("Головные уборы",600034),("Рубашки",600047),("Петы",600046)]),
     ("dyes",     "Краски",       [("Легендарные Lv.5",600032)]),
     ("books",    "Книги умений", [("Заточка умений (Кодекс)",600033)]),
     ("enchant",  "Заточка",      [("Свитки: оружие",600012),("Свитки: броня",600013),("Камни жизни",600017),("Атрибут (стихии)",600040)]),
