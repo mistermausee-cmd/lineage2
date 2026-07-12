@@ -98,6 +98,12 @@ def top_life_stones(items, n=6):
     ls.sort(key=lambda x: -x[0])
     return [it for _, it in ls[:n]]
 
+def hair_accessories(items):
+    res = [it for it in items.values() if it["bodypart"] == "hairall"
+        and it["grade"] in ("A","S","R","R95","R99")
+        and not any(b in it["name"] for b in ("Appearance","Coupon","Box","Pack","Not in Use","Test","Event"))]
+    return dedup_by_name(res)
+
 # ---- prices (adena) ----
 CAT_PRICE = {
     600001: 1_500_000_000, 600002: 650_000_000, 600003: 250_000_000,   # weapons R99/R95/R
@@ -105,7 +111,16 @@ CAT_PRICE = {
     600007: 300_000_000,   600008: 200_000_000,                        # R99 jewelry / talismans
     600011: 100,           600017: 30_000_000,                         # shots (per unit) / life stones
     600025: 300_000_000,   600026: 250_000_000, 600031: 150_000_000,   # cloaks / belts / brooch jewels
+    600032: 150_000_000,   600033: 30_000_000,  600034: 50_000_000,    # dyes / skill-enchant codex / hair
 }
+# Бакалея (расходники): (id, цена за 1 шт.)
+GROCERY = [(1540,4000),(5592,6000),(728,4000),
+           (30357,300000),(30358,300000),(30359,300000),
+           (1538,3000),(3936,80000)]
+DYES = [17709,17710,17711,17712,17713,17714]   # Lv.5 Legendary STR/DEX/CON/INT/WIT/MEN
+CODEX = [30297,30298,30299,30300]              # Superior Giant's Codex (skill enchant)
+# Головные уборы (дают +1 к характеристике): классические стат-шапки + Archangel Circlet
+HAIR = [9883,9884,9885,9886,9887,9888,9889,15484]
 EPIC_PRICE = {6660:1_500_000_000,6661:1_500_000_000,6662:1_500_000_000,
               6659:2_500_000_000,6658:3_000_000_000,8191:3_500_000_000,6657:5_000_000_000}
 ENCH_PRICE = {17526:8_000_000,19447:25_000_000,17527:4_000_000,19448:12_000_000}
@@ -145,6 +160,10 @@ def main():
         600030: [(items[i], EPIC_PRICE[i]) for i in EPIC_PRICE if i in items],
         600012: [(items[i], ENCH_PRICE[i]) for i in (17526,19447) if i in items],
         600013: [(items[i], ENCH_PRICE[i]) for i in (17527,19448) if i in items],
+        600032: fixed(by_ids(items, DYES), 600032),
+        600033: fixed(by_ids(items, CODEX), 600033),
+        600034: fixed(by_ids(items, HAIR), 600034),
+        600035: [(items[i], p) for i, p in GROCERY if i in items],
     }
     # dedup shots by NAME (keep lowest id)
     seen=set(); dd=[]
@@ -154,14 +173,91 @@ def main():
 
     os.makedirs(MULTISELL_DIR, exist_ok=True)
     total = 0
+    written = set()
     for msid, entries in cats.items():
         if not entries:
             print(f"!! EMPTY {msid}")
             continue
         write_multisell(msid, entries)
+        written.add(msid)
         total += len(entries)
         print(f"{msid}.xml : {len(entries)} items (пример: {entries[0][0]['name']})")
     print(f"\nВсего позиций: {total}")
+    build_html(written)
+    print("HTML меню магазина сгенерировано.")
+
+# ---- department menu (Russian) ----
+DEPARTMENTS = [
+    ("weapons",  "Оружие",       [("Оружие R99",600001),("Оружие R95",600002),("Оружие R",600003)]),
+    ("armor",    "Броня",        [("Броня R99",600004),("Броня R95",600005),("Броня R",600006)]),
+    ("jewelry",  "Бижутерия",    [("Бижутерия R99",600007),("Эпик-бижутерия",600030),("Брошь и камни",600031)]),
+    ("accessory","Аксессуары",   [("Талисманы",600008),("Плащи",600025),("Пояса",600026),("Головные уборы",600034)]),
+    ("dyes",     "Краски",       [("Легендарные Lv.5",600032)]),
+    ("books",    "Книги умений", [("Заточка умений (Кодекс)",600033)]),
+    ("enchant",  "Заточка",      [("Свитки: оружие",600012),("Свитки: броня",600013),("Камни жизни",600017)]),
+    ("grocery",  "Бакалея",      [("Расходники",600035),("Заряды (шоты)",600011)]),
+]
+
+def _btn(label, action, w=150):
+    return (f'<button value="{label}" action="{action}" width={w} height=28 '
+            f'back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">')
+
+def _page(title, body_rows):
+    rows = "\n".join(body_rows)
+    return f'''<html noscrollbar>
+	<body>
+		<table width=700><tr><td height=10></td></tr></table>
+		<table width=20>
+			<tr>
+				<td>%navigation%</td>
+				<td>
+					<center>
+						<table border=0 cellpadding=0 cellspacing=0 width=555 height=455 background="L2UI_CT1.Windows_DF_TooltipBG">
+							<tr><td height=18></td></tr>
+							<tr><td height=24 align="center"><font name="hs12" color="CDB67F">{title}</font></td></tr>
+							<tr><td><center><img src="L2UI.SquareGray" width=470 height=1></center></td></tr>
+							<tr><td height=12></td></tr>
+							<tr><td align="center">
+								<table align=center border=0 cellpadding=3 cellspacing=3>
+{rows}
+								</table>
+							</td></tr>
+						</table>
+					</center>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
+'''
+
+def build_html(written):
+    os.makedirs(HTML_DIR, exist_ok=True)
+    # main department page
+    dep_rows = []
+    deps = [d for d in DEPARTMENTS if any(mid in written for _, mid in d[2])]
+    for i in range(0, len(deps), 2):
+        cells = ""
+        for key, title, _ in deps[i:i+2]:
+            cells += f'\t\t\t\t\t\t\t\t\t<td><center>{_btn(title, f"bypass _bbstop;merchant/{key}.html", 170)}</center></td>\n'
+        dep_rows.append(f"\t\t\t\t\t\t\t\t<tr>\n{cells}\t\t\t\t\t\t\t\t</tr>")
+    open(os.path.join(HTML_DIR, "main.html"), "w", encoding="utf-8").write(
+        _page("Магазин за адену — отделы", dep_rows))
+    # department pages
+    for key, title, buttons in DEPARTMENTS:
+        buttons = [(lbl, mid) for lbl, mid in buttons if mid in written]
+        if not buttons:
+            continue
+        rows = []
+        for j in range(0, len(buttons), 2):
+            cells = ""
+            for lbl, mid in buttons[j:j+2]:
+                cells += f'\t\t\t\t\t\t\t\t\t<td><center>{_btn(lbl, f"bypass _bbsmultisell;{mid},merchant/{key}")}</center></td>\n'
+            rows.append(f"\t\t\t\t\t\t\t\t<tr>\n{cells}\t\t\t\t\t\t\t\t</tr>")
+        rows.append('\t\t\t\t\t\t\t\t<tr><td height=10></td></tr>')
+        rows.append(f'\t\t\t\t\t\t\t\t<tr><td><center>{_btn("Продать вещи","bypass _bbssell;merchant/"+key)}</center></td>'
+                    f'<td><center>{_btn("◄ В отделы","bypass _bbstop;merchant/main.html")}</center></td></tr>')
+        open(os.path.join(HTML_DIR, f"{key}.html"), "w", encoding="utf-8").write(_page(title, rows))
 
 if __name__ == "__main__":
     main()
