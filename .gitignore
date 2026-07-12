@@ -1,6 +1,8 @@
-# Логи сервера
-server/game/log/
-server/login/log/
+# Логи сервера (папки сохраняем через .gitkeep, содержимое игнорируем)
+server/game/log/*
+!server/game/log/.gitkeep
+server/login/log/*
+!server/login/log/.gitkeep
 *.log
 
 # Бэкапы БД

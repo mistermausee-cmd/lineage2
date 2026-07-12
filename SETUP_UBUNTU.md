@@ -104,6 +104,18 @@ UPDATE characters SET accesslevel = 8 WHERE char_name = 'ИМЯ';
 сервера (через `hosts` или IP-changer пака). Напиши — помогу с конкретным клиентом.
 
 ---
+## 9. Просмотр логов и мониторинг
+```bash
+tail -f server/game/log/stdout.log     # лог игрового сервера в реальном времени
+tail -f server/login/log/stdout.log    # лог логин-сервера
+```
+Сервер полностью загружен, когда в игровом логе появится строка вида
+`GameServer Started, free memory ...` / `Maximum numbers of connected players`.
+
+**Память:** по умолчанию игровому серверу выделено `-Xmx2g` (файл `server/game/java.cfg`).
+Для соло этого хватает с запасом. Проверь ОЗУ: `free -h`. Если VPS ≤ 2 ГБ — поставь `-Xmx1500m`.
+Если 8+ ГБ и хочешь — можно поднять до `-Xmx4g`.
+
 ### Частые проблемы
 - **Сервер не стартует / ошибка БД** — проверь пароль в `server/game/config/Database.ini` и `server/login/config/Database.ini` (должен совпадать с §1).
 - **Клиент не коннектится** — проверь `ipconfig.xml` (публичный IP), порты 2106/7777 в ufw и Azure NSG.

@@ -7,6 +7,9 @@
 
 cd "$(dirname "$0")/server" || exit 1
 
+# Папки логов обязательны — скрипты пишут в log/stdout.log
+mkdir -p login/log game/log
+
 echo "Запуск логин-сервера..."
 ( cd login && chmod +x *.sh 2>/dev/null; ./LoginServer.sh )
 
