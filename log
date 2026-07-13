@@ -1,589 +1,202 @@
-root@denyyzyy:~/lineage2# tail -n 40 server/game/log/*stdout*.log
-==> server/game/log/2026-07-12_13-46-49_stdout.log <==
-[12/07 13:36:22] PrimeShopData have been reset.
-[12/07 13:36:22] Training Camp durations have been reset.
-[12/07 13:36:22] Attendance Rewards have been reset.
-[12/07 13:36:22] CharacterBirthday 0 gifts sent. [11/07/2026] - [12/07/2026]
-[12/07 13:36:22] Daily tasks reset completed.
-[12/07 13:36:22] MailManager: Loaded 0 messages.
-[12/07 13:36:22] PunishmentManager: Loaded 0 active and 0 expired punishments.
-[12/07 13:36:22] IdManager: Free ObjectID's remaining: 1878993562
-[12/07 13:36:22] OfflineTraderTable: Loading offline traders...
-[12/07 13:36:22] OfflineTraderTable: Loaded 0 offline traders.
-[12/07 13:36:22] DeadlockWatcher: Thread started.
-[12/07 13:36:27] GameServer: Started, using 2218 of 4096 MB total memory.
-[12/07 13:36:27] GameServer: Maximum number of connected players is 2000.
-[12/07 13:36:27] GameServer: Server loaded in 36 seconds.
-[12/07 13:36:27] LoginServerThread: Connecting to login on 127.0.0.1:9014
-[12/07 13:36:27] Gameserver: Generated new HexID file for server id 1.
-[12/07 13:36:27] LoginServerThread: Registered on login as Server 1: Bartz
-[12/07 13:46:41] All players disconnected and saved(0ms).
-[12/07 13:46:41] Game Time Task Manager: Thread interruped(2ms).
-[12/07 13:46:41] ThreadPool: Shutting down all thread pools.
-[12/07 13:46:41] Thread Pool Manager: Manager has been shut down(2ms).
-[12/07 13:46:41] Login Server Thread: Thread interruped(0ms).
-[12/07 13:46:41] SIGTERM received. Shutting down NOW!
-[12/07 13:46:41] RaidBossSpawnManager: All raidboss info saved(33ms).
-[12/07 13:46:41] GrandBossManager: All Grand Boss info saved(2ms).
-[12/07 13:46:41] Item Auction Manager: All tasks stopped(1ms).
-[12/07 13:46:41] Olympiad System: Data saved(11ms).
-[12/07 13:46:41] Hero System: Data saved(1ms).
-[12/07 13:46:41] Clan System: Data saved(0ms).
-[12/07 13:46:41] Cursed Weapons Manager: Data saved(1ms).
-[12/07 13:46:41] Castle Manor Manager: Data saved(1ms).
-[12/07 13:46:41] Script Manager: Data saved(0ms).
-[12/07 13:46:41] GlobalVariablesManager: Stored 10 variables.
-[12/07 13:46:41] Global Variables Manager: Variables saved(64ms).
-[12/07 13:46:41] Party Matching History Table: Data saved(1ms).
-[12/07 13:46:41] SchemeBufferTable: Data saved(79ms).
-[12/07 13:46:41] Bot Report Table: Successfully saved reports to database!
-[12/07 13:46:46] Database: HikariCP pool closed successfully.
-[12/07 13:46:46] Database Factory: Database connection has been shut down(2ms).
-[12/07 13:46:46] The server has been successfully shut down in 5seconds.
+root@denyyzyy:~/lineage2# # какие логи вообще есть и их размеры (спам-логи сразу видно по размеру)
+ls -la server/game/log/
 
-==> server/game/log/2026-07-12_14-31-11_stdout.log <==
-[12/07 13:54:23] MultisellData: Player:dada[268490214] attempted to open multisell 600031 from npc null which is not allowed!
-[12/07 13:54:24] MultisellData: Player:dada[268490214] attempted to open multisell 600031 from npc null which is not allowed!
-[12/07 13:54:26] MultisellData: Player:dada[268490214] attempted to open multisell 600031 from npc null which is not allowed!
-[12/07 13:55:40] HTML encoding check: File data/html/CommunityBoard/Custom/merchant/dyes.html contains non ASCII content.
-[12/07 13:55:42] MultisellData: Player:dada[268490214] attempted to open multisell 600032 from npc null which is not allowed!
-[12/07 13:55:43] MultisellData: Player:dada[268490214] attempted to open multisell 600032 from npc null which is not allowed!
-[12/07 13:55:43] MultisellData: Player:dada[268490214] attempted to open multisell 600032 from npc null which is not allowed!
-[12/07 13:55:44] MultisellData: Player:dada[268490214] attempted to open multisell 600032 from npc null which is not allowed!
-[12/07 13:55:45] MultisellData: Player:dada[268490214] attempted to open multisell 600032 from npc null which is not allowed!
-[12/07 13:55:48] HTML encoding check: File data/html/CommunityBoard/Custom/merchant/enchant.html contains non ASCII content.
-[12/07 14:00:57] MultisellData: Player:dada[268490214] attempted to open multisell 600032 from npc null which is not allowed!
-[12/07 14:00:58] MultisellData: Player:dada[268490214] attempted to open multisell 600032 from npc null which is not allowed!
-[12/07 14:01:16] MultisellData: Player:dada[268490214] attempted to open multisell 600034 from npc null which is not allowed!
-[12/07 14:01:51] MultisellData: Player:dada[268490214] attempted to open multisell 600034 from npc null which is not allowed!
-[12/07 14:01:52] MultisellData: Player:dada[268490214] attempted to open multisell 600034 from npc null which is not allowed!
-[12/07 14:07:23] MultisellData: Player:dada[268490214] attempted to open multisell 600034 from npc null which is not allowed!
-[12/07 14:17:23] GlobalVariablesManager: Stored 10 variables.
-[12/07 14:30:52] All players disconnected and saved(0ms).
-[12/07 14:30:52] Game Time Task Manager: Thread interruped(2ms).
-[12/07 14:30:52] ThreadPool: Shutting down all thread pools.
-[12/07 14:30:52] Thread Pool Manager: Manager has been shut down(1ms).
-[12/07 14:30:52] Login Server Thread: Thread interruped(1ms).
-[12/07 14:30:52] SIGTERM received. Shutting down NOW!
-[12/07 14:30:52] RaidBossSpawnManager: All raidboss info saved(26ms).
-[12/07 14:30:52] GrandBossManager: All Grand Boss info saved(4ms).
-[12/07 14:30:52] Item Auction Manager: All tasks stopped(0ms).
-[12/07 14:30:52] Olympiad System: Data saved(2ms).
-[12/07 14:30:52] Hero System: Data saved(1ms).
-[12/07 14:30:52] Clan System: Data saved(1ms).
-[12/07 14:30:52] Cursed Weapons Manager: Data saved(0ms).
-[12/07 14:30:52] Castle Manor Manager: Data saved(1ms).
-[12/07 14:30:52] Script Manager: Data saved(1ms).
-[12/07 14:30:52] GlobalVariablesManager: Stored 10 variables.
-[12/07 14:30:52] Global Variables Manager: Variables saved(62ms).
-[12/07 14:30:52] Party Matching History Table: Data saved(1ms).
-[12/07 14:30:52] SchemeBufferTable: Data saved(63ms).
-[12/07 14:30:52] Bot Report Table: Successfully saved reports to database!
-[12/07 14:30:57] Database: HikariCP pool closed successfully.
-[12/07 14:30:57] Database Factory: Database connection has been shut down(2ms).
-[12/07 14:30:57] The server has been successfully shut down in 5seconds.
+# консоль игрового сервера — последние строки (ищем повторяющиеся ошибки/варнинги)
+tail -n 120 server/game/log/stdout.log
 
-==> server/game/log/2026-07-12_14-39-56_stdout.log <==
-[12/07 14:31:53] GameServer: Started, using 2222 of 4096 MB total memory.
-[12/07 14:31:53] GameServer: Maximum number of connected players is 2000.
-[12/07 14:31:53] GameServer: Server loaded in 41 seconds.
-[12/07 14:31:53] LoginServerThread: Connecting to login on 127.0.0.1:9014
-[12/07 14:31:53] LoginServerThread: Registered on login as Server 1: Bartz
-[12/07 14:37:47] HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
-[12/07 14:37:47] HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
-[12/07 14:37:49] HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
-[12/07 14:37:50] HTML encoding check: File data/html/CommunityBoard/Custom/merchant/jewelry.html contains non ASCII content.
-[12/07 14:37:51] MultisellData: Player:dada[268490214] attempted to open multisell 600031 from npc null which is not allowed!
-[12/07 14:37:56] MultisellData: Player:dada[268490214] attempted to open multisell 600030 from npc null which is not allowed!
-[12/07 14:38:00] MultisellData: Player:dada[268490214] attempted to open multisell 600030 from npc null which is not allowed!
-[12/07 14:38:00] MultisellData: Player:dada[268490214] attempted to open multisell 600030 from npc null which is not allowed!
-[12/07 14:38:01] MultisellData: Player:dada[268490214] attempted to open multisell 600030 from npc null which is not allowed!
-[12/07 14:38:04] MultisellData: Player:dada[268490214] attempted to open multisell 600031 from npc null which is not allowed!
-[12/07 14:38:09] MultisellData: Player:dada[268490214] attempted to open multisell 600031 from npc null which is not allowed!
-[12/07 14:38:58] User access level set for character dada! Just a warning to be careful ;)
-[12/07 14:39:44] All players disconnected and saved(81ms).
-[12/07 14:39:44] Game Time Task Manager: Thread interruped(1ms).
-[12/07 14:39:44] ThreadPool: Shutting down all thread pools.
-[12/07 14:39:44] Thread Pool Manager: Manager has been shut down(1ms).
-[12/07 14:39:44] Login Server Thread: Thread interruped(0ms).
-[12/07 14:39:44] SIGTERM received. Shutting down NOW!
-[12/07 14:39:44] RaidBossSpawnManager: All raidboss info saved(23ms).
-[12/07 14:39:44] GrandBossManager: All Grand Boss info saved(3ms).
-[12/07 14:39:44] Item Auction Manager: All tasks stopped(0ms).
-[12/07 14:39:44] Olympiad System: Data saved(1ms).
-[12/07 14:39:44] Hero System: Data saved(0ms).
-[12/07 14:39:44] Clan System: Data saved(0ms).
-[12/07 14:39:44] Cursed Weapons Manager: Data saved(1ms).
-[12/07 14:39:44] Castle Manor Manager: Data saved(1ms).
-[12/07 14:39:44] Script Manager: Data saved(0ms).
-[12/07 14:39:44] GlobalVariablesManager: Stored 10 variables.
-[12/07 14:39:44] Global Variables Manager: Variables saved(57ms).
-[12/07 14:39:44] Party Matching History Table: Data saved(1ms).
-[12/07 14:39:44] SchemeBufferTable: Data saved(94ms).
-[12/07 14:39:44] Bot Report Table: Successfully saved reports to database!
-[12/07 14:39:49] Database: HikariCP pool closed successfully.
-[12/07 14:39:49] Database Factory: Database connection has been shut down(2ms).
-[12/07 14:39:49] The server has been successfully shut down in 5seconds.
-
-==> server/game/log/2026-07-12_15-31-59_stdout.log <==
-        at java.base/java.lang.Thread.run(Thread.java:1474)
-
-[12/07 15:01:46] Exception during execution of admin_grandboss 29325
-java.lang.NullPointerException: Cannot invoke "org.l2jmobius.gameserver.model.StatSet.getLong(String)" because "info" is null
-        at handlers.chat.commands.admin.AdminGrandBoss.manageHtml(AdminGrandBoss.java:400)
-        at handlers.chat.commands.admin.AdminGrandBoss.onCommand(AdminGrandBoss.java:103)
-        at org.l2jmobius.gameserver.handler.AdminCommandHandler.lambda$onCommand$0(AdminCommandHandler.java:129)
-        at org.l2jmobius.commons.threads.ThreadPool$RunnableWrapper.run(ThreadPool.java:289)
-        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-        at java.base/java.lang.Thread.run(Thread.java:1474)
-
-[12/07 15:04:54] PetitionManager: Pending petition queue cleared. 0 petitions removed.
-[12/07 15:07:53] Master access level set for character dada! Just a warning to be careful ;)
-[12/07 15:08:03] No handler registered for admin command 'admin_admij'
-[12/07 15:10:33] GlobalVariablesManager: Stored 10 variables.
-[12/07 15:17:23] GrandBossManager: Updated Lindvior(29240) status to 0.
-[12/07 15:31:51] All players disconnected and saved(0ms).
-[12/07 15:31:51] Game Time Task Manager: Thread interruped(3ms).
-[12/07 15:31:51] ThreadPool: Shutting down all thread pools.
-[12/07 15:31:51] Thread Pool Manager: Manager has been shut down(4ms).
-[12/07 15:31:51] Login Server Thread: Thread interruped(1ms).
-[12/07 15:31:51] SIGTERM received. Shutting down NOW!
-[12/07 15:31:51] RaidBossSpawnManager: All raidboss info saved(43ms).
-[12/07 15:31:51] GrandBossManager: All Grand Boss info saved(3ms).
-[12/07 15:31:51] Item Auction Manager: All tasks stopped(0ms).
-[12/07 15:31:51] Olympiad System: Data saved(2ms).
-[12/07 15:31:51] Hero System: Data saved(1ms).
-[12/07 15:31:51] Clan System: Data saved(0ms).
-[12/07 15:31:51] Cursed Weapons Manager: Data saved(0ms).
-[12/07 15:31:51] Castle Manor Manager: Data saved(1ms).
-[12/07 15:31:51] Script Manager: Data saved(1ms).
-[12/07 15:31:51] GlobalVariablesManager: Stored 10 variables.
-[12/07 15:31:51] Global Variables Manager: Variables saved(69ms).
-[12/07 15:31:51] Party Matching History Table: Data saved(1ms).
-[12/07 15:31:52] SchemeBufferTable: Data saved(67ms).
-[12/07 15:31:52] Bot Report Table: Successfully saved reports to database!
-[12/07 15:31:57] Database: HikariCP pool closed successfully.
-[12/07 15:31:57] Database Factory: Database connection has been shut down(3ms).
-[12/07 15:31:57] The server has been successfully shut down in 5seconds.
-
-==> server/game/log/2026-07-12_18-09-28_stdout.log <==
-[12/07 15:33:31] HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
-[12/07 15:33:31] HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
-[12/07 15:33:33] HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
-[12/07 15:33:34] HTML encoding check: File data/html/CommunityBoard/Custom/merchant/weapons.html contains non ASCII content.
-[12/07 15:33:42] HTML encoding check: File data/html/CommunityBoard/Custom/merchant/jewelry.html contains non ASCII content.
-[12/07 15:34:20] HTML encoding check: File data/html/CommunityBoard/Custom/merchant/enchant.html contains non ASCII content.
-[12/07 15:34:36] HTML encoding check: File data/html/CommunityBoard/Custom/merchant/books.html contains non ASCII content.
-[12/07 16:00:00] Siege of Gludio: Sun Jul 12 16:00:00 UTC 2026
-[12/07 16:00:00] Siege of Giran: Sun Jul 12 16:00:00 UTC 2026
-[12/07 16:00:00] Siege of Aden: Sun Jul 12 16:00:00 UTC 2026
-[12/07 16:00:00] Siege of Goddard: Sun Jul 12 16:00:00 UTC 2026
-[12/07 16:00:00] Siege of Schuttgart: Sun Jul 12 16:00:00 UTC 2026
-[12/07 16:02:41] GlobalVariablesManager: Stored 10 variables.
-[12/07 16:32:40] GlobalVariablesManager: Stored 10 variables.
-[12/07 17:02:41] GlobalVariablesManager: Stored 10 variables.
-[12/07 17:32:40] GlobalVariablesManager: Stored 10 variables.
-[12/07 18:02:40] GlobalVariablesManager: Stored 10 variables.
-[12/07 18:09:20] All players disconnected and saved(0ms).
-[12/07 18:09:20] Game Time Task Manager: Thread interruped(2ms).
-[12/07 18:09:20] ThreadPool: Shutting down all thread pools.
-[12/07 18:09:20] Thread Pool Manager: Manager has been shut down(7ms).
-[12/07 18:09:20] Login Server Thread: Thread interruped(0ms).
-[12/07 18:09:20] SIGTERM received. Shutting down NOW!
-[12/07 18:09:20] RaidBossSpawnManager: All raidboss info saved(30ms).
-[12/07 18:09:20] GrandBossManager: All Grand Boss info saved(2ms).
-[12/07 18:09:20] Item Auction Manager: All tasks stopped(1ms).
-[12/07 18:09:20] Olympiad System: Data saved(1ms).
-[12/07 18:09:20] Hero System: Data saved(2ms).
-[12/07 18:09:20] Clan System: Data saved(0ms).
-[12/07 18:09:20] Cursed Weapons Manager: Data saved(1ms).
-[12/07 18:09:20] Castle Manor Manager: Data saved(1ms).
-[12/07 18:09:20] Script Manager: Data saved(1ms).
-[12/07 18:09:20] GlobalVariablesManager: Stored 10 variables.
-[12/07 18:09:20] Global Variables Manager: Variables saved(81ms).
-[12/07 18:09:20] Party Matching History Table: Data saved(3ms).
-[12/07 18:09:20] SchemeBufferTable: Data saved(63ms).
-[12/07 18:09:20] Bot Report Table: Successfully saved reports to database!
-[12/07 18:09:25] Database: HikariCP pool closed successfully.
-[12/07 18:09:25] Database Factory: Database connection has been shut down(6ms).
-[12/07 18:09:25] The server has been successfully shut down in 5seconds.
-
-==> server/game/log/2026-07-13_17-47-02_stdout.log <==
-[13/07 10:40:12] GlobalVariablesManager: Stored 11 variables.
-[13/07 11:10:12] GlobalVariablesManager: Stored 11 variables.
-[13/07 11:40:12] GlobalVariablesManager: Stored 11 variables.
-[13/07 12:10:12] GlobalVariablesManager: Stored 11 variables.
-[13/07 12:40:12] GlobalVariablesManager: Stored 11 variables.
-[13/07 13:10:12] GlobalVariablesManager: Stored 11 variables.
-[13/07 13:40:12] GlobalVariablesManager: Stored 11 variables.
-[13/07 14:10:12] GlobalVariablesManager: Stored 11 variables.
-[13/07 14:40:12] GlobalVariablesManager: Stored 11 variables.
-[13/07 15:10:12] GlobalVariablesManager: Stored 11 variables.
-[13/07 15:40:12] GlobalVariablesManager: Stored 11 variables.
-[13/07 16:00:00] IdManager: Increased BitSet capacity to 143483
-[13/07 16:10:12] GlobalVariablesManager: Stored 11 variables.
-[13/07 16:40:12] GlobalVariablesManager: Stored 11 variables.
-[13/07 17:10:12] GlobalVariablesManager: Stored 11 variables.
-[13/07 17:40:12] GlobalVariablesManager: Stored 11 variables.
-[13/07 17:49:20] Master access level set for character dada! Just a warning to be careful ;)
-[13/07 17:50:36] All players disconnected and saved(86ms).
-[13/07 17:50:36] Game Time Task Manager: Thread interruped(2ms).
-[13/07 17:50:36] ThreadPool: Shutting down all thread pools.
-[13/07 17:50:36] Thread Pool Manager: Manager has been shut down(4ms).
-[13/07 17:50:36] Login Server Thread: Thread interruped(0ms).
-[13/07 17:50:36] SIGTERM received. Shutting down NOW!
-[13/07 17:50:36] RaidBossSpawnManager: All raidboss info saved(30ms).
-[13/07 17:50:36] GrandBossManager: All Grand Boss info saved(2ms).
-[13/07 17:50:36] Item Auction Manager: All tasks stopped(1ms).
-[13/07 17:50:36] Olympiad System: Data saved(1ms).
-[13/07 17:50:36] Hero System: Data saved(2ms).
-[13/07 17:50:36] Clan System: Data saved(0ms).
-[13/07 17:50:36] Cursed Weapons Manager: Data saved(2ms).
-[13/07 17:50:36] Castle Manor Manager: Data saved(1ms).
-[13/07 17:50:36] Script Manager: Data saved(1ms).
-[13/07 17:50:36] GlobalVariablesManager: Stored 11 variables.
-[13/07 17:50:36] Global Variables Manager: Variables saved(88ms).
-[13/07 17:50:36] Party Matching History Table: Data saved(1ms).
-[13/07 17:50:37] SchemeBufferTable: Data saved(63ms).
-[13/07 17:50:37] Bot Report Table: Successfully saved reports to database!
-[13/07 17:50:42] Database: HikariCP pool closed successfully.
-[13/07 17:50:42] Database Factory: Database connection has been shut down(2ms).
-[13/07 17:50:42] The server has been successfully shut down in 5seconds.
-
-==> server/game/log/2026-07-13_17-52-54_stdout.log <==
-[L2JMobiusPool:connection-adder] WARN com.zaxxer.hikari.pool.PoolBase - L2JMobiusPool - Pool is empty, failed to create/setup connection (3a050474-474c-43c7-8d29-98de2e38d2a1)
-java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
-        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:102)
-        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
-        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:81)
-        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:55)
-        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:65)
-        at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:914)
-        at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
-        at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:416)
-        at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
-        at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
-        at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144)
-        at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373)
-        at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210)
-        at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488)
-        at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:752)
-        at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:731)
-        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-        at java.base/java.lang.Thread.run(Thread.java:1474)
-Caused by: com.mysql.cj.exceptions.CJException: Access denied for user 'root'@'localhost'
-        at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-        at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-        at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
-        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
-        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
-        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:118)
-        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:854)
-        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:777)
-        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:746)
-        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:147)
-        at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:461)
-        at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:206)
-        at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1332)
-        at com.mysql.cj.NativeSession.connect(NativeSession.java:155)
-        at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:854)
-        ... 14 more
-
-==> server/game/log/2026-07-13_17-57-28_stdout.log <==
-[L2JMobiusPool:connection-adder] WARN com.zaxxer.hikari.pool.PoolBase - L2JMobiusPool - Pool is empty, failed to create/setup connection (58df45c0-752a-4953-8716-e53bd47880f8)
-java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
-        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:102)
-        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
-        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:81)
-        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:55)
-        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:65)
-        at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:914)
-        at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
-        at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:416)
-        at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
-        at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
-        at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144)
-        at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373)
-        at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210)
-        at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488)
-        at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:752)
-        at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:731)
-        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-        at java.base/java.lang.Thread.run(Thread.java:1474)
-Caused by: com.mysql.cj.exceptions.CJException: Access denied for user 'root'@'localhost'
-        at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-        at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-        at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
-        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
-        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
-        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:118)
-        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:854)
-        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:777)
-        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:746)
-        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:147)
-        at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:461)
-        at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:206)
-        at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1332)
-        at com.mysql.cj.NativeSession.connect(NativeSession.java:155)
-        at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:854)
-        ... 14 more
-
-==> server/game/log/2026-07-13_18-04-53_stdout.log <==
-        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:102)
-        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
-        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:81)
-        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:55)
-        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:65)
-        at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:914)
-        at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
-        at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:416)
-        at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
-        at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
-        at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144)
-        at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373)
-        at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210)
-        at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488)
-        at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:752)
-        at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:731)
-        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-        at java.base/java.lang.Thread.run(Thread.java:1474)
-Caused by: com.mysql.cj.exceptions.CJException: Access denied for user 'root'@'localhost'
-        at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-        at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-        at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
-        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
-        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
-        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:118)
-        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:854)
-        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:777)
-        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:746)
-        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:147)
-        at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:461)
-        at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:206)
-        at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1332)
-        at com.mysql.cj.NativeSession.connect(NativeSession.java:155)
-        at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:854)
-        ... 14 more
-
-[13/07 18:03:29] DatabaseIdManager: Could not execute cleanup query: DELETE FROM character_friends WHERE character_friends.friendId NOT IN (SELECT charId FROM characters) - java.lang.RuntimeException: Unable to obtain a database connection.
-
-==> server/game/log/2026-07-13_18-14-50_stdout.log <==
-[L2JMobiusPool:connection-adder] WARN com.zaxxer.hikari.pool.PoolBase - L2JMobiusPool - Pool is empty, failed to create/setup connection (5dacf18c-8c13-4119-a538-6cd1b834414d)
-java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
-        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:102)
-        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
-        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:81)
-        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:55)
-        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:65)
-        at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:914)
-        at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
-        at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:416)
-        at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
-        at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
-        at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144)
-        at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373)
-        at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210)
-        at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488)
-        at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:752)
-        at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:731)
-        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-        at java.base/java.lang.Thread.run(Thread.java:1474)
-Caused by: com.mysql.cj.exceptions.CJException: Access denied for user 'root'@'localhost'
-        at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-        at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-        at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
-        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
-        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
-        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:118)
-        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:854)
-        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:777)
-        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:746)
-        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:147)
-        at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:461)
-        at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:206)
-        at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1332)
-        at com.mysql.cj.NativeSession.connect(NativeSession.java:155)
-        at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:854)
-        ... 14 more
-
-==> server/game/log/2026-07-13_18-25-13_stdout.log <==
-        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:102)
-        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
-        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:81)
-        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:55)
-        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:65)
-        at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:914)
-        at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
-        at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:416)
-        at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
-        at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
-        at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144)
-        at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373)
-        at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210)
-        at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488)
-        at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:752)
-        at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:731)
-        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-        at java.base/java.lang.Thread.run(Thread.java:1474)
-Caused by: com.mysql.cj.exceptions.CJException: Access denied for user 'root'@'localhost'
-        at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-        at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-        at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
-        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
-        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
-        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:118)
-        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:854)
-        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:777)
-        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:746)
-        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:147)
-        at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:461)
-        at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:206)
-        at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1332)
-        at com.mysql.cj.NativeSession.connect(NativeSession.java:155)
-        at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:854)
-        ... 14 more
-
-[13/07 18:23:51] DatabaseIdManager: Could not execute cleanup query: DELETE FROM character_quests WHERE character_quests.charId NOT IN (SELECT charId FROM characters) - java.lang.RuntimeException: Unable to obtain a database connection.
-
-==> server/game/log/2026-07-13_18-35-29_stdout.log <==
-        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:118)
-        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:854)
-        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:777)
-        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:746)
-        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:147)
-        at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:461)
-        at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:206)
-        at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1332)
-        at com.mysql.cj.NativeSession.connect(NativeSession.java:155)
-        at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:854)
-        ... 14 more
-[13/07 18:34:47] DatabaseIdManager: Cleaned 0 elements in 512 seconds.
-[13/07 18:34:47] DatabaseIdManager: Updated character online status.
-[13/07 18:34:47] DatabaseIdManager: Cleaned 0 expired timestamps.
-[13/07 18:34:47] IdManager: 102912 ids available.
-[13/07 18:34:47] ----------------------------------------=[ Scripting Engine ]
-[13/07 18:34:47] Loaded 805 files to exclude.
-[13/07 18:34:47] ---------------------------------------------------=[ World ]
-[13/07 18:34:48] World: (288 by 272) World Region Grid set up.
-[13/07 18:34:49] MapRegionData: Loaded 59 map regions.
-[13/07 18:34:49] ZoneManager 19 by 18 Zone Region Grid set up.
-[13/07 18:34:49] ZoneManager: Loaded 32 zone classes and 2922 zones.
-[13/07 18:34:49] ZoneManager: Last static id 210109.
-[13/07 18:34:50] DoorData: Loaded 1467 doors.
-[13/07 18:34:50] FenceData: Loaded 1 fences.
-[13/07 18:34:50] GlobalVariablesManager: Loaded 11 variables.
-[13/07 18:34:50] ----------------------------------------------------=[ Data ]
-[13/07 18:34:50] ActionData: Loaded 260 player actions.
-[13/07 18:34:50] CategoryData: Loaded 215 categories.
-[13/07 18:34:50] SecondaryAuthData: Loaded 328 forbidden passwords.
-[13/07 18:34:50] SayuneData: Loaded 84 maps.
-[13/07 18:34:50] ClanRewardData: Loaded 4 rewards for members online.
-[13/07 18:34:50] ClanRewardData: Loaded 4 rewards for hunting monsters.
-[13/07 18:34:50] DailyMissionMasterHandler: Loaded 10 handlers.
-[13/07 18:34:51] DailyMissionData: Loaded 59 one day rewards.
-[13/07 18:34:51] --------------------------------------------------=[ Skills ]
-[13/07 18:34:54] EffectMasterHandler: Loaded 375 effect handlers.
-[13/07 18:34:54] EnchantSkillGroupsData: Loaded 20 enchant routes, max enchant set to 20.
-[13/07 18:34:54] TransformData: Loaded 174 transform templates.
-[13/07 18:35:05] SkillData: Loaded 123552 Skills.
-
-==> server/game/log/2026-07-13_18-44-31_stdout.log <==
-        at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:309)
-        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-        at java.base/java.lang.Thread.runWith(Thread.java:1487)
-        at java.base/java.lang.Thread.run(Thread.java:1474)
-Exception in thread "L2jMobius ScheduledThread 8" java.lang.OutOfMemoryError: Java heap space
-        at java.base/java.util.concurrent.ConcurrentHashMap$KeySetView.iterator(ConcurrentHashMap.java:4655)
-        at org.l2jmobius.gameserver.model.World.forEachVisibleObject(World.java:678)
-        at org.l2jmobius.gameserver.model.actor.Creature.broadcastPacket(Creature.java:708)
-        at org.l2jmobius.gameserver.model.actor.Creature.broadcastPacket(Creature.java:701)
-        at org.l2jmobius.gameserver.model.actor.Creature.broadcastSkillPacket(Creature.java:720)
-        at org.l2jmobius.gameserver.model.skill.SkillCaster.startCasting(SkillCaster.java:357)
-        at org.l2jmobius.gameserver.model.skill.SkillCaster.run(SkillCaster.java:216)
-        at org.l2jmobius.gameserver.model.skill.SkillCaster.castSkill(SkillCaster.java:194)
-        at org.l2jmobius.gameserver.model.skill.SkillCaster.castSkill(SkillCaster.java:146)
-        at org.l2jmobius.gameserver.model.actor.Creature.doCast(Creature.java:1545)
-        at org.l2jmobius.gameserver.model.actor.instance.Monster.doCast(Monster.java:225)
-        at org.l2jmobius.gameserver.model.actor.Creature.doCast(Creature.java:1508)
-        at ai.areas.PrimevalIsle.PrimevalIsle.onEvent(PrimevalIsle.java:191)
-        at org.l2jmobius.gameserver.model.script.Quest.notifyEvent(Quest.java:660)
-        at org.l2jmobius.gameserver.model.script.QuestTimer$ScheduleTimerTask.run(QuestTimer.java:161)
-        at org.l2jmobius.commons.threads.ThreadPool$RunnableWrapper.run(ThreadPool.java:289)
-        at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-        at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:309)
-        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-        at java.base/java.lang.Thread.runWith(Thread.java:1487)
-        at java.base/java.lang.Thread.run(Thread.java:1474)
-Exception in thread "L2jMobius ScheduledThread 6" java.lang.OutOfMemoryError: Java heap space
-Exception in thread "L2jMobius ScheduledThread 9" java.lang.OutOfMemoryError: Java heap space
-Exception in thread "L2jMobius ScheduledThread 12" java.lang.OutOfMemoryError: Java heap space
-Exception in thread "L2jMobius ScheduledThread 2" java.lang.OutOfMemoryError: Java heap space
-Exception in thread "L2jMobius ScheduledThread 7" java.lang.OutOfMemoryError: Java heap space
-Exception in thread "L2jMobius ScheduledThread 2" java.lang.OutOfMemoryError: Java heap space
-Exception in thread "L2jMobius ScheduledThread 3" java.lang.OutOfMemoryError: Java heap space
-Exception in thread "L2jMobius ScheduledThread 15" java.lang.OutOfMemoryError: Java heap space
-Exception in thread "L2jMobius ScheduledThread 10"
-Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "main"
-java.lang.OutOfMemoryError: Java heap space
-
-==> server/game/log/stdout.log <==
-        at org.l2jmobius.commons.threads.ThreadPool$RunnableWrapper.run(ThreadPool.java:289)
-        at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-        at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:309)
-        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-        at java.base/java.lang.Thread.runWith(Thread.java:1487)
-        at java.base/java.lang.Thread.run(Thread.java:1474)
-Exception in thread "L2jMobius Thread 3" java.lang.OutOfMemoryError: Java heap space
-        at java.base/java.util.concurrent.ConcurrentHashMap$KeySetView.iterator(ConcurrentHashMap.java:4655)
-        at org.l2jmobius.gameserver.model.World.forEachVisibleObjectInRange(World.java:738)
-        at org.l2jmobius.gameserver.util.Broadcast.toKnownPlayersInRadius(Broadcast.java:145)
-        at org.l2jmobius.gameserver.model.actor.Npc.broadcastSay(Npc.java:1853)
-        at ai.areas.SelMahumTrainingGrounds.SelMahumSquad.onEventReceived(SelMahumSquad.java:286)
-        at org.l2jmobius.gameserver.model.script.Quest.notifyEventReceived(Quest.java:772)
-        at org.l2jmobius.gameserver.model.script.Quest.lambda$addEventReceivedId$0(Quest.java:1998)
-        at org.l2jmobius.gameserver.model.script.Quest$$Lambda/0x000000002263ed48.accept(Unknown Source)
-        at org.l2jmobius.gameserver.model.events.listeners.ConsumerEventListener.executeEvent(ConsumerEventListener.java:44)
-        at org.l2jmobius.gameserver.model.events.EventDispatcher.notifyToListeners(EventDispatcher.java:297)
-        at org.l2jmobius.gameserver.model.events.EventDispatcher.notifyEventToSingleContainer(EventDispatcher.java:188)
-        at org.l2jmobius.gameserver.model.events.EventDispatcher.lambda$notifyEventAsync$0(EventDispatcher.java:150)
-        at org.l2jmobius.gameserver.model.events.EventDispatcher$$Lambda/0x00000000226d96e8.run(Unknown Source)
-        at org.l2jmobius.commons.threads.ThreadPool$RunnableWrapper.run(ThreadPool.java:289)
-        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-        at java.base/java.lang.Thread.runWith(Thread.java:1487)
-        at java.base/java.lang.Thread.run(Thread.java:1474)
-Exception in thread "L2jMobius Thread 8" Exception in thread "L2jMobius Thread 4" java.lang.OutOfMemoryError: Java heap space
-Exception in thread "L2jMobius ScheduledThread 9" Exception in thread "L2jMobius Thread 5" Exception in thread "L2jMobius ScheduledThread 4" java.lang.OutOfMemoryError: Java heap space
-
-Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "L2jMobius Thread 7"
-
-Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "L2jMobius Thread 3"
-
-Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "L2jMobius Thread 8"
-java.lang.OutOfMemoryError: Java heap space
-Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
-Exception in thread "L2jMobius ScheduledThread 3" java.lang.OutOfMemoryError: Java heap space
-
-Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "L2jMobius Thread 2"
+# файлы ошибок
+tail -n 80 server/game/log/error0.log 2>/dev/null
+total 1280
+drwxr-xr-x 2 root root   4096 Jul 13 18:55 .
+drwxr-xr-x 5 root root   4096 Jul 13 18:55 ..
+-rw-r--r-- 1 root root      0 Jul 13 18:14 .gitkeep
+-rw-r--r-- 1 root root  19517 Jul 12 13:46 2026-07-12_13-46-49_stdout.log
+-rw-r--r-- 1 root root  23222 Jul 12 14:30 2026-07-12_14-31-11_stdout.log
+-rw-r--r-- 1 root root  20233 Jul 12 14:39 2026-07-12_14-39-56_stdout.log
+-rw-r--r-- 1 root root  22468 Jul 12 15:31 2026-07-12_15-31-59_stdout.log
+-rw-r--r-- 1 root root  20299 Jul 12 18:09 2026-07-12_18-09-28_stdout.log
+-rw-r--r-- 1 root root  30952 Jul 13 17:50 2026-07-13_17-47-02_stdout.log
+-rw-r--r-- 1 root root  24382 Jul 13 17:50 2026-07-13_17-52-54_stdout.log
+-rw-r--r-- 1 root root  24382 Jul 13 17:56 2026-07-13_17-57-28_stdout.log
+-rw-r--r-- 1 root root  44904 Jul 13 18:03 2026-07-13_18-04-53_stdout.log
+-rw-r--r-- 1 root root 141892 Jul 13 18:23 2026-07-13_18-14-50_stdout.log
+-rw-r--r-- 1 root root  65417 Jul 13 18:23 2026-07-13_18-25-13_stdout.log
+-rw-r--r-- 1 root root  70392 Jul 13 18:35 2026-07-13_18-35-29_stdout.log
+-rw-r--r-- 1 root root  24885 Jul 13 18:39 2026-07-13_18-44-31_stdout.log
+-rw-r--r-- 1 root root  23189 Jul 13 18:46 2026-07-13_18-55-40_stdout.log
+-rw-r--r-- 1 root root   1930 Jul 13 18:56 accounting0.log
+-rw-r--r-- 1 root root      0 Jul 12 13:36 accounting0.log.lck
+-rw-r--r-- 1 root root      0 Jul 13 18:55 error0.log
+-rw-r--r-- 1 root root  39415 Jul 13 18:23 error0.log.1
+-rw-r--r-- 1 root root      0 Jul 13 17:47 error0.log.1.lck
+-rw-r--r-- 1 root root      0 Jul 12 13:35 error0.log.lck
+-rw-r--r-- 1 root root      0 Jul 13 18:44 error1.log
+-rw-r--r-- 1 root root  12979 Jul 13 17:50 error1.log.1
+-rw-r--r-- 1 root root      0 Jul 12 14:31 error10.log
+-rw-r--r-- 1 root root      0 Jul 12 13:46 error11.log
+-rw-r--r-- 1 root root      0 Jul 12 13:35 error12.log
+-rw-r--r-- 1 root root      0 Jul 13 18:35 error2.log
+-rw-r--r-- 1 root root  39415 Jul 13 18:34 error3.log
+-rw-r--r-- 1 root root  83475 Jul 13 18:23 error4.log
+-rw-r--r-- 1 root root  26197 Jul 13 18:03 error5.log
+-rw-r--r-- 1 root root  12979 Jul 13 17:55 error6.log
+-rw-r--r-- 1 root root      0 Jul 12 18:09 error7.log
+-rw-r--r-- 1 root root      0 Jul 12 15:32 error8.log
+-rw-r--r-- 1 root root   2652 Jul 12 15:01 error9.log
+-rw-r--r-- 1 root root      0 Jul 12 13:36 item0.log
+-rw-r--r-- 1 root root      0 Jul 12 13:36 item0.log.lck
+-rw-r--r-- 1 root root  43826 Jul 13 19:05 java0.log
+-rw-r--r-- 1 root root   5187 Jul 13 18:23 java0.log.1
+-rw-r--r-- 1 root root      0 Jul 13 17:47 java0.log.1.lck
+-rw-r--r-- 1 root root      0 Jul 12 13:35 java0.log.lck
+-rw-r--r-- 1 root root  36103 Jul 13 18:45 java1.log
+-rw-r--r-- 1 root root   2626 Jul 13 17:50 java1.log.1
+-rw-r--r-- 1 root root  38145 Jul 12 14:39 java10.log
+-rw-r--r-- 1 root root  42696 Jul 12 14:30 java11.log
+-rw-r--r-- 1 root root  37511 Jul 12 13:46 java12.log
+-rw-r--r-- 1 root root  36101 Jul 13 18:37 java2.log
+-rw-r--r-- 1 root root   8284 Jul 13 18:35 java3.log
+-rw-r--r-- 1 root root   9596 Jul 13 18:23 java4.log
+-rw-r--r-- 1 root root   3911 Jul 13 18:03 java5.log
+-rw-r--r-- 1 root root   2626 Jul 13 17:55 java6.log
+-rw-r--r-- 1 root root  53429 Jul 13 17:50 java7.log
+-rw-r--r-- 1 root root  38516 Jul 12 18:09 java8.log
+-rw-r--r-- 1 root root  38486 Jul 12 15:31 java9.log
+-rw-r--r-- 1 root root      0 Jul 12 13:36 olympiad.csv
+-rw-r--r-- 1 root root      0 Jul 12 13:36 olympiad.csv.lck
+-rw-r--r-- 1 root root  23690 Jul 13 19:05 stdout.log
+[13/07 18:56:01] Olympiad System: Loaded 0 Nobles
+[13/07 18:56:01] Olympiad System: Competition Period Starts in 4 days, 1 hours and 4 mins.
+[13/07 18:56:01] Olympiad System: Event starts/started: Fri Jul 17 20:00:01 UTC 2026
+[13/07 18:56:01] Hero System: Loaded 0 Heroes.
+[13/07 18:56:01] Hero System: Loaded 0 all time Heroes.
+[13/07 18:56:01] ---------------------------------------------------=[ Cache ]
+[13/07 18:56:01] Cache[HTML]: Running lazy cache.
+[13/07 18:56:01] CrestTable: Loaded 0 Crests.
+[13/07 18:56:02] TeleporterData: Loaded 174 npc teleporters.
+[13/07 18:56:02] CursedWeaponsManager: Loaded 2 cursed weapons.
+[13/07 18:56:02] BotReportTable: Loaded 0 bot reports
+[13/07 18:56:02] SellBuffsManager: Loaded 149 allowed buffs.
+[13/07 18:56:02] -------------------------------------------------=[ Scripts ]
+[13/07 18:56:02] AirShipManager: Loaded 0 private airships
+[13/07 18:56:02] ShuttleData: Loaded 3 shuttles.
+[13/07 18:56:02] GameServer: Loading server scripts:
+[13/07 18:56:04] Loading Handlers...
+[13/07 18:56:04] ActionClickHandler: Loaded 10 handlers.
+[13/07 18:56:04] ActionShiftHandler: Loaded 6 handlers.
+[13/07 18:56:04] AdminCommandHandler: Loaded 458 handlers.
+[13/07 18:56:04] BypassHandler: Loaded 28 handlers.
+[13/07 18:56:04] ChatHandler: Loaded 14 handlers.
+[13/07 18:56:04] CommunityBoardHandler: Loaded 25 handlers.
+[13/07 18:56:04] ItemHandler: Loaded 32 handlers.
+[13/07 18:56:04] PunishmentHandler: Loaded 3 handlers.
+[13/07 18:56:04] UserCommandHandler: Loaded 16 handlers.
+[13/07 18:56:04] VoicedCommandHandler: Loaded 16 handlers.
+[13/07 18:56:04] TargetHandler: Loaded 21 handlers.
+[13/07 18:56:04] AffectObjectHandler: Loaded 11 handlers.
+[13/07 18:56:04] AffectScopeHandler: Loaded 19 handlers.
+[13/07 18:56:04] ActionUserHandler: Loaded 24 handlers.
+[13/07 18:56:04] Handlers Loaded...
+[13/07 18:56:10] NpcBuffersData: Loaded 6 buffers data.
+[13/07 18:56:10] MentorGuide: Loaded 41 mentee coins
+[13/07 18:56:10] ClassMaster: Loaded 0 class change options.
+[13/07 18:56:10] Fantasy Isle: MC show script starting at 13/07/2026 22:49:10 and is scheduled each next 4 hours.
+[13/07 18:56:10] Handy's Block Checker Event is enabled
+[13/07 18:56:10] Fantasy Isle: Parade starting at 2026/07/13 21:20 and is scheduled each next 1 hours.
+[13/07 18:56:10] [Four Sepulchers] Loaded 762 spawn zones data.
+[13/07 18:56:10] Seed of Destruction: Loaded 51 spawn zones data.
+[13/07 18:56:10] GrandBossManager: Updated Lindvior(29240) status to 0.
+[13/07 18:56:10] GrandBossManager: Updated Helios(29305) status to 0.
+[13/07 18:56:10] Event Birth of Draco has passed... Ignored
+[13/07 18:56:10] Event Red Libra has passed... Ignored
+[13/07 18:56:10] Event Love Your Gatekeeper has passed... Ignored
+[13/07 18:56:10] Event Lovers Jubilee has passed... Ignored
+[13/07 18:56:10] Event Hungry Horse has passed... Ignored
+[13/07 18:56:10] Event Freya Celebration has passed... Ignored
+[13/07 18:56:10] Event Letter Collector has passed... Ignored
+[13/07 18:56:10] Event Dandy's Dragon Weapons has passed... Ignored
+[13/07 18:56:10] Event Rudolphs Blessing has passed... Ignored
+[13/07 18:56:10] Event The Power Of Love has passed... Ignored
+[13/07 18:56:10] Event Hunt for Santa has passed... Ignored
+[13/07 18:56:10] Event Heavy Medal has passed... Ignored
+[13/07 18:56:10] Event Gift of Vitality has passed... Ignored
+[13/07 18:56:10] Event Saving Santa has passed... Ignored
+[13/07 18:56:10] Event Eve the Fortune Teller has passed... Ignored
+[13/07 18:56:10] Event Master of Enchanting has passed... Ignored
+[13/07 18:56:10] Event Halloween has passed... Ignored
+[13/07 18:56:10] Event Happy Hours has passed... Ignored
+[13/07 18:56:10] SpawnData: Initializing spawns...
+[13/07 18:56:11] DatabaseSpawnManager: Loaded 251 instances.
+[13/07 18:56:11] DatabaseSpawnManager: Scheduled 0 instances.
+[13/07 18:56:14] SpawnData: All spawns has been initialized!
+[13/07 18:56:14] ---------------------------------------------------=[ Siege ]
+[13/07 18:56:14] SiegeScheduleData: Loaded 9 siege schedulers.
+[13/07 18:56:14] Siege of Gludio: Sun Jul 26 16:00:00 UTC 2026
+[13/07 18:56:14] Siege of Dion: Sun Jul 26 20:00:00 UTC 2026
+[13/07 18:56:14] Siege of Giran: Sun Jul 26 16:00:00 UTC 2026
+[13/07 18:56:14] Siege of Oren: Sun Jul 26 20:00:00 UTC 2026
+[13/07 18:56:14] Siege of Aden: Sun Jul 26 16:00:00 UTC 2026
+[13/07 18:56:14] Siege of Innadril: Sun Jul 26 20:00:00 UTC 2026
+[13/07 18:56:14] Siege of Goddard: Sun Jul 26 16:00:00 UTC 2026
+[13/07 18:56:14] Siege of Rune: Sun Jul 26 20:00:00 UTC 2026
+[13/07 18:56:14] Siege of Schuttgart: Sun Jul 26 16:00:00 UTC 2026
+[13/07 18:56:14] FortManager: Loaded 20 fortress.
+[13/07 18:56:14] CastleManorManager: Loaded 258 seeds.
+[13/07 18:56:14] CastleManorManager: Manor data loaded.
+[13/07 18:56:14] SiegeGuardManager: Loaded 0 siege guards tickets.
+[13/07 18:56:14] ScriptManager: Loaded 529 quests.
+[13/07 18:56:14] ScriptManager: Loaded 414 scripts.
+[13/07 18:56:14] KrateisCubeManager: Loaded 3 arena templates.
+[13/07 18:56:14] UndergroundColiseumManager: Loaded 5 coliseum arenas.
+[13/07 18:56:14] UndergroundColiseumManager: Starts at 17/07/2026 21:00:00
+[13/07 18:56:14] DailyResetManager: Daily task will run now.
+[13/07 18:56:14] Starting reset of daily tasks...
+[13/07 18:56:14] Daily vitality added successfully.
+[13/07 18:56:14] Daily clan bonuses have been reset.
+[13/07 18:56:14] Daily skill reuse cleaned.
+[13/07 18:56:14] Daily item reuse cleaned.
+[13/07 18:56:14] Daily world chat points have been reset.
+[13/07 18:56:14] PrimeShopData have been reset.
+[13/07 18:56:14] Training Camp durations have been reset.
+[13/07 18:56:14] Attendance Rewards have been reset.
+[13/07 18:56:14] CharacterBirthday 0 gifts sent. [12/07/2026] - [13/07/2026]
+[13/07 18:56:14] Daily tasks reset completed.
+[13/07 18:56:14] MailManager: Loaded 0 messages.
+[13/07 18:56:14] PunishmentManager: Loaded 0 active and 0 expired punishments.
+[13/07 18:56:14] IdManager: Free ObjectID's remaining: 1878993508
+[13/07 18:56:14] OfflineTraderTable: Loading offline traders...
+[13/07 18:56:14] OfflineTraderTable: Loaded 0 offline traders.
+[13/07 18:56:14] DeadlockWatcher: Thread started.
+[13/07 18:56:20] GameServer: Started, using 2224 of 8192 MB total memory.
+[13/07 18:56:20] GameServer: Maximum number of connected players is 2000.
+[13/07 18:56:20] GameServer: Server loaded in 39 seconds.
+[13/07 18:56:20] LoginServerThread: Connecting to login on 127.0.0.1:9014
+[13/07 18:56:20] LoginServerThread: Registered on login as Server 1: Bartz
+[13/07 18:56:41] Master access level set for character dada! Just a warning to be careful ;)
+[13/07 18:56:47] HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
+[13/07 18:56:47] HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
+[13/07 18:56:49] HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
+[13/07 18:56:49] HTML encoding check: File data/html/CommunityBoard/Custom/merchant/level.html contains non ASCII content.
+[13/07 18:56:59] HTML encoding check: File data/html/CommunityBoard/Custom/merchant/enchant.html contains non ASCII content.
+[13/07 18:57:09] HTML encoding check: File data/html/CommunityBoard/Custom/merchant/armor.html contains non ASCII content.
+[13/07 19:03:43] HTML encoding check: File data/html/CommunityBoard/Custom/merchant/dyes.html contains non ASCII content.
+[13/07 19:03:55] HTML encoding check: File data/html/CommunityBoard/Custom/merchant/grocery.html contains non ASCII content.
+[13/07 19:04:28] HTML encoding check: File data/html/CommunityBoard/Custom/merchant/craft.html contains non ASCII content.
+[13/07 19:04:52] HTML encoding check: File data/html/CommunityBoard/Custom/merchant/books.html contains non ASCII content.
+[13/07 19:05:04] HTML encoding check: File data/html/CommunityBoard/Custom/merchant/jewelry.html contains non ASCII content.
+[13/07 19:05:44] HTML encoding check: File data/html/CommunityBoard/Custom/merchant/accessory.html contains non ASCII content.
+root@denyyzyy:~/lineage2# cd ~/lineage2
+grep -niE "PathFinding|GeoData|GeoEngine|PathnodePath|CellPathFinding|CorrectBoat" server/game/config/*.ini
+server/game/config/General.ini:282:# Grid options: Grids can turn themselves on and off.  This also affects the loading and processing of all AI tasks and (in the future) geodata within this grid.
+server/game/config/GeoEngine.ini:2:#                             Geodata
+server/game/config/GeoEngine.ini:5:# Pathfinding options:
+server/game/config/GeoEngine.ini:8:# 2 = Enabled using geodata cells at runtime (recommended).
+server/game/config/GeoEngine.ini:10:# ВАЖНО: значение 2 требует наличия файлов геодаты в ./data/geodata/ (*.l2j).
+server/game/config/GeoEngine.ini:14:PathFinding = 0
+server/game/config/GeoEngine.ini:16:# Geodata file directory.
+server/game/config/GeoEngine.ini:17:GeoDataPath = ./data/geodata/
+server/game/config/GeoEngine.ini:21:PathnodePath = ./data/pathnode/
+server/game/config/GeoEngine.ini:23:# Geodata editor save directory.
+server/game/config/GeoEngine.ini:24:# Can set to ./data/geodata/ to replace existing files on save.
+server/game/config/GeoEngine.ini:27:# Pathfinding array buffers configuration.
 root@denyyzyy:~/lineage2#
