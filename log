@@ -1,29 +1,9 @@
-  (use "git pull" to update your local branch)
-root@denyyzyy:~/lineage2# git branch --show-current
-main
-root@denyyzyy:~/lineage2# tail -n 60 log/java0.log.0 2>/dev/null
-tail -n 60 server/game/log/*.log 2>/dev/null
+root@denyyzyy:~/lineage2#
+root@denyyzyy:~/lineage2# mysql -u root -p0672602260 -e "SHOW DATABASES;" | grep l2jmobius
+mysql: [Warning] Using a password on the command line interface can be insecure.
+l2jmobius
+root@denyyzyy:~/lineage2# tail -n 40 server/game/log/*stdout*.log
 ==> server/game/log/2026-07-12_13-46-49_stdout.log <==
-[12/07 13:36:21] Siege of Innadril: Sun Jul 12 20:00:00 UTC 2026
-[12/07 13:36:21] Siege of Goddard: Sun Jul 12 16:00:00 UTC 2026
-[12/07 13:36:21] Siege of Rune: Sun Jul 12 20:00:00 UTC 2026
-[12/07 13:36:21] Siege of Schuttgart: Sun Jul 12 16:00:00 UTC 2026
-[12/07 13:36:21] FortManager: Loaded 20 fortress.
-[12/07 13:36:22] CastleManorManager: Loaded 258 seeds.
-[12/07 13:36:22] CastleManorManager: Manor data loaded.
-[12/07 13:36:22] SiegeGuardManager: Loaded 0 siege guards tickets.
-[12/07 13:36:22] ScriptManager: Loaded 529 quests.
-[12/07 13:36:22] ScriptManager: Loaded 414 scripts.
-[12/07 13:36:22] KrateisCubeManager: Loaded 3 arena templates.
-[12/07 13:36:22] UndergroundColiseumManager: Loaded 5 coliseum arenas.
-[12/07 13:36:22] UndergroundColiseumManager: Starts at 17/07/2026 21:00:00
-[12/07 13:36:22] DailyResetManager: Daily task will run now.
-[12/07 13:36:22] Starting reset of daily tasks...
-[12/07 13:36:22] Daily vitality added successfully.
-[12/07 13:36:22] Daily clan bonuses have been reset.
-[12/07 13:36:22] Daily skill reuse cleaned.
-[12/07 13:36:22] Daily item reuse cleaned.
-[12/07 13:36:22] Daily world chat points have been reset.
 [12/07 13:36:22] PrimeShopData have been reset.
 [12/07 13:36:22] Training Camp durations have been reset.
 [12/07 13:36:22] Attendance Rewards have been reset.
@@ -66,26 +46,6 @@ tail -n 60 server/game/log/*.log 2>/dev/null
 [12/07 13:46:46] The server has been successfully shut down in 5seconds.
 
 ==> server/game/log/2026-07-12_14-31-11_stdout.log <==
-[12/07 13:47:27] LoginServerThread: Registered on login as Server 1: Bartz
-[12/07 13:52:35] HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
-[12/07 13:52:35] HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
-[12/07 13:52:42] HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
-[12/07 13:52:45] HTML encoding check: File data/html/CommunityBoard/Custom/merchant/weapons.html contains non ASCII content.
-[12/07 13:53:25] HTML encoding check: File data/html/CommunityBoard/Custom/merchant/accessory.html contains non ASCII content.
-[12/07 13:53:28] MultisellData: Player:dada[268490214] attempted to open multisell 600034 from npc null which is not allowed!
-[12/07 13:53:29] MultisellData: Player:dada[268490214] attempted to open multisell 600034 from npc null which is not allowed!
-[12/07 13:53:30] MultisellData: Player:dada[268490214] attempted to open multisell 600034 from npc null which is not allowed!
-[12/07 13:53:30] MultisellData: Player:dada[268490214] attempted to open multisell 600034 from npc null which is not allowed!
-[12/07 13:53:35] MultisellData: Player:dada[268490214] attempted to open multisell 600034 from npc null which is not allowed!
-[12/07 13:53:35] MultisellData: Player:dada[268490214] attempted to open multisell 600034 from npc null which is not allowed!
-[12/07 13:53:35] MultisellData: Player:dada[268490214] attempted to open multisell 600034 from npc null which is not allowed!
-[12/07 13:54:09] HTML encoding check: File data/html/CommunityBoard/Custom/merchant/jewelry.html contains non ASCII content.
-[12/07 13:54:11] MultisellData: Player:dada[268490214] attempted to open multisell 600031 from npc null which is not allowed!
-[12/07 13:54:12] MultisellData: Player:dada[268490214] attempted to open multisell 600031 from npc null which is not allowed!
-[12/07 13:54:12] MultisellData: Player:dada[268490214] attempted to open multisell 600031 from npc null which is not allowed!
-[12/07 13:54:13] MultisellData: Player:dada[268490214] attempted to open multisell 600031 from npc null which is not allowed!
-[12/07 13:54:13] MultisellData: Player:dada[268490214] attempted to open multisell 600031 from npc null which is not allowed!
-[12/07 13:54:22] MultisellData: Player:dada[268490214] attempted to open multisell 600031 from npc null which is not allowed!
 [12/07 13:54:23] MultisellData: Player:dada[268490214] attempted to open multisell 600031 from npc null which is not allowed!
 [12/07 13:54:24] MultisellData: Player:dada[268490214] attempted to open multisell 600031 from npc null which is not allowed!
 [12/07 13:54:26] MultisellData: Player:dada[268490214] attempted to open multisell 600031 from npc null which is not allowed!
@@ -128,26 +88,6 @@ tail -n 60 server/game/log/*.log 2>/dev/null
 [12/07 14:30:57] The server has been successfully shut down in 5seconds.
 
 ==> server/game/log/2026-07-12_14-39-56_stdout.log <==
-[12/07 14:31:46] Siege of Innadril: Sun Jul 12 20:00:00 UTC 2026
-[12/07 14:31:46] Siege of Goddard: Sun Jul 12 16:00:00 UTC 2026
-[12/07 14:31:46] Siege of Rune: Sun Jul 12 20:00:00 UTC 2026
-[12/07 14:31:46] Siege of Schuttgart: Sun Jul 12 16:00:00 UTC 2026
-[12/07 14:31:46] FortManager: Loaded 20 fortress.
-[12/07 14:31:46] CastleManorManager: Loaded 258 seeds.
-[12/07 14:31:46] CastleManorManager: Manor data loaded.
-[12/07 14:31:46] SiegeGuardManager: Loaded 0 siege guards tickets.
-[12/07 14:31:46] ScriptManager: Loaded 529 quests.
-[12/07 14:31:46] ScriptManager: Loaded 414 scripts.
-[12/07 14:31:46] KrateisCubeManager: Loaded 3 arena templates.
-[12/07 14:31:46] UndergroundColiseumManager: Loaded 5 coliseum arenas.
-[12/07 14:31:46] UndergroundColiseumManager: Starts at 17/07/2026 21:00:00
-[12/07 14:31:46] DailyResetManager: Next schedule at 13/07/2026 06:30:00.
-[12/07 14:31:46] MailManager: Loaded 0 messages.
-[12/07 14:31:46] PunishmentManager: Loaded 0 active and 0 expired punishments.
-[12/07 14:31:46] IdManager: Free ObjectID's remaining: 1878993554
-[12/07 14:31:46] OfflineTraderTable: Loading offline traders...
-[12/07 14:31:46] OfflineTraderTable: Loaded 0 offline traders.
-[12/07 14:31:46] DeadlockWatcher: Thread started.
 [12/07 14:31:53] GameServer: Started, using 2222 of 4096 MB total memory.
 [12/07 14:31:53] GameServer: Maximum number of connected players is 2000.
 [12/07 14:31:53] GameServer: Server loaded in 41 seconds.
@@ -190,26 +130,6 @@ tail -n 60 server/game/log/*.log 2>/dev/null
 [12/07 14:39:49] The server has been successfully shut down in 5seconds.
 
 ==> server/game/log/2026-07-12_15-31-59_stdout.log <==
-[12/07 14:42:53] MultisellData: Player:dada[268490214] attempted to open multisell 600030 from npc null which is not allowed!
-[12/07 14:46:20] Master access level set for character dada! Just a warning to be careful ;)
-[12/07 15:01:44] Exception during execution of admin_grandboss 29325
-java.lang.NullPointerException: Cannot invoke "org.l2jmobius.gameserver.model.StatSet.getLong(String)" because "info" is null
-        at handlers.chat.commands.admin.AdminGrandBoss.manageHtml(AdminGrandBoss.java:400)
-        at handlers.chat.commands.admin.AdminGrandBoss.onCommand(AdminGrandBoss.java:103)
-        at org.l2jmobius.gameserver.handler.AdminCommandHandler.lambda$onCommand$0(AdminCommandHandler.java:129)
-        at org.l2jmobius.commons.threads.ThreadPool$RunnableWrapper.run(ThreadPool.java:289)
-        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-        at java.base/java.lang.Thread.run(Thread.java:1474)
-
-[12/07 15:01:45] Exception during execution of admin_grandboss 29325
-java.lang.NullPointerException: Cannot invoke "org.l2jmobius.gameserver.model.StatSet.getLong(String)" because "info" is null
-        at handlers.chat.commands.admin.AdminGrandBoss.manageHtml(AdminGrandBoss.java:400)
-        at handlers.chat.commands.admin.AdminGrandBoss.onCommand(AdminGrandBoss.java:103)
-        at org.l2jmobius.gameserver.handler.AdminCommandHandler.lambda$onCommand$0(AdminCommandHandler.java:129)
-        at org.l2jmobius.commons.threads.ThreadPool$RunnableWrapper.run(ThreadPool.java:289)
-        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
         at java.base/java.lang.Thread.run(Thread.java:1474)
 
 [12/07 15:01:46] Exception during execution of admin_grandboss 29325
@@ -252,26 +172,6 @@ java.lang.NullPointerException: Cannot invoke "org.l2jmobius.gameserver.model.St
 [12/07 15:31:57] The server has been successfully shut down in 5seconds.
 
 ==> server/game/log/2026-07-12_18-09-28_stdout.log <==
-[12/07 15:32:40] CastleManorManager: Manor data loaded.
-[12/07 15:32:40] SiegeGuardManager: Loaded 0 siege guards tickets.
-[12/07 15:32:40] ScriptManager: Loaded 529 quests.
-[12/07 15:32:40] ScriptManager: Loaded 414 scripts.
-[12/07 15:32:40] KrateisCubeManager: Loaded 3 arena templates.
-[12/07 15:32:40] UndergroundColiseumManager: Loaded 5 coliseum arenas.
-[12/07 15:32:40] UndergroundColiseumManager: Starts at 17/07/2026 21:00:00
-[12/07 15:32:40] DailyResetManager: Next schedule at 13/07/2026 06:30:00.
-[12/07 15:32:40] MailManager: Loaded 0 messages.
-[12/07 15:32:40] PunishmentManager: Loaded 0 active and 0 expired punishments.
-[12/07 15:32:40] IdManager: Free ObjectID's remaining: 1878993532
-[12/07 15:32:40] OfflineTraderTable: Loading offline traders...
-[12/07 15:32:40] OfflineTraderTable: Loaded 0 offline traders.
-[12/07 15:32:40] DeadlockWatcher: Thread started.
-[12/07 15:32:47] GameServer: Started, using 2214 of 4096 MB total memory.
-[12/07 15:32:47] GameServer: Maximum number of connected players is 2000.
-[12/07 15:32:47] GameServer: Server loaded in 47 seconds.
-[12/07 15:32:47] LoginServerThread: Connecting to login on 127.0.0.1:9014
-[12/07 15:32:47] LoginServerThread: Registered on login as Server 1: Bartz
-[12/07 15:33:19] Master access level set for character dada! Just a warning to be careful ;)
 [12/07 15:33:31] HTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
 [12/07 15:33:31] HTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
 [12/07 15:33:33] HTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
@@ -314,26 +214,6 @@ java.lang.NullPointerException: Cannot invoke "org.l2jmobius.gameserver.model.St
 [12/07 18:09:25] The server has been successfully shut down in 5seconds.
 
 ==> server/game/log/2026-07-13_17-47-02_stdout.log <==
-[13/07 06:30:00] Daily tasks reset completed.
-[13/07 06:40:12] GlobalVariablesManager: Stored 11 variables.
-[L2JMobiusPool:housekeeper] WARN com.zaxxer.hikari.pool.PoolBase - L2JMobiusPool - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5c899715 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
-[L2JMobiusPool:housekeeper] WARN com.zaxxer.hikari.pool.PoolBase - L2JMobiusPool - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5e755964 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
-[L2JMobiusPool:housekeeper] WARN com.zaxxer.hikari.pool.PoolBase - L2JMobiusPool - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@96f549a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
-[L2JMobiusPool:housekeeper] WARN com.zaxxer.hikari.pool.PoolBase - L2JMobiusPool - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@132f6c61 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
-[L2JMobiusPool:housekeeper] WARN com.zaxxer.hikari.pool.PoolBase - L2JMobiusPool - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4412299a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
-[L2JMobiusPool:housekeeper] WARN com.zaxxer.hikari.pool.PoolBase - L2JMobiusPool - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6625f6fa (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
-[L2JMobiusPool:housekeeper] WARN com.zaxxer.hikari.pool.PoolBase - L2JMobiusPool - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2e8bba7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
-[L2JMobiusPool:housekeeper] WARN com.zaxxer.hikari.pool.PoolBase - L2JMobiusPool - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@57631c99 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
-[L2JMobiusPool:housekeeper] WARN com.zaxxer.hikari.pool.PoolBase - L2JMobiusPool - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1ec0f7d2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
-[L2JMobiusPool:housekeeper] WARN com.zaxxer.hikari.pool.PoolBase - L2JMobiusPool - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@16fa1a55 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
-[13/07 07:10:12] GlobalVariablesManager: Stored 11 variables.
-[13/07 07:40:12] GlobalVariablesManager: Stored 11 variables.
-[13/07 08:10:12] GlobalVariablesManager: Stored 11 variables.
-[13/07 08:40:12] GlobalVariablesManager: Stored 11 variables.
-[13/07 09:00:00] IdManager: Increased BitSet capacity to 122347
-[13/07 09:10:12] GlobalVariablesManager: Stored 11 variables.
-[13/07 09:40:12] GlobalVariablesManager: Stored 11 variables.
-[13/07 10:10:12] GlobalVariablesManager: Stored 11 variables.
 [13/07 10:40:12] GlobalVariablesManager: Stored 11 variables.
 [13/07 11:10:12] GlobalVariablesManager: Stored 11 variables.
 [13/07 11:40:12] GlobalVariablesManager: Stored 11 variables.
@@ -376,26 +256,6 @@ java.lang.NullPointerException: Cannot invoke "org.l2jmobius.gameserver.model.St
 [13/07 17:50:42] The server has been successfully shut down in 5seconds.
 
 ==> server/game/log/2026-07-13_17-52-54_stdout.log <==
-Caused by: com.mysql.cj.exceptions.CJException: Access denied for user 'root'@'localhost'
-        at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-        at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-        at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
-        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
-        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
-        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:118)
-        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:854)
-        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:777)
-        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:746)
-        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:147)
-        at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:461)
-        at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:206)
-        at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1332)
-        at com.mysql.cj.NativeSession.connect(NativeSession.java:155)
-        at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:854)
-        ... 14 more
-
-[13/07 17:50:03] DatabaseIdManager: Could not execute cleanup query: DELETE FROM character_contacts WHERE character_contacts.charId NOT IN (SELECT charId FROM characters) - java.lang.RuntimeException: Unable to obtain a database connection.
 [L2JMobiusPool:connection-adder] WARN com.zaxxer.hikari.pool.PoolBase - L2JMobiusPool - Pool is empty, failed to create/setup connection (3a050474-474c-43c7-8d29-98de2e38d2a1)
 java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
         at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:102)
@@ -438,26 +298,6 @@ Caused by: com.mysql.cj.exceptions.CJException: Access denied for user 'root'@'l
         ... 14 more
 
 ==> server/game/log/2026-07-13_17-57-28_stdout.log <==
-Caused by: com.mysql.cj.exceptions.CJException: Access denied for user 'root'@'localhost'
-        at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-        at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-        at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
-        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
-        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
-        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:118)
-        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:854)
-        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:777)
-        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:746)
-        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:147)
-        at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:461)
-        at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:206)
-        at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1332)
-        at com.mysql.cj.NativeSession.connect(NativeSession.java:155)
-        at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:854)
-        ... 14 more
-
-[13/07 17:55:55] DatabaseIdManager: Could not execute cleanup query: DELETE FROM character_contacts WHERE character_contacts.charId NOT IN (SELECT charId FROM characters) - java.lang.RuntimeException: Unable to obtain a database connection.
 [L2JMobiusPool:connection-adder] WARN com.zaxxer.hikari.pool.PoolBase - L2JMobiusPool - Pool is empty, failed to create/setup connection (58df45c0-752a-4953-8716-e53bd47880f8)
 java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
         at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:102)
@@ -499,54 +339,7 @@ Caused by: com.mysql.cj.exceptions.CJException: Access denied for user 'root'@'l
         at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:854)
         ... 14 more
 
-==> server/game/log/accounting0.log <==
-[12 Jul 13:50:16] Logged out, Player:dada[268490214]
-[12 Jul 13:50:16] Created new character, Player:dada[268490214], [Account: durka111 - IP: 85.167.219.197]
-[12 Jul 13:50:18] Logged in, [Character: dada[268490214] - Account: durka111 - IP: 85.167.219.197]
-[12 Jul 13:51:19] Logged out, Player:dada[268490214]
-[12 Jul 13:52:09] Logged in, [Character: dada[268490214] - Account: durka111 - IP: 85.167.219.197]
-[12 Jul 13:57:49] Logged out, Player:dada[268490214]
-[12 Jul 13:59:53] Logged in, [Character: dada[268490214] - Account: durka111 - IP: 85.167.219.197]
-[12 Jul 14:25:40] Logged out, Player:dada[268490214]
-[12 Jul 14:37:35] Logged in, [Character: dada[268490214] - Account: durka111 - IP: 85.167.219.197]
-[12 Jul 14:38:56] Logged out, Player:dada[268490214]
-[12 Jul 14:38:58] Logged in, [Character: dada[268490214] - Account: durka111 - IP: 85.167.219.197]
-[12 Jul 14:39:44] Logged out, Player:dada[268490214]
-[12 Jul 14:41:08] Logged in, [Character: dada[268490214] - Account: durka111 - IP: 85.167.219.197]
-[12 Jul 14:46:18] Logged out, Player:dada[268490214]
-[12 Jul 14:46:20] Logged in, [Character: dada[268490214] - Account: durka111 - IP: 85.167.219.197]
-[12 Jul 15:07:51] Logged out, Player:dada[268490214]
-[12 Jul 15:07:53] Logged in, [Character: dada[268490214] - Account: durka111 - IP: 85.167.219.197]
-[12 Jul 15:09:35] Logged out, Player:dada[268490214]
-[12 Jul 15:33:19] Logged in, [Character: dada[268490214] - Account: durka111 - IP: 85.167.219.197]
-[12 Jul 15:39:25] Logged out, Player:dada[268490214]
-[12 Jul 18:16:22] Logged in, [Character: dada[268490214] - Account: durka111 - IP: 85.167.219.197]
-[12 Jul 18:19:38] Logged out, Player:dada[268490214]
-[13 Jul 17:49:20] Logged in, [Character: dada[268490214] - Account: durka111 - IP: 85.167.219.197]
-[13 Jul 17:50:36] Logged out, Player:dada[268490214]
-
-==> server/game/log/error0.log <==
-        at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:206)
-        at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1332)
-        at com.mysql.cj.NativeSession.connect(NativeSession.java:155)
-        at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:854)
-        ... 14 more
-
-Jul 13, 2026 6:00:29 PM org.l2jmobius.commons.database.DatabaseFactory getConnection
-SEVERE: Database: Could not get a connection.
-java.sql.SQLTransientConnectionException: L2JMobiusPool - Connection is not available, request timed out after 60000ms (total=0, active=0, idle=0, waiting=0)
-        at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:714)
-        at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:184)
-        at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:142)
-        at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:99)
-        at org.l2jmobius.commons.database.DatabaseFactory.getConnection(DatabaseFactory.java:263)
-        at org.l2jmobius.gameserver.managers.DatabaseIdManager.cleanDatabase(DatabaseIdManager.java:162)
-        at org.l2jmobius.gameserver.managers.IdManager.<init>(IdManager.java:49)
-        at org.l2jmobius.gameserver.managers.IdManager$SingletonHolder.<clinit>(IdManager.java:203)
-        at org.l2jmobius.gameserver.managers.IdManager.getInstance(IdManager.java:198)
-        at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:228)
-        at org.l2jmobius.gameserver.GameServer.main(GameServer.java:535)
-Caused by: java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+==> server/game/log/2026-07-13_18-04-53_stdout.log <==
         at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:102)
         at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
         at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:81)
@@ -586,29 +379,11 @@ Caused by: com.mysql.cj.exceptions.CJException: Access denied for user 'root'@'l
         at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:854)
         ... 14 more
 
+[13/07 18:03:29] DatabaseIdManager: Could not execute cleanup query: DELETE FROM character_friends WHERE character_friends.friendId NOT IN (SELECT charId FROM characters) - java.lang.RuntimeException: Unable to obtain a database connection.
 
-==> server/game/log/error1.log <==
-        at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:206)
-        at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1332)
-        at com.mysql.cj.NativeSession.connect(NativeSession.java:155)
-        at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:854)
-        ... 14 more
-
-Jul 13, 2026 5:55:55 PM org.l2jmobius.commons.database.DatabaseFactory getConnection
-SEVERE: Database: Could not get a connection.
-java.sql.SQLTransientConnectionException: L2JMobiusPool - Connection is not available, request timed out after 60000ms (total=0, active=0, idle=0, waiting=0)
-        at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:714)
-        at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:184)
-        at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:142)
-        at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:99)
-        at org.l2jmobius.commons.database.DatabaseFactory.getConnection(DatabaseFactory.java:263)
-        at org.l2jmobius.gameserver.managers.DatabaseIdManager.cleanDatabase(DatabaseIdManager.java:162)
-        at org.l2jmobius.gameserver.managers.IdManager.<init>(IdManager.java:49)
-        at org.l2jmobius.gameserver.managers.IdManager$SingletonHolder.<clinit>(IdManager.java:203)
-        at org.l2jmobius.gameserver.managers.IdManager.getInstance(IdManager.java:198)
-        at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:228)
-        at org.l2jmobius.gameserver.GameServer.main(GameServer.java:535)
-Caused by: java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+==> server/game/log/2026-07-13_18-14-50_stdout.log <==
+[L2JMobiusPool:connection-adder] WARN com.zaxxer.hikari.pool.PoolBase - L2JMobiusPool - Pool is empty, failed to create/setup connection (5dacf18c-8c13-4119-a538-6cd1b834414d)
+java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
         at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:102)
         at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
         at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:81)
@@ -648,487 +423,49 @@ Caused by: com.mysql.cj.exceptions.CJException: Access denied for user 'root'@'l
         at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:854)
         ... 14 more
 
-
-==> server/game/log/error2.log <==
-
-==> server/game/log/error3.log <==
-
-==> server/game/log/error4.log <==
-Jul 12, 2026 3:01:44 PM org.l2jmobius.gameserver.handler.AdminCommandHandler lambda$onCommand$0
-WARNING: Exception during execution of admin_grandboss 29325
-java.lang.NullPointerException: Cannot invoke "org.l2jmobius.gameserver.model.StatSet.getLong(String)" because "info" is null
-        at handlers.chat.commands.admin.AdminGrandBoss.manageHtml(AdminGrandBoss.java:400)
-        at handlers.chat.commands.admin.AdminGrandBoss.onCommand(AdminGrandBoss.java:103)
-        at org.l2jmobius.gameserver.handler.AdminCommandHandler.lambda$onCommand$0(AdminCommandHandler.java:129)
-        at org.l2jmobius.commons.threads.ThreadPool$RunnableWrapper.run(ThreadPool.java:289)
+==> server/game/log/2026-07-13_18-25-13_stdout.log <==
+        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:102)
+        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:81)
+        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:55)
+        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:65)
+        at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:914)
+        at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
+        at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:416)
+        at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+        at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+        at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144)
+        at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373)
+        at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210)
+        at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488)
+        at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:752)
+        at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:731)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
         at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
         at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
         at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: com.mysql.cj.exceptions.CJException: Access denied for user 'root'@'localhost'
+        at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+        at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+        at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:118)
+        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:854)
+        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:777)
+        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:746)
+        at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:147)
+        at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:461)
+        at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:206)
+        at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1332)
+        at com.mysql.cj.NativeSession.connect(NativeSession.java:155)
+        at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:854)
+        ... 14 more
 
-Jul 12, 2026 3:01:45 PM org.l2jmobius.gameserver.handler.AdminCommandHandler lambda$onCommand$0
-WARNING: Exception during execution of admin_grandboss 29325
-java.lang.NullPointerException: Cannot invoke "org.l2jmobius.gameserver.model.StatSet.getLong(String)" because "info" is null
-        at handlers.chat.commands.admin.AdminGrandBoss.manageHtml(AdminGrandBoss.java:400)
-        at handlers.chat.commands.admin.AdminGrandBoss.onCommand(AdminGrandBoss.java:103)
-        at org.l2jmobius.gameserver.handler.AdminCommandHandler.lambda$onCommand$0(AdminCommandHandler.java:129)
-        at org.l2jmobius.commons.threads.ThreadPool$RunnableWrapper.run(ThreadPool.java:289)
-        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-        at java.base/java.lang.Thread.run(Thread.java:1474)
-
-Jul 12, 2026 3:01:46 PM org.l2jmobius.gameserver.handler.AdminCommandHandler lambda$onCommand$0
-WARNING: Exception during execution of admin_grandboss 29325
-java.lang.NullPointerException: Cannot invoke "org.l2jmobius.gameserver.model.StatSet.getLong(String)" because "info" is null
-        at handlers.chat.commands.admin.AdminGrandBoss.manageHtml(AdminGrandBoss.java:400)
-        at handlers.chat.commands.admin.AdminGrandBoss.onCommand(AdminGrandBoss.java:103)
-        at org.l2jmobius.gameserver.handler.AdminCommandHandler.lambda$onCommand$0(AdminCommandHandler.java:129)
-        at org.l2jmobius.commons.threads.ThreadPool$RunnableWrapper.run(ThreadPool.java:289)
-        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-        at java.base/java.lang.Thread.run(Thread.java:1474)
-
-
-==> server/game/log/error5.log <==
-
-==> server/game/log/error6.log <==
-
-==> server/game/log/error7.log <==
-
-==> server/game/log/item0.log <==
-
-==> server/game/log/java0.log <==
-2026.07.13 17:57:29,230 INFO    3       org.l2jmobius.commons.util.IXmlReader  Network Config: ipconfig.xml does not exist, using automatic configuration...
-2026.07.13 17:57:29,395 INFO    3       org.l2jmobius.commons.util.IXmlReader  Network Config: Adding new subnet: 172.16.0.0/24 address: 172.16.0.4
-2026.07.13 17:57:29,396 INFO    3       org.l2jmobius.commons.util.IXmlReader  Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
-2026.07.13 17:57:29,396 INFO    3       org.l2jmobius.commons.util.IXmlReader  Network Config: Adding new subnet: 0.0.0.0/0 address: 74.248.38.44
-2026.07.13 17:57:29,400 INFO    3       org.l2jmobius.gameserver.config.ServerConfig    Loaded 6 Filter Words.
-2026.07.13 17:57:29,448 INFO    3       org.l2jmobius.gameserver.GameServer    ------------------------------------------------=[ Database ]
-2026.07.13 17:57:29,613 INFO    3       org.l2jmobius.commons.database.DatabaseFactory  Database: HikariCP pool initialized successfully.
-2026.07.13 17:58:29,616 SEVERE  3       org.l2jmobius.commons.database.DatabaseFactory  Database: Problem initializing connection pool.
-2026.07.13 17:58:29,626 INFO    3       org.l2jmobius.gameserver.GameServer    ----------------------------------------------=[ ThreadPool ]
-2026.07.13 17:58:29,626 INFO    3       org.l2jmobius.commons.threads.ThreadPoolThreadPool: Initializing.
-2026.07.13 17:58:29,627 INFO    3       org.l2jmobius.commons.threads.ThreadPool...scheduled pool executor with 4 high priority threads.
-2026.07.13 17:58:29,631 INFO    3       org.l2jmobius.commons.threads.ThreadPool...scheduled pool executor with 16 total threads.
-2026.07.13 17:58:29,632 INFO    3       org.l2jmobius.commons.threads.ThreadPool...instant pool executor with 8 total threads.
-2026.07.13 17:58:29,632 INFO    3       org.l2jmobius.gameserver.GameServer    -----------------------------------------------=[ IdManager ]
-2026.07.13 17:59:29,634 SEVERE  3       org.l2jmobius.commons.database.DatabaseFactory  Database: Could not get a connection.
-2026.07.13 17:59:29,636 WARNING 3       org.l2jmobius.gameserver.managers.DatabaseIdManager     DatabaseIdManager: Could not execute cleanup query: DELETE FROM account_gsdata WHERE account_gsdata.account_name NOT IN (SELECT account_name FROM characters) - java.lang.RuntimeException: Unable to obtain a database connection.
-2026.07.13 18:00:29,636 SEVERE  3       org.l2jmobius.commons.database.DatabaseFactory  Database: Could not get a connection.
-2026.07.13 18:00:29,637 WARNING 3       org.l2jmobius.gameserver.managers.DatabaseIdManager     DatabaseIdManager: Could not execute cleanup query: DELETE FROM character_contacts WHERE character_contacts.charId NOT IN (SELECT charId FROM characters) - java.lang.RuntimeException: Unable to obtain a database connection.
-
-==> server/game/log/java1.log <==
-2026.07.13 17:52:54,857 INFO    3       org.l2jmobius.commons.util.IXmlReader  Network Config: ipconfig.xml does not exist, using automatic configuration...
-2026.07.13 17:52:55,135 INFO    3       org.l2jmobius.commons.util.IXmlReader  Network Config: Adding new subnet: 172.16.0.0/24 address: 172.16.0.4
-2026.07.13 17:52:55,136 INFO    3       org.l2jmobius.commons.util.IXmlReader  Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
-2026.07.13 17:52:55,136 INFO    3       org.l2jmobius.commons.util.IXmlReader  Network Config: Adding new subnet: 0.0.0.0/0 address: 74.248.38.44
-2026.07.13 17:52:55,139 INFO    3       org.l2jmobius.gameserver.config.ServerConfig    Loaded 6 Filter Words.
-2026.07.13 17:52:55,181 INFO    3       org.l2jmobius.gameserver.GameServer    ------------------------------------------------=[ Database ]
-2026.07.13 17:52:55,341 INFO    3       org.l2jmobius.commons.database.DatabaseFactory  Database: HikariCP pool initialized successfully.
-2026.07.13 17:53:55,345 SEVERE  3       org.l2jmobius.commons.database.DatabaseFactory  Database: Problem initializing connection pool.
-2026.07.13 17:53:55,354 INFO    3       org.l2jmobius.gameserver.GameServer    ----------------------------------------------=[ ThreadPool ]
-2026.07.13 17:53:55,354 INFO    3       org.l2jmobius.commons.threads.ThreadPoolThreadPool: Initializing.
-2026.07.13 17:53:55,355 INFO    3       org.l2jmobius.commons.threads.ThreadPool...scheduled pool executor with 4 high priority threads.
-2026.07.13 17:53:55,361 INFO    3       org.l2jmobius.commons.threads.ThreadPool...scheduled pool executor with 16 total threads.
-2026.07.13 17:53:55,361 INFO    3       org.l2jmobius.commons.threads.ThreadPool...instant pool executor with 8 total threads.
-2026.07.13 17:53:55,362 INFO    3       org.l2jmobius.gameserver.GameServer    -----------------------------------------------=[ IdManager ]
-2026.07.13 17:54:55,364 SEVERE  3       org.l2jmobius.commons.database.DatabaseFactory  Database: Could not get a connection.
-2026.07.13 17:54:55,365 WARNING 3       org.l2jmobius.gameserver.managers.DatabaseIdManager     DatabaseIdManager: Could not execute cleanup query: DELETE FROM account_gsdata WHERE account_gsdata.account_name NOT IN (SELECT account_name FROM characters) - java.lang.RuntimeException: Unable to obtain a database connection.
-2026.07.13 17:55:55,366 SEVERE  3       org.l2jmobius.commons.database.DatabaseFactory  Database: Could not get a connection.
-2026.07.13 17:55:55,367 WARNING 3       org.l2jmobius.gameserver.managers.DatabaseIdManager     DatabaseIdManager: Could not execute cleanup query: DELETE FROM character_contacts WHERE character_contacts.charId NOT IN (SELECT charId FROM characters) - java.lang.RuntimeException: Unable to obtain a database connection.
-
-==> server/game/log/java2.log <==
-2026.07.13 06:30:00,000 INFO    38      org.l2jmobius.gameserver.managers.DailyResetManager     Starting reset of daily tasks...
-2026.07.13 06:30:00,002 INFO    38      org.l2jmobius.gameserver.managers.DailyResetManager     Daily vitality added successfully.
-2026.07.13 06:30:00,003 INFO    38      org.l2jmobius.gameserver.managers.DailyResetManager     Daily clan bonuses have been reset.
-2026.07.13 06:30:00,005 INFO    38      org.l2jmobius.gameserver.managers.DailyResetManager     Daily skill reuse cleaned.
-2026.07.13 06:30:00,005 INFO    38      org.l2jmobius.gameserver.managers.DailyResetManager     Daily item reuse cleaned.
-2026.07.13 06:30:00,006 INFO    38      org.l2jmobius.gameserver.managers.DailyResetManager     Daily world chat points have been reset.
-2026.07.13 06:30:00,041 INFO    38      org.l2jmobius.gameserver.managers.DailyResetManager     PrimeShopData have been reset.
-2026.07.13 06:30:00,061 INFO    38      org.l2jmobius.gameserver.managers.DailyResetManager     Training Camp durations have been reset.
-2026.07.13 06:30:00,064 INFO    38      org.l2jmobius.gameserver.managers.DailyResetManager     Attendance Rewards have been reset.
-2026.07.13 06:30:00,068 INFO    38      org.l2jmobius.gameserver.model.script.Quest     CharacterBirthday 0 gifts sent. [12/07/2026] - [13/07/2026]
-2026.07.13 06:30:00,068 INFO    38      org.l2jmobius.gameserver.managers.DailyResetManager     Daily tasks reset completed.
-2026.07.13 06:40:12,280 INFO    35      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 11 variables.
-2026.07.13 07:10:12,282 INFO    34      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 11 variables.
-2026.07.13 07:40:12,262 INFO    40      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 11 variables.
-2026.07.13 08:10:12,264 INFO    33      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 11 variables.
-2026.07.13 08:40:12,266 INFO    32      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 11 variables.
-2026.07.13 09:00:00,050 INFO    53      org.l2jmobius.gameserver.managers.IdManager     IdManager: Increased BitSet capacity to 122347
-2026.07.13 09:10:12,268 INFO    42      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 11 variables.
-2026.07.13 09:40:12,261 INFO    35      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 11 variables.
-2026.07.13 10:10:12,266 INFO    37      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 11 variables.
-2026.07.13 10:40:12,258 INFO    40      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 11 variables.
-2026.07.13 11:10:12,275 INFO    38      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 11 variables.
-2026.07.13 11:40:12,288 INFO    36      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 11 variables.
-2026.07.13 12:10:12,287 INFO    34      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 11 variables.
-2026.07.13 12:40:12,296 INFO    42      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 11 variables.
-2026.07.13 13:10:12,303 INFO    44      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 11 variables.
-2026.07.13 13:40:12,274 INFO    43      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 11 variables.
-2026.07.13 14:10:12,280 INFO    35      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 11 variables.
-2026.07.13 14:40:12,276 INFO    33      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 11 variables.
-2026.07.13 15:10:12,262 INFO    37      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 11 variables.
-2026.07.13 15:40:12,272 INFO    43      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 11 variables.
-2026.07.13 16:00:00,056 INFO    54      org.l2jmobius.gameserver.managers.IdManager     IdManager: Increased BitSet capacity to 143483
-2026.07.13 16:10:12,314 INFO    39      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 11 variables.
-2026.07.13 16:40:12,275 INFO    33      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 11 variables.
-2026.07.13 17:10:12,262 INFO    41      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 11 variables.
-2026.07.13 17:40:12,266 INFO    32      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 11 variables.
-2026.07.13 17:49:20,137 WARNING 94      org.l2jmobius.gameserver.model.actor.Creature   Master access level set for character dada! Just a warning to be careful ;)
-2026.07.13 17:50:36,817 INFO    65      org.l2jmobius.gameserver.Shutdown      All players disconnected and saved(86ms).
-2026.07.13 17:50:36,817 INFO    65      org.l2jmobius.gameserver.Shutdown      Game Time Task Manager: Thread interruped(2ms).
-2026.07.13 17:50:36,817 INFO    65      org.l2jmobius.commons.threads.ThreadPoolThreadPool: Shutting down all thread pools.
-2026.07.13 17:50:36,821 INFO    65      org.l2jmobius.gameserver.Shutdown      Thread Pool Manager: Manager has been shut down(4ms).
-2026.07.13 17:50:36,821 INFO    65      org.l2jmobius.gameserver.Shutdown      Login Server Thread: Thread interruped(0ms).
-2026.07.13 17:50:36,821 INFO    65      org.l2jmobius.gameserver.Shutdown      SIGTERM received. Shutting down NOW!
-2026.07.13 17:50:36,851 INFO    65      org.l2jmobius.gameserver.Shutdown      RaidBossSpawnManager: All raidboss info saved(30ms).
-2026.07.13 17:50:36,854 INFO    65      org.l2jmobius.gameserver.Shutdown      GrandBossManager: All Grand Boss info saved(2ms).
-2026.07.13 17:50:36,854 INFO    65      org.l2jmobius.gameserver.Shutdown      Item Auction Manager: All tasks stopped(1ms).
-2026.07.13 17:50:36,855 INFO    65      org.l2jmobius.gameserver.Shutdown      Olympiad System: Data saved(1ms).
-2026.07.13 17:50:36,857 INFO    65      org.l2jmobius.gameserver.Shutdown      Hero System: Data saved(2ms).
-2026.07.13 17:50:36,857 INFO    65      org.l2jmobius.gameserver.Shutdown      Clan System: Data saved(0ms).
-2026.07.13 17:50:36,859 INFO    65      org.l2jmobius.gameserver.Shutdown      Cursed Weapons Manager: Data saved(2ms).
-2026.07.13 17:50:36,860 INFO    65      org.l2jmobius.gameserver.Shutdown      Castle Manor Manager: Data saved(1ms).
-2026.07.13 17:50:36,861 INFO    65      org.l2jmobius.gameserver.Shutdown      Script Manager: Data saved(1ms).
-2026.07.13 17:50:36,949 INFO    65      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 11 variables.
-2026.07.13 17:50:36,949 INFO    65      org.l2jmobius.gameserver.Shutdown      Global Variables Manager: Variables saved(88ms).
-2026.07.13 17:50:36,950 INFO    65      org.l2jmobius.gameserver.Shutdown      Party Matching History Table: Data saved(1ms).
-2026.07.13 17:50:37,013 INFO    65      org.l2jmobius.gameserver.Shutdown      SchemeBufferTable: Data saved(63ms).
-2026.07.13 17:50:37,014 INFO    65      org.l2jmobius.gameserver.Shutdown      Bot Report Table: Successfully saved reports to database!
-2026.07.13 17:50:42,016 INFO    65      org.l2jmobius.commons.database.DatabaseFactory  Database: HikariCP pool closed successfully.
-2026.07.13 17:50:42,016 INFO    65      org.l2jmobius.gameserver.Shutdown      Database Factory: Database connection has been shut down(2ms).
-2026.07.13 17:50:42,016 INFO    65      org.l2jmobius.gameserver.Shutdown      The server has been successfully shut down in 5seconds.
-
-==> server/game/log/java3.log <==
-2026.07.12 15:32:40,734 INFO    3       org.l2jmobius.gameserver.managers.CastleManorManager    CastleManorManager: Manor data loaded.
-2026.07.12 15:32:40,738 INFO    3       org.l2jmobius.gameserver.managers.SiegeGuardManager     SiegeGuardManager: Loaded 0 siege guards tickets.
-2026.07.12 15:32:40,738 INFO    3       org.l2jmobius.gameserver.managers.ScriptManager ScriptManager: Loaded 529 quests.
-2026.07.12 15:32:40,738 INFO    3       org.l2jmobius.gameserver.managers.ScriptManager ScriptManager: Loaded 414 scripts.
-2026.07.12 15:32:40,744 INFO    3       org.l2jmobius.gameserver.managers.games.KrateisCubeManager      KrateisCubeManager: Loaded 3 arena templates.
-2026.07.12 15:32:40,751 INFO    3       org.l2jmobius.gameserver.managers.games.UndergroundColiseumManager      UndergroundColiseumManager: Loaded 5 coliseum arenas.
-2026.07.12 15:32:40,754 INFO    3       org.l2jmobius.gameserver.managers.games.UndergroundColiseumManager      UndergroundColiseumManager: Starts at 17/07/2026 21:00:00
-2026.07.12 15:32:40,755 INFO    3       org.l2jmobius.gameserver.managers.DailyResetManager     DailyResetManager: Next schedule at 13/07/2026 06:30:00.
-2026.07.12 15:32:40,761 INFO    3       org.l2jmobius.gameserver.managers.MailManager   MailManager: Loaded 0 messages.
-2026.07.12 15:32:40,763 INFO    3       org.l2jmobius.gameserver.managers.PunishmentManager     PunishmentManager: Loaded 0 active and 0 expired punishments.
-2026.07.12 15:32:40,764 INFO    3       org.l2jmobius.gameserver.GameServer    IdManager: Free ObjectID's remaining: 1878993532
-2026.07.12 15:32:40,770 INFO    3       org.l2jmobius.gameserver.data.sql.OfflineTraderTable    OfflineTraderTable: Loading offline traders...
-2026.07.12 15:32:40,773 INFO    3       org.l2jmobius.gameserver.data.sql.OfflineTraderTable    OfflineTraderTable: Loaded 0 offline traders.
-2026.07.12 15:32:40,779 INFO    66      org.l2jmobius.commons.util.DeadlockWatcher      DeadlockWatcher: Thread started.
-2026.07.12 15:32:47,598 INFO    3       org.l2jmobius.gameserver.GameServer    GameServer: Started, using 2214 of 4096 MB total memory.
-2026.07.12 15:32:47,598 INFO    3       org.l2jmobius.gameserver.GameServer    GameServer: Maximum number of connected players is 2000.
-2026.07.12 15:32:47,599 INFO    3       org.l2jmobius.gameserver.GameServer    GameServer: Server loaded in 47 seconds.
-2026.07.12 15:32:47,614 INFO    68      org.l2jmobius.gameserver.LoginServerThread      LoginServerThread: Connecting to login on 127.0.0.1:9014
-2026.07.12 15:32:47,651 INFO    68      org.l2jmobius.gameserver.LoginServerThread      LoginServerThread: Registered on login as Server 1: Bartz
-2026.07.12 15:33:19,267 WARNING 80      org.l2jmobius.gameserver.model.actor.Creature   Master access level set for character dada! Just a warning to be careful ;)
-2026.07.12 15:33:31,185 WARNING 89      org.l2jmobius.gameserver.cache.HtmCacheHTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
-2026.07.12 15:33:31,186 WARNING 89      org.l2jmobius.gameserver.cache.HtmCacheHTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
-2026.07.12 15:33:33,416 WARNING 92      org.l2jmobius.gameserver.cache.HtmCacheHTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
-2026.07.12 15:33:34,719 WARNING 93      org.l2jmobius.gameserver.cache.HtmCacheHTML encoding check: File data/html/CommunityBoard/Custom/merchant/weapons.html contains non ASCII content.
-2026.07.12 15:33:42,101 WARNING 98      org.l2jmobius.gameserver.cache.HtmCacheHTML encoding check: File data/html/CommunityBoard/Custom/merchant/jewelry.html contains non ASCII content.
-2026.07.12 15:34:20,990 WARNING 91      org.l2jmobius.gameserver.cache.HtmCacheHTML encoding check: File data/html/CommunityBoard/Custom/merchant/enchant.html contains non ASCII content.
-2026.07.12 15:34:36,207 WARNING 96      org.l2jmobius.gameserver.cache.HtmCacheHTML encoding check: File data/html/CommunityBoard/Custom/merchant/books.html contains non ASCII content.
-2026.07.12 16:00:00,762 INFO    44      org.l2jmobius.gameserver.model.siege.Siege      Siege of Gludio: Sun Jul 12 16:00:00 UTC 2026
-2026.07.12 16:00:00,773 INFO    33      org.l2jmobius.gameserver.model.siege.Siege      Siege of Giran: Sun Jul 12 16:00:00 UTC 2026
-2026.07.12 16:00:00,792 INFO    45      org.l2jmobius.gameserver.model.siege.Siege      Siege of Aden: Sun Jul 12 16:00:00 UTC 2026
-2026.07.12 16:00:00,801 INFO    40      org.l2jmobius.gameserver.model.siege.Siege      Siege of Goddard: Sun Jul 12 16:00:00 UTC 2026
-2026.07.12 16:00:00,813 INFO    43      org.l2jmobius.gameserver.model.siege.Siege      Siege of Schuttgart: Sun Jul 12 16:00:00 UTC 2026
-2026.07.12 16:02:41,028 INFO    47      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 10 variables.
-2026.07.12 16:32:40,821 INFO    42      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 10 variables.
-2026.07.12 17:02:41,066 INFO    37      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 10 variables.
-2026.07.12 17:32:40,823 INFO    45      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 10 variables.
-2026.07.12 18:02:40,824 INFO    40      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 10 variables.
-2026.07.12 18:09:20,346 INFO    65      org.l2jmobius.gameserver.Shutdown      All players disconnected and saved(0ms).
-2026.07.12 18:09:20,346 INFO    65      org.l2jmobius.gameserver.Shutdown      Game Time Task Manager: Thread interruped(2ms).
-2026.07.12 18:09:20,347 INFO    65      org.l2jmobius.commons.threads.ThreadPoolThreadPool: Shutting down all thread pools.
-2026.07.12 18:09:20,353 INFO    65      org.l2jmobius.gameserver.Shutdown      Thread Pool Manager: Manager has been shut down(7ms).
-2026.07.12 18:09:20,353 INFO    65      org.l2jmobius.gameserver.Shutdown      Login Server Thread: Thread interruped(0ms).
-2026.07.12 18:09:20,353 INFO    65      org.l2jmobius.gameserver.Shutdown      SIGTERM received. Shutting down NOW!
-2026.07.12 18:09:20,383 INFO    65      org.l2jmobius.gameserver.Shutdown      RaidBossSpawnManager: All raidboss info saved(30ms).
-2026.07.12 18:09:20,385 INFO    65      org.l2jmobius.gameserver.Shutdown      GrandBossManager: All Grand Boss info saved(2ms).
-2026.07.12 18:09:20,386 INFO    65      org.l2jmobius.gameserver.Shutdown      Item Auction Manager: All tasks stopped(1ms).
-2026.07.12 18:09:20,387 INFO    65      org.l2jmobius.gameserver.Shutdown      Olympiad System: Data saved(1ms).
-2026.07.12 18:09:20,389 INFO    65      org.l2jmobius.gameserver.Shutdown      Hero System: Data saved(2ms).
-2026.07.12 18:09:20,389 INFO    65      org.l2jmobius.gameserver.Shutdown      Clan System: Data saved(0ms).
-2026.07.12 18:09:20,390 INFO    65      org.l2jmobius.gameserver.Shutdown      Cursed Weapons Manager: Data saved(1ms).
-2026.07.12 18:09:20,391 INFO    65      org.l2jmobius.gameserver.Shutdown      Castle Manor Manager: Data saved(1ms).
-2026.07.12 18:09:20,392 INFO    65      org.l2jmobius.gameserver.Shutdown      Script Manager: Data saved(1ms).
-2026.07.12 18:09:20,473 INFO    65      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 10 variables.
-2026.07.12 18:09:20,473 INFO    65      org.l2jmobius.gameserver.Shutdown      Global Variables Manager: Variables saved(81ms).
-2026.07.12 18:09:20,476 INFO    65      org.l2jmobius.gameserver.Shutdown      Party Matching History Table: Data saved(3ms).
-2026.07.12 18:09:20,539 INFO    65      org.l2jmobius.gameserver.Shutdown      SchemeBufferTable: Data saved(63ms).
-2026.07.12 18:09:20,540 INFO    65      org.l2jmobius.gameserver.Shutdown      Bot Report Table: Successfully saved reports to database!
-2026.07.12 18:09:25,546 INFO    65      org.l2jmobius.commons.database.DatabaseFactory  Database: HikariCP pool closed successfully.
-2026.07.12 18:09:25,546 INFO    65      org.l2jmobius.gameserver.Shutdown      Database Factory: Database connection has been shut down(6ms).
-2026.07.12 18:09:25,546 INFO    65      org.l2jmobius.gameserver.Shutdown      The server has been successfully shut down in 5seconds.
-
-==> server/game/log/java4.log <==
-2026.07.12 14:40:32,903 INFO    3       org.l2jmobius.gameserver.managers.FortManager   FortManager: Loaded 20 fortress.
-2026.07.12 14:40:33,020 INFO    3       org.l2jmobius.gameserver.managers.CastleManorManager    CastleManorManager: Loaded 258 seeds.
-2026.07.12 14:40:33,025 INFO    3       org.l2jmobius.gameserver.managers.CastleManorManager    CastleManorManager: Manor data loaded.
-2026.07.12 14:40:33,028 INFO    3       org.l2jmobius.gameserver.managers.SiegeGuardManager     SiegeGuardManager: Loaded 0 siege guards tickets.
-2026.07.12 14:40:33,029 INFO    3       org.l2jmobius.gameserver.managers.ScriptManager ScriptManager: Loaded 529 quests.
-2026.07.12 14:40:33,029 INFO    3       org.l2jmobius.gameserver.managers.ScriptManager ScriptManager: Loaded 414 scripts.
-2026.07.12 14:40:33,034 INFO    3       org.l2jmobius.gameserver.managers.games.KrateisCubeManager      KrateisCubeManager: Loaded 3 arena templates.
-2026.07.12 14:40:33,039 INFO    3       org.l2jmobius.gameserver.managers.games.UndergroundColiseumManager      UndergroundColiseumManager: Loaded 5 coliseum arenas.
-2026.07.12 14:40:33,039 INFO    3       org.l2jmobius.gameserver.managers.games.UndergroundColiseumManager      UndergroundColiseumManager: Starts at 17/07/2026 21:00:00
-2026.07.12 14:40:33,041 INFO    3       org.l2jmobius.gameserver.managers.DailyResetManager     DailyResetManager: Next schedule at 13/07/2026 06:30:00.
-2026.07.12 14:40:33,042 INFO    3       org.l2jmobius.gameserver.managers.MailManager   MailManager: Loaded 0 messages.
-2026.07.12 14:40:33,044 INFO    3       org.l2jmobius.gameserver.managers.PunishmentManager     PunishmentManager: Loaded 0 active and 0 expired punishments.
-2026.07.12 14:40:33,045 INFO    3       org.l2jmobius.gameserver.GameServer    IdManager: Free ObjectID's remaining: 1878993536
-2026.07.12 14:40:33,046 INFO    3       org.l2jmobius.gameserver.data.sql.OfflineTraderTable    OfflineTraderTable: Loading offline traders...
-2026.07.12 14:40:33,047 INFO    3       org.l2jmobius.gameserver.data.sql.OfflineTraderTable    OfflineTraderTable: Loaded 0 offline traders.
-2026.07.12 14:40:33,048 INFO    66      org.l2jmobius.commons.util.DeadlockWatcher      DeadlockWatcher: Thread started.
-2026.07.12 14:40:39,900 INFO    3       org.l2jmobius.gameserver.GameServer    GameServer: Started, using 2216 of 4096 MB total memory.
-2026.07.12 14:40:39,900 INFO    3       org.l2jmobius.gameserver.GameServer    GameServer: Maximum number of connected players is 2000.
-2026.07.12 14:40:39,900 INFO    3       org.l2jmobius.gameserver.GameServer    GameServer: Server loaded in 43 seconds.
-2026.07.12 14:40:39,914 INFO    68      org.l2jmobius.gameserver.LoginServerThread      LoginServerThread: Connecting to login on 127.0.0.1:9014
-2026.07.12 14:40:39,955 INFO    68      org.l2jmobius.gameserver.LoginServerThread      LoginServerThread: Registered on login as Server 1: Bartz
-2026.07.12 14:41:08,766 WARNING 81      org.l2jmobius.gameserver.model.actor.Creature   User access level set for character dada! Just a warning to be careful ;)
-2026.07.12 14:42:48,224 WARNING 96      org.l2jmobius.gameserver.cache.HtmCacheHTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
-2026.07.12 14:42:48,225 WARNING 96      org.l2jmobius.gameserver.cache.HtmCacheHTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
-2026.07.12 14:42:50,894 WARNING 102     org.l2jmobius.gameserver.cache.HtmCacheHTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
-2026.07.12 14:42:51,683 WARNING 73      org.l2jmobius.gameserver.cache.HtmCacheHTML encoding check: File data/html/CommunityBoard/Custom/merchant/jewelry.html contains non ASCII content.
-2026.07.12 14:42:52,374 WARNING 45      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600030 from npc null which is not allowed!
-2026.07.12 14:42:53,292 WARNING 41      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600030 from npc null which is not allowed!
-2026.07.12 14:46:20,344 WARNING 92      org.l2jmobius.gameserver.model.actor.Creature   Master access level set for character dada! Just a warning to be careful ;)
-2026.07.12 15:01:44,985 WARNING 48      org.l2jmobius.gameserver.handler.AdminCommandHandler    Exception during execution of admin_grandboss 29325
-2026.07.12 15:01:45,987 WARNING 48      org.l2jmobius.gameserver.handler.AdminCommandHandler    Exception during execution of admin_grandboss 29325
-2026.07.12 15:01:46,627 WARNING 52      org.l2jmobius.gameserver.handler.AdminCommandHandler    Exception during execution of admin_grandboss 29325
-2026.07.12 15:04:54,908 INFO    48      org.l2jmobius.gameserver.managers.PetitionManager       PetitionManager: Pending petition queue cleared. 0 petitions removed.
-2026.07.12 15:07:53,266 WARNING 94      org.l2jmobius.gameserver.model.actor.Creature   Master access level set for character dada! Just a warning to be careful ;)
-2026.07.12 15:08:03,293 WARNING 101     org.l2jmobius.gameserver.handler.AdminCommandHandler    No handler registered for admin command 'admin_admij'
-2026.07.12 15:10:33,113 INFO    37      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 10 variables.
-2026.07.12 15:17:23,562 INFO    33      org.l2jmobius.gameserver.managers.GrandBossManager      GrandBossManager: Updated Lindvior(29240) status to 0.
-2026.07.12 15:31:51,821 INFO    65      org.l2jmobius.gameserver.Shutdown      All players disconnected and saved(0ms).
-2026.07.12 15:31:51,822 INFO    65      org.l2jmobius.gameserver.Shutdown      Game Time Task Manager: Thread interruped(3ms).
-2026.07.12 15:31:51,822 INFO    65      org.l2jmobius.commons.threads.ThreadPoolThreadPool: Shutting down all thread pools.
-2026.07.12 15:31:51,826 INFO    65      org.l2jmobius.gameserver.Shutdown      Thread Pool Manager: Manager has been shut down(4ms).
-2026.07.12 15:31:51,827 INFO    65      org.l2jmobius.gameserver.Shutdown      Login Server Thread: Thread interruped(1ms).
-2026.07.12 15:31:51,827 INFO    65      org.l2jmobius.gameserver.Shutdown      SIGTERM received. Shutting down NOW!
-2026.07.12 15:31:51,871 INFO    65      org.l2jmobius.gameserver.Shutdown      RaidBossSpawnManager: All raidboss info saved(43ms).
-2026.07.12 15:31:51,873 INFO    65      org.l2jmobius.gameserver.Shutdown      GrandBossManager: All Grand Boss info saved(3ms).
-2026.07.12 15:31:51,873 INFO    65      org.l2jmobius.gameserver.Shutdown      Item Auction Manager: All tasks stopped(0ms).
-2026.07.12 15:31:51,875 INFO    65      org.l2jmobius.gameserver.Shutdown      Olympiad System: Data saved(2ms).
-2026.07.12 15:31:51,876 INFO    65      org.l2jmobius.gameserver.Shutdown      Hero System: Data saved(1ms).
-2026.07.12 15:31:51,876 INFO    65      org.l2jmobius.gameserver.Shutdown      Clan System: Data saved(0ms).
-2026.07.12 15:31:51,876 INFO    65      org.l2jmobius.gameserver.Shutdown      Cursed Weapons Manager: Data saved(0ms).
-2026.07.12 15:31:51,877 INFO    65      org.l2jmobius.gameserver.Shutdown      Castle Manor Manager: Data saved(1ms).
-2026.07.12 15:31:51,878 INFO    65      org.l2jmobius.gameserver.Shutdown      Script Manager: Data saved(1ms).
-2026.07.12 15:31:51,947 INFO    65      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 10 variables.
-2026.07.12 15:31:51,947 INFO    65      org.l2jmobius.gameserver.Shutdown      Global Variables Manager: Variables saved(69ms).
-2026.07.12 15:31:51,948 INFO    65      org.l2jmobius.gameserver.Shutdown      Party Matching History Table: Data saved(1ms).
-2026.07.12 15:31:52,015 INFO    65      org.l2jmobius.gameserver.Shutdown      SchemeBufferTable: Data saved(67ms).
-2026.07.12 15:31:52,016 INFO    65      org.l2jmobius.gameserver.Shutdown      Bot Report Table: Successfully saved reports to database!
-2026.07.12 15:31:57,019 INFO    65      org.l2jmobius.commons.database.DatabaseFactory  Database: HikariCP pool closed successfully.
-2026.07.12 15:31:57,019 INFO    65      org.l2jmobius.gameserver.Shutdown      Database Factory: Database connection has been shut down(3ms).
-2026.07.12 15:31:57,019 INFO    65      org.l2jmobius.gameserver.Shutdown      The server has been successfully shut down in 5seconds.
-
-==> server/game/log/java5.log <==
-2026.07.12 14:31:46,248 INFO    3       org.l2jmobius.gameserver.model.siege.Siege      Siege of Innadril: Sun Jul 12 20:00:00 UTC 2026
-2026.07.12 14:31:46,250 INFO    3       org.l2jmobius.gameserver.model.siege.Siege      Siege of Goddard: Sun Jul 12 16:00:00 UTC 2026
-2026.07.12 14:31:46,253 INFO    3       org.l2jmobius.gameserver.model.siege.Siege      Siege of Rune: Sun Jul 12 20:00:00 UTC 2026
-2026.07.12 14:31:46,254 INFO    3       org.l2jmobius.gameserver.model.siege.Siege      Siege of Schuttgart: Sun Jul 12 16:00:00 UTC 2026
-2026.07.12 14:31:46,334 INFO    3       org.l2jmobius.gameserver.managers.FortManager   FortManager: Loaded 20 fortress.
-2026.07.12 14:31:46,445 INFO    3       org.l2jmobius.gameserver.managers.CastleManorManager    CastleManorManager: Loaded 258 seeds.
-2026.07.12 14:31:46,452 INFO    3       org.l2jmobius.gameserver.managers.CastleManorManager    CastleManorManager: Manor data loaded.
-2026.07.12 14:31:46,456 INFO    3       org.l2jmobius.gameserver.managers.SiegeGuardManager     SiegeGuardManager: Loaded 0 siege guards tickets.
-2026.07.12 14:31:46,457 INFO    3       org.l2jmobius.gameserver.managers.ScriptManager ScriptManager: Loaded 529 quests.
-2026.07.12 14:31:46,457 INFO    3       org.l2jmobius.gameserver.managers.ScriptManager ScriptManager: Loaded 414 scripts.
-2026.07.12 14:31:46,464 INFO    3       org.l2jmobius.gameserver.managers.games.KrateisCubeManager      KrateisCubeManager: Loaded 3 arena templates.
-2026.07.12 14:31:46,471 INFO    3       org.l2jmobius.gameserver.managers.games.UndergroundColiseumManager      UndergroundColiseumManager: Loaded 5 coliseum arenas.
-2026.07.12 14:31:46,471 INFO    3       org.l2jmobius.gameserver.managers.games.UndergroundColiseumManager      UndergroundColiseumManager: Starts at 17/07/2026 21:00:00
-2026.07.12 14:31:46,473 INFO    3       org.l2jmobius.gameserver.managers.DailyResetManager     DailyResetManager: Next schedule at 13/07/2026 06:30:00.
-2026.07.12 14:31:46,477 INFO    3       org.l2jmobius.gameserver.managers.MailManager   MailManager: Loaded 0 messages.
-2026.07.12 14:31:46,478 INFO    3       org.l2jmobius.gameserver.managers.PunishmentManager     PunishmentManager: Loaded 0 active and 0 expired punishments.
-2026.07.12 14:31:46,479 INFO    3       org.l2jmobius.gameserver.GameServer    IdManager: Free ObjectID's remaining: 1878993554
-2026.07.12 14:31:46,481 INFO    3       org.l2jmobius.gameserver.data.sql.OfflineTraderTable    OfflineTraderTable: Loading offline traders...
-2026.07.12 14:31:46,481 INFO    3       org.l2jmobius.gameserver.data.sql.OfflineTraderTable    OfflineTraderTable: Loaded 0 offline traders.
-2026.07.12 14:31:46,485 INFO    66      org.l2jmobius.commons.util.DeadlockWatcher      DeadlockWatcher: Thread started.
-2026.07.12 14:31:53,516 INFO    3       org.l2jmobius.gameserver.GameServer    GameServer: Started, using 2222 of 4096 MB total memory.
-2026.07.12 14:31:53,517 INFO    3       org.l2jmobius.gameserver.GameServer    GameServer: Maximum number of connected players is 2000.
-2026.07.12 14:31:53,517 INFO    3       org.l2jmobius.gameserver.GameServer    GameServer: Server loaded in 41 seconds.
-2026.07.12 14:31:53,530 INFO    68      org.l2jmobius.gameserver.LoginServerThread      LoginServerThread: Connecting to login on 127.0.0.1:9014
-2026.07.12 14:31:53,566 INFO    68      org.l2jmobius.gameserver.LoginServerThread      LoginServerThread: Registered on login as Server 1: Bartz
-2026.07.12 14:37:47,134 WARNING 94      org.l2jmobius.gameserver.cache.HtmCacheHTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
-2026.07.12 14:37:47,135 WARNING 94      org.l2jmobius.gameserver.cache.HtmCacheHTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
-2026.07.12 14:37:49,079 WARNING 98      org.l2jmobius.gameserver.cache.HtmCacheHTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
-2026.07.12 14:37:50,758 WARNING 80      org.l2jmobius.gameserver.cache.HtmCacheHTML encoding check: File data/html/CommunityBoard/Custom/merchant/jewelry.html contains non ASCII content.
-2026.07.12 14:37:51,592 WARNING 40      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600031 from npc null which is not allowed!
-2026.07.12 14:37:56,720 WARNING 36      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600030 from npc null which is not allowed!
-2026.07.12 14:38:00,015 WARNING 43      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600030 from npc null which is not allowed!
-2026.07.12 14:38:00,910 WARNING 36      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600030 from npc null which is not allowed!
-2026.07.12 14:38:01,290 WARNING 47      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600030 from npc null which is not allowed!
-2026.07.12 14:38:04,092 WARNING 39      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600031 from npc null which is not allowed!
-2026.07.12 14:38:09,537 WARNING 35      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600031 from npc null which is not allowed!
-2026.07.12 14:38:58,395 WARNING 96      org.l2jmobius.gameserver.model.actor.Creature   User access level set for character dada! Just a warning to be careful ;)
-2026.07.12 14:39:44,350 INFO    65      org.l2jmobius.gameserver.Shutdown      All players disconnected and saved(81ms).
-2026.07.12 14:39:44,350 INFO    65      org.l2jmobius.gameserver.Shutdown      Game Time Task Manager: Thread interruped(1ms).
-2026.07.12 14:39:44,350 INFO    65      org.l2jmobius.commons.threads.ThreadPoolThreadPool: Shutting down all thread pools.
-2026.07.12 14:39:44,351 INFO    65      org.l2jmobius.gameserver.Shutdown      Thread Pool Manager: Manager has been shut down(1ms).
-2026.07.12 14:39:44,351 INFO    65      org.l2jmobius.gameserver.Shutdown      Login Server Thread: Thread interruped(0ms).
-2026.07.12 14:39:44,351 INFO    65      org.l2jmobius.gameserver.Shutdown      SIGTERM received. Shutting down NOW!
-2026.07.12 14:39:44,375 INFO    65      org.l2jmobius.gameserver.Shutdown      RaidBossSpawnManager: All raidboss info saved(23ms).
-2026.07.12 14:39:44,377 INFO    65      org.l2jmobius.gameserver.Shutdown      GrandBossManager: All Grand Boss info saved(3ms).
-2026.07.12 14:39:44,377 INFO    65      org.l2jmobius.gameserver.Shutdown      Item Auction Manager: All tasks stopped(0ms).
-2026.07.12 14:39:44,378 INFO    65      org.l2jmobius.gameserver.Shutdown      Olympiad System: Data saved(1ms).
-2026.07.12 14:39:44,378 INFO    65      org.l2jmobius.gameserver.Shutdown      Hero System: Data saved(0ms).
-2026.07.12 14:39:44,378 INFO    65      org.l2jmobius.gameserver.Shutdown      Clan System: Data saved(0ms).
-2026.07.12 14:39:44,379 INFO    65      org.l2jmobius.gameserver.Shutdown      Cursed Weapons Manager: Data saved(1ms).
-2026.07.12 14:39:44,380 INFO    65      org.l2jmobius.gameserver.Shutdown      Castle Manor Manager: Data saved(1ms).
-2026.07.12 14:39:44,380 INFO    65      org.l2jmobius.gameserver.Shutdown      Script Manager: Data saved(0ms).
-2026.07.12 14:39:44,437 INFO    65      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 10 variables.
-2026.07.12 14:39:44,437 INFO    65      org.l2jmobius.gameserver.Shutdown      Global Variables Manager: Variables saved(57ms).
-2026.07.12 14:39:44,438 INFO    65      org.l2jmobius.gameserver.Shutdown      Party Matching History Table: Data saved(1ms).
-2026.07.12 14:39:44,532 INFO    65      org.l2jmobius.gameserver.Shutdown      SchemeBufferTable: Data saved(94ms).
-2026.07.12 14:39:44,533 INFO    65      org.l2jmobius.gameserver.Shutdown      Bot Report Table: Successfully saved reports to database!
-2026.07.12 14:39:49,535 INFO    65      org.l2jmobius.commons.database.DatabaseFactory  Database: HikariCP pool closed successfully.
-2026.07.12 14:39:49,535 INFO    65      org.l2jmobius.gameserver.Shutdown      Database Factory: Database connection has been shut down(2ms).
-2026.07.12 14:39:49,535 INFO    65      org.l2jmobius.gameserver.Shutdown      The server has been successfully shut down in 5seconds.
-
-==> server/game/log/java6.log <==
-2026.07.12 13:47:27,349 INFO    68      org.l2jmobius.gameserver.LoginServerThread      LoginServerThread: Registered on login as Server 1: Bartz
-2026.07.12 13:52:35,699 WARNING 100     org.l2jmobius.gameserver.cache.HtmCacheHTML encoding check: File data/html/CommunityBoard/Custom/navigation.html contains non ASCII content.
-2026.07.12 13:52:35,700 WARNING 100     org.l2jmobius.gameserver.cache.HtmCacheHTML encoding check: File data/html/CommunityBoard/Custom/home.html contains non ASCII content.
-2026.07.12 13:52:42,551 WARNING 76      org.l2jmobius.gameserver.cache.HtmCacheHTML encoding check: File data/html/CommunityBoard/Custom/merchant/main.html contains non ASCII content.
-2026.07.12 13:52:45,250 WARNING 73      org.l2jmobius.gameserver.cache.HtmCacheHTML encoding check: File data/html/CommunityBoard/Custom/merchant/weapons.html contains non ASCII content.
-2026.07.12 13:53:25,850 WARNING 95      org.l2jmobius.gameserver.cache.HtmCacheHTML encoding check: File data/html/CommunityBoard/Custom/merchant/accessory.html contains non ASCII content.
-2026.07.12 13:53:28,397 WARNING 33      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600034 from npc null which is not allowed!
-2026.07.12 13:53:29,540 WARNING 37      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600034 from npc null which is not allowed!
-2026.07.12 13:53:30,619 WARNING 37      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600034 from npc null which is not allowed!
-2026.07.12 13:53:30,851 WARNING 36      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600034 from npc null which is not allowed!
-2026.07.12 13:53:35,080 WARNING 44      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600034 from npc null which is not allowed!
-2026.07.12 13:53:35,606 WARNING 39      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600034 from npc null which is not allowed!
-2026.07.12 13:53:35,980 WARNING 36      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600034 from npc null which is not allowed!
-2026.07.12 13:54:09,966 WARNING 80      org.l2jmobius.gameserver.cache.HtmCacheHTML encoding check: File data/html/CommunityBoard/Custom/merchant/jewelry.html contains non ASCII content.
-2026.07.12 13:54:11,465 WARNING 32      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600031 from npc null which is not allowed!
-2026.07.12 13:54:12,642 WARNING 42      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600031 from npc null which is not allowed!
-2026.07.12 13:54:12,982 WARNING 44      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600031 from npc null which is not allowed!
-2026.07.12 13:54:13,320 WARNING 39      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600031 from npc null which is not allowed!
-2026.07.12 13:54:13,742 WARNING 32      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600031 from npc null which is not allowed!
-2026.07.12 13:54:22,856 WARNING 36      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600031 from npc null which is not allowed!
-2026.07.12 13:54:23,491 WARNING 32      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600031 from npc null which is not allowed!
-2026.07.12 13:54:24,238 WARNING 33      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600031 from npc null which is not allowed!
-2026.07.12 13:54:26,082 WARNING 40      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600031 from npc null which is not allowed!
-2026.07.12 13:55:40,887 WARNING 83      org.l2jmobius.gameserver.cache.HtmCacheHTML encoding check: File data/html/CommunityBoard/Custom/merchant/dyes.html contains non ASCII content.
-2026.07.12 13:55:42,441 WARNING 37      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600032 from npc null which is not allowed!
-2026.07.12 13:55:43,120 WARNING 39      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600032 from npc null which is not allowed!
-2026.07.12 13:55:43,510 WARNING 41      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600032 from npc null which is not allowed!
-2026.07.12 13:55:44,188 WARNING 42      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600032 from npc null which is not allowed!
-2026.07.12 13:55:45,835 WARNING 37      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600032 from npc null which is not allowed!
-2026.07.12 13:55:48,548 WARNING 98      org.l2jmobius.gameserver.cache.HtmCacheHTML encoding check: File data/html/CommunityBoard/Custom/merchant/enchant.html contains non ASCII content.
-2026.07.12 14:00:57,021 WARNING 41      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600032 from npc null which is not allowed!
-2026.07.12 14:00:58,236 WARNING 40      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600032 from npc null which is not allowed!
-2026.07.12 14:01:16,778 WARNING 37      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600034 from npc null which is not allowed!
-2026.07.12 14:01:51,943 WARNING 36      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600034 from npc null which is not allowed!
-2026.07.12 14:01:52,425 WARNING 47      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600034 from npc null which is not allowed!
-2026.07.12 14:07:23,097 WARNING 39      org.l2jmobius.gameserver.data.xml.MultisellData MultisellData: Player:dada[268490214] attempted to open multisell 600034 from npc null which is not allowed!
-2026.07.12 14:17:23,717 INFO    33      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 10 variables.
-2026.07.12 14:30:52,583 INFO    65      org.l2jmobius.gameserver.Shutdown      All players disconnected and saved(0ms).
-2026.07.12 14:30:52,584 INFO    65      org.l2jmobius.gameserver.Shutdown      Game Time Task Manager: Thread interruped(2ms).
-2026.07.12 14:30:52,584 INFO    65      org.l2jmobius.commons.threads.ThreadPoolThreadPool: Shutting down all thread pools.
-2026.07.12 14:30:52,586 INFO    65      org.l2jmobius.gameserver.Shutdown      Thread Pool Manager: Manager has been shut down(1ms).
-2026.07.12 14:30:52,586 INFO    65      org.l2jmobius.gameserver.Shutdown      Login Server Thread: Thread interruped(1ms).
-2026.07.12 14:30:52,587 INFO    65      org.l2jmobius.gameserver.Shutdown      SIGTERM received. Shutting down NOW!
-2026.07.12 14:30:52,614 INFO    65      org.l2jmobius.gameserver.Shutdown      RaidBossSpawnManager: All raidboss info saved(26ms).
-2026.07.12 14:30:52,617 INFO    65      org.l2jmobius.gameserver.Shutdown      GrandBossManager: All Grand Boss info saved(4ms).
-2026.07.12 14:30:52,617 INFO    65      org.l2jmobius.gameserver.Shutdown      Item Auction Manager: All tasks stopped(0ms).
-2026.07.12 14:30:52,619 INFO    65      org.l2jmobius.gameserver.Shutdown      Olympiad System: Data saved(2ms).
-2026.07.12 14:30:52,620 INFO    65      org.l2jmobius.gameserver.Shutdown      Hero System: Data saved(1ms).
-2026.07.12 14:30:52,621 INFO    65      org.l2jmobius.gameserver.Shutdown      Clan System: Data saved(1ms).
-2026.07.12 14:30:52,621 INFO    65      org.l2jmobius.gameserver.Shutdown      Cursed Weapons Manager: Data saved(0ms).
-2026.07.12 14:30:52,622 INFO    65      org.l2jmobius.gameserver.Shutdown      Castle Manor Manager: Data saved(1ms).
-2026.07.12 14:30:52,623 INFO    65      org.l2jmobius.gameserver.Shutdown      Script Manager: Data saved(1ms).
-2026.07.12 14:30:52,685 INFO    65      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 10 variables.
-2026.07.12 14:30:52,685 INFO    65      org.l2jmobius.gameserver.Shutdown      Global Variables Manager: Variables saved(62ms).
-2026.07.12 14:30:52,686 INFO    65      org.l2jmobius.gameserver.Shutdown      Party Matching History Table: Data saved(1ms).
-2026.07.12 14:30:52,749 INFO    65      org.l2jmobius.gameserver.Shutdown      SchemeBufferTable: Data saved(63ms).
-2026.07.12 14:30:52,750 INFO    65      org.l2jmobius.gameserver.Shutdown      Bot Report Table: Successfully saved reports to database!
-2026.07.12 14:30:57,752 INFO    65      org.l2jmobius.commons.database.DatabaseFactory  Database: HikariCP pool closed successfully.
-2026.07.12 14:30:57,752 INFO    65      org.l2jmobius.gameserver.Shutdown      Database Factory: Database connection has been shut down(2ms).
-2026.07.12 14:30:57,752 INFO    65      org.l2jmobius.gameserver.Shutdown      The server has been successfully shut down in 5seconds.
-
-==> server/game/log/java7.log <==
-2026.07.12 13:36:21,785 INFO    3       org.l2jmobius.gameserver.model.siege.Siege      Siege of Innadril: Sun Jul 12 20:00:00 UTC 2026
-2026.07.12 13:36:21,792 INFO    3       org.l2jmobius.gameserver.model.siege.Siege      Siege of Goddard: Sun Jul 12 16:00:00 UTC 2026
-2026.07.12 13:36:21,800 INFO    3       org.l2jmobius.gameserver.model.siege.Siege      Siege of Rune: Sun Jul 12 20:00:00 UTC 2026
-2026.07.12 13:36:21,808 INFO    3       org.l2jmobius.gameserver.model.siege.Siege      Siege of Schuttgart: Sun Jul 12 16:00:00 UTC 2026
-2026.07.12 13:36:21,903 INFO    3       org.l2jmobius.gameserver.managers.FortManager   FortManager: Loaded 20 fortress.
-2026.07.12 13:36:22,040 INFO    3       org.l2jmobius.gameserver.managers.CastleManorManager    CastleManorManager: Loaded 258 seeds.
-2026.07.12 13:36:22,048 INFO    3       org.l2jmobius.gameserver.managers.CastleManorManager    CastleManorManager: Manor data loaded.
-2026.07.12 13:36:22,053 INFO    3       org.l2jmobius.gameserver.managers.SiegeGuardManager     SiegeGuardManager: Loaded 0 siege guards tickets.
-2026.07.12 13:36:22,053 INFO    3       org.l2jmobius.gameserver.managers.ScriptManager ScriptManager: Loaded 529 quests.
-2026.07.12 13:36:22,053 INFO    3       org.l2jmobius.gameserver.managers.ScriptManager ScriptManager: Loaded 414 scripts.
-2026.07.12 13:36:22,068 INFO    3       org.l2jmobius.gameserver.managers.games.KrateisCubeManager      KrateisCubeManager: Loaded 3 arena templates.
-2026.07.12 13:36:22,132 INFO    3       org.l2jmobius.gameserver.managers.games.UndergroundColiseumManager      UndergroundColiseumManager: Loaded 5 coliseum arenas.
-2026.07.12 13:36:22,133 INFO    3       org.l2jmobius.gameserver.managers.games.UndergroundColiseumManager      UndergroundColiseumManager: Starts at 17/07/2026 21:00:00
-2026.07.12 13:36:22,135 INFO    3       org.l2jmobius.gameserver.managers.DailyResetManager     DailyResetManager: Daily task will run now.
-2026.07.12 13:36:22,135 INFO    3       org.l2jmobius.gameserver.managers.DailyResetManager     Starting reset of daily tasks...
-2026.07.12 13:36:22,139 INFO    3       org.l2jmobius.gameserver.managers.DailyResetManager     Daily vitality added successfully.
-2026.07.12 13:36:22,140 INFO    3       org.l2jmobius.gameserver.managers.DailyResetManager     Daily clan bonuses have been reset.
-2026.07.12 13:36:22,140 INFO    3       org.l2jmobius.gameserver.managers.DailyResetManager     Daily skill reuse cleaned.
-2026.07.12 13:36:22,141 INFO    3       org.l2jmobius.gameserver.managers.DailyResetManager     Daily item reuse cleaned.
-2026.07.12 13:36:22,142 INFO    3       org.l2jmobius.gameserver.managers.DailyResetManager     Daily world chat points have been reset.
-2026.07.12 13:36:22,182 INFO    3       org.l2jmobius.gameserver.managers.DailyResetManager     PrimeShopData have been reset.
-2026.07.12 13:36:22,184 INFO    3       org.l2jmobius.gameserver.managers.DailyResetManager     Training Camp durations have been reset.
-2026.07.12 13:36:22,187 INFO    3       org.l2jmobius.gameserver.managers.DailyResetManager     Attendance Rewards have been reset.
-2026.07.12 13:36:22,189 INFO    3       org.l2jmobius.gameserver.model.script.Quest     CharacterBirthday 0 gifts sent. [11/07/2026] - [12/07/2026]
-2026.07.12 13:36:22,189 INFO    3       org.l2jmobius.gameserver.managers.DailyResetManager     Daily tasks reset completed.
-2026.07.12 13:36:22,191 INFO    3       org.l2jmobius.gameserver.managers.MailManager   MailManager: Loaded 0 messages.
-2026.07.12 13:36:22,193 INFO    3       org.l2jmobius.gameserver.managers.PunishmentManager     PunishmentManager: Loaded 0 active and 0 expired punishments.
-2026.07.12 13:36:22,196 INFO    3       org.l2jmobius.gameserver.GameServer    IdManager: Free ObjectID's remaining: 1878993562
-2026.07.12 13:36:22,203 INFO    3       org.l2jmobius.gameserver.data.sql.OfflineTraderTable    OfflineTraderTable: Loading offline traders...
-2026.07.12 13:36:22,203 INFO    3       org.l2jmobius.gameserver.data.sql.OfflineTraderTable    OfflineTraderTable: Loaded 0 offline traders.
-2026.07.12 13:36:22,205 INFO    66      org.l2jmobius.commons.util.DeadlockWatcher      DeadlockWatcher: Thread started.
-2026.07.12 13:36:27,482 INFO    3       org.l2jmobius.gameserver.GameServer    GameServer: Started, using 2218 of 4096 MB total memory.
-2026.07.12 13:36:27,482 INFO    3       org.l2jmobius.gameserver.GameServer    GameServer: Maximum number of connected players is 2000.
-2026.07.12 13:36:27,482 INFO    3       org.l2jmobius.gameserver.GameServer    GameServer: Server loaded in 36 seconds.
-2026.07.12 13:36:27,495 INFO    68      org.l2jmobius.gameserver.LoginServerThread      LoginServerThread: Connecting to login on 127.0.0.1:9014
-2026.07.12 13:36:27,546 INFO    68      org.l2jmobius.gameserver.config.ServerConfig    Gameserver: Generated new HexID file for server id 1.
-2026.07.12 13:36:27,546 INFO    68      org.l2jmobius.gameserver.LoginServerThread      LoginServerThread: Registered on login as Server 1: Bartz
-2026.07.12 13:46:41,065 INFO    65      org.l2jmobius.gameserver.Shutdown      All players disconnected and saved(0ms).
-2026.07.12 13:46:41,066 INFO    65      org.l2jmobius.gameserver.Shutdown      Game Time Task Manager: Thread interruped(2ms).
-2026.07.12 13:46:41,066 INFO    65      org.l2jmobius.commons.threads.ThreadPoolThreadPool: Shutting down all thread pools.
-2026.07.12 13:46:41,068 INFO    65      org.l2jmobius.gameserver.Shutdown      Thread Pool Manager: Manager has been shut down(2ms).
-2026.07.12 13:46:41,068 INFO    65      org.l2jmobius.gameserver.Shutdown      Login Server Thread: Thread interruped(0ms).
-2026.07.12 13:46:41,068 INFO    65      org.l2jmobius.gameserver.Shutdown      SIGTERM received. Shutting down NOW!
-2026.07.12 13:46:41,101 INFO    65      org.l2jmobius.gameserver.Shutdown      RaidBossSpawnManager: All raidboss info saved(33ms).
-2026.07.12 13:46:41,104 INFO    65      org.l2jmobius.gameserver.Shutdown      GrandBossManager: All Grand Boss info saved(2ms).
-2026.07.12 13:46:41,104 INFO    65      org.l2jmobius.gameserver.Shutdown      Item Auction Manager: All tasks stopped(1ms).
-2026.07.12 13:46:41,115 INFO    65      org.l2jmobius.gameserver.Shutdown      Olympiad System: Data saved(11ms).
-2026.07.12 13:46:41,116 INFO    65      org.l2jmobius.gameserver.Shutdown      Hero System: Data saved(1ms).
-2026.07.12 13:46:41,116 INFO    65      org.l2jmobius.gameserver.Shutdown      Clan System: Data saved(0ms).
-2026.07.12 13:46:41,117 INFO    65      org.l2jmobius.gameserver.Shutdown      Cursed Weapons Manager: Data saved(1ms).
-2026.07.12 13:46:41,118 INFO    65      org.l2jmobius.gameserver.Shutdown      Castle Manor Manager: Data saved(1ms).
-2026.07.12 13:46:41,118 INFO    65      org.l2jmobius.gameserver.Shutdown      Script Manager: Data saved(0ms).
-2026.07.12 13:46:41,182 INFO    65      org.l2jmobius.gameserver.managers.GlobalVariablesManager        GlobalVariablesManager: Stored 10 variables.
-2026.07.12 13:46:41,182 INFO    65      org.l2jmobius.gameserver.Shutdown      Global Variables Manager: Variables saved(64ms).
-2026.07.12 13:46:41,183 INFO    65      org.l2jmobius.gameserver.Shutdown      Party Matching History Table: Data saved(1ms).
-2026.07.12 13:46:41,262 INFO    65      org.l2jmobius.gameserver.Shutdown      SchemeBufferTable: Data saved(79ms).
-2026.07.12 13:46:41,263 INFO    65      org.l2jmobius.gameserver.Shutdown      Bot Report Table: Successfully saved reports to database!
-2026.07.12 13:46:46,265 INFO    65      org.l2jmobius.commons.database.DatabaseFactory  Database: HikariCP pool closed successfully.
-2026.07.12 13:46:46,265 INFO    65      org.l2jmobius.gameserver.Shutdown      Database Factory: Database connection has been shut down(2ms).
-2026.07.12 13:46:46,265 INFO    65      org.l2jmobius.gameserver.Shutdown      The server has been successfully shut down in 5seconds.
+[13/07 18:23:51] DatabaseIdManager: Could not execute cleanup query: DELETE FROM character_quests WHERE character_quests.charId NOT IN (SELECT charId FROM characters) - java.lang.RuntimeException: Unable to obtain a database connection.
 
 ==> server/game/log/stdout.log <==
-        at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:461)
-        at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:206)
-        at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1332)
-        at com.mysql.cj.NativeSession.connect(NativeSession.java:155)
-        at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:854)
-        ... 14 more
-[13/07 18:00:29] Database: Could not get a connection.
-java.sql.SQLTransientConnectionException: L2JMobiusPool - Connection is not available, request timed out after 60000ms (total=0, active=0, idle=0, waiting=0)
-        at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:714)
-        at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:184)
-        at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:142)
-        at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:99)
-        at org.l2jmobius.commons.database.DatabaseFactory.getConnection(DatabaseFactory.java:263)
-        at org.l2jmobius.gameserver.managers.DatabaseIdManager.cleanDatabase(DatabaseIdManager.java:162)
-        at org.l2jmobius.gameserver.managers.IdManager.<init>(IdManager.java:49)
-        at org.l2jmobius.gameserver.managers.IdManager$SingletonHolder.<clinit>(IdManager.java:203)
-        at org.l2jmobius.gameserver.managers.IdManager.getInstance(IdManager.java:198)
-        at org.l2jmobius.gameserver.GameServer.<init>(GameServer.java:228)
-        at org.l2jmobius.gameserver.GameServer.main(GameServer.java:535)
-Caused by: java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
         at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:102)
         at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
         at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:81)
@@ -1168,5 +505,5 @@ Caused by: com.mysql.cj.exceptions.CJException: Access denied for user 'root'@'l
         at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:854)
         ... 14 more
 
-[13/07 18:00:29] DatabaseIdManager: Could not execute cleanup query: DELETE FROM character_contacts WHERE character_contacts.charId NOT IN (SELECT charId FROM characters) - java.lang.RuntimeException: Unable to obtain a database connection.
+[13/07 18:28:14] DatabaseIdManager: Could not execute cleanup query: DELETE FROM character_contacts WHERE character_contacts.charId NOT IN (SELECT charId FROM characters) - java.lang.RuntimeException: Unable to obtain a database connection.
 root@denyyzyy:~/lineage2#
