@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="13500" levels="1" name="Monster Weapon Appearance Stone: Glakias\' Hammer">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13501" levels="1" name="Monster Weapon Appearance Stone: Tebot\'s Dual Blunt Weapon">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13502" levels="1" name="Monster Weapon Appearance Stone: Drakos\' Dagger">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13503" levels="1" name="Monster Weapon Appearance Stone: Drakos\' Dual Dagger">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13504" levels="1" name="Monster Weapon Appearance Stone: Guillotine\'s Greatsword">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13505" levels="1" name="Monster Weapon Appearance Stone: Thesakar\'s Axe">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13506" levels="1" name="Monster Weapon Appearance Stone: Mimilead\'s Staff">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13507" levels="1" name="Monster Weapon Appearance Stone: Satyr\'s Staff">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13508" levels="1" name="Monster Weapon Appearance Stone: Kanadis\' Hand">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13509" levels="1" name="Monster Weapon Appearance Stone: Kanadis\' Bow">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13510" levels="1" name="Monster Weapon Appearance Stone: Centaur\'s Bow">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13511" levels="1" name="Monster Weapon Appearance Stone: Spicula\'s Crossbow">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13512" levels="1" name="Monster Weapon Appearance Stone: Theor\'s Shield">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13513" levels="1" name="Monster Weapon Appearance Stone: Shield of Corruption">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13514" levels="1" name="Giant\'s Damage Reflect">
+		<set name="icon" value="icon.skill0086"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="reflectDam" value="20"/>
+			<add stat="reflectBowDam" value="20"/>
+			<add stat="reflectPSkillDam" value="20"/>
+			<add stat="reflectMSkillDam" value="20"/>
+		</for>
+	</skill>
+	<skill id="13515" levels="1" name="Giant\'s Critical Damage">
+		<set name="icon" value="icon.skill0482"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_time" value="300"/>
+		<set name="abnormal_type" value="abnormal_item"/>
+		<set name="abnormal_level" value="5"/>
+		<for>
+			<effect>
+				<add stat="p_critical_damage_per" value="15"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="13516" levels="1" name="Giant\'s Damage Reflect Shield">
+		<set name="icon" value="icon.active_damage_shield1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="resistRelectDam" value="50"/>
+		</for>
+	</skill>
+	<skill id="13517" levels="1" name="Giant\'s Battle Roar">
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_time" value="300"/>
+		<set name="abnormal_type" value="abnormal_item"/>
+		<set name="abnormal_level" value="5"/>
+		<for>
+			<effect>
+				<mul stat="maxHp" value="1.1"/>
+				<mul stat="maxCp" value="1.1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="13518" levels="1" name="Giant\'s Celestial Shield">
+		<set name="icon" value="icon.skill11758"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_time" value="30"/>
+		<set name="abnormal_type" value="abnormal_item"/>
+		<set name="abnormal_level" value="5"/>
+		<set name="abnormal_cancel_on_action" value="true"/>
+		<for>
+			<effect name="Invulnerable"/>
+			<effect name="p_block_debuff"/>
+		</for>
+	</skill>
+	<skill id="13519" levels="1" name="Giant\'s Undying Will">
+		<set name="icon" value="icon.race_orc_immortality"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="abnormal_type" value="abnormal_item"/>
+		<set name="abnormal_level" value="5"/>
+		<cond msgId="113">
+			<player percentHP="20"/>
+		</cond>
+		<for>
+			<effect name="Invulnerable"/>
+			<effect name="p_block_debuff"/>
+		</for>
+	</skill>
+	<skill id="13520" levels="1" name="Giant\'s Silence">
+		<set name="icon" value="icon.skill1064"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="1000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="MUTE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_effect" value="SILENCE"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="silence_all"/>
+		<set name="trait" value="DERANGEMENT"/>
+		<set name="ignoreResists" value="true"/>
+		<set name="activateRate" value="100"/>
+		<for>
+			<effect name="MuteAll"/>
+		</for>
+	</skill>
+	<skill id="13521" levels="1" name="Giant\'s Sleep">
+		<set name="icon" value="icon.skill1069"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="1000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="SLEEP"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_effect" value="SLEEP"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="sleep"/>
+		<set name="ignoreResists" value="true"/>
+		<set name="trait" value="SLEEP"/>
+		<set name="activateRate" value="80"/>
+		<for>
+			<effect name="Sleep"/>
+		</for>
+	</skill>
+	<skill id="13522" levels="1" name="Giant\'s Winter">
+		<set name="icon" value="icon.skill1454"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="1000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="activateRate" value="100"/>
+		<set name="abnormal_level" value="1"/>
+		<!--TODO: <set name="abnormal_type" value=""/>-->
+		<for>
+			<effect>
+				<mul stat="pAtkSpd" value="0.5"/>
+				<mul stat="mAtkSpd" value="0.5"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="13523" levels="1" name="Giant\'s Critical Weakness">
+		<set name="icon" value="icon.skill1222"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="1000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="activateRate" value="100"/>
+		<set name="abnormal_level" value="6"/>
+		<set name="abnormal_type" value="t_crt_rate_up"/>
+		<for>
+			<effect>
+				<mul stat="pCritDamRcpt" value="1.9"/>
+				<mul stat="pCritChanceRcpt" value="1.9"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="13524" levels="1" name="Lindvior\'s Earring">
+		<set name="icon" value="icon.accessory_earring_of_lind_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="runSpd" value="5"/>
+			<add order="0x10" stat="DEX" value="3"/>
+			<add order="0x10" stat="WIT" value="3"/>
+			<add stat="defenceWind" value="100"/>
+			<add stat="defenceUnholy" value="100"/>
+			<add stat="pCritRate" value="10"/>
+			<add stat="mCritRate" value="10"/>
+		</for>
+	</skill>
+	<skill id="13525" levels="1" name="Blessed Lindvior\'s Earring">
+		<set name="icon" value="icon.accessory_earring_of_lind_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_defence_trait name="knockdown" value="40"/>
+			<p_attack_trait name="knockdown" value="40"/>
+			<p_defence_trait name="knockback" value="40"/>
+			<p_attack_trait name="knockback" value="40"/>
+			<add stat="p_critical_damage_per" order="0x40" value="10"/>
+			<add stat="p_magic_critical_dmg_per" order="0x40" value="10"/>
+			<add stat="reflectPhysicDebuff" order="0x40" value="10" />
+			<add stat="reflectMagicDebuff" order="0x40" value="10"/>
+			<add stat="reflectAndBlockMSkillDam" order="0x40" value="10"/>
+			<add stat="runSpd" order="0x40" value="5"/>
+			<add stat="DEX" order="0x10" value="3"/>
+			<add stat="WIT" order="0x10" value="3"/>
+			<add stat="defenceWind" order="0x40" value="20"/>
+			<add stat="defenceUnholy" order="0x40" value="20"/>
+		</for>
+	</skill>
+	<skill id="13526" levels="1" name="Blessed Lindvior\'s Earring">
+		<set name="icon" value="icon.accessory_earring_of_lind_i00"/>
+		<set name="reuseDelay" value="7200000"/>
+		<set name="hitTime" value="200"/>
+		<set name="abnormal_time" value="5"/>	<!--TODO: Check.-->
+		<set name="magicLevel" value="85"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<for>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="knockback"/>
+				<def name="max_abnormal_level" value="8"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="knockdown"/>
+				<def name="max_abnormal_level" value="8"/>
+			</effect>
+			<effect>
+				<p_defence_trait name="knockdown" value="100"/>
+				<p_defence_trait name="knockback" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="13527" levels="1" name="Enhanced Octavis\' Ring (Warrior)">
+		<set name="icon" value="icon.octavis_ring_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtkSpd" value="1.03"/>
+			<add stat="pCritRate" value="10"/>
+			<add stat="p_critical_damage_per" value="15"/>
+		</for>
+	</skill>
+	<skill id="13528" levels="1" name="Enhanced Octavis\' Earring (Warrior)">
+		<set name="icon" value="icon.octavis_earring_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pDef" value="1.03"/>
+			<mul stat="mpConsumePhysical" value="0.95"/>
+			<mul stat="hpEff" value="1.05"/>
+		</for>
+	</skill>
+	<skill id="13529" levels="1" name="Enhanced Octavis\' Necklace (Warrior)">
+		<set name="icon" value="icon.octavis_necklace_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.03"/>
+			<mul stat="mpConsumePhysical" value="0.90"/>
+			<add stat="reflectDam" value="5"/>
+			<add stat="reflectBowDam" value="5"/>
+			<add stat="reflectPSkillDam" value="5"/>
+			<add stat="reflectMSkillDam" value="5"/>
+		</for> 
+	</skill>
+	<skill id="13530" levels="1" name="Enhanced Istina\' Ring (Warrior)">
+		<set name="icon" value="icon.istina_ring_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtkSpd" value="1.02"/>
+			<add stat="pCritRate" value="10"/>
+			<add stat="p_critical_damage_per" value="10"/>
+		</for>
+	</skill>
+	<skill id="13531" levels="1" name="Enhanced Istina\' Earring (Warrior)">
+		<set name="icon" value="icon.istina_earring_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pDef" value="1.02"/>
+			<mul stat="mpConsumePhysical" value="0.97"/>
+			<mul stat="hpEff" value="1.05"/>
+		</for>
+	</skill>
+	<skill id="13532" levels="1" name="Enhanced Istina\' Necklace (Warrior)">
+		<set name="icon" value="icon.istina_necklace_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.02"/>
+			<mul stat="mpConsumePhysical" value="0.95"/>
+			<add stat="reflectDam" value="5"/>
+			<add stat="reflectBowDam" value="5"/>
+			<add stat="reflectPSkillDam" value="5"/>
+			<add stat="reflectMSkillDam" value="5"/>
+		</for> 
+	</skill>
+	<skill id="13533" levels="1" name="Enhanced Octavis\' Ring (Wizard)">
+		<set name="icon" value="icon.octavis_ring_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtkSpd" value="1.03"/>
+			<add stat="p_magic_critical_dmg_per" value="10"/>
+			<add stat="mCritRate" value="10"/>
+		</for>
+	</skill>
+	<skill id="13534" levels="1" name="Enhanced Octavis\' Earring (Wizard)">
+		<set name="icon" value="icon.octavis_earring_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mDef" value="1.02"/>
+			<mul stat="mpConsum" value="0.97"/>
+			<mul stat="hpEff" value="1.05"/>
+		</for>
+	</skill>
+	<skill id="13535" levels="1" name="Enhanced Octavis\' Necklace (Wizard)">
+		<set name="icon" value="icon.octavis_necklace_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="1.03"/>
+			<mul stat="mpConsumePhysical" value="0.95"/>
+			<add stat="reflectDam" value="5"/>
+			<add stat="reflectBowDam" value="5"/>
+			<add stat="reflectPSkillDam" value="5"/>
+			<add stat="reflectMSkillDam" value="5"/>
+		</for> 
+	</skill>
+	<skill id="13536" levels="1" name="Enhanced Istina\' Ring (Wizard)">
+		<set name="icon" value="icon.istina_ring_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtkSpd" value="1.03"/>
+			<add stat="mCritRate" value="10"/>
+			<add stat="p_magic_critical_dmg_per" value="10"/>
+		</for> 
+	</skill>
+	<skill id="13537" levels="1" name="Enhanced Istina\' Earring (Wizard)">
+		<set name="icon" value="icon.istina_earring_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pDef" value="1.03"/>
+			<mul stat="mpConsumePhysical" value="0.95"/>
+			<mul stat="hpEff" value="1.05"/> 
+		</for>
+	</skill>
+	<skill id="13538" levels="1" name="Enhanced Istina\' Necklace (Wizard)">
+		<set name="icon" value="icon.istina_necklace_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="1.05"/>
+			<mul stat="mReuse" value="0.90"/>
+			<add stat="reflectDam" value="5"/>
+			<add stat="reflectBowDam" value="5"/>
+			<add stat="reflectPSkillDam" value="5"/>
+			<add stat="reflectMSkillDam" value="5"/> 
+		</for>
+	</skill>
+	<skill id="13539" levels="1" name="Baium\'s Soul Ring">
+		<set name="icon" value="icon.accessory_ring_of_baium_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_defence_trait name="shock" value="25"/>
+			<p_defence_trait name="hold" value="25"/>
+			<p_defence_trait name="derangement" value="25"/>
+			<p_attack_trait name="shock" value="25"/>
+			<p_attack_trait name="hold" value="25"/>
+			<p_attack_trait name="derangement" value="25"/>
+			<add stat="p_critical_damage_per" value="15"/>
+			<add stat="p_magic_critical_dmg_per" value="15"/>
+			<mul stat="pAtkSpd" value="1.05"/>
+			<mul stat="mAtkSpd" value="1.05"/>
+			<add stat="pAccCombat" value="4"/>
+			<add stat="mAccCombat" value="4"/> 
+		</for>
+	</skill>
+	<skill id="13540" levels="1" name="Frintezza\'s Soul Necklace">
+		<set name="icon" value="icon.accessory_necklace_of_frintessa_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_defence_trait name="sleep" value="20"/>
+			<p_defence_trait name="poison" value="20"/>
+			<p_defence_trait name="bleed" value="20"/>
+			<p_defence_trait name="paralyze" value="20"/>
+			<p_defence_trait name="shock" value="20"/>
+			<p_attack_trait name="sleep" value="20"/>
+			<p_attack_trait name="poison" value="20"/>
+			<p_attack_trait name="bleed" value="20"/>
+			<p_attack_trait name="paralyze" value="20"/>
+			<p_attack_trait name="shock" value="20"/>
+			<add stat="reflectDam" value="5"/>
+			<add stat="reflectBowDam" value="5"/>
+			<add stat="reflectPSkillDam" value="5"/>
+			<add stat="reflectMSkillDam" value="5"/>
+			<add stat="runSpd" value="5"/>
+			<mul stat="mReuse" value="0.90"/>
+			<mul stat="pReuse" value="0.90"/>
+			<mul stat="musicReuse" value="0.90"/> 
+		</for>
+	</skill>
+	<skill id="13541" levels="1" name="Octavis\' Shirt">
+		<set name="icon" value="icon.istina_shirt_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="STR" value="2"/>
+			<add order="0x10" stat="DEX" value="1"/>
+			<add order="0x10" stat="CON" value="2"/>
+			<add order="0x10" stat="INT" value="2"/>
+			<add order="0x10" stat="WIT" value="1"/>
+			<add order="0x10" stat="MEN" value="2"/>
+			<add stat="defenceUnholy" value="30"/>  
+			<add stat="runSpd" value="7"/>
+		</for>
+	</skill>
+	<skill id="13542" levels="1" name="Lindvior\'s Earring">
+		<set name="icon" value="icon.accessory_earring_of_lind_i00"/>
+		<set name="reuseDelay" value="7200000"/>
+		<set name="hitTime" value="200"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="magicLevel" value="85"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="abnormal_level" value="1"/>
+		<!--<set name="abnormal_type" value=""/>-->
+		<for>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="knockback"/>
+				<def name="max_abnormal_level" value="8"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="knockdown"/>
+				<def name="max_abnormal_level" value="8"/>
+			</effect>
+			<effect>
+				<p_defence_trait name="knockdown" value="100"/>
+				<p_defence_trait name="knockback" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="13543" levels="1" name="NC Messenger\'s Hat">
+		<set name="icon" value="icon.nc_hair_acc"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13544" levels="1" name="Kisung\'s Mysterious Power">
+		<set name="icon" value="icon.skill17085"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="ITEM"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="isHandler" value="true"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="mpConsumePhysical" value="0.97"/>
+				<mul stat="mpConsum" value="0.97"/>
+				<mul stat="mpDanceConsume" value="0.97"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="13545" levels="1" name="Kisung\'s Great Power">
+		<set name="icon" value="icon.skill17085"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="ITEM"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="isHandler" value="true"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add order="0x30" stat="pAtkSpd" value="50"/>
+				<add order="0x30" stat="mAtkSpd" value="50"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="13546" levels="1" name="Kisung\'s Balanced Power">
+		<set name="icon" value="icon.skill17085"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="ITEM"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="isHandler" value="true"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add order="0x10" stat="STR" value="1"/>
+				<add order="0x10" stat="DEX" value="1"/>
+				<add order="0x10" stat="CON" value="1"/>
+				<add order="0x10" stat="INT" value="1"/>
+				<add order="0x10" stat="WIT" value="1"/>
+				<add order="0x10" stat="MEN" value="1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="13547" levels="1" name="Mysterious Shaper">
+		<set name="icon" value="icon.bm_the_dagger_of_hero"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13548" levels="1" name="Mysterious Cutter">
+		<set name="icon" value="icon.bm_the_sword_of_hero"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13549" levels="1" name="Mysterious Slasher">
+		<set name="icon" value="icon.bm_the_two_handed_sword_of_hero"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13550" levels="1" name="Mysterious Avenger">
+		<set name="icon" value="icon.bm_the_axe_of_hero"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13551" levels="1" name="Mysterious Fighter">
+		<set name="icon" value="icon.bm_the_fist_of_hero"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13552" levels="1" name="Mysterious Stormer">
+		<set name="icon" value="icon.bm_the_pole_of_hero"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13553" levels="1" name="Mysterious Thrower">
+		<set name="icon" value="icon.bm_the_bow_of_hero"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13554" levels="1" name="Mysterious Shooter">
+		<set name="icon" value="icon.bm_infinity_shooter"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13555" levels="1" name="Mysterious Buster">
+		<set name="icon" value="icon.bm_infinity_sword"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13556" levels="1" name="Mysterious Caster">
+		<set name="icon" value="icon.bm_the_mace_of_hero"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13557" levels="1" name="Mysterious Retributer">
+		<set name="icon" value="icon.bm_the_staff_of_hero"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13558" levels="1" name="Mysterious Dualsword">
+		<set name="icon" value="icon.bm_r_dualsword"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13559" levels="1" name="Mysterious Dual Dagger">
+		<set name="icon" value="icon.bm_r_dualdagger"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13560" levels="1" name="Mysterious Dual Blunt">
+		<set name="icon" value="icon.bm_r_dualblunt"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13561" levels="1" name="Basic Effect: Shiny Elemental Shirt">
+		<set name="icon" value="BranchSys2.icon.etc_scroll_of_enchant_shirt_i01"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="mDef" value="8"/>
+		</for>
+	</skill>
+	<skill id="13562" levels="10" name="Enchant Effect: Shiny Elemental Shirt">
+		<table name="#mDef">9 10 11 12 13 14 15 16 17 18</table>
+		<table name="#runSpd">0 0 0 7 7 7 7 7 7 7</table>
+		<table name="#maxHpMp">0 0 0 510 520 531 536 541 547 552</table>
+		<table name="#mpConsum">1 1 1 1 0.97 0.97 0.97 0.97 0.97 0.97</table>
+		<table name="#resistRelectDam">0 0 0 0 0 5 5 5 5 5</table>
+		<table name="#absorbDam">0 0 0 0 0 0 5 5 5 5</table>
+		<table name="#reuse">1 1 1 1 1 1 1 0.97 0.97 0.97</table>
+		<table name="#defenceElemental">0 0 0 6 12 18 24 30 36 36</table>
+		<table name="#STR">0 0 0 1 2 3 3 4 4 4</table>
+		<table name="#DEX">0 0 0 1 2 3 3 4 4 4</table>
+		<table name="#CON">0 0 0 1 2 2 3 3 4 4</table>
+		<table name="#INT">0 0 0 1 2 3 3 4 4 4</table>
+		<table name="#WIT">0 0 0 1 2 3 3 4 4 4</table>
+		<table name="#MEN">0 0 0 1 2 2 3 3 4 4</table>
+		<table name="#receive_damage_power">1 1 1 1 1 1 1 1 0.97 0.97</table>
+		<set name="icon" value="BranchSys2.icon.etc_scroll_of_enchant_shirt_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="mDef" value="#mDef"/>
+			<add stat="runSpd" value="#runSpd"/>
+			<add stat="maxHp" value="#maxHpMp"/>
+			<add stat="maxMp" value="#maxHpMp"/>
+			<mul stat="mpConsum" value="#mpConsum"/>
+			<mul stat="mpConsumePhysical" value="#mpConsum"/>
+			<mul stat="mpDanceConsume" value="#mpConsum"/>
+			<add stat="resistRelectDam" value="#resistRelectDam"/>
+			<add stat="absorbDam" value="#absorbDam"/>
+			<add stat="absorbBowDam" value="#absorbDam"/>
+			<add stat="absorbPSkillDam" value="#absorbDam"/>
+			<add stat="absorbMSkillDam" value="#absorbDam"/>
+			<mul stat="mReuse" value="#reuse"/>
+			<mul stat="pReuse" value="#reuse"/>
+			<mul stat="musicReuse" value="#reuse"/>
+			<add stat="defenceFire" value="#defenceElemental"/>
+			<add stat="defenceWater" value="#defenceElemental"/>
+			<add stat="defenceWind" value="#defenceElemental"/>
+			<add stat="defenceEarth" value="#defenceElemental"/>
+			<add stat="defenceHoly" value="#defenceElemental"/>
+			<add stat="defenceUnholy" value="#defenceElemental"/>
+			<add order="0x10" stat="STR" value="#STR"/>
+			<add order="0x10" stat="DEX" value="#DEX"/>
+			<add order="0x10" stat="CON" value="#CON"/>
+			<add order="0x10" stat="INT" value="#INT"/>
+			<add order="0x10" stat="WIT" value="#WIT"/>
+			<add order="0x10" stat="MEN" value="#MEN"/>
+			<mul stat="receive_p_damage_power" value="#receive_damage_power"/>
+			<mul stat="receive_m_damage_power" value="#receive_damage_power"/>
+		</for>
+	</skill>
+	<skill id="13563" levels="5" name="Einhasad\'s Wrath">
+		<table name="#reuseDelay">1800000 1740000 1680000 1620000 1500000</table>
+		<set name="icon" value="icon.ainhasard_shirt"/>
+		<set name="reuseDelay" value="#reuseDelay"/>
+		<set name="abnormal_time" value="60"/>
+		<set name="abnormal_level" value="1"/>
+		<!--TODO: <set name="abnormal_type" value=""/>-->
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<for>
+			<effect>
+				<mul stat="pAtk" value="1.1"/>
+				<mul stat="mAtk" value="1.2"/>
+				<mul stat="pAtkSpd" value="1.1"/>
+				<mul stat="mAtkSpd" value="1.1"/>
+				<mul stat="pDef" value="0.9"/>
+				<mul stat="mDef" value="0.9"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="13564" levels="4" name="Einhasad\'s Protection">
+		<table name="#reuseDelay">1800000 1680000 1560000 1500000</table>
+		<set name="icon" value="icon.ainhasard_shirt_2"/>
+		<set name="reuseDelay" value="#reuseDelay"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="abnormal_effect" value="INVINCIBILITY"/>
+		<set name="abnormal_level" value="1"/>
+		<!--TODO: <set name="abnormal_type" value=""/>-->
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<for>
+			<effect name="Invulnerable"/>
+			<effect name="p_block_debuff"/>
+		</for>
+	</skill>
+	<skill id="13565" levels="3" name="Einhasad\'s Silence">
+		<table name="#reuseDelay">1800000 1620000 1500000</table>
+		<set name="icon" value="icon.ainhasard_shirt_3"/>
+		<set name="reuseDelay" value="#reuseDelay"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="abnormal_level" value="1"/>
+		<!--TODO: <set name="abnormal_type" value=""/>-->
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<for>
+			<effect name="p_block_target"/>
+			<effect name="i_dispel_by_category">
+				<def name="abnormal_category" value="slot_debuff"/>
+				<def name="dispel_chance" value="100"/>
+				<def name="max_count" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="13566" levels="2" name="Einhasad\'s Salvation">
+		<table name="#reuseDelay">1800000 1500000</table>
+		<set name="icon" value="icon.ainhasard_shirt_4"/>
+		<set name="reuseDelay" value="#reuseDelay"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="resurrection_special"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<for>
+			<effect name="Salvation"/>
+		</for>
+	</skill>
+	<skill id="13567" levels="1" name="Einhasad\'s Blessing">
+		<!--TODO:
+			1	Восстанавливает все свои HP/MP/CP и с определенной вероятностью отменяет отрицательные эффекты. Время перезарядки 30 мин.
+		-->
+		<set name="icon" value="icon.ainhasard_shirt_5"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="i_dispel_by_category">
+				<def name="abnormal_category" value="slot_debuff"/>
+				<def name="dispel_chance" value="100"/>
+				<def name="max_count" value="-1"/>
+			</effect>
+			<effect instant="true" name="RestoreHP" value="100">
+				<def name="ignore_bonuses" value="true"/>
+				<def name="percent" value="true"/>
+			</effect>
+			<effect instant="true" name="RestoreMP" value="100">
+				<def name="ignore_bonuses" value="true"/>
+				<def name="percent" value="true"/>
+			</effect>
+			<effect instant="true" name="RestoreCP" value="100">
+				<def name="ignore_bonuses" value="true"/>
+				<def name="percent" value="true"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="13568" levels="1" name="Talisman Energy">
+		<set name="icon" value="icon.r85_talisman_pa_up_passive"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13569" levels="3" name="Talisman - Lilith">
+		<table name="#icon">icon.lilith_talisman_i00 icon.anakim_talisman_i00 icon.sevensign_talisman_i00</table>
+		<table name="#mDef">552 0 736</table>
+		<table name="#pDef">0 971 1126</table>
+		<table name="#regMp">3 0 4</table>
+		<table name="#regHp">0 6 8</table>
+		<table name="#defenceFire">0 0 10</table>
+		<table name="#defenceWater">0 0 10</table>
+		<table name="#defenceWind">0 0 10</table>
+		<table name="#defenceEarth">0 0 10</table>
+		<table name="#defenceHoly">0 10 10</table>
+		<table name="#resistRelectDam">6 6 14</table>
+		<table name="#ElementalAttack">0 0 50</table>
+		<table name="#WeaponRcp">0 0 7</table>
+		<set name="icon" value="#icon"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="mDef" value="#mDef"/>
+			<add stat="pDef" value="#pDef"/>
+			<add stat="regMp" value="#regMp"/>
+			<add stat="regHp" value="#regHp"/>
+			<add stat="defenceFire" value="#defenceFire"/>
+			<add stat="defenceWater" value="#defenceWater"/>
+			<add stat="defenceWind" value="#defenceWind"/>
+			<add stat="defenceEarth" value="#defenceEarth"/>
+			<add stat="defenceHoly" value="#defenceHoly"/>
+			<add stat="defenceUnholy" value="10"/>
+			<add stat="resistRelectDam" value="#resistRelectDam"/>
+			<p_defence_trait name="sword" value="#WeaponRcp">
+				<player hasBuffId="8864;6"/>
+			</p_defence_trait>
+			<p_defence_trait name="dual" value="#WeaponRcp">
+				<or>
+					<player hasBuffId="13389"/>
+					<player hasBuffId="17978"/>
+				</or>	
+			</p_defence_trait>
+			<p_defence_trait name="blunt" value="#WeaponRcp">
+				<or>
+					<player hasBuffId="13389"/>
+					<player hasBuffId="17978"/>
+				</or>
+			</p_defence_trait>
+			<p_defence_trait name="dagger" value="#WeaponRcp">
+				<or>
+					<player hasBuffId="13389"/>
+					<player hasBuffId="17978"/>
+				</or>
+			</p_defence_trait>
+			<p_defence_trait name="pole" value="#WeaponRcp">
+				<or>
+					<player hasBuffId="13389"/>
+					<player hasBuffId="17978"/>
+				</or>
+			</p_defence_trait>
+			<p_defence_trait name="fist" value="#WeaponRcp">
+				<or>
+					<player hasBuffId="13389"/>
+					<player hasBuffId="17978"/>
+				</or>
+			</p_defence_trait>
+			<p_defence_trait name="bow" value="#WeaponRcp">
+				<or>
+					<player hasBuffId="13389"/>
+					<player hasBuffId="17978"/>
+				</or>
+			</p_defence_trait>
+			<p_defence_trait name="crossbow" value="#WeaponRcp">
+				<or>
+					<player hasBuffId="13389"/>
+					<player hasBuffId="17978"/>
+				</or>
+			</p_defence_trait>
+			<add stat="attackFire" value="#ElementalAttack">
+				<or>
+					<player hasBuffId="13389"/>
+					<player hasBuffId="17978"/>
+				</or>
+			</add>
+			<add stat="attackWater" value="#ElementalAttack">
+				<or>
+					<player hasBuffId="13389"/>
+					<player hasBuffId="17978"/>
+				</or>
+			</add>
+			<add stat="attackEarth" value="#ElementalAttack">
+				<or>
+					<player hasBuffId="13389"/>
+					<player hasBuffId="17978"/>
+				</or>
+			</add>
+			<add stat="attackUnholy" value="#ElementalAttack">
+				<or>
+					<player hasBuffId="13389"/>
+					<player hasBuffId="17978"/>
+				</or>
+			</add>
+			<add stat="attackHoly" value="#ElementalAttack">
+				<or>
+					<player hasBuffId="13389"/>
+					<player hasBuffId="17978"/>
+				</or>
+			</add>
+		</for>
+	</skill>
+	<skill id="13570" levels="1" name="Hero\'s Weapon: Dagger">
+		<set name="icon" value="icon.bm_the_dagger_of_hero"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13571" levels="1" name="Hero\'s Weapon: One-handed Sword">
+		<set name="icon" value="icon.bm_the_sword_of_hero"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13572" levels="1" name="Hero\'s Weapon: Two-handed Sword">
+		<set name="icon" value="icon.bm_the_two_handed_sword_of_hero"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13573" levels="1" name="Hero\'s Weapon: One-handed Blunt Weapon">
+		<set name="icon" value="icon.bm_the_axe_of_hero"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13574" levels="1" name="Hero\'s Weapon: Fist Weapon">
+		<set name="icon" value="icon.bm_the_fist_of_hero"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13575" levels="1" name="Hero\'s Weapon: Spear">
+		<set name="icon" value="icon.bm_the_pole_of_hero"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13576" levels="1" name="Hero\'s Weapon: Bow">
+		<set name="icon" value="icon.bm_the_bow_of_hero"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13577" levels="1" name="Hero\'s Weapon: Crossbow">
+		<set name="icon" value="icon.bm_infinity_shooter"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13578" levels="1" name="Hero\'s Weapon: One-handed Magic Sword">
+		<set name="icon" value="icon.bm_infinity_sword"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13579" levels="1" name="Hero\'s Weapon: One-handed Magic Blunt Weapon">
+		<set name="icon" value="icon.bm_the_mace_of_hero"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13580" levels="1" name="Hero\'s Weapon: Two-handed Magic Blunt Weapon">
+		<set name="icon" value="icon.bm_the_staff_of_hero"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13581" levels="1" name="Hero\'s Weapon: Dualsword">
+		<set name="icon" value="icon.bm_r_dualsword"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13582" levels="1" name="Hero\'s Weapon: Dual Dagger">
+		<set name="icon" value="icon.bm_r_dualdagger"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13583" levels="1" name="Hero\'s Weapon: Dual Blunt Weapon">
+		<set name="icon" value="icon.bm_r_dualblunt"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13584" levels="2" name="Aria\'s Bracelet: CON">
+		<set name="icon" value="icon.istina_bangel"/>
+		<set name="operate_type" value="P"/>
+		<table name="#val">3 4</table>
+		<for>
+			<add order="0x10" stat="CON" value="#val"/>
+			<add stat="maxHp" value="531"/>
+			<add stat="talismansLimit" value="5"/>
+		</for>
+	</skill>
+	<skill id="13585" levels="2" name="Aria\'s Bracelet: MEN">
+		<set name="icon" value="icon.istina_bangel"/>
+		<set name="operate_type" value="P"/>
+		<table name="#val">3 4</table>
+		<for>
+			<add order="0x10" stat="MEN" value="#val"/>
+			<add stat="maxHp" value="531"/>
+			<add stat="talismansLimit" value="5"/>
+		</for>
+	</skill>
+	<skill id="13586" levels="2" name="Aria\'s Bracelet: DEX">
+		<set name="icon" value="icon.octavis_bangel"/>
+		<set name="operate_type" value="P"/>
+		<table name="#val">3 4</table>
+		<for>
+			<add order="0x10" stat="DEX" value="#val"/>
+			<add stat="maxHp" value="531"/>
+			<add stat="talismansLimit" value="5"/>
+		</for>
+	</skill>
+	<skill id="13587" levels="2" name="Aria\'s Bracelet: WIT">
+		<set name="icon" value="icon.octavis_bangel"/>
+		<set name="operate_type" value="P"/>
+		<table name="#val">3 4</table>
+		<for>
+			<add order="0x10" stat="WIT" value="#val"/>
+			<add stat="maxHp" value="531"/>
+			<add stat="talismansLimit" value="5"/>
+		</for>
+	</skill>
+	<skill id="13588" levels="2" name="Aria\'s Bracelet: STR">
+		<set name="icon" value="icon.accessory_bangel_of_tauti_i01"/>
+		<set name="operate_type" value="P"/>
+		<table name="#val">3 4</table>
+		<for>
+			<add order="0x10" stat="STR" value="#val"/>
+			<add stat="maxHp" value="531"/>
+			<add stat="talismansLimit" value="5"/>
+		</for>
+	</skill>
+	<skill id="13589" levels="2" name="Aria\'s Bracelet: INT">
+		<set name="icon" value="icon.accessory_bangel_of_tauti_i01"/>
+		<set name="operate_type" value="P"/>
+		<table name="#val">3 4</table>
+		<for>
+			<add order="0x10" stat="INT" value="#val"/>
+			<add stat="maxHp" value="531"/>
+			<add stat="talismansLimit" value="5"/>
+		</for>
+	</skill>
+	<skill id="13590" levels="1" name="Augment Option - P. Def.">
+		<set name="icon" value="icon.skill4416_dwarf"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13591" levels="1" name="Augment Option - Elemental Resistance">
+		<set name="icon" value="icon.skill4416_dwarf"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13592" levels="1" name="Augment Option - Attribute Resistance">
+		<set name="icon" value="icon.skill4416_dwarf"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13593" levels="1" name="Augment Option - Decrease P. Skill MP Consumption">
+		<set name="icon" value="icon.skill4416_dwarf"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13594" levels="1" name="Augment Option - Decrease M. Skill MP Consumption">
+		<set name="icon" value="icon.skill4416_dwarf"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13595" levels="1" name="Augment Option - Decrease Skill Cooldown">
+		<set name="icon" value="icon.skill4416_dwarf"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13596" levels="1" name="Augment Option - P. Critical Damage">
+		<set name="icon" value="icon.skill4416_dwarf"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13597" levels="1" name="Augment Option - M. Critical Damage">
+		<set name="icon" value="icon.skill4416_dwarf"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13598" levels="1" name="Augment Option - Heal Amount">
+		<set name="icon" value="icon.skill4416_dwarf"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13599" levels="1" name="Augment Option - Fire Resistance">
+		<set name="icon" value="icon.skill4416_dwarf"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+</list>

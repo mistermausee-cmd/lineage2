@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "residence.dtd">
+<list>
+	<residence id="119" name="Aaru Fortress" impl="Fortress">
+		<available_functions>
+			<function type="RESTORE_HP" level="25"/>
+			<function type="RESTORE_HP" level="30"/>
+			<function type="RESTORE_MP" level="18"/>
+			<function type="RESTORE_MP" level="20"/>
+			<function type="RESTORE_EXP" level="19"/>
+			<function type="RESTORE_EXP" level="20"/>
+			<function type="TELEPORT" level="11"/>
+			<function type="TELEPORT" level="12"/>
+			<function type="SUPPORT" level="15"/>
+			<function type="SUPPORT" level="18"/>
+		</available_functions>
+		<skills>
+			<skill id="19103" level="1"/> 	<!--Война Обители-->
+		</skills>
+		<banish_points>
+			<point x="70783" y="190894" z="-2888"/>
+			<point x="70426" y="190887" z="-2920"/>
+			<point x="71497" y="180580" z="-3168"/>
+			<point x="71446" y="180657" z="-3168"/>
+		</banish_points>
+		<owner_restart_points>
+			<point x="73441" y="186346" z="-2256"/>
+			<point x="73430" y="186183" z="-2256"/>
+			<point x="73585" y="186076" z="-2256"/>
+		</owner_restart_points>
+		<other_restart_points>
+			<point x="107568" y="218256" z="-3624"/>
+			<point x="107920" y="218240" z="-3624"/>
+			<point x="107808" y="217856" z="-3624"/>
+			<point x="108032" y="218048" z="-3624"/>
+			<point x="107552" y="218000" z="-3624"/>
+			<point x="110912" y="219584" z="-3624"/>
+			<point x="110768" y="219824" z="-3624"/>
+			<point x="110688" y="220576" z="-3624"/>
+			<point x="110896" y="220768" z="-3624"/>
+			<point x="111856" y="220752" z="-3624"/>
+			<point x="112112" y="220576" z="-3624"/>
+			<point x="112064" y="219792" z="-3624"/>
+			<point x="111888" y="219584" z="-3624"/>
+		</other_restart_points>
+		<chaos_restart_points>
+			<point x="117872" y="225536" z="-3200"/>
+			<point x="118064" y="225648" z="-3200"/>
+			<point x="101696" y="221808" z="-3520"/>
+			<point x="101552" y="221568" z="-3520"/>
+			<point x="100784" y="218272" z="-3420"/>
+			<point x="100928" y="218560" z="-3420"/>
+		</chaos_restart_points>
+	</residence>
+</list>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "events.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<!--формат даты HH:mm dd.MM.yyyy-->
+	<event id="6" name="Summer Watermelon Smash" impl="Fun">
+		<parameter name="start_time_pattern" value="06:30 24.06.2015" />
+		<parameter name="stop_time_pattern" value="06:30 15.07.2015" />
+		<on_start>
+			<spawn name="spawn_group"/>
+			<global_add_reward name="droplist"/>
+		</on_start>
+		<on_time>
+			<on time="1209600">	<!--2 Weeks-->
+				<global_remove_reward name="droplist"/>
+			</on>
+		</on_time>
+		<on_stop>
+			<despawn name="spawn_group"/>
+			<global_remove_reward name="droplist"/>
+			<global_remove_items name="event_items"/>
+		</on_stop>
+		<objects name="spawn_group">
+			<spawn_ex name="summer_watermelon_smash_event"/>
+		</objects>
+		<objects name="droplist">
+			<rewardlist type="EVENT_GROUPED">
+				<group chance="20">
+					<reward item_id="6391" min="1" max="1" chance="100"/>	<!--Нектар-->
+					<reward item_id="15368" min="1" max="1" chance="5"/>	<!--Семечко Клонированной Тыквы-->
+					<reward item_id="15369" min="1" max="1" chance="1"/>	<!--Большое Семечко Клонированной Тыквы-->
+				</group>
+			</rewardlist>
+		</objects>
+		<objects name="event_items">
+			<item id="15366"/>	<!--Семечко Арбуза-->
+			<item id="15367"/>	<!--Семечко Сладкого Арбуза-->
+			<item id="15368"/>	<!--Семечко Клонированного Арбуза-->
+			<item id="15369"/>	<!--Семечко Клонированного Сладкого Арбуза-->
+		</objects>
+	</event>
+</list>

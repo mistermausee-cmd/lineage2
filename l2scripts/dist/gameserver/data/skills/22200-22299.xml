@@ -1,0 +1,2665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="22200" levels="1" name="Transformation Scroll: Veil Master">
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<set name="itemConsumeId" value="21181"/>
+		<set name="itemConsumeCount" value="1"/>
+		<cond>
+			<player can_transform="4"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="4"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22201" levels="1" name="Transformation Scroll: Saber Tooth Tiger">
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<set name="itemConsumeId" value="21182"/>
+		<set name="itemConsumeCount" value="1"/>
+		<cond>
+			<player can_transform="5"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="5"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22202" levels="1" name="Transformation Scroll: Oel Mahum">
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<set name="itemConsumeId" value="21183"/>
+		<set name="itemConsumeCount" value="1"/>
+		<cond>
+			<player can_transform="6"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="6"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22203" levels="1" name="Transformation Scroll: Doll Blader">
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<set name="itemConsumeId" value="21184"/>
+		<set name="itemConsumeCount" value="1"/>
+		<cond>
+			<player can_transform="7"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="7"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22204" levels="1" name="Transformation Scroll: Zaken">
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<set name="itemConsumeId" value="21185"/>
+		<set name="itemConsumeCount" value="1"/>
+		<cond>
+			<player can_transform="305"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="305"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22205" levels="1" name="Transformation Scroll: Anakim">
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<set name="itemConsumeId" value="21186"/>
+		<set name="itemConsumeCount" value="1"/>
+		<cond>
+			<player can_transform="306"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="306"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22206" levels="1" name="Transformation Scroll: Venom">
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<set name="itemConsumeId" value="21187"/>
+		<set name="itemConsumeCount" value="1"/>
+		<cond>
+			<player can_transform="307"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="307"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22207" levels="1" name="Transformation Scroll: Gordon">
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<set name="itemConsumeId" value="21188"/>
+		<set name="itemConsumeCount" value="1"/>
+		<cond>
+			<player can_transform="308"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="308"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22208" levels="1" name="Transformation Scroll: Ranku">
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<set name="itemConsumeId" value="21189"/>
+		<set name="itemConsumeCount" value="1"/>
+		<cond>
+			<player can_transform="309"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="309"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22209" levels="1" name="Transformation Scroll: Kechi">
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<set name="itemConsumeId" value="21190"/>
+		<set name="itemConsumeCount" value="1"/>
+		<cond>
+			<player can_transform="310"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="310"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22210" levels="1" name="Transformation Scroll: Demon Prince">
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<set name="itemConsumeId" value="21191"/>
+		<set name="itemConsumeCount" value="1"/>
+		<cond>
+			<player can_transform="311"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="311"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22211" levels="1" name="Blessed Scroll of Escape">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="4000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22212" levels="1" name="Superior Quick Healing Potion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="HEAL"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect instant="true" name="RestoreHP" value="3000">
+				<def name="cp_including" value="true"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22213" levels="1" name="Mysterious Scroll: Drum Melody">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill1357"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="25"/>
+		<set name="abnormal_type" value="buff_special_defence"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="multi_buff;counter_critical"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="multi_buff"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="counter_critical"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22214" levels="1" name="MP Recovery Potion">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect instant="true" name="RestoreMP" value="50">
+				<def name="ignore_bonuses" value="true"/>
+				<def name="percent" value="true"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22215" levels="1" name="Vitality Recovering Potion">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_hot_spring_mineral_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_effect" value="VP_UP"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="vp_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="Vitality"/>
+		</for>
+	</skill>
+	<skill id="22216" levels="1" name="Transformation Scroll: Anakim">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22217" levels="1" name="Super Healthy Juice (HP)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="HEAL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect instant="true" name="RestoreHP" value="100">
+				<def name="ignore_bonuses" value="true"/>
+				<def name="percent" value="true"/>
+			</effect>
+		</for>	
+	</skill>
+	<skill id="22218" levels="1" name="Super Healthy Juice (HP)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="HEAL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect instant="true" name="RestoreHP" value="100">
+				<def name="ignore_bonuses" value="true"/>
+				<def name="percent" value="true"/>
+			</effect>
+		</for>	
+	</skill>
+	<skill id="22219" levels="1" name="Super Healthy Juice (CP)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="HEAL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect instant="true" name="RestoreCP" value="100">
+				<def name="ignore_bonuses" value="true"/>
+				<def name="percent" value="true"/>
+			</effect>
+		</for>	
+	</skill>
+	<skill id="22220" levels="1" name="Super Healthy Juice (CP)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="HEAL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect instant="true" name="RestoreCP" value="100">
+				<def name="ignore_bonuses" value="true"/>
+				<def name="percent" value="true"/>
+			</effect>
+		</for>		
+	</skill>
+	<skill id="22221" levels="1" name="Vitality Replenishing Potion">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22222" levels="1" name="Vitality Replenishing Potion">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22223" levels="1" name="Vitality Maintaining Potion">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys2.icon.br_essence_rose_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_effect" value="VP_KEEP"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="vp_keep"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22224" levels="1" name="Vitality Maintaining Potion">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys2.icon.br_essence_rose_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_effect" value="VP_KEEP"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="vp_keep"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22225" levels="1" name="Gludio Homemade Cookie">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys.icon.br_valentine_cookie_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="pa_pd_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22226" levels="1" name="Gludio Homemade Cookie">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys.icon.br_valentine_cookie_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="pa_pd_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22227" levels="1" name="Dion Homemade Cookie">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys.icon.br_valentine_cookie_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="pa_pd_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22228" levels="1" name="Dion Homemade Cookie">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys.icon.br_valentine_cookie_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="pa_pd_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22229" levels="1" name="Aden Homemade Cookie">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys.icon.br_valentine_cookie_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="25"/>
+		<set name="abnormal_type" value="buff_special_defence"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="multi_buff;counter_critical"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="multi_buff"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="counter_critical"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22230" levels="1" name="Aden Homemade Cookie">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys.icon.br_valentine_cookie_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="25"/>
+		<set name="abnormal_type" value="buff_special_defence"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="multi_buff;counter_critical"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="multi_buff"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="counter_critical"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22231" levels="1" name="Giran Homemade Cookie">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys.icon.br_valentine_cookie_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="25"/>
+		<set name="abnormal_type" value="buff_special_defence"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="multi_buff;counter_critical"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="multi_buff"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="counter_critical"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22232" levels="1" name="Giran Homemade Cookie">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys.icon.br_valentine_cookie_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="25"/>
+		<set name="abnormal_type" value="buff_special_defence"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="multi_buff;counter_critical"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="multi_buff"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="counter_critical"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22233" levels="1" name="Rune Homemade Cookie">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys.icon.br_valentine_cookie_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="recharge_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22234" levels="1" name="Rune Homemade Cookie">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys.icon.br_valentine_cookie_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="recharge_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22235" levels="1" name="Crystal of Fortune Treasure Sack">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22236" levels="1" name="Crystal of Fortune Treasure Sack">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22237" levels="1" name="Enchant Scroll of Fortune Treasure Sack">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22238" levels="1" name="Enchant Scroll of Fortune Treasure Sack">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="21307"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100">
+				<item id="6570" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100">
+				<item id="6572" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100">
+				<item id="6574" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100">
+				<item id="6578" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100">
+				<item id="6569" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100">
+				<item id="6571" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100">
+				<item id="6573" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100">
+				<item id="6577" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100">
+				<item id="960" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100">
+				<item id="730" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100">
+				<item id="959" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100">
+				<item id="729" min_count="1" max_count="1"/>
+			</group>
+		</restoration>
+	</skill>
+	<skill id="22239" levels="1" name="Bead of Fortune Treasure Sack">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22240" levels="1" name="Bead of Fortune Treasure Sack">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22241" levels="1" name="Rider Pouch">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="2.0">
+				<item id="21383" min_count="1" max_count="1"/>
+			</group>
+			<group chance="8.0">
+				<item id="21381" min_count="1" max_count="1"/>
+			</group>
+			<group chance="15.0">
+				<item id="21379" min_count="1" max_count="1"/>
+			</group>
+			<group chance="2.0">
+				<item id="21395" min_count="1" max_count="1"/>
+			</group>
+			<group chance="8.0">
+				<item id="21393" min_count="1" max_count="1"/>
+			</group>
+			<group chance="15.0">
+				<item id="21391" min_count="1" max_count="1"/>
+			</group>
+			<group chance="2.0">
+				<item id="21407" min_count="1" max_count="1"/>
+			</group>
+			<group chance="8.0">
+				<item id="21405" min_count="1" max_count="1"/>
+			</group>
+			<group chance="15.0">
+				<item id="21403" min_count="1" max_count="1"/>
+			</group>
+			<group chance="2.0">
+				<item id="21419" min_count="1" max_count="1"/>
+			</group>
+			<group chance="8.0">
+				<item id="21417" min_count="1" max_count="1"/>
+			</group>
+			<group chance="15.0">
+				<item id="21415" min_count="1" max_count="1"/>
+			</group>
+		</restoration>
+	</skill>
+	<skill id="22242" levels="1" name="Rider Pouch">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="2.0">
+				<item id="21384" min_count="1" max_count="1"/>
+			</group>
+			<group chance="8.0">
+				<item id="21382" min_count="1" max_count="1"/>
+			</group>
+			<group chance="15.0">
+				<item id="21380" min_count="1" max_count="1"/>
+			</group>
+			<group chance="2.0">
+				<item id="21396" min_count="1" max_count="1"/>
+			</group>
+			<group chance="8.0">
+				<item id="21394" min_count="1" max_count="1"/>
+			</group>
+			<group chance="15.0">
+				<item id="21392" min_count="1" max_count="1"/>
+			</group>
+			<group chance="2.0">
+				<item id="21408" min_count="1" max_count="1"/>
+			</group>
+			<group chance="8.0">
+				<item id="21406" min_count="1" max_count="1"/>
+			</group>
+			<group chance="15.0">
+				<item id="21404" min_count="1" max_count="1"/>
+			</group>
+			<group chance="2.0">
+				<item id="21420" min_count="1" max_count="1"/>
+			</group>
+			<group chance="8.0">
+				<item id="21418" min_count="1" max_count="1"/>
+			</group>
+			<group chance="15.0">
+				<item id="21416" min_count="1" max_count="1"/>
+			</group>
+		</restoration>
+	</skill>
+	<skill id="22243" levels="1" name="Fashion Pouch">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22244" levels="1" name="Fashion Pouch">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22245" levels="1" name="Buff Pouch">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22246" levels="1" name="Buff Pouch">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22247" levels="1" name="Scroll: Enchant Power Shirt">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22248" levels="1" name="Blessed Scroll: Enchant Power Shirt">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22249" levels="1" name="Birthday Cake">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22250" levels="1" name="Birthday Cake Vitality Buff">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys.icon.br_birthday_cake_i00"/>
+		<set name="castRange" value="500"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="300"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="vp_keep"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22251" levels="1" name="Honey Rice Cakes">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22252" levels="1" name="Vitality Replenishing Potion">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22253" levels="1" name="Prophecy of Water">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys.icon.br_xmas_miracle_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="multi_buff"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22254" levels="1" name="Blessed Scroll: Enchant Power Shirt">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22255" levels="1" name="Honey Rice Cakes">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22256" levels="1" name="Might">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys.icon.br_xmas_miracle_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="pa_up"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22257" levels="1" name="Wind Walk">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys.icon.br_xmas_miracle_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="speed_up"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22258" levels="1" name="Haste">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys.icon.br_xmas_miracle_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="attack_time_down"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22259" levels="1" name="Vampiric Rage">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys.icon.br_xmas_miracle_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="5"/>
+		<set name="abnormal_type" value="vampiric_attack"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22260" levels="1" name="Berserker Spirit">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys.icon.br_xmas_miracle_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="berserker"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22261" levels="1" name="Empower">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys.icon.br_xmas_miracle_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="ma_up"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22262" levels="1" name="Acumen">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys.icon.br_xmas_miracle_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="casting_time_down"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22263" levels="1" name="Shield">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys.icon.br_xmas_miracle_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="pd_up"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22264" levels="1" name="Focus">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys.icon.br_xmas_miracle_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="critical_prob_up"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22265" levels="1" name="Death Whisper">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys.icon.br_xmas_miracle_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="critical_dmg_up"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22266" levels="1" name="Guidance">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys.icon.br_xmas_miracle_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="hit_up"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22267" levels="1" name="Clarity">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys.icon.br_xmas_miracle_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="cheap_magic"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22268" levels="1" name="Wild Magic">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys.icon.br_xmas_miracle_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="magic_critical_up"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22269" levels="6" name="Concentration">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys.icon.br_xmas_miracle_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="7"/>
+		<set name="abnormal_type" value="cancel_prob_down"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22270" levels="1" name="Letter Collector\'s Gift">
+		<!--  
+		Cкор. Атк. +15%, Скор. Маг. +15%, Скорость +20
+		-->
+		<set name="icon" value="icon.shield_bread_i01"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_effect" value="CHANGE_7ANNIVERSARY"/>
+		<set name="abnormal_time" value="7200"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="br_event_buf1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect>
+				<mul stat="pAtkSpd" value="1.15"/>
+				<mul stat="mAtkSpd" value="1.15"/>
+				<add stat="runSpd" value="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22271" levels="1" name="Maestro\'s Key">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="hitTime" value="500"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="itemConsumeId" value="21746"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="activateRate" value="25"/>
+		<set name="target" value="TARGET_CHEST"/>
+		<set name="skillType" value="UNLOCK"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="109">
+			<or>
+				<target mobId="18265"/>
+				<target mobId="18266"/>
+				<target mobId="18267"/>
+				<target mobId="18268"/>
+				<target mobId="18269"/>
+				<target mobId="18270"/>
+				<target mobId="18271"/>
+				<target mobId="18272"/>
+				<target mobId="18273"/>
+				<target mobId="18274"/>
+				<target mobId="18275"/>
+				<target mobId="18276"/>
+				<target mobId="18277"/>
+				<target mobId="18278"/>
+				<target mobId="18279"/>
+				<target mobId="18280"/>
+				<target mobId="18281"/>
+				<target mobId="18282"/>
+				<target mobId="18283"/>
+				<target mobId="18284"/>
+				<target mobId="18285"/>
+				<target mobId="18286"/>
+			</or>
+		</cond>
+	</skill>
+	<skill id="22272" levels="1" name="Novice Explorer\'s Treasure Sack">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="5.9">
+				<item id="312" min_count="1" max_count="1"/>	<!--Branch of Life-->
+			</group>
+			<group chance="5.9">
+				<item id="167" min_count="1" max_count="1"/>	<!--Scalpel-->
+			</group>
+			<group chance="5.9">
+				<item id="220" min_count="1" max_count="1"/>	<!--Crafted Dagger-->
+			</group>
+			<group chance="5.9">
+				<item id="258" min_count="1" max_count="1"/>	<!--Bagh-Nakh-->
+			</group>
+			<group chance="5.9">
+				<item id="178" min_count="1" max_count="1"/>	<!--Bone Staff-->
+			</group>
+			<group chance="5.9">
+				<item id="221" min_count="1" max_count="1"/>	<!--Assassin Knife-->
+			</group>
+			<group chance="5.9">
+				<item id="123" min_count="1" max_count="1"/>	<!--Saber-->
+			</group>
+			<group chance="5.9">
+				<item id="156" min_count="1" max_count="1"/>	<!--Hand Axe-->
+			</group>
+			<group chance="5.9">
+				<item id="291" min_count="1" max_count="1"/>	<!--Trident-->
+			</group>
+			<group chance="5.9">
+				<item id="166" min_count="1" max_count="1"/>	<!--Heavy Mace-->
+			</group>
+			<group chance="5.9">
+				<item id="274" min_count="1" max_count="1"/>	<!--Reinforced Bow-->
+			</group>
+			<group chance="2.925">
+				<item id="261" min_count="1" max_count="1"/>	<!--Bich\'Hwa-->
+			</group>
+			<group chance="2.925">
+				<item id="274" min_count="1" max_count="1"/>	<!--Reinforced Bow-->
+			</group>
+			<group chance="2.925">
+				<item id="224" min_count="1" max_count="1"/>	<!--Maingauche-->
+			</group>
+			<group chance="2.925">
+				<item id="318" min_count="1" max_count="1"/>	<!--Crucifix of Blood-->
+			</group>
+			<group chance="2.925">
+				<item id="93" min_count="1" max_count="1"/>		<!--Winged Spear-->
+			</group>
+			<group chance="2.925">
+				<item id="129" min_count="1" max_count="1"/>	<!--Sword of Revolution-->
+			</group>
+			<group chance="2.925">
+				<item id="294" min_count="1" max_count="1"/>	<!--War Pick-->
+			</group>
+			<group chance="2.925">
+				<item id="88" min_count="1" max_count="1"/>		<!--Morning Star-->
+			</group>
+			<group chance="2.925">
+				<item id="90" min_count="1" max_count="1"/>		<!--Goat Head Staff-->
+			</group>
+			<group chance="2.925">
+				<item id="158" min_count="1" max_count="1"/>	<!--Tarbar-->
+			</group>
+			<group chance="2.925">
+				<item id="172" min_count="1" max_count="1"/>	<!--Heavy Bone Club-->
+			</group>
+			<group chance="2.925">
+				<item id="279" min_count="1" max_count="1"/>	<!--Reinforced Long Bow-->
+			</group>
+			<group chance="2.925">
+				<item id="169" min_count="1" max_count="1"/>	<!--Skull Breaker-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="22273" levels="1" name="Experienced Adventurer\'s Treasure Sack">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="3.33">
+				<item id="160" min_count="1" max_count="1"/>	<!--Battle Axe-->
+			</group>
+			<group chance="3.33">
+				<item id="298" min_count="1" max_count="1"/>	<!--Orcish Glaive-->
+			</group>
+			<group chance="3.33">
+				<item id="72" min_count="1" max_count="1"/>		<!--Stormbringer-->
+			</group>
+			<group chance="3.33">
+				<item id="193" min_count="1" max_count="1"/>	<!--Stick of Faith-->
+			</group>
+			<group chance="3.33">
+				<item id="192" min_count="1" max_count="1"/>	<!--Crystal Staff-->
+			</group>
+			<group chance="3.33">
+				<item id="281" min_count="1" max_count="1"/>	<!--Crystallized Ice Bow-->
+			</group>
+			<group chance="3.33">
+				<item id="7887" min_count="1" max_count="1"/>	<!--Mysterious Sword-->
+			</group>
+			<group chance="3.33">
+				<item id="226" min_count="1" max_count="1"/>	<!--Cursed Dagger-->
+			</group>
+			<group chance="3.33">
+				<item id="2524" min_count="1" max_count="1"/>	<!--Saber*Elven Long Sword-->
+			</group>
+			<group chance="3.33">
+				<item id="191" min_count="1" max_count="1"/>	<!--Heavy Doom Hammer-->
+			</group>
+			<group chance="3.33">
+				<item id="71" min_count="1" max_count="1"/>		<!--Flamberge-->
+			</group>
+			<group chance="3.34">
+				<item id="263" min_count="1" max_count="1"/>	<!--Chakram-->
+			</group>
+			<group chance="2.5">
+				<item id="78" min_count="1" max_count="1"/>		<!--Great Sword-->
+			</group>
+			<group chance="2.5">
+				<item id="2571" min_count="1" max_count="1"/>	<!--Stormbringer*Samurai Long sword-->
+			</group>
+			<group chance="2.5">
+				<item id="300" min_count="1" max_count="1"/>	<!--Great Axe-->
+			</group>
+			<group chance="2.5">
+				<item id="284" min_count="1" max_count="1"/>	<!--Dark Elven Long Bow-->
+			</group>
+			<group chance="2.5">
+				<item id="142" min_count="1" max_count="1"/>	<!--Keshanberk-->
+			</group>
+			<group chance="2.5">
+				<item id="267" min_count="1" max_count="1"/>	<!--Arthro Nail-->
+			</group>
+			<group chance="2.5">
+				<item id="229" min_count="1" max_count="1"/>	<!--Kris-->
+			</group>
+			<group chance="2.5">
+				<item id="148" min_count="1" max_count="1"/>	<!--Sword of Valhalla-->
+			</group>
+			<group chance="2.5">
+				<item id="243" min_count="1" max_count="1"/>	<!--Hell Knife-->
+			</group>
+			<group chance="2.5">
+				<item id="92" min_count="1" max_count="1"/>		<!--Sprite\'s Staff-->
+			</group>
+			<group chance="2.5">
+				<item id="7892" min_count="1" max_count="1"/>	<!--Spell Breaker-->
+			</group>
+			<group chance="2.5">
+				<item id="91" min_count="1" max_count="1"/>		<!--Heavy War Axe-->
+			</group>
+			<group chance="1.82">
+				<item id="98" min_count="1" max_count="1"/>		<!--Halberd-->
+			</group>
+			<group chance="1.82">
+				<item id="5233" min_count="1" max_count="1"/>	<!--Keshanberk*Keshanberk-->
+			</group>
+			<group chance="1.82">
+				<item id="80" min_count="1" max_count="1"/>		<!--Tallum Blade-->
+			</group>
+			<group chance="1.82">
+				<item id="235" min_count="1" max_count="1"/>	<!--Bloody Orchid-->
+			</group>
+			<group chance="1.82">
+				<item id="269" min_count="1" max_count="1"/>	<!--Blood Tornado-->
+			</group>
+			<group chance="1.82">
+				<item id="288" min_count="1" max_count="1"/>	<!--Carnage Bow-->
+			</group>
+			<group chance="1.82">
+				<item id="7884" min_count="1" max_count="1"/>	<!--Infernal Master-->
+			</group>
+			<group chance="1.82">
+				<item id="2504" min_count="1" max_count="1"/>	<!--Meteor Shower-->
+			</group>
+			<group chance="1.82">
+				<item id="150" min_count="1" max_count="1"/>	<!--Elemental Sword-->
+			</group>
+			<group chance="1.82">
+				<item id="7899" min_count="1" max_count="1"/>	<!--Destroyer Hammer-->
+			</group>
+			<group chance="1.82">
+				<item id="212" min_count="1" max_count="1"/>	<!--Dasparion\'s Staff-->
+			</group>
+			<group chance="0.91">
+				<item id="6365" min_count="1" max_count="1"/>	<!--Basalt Battlehammer-->
+			</group>
+			<group chance="0.91">
+				<item id="6371" min_count="1" max_count="1"/>	<!--Demon Splinter-->
+			</group>
+			<group chance="0.91">
+				<item id="6364" min_count="1" max_count="1"/>	<!--Forgotten Blade-->
+			</group>
+			<group chance="0.91">
+				<item id="6366" min_count="1" max_count="1"/>	<!--Imperial Staff-->
+			</group>
+			<group chance="0.91">
+				<item id="6580" min_count="1" max_count="1"/>	<!--Tallum Blade*Dark Legion\'s Edge-->
+			</group>
+			<group chance="0.91">
+				<item id="7575" min_count="1" max_count="1"/>	<!--Draconic Bow-->
+			</group>
+			<group chance="0.91">
+				<item id="6579" min_count="1" max_count="1"/>	<!--Arcana Mace-->
+			</group>
+			<group chance="0.91">
+				<item id="6372" min_count="1" max_count="1"/>	<!--Heaven\'s Divider-->
+			</group>
+			<group chance="0.91">
+				<item id="6370" min_count="1" max_count="1"/>	<!--Saint Spear-->
+			</group>
+			<group chance="0.91">
+				<item id="6369" min_count="1" max_count="1"/>	<!--Dragon Hunter Axe-->
+			</group>
+			<group chance="0.91">
+				<item id="6367" min_count="1" max_count="1"/>	<!--Angel Slayer-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="22274" levels="1" name="Great Adventurer\'s Treasure Sack">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="3.7">
+				<item id="9447" min_count="1" max_count="1"/>	<!--Dynasty Halberd-->
+			</group>
+			<group chance="3.7">
+				<item id="9384" min_count="1" max_count="1"/>	<!--Dynasty Crossbow-->
+			</group>
+			<group chance="3.7">
+				<item id="9449" min_count="1" max_count="1"/>	<!--Dynasty Mace-->
+			</group>
+			<group chance="3.7">
+				<item id="9380" min_count="1" max_count="1"/>	<!--Dynasty Ancient Sword-->
+			</group>
+			<group chance="3.7">
+				<item id="9448" min_count="1" max_count="1"/>	<!--Dynasty Cudgel-->
+			</group>
+			<group chance="3.7">
+				<item id="9443" min_count="1" max_count="1"/>	<!--Dynasty Blade-->
+			</group>
+			<group chance="3.7">
+				<item id="9450" min_count="1" max_count="1"/>	<!--Dynasty Bagh-Nakh-->
+			</group>
+			<group chance="3.7">
+				<item id="10253" min_count="1" max_count="1"/>	<!--Dynasty Crusher-->
+			</group>
+			<group chance="3.7">
+				<item id="9445" min_count="1" max_count="1"/>	<!--Dynasty Bow-->
+			</group>
+			<group chance="3.7">
+				<item id="9442" min_count="1" max_count="1"/>	<!--Dynasty Sword-->
+			</group>
+			<group chance="3.7">
+				<item id="9446" min_count="1" max_count="1"/>	<!--Dynasty Knife-->
+			</group>
+			<group chance="3.7">
+				<item id="10004" min_count="1" max_count="1"/>	<!--Dynasty Dual Sword-->
+			</group>
+			<group chance="3.7">
+				<item id="10252" min_count="1" max_count="1"/>	<!--Dynasty Staff-->
+			</group>
+			<group chance="3.7">
+				<item id="9376" min_count="1" max_count="1"/>	<!--Dynasty Rapier-->
+			</group>
+			<group chance="3.7">
+				<item id="9444" min_count="1" max_count="1"/>	<!--Dynasty Phantom-->
+			</group>
+			<group chance="2.56">
+				<item id="10226" min_count="1" max_count="1"/>	<!--Icarus Shooter-->
+			</group>
+			<group chance="2.56">
+				<item id="10217" min_count="1" max_count="1"/>	<!--Icarus Spirit-->
+			</group>
+			<group chance="2.56">
+				<item id="10224" min_count="1" max_count="1"/>	<!--Icarus Stinger-->
+			</group>
+			<group chance="2.56">
+				<item id="10215" min_count="1" max_count="1"/>	<!--Icarus Sawsword-->
+			</group>
+			<group chance="2.56">
+				<item id="10225" min_count="1" max_count="1"/>	<!--Icarus Wingblade-->
+			</group>
+			<group chance="2.56">
+				<item id="10223" min_count="1" max_count="1"/>	<!--Icarus Spitter-->
+			</group>
+			<group chance="2.56">
+				<item id="10220" min_count="1" max_count="1"/>	<!--Icarus Hammer-->
+			</group>
+			<group chance="2.56">
+				<item id="10415" min_count="1" max_count="1"/>	<!--Icarus Dual Sword-->
+			</group>
+			<group chance="2.56">
+				<item id="10216" min_count="1" max_count="1"/>	<!--Icarus Disperser-->
+			</group>
+			<group chance="2.56">
+				<item id="10221" min_count="1" max_count="1"/>	<!--Icarus Hand-->
+			</group>
+			<group chance="2.56">
+				<item id="10219" min_count="1" max_count="1"/>	<!--Icarus Trident-->
+			</group>
+			<group chance="2.56">
+				<item id="10218" min_count="1" max_count="1"/>	<!--Icarus Heavy Arms-->
+			</group>
+			<group chance="2.56">
+				<item id="10222" min_count="1" max_count="1"/>	<!--Icarus Hall-->
+			</group>
+			<group chance="0.748">
+				<item id="13467" min_count="1" max_count="1"/>	<!--Vesper Thrower-->
+			</group>
+			<group chance="0.748">
+				<item id="13462" min_count="1" max_count="1"/>	<!--Vesper Stormer-->
+			</group>
+			<group chance="0.748">
+				<item id="13464" min_count="1" max_count="1"/>	<!--Vesper Retributer-->
+			</group>
+			<group chance="0.748">
+				<item id="13461" min_count="1" max_count="1"/>	<!--Vesper Fighter-->
+			</group>
+			<group chance="0.748">
+				<item id="13465" min_count="1" max_count="1"/>	<!--Vesper Caster-->
+			</group>
+			<group chance="0.748">
+				<item id="13468" min_count="1" max_count="1"/>	<!--Vesper Pincer-->
+			</group>
+			<group chance="0.748">
+				<item id="13463" min_count="1" max_count="1"/>	<!--Vesper Avenger-->
+			</group>
+			<group chance="0.748">
+				<item id="13470" min_count="1" max_count="1"/>	<!--Vesper Nagan-->
+			</group>
+			<group chance="0.748">
+				<item id="13460" min_count="1" max_count="1"/>	<!--Vesper Shaper-->
+			</group>
+			<group chance="0.748">
+				<item id="52" min_count="1" max_count="1"/>		<!--Vesper Dual Sword-->
+			</group>
+			<group chance="0.748">
+				<item id="13466" min_count="1" max_count="1"/>	<!--Vesper Singer-->
+			</group>
+			<group chance="0.748">
+				<item id="13459" min_count="1" max_count="1"/>	<!--Vesper Buster-->
+			</group>
+			<group chance="0.748">
+				<item id="13457" min_count="1" max_count="1"/>	<!--Vesper Cutter-->
+			</group>
+			<group chance="0.748">
+				<item id="13469" min_count="1" max_count="1"/>	<!--Vesper Shooter-->
+			</group>
+			<group chance="0.748">
+				<item id="13458" min_count="1" max_count="1"/>	<!--Vesper Slasher-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="22275" levels="1" name="Rune Jewelry Box - Crystal">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22276" levels="1" name="Rune Jewelry Box - Talisman">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="1.33">
+				<item id="9914" min_count="1" max_count="1"/>	<!--Blue Talisman of Power-->
+			</group>
+			<group chance="1.33">
+				<item id="9915" min_count="1" max_count="1"/>	<!--Blue Talisman of Wild Magic-->
+			</group>
+			<group chance="1.33">
+				<item id="9916" min_count="1" max_count="1"/>	<!--Blue Talisman of Defense-->
+			</group>
+			<group chance="1.33">
+				<item id="9917" min_count="1" max_count="1"/>	<!--Red Talisman of Minimum Clarity-->
+			</group>
+			<group chance="1.33">
+				<item id="9918" min_count="1" max_count="1"/>	<!--Red Talisman of Maximum Clarity-->
+			</group>
+			<group chance="1.33">
+				<item id="9919" min_count="1" max_count="1"/>	<!--Blue Talisman of Reflection-->
+			</group>
+			<group chance="1.33">
+				<item id="9920" min_count="1" max_count="1"/>	<!--Blue Talisman of Invisibility-->
+			</group>
+			<group chance="1.33">
+				<item id="9921" min_count="1" max_count="1"/>	<!--Blue Talisman - Shield Protection-->
+			</group>
+			<group chance="1.33">
+				<item id="9922" min_count="1" max_count="1"/>	<!--Black Talisman - Mending-->
+			</group>
+			<group chance="1.33">
+				<item id="9923" min_count="1" max_count="1"/>	<!--Black Talisman - Escape-->
+			</group>
+			<group chance="1.33">
+				<item id="9924" min_count="1" max_count="1"/>	<!--Blue Talisman of Healing-->
+			</group>
+			<group chance="1.33">
+				<item id="9925" min_count="1" max_count="1"/>	<!--Red Talisman of Recovery-->
+			</group>
+			<group chance="1.33">
+				<item id="9926" min_count="1" max_count="1"/>	<!--Blue Talisman of Defense-->
+			</group>
+			<group chance="1.33">
+				<item id="9927" min_count="1" max_count="1"/>	<!--Blue Talisman of Magic Defense-->
+			</group>
+			<group chance="1.33">
+				<item id="9928" min_count="1" max_count="1"/>	<!--Red Talisman of Mental Regeneration-->
+			</group>
+			<group chance="1.33">
+				<item id="9929" min_count="1" max_count="1"/>	<!--Blue Talisman of Protection-->
+			</group>
+			<group chance="1.33">
+				<item id="9930" min_count="1" max_count="1"/>	<!--Blue Talisman of Evasion-->
+			</group>
+			<group chance="1.33">
+				<item id="9931" min_count="1" max_count="1"/>	<!--Red Talisman of Meditation-->
+			</group>
+			<group chance="1.33">
+				<item id="9932" min_count="1" max_count="1"/>	<!--Blue Talisman - Divine Protection-->
+			</group>
+			<group chance="1.33">
+				<item id="9933" min_count="1" max_count="1"/>	<!--Yellow Talisman of Power-->
+			</group>
+			<group chance="1.33">
+				<item id="9934" min_count="1" max_count="1"/>	<!--Yellow Talisman of Violent Haste-->
+			</group>
+			<group chance="1.33">
+				<item id="9935" min_count="1" max_count="1"/>	<!--Yellow Talisman of Arcane Defense-->
+			</group>
+			<group chance="1.33">
+				<item id="9936" min_count="1" max_count="1"/>	<!--Yellow Talisman of Arcane Power-->
+			</group>
+			<group chance="1.33">
+				<item id="9937" min_count="1" max_count="1"/>	<!--Yellow Talisman of Arcane Haste-->
+			</group>
+			<group chance="1.33">
+				<item id="9938" min_count="1" max_count="1"/>	<!--Yellow Talisman of Accuracy-->
+			</group>
+			<group chance="1.33">
+				<item id="9939" min_count="1" max_count="1"/>	<!--Yellow Talisman of Defense-->
+			</group>
+			<group chance="1.33">
+				<item id="9940" min_count="1" max_count="1"/>	<!--Yellow Talisman of Alacrity-->
+			</group>
+			<group chance="1.33">
+				<item id="9941" min_count="1" max_count="1"/>	<!--Yellow Talisman of Speed-->
+			</group>
+			<group chance="1.33">
+				<item id="9942" min_count="1" max_count="1"/>	<!--Yellow Talisman of Critical Reduction-->
+			</group>
+			<group chance="1.33">
+				<item id="9943" min_count="1" max_count="1"/>	<!--Yellow Talisman of Critical Damage-->
+			</group>
+			<group chance="1.33">
+				<item id="9944" min_count="1" max_count="1"/>	<!--Yellow Talisman of Critical Dodging-->
+			</group>
+			<group chance="1.33">
+				<item id="9945" min_count="1" max_count="1"/>	<!--Yellow Talisman of Evasion-->
+			</group>
+			<group chance="1.33">
+				<item id="9946" min_count="1" max_count="1"/>	<!--Yellow Talisman of Healing-->
+			</group>
+			<group chance="1.33">
+				<item id="9947" min_count="1" max_count="1"/>	<!--Yellow Talisman of CP Regeneration-->
+			</group>
+			<group chance="1.33">
+				<item id="9948" min_count="1" max_count="1"/>	<!--Yellow Talisman of Physical Regeneration-->
+			</group>
+			<group chance="1.33">
+				<item id="9949" min_count="1" max_count="1"/>	<!--Yellow Talisman of Mental Regeneration-->
+			</group>
+			<group chance="1.33">
+				<item id="9950" min_count="1" max_count="1"/>	<!--Grey Talisman of Weight Training-->
+			</group>
+			<group chance="1.33">
+				<item id="9951" min_count="1" max_count="1"/>	<!--Grey Talisman of Mid-Grade Fishing-->
+			</group>
+			<group chance="1.33">
+				<item id="9952" min_count="1" max_count="1"/>	<!--Orange Talisman - Hot Springs CP Potion-->
+			</group>
+			<group chance="1.33">
+				<item id="9953" min_count="1" max_count="1"/>	<!--Orange Talisman - Elixir of Life-->
+			</group>
+			<group chance="1.33">
+				<item id="9954" min_count="1" max_count="1"/>	<!--Orange Talisman - Elixir of Mental Strength-->
+			</group>
+			<group chance="1.33">
+				<item id="9955" min_count="1" max_count="1"/>	<!--Black Talisman - Vocalization-->
+			</group>
+			<group chance="1.33">
+				<item id="9956" min_count="1" max_count="1"/>	<!--Black Talisman - Arcane Freedom-->
+			</group>
+			<group chance="1.33">
+				<item id="9957" min_count="1" max_count="1"/>	<!--Black Talisman - Physical Freedom-->
+			</group>
+			<group chance="1.33">
+				<item id="9958" min_count="1" max_count="1"/>	<!--Black Talisman - Rescue-->
+			</group>
+			<group chance="1.33">
+				<item id="9959" min_count="1" max_count="1"/>	<!--Black Talisman - Free Speech-->
+			</group>
+			<group chance="1.33">
+				<item id="9960" min_count="1" max_count="1"/>	<!--White Talisman of Bravery-->
+			</group>
+			<group chance="1.33">
+				<item id="9961" min_count="1" max_count="1"/>	<!--White Talisman of Motion-->
+			</group>
+			<group chance="1.33">
+				<item id="9962" min_count="1" max_count="1"/>	<!--White Talisman of Grounding-->
+			</group>
+			<group chance="1.33">
+				<item id="9963" min_count="1" max_count="1"/>	<!--White Talisman of Attention-->
+			</group>
+			<group chance="1.33">
+				<item id="9964" min_count="1" max_count="1"/>	<!--White Talisman of Bandages-->
+			</group>
+			<group chance="1.33">
+				<item id="9965" min_count="1" max_count="1"/>	<!--White Talisman of Protection-->
+			</group>
+			<group chance="1.33">
+				<item id="9966" min_count="1" max_count="1"/>	<!--White Talisman of Freedom-->
+			</group>
+			<group chance="1.33">
+				<item id="10416" min_count="1" max_count="1"/>	<!--Blue Talisman - Explosion-->
+			</group>
+			<group chance="1.33">
+				<item id="10417" min_count="1" max_count="1"/>	<!--Blue Talisman - Magic Explosion-->
+			</group>
+			<group chance="1.33">
+				<item id="10418" min_count="1" max_count="1"/>	<!--White Talisman - Storm-->
+			</group>
+			<group chance="1.33">
+				<item id="10419" min_count="1" max_count="1"/>	<!--White Talisman - Darkness-->
+			</group>
+			<group chance="1.33">
+				<item id="10420" min_count="1" max_count="1"/>	<!--White Talisman - Water-->
+			</group>
+			<group chance="1.33">
+				<item id="10421" min_count="1" max_count="1"/>	<!--White Talisman - Fire-->
+			</group>
+			<group chance="1.33">
+				<item id="10422" min_count="1" max_count="1"/>	<!--White Talisman - Light-->
+			</group>
+			<group chance="1.33">
+				<item id="10423" min_count="1" max_count="1"/>	<!--Blue Talisman - Self-Destruction-->
+			</group>
+			<group chance="1.33">
+				<item id="10424" min_count="1" max_count="1"/>	<!--Blue Talisman - Greater Healing-->
+			</group>
+			<group chance="1.33">
+				<item id="10518" min_count="1" max_count="1"/>	<!--Red Talisman - Life Force-->
+			</group>
+			<group chance="1.33">
+				<item id="10519" min_count="1" max_count="1"/>	<!--White Talisman -  Earth-->
+			</group>
+			<group chance="1.33">
+				<item id="10533" min_count="1" max_count="1"/>	<!--Blue Talisman - P. Atk.-->
+			</group>
+			<group chance="1.33">
+				<item id="10534" min_count="1" max_count="1"/>	<!--Blue Talisman - Shield Defense-->
+			</group>
+			<group chance="1.33">
+				<item id="10535" min_count="1" max_count="1"/>	<!--Yellow Talisman - P. Def.-->
+			</group>
+			<group chance="1.33">
+				<item id="10536" min_count="1" max_count="1"/>	<!--Yellow Talisman - M. Atk.-->
+			</group>
+			<group chance="1.33">
+				<item id="10537" min_count="1" max_count="1"/>	<!--Yellow Talisman - Evasion-->
+			</group>
+			<group chance="1.33">
+				<item id="10538" min_count="1" max_count="1"/>	<!--Yellow Talisman - Healing Power-->
+			</group>
+			<group chance="1.33">
+				<item id="10539" min_count="1" max_count="1"/>	<!--Yellow Talisman - CP Recovery Rate-->
+			</group>
+			<group chance="1.33">
+				<item id="10540" min_count="1" max_count="1"/>	<!--Yellow Talisman - HP Recovery Rate-->
+			</group>
+			<group chance="1.33">
+				<item id="10541" min_count="1" max_count="1"/>	<!--Yellow Talisman - Low Grade MP Recovery Rate-->
+			</group>
+			<group chance="1.33">
+				<item id="10542" min_count="1" max_count="1"/>	<!--Red Talisman - HP/CP Recovery-->
+			</group>
+			<group chance="1.58">
+				<item id="10543" min_count="1" max_count="1"/>	<!--Yellow Talisman - Speed-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="22277" levels="1" name="Pablo\'s Box">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="14.28">
+				<item id="21122" min_count="1" max_count="1"/>	<!--Gold-rimmed Glasses-->
+			</group>
+			<group chance="14.28">
+				<item id="21118" min_count="1" max_count="1"/>	<!--Preying Mantis Hat-->
+			</group>
+			<group chance="14.28">
+				<item id="21116" min_count="1" max_count="1"/>	<!--Ladybug Hat-->
+			</group>
+			<group chance="14.28">
+				<item id="21114" min_count="1" max_count="1"/>	<!--Beetle Hat-->
+			</group>
+			<group chance="14.28">
+				<item id="21112" min_count="1" max_count="1"/>	<!--Stag Beetle Hat-->
+			</group>
+			<group chance="14.28">
+				<item id="21120" min_count="1" max_count="1"/>	<!--Grasshopper Hat-->
+			</group>
+			<group chance="14.32">
+				<item id="21126" min_count="1" max_count="1"/>	<!--Warrior\'s Helmet-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="22278" levels="1" name="Large Ancient Weapon">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22279" levels="1" name="Giant Ancient Weapon">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22280" levels="1" name="Small Ancient Jewel">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22281" levels="1" name="Large Ancient Jewel">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22282" levels="1" name="Giant Ancient Jewel">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22283" levels="1" name="Player Commendation - Blessing">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys.icon.br_flag_of_bookmark_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="hitTime" value="100"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_effect" value="VP_UP"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="vp_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22284" levels="1" name="PC Vitality">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_pccafe_point_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="hitTime" value="100"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_effect" value="VP_UP"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="vp_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22285" levels="1" name="PC Vitality">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_pccafe_point_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="hitTime" value="100"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_effect" value="VP_UP"/>
+		<set name="abnormal_time" value="7200"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="vp_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22286" levels="1" name="PC Vitality">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_pccafe_point_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="hitTime" value="100"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_effect" value="VP_UP"/>
+		<set name="abnormal_time" value="10800"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="vp_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22287" levels="1" name="PC Vitality">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_pccafe_point_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="hitTime" value="100"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_effect" value="VP_UP"/>
+		<set name="abnormal_time" value="14400"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="vp_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22288" levels="1" name="Player Commendation - Vitality Pack">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22289" levels="1" name="Santa\'s Gift Box">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22290" levels="1" name="Scroll: Valakas Call">
+		<set name="icon" value="BranchSys2.icon.call_of_fire_dragon"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="loc" value="183512;-114808;-3336"/>
+		<set name="itemConsumeId" value="21895"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22291" levels="1" name="Jewel of Valakas">
+		<set name="icon" value="BranchSys2.icon.orb_of_fire_dragon"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="loc" value="183512;-114808;-3336"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22292" levels="1" name="Scroll: Antharas Call">
+		<set name="icon" value="BranchSys2.icon.call_of_earth_dragon"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="loc" value="154248;121224;-3808"/>
+		<set name="itemConsumeId" value="21897"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22293" levels="1" name="Jewel of Antharas">
+		<set name="icon" value="BranchSys2.icon.orb_of_earth_dragon"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="loc" value="154248;121224;-3808"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22294" levels="1" name="Totem of Body">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="hitTime" value="2000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22295" levels="1" name="Totem of Spirit">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="hitTime" value="2000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22296" levels="1" name="Totem of Courage">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="hitTime" value="2000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22297" levels="1" name="Totem of Fortitude">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="hitTime" value="2000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22298" levels="1" name="Refined Red Dragon Blood">
+		<set name="icon" value="BranchSys2.icon.refined_red_blood_of_dragon"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="100"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_PARTY"/>
+		<set name="affect_range" value="1000"/>
+		<set name="skillType" value="HEAL"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<effect instant="true" name="RestoreHP" value="4500"/>
+		</for>
+	</skill>
+	<skill id="22299" levels="1" name="Refined Blue Dragon Blood">
+		<set name="icon" value="BranchSys2.icon.refined_blue_blood_of_dragon"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="100"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_PARTY"/>
+		<set name="affect_range" value="1000"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<effect instant="true" name="RestoreMP" value="3500"/>
+		</for>
+	</skill>
+</list>

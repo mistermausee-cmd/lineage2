@@ -1,0 +1,1204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="19100" levels="1" name="Light Armor Mastery - Test">
+		<set name="icon" value="icon.skill19100"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="19101" levels="1" name="Chain Blow - Test">
+		<set name="icon" value="icon.skill19101"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="699"/>
+		<set name="hitTime" value="1130"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="19102" levels="1" name="Chaos Sympathy">
+		<set name="icon" value="icon.skill1505"/>
+		<set name="coolTime" value="300"/>
+		<set name="hitTime" value="1200"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="19103" levels="1" name="Resident Power">
+		<set name="icon" value="icon.skill0050"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="maxCp" value="700"/>
+			<mul stat="pvpPhysDefenceBonus" value="1.03"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.03"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.03"/>
+		</for>
+	</skill>
+	<skill id="19104" levels="2" name="Resident Power">
+		<set name="icon" value="icon.skill0050"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="maxCp" value="1000"/>
+			<mul stat="pvpPhysDefenceBonus" value="1.05"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.05"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.05"/>
+		</for>
+	</skill>
+	<skill id="19105" levels="1" name="Resident Advantage">
+		<set name="icon" value="icon.skill0820"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtkSpd" value="1.13">
+				<player max_level="84"/>
+			</mul>
+			<mul stat="mAtkSpd" value="1.13">
+				<player max_level="84"/>
+			</mul>
+			<mul stat="runSpd" value="1.13">
+				<player max_level="84"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="19106" levels="2" name="Resident Advantage">
+		<set name="icon" value="icon.skill0820"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtkSpd" value="1.15">
+				<player max_level="84"/>
+			</mul>
+			<mul stat="mAtkSpd" value="1.15">
+				<player max_level="84"/>
+			</mul>
+			<mul stat="runSpd" value="1.15">
+				<player max_level="84"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="19107" levels="1" name="Resident Guidance">
+		<set name="icon" value="icon.skill0788_3"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="exp_rate_multiplier" value="0.03"/>
+		</for>
+	</skill>
+	<skill id="19108" levels="2" name="Resident Guidance">
+		<set name="icon" value="icon.skill0788_5"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="exp_rate_multiplier" value="0.05"/>
+		</for>
+	</skill>
+	<skill id="19109" levels="4" name="Siege Golem\'s Spirit">
+		<table name="#magicLevel">85 90 95 99</table>
+		<set name="icon" value="icon.skill19109"/>
+		<set name="reuseDelay" value="1200000"/>
+		<set name="coolTime" value="300"/>
+		<set name="hitTime" value="10000"/>
+		<set name="mp_consume" value="70"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="SPECIAL"/>
+		<table name="#npcId">15054 15055 15056 15057</table>
+		<set name="hitCancelTime" value="500"/>
+		<set name="itemConsumeId" value="17371"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="itemConsumeCount" value="10"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="summonType" value="SIEGE_SUMMON"/>
+		<set name="is_saveable_summon" value="false"/>	<!--TODO: Check.-->
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_time" value="300"/>
+		<!-- Summon-specific -->
+		<set name="npcId" value="#npcId"/>
+		<cond msgId="16">
+			<player summon_siege_golem=""/>
+		</cond>
+		<for>
+			<effect>
+				<add stat="pAtk" value="1.5"/>
+				<add stat="mAtk" value="1.5"/>
+				<p_defence_trait name="crossbow" value="-50"/>
+				<p_defence_trait name="bow" value="-50"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="19110" levels="5" name="Clan Resilience">
+		<table name="#resist">12 13 14 15 16</table>
+		<set name="icon" value="icon.skill_tough_spirit"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<set name="min_pledge_rank" value="WISEMAN"/>
+		<for>
+			<p_defence_trait name="knockback" value="#resist"/>
+			<p_defence_trait name="knockdown" value="#resist"/>
+		</for>
+	</skill>
+	<skill id="19111" levels="5" name="Clan Steadfastness">
+		<table name="#p_defence_trait_airbind">12 13 14 15 16</table>
+		<set name="icon" value="icon.skill_heavy_heart"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<set name="min_pledge_rank" value="WISEMAN"/>
+		<for>
+			<p_defence_trait name="airbind" value="#p_defence_trait_airbind"/>
+		</for>
+	</skill>
+	<skill id="19112" levels="1" name="Clan Escape">
+		<set name="icon" value="icon.skill_pledge_party_recall"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="3500"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_CLAN_ONLY"/>
+		<set name="affect_range" value="1000"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="itemConsumeId" value="3031"/>
+		<set name="itemConsumeCount" value="50"/>
+		<set name="fameConsume" value="2000"/>
+		<set name="min_pledge_rank" value="VISCOUNT"/>
+	</skill>
+	<skill id="19113" levels="1" name="Clan Escape Lock">
+		<set name="icon" value="icon.skill_recall"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="2000"/>
+		<set name="abnormal_time" value="180"/>	<!--TODO: Check.-->
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="clan_recall_block"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="min_pledge_rank" value="MARQUIS"/>	<!--Маркиза-->
+		<set name="itemConsumeId" value="3031"/>
+		<set name="itemConsumeCount" value="100"/>
+		<set name="fameConsume" value="3000"/>
+		<for>
+			<effect name="p_block_escape"/>
+		</for>
+	</skill>
+	<skill id="19114" levels="1" name="Clan Resurrection Lock">
+		<set name="icon" value="icon.skill_resurrection"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="2000"/>
+		<set name="abnormal_time" value="180"/>	<!--TODO: Check.-->
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="clan_resurrection_block"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="min_pledge_rank" value="MARQUIS"/>	<!--Маркиза-->
+		<set name="itemConsumeId" value="3031"/>
+		<set name="itemConsumeCount" value="150"/>
+		<set name="fameConsume" value="1000"/>
+		<for>
+			<effect/>
+		</for>
+	</skill>
+	<skill id="19115" levels="1" name="Air Bike">
+		<set name="icon" value="icon.etc_dwarf_craft_vehicle"/>
+		<set name="hitTime" value="1000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isSkillTimePermanent" value="true"/>
+		<set name="hitCancelTime" value="500"/>
+		<cond>
+			<and>
+				<player min_clan_level="5"/>
+				<player can_transform="146"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="Transformation" value="146"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="19116" levels="1" name="Summon Lyn Draco">
+		<set name="icon" value="icon.etc_lind_vehicle"/>
+		<set name="hitTime" value="1000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isSkillTimePermanent" value="true"/>
+		<set name="hitCancelTime" value="500"/>
+		<cond>
+			<player can_transform="147"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="147"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="19117" levels="1" name="Dimensional Defense">
+		<set name="icon" value="icon.skill14216"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="19118" levels="4" name="Bike Ability">
+		<table name="#mp_consume">61 63 67 70</table>
+		<set name="icon" value="icon.skill_transform_etc"/>
+		<set name="reuseDelay" value="4000"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="19119" levels="1" name="Noblesse Grace">
+		<set name="icon" value="icon.skill1323"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="500"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="19120" levels="4" name="Noble Shield">
+		<table name="#pDef">1.02 1.04 1.06 1.08</table>
+		<set name="icon" value="icon.skill19120"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pDef" value="#pDef"/>
+		</for>
+	</skill>
+	<skill id="19121" levels="4" name="Noble Magic Barrier">
+		<table name="#mDef">1.03 1.05 1.07 1.1</table>
+		<set name="icon" value="icon.skill19121"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mDef" value="#mDef"/>
+		</for>
+	</skill>
+	<skill id="19122" levels="4" name="Noble Blessed Body">
+		<table name="#maxHp">1.06 1.1 1.12 1.16</table>
+		<set name="icon" value="icon.skill1045"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="#maxHp"/>
+		</for>
+	</skill>
+	<skill id="19123" levels="4" name="Noble Haste">
+		<table name="#pAtkSpd">1.02 1.04 1.06 1.09</table>
+		<set name="icon" value="icon.skill1086"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtkSpd" value="#pAtkSpd"/>
+		</for>
+	</skill>
+	<skill id="19124" levels="2" name="Noble Knight Buffs">
+		<table name="#p_attack_trait_paralyze">5 10</table>
+		<table name="#p_defence_trait_paralyze">5 10</table>
+		<table name="#p_attack_trait_shock">5 10</table>
+		<table name="#p_defence_trait_shock">5 10</table>
+		<set name="icon" value="icon.skill19124"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_attack_trait name="paralyze" value="#p_attack_trait_paralyze"/>
+			<p_defence_trait name="paralyze" value="#p_defence_trait_paralyze"/>
+			<p_attack_trait name="shock" value="#p_attack_trait_shock"/>
+			<p_defence_trait name="shock" value="#p_defence_trait_shock"/>
+		</for>
+	</skill>
+	<skill id="19125" levels="2" name="Noble Critical Focus">
+		<table name="#pCritRate">5 10</table>
+		<set name="icon" value="icon.skill0193"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pCritRate" value="#pCritRate"/>
+		</for>
+	</skill>
+	<skill id="19126" levels="2" name="Noble Mindset">
+		<table name="#regMp">4 10</table>
+		<set name="icon" value="icon.skill0229"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="regMp" value="#regMp"/>
+		</for>
+	</skill>
+	<skill id="19127" levels="2" name="Noble Guidance">
+		<table name="#accuracy">8 16</table>
+		<set name="icon" value="icon.skill19127"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAccCombat" value="#accuracy"/>
+			<add stat="mAccCombat" value="#accuracy"/>
+			<!--TODO: Физ. Точность слуги.-->
+			<!--TODO: Активирует скрытое умение.-->
+		</for>
+	</skill>
+	<skill id="19128" levels="2" name="Noble Sting">
+		<table name="#pCritDamageSkill">5 10</table>
+		<set name="icon" value="icon.skill10655"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="p_skill_critical_damage_per" value="#pCritDamageSkill"/>
+		</for>
+	</skill>
+	<skill id="19129" levels="2" name="Noble Protection">
+		<table name="#pCritDamRcpt">0.98 0.96</table>
+		<set name="icon" value="icon.skill19129"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pCritDamRcpt" value="#pCritDamRcpt"/>
+		</for>
+	</skill>
+	<skill id="19130" levels="2" name="Noble Attributes">
+		<table name="#power">20 50</table>
+		<set name="icon" value="icon.skill19130"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="defenceFire" value="#power"/>
+			<add stat="defenceWater" value="#power"/>
+			<add stat="defenceWind" value="#power"/>
+			<add stat="defenceEarth" value="#power"/>
+			<add stat="defenceHoly" value="#power"/>
+			<add stat="defenceUnholy" value="#power"/>
+			<add stat="attackFire" value="#power"/>
+			<add stat="attackWater" value="#power"/>
+			<add stat="attackWind" value="#power"/>
+			<add stat="attackEarth" value="#power"/>
+			<add stat="attackHoly" value="#power"/>
+			<add stat="attackUnholy" value="#power"/>
+		</for>
+	</skill>
+	<skill id="19131" levels="2" name="Noble Expertise">
+		<table name="#power">1.03 1.05</table>
+		<set name="icon" value="icon.skill19131"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="#power">
+				<using kind="Pole, Dual Sword, Dual Fist, Big Sword, Big Blunt, Dual Blunt, Dual Dagger, Ancient Sword"/>
+			</mul>
+			<mul stat="pAtkSpd" value="#power">
+				<and>
+					<using kind="Pole, Dual Sword, Dual Fist, Big Sword, Big Blunt, Dual Blunt, Dual Dagger, Ancient Sword"/>
+					<using kind="Shield"/>
+				</and>
+			</mul>
+		</for>
+	</skill>
+	<skill id="19132" levels="2" name="Noble Mind">
+		<table name="#mReuse">0.97 0.95</table>
+		<set name="icon" value="icon.skill19132"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mReuse" value="#mReuse"/>
+		</for>
+	</skill>
+	<skill id="19133" levels="1" name="Noble Heavy Armor Shield">
+		<set name="icon" value="icon.skill19133"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxMp" value="1.06">
+				<using armor="Heavy"/>
+			</mul>
+			<mul stat="mDef" value="1.03">
+				<using armor="Heavy"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="19134" levels="4" name="Noble Heavy Armor Defense">
+		<table name="#pDef">1.03 1.05 1.07 1.1</table>
+		<set name="icon" value="icon.skill19134"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pDef" value="#pDef">
+				<using armor="Heavy"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="19135" levels="4" name="Noble Heavy Armor Attack">
+		<table name="#pAtk">1.02 1.04 1.06 1.08</table>
+		<set name="icon" value="icon.skill19135"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="#pAtk">
+				<using armor="Heavy"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="19136" levels="3" name="Noble Prayer">
+		<table name="#hpEff">1.03 1.06 1.09</table>
+		<set name="icon" value="icon.skill1273"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="hpEff" value="#hpEff"/>
+		</for>
+	</skill>
+	<skill id="19137" levels="1" name="Noble Guts">
+		<set name="icon" value="icon.skill19137"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDefenceBonus" value="1.1"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.1"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.1"/>
+			<mul stat="pvePhysDefenceBonus" value="1.1"/>
+			<mul stat="pvePhysSkillDefenceBonus" value="1.1"/>
+			<mul stat="pveMagicSkillDefenceBonus" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="19138" levels="1" name="Noble Frenzy">
+		<set name="icon" value="icon.skill19138"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="p_skill_power" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="19139" levels="4" name="Noble Might">
+		<table name="#pAtk">1.02 1.04 1.06 1.09</table>
+		<set name="icon" value="icon.skill19139"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="#pAtk"/>
+		</for>
+	</skill>
+	<skill id="19140" levels="2" name="Noble Cost">
+		<table name="#mpConsumePhysical">0.95 0.9</table>
+		<set name="icon" value="icon.skill19140"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mpConsumePhysical" value="#mpConsumePhysical"/>
+		</for>
+	</skill>
+	<skill id="19141" levels="2" name="Noble Wind Walk">
+		<table name="#runSpd">5 10</table>
+		<set name="icon" value="icon.skill1204"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="runSpd" value="#runSpd"/>
+		</for>
+	</skill>
+	<skill id="19142" levels="2" name="Noble Warrior Buffs">
+		<table name="#p_attack_trait_shock">5 10</table>
+		<table name="#p_defence_trait_shock">5 10</table>
+		<table name="#p_attack_trait_airbind">5 10</table>
+		<table name="#p_defence_trait_airbind">5 10</table>
+		<set name="icon" value="icon.skill19142"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_attack_trait name="shock" value="#p_attack_trait_shock"/>
+			<p_defence_trait name="shock" value="#p_defence_trait_shock"/>
+			<p_attack_trait name="airbind" value="#p_attack_trait_airbind"/>
+			<p_defence_trait name="airbind" value="#p_defence_trait_airbind"/>
+		</for>
+	</skill>
+	<skill id="19143" levels="2" name="Noble Focus">
+		<table name="#basePCritRate">20 40</table>
+		<set name="icon" value="icon.skill1077"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="basePCritRate" value="#basePCritRate"/>
+		</for>
+	</skill>
+	<skill id="19144" levels="2" name="Noble Backfire">
+		<table name="#physDamage">1.03 1.06</table>
+		<set name="icon" value="icon.skill0030"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="inflicts_p_damage_power" value="#physDamage">
+				<target direction="behind"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="19145" levels="2" name="Noble Death Whisper">
+		<table name="#p_critical_damage_per">3 5</table>
+		<set name="icon" value="icon.skill4278"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="p_critical_damage_per" value="#p_critical_damage_per"/>
+		</for>
+	</skill>
+	<skill id="19146" levels="2" name="Noble Protection Magic">
+		<table name="#mCritDamRcpt">0.98 0.96</table>
+		<set name="icon" value="icon.skill19146"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mCritDamRcpt" value="#mCritDamRcpt"/>
+		</for>
+	</skill>
+	<skill id="19147" levels="2" name="Noble Ambush">
+		<table name="#runSpd">6 12</table>
+		<set name="icon" value="icon.skill1905"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>	
+			<add stat="runSpd" value="#runSpd"/>
+		</for>
+	</skill>
+	<skill id="19148" levels="1" name="Noble Light Armor Blessing">
+		<set name="icon" value="icon.skill19148"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxMp" value="1.06">
+				<using armor="Light"/>
+			</mul>
+			<mul stat="maxHp" value="1.06">
+				<using armor="Light"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="19149" levels="4" name="Noble Anti Magic">
+		<table name="#mDef">1.03 1.05 1.09 1.12</table>
+		<set name="icon" value="icon.skill0146"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mDef" value="#mDef">
+				<using armor="Light"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="19150" levels="4" name="Noble Light Armor Attack">
+		<table name="#pAtk">1.02 1.04 1.06 1.08</table>
+		<set name="icon" value="icon.skill19150"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="#pAtk">
+				<using armor="Light"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="19151" levels="3" name="Noble Vampiric Rage">
+		<table name="#TababsorbDam">3 6 9</table>
+		<set name="icon" value="icon.skill1268"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="absorbDam" value="#TababsorbDam"/>
+			<add stat="absorbBowDam" value="#TababsorbDam"/>
+			<add stat="absorbPSkillDam" value="#TababsorbDam"/>
+			<add stat="absorbMSkillDam" value="#TababsorbDam"/>
+		</for>
+	</skill>
+	<skill id="19152" levels="1" name="Noble Endurance">
+		<set name="icon" value="icon.skill19152"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="19153" levels="1" name="Noble Critical Boost">
+		<set name="icon" value="icon.skill19153"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="basePCritRate" value="50"/>
+			<add stat="baseMCritRate" value="20"/>
+			<add stat="skillMastery" value="1.5"/>
+		</for>
+	</skill>
+	<skill id="19154" levels="4" name="Noble Empower">
+		<table name="#mAtk">1.03 1.06 1.09 1.14</table>
+		<table name="#hpEff">47 94 141 211</table>
+		<set name="icon" value="icon.skill1059"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="#mAtk"/>
+			<add stat="hpEff" value="#hpEff"/>
+		</for>
+	</skill>
+	<skill id="19155" levels="2" name="Noble Acumen">
+		<table name="#mAtkSpd">1.02 1.04</table>
+		<set name="icon" value="icon.skill1085"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtkSpd" value="#mAtkSpd"/>
+		</for>
+	</skill>
+	<skill id="19156" levels="2" name="Noble Wizard Buffs">
+		<table name="#p_attack_trait_hold">5 10</table>
+		<table name="#p_attack_trait_derangement">5 10</table>
+		<table name="#p_defence_trait_hold">5 10</table>
+		<table name="#p_defence_trait_derangement">5 10</table>
+		<set name="icon" value="icon.skill19156"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_attack_trait name="hold" value="#p_attack_trait_hold"/>
+			<p_attack_trait name="derangement" value="#p_attack_trait_derangement"/>
+			<p_defence_trait name="hold" value="#p_defence_trait_hold"/>
+			<p_defence_trait name="derangement" value="#p_defence_trait_derangement"/>
+		</for>
+	</skill>
+	<skill id="19157" levels="2" name="Noble Wild Magic">
+		<table name="#baseMCritRate">20 30</table>
+		<set name="icon" value="icon.skill1303"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="baseMCritRate" value="#baseMCritRate"/>
+		</for>
+	</skill>
+	<skill id="19158" levels="2" name="Noble Blessed Soul">
+		<table name="#maxMp">1.06 1.1</table>
+		<set name="icon" value="icon.skill1048"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxMp" value="#maxMp"/>
+		</for>
+	</skill>
+	<skill id="19159" levels="2" name="Noble Resistance">
+		<table name="#resist_abnormal_debuff">-5 -10</table>
+		<set name="icon" value="icon.skill11567"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="resist_abnormal_debuff" value="#resist_abnormal_debuff"/>
+		</for>
+	</skill>
+	<skill id="19160" levels="2" name="Noble Magic Death">
+		<table name="#mCritDamage">3 5</table>
+		<table name="#hpEff">94 211</table>
+		<set name="icon" value="icon.skill19160"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="p_magic_critical_dmg_per" value="#mCritDamage"/>
+			<add stat="hpEff" value="#hpEff"/>
+		</for>
+	</skill>
+	<skill id="19161" levels="2" name="Noble Protection Armor">
+		<table name="#pCritChanceRcpt">0.98 0.96</table>
+		<set name="icon" value="icon.skill19161"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pCritChanceRcpt" value="#pCritChanceRcpt"/>
+		</for>
+	</skill>
+	<skill id="19162" levels="2" name="Noble Recovery">
+		<table name="#mp">8 12</table>
+		<set name="icon" value="icon.skill19162"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="regMp" value="#mp">
+				<player running="true"/>
+			</add>
+		</for>
+	</skill>
+	<skill id="19163" levels="2" name="Noble Skill Mastery">
+		<table name="#skillMastery">1.3 1.5</table>
+		<set name="icon" value="icon.skill0330"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="skillMastery" value="#skillMastery"/>
+		</for>
+	</skill>
+	<skill id="19164" levels="1" name="Noble Robe Shield">
+		<set name="icon" value="icon.skill19164"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxMp" value="1.06">
+				<using armor="Magic"/>
+			</mul>
+			<mul stat="pDef" value="1.03">
+				<using armor="Magic"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="19165" levels="4" name="Noble Robe Defense">
+		<table name="#pDef">1.03 1.05 1.07 1.1</table>
+		<set name="icon" value="icon.skill19165"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pDef" value="#pDef">
+				<using armor="Magic"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="19166" levels="4" name="Noble Robe Attack">
+		<table name="#mAtk">1.03 1.06 1.09 1.12</table>
+		<table name="#hpEff">47 94 0 0</table>
+		<set name="icon" value="icon.skill19166"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="#mAtk">
+				<using armor="Magic"/>
+			</mul>
+			<add stat="hpEff" value="#hpEff">
+				<using armor="Magic"/>
+			</add>
+		</for>
+	</skill>
+	<skill id="19167" levels="3" name="Noble Heal Boost">
+		<table name="#hpEff">1.03 1.06 1.09</table>
+		<set name="icon" value="icon.skill19167"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="hpEff" value="#hpEff"/>
+		</for>
+	</skill>
+	<skill id="19168" levels="1" name="Noble Gain">
+		<set name="icon" value="icon.skill19168"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="regMp" value="33"/>
+			<mul stat="maxHp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="19169" levels="1" name="Noble Advance">
+		<set name="icon" value="icon.skill19169"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="regMp" value="33"/>
+			<mul stat="mReuse" value="0.95"/>
+		</for>
+	</skill>
+	<skill id="19170" levels="2" name="Noble Blessing">
+		<table name="#pDef">1.03 1.05</table>
+		<set name="icon" value="icon.skill19120"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pDef" value="#pDef"/>
+		</for>
+	</skill>
+	<skill id="19171" levels="4" name="Noble Condition">
+		<table name="#maxHp">1.06 1.1 1.14 1.2</table>
+		<set name="icon" value="icon.skill1045"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="#maxHp"/>
+		</for>
+	</skill>
+	<skill id="19172" levels="2" name="Noble Eagle Eye">
+		<table name="#accuracy">8 16</table>
+		<set name="icon" value="icon.skill19127"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAccCombat" value="#accuracy"/>
+			<add stat="mAccCombat" value="#accuracy"/>
+			<!--TODO: Физ. Точность слуги.-->
+		</for>
+	</skill>
+	<skill id="19173" levels="2" name="Noble Emblem">
+		<table name="#power">20 50</table>
+		<set name="icon" value="icon.skill19130"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="defenceFire" value="#power"/>
+			<add stat="defenceWater" value="#power"/>
+			<add stat="defenceWind" value="#power"/>
+			<add stat="defenceEarth" value="#power"/>
+			<add stat="defenceHoly" value="#power"/>
+			<add stat="defenceUnholy" value="#power"/>
+			<add stat="attackFire" value="#power"/>
+			<add stat="attackWater" value="#power"/>
+			<add stat="attackWind" value="#power"/>
+			<add stat="attackEarth" value="#power"/>
+			<add stat="attackHoly" value="#power"/>
+			<add stat="attackUnholy" value="#power"/>
+		</for>
+	</skill>
+	<skill id="19174" levels="4" name="Noble Earth">
+		<table name="#pDef">1.03 1.05 1.06 1.08</table>
+		<set name="icon" value="icon.skill19121"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pDef" value="#pDef"/>
+		</for>
+	</skill>
+	<skill id="19175" levels="2" name="Noble Life">
+		<table name="#maxHp">1.06 1.1</table>
+		<set name="icon" value="icon.skill1045"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="#maxHp"/>
+		</for>
+	</skill>
+	<skill id="19176" levels="2" name="Noble Vision">
+		<table name="#accuracy">8 16</table>
+		<set name="icon" value="icon.skill19127"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAccCombat" value="#accuracy"/>
+			<add stat="mAccCombat" value="#accuracy"/>
+			<!--TODO: Физ. Точность слуги.-->
+		</for>
+	</skill>
+	<skill id="19177" levels="2" name="Noble Spirit">
+		<table name="#power">20 50</table>
+		<set name="icon" value="icon.skill19130"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="defenceFire" value="#power"/>
+			<add stat="defenceWater" value="#power"/>
+			<add stat="defenceWind" value="#power"/>
+			<add stat="defenceEarth" value="#power"/>
+			<add stat="defenceHoly" value="#power"/>
+			<add stat="defenceUnholy" value="#power"/>
+			<add stat="attackFire" value="#power"/>
+			<add stat="attackWater" value="#power"/>
+			<add stat="attackWind" value="#power"/>
+			<add stat="attackEarth" value="#power"/>
+			<add stat="attackHoly" value="#power"/>
+			<add stat="attackUnholy" value="#power"/>
+		</for>
+	</skill>
+	<skill id="19178" levels="1" name="Knight Hidden Trigger">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="P"/>
+		<cond>
+			<or>
+				<player classId="139"/>
+				<player classId="148"/>
+				<player classId="149"/>
+				<player classId="150"/>
+				<player classId="151"/>
+			</or>
+		</cond>
+	</skill>
+	<skill id="19179" levels="1" name="Warrior Hidden Trigger">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="P"/>
+		<cond>
+			<or>
+				<player classId="140"/>
+				<player classId="153"/>
+				<player classId="154"/>
+				<player classId="155"/>
+				<player classId="156"/>
+				<player classId="157"/>
+			</or>
+		</cond>
+	</skill>
+	<skill id="19180" levels="1" name="Rogue Hidden Trigger">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="P"/>
+		<cond>
+			<or>
+				<player classId="141"/>
+				<player classId="158"/>
+				<player classId="159"/>
+				<player classId="160"/>
+				<player classId="161"/>
+			</or>
+		</cond>
+	</skill>
+	<skill id="19181" levels="1" name="Archer Hidden Trigger">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="P"/>
+		<cond>
+			<or>
+				<player classId="142"/>
+				<player classId="162"/>
+				<player classId="163"/>
+				<player classId="164"/>
+				<player classId="165"/>
+			</or>
+		</cond>
+	</skill>
+	<skill id="19182" levels="1" name="Wizard Hidden Trigger">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="P"/>
+		<cond>
+			<or>
+				<player classId="143"/>
+				<player classId="166"/>
+				<player classId="167"/>
+				<player classId="168"/>
+				<player classId="169"/>
+				<player classId="170"/>
+			</or>
+		</cond>		
+	</skill>
+	<skill id="19183" levels="1" name="Enchanter Hidden Trigger">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="P"/>
+		<cond>
+			<or>
+				<player classId="144"/>
+				<player classId="171"/>
+				<player classId="172"/>
+				<player classId="173"/>
+				<player classId="174"/>
+				<player classId="175"/>
+			</or>
+		</cond>		
+	</skill>
+	<skill id="19184" levels="1" name="Summoner Hidden Trigger">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="P"/>
+		<cond>
+			<or>
+				<player classId="145"/>
+				<player classId="176"/>
+				<player classId="177"/>
+				<player classId="178"/>
+			</or>
+		</cond>		
+	</skill>
+	<skill id="19185" levels="1" name="Healer Hidden Trigger">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="P"/>
+		<cond>
+			<or>
+				<player classId="146"/>
+				<player classId="179"/>
+				<player classId="180"/>
+				<player classId="181"/>
+			</or>
+		</cond>
+	</skill>
+	<skill id="19186" levels="1" name="Rampage Shield">
+		<set name="icon" value="icon.skill19186"/>
+		<set name="operate_type" value="P"/>
+		<triggers>
+			<trigger id="19196" level="1" type="RECEIVE_DAMAGE" chance="20"><!--TODO Новы триггер в случае успешной защиты щитом-->
+				<player damage="100;0"/>
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="19187" levels="1" name="Blockade">
+		<set name="icon" value="icon.skill19187"/>
+		<set name="reuseDelay" value="120000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="34"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="MUTE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_effect" value="SILENCE"/>
+		<set name="activateRate" value="80"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="silence_all"/>
+		<set name="trait" value="DERANGEMENT"/>
+		<set name="magicLevel" value="99"/>
+		<for>
+			<effect name="MuteAll"/>
+		</for>
+	</skill>
+	<skill id="19188" levels="1" name="Snicker">
+		<set name="icon" value="icon.skill19188"/>
+		<set name="operate_type" value="P"/>
+		<triggers>
+			<trigger id="19198" level="1" type="RECEIVE_DAMAGE" chance="5">
+				<player damage="100;0"/>
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="19189" levels="1" name="Retreating Shot">
+		<set name="icon" value="icon.skill10858"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="450"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="34"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="power" value="30534"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+		<set name="fly_radius" value="-450"/>
+		<set name="fly_type" value="WARP_BACK"/>
+		<cond msgId="113">
+			<using kind="Crossbow, Bow"/>
+		</cond>
+		<for>
+			<effect name="i_target_cancel">
+				<def name="stop_target" value="true"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="19190" levels="1" name="Brilliant Magic">
+		<set name="icon" value="icon.skill19190"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxMp" value="1.1"/>
+			<add stat="regMp" value="8"/>
+		</for>
+	</skill>
+	<skill id="19191" levels="1" name="Mist Armor">
+		<set name="icon" value="icon.skill19191"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDefenceBonus" value="1.09"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.09"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.09"/>
+			<mul stat="pvePhysDefenceBonus" value="1.09"/>
+			<mul stat="pvePhysSkillDefenceBonus" value="1.09"/>
+			<mul stat="pveMagicSkillDefenceBonus" value="1.09"/>
+		</for>
+	</skill>
+	<skill id="19192" levels="1" name="Mass Servitor Berserk">
+		<set name="icon" value="icon.skill19192"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="3500"/>
+		<set name="mp_consume" value="67"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="operate_type" value="A2"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="abnormal_time" value="30"/>
+		<set name="abnormal_level" value="1"/>
+		<!--TODO: Check. <set name="abnormal_type" value=""/>-->
+		<for>
+			<effect name="ServitorShare">
+				<add stat="pAtk" value="1.15"/>
+				<add stat="p_critical_damage_per" value="15"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="19193" levels="1" name="Divine Blessing">
+		<set name="icon" value="icon.skill19193"/>
+		<set name="operate_type" value="P"/>
+		<triggers>
+			<trigger id="19197" level="1" type="ON_CAST_SKILL" args="11755"/>
+		</triggers>
+	</skill>
+	<skill id="19196" levels="1" name="Rampage Shield">
+		<set name="icon" value="icon.skill19186"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="abnormal_level" value="1"/>
+		<!--TODO: Check. <set name="abnormal_type" value=""/>-->
+		<for>
+			<effect>
+				<mul stat="pAtk" value="1.3">
+					<using kind="Shield"/>
+				</mul>
+			</effect>
+		</for>
+	</skill>
+	<skill id="19197" levels="1" name="Divine Blessing">
+		<set name="icon" value="icon.skill19193"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="abnormal_level" value="1"/>
+		<!--TODO: Check. <set name="abnormal_type" value=""/>-->
+		<for>
+			<effect>
+				<mul stat="mAtk" value="1.16"/>
+				<add stat="hpEff" value="242"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="19198" levels="1" name="Cancel target">
+		<set name="icon" value="icon.skill0445"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="castRange" value="1100"/>
+		<set name="target" value="TARGET_AREA"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="magicLevel" value="105"/>
+		<set name="affect_range" value="300"/>
+		<set name="affectLimit" value="5;12"/>
+		<for>
+			<effect name="i_target_cancel"/>
+		</for>
+	</skill>
+	<skill id="19199" levels="1" name="Hurricane Sign">
+		<set name="icon" value="icon.skill1996"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+</list>

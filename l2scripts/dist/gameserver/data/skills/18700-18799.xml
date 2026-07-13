@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="18700" levels="1" name="Freya\'s Art of Seduction">
+		<set name="icon" value="icon.bm_freya_rose_red_i00"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18701" levels="1" name="Freya\'s Art of Seduction">
+		<set name="icon" value="icon.bm_freya_rose_red_i00"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18702" levels="1" name="Pa\'agrio\'s Blessing">
+		<set name="icon" value="icon.nshop_bless_of_paagrio"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18703" levels="1" name="Pa\'agrio\'s Blessing">
+		<set name="icon" value="icon.nshop_bless_of_paagrio"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18704" levels="1" name="MOPP Combat Ration">
+		<set name="icon" value="icon.ev_mopp_herb"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18705" levels="3" name="Low-grade Arena Loot">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18706" levels="1" name="Player Commendation Points">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18710" levels="1" name="Formal Wear Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18711" levels="1" name="Blessing of Twilight">
+		<set name="icon" value="BranchSys2.icon.g_giant_gem"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18712" levels="1" name="Blessing of the Dawn">
+		<set name="icon" value="BranchSys2.icon.g_twilight_gem"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18713" levels="6" name="Red Cat\'s Eye">
+		<table name="#icon">icon.bm_jewel_red_catseye icon.bm_jewel_red_catseye icon.bm_jewel_red_catseye icon.bm_jewel_red_catseye icon.bm_jewel_red_catseye icon.bm_jewel_red_catseye_high_lv1_lavianrose</table>
+		<set name="icon" value="#icon"/>
+		<set name="operate_type" value="P"/>
+		<table name="#value">1 2 4 7 12 12</table>
+		<table name="#value2">1 1 1 1 1 1.05</table>		
+		<for>
+			<add stat="p_critical_damage_per" value="#value"/>
+			<add stat="p_skill_critical_damage_per" value="#value"/>					
+			<mul stat="p_skill_power" value="#value2"/>			
+		</for>
+	</skill>
+	<skill id="18714" levels="6" name="Blue Cat\'s Eye">
+		<table name="#icon">Icon.bm_jewel_blue_catseye Icon.bm_jewel_blue_catseye Icon.bm_jewel_blue_catseye Icon.bm_jewel_blue_catseye Icon.bm_jewel_blue_catseye icon.bm_jewel_blue_catseye_high_lv1_lavianrose</table>
+		<set name="icon" value="#icon"/>
+		<set name="operate_type" value="P"/>
+		<table name="#value">1 2 4 7 12 12</table>
+		<table name="#value2">1 1 1 1 1 1.05</table>		
+		<for>
+			<add stat="p_magic_critical_dmg_per" value="#value"/>		
+			<mul stat="mSkillPower" value="#value2"/>			
+		</for>
+	</skill>
+	<skill id="18715" levels="1" name="Greater Ruby">
+		<set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_soul_shot">
+				<def name="power" value="120"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18716" levels="1" name="Greater Ruby">
+		<set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_summon_soul_shot">
+				<def name="power" value="120"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18717" levels="6" name="Ruby">
+		<table name="#icon">icon.etc_bm_jewel_ruby_i00 icon.etc_bm_jewel_ruby_i00 icon.etc_bm_jewel_ruby_i00 icon.etc_bm_jewel_ruby_i00 icon.etc_bm_jewel_ruby_i00 icon.bm_jewel_ssdmg_high_lv1_lavianrose</table>
+		<table name="#pAtk">1 1 1 1 1 1.09</table>
+		<set name="icon" value="#icon"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="#pAtk"/>
+		</for>
+	</skill>
+	<skill id="18718" levels="2" name="Greater Sapphire">
+		<table name="#power">120 320</table>
+		<table name="#unk_spiritshot_parameter_1">40 40</table>	<!--TODO: Check.-->
+		<table name="#unk_spiritshot_parameter_2">1.0 2.4</table>	<!--TODO: Check.-->
+		<set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_spirit_shot">
+				<def name="power" value="#power"/>
+				<def name="unk_spiritshot_parameter_1" value="#unk_spiritshot_parameter_1"/>
+				<def name="unk_spiritshot_parameter_2" value="#unk_spiritshot_parameter_2"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18719" levels="6" name="Sapphire">
+		<table name="#icon">icon.etc_bm_jewel_sapphire_i00 icon.etc_bm_jewel_sapphire_i00 icon.etc_bm_jewel_sapphire_i00 icon.etc_bm_jewel_sapphire_i00 icon.etc_bm_jewel_sapphire_i00 icon.bm_jewel_spsdmg_high_lv1_lavianrose</table>
+		<table name="#mAtk">1 1 1 1 1 1.13</table>
+		<set name="icon" value="#icon"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="#mAtk"/>
+		</for>
+	</skill>
+	<skill id="18720" levels="1" name="Greater Obsidian - Cancel Target">
+		<set name="icon" value="icon.bm_jewel_pvpdef_high_lv1_lavianrose"/>
+		<set name="reuseDelay" value="15000"/>		
+		<set name="abnormal_time" value="1"/>
+		<set name="activateRate" value="100"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="A2"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="target" value="TARGET_ONE"/>
+		<for>
+			<effect name="i_target_cancel"/>
+		</for>
+	</skill>
+	<skill id="18721" levels="1" name="Greater Garnet - Cancel Stun/Silence">
+		<set name="icon" value="icon.bm_jewel_garnet_high_lv1_lavianrose"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_time" value="0"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<for>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="silence"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="stun"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18722" levels="1" name="Greater Garnet - Cancel Debuffs">
+		<set name="icon" value="icon.bm_jewel_garnet_high_lv1_lavianrose"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_time" value="0"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<for>
+			<effect name="i_dispel_by_category">
+				<def name="abnormal_category" value="slot_debuff"/>
+				<def name="dispel_chance" value="100"/>
+				<def name="max_count" value="10"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18723" levels="4" name="Ultimate Jewelry Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18724" levels="2" name="Red Cat\'s Eye Fortune Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18725" levels="1" name="Freya\'s Art of Seduction - Barrier">
+		<set name="icon" value="icon.bm_freya_rose_red_i00"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18726" levels="1" name="Freya\'s Art of Seduction - EXP">
+		<set name="icon" value="icon.bm_freya_rose_red_i00"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18727" levels="1" name="Pa??agrio??s Blessing - Might">
+		<set name="icon" value="icon.nshop_bless_of_paagrio"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18728" levels="1" name="Pa??agrio??s Blessing - EXP">
+		<set name="icon" value="icon.nshop_bless_of_paagrio"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18729" levels="1" name="Treat Wounded Soldier">
+		<set name="icon" value="icon.skill0246"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18730" levels="1" name="Craft Protection Battery Parts">
+		<set name="icon" value="icon.skill0246"/>
+		<set name="hitTime" value="120000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18731" levels="1" name="Activate Protection Battery">
+		<set name="icon" value="icon.skill0246"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="100"/>
+		<set name="hitTime" value="180000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18732" levels="4" name="Low-grade Keucereus Defense Supply Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18733" levels="1" name="Guardian Captain Isburg Elimination Commemorative Supply Items">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18734" levels="1" name="Balthus Knight Camouflage">
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18735" levels="1" name="Balthus Knight Camouflage">
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18736" levels="1" name="Balthus Knight Camouflage">
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18737" levels="1" name="Balthus Knight Camouflage">
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18738" levels="1" name="+10 Blessed Amaranthine Weapon Supply Items">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18739" levels="3" name="+8 Blessed Eternal Armor Heavy Capsule">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18740" levels="1" name="+8 Blessed Eternal Armor Supply Items">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18741" levels="1" name="Freya\'s Art of Seduction - Barrier">
+		<set name="icon" value="icon.bm_freya_rose_red_i00"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18742" levels="1" name="Freya\'s Art of Seduction - EXP">
+		<set name="icon" value="icon.bm_freya_rose_red_i00"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18743" levels="1" name="Pa??agrio??s Blessing - Might">
+		<set name="icon" value="icon.nshop_bless_of_paagrio"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18744" levels="1" name="Pa??agrio??s Blessing - EXP">
+		<set name="icon" value="icon.nshop_bless_of_paagrio"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18745" levels="3" name="Dragon??s Treasure Chest">
+		<table name="#icon">icon.bm_dragon_posion icon.bm_dragon_posion_brave icon.skill0000</table>
+		<set name="icon" value="#icon"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18746" levels="1" name="Dragon??s Elemental Potion">
+		<set name="icon" value="icon.bm_dragon_posion"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18747" levels="1" name="Dragon??s Elemental Potion - XP">
+		<set name="icon" value="icon.bm_dragon_posion_brave"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18748" levels="4" name="Horn Melody of Red">
+		<set name="icon" value="icon.skill11517"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18749" levels="4" name="Drum Melody of Red">
+		<set name="icon" value="icon.skill11522"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18750" levels="4" name="Pipe Organ Melody of Red">
+		<set name="icon" value="icon.skill11519"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18751" levels="4" name="Guitar Melody of Red">
+		<set name="icon" value="icon.skill11520"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18752" levels="4" name="Harp Melody of Red">
+		<set name="icon" value="icon.skill11521"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18753" levels="4" name="Lute Melody of Red">
+		<set name="icon" value="icon.skill11518"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18754" levels="1" name="Prevailing Sonata of Red">
+		<set name="icon" value="icon.skill11529"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18755" levels="1" name="Daring Sonata of Red">
+		<set name="icon" value="icon.skill11530"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18756" levels="1" name="Refreshing Sonata of Red">
+		<set name="icon" value="icon.skill11532"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18757" levels="1" name="Knight\'s Harmony of Red">
+		<set name="icon" value="icon.skill11523"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18758" levels="1" name="Warrior\'s Harmony of Red">
+		<set name="icon" value="icon.skill11524"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18759" levels="1" name="Wizard\'s Harmony of Red">
+		<set name="icon" value="icon.skill11525"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18760" levels="1" name="Mighty Prophecy of Red">
+		<set name="icon" value="icon.skill19204"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18761" levels="1" name="Pink??s Style Potion - Kelbim Light Armor">
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18762" levels="1" name="Pink\'s Style Potion - Freya Robe">
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18763" levels="1" name="Pink\'s Style Potion - Blue Dynasty">
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18764" levels="1" name="Pink\'s Style Potion - White Assassin">
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18765" levels="1" name="Pink\'s Style Potion - Formal Wear">
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18766" levels="1" name="Pink\'s Style Potion - Vampiric">
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18767" levels="1" name="Pink\'s Style Potion - Green Archer">
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18768" levels="1" name="Pink\'s Style Potion - Magician">
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18769" levels="1" name="Scroll: Enchant Faint Elemental Shirt">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18770" levels="1" name="Scroll: Enchant Brilliant Elemental Shirt">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18771" levels="1" name="Einhasad??s Charisma Potion">
+		<set name="icon" value="icon.etc_instant_charisma_potion_i00"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18772" levels="4" name="Horn Melody">
+		<set name="icon" value="icon.skill11517"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18773" levels="4" name="Drum Melody">
+		<set name="icon" value="icon.skill11522"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18774" levels="4" name="Pipe Organ Melody">
+		<set name="icon" value="icon.skill11519"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18775" levels="4" name="Guitar Melody">
+		<set name="icon" value="icon.skill11520"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18776" levels="4" name="Harp Melody">
+		<set name="icon" value="icon.skill11521"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18777" levels="4" name="Lute Melody">
+		<set name="icon" value="icon.skill11518"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18778" levels="1" name="Knight\'s Harmony">
+		<set name="icon" value="icon.skill11523"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18779" levels="1" name="Warrior\'s Harmony">
+		<set name="icon" value="icon.skill11524"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18780" levels="1" name="Wizard\'s Harmony">
+		<set name="icon" value="icon.skill11525"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18781" levels="1" name="Prevailing Sonata">
+		<set name="icon" value="icon.skill11529"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18782" levels="1" name="Daring Sonata">
+		<set name="icon" value="icon.skill11530"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18783" levels="1" name="Refreshing Sonata">
+		<set name="icon" value="icon.skill11532"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18784" levels="1" name="Elements Resistance">
+		<set name="icon" value="icon.skill11565"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18785" levels="1" name="Holy Attack Resistance">
+		<set name="icon" value="icon.skill11567"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18786" levels="1" name="Mental Attack Resistance">
+		<set name="icon" value="icon.skill11824"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18787" levels="1" name="Angel Cat\'s Blessing">
+		<set name="icon" value="BranchSys3.g_blessing_of_angel_cat_i00"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18788" levels="2" name="Puss the Cat??s Blessing">
+		<table name="#castRange">900 -1</table>
+		<set name="icon" value="icon.accessory_cat_the_cat_cap_i00"/>
+		<set name="castRange" value="#castRange"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18789" levels="1" name="Puss the Cat??s Gift">
+		<set name="icon" value="icon.accessory_cat_the_cat_cap_i00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18790" levels="1" name="Sweet Rice Cakes">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18791" levels="1" name="Hanbok Outfit">
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18792" levels="1" name="Test Adena Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18793" levels="2" name="Spellbook: Vitality of the Exalted Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18794" levels="2" name="Puss the Cat??s Blessing">
+		<table name="#castRange">900 -1</table>
+		<set name="icon" value="icon.accessory_cat_the_cat_cap_i00"/>
+		<set name="castRange" value="#castRange"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18795" levels="1" name="Puss the Cat??s Gift">
+		<set name="icon" value="icon.accessory_cat_the_cat_cap_i00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18796" levels="3" name="Angel??s Fortune Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18797" levels="1" name="Nevit??s Gold Hourglass">
+		<set name="icon" value="icon.bm_nebit_bonus_time_up"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18798" levels="1" name="Shining Scroll of Growth">
+		<set name="icon" value="icon.bm_nebit_exp_book"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+</list>

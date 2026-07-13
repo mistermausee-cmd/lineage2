@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "zone.dtd">
+<list>
+	<zone name="[orbis_to_1st]" type="TELEPORT">
+		<set name="teleport_location" value="213983;53250;-8176"/>
+		<polygon>
+			<coords loc="198120 90504 -445 -390"/>
+			<coords loc="198152 90680 -445 -390"/>
+			<coords loc="198280 90664 -445 -390"/>
+			<coords loc="198280 90504 -445 -390"/>
+		</polygon>
+	</zone>
+	<zone name="[orbis_to_enter]" type="TELEPORT">
+		<set name="teleport_location" value="197784;90584;-325"/>
+		<polygon>
+			<coords loc="214904 52952 -7999 -7900"/>
+			<coords loc="215304 52952 -7999 -7900"/>
+			<coords loc="215272 52744 -7999 -7900"/>
+			<coords loc="215064 52760 -7999 -7900"/>
+		</polygon>
+	</zone>
+	<zone name="[orbis_from_1st_to_2nd]" type="TELEPORT">
+		<set name="teleport_location" value="213799;53253;-14432"/>
+		<polygon>
+			<coords loc="215752 52056 -8880 -8760"/>
+			<coords loc="215736 52472 -8880 -8760"/>
+			<coords loc="215960 52440 -8880 -8760"/>
+			<coords loc="215960 52088 -8880 -8760"/>
+		</polygon>
+	</zone>
+	<zone name="[orbis_from_2nd_to_1st]" type="TELEPORT">
+		<set name="teleport_location" value="215056;50467;-8416"/>
+		<polygon>
+			<coords loc="214904 52952 -14260 -14080"/>
+			<coords loc="215256 52920 -14260 -14080"/>
+			<coords loc="215272 52744 -14260 -14080"/>
+			<coords loc="215080 52760 -14260 -14080"/>
+		</polygon>
+	</zone>
+	<zone name="[orbis_from_2nd_to_3rd]" type="TELEPORT">
+		<set name="teleport_location" value="211641;115547;-12736"/>
+		<polygon>
+			<coords loc="210328 48968 -15040 15000"/>
+			<coords loc="210312 48760 -15040 15000"/>
+			<coords loc="210344 48552 -15040 15000"/>
+			<coords loc="210088 48584 -15040 15000"/>
+			<coords loc="210088 48936 -15040 15000"/>
+		</polygon>
+	</zone>
+	<zone name="[orbis_from_3rd_to_2nd]" type="TELEPORT">
+		<set name="teleport_location" value="211137;50501;-14624"/>
+		<polygon>
+			<coords loc="211272 114968 -12695 -12600"/>
+			<coords loc="211752 114984 -12695 -12600"/>
+			<coords loc="211720 114664 -12695 -12600"/>
+			<coords loc="211320 114664 -12695 -12600"/>
+		</polygon>
+	</zone>
+	<zone name="[20_14_telzone_to_tavern_1]" type="TELEPORT">
+		<set name="teleport_location" value="-49596;-150715;-14472"/>
+		<circle loc="18232 -114088 200 -679 -479"/>
+	</zone>
+	<zone name="[20_14_telzone_to_tavern_2]" type="TELEPORT">
+		<set name="teleport_location" value="-46867;-149309;-14216"/>
+		<circle loc="19272 -116104 200 -616 -416"/>
+	</zone>
+	<zone name="[18_13_telzone_from_tavern_1]" type="TELEPORT">
+		<set name="teleport_location" value="17600;-113803;-312"/>
+		<circle loc="-48200 -150728 300 -14293 -14093"/>
+	</zone>
+	<zone name="[18_13_telzone_from_tavern_2]" type="TELEPORT">
+		<set name="teleport_location" value="18784;-115648;-248"/>
+		<circle loc="-46648 -150664 300 -14106 -13906"/>
+	</zone>
+	<zone name="[embyo_259_1st_teleport]" type="TELEPORT">
+		<set name="enabled" value="false"/>
+		<set name="teleport_location" value="-44011;44028;-8096"/>
+		<circle loc="-44040 43272 150 -8900 -8700"/>
+	</zone>
+	<zone name="[embyo_259_2nd_teleport]" type="TELEPORT">
+		<set name="enabled" value="false"/>
+		<set name="teleport_location" value="-44040;45336;-6968"/>
+		<circle loc="-44040 45832 150 -8100 -7900"/>
+	</zone>
+	<zone name="[embyo_259_1st_stairs]" type="TELEPORT">
+		<set name="enabled" value="false"/>
+		<set name="teleport_location" value="-44040;44072;-8886"/>
+		<polygon>
+			<coords loc="-44344 43960 -8950 -8600"/>
+			<coords loc="-44376 43464 -8950 -8600"/>
+			<coords loc="-43688 43464 -8950 -8600"/>
+			<coords loc="-43720 43976 -8950 -8600"/>
+		</polygon>
+	</zone>
+	<zone name="[embyo_259_2nd_stairs]" type="TELEPORT">
+		<set name="enabled" value="false"/>
+		<set name="teleport_location" value="-44040;45032;-8122"/>
+		<polygon>
+			<coords loc="-43720 45128 -8200 -7950"/>
+			<coords loc="-43688 45640 -8200 -7950"/>
+			<coords loc="-44392 45640 -8200 -7950"/>
+			<coords loc="-44344 45128 -8200 -7950"/>
+		</polygon>
+	</zone>
+	<zone name="[22_22_telzone_to_superion_left]" type="TELEPORT">
+		<set name="teleport_location" value="76184;194264;-10273"/>
+		<polygon>
+			<coords loc="83608 154648 300 700"/>
+			<coords loc="83480 154824 300 700"/>
+			<coords loc="83048 154552 300 700"/>
+			<coords loc="83176 154312 300 700"/>
+		</polygon>
+	</zone>
+	<zone name="[22_22_telzone_to_superion_right]" type="TELEPORT">
+		<set name="teleport_location" value="79272;194408;-10263"/>
+		<polygon>
+			<coords loc="82584 156232 300 700"/>
+			<coords loc="82664 156056 300 700"/>
+			<coords loc="82232 155720 300 700"/>
+			<coords loc="82088 155944 300 700"/>
+		</polygon>
+	</zone>
+	<zone name="[22_22_telzone_to_superion_left_out]" type="TELEPORT">
+		<set name="teleport_location" value="82856;154280;457"/>
+		<polygon>
+			<coords loc="74520 194648 -11000 -9500"/>
+			<coords loc="74520 193960 -11000 -9500"/>
+			<coords loc="74936 193960 -11000 -9500"/>
+			<coords loc="74840 194648 -11000 -9500"/>
+		</polygon>
+	</zone>
+	<zone name="[22_22_telzone_to_superion_right_out]" type="TELEPORT">
+		<set name="teleport_location" value="81928;155656;457"/>
+		<polygon>
+			<coords loc="81048 193976 -11000 -9500"/>
+			<coords loc="81048 194648 -11000 -9500"/>
+			<coords loc="80456 194648 -11000 -9500"/>
+			<coords loc="80344 193976 -11000 -9500"/>
+		</polygon>
+	</zone>
+</list>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="8900" levels="1" name="Dragon Fighter">
+		<set name="icon" value="icon.skill5860"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.3"/>
+			<mul stat="pvpPhysDmgBonus" value="1.3"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.3"/>
+			<mul stat="maxHp" value="1.3"/>
+			<mul stat="maxCp" value="1.3"/>
+			<mul stat="maxMp" value="1.3"/>
+			<add stat="max_hp_limit" value="50000"/><!--TODO: Check this.-->
+			<add stat="max_mp_limit" value="50000"/><!--TODO: Check this.-->
+			<add stat="max_cp_limit" value="50000"/><!--TODO: Check this.-->
+			<mul stat="pAtkSpd" value="1.3"/>
+			<add stat="basePCritRate" value="100"/>
+			<add stat="p_skill_critical_damage_per" value="30"/>
+			<mul stat="p_skill_power" value="1.3"/>
+			<mul stat="pAtk" value="2">
+				<target race="Dragons"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="8901" levels="1" name="Dragon Knight">
+		<set name="icon" value="icon.skill5861"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.5"/>
+			<mul stat="pvpPhysDmgBonus" value="1.5"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.5"/>
+			<mul stat="maxHp" value="2"/>
+			<mul stat="maxCp" value="2"/>
+			<mul stat="maxMp" value="2"/>
+			<add stat="max_hp_limit" value="50000"/><!--TODO: Check this.-->
+			<add stat="max_mp_limit" value="50000"/><!--TODO: Check this.-->
+			<add stat="max_cp_limit" value="50000"/><!--TODO: Check this.-->
+			<mul stat="pAtkSpd" value="2"/>
+			<add stat="basePCritRate" value="500"/>
+			<add stat="p_skill_critical_damage_per" value="50"/>
+			<mul stat="p_skill_power" value="1.5"/>
+			<mul stat="pAtk" value="4">
+				<target race="Dragons"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="8902" levels="1" name="Dragon Mage">
+		<set name="icon" value="icon.skill5860"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.3"/>
+			<mul stat="pvpPhysDmgBonus" value="1.3"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.3"/>
+			<mul stat="maxHp" value="1.3"/>
+			<mul stat="maxCp" value="1.3"/>
+			<mul stat="maxMp" value="1.3"/>
+			<add stat="max_hp_limit" value="50000"/><!--TODO: Check this.-->
+			<add stat="max_mp_limit" value="50000"/><!--TODO: Check this.-->
+			<add stat="max_cp_limit" value="50000"/><!--TODO: Check this.-->
+			<mul stat="mAtkSpd" value="1.3"/>
+			<add stat="baseMCritRate" value="100"/>
+			<mul stat="mSkillPower" value="1.5"/>
+			<mul stat="mAtk" value="2">
+				<target race="Dragons"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="8903" levels="1" name="Dragon Wizard">
+		<set name="icon" value="icon.skill5861"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.5"/>
+			<mul stat="pvpPhysDmgBonus" value="1.5"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.5"/>
+			<mul stat="maxHp" value="2"/>
+			<mul stat="maxCp" value="2"/>
+			<mul stat="maxMp" value="2"/>
+			<add stat="max_hp_limit" value="50000"/><!--TODO: Check this.-->
+			<add stat="max_mp_limit" value="50000"/><!--TODO: Check this.-->
+			<add stat="max_cp_limit" value="50000"/><!--TODO: Check this.-->
+			<mul stat="mAtkSpd" value="2"/>
+			<add stat="baseMCritRate" value="500"/>
+			<mul stat="mSkillPower" value="1.5"/>
+			<add stat="mCritRate" value="50"/>
+			<mul stat="mAtk" value="4">
+				<target race="Dragons"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="8904" levels="1" name="Summon Eviscerator Fox">
+		<set name="icon" value="icon.skill8904"/>
+		<set name="hitTime" value="1000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isSkillTimePermanent" value="true"/>
+		<set name="hitCancelTime" value="500"/>
+		<cond>
+			<player can_transform="154"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="154"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8905" levels="1" name="Summon Sayha\'s Seer Fox">
+		<set name="icon" value="icon.skill8905"/>
+		<set name="hitTime" value="1000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isSkillTimePermanent" value="true"/>
+		<set name="hitCancelTime" value="500"/>
+		<cond>
+			<player can_transform="155"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="155"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8906" levels="1" name="Riding the Hell Hound">
+		<set name="icon" value="icon.hellound_vehicle"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="8907" levels="1" name="Riding the Pegasus">
+		<set name="icon" value="icon.pegasus_vehicle"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="8908" levels="1" name="Riding the Wing Hound">
+		<set name="icon" value="icon.winghound_vehicle"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="8909" levels="1" name="Riding the War Horse">
+		<set name="icon" value="icon.warhorse_vehicle"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="8910" levels="1" name="Riding the Griffin">
+		<set name="icon" value="icon.griffin_vehicle"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+</list>

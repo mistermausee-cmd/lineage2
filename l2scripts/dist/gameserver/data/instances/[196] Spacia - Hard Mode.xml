@@ -1,0 +1,18 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<list>
+	<!-- Spacia - Hard Mode -->
+	<instance id="196" name="Spacia Cavern Hard" maxChannels="10" collapseIfEmpty="10" timelimit="60" dispelBuffs="false">
+		<collapse on-party-dismiss="true" timer="60"/>
+		<level min="97" max="99"/>
+		<party min="7" max="7"/>
+		<return loc="175464 143336 -11780"/>
+		<teleport loc="184880, 144376, -11840"/>
+		<remove itemId="17613" count="1" necessary="true"/>
+		<give itemId="0" count="0"/>
+		<quest id="0"/>
+		<reuse resetReuse="30 6 * * *" setUponEntry="false" sharedReuseGroup="0"/>
+		<spawns>
+			<group name="spassia_hard_room" spawned="true"/>
+		</spawns>
+	</instance>
+</list>

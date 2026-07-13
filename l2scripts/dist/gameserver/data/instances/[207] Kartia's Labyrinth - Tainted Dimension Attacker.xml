@@ -1,0 +1,68 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<list>
+	<instance id="207" name="Kartia's Labyrinth - Tainted Dimension Attacker" maxChannels="10" collapseIfEmpty="10" timelimit="60" dispelBuffs="false">
+		<level min="95"/>
+		<party min="1" max="1"/>
+		<return loc="147556 27311 -2205"/>
+		<teleport loc="-107544 -10472 -12092"/>
+		<reuse resetReuse="30 6 * * *" setUponEntry="false" sharedReuseGroup="0"/>
+		<add_parameters>
+			<!--Properties-->
+			<param name="start_stage" value="1"/>
+			<!--Reward's-->
+			<param name="exp_reward" value="970749459"/>
+			<param name="sp_reward" value="235848"/>
+			<!--NPC's-->
+			<param name="ssq_camera_npc_id" value="18830"/>
+			<param name="altar_npc_id" value="19252"/>
+			<param name="mob_type_1_npc_id" value="19226"/>
+			<param name="mob_type_2_npc_id" value="19227"/>
+			<param name="ruler_npc_id" value="19255"/>
+			<param name="keeper_npc_id" value="19228"/>
+			<param name="captivated_npc_id" value="33645"/>
+			<param name="support_troops_npc_id" value="33646"/>
+			<param name="life_thief_npc_id" value="33800"/>
+			<param name="adolf_npc_id" value="33631"/>
+			<param name="barton_npc_id" value="33633"/>
+			<param name="hayuk_npc_id" value="33635"/>
+			<param name="eliah_npc_id" value="33637"/>
+			<param name="elise_npc_id" value="33639"/>
+			<param name="eliah_spirit_npc_id" value="33640"/>
+			<!--Skill's-->
+			<param name="hp_absorb_skill_id" value="14984"/>
+			<param name="hp_absorb_skill_level" value="1"/>
+			<param name="poison_zone_skill_id" value="14991"/>
+			<param name="poison_zone_skill_level" value="1"/>
+			<!--ETC-->
+			<param name="spawn_group_prefix" value="kartia_95_s"/>
+		</add_parameters>
+        <spawns>
+			<group name="kartia_95_s_support" spawned="false"/>
+			<group name="kartia_95_s_captivated" spawned="false"/>
+			<group name="kartia_95_s_stage_1" spawned="false"/>
+			<group name="kartia_95_s_stage_2" spawned="false"/>
+			<group name="kartia_95_s_stage_3" spawned="false"/>
+			<group name="kartia_95_s_stage_4" spawned="false"/>
+			<group name="kartia_95_s_stage_5" spawned="false"/>
+			<group name="kartia_95_s_stage_6" spawned="false"/>
+			<group name="kartia_95_s_stage_7" spawned="false"/>
+			<group name="kartia_95_s_stage_8" spawned="false"/>
+			<group name="kartia_95_s_stage_9" spawned="false"/>
+			<group name="kartia_95_s_stage_10" spawned="false"/>
+			<group name="kartia_95_s_stage_11" spawned="false"/>
+			<group name="kartia_95_s_stage_12" spawned="false"/>
+		</spawns>
+		<doors>
+			<door id="16170011"/>
+			<door id="16170001"/>
+			<door id="16170003"/>
+			<door id="16170002"/>
+			<door id="16170012"/>
+			<door id="16170013"/>
+		</doors>
+		<zones>
+			<zone name="[kartia_instance_solo]" active="true"/>
+			<zone name="[kartia_excluded_zone_solo]" active="true"/>
+		</zones>
+	</instance>
+</list>

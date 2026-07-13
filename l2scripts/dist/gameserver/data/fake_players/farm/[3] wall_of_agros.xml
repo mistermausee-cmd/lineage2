@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE farm SYSTEM "fake_player.dtd">
+<!--AUTHOR: Bonux-->
+<farm name="Wall of Agros" min_level="70" max_level="76">
+	<zones>
+		<zone>
+			<polygon>
+				<coords loc="165528 -46792 -4000 -3000"/>
+				<coords loc="164312 -47640 -4000 -3000"/>
+				<coords loc="164536 -48888 -4000 -3000"/>
+				<coords loc="166136 -47544 -4000 -3000"/>
+				<coords loc="170033 -57145 -4000 -3000"/>
+				<coords loc="190613 -58743 -4000 -3000"/>
+				<coords loc="190414 -37564 -4000 -3000"/>
+				<coords loc="168035 -38163 -4000 -3000"/>
+			</polygon>
+		</zone>
+		<spawn_points>
+			<coords loc="165248 -47786 -3568 0"/>
+		</spawn_points>
+	</zones>
+	<on_obtain_max_level>
+		<wait min_delay="1000" max_delay="3000"/>
+		<random_action>
+			<use_item id="10650"/>	<!--Используем SoE-->
+			<ordinary_actions>
+				<wait min_delay="2000" max_delay="3000"/>
+				<random_action>
+					<use_community bypass="_cbbsteleport_1"/>
+					<use_community bypass="_cbbsteleport_2"/>
+				</random_action>
+			</ordinary_actions>
+		</random_action>
+	</on_obtain_max_level>
+	<go_to_town min_farm_time="1800" max_farm_time="3600">
+		<random_action>
+			<use_item id="10650"/>	<!--Используем SoE-->
+			<teleport_to_closest_town/> <!--Просто улетаем в ближайший город-->
+			<ordinary_actions>
+				<wait min_delay="2000" max_delay="3000"/>
+				<random_action>
+					<use_community bypass="_cbbsteleport_1"/>
+					<use_community bypass="_cbbsteleport_2"/>
+				</random_action>
+			</ordinary_actions>
+		</random_action>
+	</go_to_town>
+</farm>

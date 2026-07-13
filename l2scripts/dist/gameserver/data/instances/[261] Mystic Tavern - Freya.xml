@@ -1,0 +1,28 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<list>
+	<instance id="261" name="Mystic Tavern - Freya" maxChannels="10" collapseIfEmpty="10" timelimit="60" dispelBuffs="false">
+		<level min="99"/>
+		<party min="5" max="7"/>
+		<return loc="-50152 -148232 -14181"/>
+		<teleport loc="212440 -46728 -11225"/>
+		<reuse resetReuse="30 6 * * 3,6" setUponEntry="false" sharedReuseGroup="261"/>
+		<spawns>
+			<group name="mystic_tavern_freya" spawned="true"/>
+			<group name="mystic_tavern_freya_npc" spawned="true"/>
+			<group name="mystic_tavern_freya_custom_1" spawned="false"/>
+			<group name="mystic_tavern_freya_custom_1_1" spawned="false"/>
+			<group name="mystic_tavern_freya_custom_2" spawned="false"/>
+			<group name="mystic_tavern_freya_custom_2_1" spawned="false"/>
+			<group name="mystic_tavern_freya_custom_3" spawned="false"/>
+			<group name="mystic_tavern_freya_custom_3_1" spawned="false"/>
+			<group name="mystic_tavern_freya_custom_4" spawned="false"/>
+			<group name="mystic_tavern_freya_custom_4_1" spawned="false"/>
+			<group name="mystic_tavern_freya_custom_5" spawned="false"/>
+			<group name="mystic_tavern_freya_custom_5_1" spawned="false"/>
+			<group name="mystic_tavern_freya_boss" spawned="false"/>
+		</spawns>
+		<doors>
+			<door id="26160602"/>
+		</doors>
+	</instance>
+</list>

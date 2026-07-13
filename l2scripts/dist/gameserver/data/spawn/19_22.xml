@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<spawn name="gludio_despairruins_tel0" count="1" respawn="60">
+		<point x="-19120" y="136816" z="-3752" h="0"/>
+		<npc id="33087"/><!--Teleport Device-->
+	</spawn>
+	<spawn name="gludio_despairruins_q01" count="1" respawn="60">
+		<point x="-19268" y="136854" z="-3765" h="19408"/>
+		<npc id="33178"/><!--Silvan-->
+	</spawn>
+	<spawn name="gludio_despairruins_q02" count="1" respawn="60">
+		<point x="-18626" y="136872" z="-3741" h="32296"/>
+		<npc id="33430"/><!--Guard-->
+	</spawn>
+	<spawn name="gludio_despairruins_q02" count="1" respawn="60">
+		<point x="-18983" y="136799" z="-3761" h="21164"/>
+		<npc id="33430"/><!--Guard-->
+	</spawn>
+	<spawn name="gludio_despairruins_q02" count="1" respawn="60">
+		<point x="-18951" y="136971" z="-3761" h="13092"/>
+		<npc id="33430"/><!--Guard-->
+	</spawn>
+	<spawn name="gludio_despairruins_q02" count="1" respawn="60">
+		<point x="-18936" y="137004" z="-3761" h="-15116"/>
+		<npc id="33430"/><!--Guard-->
+	</spawn>
+	<spawn name="gludio_despairruins_q02" count="1" respawn="60">
+		<point x="-20004" y="137137" z="-3894" h="11520"/>
+		<npc id="33429"/><!--Guard-->
+	</spawn>
+	<spawn name="gludio_despairruins_q02" count="1" respawn="60">
+		<point x="-20736" y="136383" z="-3900" h="10160"/>
+		<npc id="33430"/><!--Guard-->
+	</spawn>
+	<spawn name="gludio_despairruins_q02" count="1" respawn="60">
+		<point x="-20746" y="136445" z="-3896" h="-4484"/>
+		<npc id="33430"/><!--Guard-->
+	</spawn>
+	<spawn name="gludio_despairruins_q02" count="1" respawn="60">
+		<point x="-20763" y="136893" z="-3900" h="8948"/>
+		<npc id="33430"/><!--Guard-->
+	</spawn>
+	<spawn name="gludio_despairruins_q02" count="1" respawn="60">
+		<point x="-20782" y="136940" z="-3898" h="0"/>
+		<npc id="33430"/><!--Guard-->
+	</spawn>
+	<spawn name="gludio_despairruins_q02" count="1" respawn="60">
+		<point x="-20496" y="137226" z="-3900" h="5324"/>
+		<npc id="33430"/><!--Guard-->
+	</spawn>
+	<spawn name="gludio_despairruins_q02" count="1" respawn="60">
+		<point x="-20548" y="137219" z="-3900" h="11716"/>
+		<npc id="33430"/><!--Guard-->
+	</spawn>
+	<spawn name="gludio_despairruins_q02" count="1" respawn="60">
+		<point x="-20558" y="137262" z="-3900" h="-4888"/>
+		<npc id="33430"/><!--Guard-->
+	</spawn>
+	<spawn name="gludio_despairruins_q02" count="1" respawn="60">
+		<point x="-20527" y="137336" z="-3896" h="-14568"/>
+		<npc id="33430"/><!--Guard-->
+	</spawn>
+	<spawn name="gludio_despairruins_q02" count="1" respawn="60">
+		<point x="-20518" y="137777" z="-3895" h="-6452"/>
+		<npc id="33432"/><!--Guard-->
+	</spawn>
+	<spawn name="gludio_despairruins_q02" count="1" respawn="60">
+		<point x="-20563" y="135333" z="-3898" h="22532"/>
+		<npc id="33432"/><!--Guard-->
+	</spawn>
+	<spawn name="gludio_despairruins_q03" count="1" respawn="60">
+		<point x="-8142" y="143228" z="-3424" h="52857"/>
+		<npc id="33510"/><!--Lef-->
+	</spawn>
+	<territory name="gludio41_1922_02">
+		<add x="-13508" y="156240" zmin="-3032" zmax="-1932"/>
+		<add x="-13200" y="160148" zmin="-3032" zmax="-1932"/>
+		<add x="-14316" y="161700" zmin="-3032" zmax="-1932"/>
+		<add x="-16336" y="161664" zmin="-3032" zmax="-1932"/>
+		<add x="-17320" y="156780" zmin="-3032" zmax="-1932"/>
+	</territory>
+	<spawn name="gludio41_1922_02" count="3" respawn="20">
+		<territory name="gludio41_1922_02"/>
+		<npc id="20059"/><!--Monster Eye Patrol-->
+	</spawn>
+	<spawn name="gludio41_1922_02" count="2" respawn="20">
+		<territory name="gludio41_1922_02"/>
+		<npc id="20058"/><!--Ol Mahum Guard-->
+	</spawn>
+	<spawn name="gludio41_1922_02" count="3" respawn="20">
+		<territory name="gludio41_1922_02"/>
+		<npc id="20547"/><!--Ol Mahum Support Troop-->
+	</spawn>
+	<spawn name="gludio41_1922_02" count="2" respawn="20">
+		<territory name="gludio41_1922_02"/>
+		<npc id="20063"/><!--Ol Mahum Shooter-->
+	</spawn>
+	<territory name="gludio41_1922_01">
+		<add x="-20672" y="157064" zmin="-2820" zmax="-1420"/>
+		<add x="-17492" y="156980" zmin="-2820" zmax="-1420"/>
+		<add x="-16520" y="161712" zmin="-2820" zmax="-1420"/>
+		<add x="-19996" y="161372" zmin="-2820" zmax="-1420"/>
+	</territory>
+	<spawn name="gludio41_1922_01" count="4" respawn="20">
+		<territory name="gludio41_1922_01"/>
+		<npc id="20059"/><!--Monster Eye Patrol-->
+	</spawn>
+	<spawn name="gludio41_1922_01" count="4" respawn="20">
+		<territory name="gludio41_1922_01"/>
+		<npc id="20058"/><!--Ol Mahum Guard-->
+	</spawn>
+	<spawn name="gludio41_1922_01" count="3" respawn="20">
+		<territory name="gludio41_1922_01"/>
+		<npc id="20547"/><!--Ol Mahum Support Troop-->
+	</spawn>
+	<spawn name="gludio41_1922_01" count="2" respawn="20">
+		<territory name="gludio41_1922_01"/>
+		<npc id="20063"/><!--Ol Mahum Shooter-->
+	</spawn>
+	<territory name="gludio41_1922_04">
+		<add x="-12452" y="162116" zmin="-2828" zmax="-2128"/>
+		<add x="-11512" y="161224" zmin="-2828" zmax="-2128"/>
+		<add x="-10484" y="163516" zmin="-2828" zmax="-2128"/>
+		<add x="-12388" y="163628" zmin="-2828" zmax="-2128"/>
+	</territory>
+	<spawn name="gludio41_1922_04" count="2" respawn="20">
+		<territory name="gludio41_1922_04"/>
+		<npc id="20058"/><!--Ol Mahum Guard-->
+	</spawn>
+	<spawn name="gludio41_1922_04" count="1" respawn="20">
+		<territory name="gludio41_1922_04"/>
+		<npc id="20063"/><!--Ol Mahum Shooter-->
+	</spawn>
+	<territory name="gludio41_1922_03">
+		<add x="-20116" y="161788" zmin="-2884" zmax="-1684"/>
+		<add x="-12640" y="162444" zmin="-2884" zmax="-1684"/>
+		<add x="-12552" y="163580" zmin="-2884" zmax="-1684"/>
+		<add x="-21140" y="163668" zmin="-2884" zmax="-1684"/>
+	</territory>
+	<spawn name="gludio41_1922_03" count="3" respawn="20">
+		<territory name="gludio41_1922_03"/>
+		<npc id="20059"/><!--Monster Eye Patrol-->
+	</spawn>
+	<spawn name="gludio41_1922_03" count="3" respawn="20">
+		<territory name="gludio41_1922_03"/>
+		<npc id="20547"/><!--Ol Mahum Support Troop-->
+	</spawn>
+	<spawn name="gludio41_1922_03" count="2" respawn="20">
+		<territory name="gludio41_1922_03"/>
+		<npc id="20063"/><!--Ol Mahum Shooter-->
+	</spawn>
+	<spawn name="gludio41_1922_03" count="2" respawn="20">
+		<territory name="gludio41_1922_03"/>
+		<npc id="20066"/><!--Ol Mahum Officer-->
+	</spawn>
+	<territory name="gludio40_1922_02">
+		<add x="-29568" y="157448" zmin="-3632" zmax="-2332"/>
+		<add x="-27876" y="159096" zmin="-3632" zmax="-2332"/>
+		<add x="-27748" y="163428" zmin="-3632" zmax="-2332"/>
+		<add x="-32580" y="163488" zmin="-3632" zmax="-2332"/>
+		<add x="-32634" y="159927" zmin="-3632" zmax="-2332"/>
+	</territory>
+	<spawn name="gludio40_1922_02" count="5" respawn="20">
+		<territory name="gludio40_1922_02"/>
+		<npc id="20059"/><!--Monster Eye Patrol-->
+	</spawn>
+	<spawn name="gludio40_1922_02" count="4" respawn="20">
+		<territory name="gludio40_1922_02"/>
+		<npc id="20058"/><!--Ol Mahum Guard-->
+	</spawn>
+	<spawn name="gludio40_1922_02" count="5" respawn="20">
+		<territory name="gludio40_1922_02"/>
+		<npc id="20547"/><!--Ol Mahum Support Troop-->
+	</spawn>
+	<spawn name="gludio40_1922_02" count="3" respawn="20">
+		<territory name="gludio40_1922_02"/>
+		<npc id="20063"/><!--Ol Mahum Shooter-->
+	</spawn>
+	<territory name="gludio40_1922_03">
+		<add x="-25674" y="159077" zmin="-2821" zmax="-2321"/>
+		<add x="-25026" y="160681" zmin="-2821" zmax="-2321"/>
+		<add x="-25715" y="161684" zmin="-2821" zmax="-2321"/>
+		<add x="-27012" y="161666" zmin="-2821" zmax="-2321"/>
+		<add x="-27843" y="160431" zmin="-2821" zmax="-2321"/>
+		<add x="-27284" y="159147" zmin="-2821" zmax="-2321"/>
+	</territory>
+	<spawn name="gludio40_1922_03" count="2" respawn="20">
+		<territory name="gludio40_1922_03"/>
+		<npc id="20058"/><!--Ol Mahum Guard-->
+	</spawn>
+	<spawn name="gludio40_1922_03" count="2" respawn="20">
+		<territory name="gludio40_1922_03"/>
+		<npc id="20547"/><!--Ol Mahum Support Troop-->
+	</spawn>
+	<spawn name="gludio40_1922_03" count="1" respawn="20">
+		<territory name="gludio40_1922_03"/>
+		<npc id="20063"/><!--Ol Mahum Shooter-->
+	</spawn>
+	<spawn name="gludio40_1922_03" count="1" respawn="20">
+		<territory name="gludio40_1922_03"/>
+		<npc id="20066"/><!--Ol Mahum Officer-->
+	</spawn>
+	<territory name="gludio40_1922_04">
+		<add x="-25600" y="158948" zmin="-3468" zmax="-2168"/>
+		<add x="-23388" y="157756" zmin="-3468" zmax="-2168"/>
+		<add x="-23716" y="161552" zmin="-3468" zmax="-2168"/>
+		<add x="-24924" y="161412" zmin="-3468" zmax="-2168"/>
+	</territory>
+	<spawn name="gludio40_1922_04" count="2" respawn="20">
+		<territory name="gludio40_1922_04"/>
+		<npc id="20058"/><!--Ol Mahum Guard-->
+	</spawn>
+	<spawn name="gludio40_1922_04" count="2" respawn="20">
+		<territory name="gludio40_1922_04"/>
+		<npc id="20547"/><!--Ol Mahum Support Troop-->
+	</spawn>
+	<spawn name="gludio40_1922_04" count="2" respawn="20">
+		<territory name="gludio40_1922_04"/>
+		<npc id="20063"/><!--Ol Mahum Shooter-->
+	</spawn>
+	<territory name="gludio40_1922_05">
+		<add x="-27700" y="161612" zmin="-3328" zmax="-2128"/>
+		<add x="-23812" y="162048" zmin="-3328" zmax="-2128"/>
+		<add x="-23480" y="163628" zmin="-3328" zmax="-2128"/>
+		<add x="-27632" y="163488" zmin="-3328" zmax="-2128"/>
+	</territory>
+	<spawn name="gludio40_1922_05" count="2" respawn="20">
+		<territory name="gludio40_1922_05"/>
+		<npc id="20059"/><!--Monster Eye Patrol-->
+	</spawn>
+	<spawn name="gludio40_1922_05" count="1" respawn="20">
+		<territory name="gludio40_1922_05"/>
+		<npc id="20547"/><!--Ol Mahum Support Troop-->
+	</spawn>
+	<spawn name="gludio40_1922_05" count="2" respawn="20">
+		<territory name="gludio40_1922_05"/>
+		<npc id="20063"/><!--Ol Mahum Shooter-->
+	</spawn>
+	<spawn name="gludio40_1922_05" count="2" respawn="20">
+		<territory name="gludio40_1922_05"/>
+		<npc id="20066"/><!--Ol Mahum Officer-->
+	</spawn>
+	<territory name="gludio40_1922_01">
+		<add x="-24308" y="155436" zmin="-3676" zmax="-2376"/>
+		<add x="-23536" y="157640" zmin="-3676" zmax="-2376"/>
+		<add x="-25728" y="158832" zmin="-3676" zmax="-2376"/>
+		<add x="-27792" y="159040" zmin="-3676" zmax="-2376"/>
+		<add x="-29382" y="157478" zmin="-3676" zmax="-2376"/>
+		<add x="-26160" y="154880" zmin="-3676" zmax="-2376"/>
+	</territory>
+	<spawn name="gludio40_1922_01" count="3" respawn="20">
+		<territory name="gludio40_1922_01"/>
+		<npc id="20059"/><!--Monster Eye Patrol-->
+	</spawn>
+	<spawn name="gludio40_1922_01" count="4" respawn="20">
+		<territory name="gludio40_1922_01"/>
+		<npc id="20058"/><!--Ol Mahum Guard-->
+	</spawn>
+	<spawn name="gludio40_1922_01" count="3" respawn="20">
+		<territory name="gludio40_1922_01"/>
+		<npc id="20547"/><!--Ol Mahum Support Troop-->
+	</spawn>
+	<spawn name="oren01_qm1918_01" count="8" respawn="180">
+		<territory>
+			<add x="-15080" y="150008" zmin="-3472" zmax="-2972"/>
+			<add x="-11520" y="147780" zmin="-3472" zmax="-2972"/>
+			<add x="-9940" y="149576" zmin="-3472" zmax="-2972"/>
+			<add x="-13964" y="151396" zmin="-3472" zmax="-2972"/>
+		</territory>
+		<npc id="27024"/><!--Undead Priest-->
+	</spawn>
+	<spawn name="gludio02_mb1922_01" count="1" respawn="907200" respawn_random="604800">
+		<territory>
+			<add x="-28702" y="144765" zmin="-3520" zmax="-3020"/>
+			<add x="-27703" y="144884" zmin="-3520" zmax="-3020"/>
+			<add x="-27406" y="145596" zmin="-3520" zmax="-3020"/>
+			<add x="-28041" y="145971" zmin="-3520" zmax="-3020"/>
+			<add x="-28673" y="145182" zmin="-3520" zmax="-3020"/>
+		</territory>
+		<npc id="25149"/><!--Zombie Lord Crowl-->
+	</spawn>
+	<spawn name="gludio02_mb1922_02" count="1" respawn="129600" respawn_random="86400">
+		<point x="-29797" y="132470" z="-3664" h="0"/>
+		<npc id="25166"/><!--Ikuntai-->
+	</spawn>
+	<territory name="gludio39_1922_05">
+		<add x="-32692" y="142105" zmin="-4104" zmax="-3304"/>
+		<add x="-31428" y="141249" zmin="-4104" zmax="-3304"/>
+		<add x="-29733" y="143502" zmin="-4104" zmax="-3304"/>
+		<add x="-30068" y="146738" zmin="-4104" zmax="-3304"/>
+		<add x="-31171" y="148371" zmin="-4104" zmax="-3304"/>
+		<add x="-32678" y="147970" zmin="-4104" zmax="-3304"/>
+	</territory>
+	<spawn name="gludio39_1922_05" count="2" respawn="20">
+		<territory name="gludio39_1922_05"/>
+		<npc id="20055"/><!--Monster Eye Watchman-->
+	</spawn>
+	<spawn name="gludio39_1922_05" count="3" respawn="20">
+		<territory name="gludio39_1922_05"/>
+		<npc id="20050"/><!--Arachnid Predator-->
+	</spawn>
+	<spawn name="gludio39_1922_05" count="5" respawn="20">
+		<territory name="gludio39_1922_05"/>
+		<npc id="20059"/><!--Monster Eye Patrol-->
+	</spawn>
+	<territory name="gludio39_1922_04">
+		<add x="-32690" y="139240" zmin="-4012" zmax="-3212"/>
+		<add x="-30580" y="138935" zmin="-4012" zmax="-3212"/>
+		<add x="-31848" y="141432" zmin="-4012" zmax="-3212"/>
+		<add x="-32676" y="141812" zmin="-4012" zmax="-3212"/>
+	</territory>
+	<spawn name="gludio39_1922_04" count="2" respawn="20">
+		<territory name="gludio39_1922_04"/>
+		<npc id="20050"/><!--Arachnid Predator-->
+	</spawn>
+	<spawn name="gludio39_1922_04" count="2" respawn="20">
+		<territory name="gludio39_1922_04"/>
+		<npc id="20059"/><!--Monster Eye Patrol-->
+	</spawn>
+	<territory name="gludio39_1922_03">
+		<add x="-32680" y="133072" zmin="-3976" zmax="-3276"/>
+		<add x="-31384" y="133044" zmin="-3976" zmax="-3276"/>
+		<add x="-29528" y="136576" zmin="-3976" zmax="-3276"/>
+		<add x="-30817" y="137487" zmin="-3976" zmax="-3276"/>
+		<add x="-32676" y="136292" zmin="-3976" zmax="-3276"/>
+	</territory>
+	<spawn name="gludio39_1922_03" count="3" respawn="20">
+		<territory name="gludio39_1922_03"/>
+		<npc id="20359"/><!--Ratman Warrior-->
+	</spawn>
+	<spawn name="gludio39_1922_03" count="2" respawn="20">
+		<territory name="gludio39_1922_03"/>
+		<npc id="20055"/><!--Monster Eye Watchman-->
+	</spawn>
+	<territory name="gludio39_1922_02">
+		<add x="-30936" y="132044" zmin="-3860" zmax="-2960"/>
+		<add x="-27276" y="134800" zmin="-3860" zmax="-2960"/>
+		<add x="-27872" y="136616" zmin="-3860" zmax="-2960"/>
+		<add x="-29476" y="136540" zmin="-3860" zmax="-2960"/>
+		<add x="-31344" y="132912" zmin="-3860" zmax="-2960"/>
+	</territory>
+	<spawn name="gludio39_1922_02" count="3" respawn="20">
+		<territory name="gludio39_1922_02"/>
+		<npc id="20359"/><!--Ratman Warrior-->
+	</spawn>
+	<spawn name="gludio39_1922_02" count="2" respawn="20">
+		<territory name="gludio39_1922_02"/>
+		<npc id="20055"/><!--Monster Eye Watchman-->
+	</spawn>
+	<spawn name="gludio39_1922_01" count="6" respawn="20">
+		<territory>
+			<add x="-25224" y="131264" zmin="-3804" zmax="-3204"/>
+			<add x="-25120" y="131996" zmin="-3804" zmax="-3204"/>
+			<add x="-27688" y="134428" zmin="-3804" zmax="-3204"/>
+			<add x="-30876" y="131952" zmin="-3804" zmax="-3204"/>
+			<add x="-30916" y="131128" zmin="-3804" zmax="-3204"/>
+		</territory>
+		<npc id="20359"/><!--Ratman Warrior-->
+	</spawn>
+	<spawn name="gludio_despairruins_porslof" count="1" respawn="30">
+		<point x="-17480" y="143058" z="-3888" h="0"/>
+		<npc id="27452"/><!--Poslof-->
+	</spawn>
+	<territory name="gludio02_1922_20">
+		<add x="-11536" y="147855" zmin="-3388" zmax="-2688"/>
+		<add x="-10055" y="150199" zmin="-3388" zmax="-2688"/>
+		<add x="-14170" y="151986" zmin="-3388" zmax="-2688"/>
+		<add x="-14822" y="149594" zmin="-3388" zmax="-2688"/>
+	</territory>
+	<spawn name="gludio02_1922_20" count="5" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_20"/>
+		<npc id="20458"/><!--Zombie Warrior-->
+	</spawn>
+	<spawn name="gludio02_1922_20" count="5" respawn="15" respawn_random="5">
+		<territory name="gludio02_1922_20"/>
+		<npc id="20402"/><!--Veelan Bugbear Warrior-->
+	</spawn>
+	<spawn name="gludio02_1922_20" count="2" respawn="15" respawn_random="5">
+		<territory name="gludio02_1922_20"/>
+		<npc id="20507"/><!--Ruin Imp Elder-->
+	</spawn>
+	<spawn name="gludio02_1922_20" count="2" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_20"/>
+		<npc id="20506"/><!--Ruin Imp-->
+	</spawn>
+	<spawn name="gludio02_1922_20" count="2" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_20"/>
+		<npc id="20411"/><!--Scavenger Bat-->
+	</spawn>
+	<spawn name="gludio02_1922_20" count="2" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_20"/>
+		<npc id="23023"/><!--Ruin Bat-->
+	</spawn>
+	<territory name="gludio02_1922_10">
+		<add x="-22547" y="143471" zmin="-3928" zmax="-3528"/>
+		<add x="-18398" y="142595" zmin="-3928" zmax="-3528"/>
+		<add x="-17505" y="144498" zmin="-3928" zmax="-3528"/>
+		<add x="-17745" y="146122" zmin="-3928" zmax="-3528"/>
+		<add x="-21118" y="146541" zmin="-3928" zmax="-3528"/>
+		<add x="-21979" y="144911" zmin="-3928" zmax="-3528"/>
+	</territory>
+	<spawn name="gludio02_1922_10" count="3" respawn="8" respawn_random="5">
+		<territory name="gludio02_1922_10"/>
+		<npc id="23022"/><!--Skeleton Warrior-->
+	</spawn>
+	<spawn name="gludio02_1922_10" count="3" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_10"/>
+		<npc id="20506"/><!--Ruin Imp-->
+	</spawn>
+	<spawn name="gludio02_1922_10" count="3" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_10"/>
+		<npc id="20411"/><!--Scavenger Bat-->
+	</spawn>
+	<spawn name="gludio02_1922_10" count="5" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_10"/>
+		<npc id="23023"/><!--Ruin Bat-->
+	</spawn>
+	<spawn name="gludio02_1922_10" count="4" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_10"/>
+		<npc id="20507"/><!--Ruin Imp Elder-->
+	</spawn>
+	<territory name="gludio02_1922_14">
+		<add x="-16324" y="142577" zmin="-3904" zmax="-3404"/>
+		<add x="-12824" y="141423" zmin="-3904" zmax="-3404"/>
+		<add x="-12020" y="145321" zmin="-3904" zmax="-3404"/>
+		<add x="-13589" y="146540" zmin="-3904" zmax="-3404"/>
+		<add x="-17396" y="145940" zmin="-3904" zmax="-3404"/>
+		<add x="-17061" y="144303" zmin="-3904" zmax="-3404"/>
+	</territory>
+	<spawn name="gludio02_1922_14" count="3" respawn="8" respawn_random="5">
+		<territory name="gludio02_1922_14"/>
+		<npc id="23022"/><!--Skeleton Warrior-->
+	</spawn>
+	<spawn name="gludio02_1922_14" count="3" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_14"/>
+		<npc id="20506"/><!--Ruin Imp-->
+	</spawn>
+	<spawn name="gludio02_1922_14" count="3" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_14"/>
+		<npc id="20411"/><!--Scavenger Bat-->
+	</spawn>
+	<spawn name="gludio02_1922_14" count="4" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_14"/>
+		<npc id="23023"/><!--Ruin Bat-->
+	</spawn>
+	<spawn name="gludio02_1922_14" count="5" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_14"/>
+		<npc id="20507"/><!--Ruin Imp Elder-->
+	</spawn>
+	<territory name="gludio02_1922_11">
+		<add x="-19188" y="138671" zmin="-3956" zmax="-3606"/>
+		<add x="-15498" y="138506" zmin="-3956" zmax="-3606"/>
+		<add x="-12880" y="140883" zmin="-3956" zmax="-3606"/>
+		<add x="-17918" y="142340" zmin="-3956" zmax="-3606"/>
+	</territory>
+	<spawn name="gludio02_1922_11" count="8" respawn="8" respawn_random="5">
+		<territory name="gludio02_1922_11"/>
+		<npc id="23022"/><!--Skeleton Warrior-->
+	</spawn>
+	<spawn name="gludio02_1922_11" count="5" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_11"/>
+		<npc id="20506"/><!--Ruin Imp-->
+	</spawn>
+	<spawn name="gludio02_1922_11" count="5" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_11"/>
+		<npc id="20411"/><!--Scavenger Bat-->
+	</spawn>
+	<territory name="gludio02_1922_18">
+		<add x="-7025" y="142601" zmin="-3772" zmax="-3072"/>
+		<add x="-2811" y="143721" zmin="-3772" zmax="-3072"/>
+		<add x="-2429" y="145033" zmin="-3772" zmax="-3072"/>
+		<add x="-4145" y="146981" zmin="-3772" zmax="-3072"/>
+		<add x="-7496" y="146912" zmin="-3772" zmax="-3072"/>
+		<add x="-8404" y="144144" zmin="-3772" zmax="-3072"/>
+	</territory>
+	<spawn name="gludio02_1922_18" count="5" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_18"/>
+		<npc id="20458"/><!--Zombie Warrior-->
+	</spawn>
+	<spawn name="gludio02_1922_18" count="6" respawn="15" respawn_random="5">
+		<territory name="gludio02_1922_18"/>
+		<npc id="20402"/><!--Veelan Bugbear Warrior-->
+	</spawn>
+	<spawn name="gludio02_1922_18" count="3" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_18"/>
+		<npc id="20411"/><!--Scavenger Bat-->
+	</spawn>
+	<spawn name="gludio02_1922_18" count="4" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_18"/>
+		<npc id="23023"/><!--Ruin Bat-->
+	</spawn>
+	<territory name="gludio02_1922_17">
+		<add x="-9056" y="140404" zmin="-3736" zmax="-3136"/>
+		<add x="-7300" y="142764" zmin="-3736" zmax="-3136"/>
+		<add x="-8580" y="144120" zmin="-3736" zmax="-3136"/>
+		<add x="-10144" y="144524" zmin="-3736" zmax="-3136"/>
+		<add x="-10936" y="140472" zmin="-3736" zmax="-3136"/>
+	</territory>
+	<spawn name="gludio02_1922_17" count="4" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_17"/>
+		<npc id="20458"/><!--Zombie Warrior-->
+	</spawn>
+	<spawn name="gludio02_1922_17" count="5" respawn="15" respawn_random="5">
+		<territory name="gludio02_1922_17"/>
+		<npc id="20402"/><!--Veelan Bugbear Warrior-->
+	</spawn>
+	<spawn name="gludio02_1922_17" count="2" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_17"/>
+		<npc id="20411"/><!--Scavenger Bat-->
+	</spawn>
+	<spawn name="gludio02_1922_17" count="1" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_17"/>
+		<npc id="23023"/><!--Ruin Bat-->
+	</spawn>
+	<territory name="gludio02_1922_16">
+		<add x="-12528" y="140540" zmin="-3908" zmax="-3308"/>
+		<add x="-11068" y="140476" zmin="-3908" zmax="-3308"/>
+		<add x="-10376" y="144760" zmin="-3908" zmax="-3308"/>
+		<add x="-11568" y="145088" zmin="-3908" zmax="-3308"/>
+	</territory>
+	<spawn name="gludio02_1922_16" count="3" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_16"/>
+		<npc id="20458"/><!--Zombie Warrior-->
+	</spawn>
+	<spawn name="gludio02_1922_16" count="2" respawn="15" respawn_random="5">
+		<territory name="gludio02_1922_16"/>
+		<npc id="20402"/><!--Veelan Bugbear Warrior-->
+	</spawn>
+	<spawn name="gludio02_1922_16" count="1" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_16"/>
+		<npc id="20411"/><!--Scavenger Bat-->
+	</spawn>
+	<spawn name="gludio02_1922_16" count="1" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_16"/>
+		<npc id="23023"/><!--Ruin Bat-->
+	</spawn>
+	<spawn name="gludio02_1922_16" count="2" respawn="8" respawn_random="5">
+		<territory name="gludio02_1922_16"/>
+		<npc id="23022"/><!--Skeleton Warrior-->
+	</spawn>
+	<territory name="gludio02_1922_15">
+		<add x="-14716" y="138416" zmin="-3920" zmax="-3220"/>
+		<add x="-12820" y="137448" zmin="-3920" zmax="-3220"/>
+		<add x="-8760" y="140204" zmin="-3920" zmax="-3220"/>
+		<add x="-12604" y="140128" zmin="-3920" zmax="-3220"/>
+	</territory>
+	<spawn name="gludio02_1922_15" count="4" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_15"/>
+		<npc id="20458"/><!--Zombie Warrior-->
+	</spawn>
+	<spawn name="gludio02_1922_15" count="3" respawn="15" respawn_random="5">
+		<territory name="gludio02_1922_15"/>
+		<npc id="20402"/><!--Veelan Bugbear Warrior-->
+	</spawn>
+	<spawn name="gludio02_1922_15" count="2" respawn="8" respawn_random="5">
+		<territory name="gludio02_1922_15"/>
+		<npc id="23022"/><!--Skeleton Warrior-->
+	</spawn>
+	<territory name="gludio02_1922_19">
+		<add x="-11520" y="145404" zmin="-3848" zmax="-2948"/>
+		<add x="-8400" y="144584" zmin="-3848" zmax="-2948"/>
+		<add x="-7345" y="147657" zmin="-3848" zmax="-2948"/>
+		<add x="-8492" y="149701" zmin="-3848" zmax="-2948"/>
+		<add x="-10137" y="149865" zmin="-3848" zmax="-2948"/>
+		<add x="-12292" y="146524" zmin="-3848" zmax="-2948"/>
+	</territory>
+	<spawn name="gludio02_1922_19" count="6" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_19"/>
+		<npc id="20458"/><!--Zombie Warrior-->
+	</spawn>
+	<spawn name="gludio02_1922_19" count="5" respawn="15" respawn_random="5">
+		<territory name="gludio02_1922_19"/>
+		<npc id="20402"/><!--Veelan Bugbear Warrior-->
+	</spawn>
+	<spawn name="gludio02_1922_19" count="4" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_19"/>
+		<npc id="20507"/><!--Ruin Imp Elder-->
+	</spawn>
+	<spawn name="gludio02_1922_19" count="4" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_19"/>
+		<npc id="20506"/><!--Ruin Imp-->
+	</spawn>
+	<territory name="gludio02_1922_03">
+		<add x="-27061" y="146866" zmin="-3448" zmax="-2948"/>
+		<add x="-22177" y="147650" zmin="-3448" zmax="-2948"/>
+		<add x="-22181" y="148850" zmin="-3448" zmax="-2948"/>
+		<add x="-26361" y="148734" zmin="-3448" zmax="-2948"/>
+	</territory>
+	<spawn name="gludio02_1922_03" count="4" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_03"/>
+		<npc id="20458"/><!--Zombie Warrior-->
+	</spawn>
+	<spawn name="gludio02_1922_03" count="4" respawn="15" respawn_random="5">
+		<territory name="gludio02_1922_03"/>
+		<npc id="20402"/><!--Veelan Bugbear Warrior-->
+	</spawn>
+	<spawn name="gludio02_1922_03" count="3" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_03"/>
+		<npc id="20507"/><!--Ruin Imp Elder-->
+	</spawn>
+	<spawn name="gludio02_1922_03" count="3" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_03"/>
+		<npc id="20506"/><!--Ruin Imp-->
+	</spawn>
+	<territory name="gludio02_1922_02">
+		<add x="-25125" y="143410" zmin="-3984" zmax="-3084"/>
+		<add x="-23225" y="143630" zmin="-3984" zmax="-3084"/>
+		<add x="-21225" y="147442" zmin="-3984" zmax="-3084"/>
+		<add x="-27205" y="146674" zmin="-3984" zmax="-3084"/>
+		<add x="-26943" y="144403" zmin="-3984" zmax="-3084"/>
+	</territory>
+	<spawn name="gludio02_1922_02" count="5" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_02"/>
+		<npc id="20458"/><!--Zombie Warrior-->
+	</spawn>
+	<spawn name="gludio02_1922_02" count="3" respawn="15" respawn_random="5">
+		<territory name="gludio02_1922_02"/>
+		<npc id="20402"/><!--Veelan Bugbear Warrior-->
+	</spawn>
+	<spawn name="gludio02_1922_02" count="5" respawn="8" respawn_random="5">
+		<territory name="gludio02_1922_02"/>
+		<npc id="23022"/><!--Skeleton Warrior-->
+	</spawn>
+	<territory name="gludio02_1922_01">
+		<add x="-24815" y="141202" zmin="-3960" zmax="-3360"/>
+		<add x="-22929" y="140846" zmin="-3960" zmax="-3360"/>
+		<add x="-23661" y="143422" zmin="-3960" zmax="-3360"/>
+		<add x="-25233" y="143258" zmin="-3960" zmax="-3360"/>
+	</territory>
+	<spawn name="gludio02_1922_01" count="4" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_01"/>
+		<npc id="20458"/><!--Zombie Warrior-->
+	</spawn>
+	<spawn name="gludio02_1922_01" count="1" respawn="15" respawn_random="5">
+		<territory name="gludio02_1922_01"/>
+		<npc id="20402"/><!--Veelan Bugbear Warrior-->
+	</spawn>
+	<spawn name="gludio02_1922_01" count="2" respawn="8" respawn_random="5">
+		<territory name="gludio02_1922_01"/>
+		<npc id="23022"/><!--Skeleton Warrior-->
+	</spawn>
+	<territory name="gludio02_1922_07">
+		<add x="-16096" y="147120" zmin="-3720" zmax="-2620"/>
+		<add x="-15140" y="148560" zmin="-3720" zmax="-2620"/>
+		<add x="-14808" y="150396" zmin="-3720" zmax="-2620"/>
+		<add x="-17284" y="151476" zmin="-3720" zmax="-2620"/>
+		<add x="-18280" y="151368" zmin="-3720" zmax="-2620"/>
+		<add x="-18672" y="147460" zmin="-3720" zmax="-2620"/>
+	</territory>
+	<spawn name="gludio02_1922_07" count="6" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_07"/>
+		<npc id="20458"/><!--Zombie Warrior-->
+	</spawn>
+	<spawn name="gludio02_1922_07" count="5" respawn="15" respawn_random="5">
+		<territory name="gludio02_1922_07"/>
+		<npc id="20402"/><!--Veelan Bugbear Warrior-->
+	</spawn>
+	<spawn name="gludio02_1922_07" count="5" respawn="8" respawn_random="5">
+		<territory name="gludio02_1922_07"/>
+		<npc id="23022"/><!--Skeleton Warrior-->
+	</spawn>
+	<territory name="gludio02_1922_06">
+		<add x="-18785" y="149382" zmin="-3140" zmax="-2640"/>
+		<add x="-18733" y="150592" zmin="-3140" zmax="-2640"/>
+		<add x="-20008" y="151397" zmin="-3140" zmax="-2640"/>
+		<add x="-22349" y="151079" zmin="-3140" zmax="-2640"/>
+		<add x="-22846" y="149385" zmin="-3140" zmax="-2640"/>
+	</territory>
+	<spawn name="gludio02_1922_06" count="4" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_06"/>
+		<npc id="20458"/><!--Zombie Warrior-->
+	</spawn>
+	<spawn name="gludio02_1922_06" count="6" respawn="15" respawn_random="5">
+		<territory name="gludio02_1922_06"/>
+		<npc id="20402"/><!--Veelan Bugbear Warrior-->
+	</spawn>
+	<spawn name="gludio02_1922_06" count="3" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_06"/>
+		<npc id="20507"/><!--Ruin Imp Elder-->
+	</spawn>
+	<spawn name="gludio02_1922_06" count="3" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_06"/>
+		<npc id="20506"/><!--Ruin Imp-->
+	</spawn>
+	<territory name="gludio02_1922_05">
+		<add x="-23823" y="149230" zmin="-3184" zmax="-2684"/>
+		<add x="-22847" y="150148" zmin="-3184" zmax="-2684"/>
+		<add x="-22843" y="151636" zmin="-3184" zmax="-2684"/>
+		<add x="-25946" y="150728" zmin="-3184" zmax="-2684"/>
+		<add x="-26414" y="149221" zmin="-3184" zmax="-2684"/>
+	</territory>
+	<spawn name="gludio02_1922_05" count="4" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_05"/>
+		<npc id="20458"/><!--Zombie Warrior-->
+	</spawn>
+	<spawn name="gludio02_1922_05" count="5" respawn="15" respawn_random="5">
+		<territory name="gludio02_1922_05"/>
+		<npc id="20402"/><!--Veelan Bugbear Warrior-->
+	</spawn>
+	<spawn name="gludio02_1922_05" count="3" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_05"/>
+		<npc id="20507"/><!--Ruin Imp Elder-->
+	</spawn>
+	<spawn name="gludio02_1922_05" count="3" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_05"/>
+		<npc id="20506"/><!--Ruin Imp-->
+	</spawn>
+	<territory name="gludio02_1922_04">
+		<add x="-21961" y="147758" zmin="-3472" zmax="-2872"/>
+		<add x="-19193" y="147802" zmin="-3472" zmax="-2872"/>
+		<add x="-18933" y="148558" zmin="-3472" zmax="-2872"/>
+		<add x="-22013" y="148882" zmin="-3472" zmax="-2872"/>
+	</territory>
+	<spawn name="gludio02_1922_04" count="3" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_04"/>
+		<npc id="20458"/><!--Zombie Warrior-->
+	</spawn>
+	<spawn name="gludio02_1922_04" count="3" respawn="15" respawn_random="5">
+		<territory name="gludio02_1922_04"/>
+		<npc id="20402"/><!--Veelan Bugbear Warrior-->
+	</spawn>
+	<spawn name="gludio02_1922_04" count="2" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_04"/>
+		<npc id="20507"/><!--Ruin Imp Elder-->
+	</spawn>
+	<spawn name="gludio02_1922_04" count="2" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_04"/>
+		<npc id="20506"/><!--Ruin Imp-->
+	</spawn>
+	<territory name="gludio02_1922_08">
+		<add x="-21737" y="139458" zmin="-4020" zmax="-3620"/>
+		<add x="-19453" y="138571" zmin="-4020" zmax="-3620"/>
+		<add x="-18579" y="142222" zmin="-4020" zmax="-3620"/>
+		<add x="-22401" y="142921" zmin="-4020" zmax="-3620"/>
+		<add x="-22838" y="142143" zmin="-4020" zmax="-3620"/>
+	</territory>
+	<spawn name="gludio02_1922_08" count="7" respawn="8" respawn_random="5">
+		<territory name="gludio02_1922_08"/>
+		<npc id="23022"/><!--Skeleton Warrior-->
+	</spawn>
+	<spawn name="gludio02_1922_08" count="7" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_08"/>
+		<npc id="20506"/><!--Ruin Imp-->
+	</spawn>
+	<spawn name="gludio02_1922_08" count="3" respawn="10" respawn_random="5">
+		<territory name="gludio02_1922_08"/>
+		<npc id="20411"/><!--Scavenger Bat-->
+	</spawn>
+	<spawn name="gludio02_cp11_19_22_1" count="1" respawn="60">
+		<point x="-17330" y="143745" z="-3897" h="22008"/>
+		<npc id="33605"/><!--Pobre-->
+	</spawn>
+</list>

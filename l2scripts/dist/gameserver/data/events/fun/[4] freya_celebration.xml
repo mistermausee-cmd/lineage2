@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "events.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<!--формат даты HH:mm dd.MM.yyyy-->
+	<event id="4" name="Freya Celebration" impl="Fun">
+		<parameter name="start_time_pattern" value="18:00 08.04.2012" />
+		<parameter name="stop_time_pattern" value="18:15 21.04.2012" />
+		<on_start>
+			<spawn name="spawn_group"/>
+			<global_add_reward name="droplist"/>
+		</on_start>
+		<on_stop>
+			<despawn name="spawn_group"/>
+			<global_remove_reward name="droplist"/>
+		</on_stop>
+		<objects name="spawn_group">
+			<spawn_ex name="freya_celebration_event"/>
+		</objects>
+		<objects name="droplist">
+			<rewardlist type="EVENT_GROUPED">
+				<group chance="50">
+					<reward item_id="17130" min="1" max="1" chance="100"/>	<!--Букет Фрезии - Ивент-->
+					<reward item_id="17131" min="1" max="1" chance="100"/>	<!--Букет Мыльного Корня - Ивент-->
+					<reward item_id="17132" min="1" max="1" chance="100"/>	<!--Розовая Леди - Ивент-->
+					<reward item_id="17133" min="1" max="1" chance="100"/>	<!--Июньский Жук - Ивент-->
+					<reward item_id="17134" min="1" max="1" chance="100"/>	<!--Творожный Пудинг - Ивент-->
+					<reward item_id="17135" min="1" max="1" chance="100"/>	<!--Душистый Багет - Ивент-->
+					<reward item_id="17136" min="1" max="1" chance="100"/>	<!--Сладкая Булка - Ивент-->
+					<reward item_id="17137" min="1" max="1" chance="100"/>	<!--Конфета Белого Дня - Ивент-->
+				</group>
+			</rewardlist>
+		</objects>
+	</event>
+</list>

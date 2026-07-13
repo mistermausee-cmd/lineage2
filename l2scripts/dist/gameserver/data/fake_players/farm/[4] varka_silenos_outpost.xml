@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE farm SYSTEM "fake_player.dtd">
+<!--AUTHOR: Bonux-->
+<farm name="Varka Silenos Outpost" min_level="76" max_level="84">
+	<zones>
+		<zone>
+			<polygon>
+				<coords loc="129673 -37764 -4000 -2000"/>
+				<coords loc="130472 -45556 -4000 -2000"/>
+				<coords loc="124678 -57344 -4000 -2000"/>
+				<coords loc="106680 -55688 -4000 -2000"/>
+				<coords loc="104497 -38962 -4000 -2000"/>
+				<coords loc="118883 -35166 -4000 -2000"/>
+			</polygon>
+		</zone>
+		<spawn_points>
+			<coords loc="125717 -41051 -3728 0"/>
+		</spawn_points>
+	</zones>
+	<on_obtain_max_level>
+		<wait min_delay="1000" max_delay="3000"/>
+		<random_action>
+			<use_item id="10650"/>	<!--Используем SoE-->
+			<ordinary_actions>
+				<wait min_delay="2000" max_delay="3000"/>
+				<random_action>
+					<use_community bypass="_cbbsteleport_1"/>
+					<use_community bypass="_cbbsteleport_2"/>
+				</random_action>
+			</ordinary_actions>
+		</random_action>
+	</on_obtain_max_level>
+	<go_to_town min_farm_time="1800" max_farm_time="3600">
+		<random_action>
+			<use_item id="10650"/>	<!--Используем SoE-->
+			<teleport_to_closest_town/> <!--Просто улетаем в ближайший город-->
+			<ordinary_actions>
+				<wait min_delay="2000" max_delay="3000"/>
+				<random_action>
+					<use_community bypass="_cbbsteleport_1"/>
+					<use_community bypass="_cbbsteleport_2"/>
+				</random_action>
+			</ordinary_actions>
+		</random_action>
+	</go_to_town>
+</farm>

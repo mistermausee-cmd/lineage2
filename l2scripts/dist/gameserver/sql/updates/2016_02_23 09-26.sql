@@ -1,0 +1,1 @@
+INSERT INTO `epic_boss_spawn` (`bossId`, `respawnDate`, `state`) VALUES ('26124', '0', '0');

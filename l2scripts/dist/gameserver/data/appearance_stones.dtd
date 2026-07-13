@@ -1,0 +1,21 @@
+<!ELEMENT list (config|stone)*>
+
+	<!ELEMENT config (#PCDATA)>
+	<!ATTLIST config
+		check_armor_type CDATA #IMPLIED>
+
+	<!ELEMENT stone (skill)*>
+	<!ATTLIST stone
+		id CDATA #REQUIRED
+		target_type CDATA #REQUIRED
+		shifting_type CDATA #REQUIRED
+		grade CDATA #IMPLIED
+		cost CDATA #IMPLIED
+		extract_id CDATA #IMPLIED
+		item_type CDATA #IMPLIED
+		period CDATA #IMPLIED>
+
+		<!ELEMENT skill (#PCDATA)>
+		<!ATTLIST skill
+			id CDATA #REQUIRED
+			level CDATA #REQUIRED>

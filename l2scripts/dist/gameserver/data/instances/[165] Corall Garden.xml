@@ -1,0 +1,165 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<list>
+    <instance id="165" name="Corall Garden" maxChannels="25" collapseIfEmpty="10" timelimit="60" dispelBuffs="true">
+        <collapse on-party-dismiss="true" timer="10"/>
+        <level min="97"/>
+        <party min="2" max="7"/>
+        <return loc="149368 173640 -945"/>
+        <teleport loc="142184 214488 -11879 16000"/>
+        <remove itemId="0" count="0" necessary="false"/>
+        <give itemId="0" count="0"/>
+        <quest id="0"/>
+        <reuse resetReuse="* * * * *" setUponEntry="false" sharedReuseGroup="0"/>
+		<zones>
+			<zone name="[Steam1to2]" active="true"/>
+			<zone name="[Steam2to3]" active="true"/>
+		</zones>
+		<spawns>
+			<spawn mobId="23017" count="6" respawn="130" type="loc">
+				<coords loc="141752 214968 -11806 -11806"/>
+				<coords loc="140776 214968 -11806 -11806"/>
+				<coords loc="140776 214008 -11806 -11806"/>
+				<coords loc="141736 214024 -11806 -11806"/>
+			</spawn>
+			<spawn mobId="23018" count="4" respawn="130" type="loc">
+				<coords loc="141992 216136 -11806 -11806"/>
+				<coords loc="142504 216600 -11806 -11806"/>
+				<coords loc="142680 217176 -11806 -11806"/>
+				<coords loc="142664 217656 -11806 -11806"/>
+				<coords loc="141864 217512 -11806 -11806"/>
+				<coords loc="141848 216968 -11806 -11806"/>
+				<coords loc="141672 216488 -11806 -11806"/>
+				<coords loc="141432 216264 -11806 -11806"/>
+			</spawn>
+			<spawn mobId="23019" count="2" respawn="130" type="loc">
+				<coords loc="141992 216136 -11806 -11806"/>
+				<coords loc="142504 216600 -11806 -11806"/>
+				<coords loc="142680 217176 -11806 -11806"/>
+				<coords loc="142664 217656 -11806 -11806"/>
+				<coords loc="141864 217512 -11806 -11806"/>
+				<coords loc="141848 216968 -11806 -11806"/>
+				<coords loc="141672 216488 -11806 -11806"/>
+				<coords loc="141432 216264 -11806 -11806"/>
+			</spawn>
+			<spawn mobId="23018" count="4" respawn="130" type="loc">
+				<coords loc="142648 217528 -11806 -11806"/>
+				<coords loc="142504 217928 -11806 -11806"/>
+				<coords loc="142232 218248 -11806 -11806"/>
+				<coords loc="141944 218536 -11806 -11806"/>
+				<coords loc="141608 218120 -11806 -11806"/>
+				<coords loc="141864 217640 -11806 -11806"/>
+				<coords loc="141912 217192 -11806 -11806"/>
+			</spawn>
+			<spawn mobId="23019" count="1" respawn="130" type="loc">
+				<coords loc="142648 217528 -11806 -11806"/>
+				<coords loc="142504 217928 -11806 -11806"/>
+				<coords loc="142232 218248 -11806 -11806"/>
+				<coords loc="141944 218536 -11806 -11806"/>
+				<coords loc="141608 218120 -11806 -11806"/>
+				<coords loc="141864 217640 -11806 -11806"/>
+				<coords loc="141912 217192 -11806 -11806"/>
+			</spawn>
+			<spawn mobId="23017" count="6" respawn="130" type="loc">
+				<coords loc="141800 218568 -11806 -11806"/>
+				<coords loc="141720 219192 -11806 -11806"/>
+				<coords loc="140824 219144 -11806 -11806"/>
+				<coords loc="140840 218328 -11806 -11806"/>
+			</spawn>
+			<spawn mobId="23018" count="3" respawn="130" type="loc">
+				<coords loc="141800 218568 -11806 -11806"/>
+				<coords loc="141720 219192 -11806 -11806"/>
+				<coords loc="140824 219144 -11806 -11806"/>
+				<coords loc="140840 218328 -11806 -11806"/>
+			</spawn>
+			<spawn mobId="23019" count="1" respawn="130" type="loc">
+				<coords loc="141800 218568 -11806 -11806"/>
+				<coords loc="141720 219192 -11806 -11806"/>
+				<coords loc="140824 219144 -11806 -11806"/>
+				<coords loc="140840 218328 -11806 -11806"/>
+			</spawn>
+			<spawn mobId="23018" count="3" respawn="130" type="loc">
+				<coords loc="140952 218184 -11806 -11806"/>
+				<coords loc="140584 218552 -11806 -11806"/>
+				<coords loc="140008 217944 -11806 -11806"/>
+				<coords loc="139864 217416 -11806 -11806"/>
+				<coords loc="140536 217240 -11806 -11806"/>
+				<coords loc="140712 217848 -11806 -11806"/>
+			</spawn>
+			<spawn mobId="23019" count="2" respawn="130" type="loc">
+				<coords loc="140952 218184 -11806 -11806"/>
+				<coords loc="140584 218552 -11806 -11806"/>
+				<coords loc="140008 217944 -11806 -11806"/>
+				<coords loc="139864 217416 -11806 -11806"/>
+				<coords loc="140536 217240 -11806 -11806"/>
+				<coords loc="140712 217848 -11806 -11806"/>
+			</spawn>
+			<spawn mobId="23019" count="1" respawn="130" type="loc">
+				<coords loc="139848 217064 -11806 -11806"/>
+				<coords loc="140104 216440 -11806 -11806"/>
+				<coords loc="140760 216600 -11806 -11806"/>
+				<coords loc="140600 217112 -11806 -11806"/>
+			</spawn>
+			<spawn mobId="23018" count="3" respawn="130" type="loc">
+				<coords loc="139848 217064 -11806 -11806"/>
+				<coords loc="140104 216440 -11806 -11806"/>
+				<coords loc="140760 216600 -11806 -11806"/>
+				<coords loc="140600 217112 -11806 -11806"/>
+			</spawn>
+			<spawn mobId="23017" count="6" respawn="130" type="loc">
+				<coords loc="140776 215384 -11806 -11806"/>
+				<coords loc="141672 215336 -11806 -11806"/>
+				<coords loc="141832 215816 -11806 -11806"/>
+				<coords loc="141736 216056 -11806 -11806"/>
+				<coords loc="140808 215880 -11806 -11806"/>
+			</spawn>
+			<spawn mobId="23018" count="3" respawn="130" type="loc">
+				<coords loc="140776 215384 -11806 -11806"/>
+				<coords loc="141672 215336 -11806 -11806"/>
+				<coords loc="141832 215816 -11806 -11806"/>
+				<coords loc="141736 216056 -11806 -11806"/>
+				<coords loc="140808 215880 -11806 -11806"/>
+			</spawn>
+			<spawn mobId="23017" count="3" respawn="130" type="loc">
+				<coords loc="140824 220440 -11806 -11806"/>
+				<coords loc="140840 219608 -11806 -11806"/>
+				<coords loc="141720 219624 -11806 -11806"/>
+				<coords loc="141720 220488 -11806 -11806"/>
+			</spawn>
+			<spawn mobId="23018" count="2" respawn="130" type="loc">
+				<coords loc="140824 220440 -11806 -11806"/>
+				<coords loc="140840 219608 -11806 -11806"/>
+				<coords loc="141720 219624 -11806 -11806"/>
+				<coords loc="141720 220488 -11806 -11806"/>
+			</spawn>
+			<spawn mobId="23019" count="2" respawn="130" type="loc">
+				<coords loc="140824 220440 -11806 -11806"/>
+				<coords loc="140840 219608 -11806 -11806"/>
+				<coords loc="141720 219624 -11806 -11806"/>
+				<coords loc="141720 220488 -11806 -11806"/>
+			</spawn>
+			<spawn mobId="23019" count="3" respawn="130" type="loc">
+				<coords loc="142984 219640 -11806 -11806"/>
+				<coords loc="142952 220472 -11806 -11806"/>
+				<coords loc="142104 220504 -11806 -11806"/>
+				<coords loc="142056 219560 -11806 -11806"/>
+			</spawn>
+			<spawn mobId="23018" count="2" respawn="130" type="loc">
+				<coords loc="142984 219640 -11806 -11806"/>
+				<coords loc="142952 220472 -11806 -11806"/>
+				<coords loc="142104 220504 -11806 -11806"/>
+				<coords loc="142056 219560 -11806 -11806"/>
+			</spawn>
+			<spawn mobId="23017" count="3" respawn="130" type="loc">
+				<coords loc="142984 219640 -11806 -11806"/>
+				<coords loc="142952 220472 -11806 -11806"/>
+				<coords loc="142104 220504 -11806 -11806"/>
+				<coords loc="142056 219560 -11806 -11806"/>
+			</spawn>
+		</spawns>
+		<doors>
+			<door id="24240024" opened="true"/> 
+			<door id="24240025" opened="true"/>
+			<door id="24240026" opened="false"/>
+		</doors>
+    </instance>
+</list>

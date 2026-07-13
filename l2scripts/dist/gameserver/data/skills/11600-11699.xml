@@ -1,0 +1,1903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="11600" levels="1" name="Frenzied Prevailing Sonata">
+		<table name="#magicLevel">85</table>
+		<table name="#abnormal_time">300</table>
+		<set name="icon" value="icon.skill11600"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="coolTime" value="300"/>
+		<set name="hitTime" value="699"/>
+		<set name="mp_consume" value="140"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="buff_special_aura"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="AWAKED_BUFF"/>
+		<set name="target" value="TARGET_CLAN_ONLY"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="affect_range" value="1000"/>
+		<set name="operate_type" value="A2"/>
+		<set name="effectPoint" value="467"/>
+		<set name="analog_skills" value="304;363;276;275;1591;1592"/>
+		<enchant_info type="1" name="Time">
+			<enchant_tables skill_level="1" enchant_levels="20">
+				<table name="#magicLevel">99</table>
+				<table name="#abnormal_time" type="ADD">30 60 90 120 150 180 210 240 270 300 330 360 390 420 450 480 510 540 570 600</table>
+			</enchant_tables>
+		</enchant_info>
+		<enchant_info type="2" name="Delete" available="false">
+			<enchant_tables skill_level="1" enchant_levels="30"/>
+		</enchant_info>
+		<enchant_info type="9" name="Recovery" available="false">
+			<enchant_tables skill_level="1" enchant_levels="10">
+				<table name="#magicLevel">99</table>
+			</enchant_tables>
+		</enchant_info>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="song_of_earth;song_of_life;song_of_water;song_of_wind;song_of_hunter;song_of_vitality;song_of_vengeance;song_of_renewal;song_of_champion;song_of_meditation;song_of_warding;song_of_windstorm;song_of_purification;wispering_of_battle;dance_of_berserker;dance_of_bladestorm;dance_of_concentration;dance_of_fire;dance_of_fury;dance_of_inspiration;dance_of_mystic;dance_of_siren;dance_of_vampire;dance_of_warrior;motion_of_defence;buff_unicorn_seraphim;buff_queen_of_cat;knight_aura"/>
+				<mul stat="mAtkSpd" value="1.3"/>
+				<mul stat="pAtkSpd" value="1.15"/>
+				<mul stat="maxHp" value="1.3"/>
+				<mul stat="regMp" value="1.2"/>
+				<mul stat="mpConsum" value="0.90"/>
+				<mul stat="concentration" value="1.1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_earth"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_life"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_water"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_wind"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_hunter"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vitality"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vengeance"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_renewal"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_champion"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_meditation"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_warding"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_windstorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_purification"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="wispering_of_battle"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_berserker"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_bladestorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_concentration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fury"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_inspiration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_mystic"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_siren"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_vampire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_warrior"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="motion_of_defence"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_unicorn_seraphim"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_queen_of_cat"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="knight_aura"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="11601" levels="1" name="Frenzied Daring Sonata">
+		<table name="#magicLevel">85</table>
+		<table name="#abnormal_time">300</table>
+		<set name="icon" value="icon.skill11601"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="coolTime" value="300"/>
+		<set name="hitTime" value="699"/>
+		<set name="mp_consume" value="140"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="enchanter_mod"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="AWAKED_BUFF"/>
+		<set name="target" value="TARGET_CLAN_ONLY"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="affect_range" value="1000"/>
+		<set name="operate_type" value="A2"/>
+		<set name="effectPoint" value="467"/>
+		<set name="analog_skills" value="1284;305;310;1593;1594"/>
+		<enchant_info type="1" name="Time">
+			<enchant_tables skill_level="1" enchant_levels="20">
+				<table name="#magicLevel">99</table>
+				<table name="#abnormal_time" type="ADD">30 60 90 120 150 180 210 240 270 300 330 360 390 420 450 480 510 540 570 600</table>
+			</enchant_tables>
+		</enchant_info>
+		<enchant_info type="2" name="Delete" available="false">
+			<enchant_tables skill_level="1" enchant_levels="30"/>
+		</enchant_info>
+		<enchant_info type="9" name="Recovery" available="false">
+			<enchant_tables skill_level="1" enchant_levels="10">
+				<table name="#magicLevel">99</table>
+			</enchant_tables>
+		</enchant_info>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="song_of_earth;song_of_life;song_of_water;song_of_wind;song_of_hunter;song_of_vitality;song_of_vengeance;song_of_renewal;song_of_champion;song_of_meditation;song_of_warding;song_of_windstorm;song_of_purification;wispering_of_battle;dance_of_berserker;dance_of_bladestorm;dance_of_concentration;dance_of_fire;dance_of_fury;dance_of_inspiration;dance_of_mystic;dance_of_siren;dance_of_vampire;dance_of_warrior;motion_of_defence;buff_unicorn_seraphim;buff_queen_of_cat;knight_aura"/>
+				<mul stat="pAtk" value="1.08"/>
+				<mul stat="mAtk" value="1.16"/>
+				<mul stat="mAtkSpd" value="1.08"/>
+				<mul stat="pAtkSpd" value="1.08"/>
+				<mul stat="pDef" value="0.97"/>
+				<mul stat="mDef" value="0.89"/>
+				<add stat="absorbDam" value="8"/>
+				<add stat="absorbBowDam" value="8"/>
+				<add stat="absorbPSkillDam" value="8"/>
+				<add stat="absorbMSkillDam" value="8"/>
+				<add stat="reflectDam" value="10"/>
+				<add stat="reflectPSkillDam" value="10"/>
+				<add stat="reflectMSkillDam" value="10"/>
+				<add stat="reflectBowDam" value="10"/>
+				<sub stat="pEvasRate" value="4"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_earth"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_life"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_water"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_wind"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_hunter"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vitality"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vengeance"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_renewal"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_champion"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_meditation"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_warding"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_windstorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_purification"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="wispering_of_battle"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_berserker"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_bladestorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_concentration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fury"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_inspiration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_mystic"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_siren"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_vampire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_warrior"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="motion_of_defence"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_unicorn_seraphim"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_queen_of_cat"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="knight_aura"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="11602" levels="1" name="Frenzied Refreshing Sonata">
+		<table name="#magicLevel">85</table>
+		<table name="#abnormal_time">300</table>
+		<set name="icon" value="icon.skill11602"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="coolTime" value="300"/>
+		<set name="hitTime" value="699"/>
+		<set name="mp_consume" value="140"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="synergy_is"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="AWAKED_BUFF"/>
+		<set name="target" value="TARGET_CLAN_ONLY"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="affect_range" value="1000"/>
+		<set name="operate_type" value="A2"/>
+		<set name="effectPoint" value="467"/>
+		<set name="analog_skills" value="268;266;265;364;1073;272"/>
+		<enchant_info type="1" name="Time">
+			<enchant_tables skill_level="1" enchant_levels="20">
+				<table name="#magicLevel">99</table>
+				<table name="#abnormal_time" type="ADD">30 60 90 120 150 180 210 240 270 300 330 360 390 420 450 480 510 540 570 600</table>
+			</enchant_tables>
+		</enchant_info>
+		<enchant_info type="2" name="Delete" available="false">
+			<enchant_tables skill_level="1" enchant_levels="30"/>
+		</enchant_info>
+		<enchant_info type="9" name="Recovery" available="false">
+			<enchant_tables skill_level="1" enchant_levels="10">
+				<table name="#magicLevel">99</table>
+			</enchant_tables>
+		</enchant_info>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="song_of_earth;song_of_life;song_of_water;song_of_wind;song_of_hunter;song_of_vitality;song_of_vengeance;song_of_renewal;song_of_champion;song_of_meditation;song_of_warding;song_of_windstorm;song_of_purification;wispering_of_battle;dance_of_berserker;dance_of_bladestorm;dance_of_concentration;dance_of_fire;dance_of_fury;dance_of_inspiration;dance_of_mystic;dance_of_siren;dance_of_vampire;dance_of_warrior;motion_of_defence;buff_unicorn_seraphim;buff_queen_of_cat;knight_aura"/>
+				<mul stat="regHp" value="1.2"/>
+				<mul stat="mpConsum" value="0.8"/>
+				<add stat="pAccCombat" value="4"/>
+				<add stat="runSpd" value="20"/>
+				<mul stat="pReuse" value="0.9"/>
+				<mul stat="mReuse" value="0.9"/>
+				<add stat="pEvasRate" value="3"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_earth"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_life"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_water"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_wind"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_hunter"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vitality"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vengeance"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_renewal"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_champion"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_meditation"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_warding"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_windstorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_purification"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="wispering_of_battle"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_berserker"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_bladestorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_concentration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fury"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_inspiration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_mystic"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_siren"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_vampire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_warrior"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="motion_of_defence"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_unicorn_seraphim"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_queen_of_cat"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="knight_aura"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="11603" levels="4" name="Mass Restriction">
+		<table name="#magicLevel">85 90 95 99</table>
+		<table name="#mp_consume">252 278 306 332</table>
+		<set name="icon" value="icon.skill11603"/>
+		<set name="reuseDelay" value="120000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="2109"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="300"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="limit"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="affectLimit" value="10;10"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="activateRate" value="70"/>
+		<set name="target" value="TARGET_AURA"/>
+		<set name="affect_range" value="900"/>
+		<set name="operate_type" value="A2"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="isPvpSkill" value="true"/>
+		<for>
+			<effect>
+				<mul stat="hpLimit" value="0.3"/>
+				<mul stat="mpLimit" value="0.3"/>
+				<mul stat="cpLimit" value="0.3"/>
+				<target type="PLAYABLE"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="11604" levels="7" name="Shocking Blow">
+		<table name="#magicLevel">85 90 95 99</table>
+		<table name="#mp_consume">252 278 306 332 358 385 412</table>
+		<set name="icon" value="icon.skill11604"/>
+		<set name="reuseDelay" value="120000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="2109"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="affectLimit" value="10;10"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="activateRate" value="60"/>
+		<set name="target" value="TARGET_AREA"/>
+		<set name="affect_range" value="900"/>
+		<set name="operate_type" value="A2"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="isPvpSkill" value="true"/>
+		<set name="isIgnoreInvul" value="true"/>
+		<for>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="invincibility"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="11605" levels="1" name="Shield Song">
+		<table name="#pCritDamRcpt">1</table>
+		<table name="#abnormal_time">1800</table>
+		<set name="icon" value="icon.skill11606new"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="83"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_type" value="song_of_shield"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<enchant_info type="1" name="Time">
+			<enchant_tables skill_level="1" enchant_levels="20">
+				<table name="#abnormal_time" type="ADD">90 180 270 360 450 540 630 720 810 900 990 1080 1170 1260 1350 1440 1530 1620 1710 1800 1890 1980 2070 2160 2250 2340 2430 2520 2610 2700 2790</table>
+			</enchant_tables>
+		</enchant_info>
+		<enchant_info type="2" name="Counter">
+			<enchant_tables skill_level="1" enchant_levels="20">
+				<table name="#pCritDamRcpt">0.99 0.985 0.98 0.975 0.97 0.965 0.96 0.955 0.95 0.945 0.94 0.935 0.93 0.925 0.92 0.915 0.91 0.9 0.895 0.89</table>
+			</enchant_tables>
+		</enchant_info>
+		<for>
+			<effect>
+				<mul stat="pDef" value="1.05"/>
+				<add stat="defenceWater" value="20"/>
+				<add stat="defenceFire" value="20"/>
+				<add stat="defenceWind" value="20"/>
+				<add stat="defenceEarth" value="20"/>
+				<add stat="defenceHoly" value="20"/>
+				<add stat="defenceUnholy" value="20"/>
+				<add stat="resist_abnormal_debuff" value="-10"/>
+				<p_defence_trait name="bow" value="-10"/>
+				<p_defence_trait name="crossbow" value="-10"/>
+				<mul stat="pCritDamRcpt" value="#pCritDamRcpt"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="11606" levels="1" name="Dance of Might">
+		<table name="#pCritDamRcpt">1</table>
+		<table name="#abnormal_time">1800</table>
+		<set name="icon" value="icon.skill11605new"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="83"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_type" value="dance_of_might"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<enchant_info type="1" name="Time">
+			<enchant_tables skill_level="1" enchant_levels="20">
+				<table name="#abnormal_time" type="ADD">90 180 270 360 450 540 630 720 810 900 990 1080 1170 1260 1350 1440 1530 1620 1710 1800 1890 1980 2070 2160 2250 2340 2430 2520 2610 2700 2790</table>
+			</enchant_tables>
+		</enchant_info>
+		<enchant_info type="2" name="Counter">
+			<enchant_tables skill_level="1" enchant_levels="20">
+				<table name="#pCritDamRcpt">0.99 0.985 0.98 0.975 0.97 0.965 0.96 0.955 0.95 0.945 0.94 0.935 0.93 0.925 0.92 0.915 0.91 0.9 0.895 0.89</table>
+			</enchant_tables>
+		</enchant_info>
+		<for>
+			<effect>
+				<mul stat="pAtk" value="1.05"/>
+				<mul stat="pAtkSpd" value="1.05"/>
+				<add stat="pCritRate" value="10"/>
+				<add stat="runSpd" value="10"/>
+				<mul stat="pCritDamRcpt" value="#pCritDamRcpt"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="11607" levels="1" name="Prevailing Song">
+		<table name="#magicLevel">85</table>
+		<table name="#abnormal_time">300</table>
+		<set name="icon" value="icon.skill11607"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="coolTime" value="300"/>
+		<set name="hitTime" value="699"/>
+		<set name="mp_consume" value="140"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="buff_special_aura"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="AWAKED_BUFF"/>
+		<set name="target" value="TARGET_PARTY"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="affect_range" value="1000"/>
+		<set name="operate_type" value="A2"/>
+		<set name="effectPoint" value="467"/>
+		<set name="analog_skills" value="304;363;276;275;1591;1592"/>
+		<enchant_info type="1" name="Time">
+			<enchant_tables skill_level="1" enchant_levels="20">
+				<table name="#abnormal_time" type="ADD">90 180 270 360 450 540 630 720 810 900 990 1080 1170 1260 1350 1440 1530 1620 1710 1800 1890 1980 2070 2160 2250 2340 2430 2520 2610 2700 2790</table>
+				<table name="#magicLevel">99</table>
+			</enchant_tables>
+		</enchant_info>
+		<enchant_info type="2" name="Delete" available="false">
+			<enchant_tables skill_level="1" enchant_levels="30">
+				<table name="#magicLevel">99</table>
+				<table name="#abnormal_time">330 360 390 420 450 480 510 540 570 600</table>
+			</enchant_tables>
+		</enchant_info>
+		<enchant_info type="9" name="Recovery" available="false">
+			<enchant_tables skill_level="1" enchant_levels="10"/>
+		</enchant_info>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="song_of_earth;song_of_life;song_of_water;song_of_wind;song_of_hunter;song_of_vitality;song_of_vengeance;song_of_renewal;song_of_champion;song_of_meditation;song_of_warding;song_of_windstorm;song_of_purification;wispering_of_battle;dance_of_berserker;dance_of_bladestorm;dance_of_concentration;dance_of_fire;dance_of_fury;dance_of_inspiration;dance_of_mystic;dance_of_siren;dance_of_vampire;dance_of_warrior;motion_of_defence;buff_unicorn_seraphim;buff_queen_of_cat;knight_aura"/>
+				<mul stat="mAtkSpd" value="1.3"/>
+				<mul stat="pAtkSpd" value="1.15"/>
+				<mul stat="maxHp" value="1.3"/>
+				<mul stat="regMp" value="1.2"/>
+				<mul stat="mpConsum" value="0.90"/>
+				<mul stat="concentration" value="1.1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_earth"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_life"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_water"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_wind"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_hunter"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vitality"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vengeance"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_renewal"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_champion"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_meditation"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_warding"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_windstorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_purification"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="wispering_of_battle"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_berserker"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_bladestorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_concentration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fury"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_inspiration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_mystic"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_siren"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_vampire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_warrior"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="motion_of_defence"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_unicorn_seraphim"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_queen_of_cat"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="knight_aura"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="11608" levels="1" name="Daring Song">
+		<table name="#magicLevel">85</table>
+		<table name="#abnormal_time">300</table>
+		<set name="icon" value="icon.skill11608"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="coolTime" value="300"/>
+		<set name="hitTime" value="699"/>
+		<set name="mp_consume" value="140"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="enchanter_mod"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="AWAKED_BUFF"/>
+		<set name="target" value="TARGET_PARTY"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="affect_range" value="1000"/>
+		<set name="operate_type" value="A2"/>
+		<set name="effectPoint" value="467"/>
+		<set name="analog_skills" value="1284;305;310;1593;1594"/>
+		<enchant_info type="1" name="Time">
+			<enchant_tables skill_level="1" enchant_levels="20">
+				<table name="#magicLevel">99</table>
+				<table name="#abnormal_time" type="ADD">90 180 270 360 450 540 630 720 810 900 990 1080 1170 1260 1350 1440 1530 1620 1710 1800 1890 1980 2070 2160 2250 2340 2430 2520 2610 2700 2790</table>
+			</enchant_tables>
+		</enchant_info>
+		<enchant_info type="2" name="Delete" available="false">
+			<enchant_tables skill_level="1" enchant_levels="30">
+				<table name="#magicLevel">99</table>
+				<table name="#abnormal_time">330 360 390 420 450 480 510 540 570 600</table>
+			</enchant_tables>
+		</enchant_info>
+		<enchant_info type="9" name="Recovery" available="false">
+			<enchant_tables skill_level="1" enchant_levels="10">
+				<table name="#magicLevel">99</table>
+			</enchant_tables>
+		</enchant_info>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="song_of_earth;song_of_life;song_of_water;song_of_wind;song_of_hunter;song_of_vitality;song_of_vengeance;song_of_renewal;song_of_champion;song_of_meditation;song_of_warding;song_of_windstorm;song_of_purification;wispering_of_battle;dance_of_berserker;dance_of_bladestorm;dance_of_concentration;dance_of_fire;dance_of_fury;dance_of_inspiration;dance_of_mystic;dance_of_siren;dance_of_vampire;dance_of_warrior;motion_of_defence;buff_unicorn_seraphim;buff_queen_of_cat;knight_aura"/>
+				<mul stat="pAtk" value="1.08"/>
+				<mul stat="mAtk" value="1.16"/>
+				<mul stat="mAtkSpd" value="1.08"/>
+				<mul stat="pAtkSpd" value="1.08"/>
+				<mul stat="pDef" value="0.97"/>
+				<mul stat="mDef" value="0.89"/>
+				<add stat="absorbDam" value="8"/>
+				<add stat="absorbBowDam" value="8"/>
+				<add stat="absorbPSkillDam" value="8"/>
+				<add stat="absorbMSkillDam" value="8"/>
+				<add stat="reflectDam" value="10"/>
+				<add stat="reflectPSkillDam" value="10"/>
+				<add stat="reflectMSkillDam" value="10"/>
+				<add stat="reflectBowDam" value="10"/>
+				<sub stat="pEvasRate" value="4"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_earth"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_life"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_water"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_wind"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_hunter"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vitality"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vengeance"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_renewal"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_champion"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_meditation"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_warding"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_windstorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_purification"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="wispering_of_battle"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_berserker"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_bladestorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_concentration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fury"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_inspiration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_mystic"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_siren"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_vampire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_warrior"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="motion_of_defence"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_unicorn_seraphim"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_queen_of_cat"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="knight_aura"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="11609" levels="1" name="Refreshing Song">
+		<table name="#magicLevel">85</table>
+		<table name="#abnormal_time">300</table>
+		<set name="icon" value="icon.skill11609"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="coolTime" value="300"/>
+		<set name="hitTime" value="699"/>
+		<set name="mp_consume" value="140"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="synergy_is"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="AWAKED_BUFF"/>
+		<set name="target" value="TARGET_PARTY"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="affect_range" value="1000"/>
+		<set name="operate_type" value="A2"/>
+		<set name="effectPoint" value="467"/>
+		<set name="analog_skills" value="268;266;265;364;1073;272"/>
+		<enchant_info type="1" name="Time">
+			<enchant_tables skill_level="1" enchant_levels="20">
+				<table name="#magicLevel">99</table>
+				<table name="#abnormal_time" type="ADD">90 180 270 360 450 540 630 720 810 900 990 1080 1170 1260 1350 1440 1530 1620 1710 1800 1890 1980 2070 2160 2250 2340 2430 2520 2610 2700 2790</table>
+			</enchant_tables>
+		</enchant_info>
+		<enchant_info type="2" name="Delete" available="false">
+			<enchant_tables skill_level="1" enchant_levels="30">
+				<table name="#magicLevel">99</table>
+				<table name="#abnormal_time">330 360 390 420 450 480 510 540 570 600</table>
+			</enchant_tables>
+		</enchant_info>
+		<enchant_info type="9" name="Recovery" available="false">
+			<enchant_tables skill_level="1" enchant_levels="10">
+				<table name="#magicLevel">99</table>
+			</enchant_tables>
+		</enchant_info>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="song_of_earth;song_of_life;song_of_water;song_of_wind;song_of_hunter;song_of_vitality;song_of_vengeance;song_of_renewal;song_of_champion;song_of_meditation;song_of_warding;song_of_windstorm;song_of_purification;wispering_of_battle;dance_of_berserker;dance_of_bladestorm;dance_of_concentration;dance_of_fire;dance_of_fury;dance_of_inspiration;dance_of_mystic;dance_of_siren;dance_of_vampire;dance_of_warrior;motion_of_defence;buff_unicorn_seraphim;buff_queen_of_cat;knight_aura"/>
+				<mul stat="regHp" value="1.2"/>
+				<mul stat="mpConsum" value="0.8"/>
+				<add stat="pAccCombat" value="4"/>
+				<add stat="runSpd" value="20"/>
+				<mul stat="pReuse" value="0.9"/>
+				<mul stat="mReuse" value="0.9"/>
+				<add stat="pEvasRate" value="3"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_earth"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_life"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_water"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_wind"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_hunter"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vitality"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vengeance"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_renewal"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_champion"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_meditation"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_warding"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_windstorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_purification"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="wispering_of_battle"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_berserker"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_bladestorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_concentration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fury"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_inspiration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_mystic"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_siren"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_vampire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_warrior"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="motion_of_defence"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_unicorn_seraphim"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_queen_of_cat"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="knight_aura"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="11610" levels="1" name="Prevailing Dance">
+		<table name="#magicLevel">85</table>
+		<table name="#abnormal_time">300</table>
+		<set name="icon" value="icon.skill11610"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="coolTime" value="300"/>
+		<set name="hitTime" value="699"/>
+		<set name="mp_consume" value="140"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="buff_special_aura"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="AWAKED_BUFF"/>
+		<set name="target" value="TARGET_PARTY"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="affect_range" value="1000"/>
+		<set name="operate_type" value="A2"/>
+		<set name="effectPoint" value="467"/>
+		<set name="analog_skills" value="304;363;276;275;1591;1592"/>
+		<enchant_info type="1" name="Time">
+			<enchant_tables skill_level="1" enchant_levels="20">
+				<table name="#abnormal_time" type="ADD">90 180 270 360 450 540 630 720 810 900 990 1080 1170 1260 1350 1440 1530 1620 1710 1800 1890 1980 2070 2160 2250 2340 2430 2520 2610 2700 2790</table>
+				<table name="#magicLevel">99</table>
+			</enchant_tables>
+		</enchant_info>
+		<enchant_info type="2" name="Delete" available="false">
+			<enchant_tables skill_level="1" enchant_levels="30">
+				<table name="#magicLevel">99</table>
+				<table name="#abnormal_time">330 360 390 420 450 480 510 540 570 600</table>
+			</enchant_tables>
+		</enchant_info>
+		<enchant_info type="9" name="Recovery" available="false">
+			<enchant_tables skill_level="1" enchant_levels="10"/>
+		</enchant_info>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="song_of_earth;song_of_life;song_of_water;song_of_wind;song_of_hunter;song_of_vitality;song_of_vengeance;song_of_renewal;song_of_champion;song_of_meditation;song_of_warding;song_of_windstorm;song_of_purification;wispering_of_battle;dance_of_berserker;dance_of_bladestorm;dance_of_concentration;dance_of_fire;dance_of_fury;dance_of_inspiration;dance_of_mystic;dance_of_siren;dance_of_vampire;dance_of_warrior;motion_of_defence;buff_unicorn_seraphim;buff_queen_of_cat;knight_aura"/>
+				<mul stat="mAtkSpd" value="1.3"/>
+				<mul stat="pAtkSpd" value="1.15"/>
+				<mul stat="maxHp" value="1.3"/>
+				<mul stat="regMp" value="1.2"/>
+				<mul stat="mpConsum" value="0.90"/>
+				<mul stat="concentration" value="1.1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_earth"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_life"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_water"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_wind"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_hunter"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vitality"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vengeance"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_renewal"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_champion"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_meditation"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_warding"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_windstorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_purification"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="wispering_of_battle"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_berserker"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_bladestorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_concentration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fury"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_inspiration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_mystic"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_siren"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_vampire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_warrior"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="motion_of_defence"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_unicorn_seraphim"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_queen_of_cat"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="knight_aura"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="11611" levels="1" name="Daring Dance">
+		<table name="#magicLevel">85</table>
+		<table name="#abnormal_time">300</table>
+		<set name="icon" value="icon.skill11611"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="coolTime" value="300"/>
+		<set name="hitTime" value="699"/>
+		<set name="mp_consume" value="140"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="enchanter_mod"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="AWAKED_BUFF"/>
+		<set name="target" value="TARGET_PARTY"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="affect_range" value="1000"/>
+		<set name="operate_type" value="A2"/>
+		<set name="effectPoint" value="467"/>
+		<set name="analog_skills" value="1284;305;310;1593;1594"/>
+		<enchant_info type="1" name="Time">
+			<enchant_tables skill_level="1" enchant_levels="20">
+				<table name="#abnormal_time" type="ADD">90 180 270 360 450 540 630 720 810 900 990 1080 1170 1260 1350 1440 1530 1620 1710 1800 1890 1980 2070 2160 2250 2340 2430 2520 2610 2700 2790</table>
+				<table name="#magicLevel">99</table>
+			</enchant_tables>
+		</enchant_info>
+		<enchant_info type="2" name="Delete" available="false">
+			<enchant_tables skill_level="1" enchant_levels="30">
+				<table name="#magicLevel">99</table>
+				<table name="#abnormal_time">330 360 390 420 450 480 510 540 570 600</table>
+			</enchant_tables>
+		</enchant_info>
+		<enchant_info type="9" name="Recovery" available="false">
+			<enchant_tables skill_level="1" enchant_levels="10">
+				<table name="#magicLevel">99</table>
+			</enchant_tables>
+		</enchant_info>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="song_of_earth;song_of_life;song_of_water;song_of_wind;song_of_hunter;song_of_vitality;song_of_vengeance;song_of_renewal;song_of_champion;song_of_meditation;song_of_warding;song_of_windstorm;song_of_purification;wispering_of_battle;dance_of_berserker;dance_of_bladestorm;dance_of_concentration;dance_of_fire;dance_of_fury;dance_of_inspiration;dance_of_mystic;dance_of_siren;dance_of_vampire;dance_of_warrior;motion_of_defence;buff_unicorn_seraphim;buff_queen_of_cat;knight_aura"/>
+				<mul stat="pAtk" value="1.08"/>
+				<mul stat="mAtk" value="1.16"/>
+				<mul stat="mAtkSpd" value="1.08"/>
+				<mul stat="pAtkSpd" value="1.08"/>
+				<mul stat="pDef" value="0.97"/>
+				<mul stat="mDef" value="0.89"/>
+				<add stat="absorbDam" value="8"/>
+				<add stat="absorbBowDam" value="8"/>
+				<add stat="absorbPSkillDam" value="8"/>
+				<add stat="absorbMSkillDam" value="8"/>
+				<add stat="reflectDam" value="10"/>
+				<add stat="reflectPSkillDam" value="10"/>
+				<add stat="reflectMSkillDam" value="10"/>
+				<add stat="reflectBowDam" value="10"/>
+				<sub stat="pEvasRate" value="4"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_earth"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_life"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_water"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_wind"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_hunter"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vitality"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vengeance"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_renewal"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_champion"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_meditation"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_warding"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_windstorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_purification"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="wispering_of_battle"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_berserker"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_bladestorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_concentration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fury"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_inspiration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_mystic"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_siren"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_vampire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_warrior"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="motion_of_defence"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_unicorn_seraphim"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_queen_of_cat"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="knight_aura"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="11612" levels="1" name="Refreshing Dance">
+		<table name="#magicLevel">85</table>
+		<table name="#abnormal_time">300</table>
+		<set name="icon" value="icon.skill11612"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="coolTime" value="300"/>
+		<set name="hitTime" value="699"/>
+		<set name="mp_consume" value="140"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="synergy_is"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="AWAKED_BUFF"/>
+		<set name="target" value="TARGET_PARTY"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="affect_range" value="1000"/>
+		<set name="operate_type" value="A2"/>
+		<set name="effectPoint" value="467"/>
+		<set name="analog_skills" value="268;266;265;364;1073;272"/>
+		<enchant_info type="1" name="Time">
+			<enchant_tables skill_level="1" enchant_levels="20">
+				<table name="#abnormal_time" type="ADD">90 180 270 360 450 540 630 720 810 900 990 1080 1170 1260 1350 1440 1530 1620 1710 1800 1890 1980 2070 2160 2250 2340 2430 2520 2610 2700 2790</table>			
+				<table name="#magicLevel">99</table>
+			</enchant_tables>
+		</enchant_info>
+		<enchant_info type="2" name="Delete" available="false">
+			<enchant_tables skill_level="1" enchant_levels="30">
+				<table name="#magicLevel">99</table>
+				<table name="#abnormal_time">330 360 390 420 450 480 510 540 570 600</table>
+			</enchant_tables>
+		</enchant_info>
+		<enchant_info type="9" name="Recovery" available="false">
+			<enchant_tables skill_level="1" enchant_levels="10">
+				<table name="#magicLevel">99</table>
+			</enchant_tables>
+		</enchant_info>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="song_of_earth;song_of_life;song_of_water;song_of_wind;song_of_hunter;song_of_vitality;song_of_vengeance;song_of_renewal;song_of_champion;song_of_meditation;song_of_warding;song_of_windstorm;song_of_purification;wispering_of_battle;dance_of_berserker;dance_of_bladestorm;dance_of_concentration;dance_of_fire;dance_of_fury;dance_of_inspiration;dance_of_mystic;dance_of_siren;dance_of_vampire;dance_of_warrior;motion_of_defence;buff_unicorn_seraphim;buff_queen_of_cat;knight_aura"/>
+				<mul stat="regHp" value="1.2"/>
+				<mul stat="mpConsum" value="0.8"/>
+				<add stat="pAccCombat" value="4"/>
+				<add stat="runSpd" value="20"/>
+				<mul stat="pReuse" value="0.9"/>
+				<mul stat="mReuse" value="0.9"/>
+				<add stat="pEvasRate" value="3"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_earth"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_life"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_water"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_wind"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_hunter"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vitality"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vengeance"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_renewal"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_champion"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_meditation"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_warding"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_windstorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_purification"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="wispering_of_battle"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_berserker"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_bladestorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_concentration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fury"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_inspiration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_mystic"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_siren"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_vampire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_warrior"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="motion_of_defence"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_unicorn_seraphim"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_queen_of_cat"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="knight_aura"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="11613" levels="4" name="Song of Protection">
+		<table name="#magicLevel">85 90 95 99</table>
+		<table name="#RestoreHP">1000 2000 3000 5000</table>
+		<table name="#abnormal_time">30</table>
+		<table name="#mp_consume">319 427 534 640</table>
+		<set name="icon" value="icon.skill11613"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_type" value="song_of_protection"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<enchant_info type="1" name="Time">
+			<table name="#abnormal_time" type="ADD">1 2 3 4 5 6 7 8 9 10 10 11 11 12 12 13 13 14 14 15</table>
+			<enchant_tables skill_level="3" enchant_levels="20"/>
+			<enchant_tables skill_level="4" enchant_levels="20"/>
+		</enchant_info>
+		<for>
+			<effect instant="true" name="RestoreHP" value="#RestoreHP"/>
+			<effect>
+				<add stat="pDef" value="5000"/>
+				<add stat="mDef" value="5000"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="11614" levels="4" name="Battle Rhapsody Dance">
+		<table name="#magicLevel">85 90 95 99</table>
+		<table name="#pAtk">1.5 1.6 1.7 2</table>
+		<table name="#mAtk">1.5 1.6 1.7 2</table>
+		<table name="#pAtkSpd">1.5 1.6 1.7 2</table>
+		<table name="#mAtkSpd">1.5 1.6 1.7 2</table>
+		<table name="#mp_consume">319 427 534 640</table>
+		<set name="icon" value="icon.skill11614"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="30"/>
+		<set name="abnormal_type" value="dance_of_battle_rhapsody"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<enchant_info type="1" name="Time">
+			<table name="#abnormal_time" type="ADD">1 2 3 4 5 6 7 8 9 10 10 11 11 12 12 13 13 14 14 15</table>
+			<enchant_tables skill_level="3" enchant_levels="20"/>
+			<enchant_tables skill_level="4" enchant_levels="20"/>
+		</enchant_info>
+		<for>
+			<effect>
+				<mul stat="pAtk" value="#pAtk"/>
+				<mul stat="mAtk" value="#mAtk"/>
+				<mul stat="pAtkSpd" value="#pAtkSpd"/>
+				<mul stat="mAtkSpd" value="#mAtkSpd"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="11615" levels="1" name="Battle Ditty">
+		<table name="#abnormal_time">1800</table>
+		<set name="icon" value="icon.skill11615"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="181"/>
+		<set name="itemConsumeId" value="3031"/>
+		<set name="itemConsumeCount" value="10"/>
+		<set name="ride_state" value="NONE"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="battle_protective_ditty"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="MUSIC"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="effectPoint" value="1582"/>	<!--TODO: Check.-->
+		<set name="target" value="TARGET_PARTY_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<enchant_info type="1" name="Time">
+			<enchant_tables skill_level="1" enchant_levels="20">
+				<table name="#abnormal_time" type="ADD">90 180 270 360 450 540 630 720 810 900 990 1080 1170 1260 1350 1440 1530 1620 1710 1800 1890 1980 2070 2160 2250 2340 2430 2520 2610 2700 2790</table>
+			</enchant_tables>
+		</enchant_info>
+		<for>
+			<effect>
+				<mul stat="pvpPhysDmgBonus" value="1.1"/>
+				<mul stat="pvpPhysSkillDmgBonus" value="1.1"/>
+				<mul stat="pvpMagicSkillDmgBonus" value="1.1"/>
+				<add stat="attackFire" value="10"/>
+				<add stat="attackWater" value="10"/>
+				<add stat="attackWind" value="10"/>
+				<add stat="attackEarth" value="10"/>
+				<add stat="attackHoly" value="10"/>
+				<add stat="attackUnholy" value="10"/>
+				<mul stat="regMp" value="1.1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="11616" levels="1" name="Protective Ditty">
+		<table name="#abnormal_time">1800</table>
+		<set name="icon" value="icon.skill11616"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="181"/>
+		<set name="itemConsumeId" value="3031"/>
+		<set name="itemConsumeCount" value="10"/>
+		<set name="ride_state" value="NONE"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="battle_protective_ditty"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="MUSIC"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="effectPoint" value="1582"/>	<!--TODO: Check.-->
+		<set name="target" value="TARGET_PARTY_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<enchant_info type="1" name="Time">
+			<enchant_tables skill_level="1" enchant_levels="20">
+				<table name="#abnormal_time" type="ADD">90 180 270 360 450 540 630 720 810 900 990 1080 1170 1260 1350 1440 1530 1620 1710 1800 1890 1980 2070 2160 2250 2340 2430 2520 2610 2700 2790</table>
+			</enchant_tables>
+		</enchant_info>
+		<for>
+			<effect>
+				<mul stat="pvpPhysDefenceBonus" value="1.1"/>
+				<mul stat="pvpPhysSkillDefenceBonus" value="1.1"/>
+				<mul stat="pvpMagicSkillDefenceBonus" value="1.1"/>
+				<add stat="runSpd" value="4"/>
+				<mul stat="regHp" value="1.1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="11617" levels="1" name="Frezied Battle Ditty">
+		<table name="#abnormal_time">1800</table>
+		<set name="icon" value="icon.skill11617"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="181"/>
+		<set name="itemConsumeId" value="3031"/>
+		<set name="itemConsumeCount" value="10"/>
+		<set name="ride_state" value="NONE"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="battle_protective_ditty"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="MUSIC"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="effectPoint" value="1582"/>	<!--TODO: Check.-->
+		<set name="target" value="TARGET_CLAN_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<enchant_info type="1" name="Time">
+			<enchant_tables skill_level="1" enchant_levels="20">
+				<table name="#abnormal_time" type="ADD">90 180 270 360 450 540 630 720 810 900 990 1080 1170 1260 1350 1440 1530 1620 1710 1800 1890 1980 2070 2160 2250 2340 2430 2520 2610 2700 2790</table>
+			</enchant_tables>
+		</enchant_info>
+		<for>
+			<effect>
+				<mul stat="pvpPhysDmgBonus" value="1.1"/>
+				<mul stat="pvpPhysSkillDmgBonus" value="1.1"/>
+				<mul stat="pvpMagicSkillDmgBonus" value="1.1"/>
+				<add stat="attackFire" value="10"/>
+				<add stat="attackWater" value="10"/>
+				<add stat="attackWind" value="10"/>
+				<add stat="attackEarth" value="10"/>
+				<add stat="attackHoly" value="10"/>
+				<add stat="attackUnholy" value="10"/>
+				<mul stat="regMp" value="1.1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="11618" levels="1" name="Frenzied Protective Ditty">
+		<table name="#abnormal_time">1800</table>
+		<set name="icon" value="icon.skill11618"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="181"/>
+		<set name="itemConsumeId" value="3031"/>
+		<set name="itemConsumeCount" value="10"/>
+		<set name="ride_state" value="NONE"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="battle_protective_ditty"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="MUSIC"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="effectPoint" value="1582"/>	<!--TODO: Check.-->
+		<set name="target" value="TARGET_CLAN_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<enchant_info type="1" name="Time">
+			<enchant_tables skill_level="1" enchant_levels="20">
+				<table name="#abnormal_time" type="ADD">90 180 270 360 450 540 630 720 810 900 990 1080 1170 1260 1350 1440 1530 1620 1710 1800 1890 1980 2070 2160 2250 2340 2430 2520 2610 2700 2790</table>
+			</enchant_tables>
+		</enchant_info>
+		<for>
+			<effect>
+				<mul stat="pvpPhysDefenceBonus" value="1.1"/>
+				<mul stat="pvpPhysSkillDefenceBonus" value="1.1"/>
+				<mul stat="pvpMagicSkillDefenceBonus" value="1.1"/>
+				<add stat="runSpd" value="4"/>
+				<mul stat="regHp" value="1.1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="11619" levels="3" name="Soul Ditty">
+		<table name="#abnormal_level">1 2 3</table>
+		<table name="#magicLevel">90 95 99</table>	<!--TODO: Check.-->
+		<table name="#pAtk">1.03 1.05 1.07</table>
+		<table name="#p_critical_damage_per">3 5 7</table>
+		<table name="#pAtkSpd">1.02 1.03 1.05</table>
+		<table name="#mAtk">1.02 1.03 1.05</table>
+		<table name="#mAtkSpd">1.02 1.03 1.05</table>
+		<table name="#pDef">1.02 1.03 1.05</table>
+		<table name="#mDef">1.02 1.03 1.05</table>
+		<table name="#pSkillPower">1.02 1.03 1.05</table>
+		<set name="icon" value="icon.skill11529"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="coolTime" value="300"/>
+		<set name="hitTime" value="699"/>
+		<set name="mp_consume" value="140"/>
+		<set name="ride_state" value="NONE"/>
+		<set name="abnormal_time" value="1800"/>	<!--TODO: Check.-->
+		<set name="abnormal_level" value="#abnormal_level"/>
+		<!--TODO: <set name="abnormal_type" value=""/>-->
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="MUSIC"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="effectPoint" value="1582"/>	<!--TODO: Check.-->
+		<set name="target" value="TARGET_PARTY"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="affect_range" value="1000"/>
+		<for>
+			<effect>
+				<mul stat="pAtk" value="#pAtk"/>
+				<add stat="p_critical_damage_per" value="#p_critical_damage_per"/>
+				<mul stat="pAtkSpd" value="#pAtkSpd"/>
+				<mul stat="mAtk" value="#mAtk"/>
+				<mul stat="mAtkSpd" value="#mAtkSpd"/>
+				<mul stat="pDef" value="#pDef"/>
+				<mul stat="mDef" value="#mDef"/>
+				<mul stat="p_skill_power" value="#pSkillPower"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="11620" levels="10" name="Superior Shield Mastery">
+		<table name="#magicLevel">85 90 95 99 100 102 104</table>
+		<table name="#sDef">1.4 1.45 1.5 1.55 1.6 1.65 1.7 1.75 1.8 1.85</table>
+		<set name="icon" value="icon.skill10003"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="rShld" value="1.5"/>
+			<mul stat="sDef" value="#sDef"/>
+		</for>
+	</skill>
+	<skill id="11621" levels="1" name="Blessing Barrier">
+		<set name="icon" value="icon.skill11621"/>
+		<set name="operate_type" value="P"/>
+		<set name="magicLevel" value="99"/>
+		<triggers>
+			<!--TODO: Проверить условия триггера.-->
+			<trigger id="11622" level="1" type="RECEIVE_DAMAGE" chance="5">
+				<player damage="100;0"/>
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="11622" levels="1" name="Blessing Barrier">
+		<set name="icon" value="icon.skill11621"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="abnormal_type" value="damage_block"/>
+		<set name="isTrigger" value="true"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="ITEM"/>
+		<set name="operate_type" value="A2"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_SELF"/>
+		<for>
+			<effect>
+				<add stat="damage_block_count" value="20000"/>
+			</effect>
+		</for>
+	</skill>
+</list>

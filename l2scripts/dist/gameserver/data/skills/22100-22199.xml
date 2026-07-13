@@ -1,0 +1,2251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="22100" levels="1" name="Soul Scent">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: "When using a monster\'s corpse, comforts the monster\'s soul to borrow the monster\'s power temporarily. For 2 minutes, increases Max HP by 40%, Max MP by 40%, Max CP by 40%, physical P. Def. by 30%, M. Def. by 30%, moving speed by 20, and M. Atk. by 45%. Decreases MP consumption during skill use by 10%."
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="BranchSys.icon.br_ghost_incense_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="1500"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="br_event_buf6"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20603"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22101" levels="1" name="Fortune Box of Love">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="40.0">
+				<item id="20590" min_count="1" max_count="1"/>	<!--Summon of Love Bracelet 24-Hour Pack (Event)-->
+			</group>
+			<group chance="60.0">
+				<item id="9207" min_count="1" max_count="1"/>	<!--Quick Healing Potion (Event)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="22102" levels="1" name="Soul Magic Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="86400000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="20623" min_count="1" max_count="1"/>	<!--Soul Silver Foil - Scent Pack-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="22103" levels="1" name="Blessed Scroll of Escape (Event)">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="200"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20583"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22104" levels="1" name="Blessed Scroll of Resurrection (Event)">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="1000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20584"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="power" value="100"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_CORPSE_PLAYER"/>
+		<set name="corpse" value="true"/>
+		<set name="skillType" value="RESURRECT"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22105" levels="1" name="Summon Scroll: Uldie (Event)">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="12000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20707"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22106" levels="1" name="Summon Scroll: Belldandy (Event)">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="12000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20708"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22107" levels="1" name="Summon Scroll: Skooldie (Event)">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="12000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20709"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22108" levels="1" name="Halloween Toy Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="20.0">
+				<item id="20712" min_count="1" max_count="1"/>	<!--Super Strong Giant\'s Mask (Event)-->
+			</group>
+			<group chance="20.0">
+				<item id="20713" min_count="1" max_count="1"/>	<!--Mask of Silent Scream (Event)-->
+			</group>
+			<group chance="20.0">
+				<item id="20714" min_count="1" max_count="1"/>	<!--Spirit of Wrath Mask (Event)-->
+			</group>
+			<group chance="20.0">
+				<item id="20715" min_count="1" max_count="1"/>	<!--Undecaying Corpse Mask (Event)-->
+			</group>
+			<group chance="20.0">
+				<item id="20716" min_count="1" max_count="1"/>	<!--Planet X235 Alien Mask (Event)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="22109" levels="1" name="Shiny Halloween Toy Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="20.0">
+				<item id="20718" min_count="1" max_count="1"/>	<!--Shiny Super Strong Giant\'s Mask (Event)-->
+			</group>
+			<group chance="20.0">
+				<item id="20719" min_count="1" max_count="1"/>	<!--Shiny Mask of Silent Scream (Event)-->
+			</group>
+			<group chance="20.0">
+				<item id="20720" min_count="1" max_count="1"/>	<!--Shiny Spirit of Wrath Mask (Event)-->
+			</group>
+			<group chance="20.0">
+				<item id="20721" min_count="1" max_count="1"/>	<!--Shiny Undecaying Corpse Mask (Event)-->
+			</group>
+			<group chance="20.0">
+				<item id="20722" min_count="1" max_count="1"/>	<!--Shiny Planet X235 Alien Mask (Event)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="22110" levels="1" name="Summon Lucky Lamp">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20728"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22111" levels="1" name="Summon Environment Lamp">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20729"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22112" levels="1" name="Summon Rolling Lamp">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20730"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22113" levels="1" name="Summon Comfort Sky Lantern">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20731"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22114" levels="1" name="Transformation Scroll Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="33.0">
+				<item id="20364" min_count="1" max_count="1"/>	<!--Transformation Scroll: Omen Beast-->
+			</group>
+			<group chance="33.0">
+				<item id="20365" min_count="1" max_count="1"/>	<!--Transformation Scroll: Death Blader-->
+			</group>
+			<group chance="34.0">
+				<item id="20366" min_count="1" max_count="1"/>	<!--Transformation Scroll: Grail Apostle-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="22115" levels="1" name="Santa\'s Weapon Coupon Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20758"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="99.99949">
+				<item id="20755" min_count="1" max_count="1"/>	<!--Santa\'s Weapon Exchange Coupon - Regular-->
+			</group>
+			<group chance="5.1E-4">
+				<item id="20757" min_count="1" max_count="1"/>	<!--Santa\'s Weapon Exchange Coupon - Jackpot-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="22116" levels="1" name="Summon Flame Box">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="BranchSys.icon.br_fire_box_i00"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20788"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22117" levels="1" name="Flame Box Firecracker">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="icon.skill0788"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22118" levels="1" name="Warmth of Kotatz">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: The Warmth of Kotatz can be felt. HP regeneration is increased by 40%. CP regeneration is increased by 30%. MP regeneration is increased by 20%.
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="BranchSys.icon.br_kotatsu_i00"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="25"/>
+		<set name="abnormal_level" value="99"/>
+		<set name="abnormal_type" value="hp_regen_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22119" levels="1" name="Love for All Seasons">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: "For 1 hour, increases M. Atk. by 75% and the chance of Prominent Damage occurring through damage magic by 2."
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="BranchSys.icon.br_taiwan_newyear_food_a_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="multi_buff"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20876"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22120" levels="1" name="Happy New Year">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: "For 1 hour, increases Critical attack power by 35%, Critical attack rate by 30, and accuracy by 4."
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="BranchSys.icon.br_taiwan_newyear_food_b_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="multi_buff"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20877"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22121" levels="1" name="Female Aniruddha">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: "For 1 hour, increases P. Def. by 15%, Magic Resistance by 30%, and Shield Defense Rate by 15."
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="BranchSys.icon.br_taiwan_newyear_food_c_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="multi_buff"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20878"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22122" levels="1" name="Kung Hei Fat Choy">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: "For 1 hour, decreases party members\' P. Def. by 8%, M. Def. by 16%, and Evasion by 4. Increases P. Atk. by 15%, P. Atk. by 8%, M. Atk. by 16%, Atk. Spd. by 8%, Casting Spd. by 8%, and moving speed by 8. 9% of the standard short-range physical damage inflicted on the enemy is recovered by HP."
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="BranchSys.icon.br_taiwan_newyear_food_d_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="multi_buff"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20879"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22123" levels="1" name="Chinese Feast">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: "For 1 hour, decreases physical skill MP consumption by 20%, magic skill\'s MP consumption by 10%, and song/dance skill\'s MP consumption by 20%. Increases Casting Spd. by 30% and Max MP by 35%."
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="BranchSys.icon.br_taiwan_newyear_food_e_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="multi_buff"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20880"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22124" levels="1" name="Hwa Gei Bu Gwi">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: "For 1 hour, increases Atk. Spd. by 33% and weight penalty interval by 9000."
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="BranchSys.icon.br_taiwan_newyear_food_f_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="multi_buff"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20881"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22125" levels="1" name="Fire Stamp">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: "For 1 hour, increases moving speed by 33, Evasion rate by 4, and Max HP by 35%."
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="BranchSys.icon.br_taiwan_newyear_food_g_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="multi_buff"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20882"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22126" levels="1" name="Baby Food Skill">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="BranchSys.br_baby_food_i00"/>
+		<set name="castRange" value="400"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20769"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22127" levels="1" name="Summon Warm Kotatz">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="BranchSys.icon.br_kotatsu_i00"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20868"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="22128" levels="3" name="Rudolph\'s Joy">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: "For 5 minutes, raises Atk. Spd. by 10% and Magic Casting Spd. by 10%."
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<table name="#abnormal_level">1 2 3</table>
+		<set name="icon" value="icon.skill1256"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="hitTime" value="100"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="abnormal_instant" value="true"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="300"/>
+		<set name="abnormal_level" value="#abnormal_level"/>
+		<set name="abnormal_type" value="br_event_buf1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22129" levels="1" name="Red Dimensional Stone">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: Pailaka Initialization
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="18000000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20896"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22130" levels="1" name="Mysterious Food\'s Effect">
+		<set name="icon" value="BranchSys.br_rudolf_food_unknown_i00"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_effect" value="VP_UP"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="vp_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="Vitality"/>
+		</for>
+	</skill>
+	<skill id="22131" levels="1" name="Red Fireworks">
+		<set name="icon" value="BranchSys.icon.br_firecracker_red_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="br_event_buf1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20870"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect>
+				<add order="0x10" stat="STR" value="1"/>
+				<add stat="defenceWater" value="30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22132" levels="1" name="Gold Fireworks">
+		<set name="icon" value="BranchSys.icon.br_firecracker_gold_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="br_event_buf1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20871"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect>
+				<add order="0x10" stat="CON" value="1"/>
+				<add stat="defenceHoly" value="30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22133" levels="1" name="Blue Fireworks">
+		<set name="icon" value="BranchSys.icon.br_firecracker_blue_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="br_event_buf1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20872"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect>
+				<add order="0x10" stat="DEX" value="1"/>
+				<add stat="defenceFire" value="30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22134" levels="1" name="Pink Fireworks">
+		<set name="icon" value="BranchSys.icon.br_firecracker_pink_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="br_event_buf1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20873"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect>
+				<add order="0x10" stat="MEN" value="1"/>
+				<add stat="defenceEarth" value="30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22135" levels="1" name="White Firework">
+		<set name="icon" value="BranchSys.icon.br_firecracker_white_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="br_event_buf1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20874"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect>
+				<add order="0x10" stat="WIT" value="1"/>
+				<add stat="defenceWind" value="30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22136" levels="1" name="Silver Fireworks">
+		<set name="icon" value="BranchSys.icon.br_firecracker_silver_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="br_event_buf1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20875"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect>
+				<add order="0x10" stat="INT" value="1"/>
+				<add stat="defenceUnholy" value="30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22137" levels="1" name="Star Food">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22138" levels="1" name="Mango Dessert">
+		<set name="icon" value="BranchSys.icon.br_thai_desert_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20899"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="22139" levels="1" name="Branding Wind Walk">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: Increases moving speed by 33 for 1 hour.
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="BranchSys.icon.br_taiwan_newyear_food_g_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="speed_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="runSpd" value="33"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22140" levels="1" name="Hwa Gei Bu Gwi Haste">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: Increases Atk. Spd. by 33% for 1 hour.
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="BranchSys.icon.br_taiwan_newyear_food_f_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="attack_time_down"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="pAtkSpd" value="1.15"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22141" levels="1" name="Branding Agility">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: Increases evasion rate by 4 for 1 hour.
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="BranchSys.icon.br_taiwan_newyear_food_g_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="avoid_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="pEvasRate" value="4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22142" levels="1" name="Female Aniruddha\'s Shield">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: Increases P. Def. by 15% for 1 hour.
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="BranchSys.icon.br_taiwan_newyear_food_c_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="pd_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="pDef" value="1.12"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22143" levels="1" name="Happy New Year Death Whisper">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: Increases Critical attack power by 35% for 1 hour.
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="BranchSys.icon.br_taiwan_newyear_food_b_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="critical_dmg_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="p_critical_damage_per" value="30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22144" levels="1" name="Happy New Year Guidance">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: Increases accuracy by 4 for 1 hour.
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="BranchSys.icon.br_taiwan_newyear_food_b_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="hit_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="pAccCombat" value="3"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22145" levels="1" name="Love for All Seasons Empower">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: Increases M. Atk. by 75% for 1 hour.
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="BranchSys.icon.br_taiwan_newyear_food_a_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="ma_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="mAtk" value="1.65"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22146" levels="1" name="Chinese Feast Greater Acumen">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: Increases Casting Spd. by 30% for 1 hour.
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="BranchSys.icon.br_taiwan_newyear_food_e_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="casting_time_down"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="mAtkSpd" value="1.23"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22147" levels="1" name="Kung Hei Fat Choy Vampiric Rage">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: "For 1 hour, 9% of the standard short-range physical damage inflicted on the enemy is recovered as HP."
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="BranchSys.icon.br_taiwan_newyear_food_d_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="vampiric_attack"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="absorbDam" value="7"/>
+				<add stat="absorbBowDam" value="7"/>
+				<add stat="absorbPSkillDam" value="7"/>
+				<add stat="absorbMSkillDam" value="7"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22148" levels="1" name="Branding Blessed Body">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: Increases Max HP by 35% for 1 hour.
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="BranchSys.icon.br_taiwan_newyear_food_g_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="max_hp_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="maxHp" value="1.2"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22149" levels="1" name="Kung Hei Fat Choy Berserker Spirit">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: "Decreases P. Def. by 8%, M. Def. by 16%, and evasion by 4, and increases P. Atk. by 8%, M. Atk. by 16%, Atk. Spd. by 8%, Casting Spd. by 8%, and moving speed by 8 for 1 hour."
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="BranchSys.icon.br_taiwan_newyear_food_d_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="berserker"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="mAtk" value="1.1"/>
+				<mul stat="pAtk" value="1.05"/>
+				<mul stat="pDef" value="0.95"/>
+				<mul stat="mDef" value="0.90"/>
+				<mul stat="mAtkSpd" value="1.05"/>
+				<mul stat="pAtkSpd" value="1.05"/>
+				<add stat="runSpd" value="5"/>
+				<sub stat="pEvasRate" value="2"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22150" levels="1" name="Female Aniruddha\'s Magic Barrier">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: Increases magic resistance by 30% for 1 hour.
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="BranchSys.icon.br_taiwan_newyear_food_c_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="md_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="mDef" value="1.23"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22151" levels="1" name="Chinese Feast Blessed Soul">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: Increases Max MP by 35% for 1 hour.
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="BranchSys.icon.br_taiwan_newyear_food_e_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="max_mp_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="maxMp" value="1.2"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22152" levels="1" name="Chinese Feast Clarity">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: "For 1 hour, decreases physical skill MP consumption by 20%, magic skill\'s MP consumption by 10%, and song/dance skill\'s MP consumption by 20%."
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="BranchSys.icon.br_taiwan_newyear_food_e_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="cheap_magic"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="mpConsum" value="0.96"/>
+				<mul stat="mpConsumePhysical" value="0.9"/>
+				<mul stat="mpDanceConsume" value="0.9"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22153" levels="1" name="Love for All Seasons Wild Magic">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: "For 1 hour, increases by 2 the occurrence rate of damage that is caused by damage magic."
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="BranchSys.icon.br_taiwan_newyear_food_a_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="magic_critical_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="baseMCritRate" value="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22154" levels="1" name="Happy New Year Focus">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: Increases Critical attack rate by 30% for 1 hour.
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="BranchSys.icon.br_taiwan_newyear_food_b_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="critical_prob_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="pCritRate" value="25"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22155" levels="1" name="Female Aniruddha\'s Blessed Shield">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: Increases Shield defense rate by 15 for 1 hour.
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="BranchSys.icon.br_taiwan_newyear_food_c_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="shield_prob_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="rShld" value="1.1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22156" levels="1" name="Hwa Gei Bu Gwi Decrease Weight">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: Increases the weight penalty interval by 9000 for 1 hour.
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="BranchSys.icon.br_taiwan_newyear_food_f_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="decrease_weight_penalty"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="maxNoPenaltyLoad" value="9000"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22157" levels="1" name="Kung Hei Fat Choy Might">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: Increases P. Atk. by 15% for 1 hour.
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-12-2009  18:32
+		-->
+		<set name="icon" value="BranchSys.icon.br_taiwan_newyear_food_d_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="pa_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="pAtk" value="1.15"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22158" levels="10" name="Rose Petal">
+		<!--  Automatically generated from The Gracia Epilogue client files.
+			  Description: Increase HP/MP recovery by 20% for 5 minutes.
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 15-2-2010  12:29
+		-->
+		<table name="#icon">BranchSys2.icon.Br_herb_rose_red_i00 BranchSys2.icon.Br_herb_rose_red_i01 BranchSys2.icon.Br_herb_rose_red_i02 BranchSys2.icon.Br_herb_rose_red_i03 BranchSys2.icon.Br_herb_rose_red_i04 BranchSys2.icon.Br_herb_rose_red_i05 BranchSys2.icon.Br_herb_rose_red_i06 BranchSys2.icon.Br_herb_rose_red_i07 BranchSys2.icon.Br_herb_rose_red_i08 BranchSys2.icon.Br_herb_rose_red_i09</table>
+		<table name="#abnormal_level">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="icon" value="#icon"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="hitTime" value="100"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="abnormal_instant" value="true"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="300"/>
+		<set name="abnormal_level" value="#abnormal_level"/>
+		<set name="abnormal_type" value="br_event_buf1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22159" levels="1" name="Vesper\'s Mighty Power">
+		<!-- Increases P. Atk. by 15%, M. Atk. by 20% and Speed by 10 for 10 minutes. -->
+		<set name="icon" value="BranchSys2.icon.br_royal_crown_of_vesper_i00"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="hitTime" value="100"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="abnormal_instant" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_effect" value="CHANGE_VES_S"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="br_event_buf1"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<set name="isHideUseMessage" value="true"/>
+		<for>
+			<effect>
+				<mul stat="pAtk" value="1.15"/>
+				<mul stat="mAtk" value="1.15"/>
+				<add stat="runSpd" value="10"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22160" levels="1" name="Vesper\'s Critical Damage">
+		<!-- Increases Physical critical attack rate by 15, Magical critical attack rate by 2 and Speed by 10 for 10 minutes. 5% of the standard short-range physical damage inflicted on the enemy is recovered as HP. -->
+		<set name="icon" value="BranchSys2.icon.br_royal_circlet_of_vesper_i00"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="hitTime" value="100"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="abnormal_instant" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_effect" value="CHANGE_VES_C"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="br_event_buf1"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<set name="isHideUseMessage" value="true"/>
+		<for>
+			<effect>
+				<add stat="basePCritRate" value="15"/>
+				<add stat="baseMCritRate" value="20"/>
+				<add stat="runSpd" value="10"/>
+				<add stat="absorbDam" value="5"/>
+				<add stat="absorbBowDam" value="5"/>
+				<add stat="absorbPSkillDam" value="5"/>
+				<add stat="absorbMSkillDam" value="5"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22161" levels="1" name="Invincible Vesper">
+		<!-- Increases Atk. Spd. by 20%, Casting Spd. by 20% and Speed by 20 for 10 minutes. -->
+		<set name="icon" value="BranchSys2.icon.br_noblesse_oblige_of_vesper_i00"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="hitTime" value="100"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="abnormal_instant" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_effect" value="CHANGE_VES_D"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="br_event_buf1"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<set name="isHideUseMessage" value="true"/>
+		<for>
+			<effect>
+				<mul stat="pAtkSpd" value="1.2"/>
+				<mul stat="mAtkSpd" value="1.2"/>
+				<add stat="runSpd" value="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22162" levels="1" name="Mt. Fuji Herb">
+		<!-- Energy is recovered for 10 minutes when acquiring Exp. -->
+		<set name="icon" value="BranchSys2.icon.br_fuji_herb_i00"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="hitTime" value="100"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="abnormal_instant" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_effect" value="VP_UP"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="vp_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<set name="isHideUseMessage" value="true"/>
+		<!--<set name="is_vitality_limited" value="true"/> - Хербы на оффе не учитываются, как потион виталити.-->
+		<for>
+			<effect name="Vitality"/>
+		</for>
+	</skill>
+	<skill id="22163" levels="1" name="Hawk Herb">
+		<!-- Physical Atk Speed is increased by 15% and physical Critical Atk rate is increased by 10% for 10 minutes. -->
+		<set name="icon" value="BranchSys2.icon.br_hawk_herb_i00"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="hitTime" value="100"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="abnormal_instant" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="br_event_buf1"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<set name="isHideUseMessage" value="true"/>
+		<for>
+			<effect>
+				<mul stat="pAtkSpd" value="1.15"/>
+				<add stat="pCritRate" value="10"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22164" levels="1" name="Eggplant Herb">
+		<!-- Magic Atk Speed is increased by 10% and magic Critical Rate is increased by 2 for 10 minutes. -->
+		<set name="icon" value="BranchSys2.icon.br_eggplant_herb_i00"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="hitTime" value="100"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="abnormal_instant" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="br_event_buf1"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<set name="isHideUseMessage" value="true"/>
+		<for>
+			<effect>
+				<mul stat="mAtkSpd" value="1.10"/>
+				<add stat="baseMCritRate" value="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22165" levels="1" name="Replenish Energy">
+		<!-- 5000 Soul Avatar Energy is replenished. -->
+		<set name="icon" value="icon.skill0788"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20954"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="ENERGY_REPLENISH"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<set name="addEnergy" value="5000"/>
+	</skill>
+	<skill id="22166" levels="1" name="Replenish Energy">
+		<!-- 10000 Soul Avatar Energy is replenished. -->
+		<set name="icon" value="icon.skill0788"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20955"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="ENERGY_REPLENISH"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<set name="addEnergy" value="10000"/>
+	</skill>
+	<skill id="22167" levels="1" name="April Fool\'s Day Vesper Weapon Gift">
+		<!-- One among 14 Vesper Weapons will be given. -->
+		<set name="icon" value="icon.skill0001"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="P"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="13.32">
+				<item id="13457" min_count="1" max_count="1"/>	<!--Vesper Cutter-->
+			</group>
+			<group chance="6.66">
+				<item id="13458" min_count="1" max_count="1"/>	<!--Vesper Slasher-->
+			</group>
+			<group chance="6.66">
+				<item id="13459" min_count="1" max_count="1"/>	<!--Vesper Buster-->
+			</group>
+			<group chance="6.66">
+				<item id="13460" min_count="1" max_count="1"/>	<!--Vesper Shaper-->
+			</group>
+			<group chance="6.66">
+				<item id="13461" min_count="1" max_count="1"/>	<!--Vesper Fighter-->
+			</group>
+			<group chance="6.66">
+				<item id="13462" min_count="1" max_count="1"/>	<!--Vesper Stormer-->
+			</group>
+			<group chance="6.66">
+				<item id="13463" min_count="1" max_count="1"/>	<!--Vesper Avenger-->
+			</group>
+			<group chance="6.66">
+				<item id="13464" min_count="1" max_count="1"/>	<!--Vesper Retributer-->
+			</group>
+			<group chance="6.66">
+				<item id="13466" min_count="1" max_count="1"/>	<!--Vesper Singer-->
+			</group>
+			<group chance="6.66">
+				<item id="13467" min_count="1" max_count="1"/>	<!--Vesper Thrower-->
+			</group>
+			<group chance="6.66">
+				<item id="13468" min_count="1" max_count="1"/>	<!--Vesper Pincer-->
+			</group>
+			<group chance="6.66">
+				<item id="13469" min_count="1" max_count="1"/>	<!--Vesper Shooter-->
+			</group>
+			<group chance="6.66">
+				<item id="13470" min_count="1" max_count="1"/>	<!--Vesper Nagan-->
+			</group>
+			<group chance="6.66">
+				<item id="13465" min_count="1" max_count="1"/>	<!--Vesper Caster-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="22168" levels="1" name="Thirst for Victory Quenching Juice">
+		<!-- Replenishes an Agathion\'s energy by 2500 -->
+		<set name="icon" value="icon.skill0001"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20992"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="22169" levels="1" name="Soccer Ball of Cheering Release">
+		<set name="icon" value="icon.skill0001"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20993"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="P"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="45.0">
+				<item id="6575" min_count="2" max_count="2"/>	<!--Blessed Scroll: Enchant Weapon (D-Grade)-->
+			</group>
+			<group chance="30.0">
+				<item id="6573" min_count="1" max_count="1"/>	<!--Blessed Scroll: Enchant Weapon (C-Grade)-->
+			</group>
+			<group chance="15.0">
+				<item id="6571" min_count="1" max_count="1"/>	<!--Blessed Scroll: Enchant Weapon (B-Grade)-->
+			</group>
+			<group chance="9.4">
+				<item id="6569" min_count="1" max_count="1"/>	<!--Blessed Scroll: Enchant Weapon (A-Grade)-->
+			</group>
+			<group chance="0.6">
+				<item id="6577" min_count="1" max_count="1"/>	<!--Blessed Scroll: Enchant Weapon (S-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="22170" levels="1" name="Hardin\'s Divine Protection">
+		<!-- Maximies P. Def. for 10 seconds. -->
+		<set name="icon" value="icon.skill0001"/>
+		<set name="reuseDelay" value="900000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_effect" value="ULTIMATE_DEFENCE"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="pd_up_special"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="21030"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="22171" levels="1" name="Hardin\'s Blessing">
+		<!-- Maximies M. Def. for 10 seconds. -->
+		<set name="icon" value="icon.skill0001"/>
+		<set name="reuseDelay" value="900000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_effect" value="ULTIMATE_DEFENCE"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="pd_up_special"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="21031"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="22172" levels="1" name="Silpeed\'s Wing">
+		<!-- Increases one\'s own moving speed by 300 for 15 seconds. -->
+		<set name="icon" value="icon.skill0001"/>
+		<set name="reuseDelay" value="900000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="speed_up_special"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="21032"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="22173" levels="1" name="Silpeed\'s Blessing">
+		<!-- Increases the moving speed of yourself and friendly nearby targets by 300 for 15 seconds. -->
+		<set name="icon" value="icon.skill0001"/>
+		<set name="reuseDelay" value="900000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="speed_up_special"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="21033"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="22174" levels="1" name="Evain\'s Recovery Scroll">
+		<!-- Recovers HP of yourself and friendly nearby targets by 500. -->
+		<set name="icon" value="icon.skill0001"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="21034"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="22175" levels="1" name="Good/Bad of Life">
+		<!-- When HP falls below 30%, it is restored by 500. -->
+		<set name="icon" value="icon.skill0001"/>
+		<set name="magicLevel" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="22176" levels="1" name="State of the Mind">
+		<!-- When MP falls below 10%, it is restored by 500. -->
+		<set name="icon" value="icon.skill0001"/>
+		<set name="magicLevel" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="22177" levels="1" name="Warrior\'s Quick CP Potion">
+		<set name="icon" value="icon.skill0001"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="21037"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="22178" levels="1" name="Hero\'s Potion">
+		<set name="icon" value="icon.skill0001"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="21038"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="22179" levels="1" name="Fortuna of Chaos">
+		<set name="icon" value="icon.skill0001"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="21041"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="P"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="13.999">
+				<item id="8618" min_count="3" max_count="3"/>	<!--Ancient Book: Divine Inspiration (Modern Language Version)-->
+			</group>
+			<group chance="26.0">
+				<item id="8619" min_count="1" max_count="1"/>	<!--Ancient Book: Divine Inspiration (Original Language Version)-->
+			</group>
+			<group chance="17.0">
+				<item id="8620" min_count="3" max_count="3"/>	<!--Ancient Book: Divine Inspiration (Manuscript)-->
+			</group>
+			<group chance="0.011">
+				<item id="8621" min_count="1" max_count="1"/>	<!--Ancient Book: Divine Inspiration (Original Version)-->
+			</group>
+			<group chance="4.0">
+				<item id="14700" min_count="25" max_count="25"/>	<!--Greater Healing Potion-->
+			</group>
+			<group chance="4.0">
+				<item id="14701" min_count="12" max_count="12"/>	<!--Greater Quick Healing Potion-->
+			</group>
+			<group chance="5.0">
+				<item id="21038" min_count="6" max_count="6"/>	<!--Potion of a Hero-->
+			</group>
+			<group chance="5.0">
+				<item id="9627" min_count="1" max_count="1"/>	<!--Giant\'s Codex - Mastery-->
+			</group>
+			<group chance="19.0">
+				<item id="6622" min_count="3" max_count="3"/>	<!--Giant\'s Codex-->
+			</group>
+			<group chance="1.5">
+				<item id="21030" min_count="4" max_count="4"/>	<!--Hardin\'s Divine Protection-->
+			</group>
+			<group chance="1.5">
+				<item id="21031" min_count="4" max_count="4"/>	<!--Hardin\'s Blessing-->
+			</group>
+			<group chance="1.0">
+				<item id="21032" min_count="8" max_count="8"/>	<!--Silpeed\'s Wing-->
+			</group>
+			<group chance="1.0">
+				<item id="21033" min_count="8" max_count="8"/>	<!--Silpeed\'s Blessing-->
+			</group>
+			<group chance="1.0">
+				<item id="21037" min_count="5" max_count="5"/>	<!--Warrior\'s Breath-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="22180" levels="1" name="Wondrous Cubic - 1 time use">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22181" levels="1" name="Refined Cube - 1 time use">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22182" levels="1" name="Birthday Vitality Buff">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_potion_blue_i00"/>
+		<set name="reuseDelay" value="43200000"/>
+		<set name="hitTime" value="100"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_effect" value="VP_UP"/>
+		<set name="abnormal_time" value="43200"/>
+		<set name="abnormal_level" value="8"/>
+		<set name="abnormal_type" value="vp_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22183" levels="1" name="Transformation Scroll: Dragon Master Lee">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond>
+			<player can_transform="20005"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="20005"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22184" levels="1" name="Transformation Scroll: Dragon Master Karin">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond>
+			<player can_transform="20006"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="20006"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22185" levels="1" name="Shiny Lighting">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys.icon.br_firecracker_red_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="vote"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22186" levels="1" name="Echo Crystal - Theme of Celebration">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.item_normal16"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22187" levels="1" name="Honeymoon Ticket - Joy of Vitality">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys2.Icon.br_weddin_ticket_i00"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="hitTime" value="100"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="vp_keep"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22188" levels="1" name="Summon Big Wedding Cake">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="npcId" value="137"/>
+		<set name="operate_type" value="A2"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="summonType" value="TREE"/>
+		<set name="is_saveable_summon" value="false"/>	<!--TODO: Check.-->
+	</skill>
+	<skill id="22189" levels="1" name="Flower Shower">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.item_normal16"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="22190" levels="1" name="Transformation Scroll: Treasure Hunter">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skilltransform3"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond>
+			<player can_transform="127"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="127"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22191" levels="1" name="Transformation Scroll: Onyx Beast">
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond>
+			<player can_transform="1"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="1"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22192" levels="1" name="Transformation Scroll: Doom Wraith">
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond>
+			<player can_transform="2"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="2"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22193" levels="1" name="Transformation Scroll: Grail Apostle">
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond>
+			<player can_transform="201"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="201"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22194" levels="1" name="Transformation Scroll: Unicorn">
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond>
+			<player can_transform="204"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="204"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22195" levels="1" name="Transformation Scroll: Lilim Knight">
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond>
+			<player can_transform="207"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="207"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22196" levels="1" name="Transformation Scroll: Golem Guardian">
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond>
+			<player can_transform="210"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="210"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22197" levels="1" name="Transformation Scroll: Inferno Drake">
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond>
+			<player can_transform="213"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="213"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22198" levels="1" name="Transformation Scroll: Dragon Bomber">
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond>
+			<player can_transform="216"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="216"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22199" levels="1" name="Transformation Scroll: Heretic">
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond>
+			<player can_transform="3"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="3"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+</list>

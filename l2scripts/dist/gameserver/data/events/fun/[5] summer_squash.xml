@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "events.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<!--формат даты HH:mm dd.MM.yyyy-->
+	<event id="5" name="Summer Squash" impl="Fun">
+		<parameter name="start_time_pattern" value="06:30 25.07.2012" />
+		<parameter name="stop_time_pattern" value="06:30 15.08.2012" />
+		<on_start>
+			<spawn name="spawn_group"/>
+			<global_add_reward name="droplist"/>
+		</on_start>
+		<on_time>
+			<on time="1209600">	<!--2 Weeks-->
+				<global_remove_reward name="droplist"/>
+			</on>
+		</on_time>
+		<on_stop>
+			<despawn name="spawn_group"/>
+			<global_remove_reward name="droplist"/>
+			<global_remove_items name="event_items"/>
+		</on_stop>
+		<objects name="spawn_group">
+			<spawn_ex name="summer_squash_event"/>
+		</objects>
+		<objects name="droplist">
+			<rewardlist type="EVENT_GROUPED">
+				<group chance="20">
+					<reward item_id="6391" min="1" max="1" chance="100"/>	<!--Нектар-->
+					<reward item_id="10640" min="1" max="1" chance="5"/>	<!--Семечко Клонированной Тыквы-->
+					<reward item_id="10641" min="1" max="1" chance="1"/>	<!--Большое Семечко Клонированной Тыквы-->
+				</group>
+			</rewardlist>
+		</objects>
+		<objects name="event_items">
+			<item id="6389"/>	<!--Семечко Тыквы-->
+			<item id="6390"/>	<!--Большое Семечко Тыквы-->
+			<item id="6391"/>	<!--Нектар-->
+			<item id="10640"/>	<!--Семечко Клонированной Тыквы-->
+			<item id="10641"/>	<!--Большое Семечко Клонированной Тыквы-->
+			<item id="34819"/>	<!--Сундук с Кольцом Большой Тыквы-->
+			<item id="34820"/>	<!--Сундук с Серьгой Большой Тыквы-->
+			<item id="34821"/>	<!--Сундук с Ожерельем Большой Тыквы-->
+			<item id="34822"/>	<!--Сундук с Аксессуарами Большой Тыквы-->
+		</objects>
+	</event>
+</list>

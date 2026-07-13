@@ -1,0 +1,13 @@
+<html><head><body>
+Adventure Guildsman:<br>
+Our guild is your ticket to countless opportunities!<br>
+You have proof of your adventures? We can also exchange your <font color="LEVEL">Adventurer's Marks and Seals</font>!<br>
+Does your blood boil with excitement?! Do you see the numerous challenges you will face?!<br>
+#if ($ALT_PCBANG_POINTS_ENABLED)
+<Button ALIGN=LEFT ICON="NORMAL" action="link adventurer_guildsman/pccafe_list001.htm"><font color="LEVEL">"I want to use PC points."</font></Button>
+#end
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_questlist">"Tell me about quests."</Button>
+<Button ALIGN=LEFT ICON="NORMAL" action="link adventurer_guildsman/adventurer_agent_town_voucher_change.htm">"I want to exchange Adventurer's Marks and Seals."</Button>
+<Button ALIGN=LEFT ICON="NORMAL" action="link adventurer_guildsman/life_crystal_gludin.htm">"I'd like to use a Life Crystal."</Button>
+<Button ALIGN=LEFT ICON="QUEST" action="bypass -h talk_select">Quest</Button>
+</body></html>

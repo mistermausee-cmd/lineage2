@@ -1,0 +1,34 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<list>
+	<instance id="262" name="Mystic Tavern - Kelbim" maxChannels="10" collapseIfEmpty="10" timelimit="60" dispelBuffs="false">
+		<level min="99"/>
+		<party min="5" max="7"/>
+		<return loc="-50152 -148232 -14181"/>
+		<teleport loc="204584 -89480 99"/>
+		<reuse resetReuse="30 6 * * 3,6" setUponEntry="false" sharedReuseGroup="261"/>
+		<spawns>
+			<group name="mystic_tavern_kelbim" spawned="true"/>
+			<group name="mystic_tavern_kelbim_0" spawned="true"/>
+			<group name="mystic_tavern_kelbim_0_1" spawned="false"/>
+			<group name="mystic_tavern_kelbim_1_1" spawned="false"/>
+			<group name="mystic_tavern_kelbim_1_2" spawned="false"/>
+			<group name="mystic_tavern_kelbim_1_2" spawned="false"/>
+			<group name="mystic_tavern_kelbim_1_2_1" spawned="false"/>
+			<group name="mystic_tavern_kelbim_1_2_1" spawned="false"/>
+			<group name="mystic_tavern_kelbim_1_3" spawned="false"/>
+			<group name="mystic_tavern_kelbim_1_3" spawned="false"/>
+			<group name="mystic_tavern_kelbim_2" spawned="false"/>
+			<group name="mystic_tavern_kelbim_2_1" spawned="false"/>
+			<group name="mystic_tavern_kelbim_2_1_1" spawned="false"/>
+			<group name="mystic_tavern_kelbim_2_2" spawned="false"/>
+			<group name="mystic_tavern_kelbim_2_3" spawned="false"/>
+			<group name="mystic_tavern_kelbim_3" spawned="false"/>
+			<group name="mystic_tavern_kelbim_4" spawned="false"/>
+		</spawns>
+		<doors>
+			<door id="26150104" opened="false"/>
+			<door id="26150106" opened="false"/>
+			<door id="26150108" opened="false"/>
+		</doors>
+	</instance>
+</list>

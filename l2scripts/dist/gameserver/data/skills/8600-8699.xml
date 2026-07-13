@@ -1,0 +1,1515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="8600" levels="1" name="Summon Royal Aegis">
+		<set name="icon" value="icon.skill8600"/>
+		<set name="hitTime" value="1000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isSkillTimePermanent" value="true"/>
+		<set name="hitCancelTime" value="500"/>
+		<cond>
+			<player can_transform="129"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="129"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8601" levels="1" name="Summon Battle Scar">
+		<set name="icon" value="icon.skill8601"/>
+		<set name="hitTime" value="1000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isSkillTimePermanent" value="true"/>
+		<set name="hitCancelTime" value="500"/>
+		<cond>
+			<player can_transform="130"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="130"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8602" levels="1" name="Summon Blood Tail">
+		<set name="icon" value="icon.skill8602"/>
+		<set name="hitTime" value="1000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isSkillTimePermanent" value="true"/>
+		<set name="hitCancelTime" value="500"/>
+		<cond>
+			<player can_transform="131"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="131"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8603" levels="1" name="Summon Tempest Arrow">
+		<set name="icon" value="icon.skill8603"/>
+		<set name="hitTime" value="1000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isSkillTimePermanent" value="true"/>
+		<set name="hitCancelTime" value="500"/>
+		<cond>
+			<player can_transform="132"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="132"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8604" levels="1" name="Summon Blue Phantom">
+		<set name="icon" value="icon.skill8604"/>
+		<set name="hitTime" value="1000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isSkillTimePermanent" value="true"/>
+		<set name="hitCancelTime" value="500"/>
+		<cond>
+			<player can_transform="133"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="133"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8605" levels="1" name="Summon White Wing">
+		<set name="icon" value="icon.skill8605"/>
+		<set name="hitTime" value="1000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isSkillTimePermanent" value="true"/>
+		<set name="hitCancelTime" value="500"/>
+		<cond>
+			<player can_transform="134"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="134"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8606" levels="1" name="Summon Swift Melody">
+		<set name="icon" value="icon.skill8606"/>
+		<set name="hitTime" value="1000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isSkillTimePermanent" value="true"/>
+		<set name="hitCancelTime" value="500"/>
+		<cond>
+			<player can_transform="135"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="135"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8607" levels="1" name="Summon Silver Saint">
+		<set name="icon" value="icon.skill8607"/>
+		<set name="hitTime" value="1000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isSkillTimePermanent" value="true"/>
+		<set name="hitCancelTime" value="500"/>
+		<cond>
+			<player can_transform="136"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="136"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8608" levels="1" name="Talisman (R-grade) - P. Atk.">
+		<set name="icon" value="icon.r85_talisman_pa_up_passive"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAtk" value="37"/>
+		</for>
+	</skill>
+	<skill id="8609" levels="1" name="Talisman (R90-grade) - P. Atk.">
+		<set name="icon" value="icon.r85_talisman_pa_up_passive"/>
+		<set name="magicLevel" value="90"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAtk" value="43"/>
+		</for>
+	</skill>
+	<skill id="8610" levels="1" name="Talisman (R95-grade) - P. Atk.">
+		<set name="icon" value="icon.r85_talisman_pa_up_passive"/>
+		<set name="magicLevel" value="95"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAtk" value="52"/>
+		</for>
+	</skill>
+	<skill id="8611" levels="1" name="Talisman (R99-grade) - P. Atk.">
+		<set name="icon" value="icon.r85_talisman_pa_up_passive"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAtk" value="60"/>
+		</for>
+	</skill>
+	<skill id="8612" levels="1" name="Talisman (R-grade) - P. Def.">
+		<set name="icon" value="icon.r85_talisman_pd_up_passive"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pDef" value="38"/>
+		</for>
+	</skill>
+	<skill id="8613" levels="1" name="Talisman (R90-grade) - P. Def.">
+		<set name="icon" value="icon.r85_talisman_pd_up_passive"/>
+		<set name="magicLevel" value="90"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pDef" value="43"/>
+		</for>
+	</skill>
+	<skill id="8614" levels="1" name="Talisman (R95-grade) - P. Def.">
+		<set name="icon" value="icon.r85_talisman_pd_up_passive"/>
+		<set name="magicLevel" value="95"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pDef" value="49"/>
+		</for>
+	</skill>
+	<skill id="8615" levels="1" name="Talisman (R99-grade) - P. Def.">
+		<set name="icon" value="icon.r85_talisman_pd_up_passive"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pDef" value="54"/>
+		</for>
+	</skill>
+	<skill id="8616" levels="1" name="Talisman (R-grade) - M. Atk.">
+		<set name="icon" value="icon.r85_talisman_ma_up_passive"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="mAtk" value="37"/>
+		</for>
+	</skill>
+	<skill id="8617" levels="1" name="Talisman (R90-grade) - M. Atk.">
+		<set name="icon" value="icon.r85_talisman_ma_up_passive"/>
+		<set name="magicLevel" value="90"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="mAtk" value="46"/>
+		</for>
+	</skill>
+	<skill id="8618" levels="1" name="Talisman (R95-grade) - M. Atk.">
+		<set name="icon" value="icon.r85_talisman_ma_up_passive"/>
+		<set name="magicLevel" value="95"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="mAtk" value="56"/>
+		</for>
+	</skill>
+	<skill id="8619" levels="1" name="Talisman (R99-grade) - M. Atk.">
+		<set name="icon" value="icon.r85_talisman_ma_up_passive"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="mAtk" value="66"/>
+		</for>
+	</skill>
+	<skill id="8620" levels="1" name="Talisman (R-grade) - M. Def.">
+		<set name="icon" value="icon.r85_talisman_md_up_passive"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="mDef" value="21"/>
+		</for>
+	</skill>
+	<skill id="8621" levels="1" name="Talisman (R90-grade) - M. Def.">
+		<set name="icon" value="icon.r85_talisman_md_up_passive"/>
+		<set name="magicLevel" value="90"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="mDef" value="24"/>
+		</for>
+	</skill>
+	<skill id="8622" levels="1" name="Talisman (R95-grade) - M. Def.">
+		<set name="icon" value="icon.r85_talisman_md_up_passive"/>
+		<set name="magicLevel" value="95"/>
+		<set name="operate_type" value="P"/>
+		<for>
+		<add stat="mDef" value="28"/>
+		</for>
+	</skill>
+	<skill id="8623" levels="1" name="Talisman (R99-grade) - M. Def.">
+		<set name="icon" value="icon.r85_talisman_md_up_passive"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="mDef" value="32"/>
+		</for>
+	</skill>
+	<skill id="8624" levels="1" name="Talisman (R-grade) - Max HP">
+		<set name="icon" value="icon.r85_talisman_hp_up_passive"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="maxHp" value="219"/>
+		</for>
+	</skill>
+	<skill id="8625" levels="1" name="Talisman (R90-grade) - Max HP">
+		<set name="icon" value="icon.r85_talisman_hp_up_passive"/>
+		<set name="magicLevel" value="90"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="maxHp" value="246"/>
+		</for>
+	</skill>
+	<skill id="8626" levels="1" name="Talisman (R95-grade) - Max HP">
+		<set name="icon" value="icon.r85_talisman_hp_up_passive"/>
+		<set name="magicLevel" value="95"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="maxHp" value="277"/>
+		</for>
+	</skill>
+	<skill id="8627" levels="1" name="Talisman (R99-grade) - Max HP">
+		<set name="icon" value="icon.r85_talisman_hp_up_passive"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="maxHp" value="305"/>
+		</for>
+	</skill>
+	<skill id="8628" levels="1" name="Talisman (R-grade) - Max MP">
+		<set name="icon" value="icon.r85_talisman_mp_up_passive"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="maxMp" value="219"/>
+		</for>
+	</skill>
+	<skill id="8629" levels="1" name="Talisman (R90-grade) - Max MP">
+		<set name="icon" value="icon.r85_talisman_mp_up_passive"/>
+		<set name="magicLevel" value="90"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="maxMp" value="246"/>
+		</for>
+	</skill>
+	<skill id="8630" levels="1" name="Talisman (R95-grade) - Max MP">
+		<set name="icon" value="icon.r85_talisman_mp_up_passive"/>
+		<set name="magicLevel" value="95"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="maxMp" value="277"/>
+		</for>
+	</skill>
+	<skill id="8631" levels="1" name="Talisman (R99-grade) - Max MP">
+		<set name="icon" value="icon.r85_talisman_mp_up_passive"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="maxMp" value="305"/>
+		</for>
+	</skill>
+	<skill id="8632" levels="1" name="Talisman (R-grade) - Max CP">
+		<set name="icon" value="icon.r85_talisman_cp_up_passive"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="maxCp" value="219"/>
+		</for>
+	</skill>
+	<skill id="8633" levels="1" name="Talisman (R90-grade) - Max CP">
+		<set name="icon" value="icon.r85_talisman_cp_up_passive"/>
+		<set name="magicLevel" value="90"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="maxCp" value="246"/>
+		</for>
+	</skill>
+	<skill id="8634" levels="1" name="Talisman (R95-grade) - Max CP">
+		<set name="icon" value="icon.r85_talisman_cp_up_passive"/>
+		<set name="magicLevel" value="95"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="maxCp" value="277"/>
+		</for>
+	</skill>
+	<skill id="8635" levels="1" name="Talisman (R99-grade) - Max CP">
+		<set name="icon" value="icon.r85_talisman_cp_up_passive"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="maxCp" value="305"/>
+		</for>
+	</skill>
+	<skill id="8636" levels="1" name="Talisman (R-grade) - Critical Damage">
+		<set name="icon" value="icon.r85_talisman_ca_up_passive"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="p_critical_damage_diff" value="135"/>
+		</for>
+	</skill>
+	<skill id="8637" levels="1" name="Talisman (R90-grade) - Critical Damage">
+		<set name="icon" value="icon.r85_talisman_ca_up_passive"/>
+		<set name="magicLevel" value="90"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="p_critical_damage_diff" value="142"/>
+		</for>
+	</skill>
+	<skill id="8638" levels="1" name="Talisman (R95-grade) - Critical Damage">
+		<set name="icon" value="icon.r85_talisman_ca_up_passive"/>
+		<set name="magicLevel" value="95"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="p_critical_damage_diff" value="149"/>
+		</for>
+	</skill>
+	<skill id="8639" levels="1" name="Talisman (R99-grade) - Critical Damage">
+		<set name="icon" value="icon.r85_talisman_ca_up_passive"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="p_critical_damage_diff" value="155"/>
+		</for>
+	</skill>
+	<skill id="8640" levels="1" name="Talisman (R-grade) - Critical P. Def.">
+		<set name="icon" value="icon.r85_talisman_ca_down_passive"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pDef" value="135">
+				<!--TODO <player > При получении критического урона-->
+			</add>
+		</for>
+	</skill>
+	<skill id="8641" levels="1" name="Talisman (R90-grade) - Critical P. Def.">
+		<set name="icon" value="icon.r85_talisman_ca_down_passive"/>
+		<set name="magicLevel" value="90"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pDef" value="142">
+				<!--TODO <player > При получении критического урона-->
+			</add>
+		</for>
+	</skill>
+	<skill id="8642" levels="1" name="Talisman (R95-grade) - Critical P. Def.">
+		<set name="icon" value="icon.r85_talisman_ca_down_passive"/>
+		<set name="magicLevel" value="95"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pDef" value="149">
+				<!--TODO <player > При получении критического урона-->
+			</add>
+		</for>
+	</skill>
+	<skill id="8643" levels="1" name="Talisman (R99-grade) - Critical P. Def.">
+		<set name="icon" value="icon.r85_talisman_ca_down_passive"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pDef" value="155">
+				<!--TODO <player > При получении критического урона-->
+			</add>
+		</for>
+	</skill>
+	<skill id="8644" levels="1" name="Talisman (R-grade) - M. Critical Rate">
+		<set name="icon" value="icon.r_talisman_mc_up_passive"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="baseMCritRate" value="2"/>
+		</for>
+	</skill>
+	<skill id="8645" levels="1" name="Talisman (R-grade) - P. Accuracy">
+		<set name="icon" value="icon.r_talisman_ph_up_passive"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAccCombat" value="2"/>
+		</for>
+	</skill>
+	<skill id="8646" levels="1" name="Talisman (R-grade) - M. Accuracy">
+		<set name="icon" value="icon.r_talisman_mh_up_passive"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="mAccCombat" value="2"/>
+		</for>
+	</skill>
+	<skill id="8647" levels="1" name="Talisman (R-grade) - P. Evasion">
+		<set name="icon" value="icon.r_talisman_pm_up_passive"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pEvasRate" value="2"/>
+		</for>
+	</skill>
+	<skill id="8648" levels="1" name="Talisman (R-grade) - M. Evasion">
+		<set name="icon" value="icon.r_talisman_mm_up_passive"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="mEvasRate" value="2"/>
+		</for>
+	</skill>
+	<skill id="8649" levels="1" name="Talisman (R-grade) - P. Critical Rate">
+		<set name="icon" value="icon.r_talisman_cr_up_passive"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pCritRate" value="2"/>
+		</for>
+	</skill>
+	<skill id="8650" levels="1" name="Talisman (R-grade) - P. Critical Evasion">
+		<set name="icon" value="icon.r_talisman_cm_up_passive"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pCritChanceRcpt" value="0.98"/>
+		</for>
+	</skill>
+	<skill id="8651" levels="1" name="Talisman (R-grade) - P. Atk. (Active)">
+		<set name="icon" value="icon.r85_talisman_pa_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="pAtk" value="111"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8652" levels="1" name="Talisman (R90-grade) - P. Atk. (Active)">
+		<set name="icon" value="icon.r85_talisman_pa_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="90"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="pAtk" value="129"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8653" levels="1" name="Talisman (R95-grade) - P. Atk. (Active)">
+		<set name="icon" value="icon.r85_talisman_pa_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="95"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="pAtk" value="156"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8654" levels="1" name="Talisman (R99-grade) - P. Atk. (Active)">
+		<set name="icon" value="icon.r85_talisman_pa_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="pAtk" value="180"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8655" levels="1" name="Talisman (R-grade) - P. Def. (Active)">
+		<set name="icon" value="icon.r85_talisman_pd_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="pDef" value="114"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8656" levels="1" name="Talisman (R90-grade) - P. Def. (Active)">
+		<set name="icon" value="icon.r85_talisman_pd_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="90"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="pDef" value="129"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8657" levels="1" name="Talisman (R95-grade) - P. Def. (Active)">
+		<set name="icon" value="icon.r85_talisman_pd_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="95"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="pDef" value="147"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8658" levels="1" name="Talisman (R99-grade) - P. Def. (Active)">
+		<set name="icon" value="icon.r85_talisman_pd_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="pDef" value="162"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8659" levels="1" name="Talisman (R-grade) - M. Atk. (Active)">
+		<set name="icon" value="icon.r85_talisman_ma_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="mAtk" value="111"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8660" levels="1" name="Talisman (R90-grade) - M. Atk. (Active)">
+		<set name="icon" value="icon.r85_talisman_ma_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="90"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="mAtk" value="138"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8661" levels="1" name="Talisman (R95-grade) - M. Atk. (Active)">
+		<set name="icon" value="icon.r85_talisman_ma_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="95"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="mAtk" value="168"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8662" levels="1" name="Talisman (R99-grade) - M. Atk. (Active)">
+		<set name="icon" value="icon.r85_talisman_ma_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="mAtk" value="198"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8663" levels="1" name="Talisman (R-grade) - M. Def. (Active)">
+		<set name="icon" value="icon.r85_talisman_md_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="mDef" value="63"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8664" levels="1" name="Talisman (R90-grade) - M. Def. (Active)">
+		<set name="icon" value="icon.r85_talisman_md_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="90"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="mDef" value="72"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8665" levels="1" name="Talisman (R95-grade) - M. Def. (Active)">
+		<set name="icon" value="icon.r85_talisman_md_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="95"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="mDef" value="84"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8666" levels="1" name="Talisman (R99-grade) - M. Def. (Active)">
+		<set name="icon" value="icon.r85_talisman_md_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="mDef" value="96"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8667" levels="1" name="Talisman (R-grade) - Max HP (Active)">
+		<set name="icon" value="icon.r85_talisman_hp_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="maxHp" value="657"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8668" levels="1" name="Talisman (R90-grade) - Max HP (Active)">
+		<set name="icon" value="icon.r85_talisman_hp_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="90"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="maxHp" value="738"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8669" levels="1" name="Talisman (R95-grade) - Max HP (Active)">
+		<set name="icon" value="icon.r85_talisman_hp_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="95"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="maxHp" value="831"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8670" levels="1" name="Talisman (R99-grade) - Max HP (Active)">
+		<set name="icon" value="icon.r85_talisman_hp_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="maxHp" value="915"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8671" levels="1" name="Talisman (R-grade) - Max MP (Active)">
+		<set name="icon" value="icon.r85_talisman_mp_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="maxMp" value="327"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8672" levels="1" name="Talisman (R90-grade) - Max MP (Active)">
+		<set name="icon" value="icon.r85_talisman_mp_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="90"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="maxMp" value="357"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8673" levels="1" name="Talisman (R95-grade) - Max MP (Active)">
+		<set name="icon" value="icon.r85_talisman_mp_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="95"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="maxMp" value="390"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8674" levels="1" name="Talisman (R99-grade) - Max MP (Active)">
+		<set name="icon" value="icon.r85_talisman_mp_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="maxMp" value="417"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8675" levels="1" name="Talisman (R-grade) - Max CP (Active)">
+		<set name="icon" value="icon.r85_talisman_cp_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="maxCp" value="297"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8676" levels="1" name="Talisman (R90-grade) - Max CP (Active)">
+		<set name="icon" value="icon.r85_talisman_cp_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="90"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="maxCp" value="324"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8677" levels="1" name="Talisman (R95-grade) - Max CP (Active)">
+		<set name="icon" value="icon.r85_talisman_cp_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="95"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="maxCp" value="390"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8678" levels="1" name="Talisman (R99-grade) - Max CP (Active)">
+		<set name="icon" value="icon.r85_talisman_cp_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="maxCp" value="417"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8679" levels="1" name="Talisman (R-grade) - Critical Damage (Active)">
+		<set name="icon" value="icon.r85_talisman_ca_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="p_critical_damage_diff" value="405"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8680" levels="1" name="Talisman (R90-grade) - Critical Damage (Active)">
+		<set name="icon" value="icon.r85_talisman_ca_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="90"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="p_critical_damage_diff" value="426"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8681" levels="1" name="Talisman (R95-grade) - Critical Damage (Active)">
+		<set name="icon" value="icon.r85_talisman_ca_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="95"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="p_critical_damage_diff" value="447"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8682" levels="1" name="Talisman (R99-grade) - Critical Damage (Active)">
+		<set name="icon" value="icon.r85_talisman_ca_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="p_critical_damage_diff" value="465"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8683" levels="1" name="Talisman (R-grade) - Critical P. Def. (Active)">
+		<set name="icon" value="icon.r85_talisman_ca_down_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="pDef" value="405">
+					<!--TODO <player > При получении критического урона-->
+				</add>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8684" levels="1" name="Talisman (R90-grade) - Critical P. Def. (Active)">
+		<set name="icon" value="icon.r85_talisman_ca_down_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="90"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="pDef" value="426">
+					<!--TODO <player > При получении критического урона-->
+				</add>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8685" levels="1" name="Talisman (R95-grade) - Critical P. Def. (Active)">
+		<set name="icon" value="icon.r85_talisman_ca_down_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="95"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="pDef" value="447">
+					<!--TODO <player > При получении критического урона-->
+				</add>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8686" levels="1" name="Talisman (R99-grade) - Critical P. Def. (Active)">
+		<set name="icon" value="icon.r85_talisman_ca_down_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="pDef" value="465">
+					<!--TODO <player > При получении критического урона-->
+				</add>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8687" levels="1" name="Talisman (R-grade) - M. Critical Rate (Active)">
+		<set name="icon" value="icon.r_talisman_mc_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="mCritRate" value="4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8688" levels="1" name="Talisman (R-grade) - P. Accuracy (Active)">
+		<set name="icon" value="icon.r_talisman_ph_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="pAccCombat" value="4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8689" levels="1" name="Talisman (R-grade) - M. Accuracy (Active)">
+		<set name="icon" value="icon.r_talisman_mh_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="mAccCombat" value="4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8690" levels="1" name="Talisman (R-grade) - P. Evasion (Active)">
+		<set name="icon" value="icon.r_talisman_pm_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="pEvasRate" value="4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8691" levels="1" name="Talisman (R-grade) - M. Evasion (Active)">
+		<set name="icon" value="icon.r_talisman_mm_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="mEvasRate" value="4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8692" levels="1" name="Talisman (R-grade) - P. Critical Rate (Active)">
+		<set name="icon" value="icon.r_talisman_cr_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="pCritRate" value="4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8693" levels="1" name="Talisman (R-grade) - P. Critical Evasion (Active)">
+		<set name="icon" value="icon.r_talisman_cm_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="pCritChanceRcpt" value="0.96"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8694" levels="1" name="Special Talisman (R-grade) - Shield Defense">
+		<set name="icon" value="icon.r85_talisman_pd_up_passive"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="sDef" value="207"/>
+		</for>
+	</skill>
+	<skill id="8695" levels="1" name="Special Talisman (R90-grade) - Shield Defense">
+		<set name="icon" value="icon.r85_talisman_pd_up_passive"/>
+		<set name="magicLevel" value="90"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="sDef" value="229"/>
+		</for>
+	</skill>
+	<skill id="8696" levels="1" name="Special Talisman (R95-grade) - Shield Defense">
+		<set name="icon" value="icon.r85_talisman_pd_up_passive"/>
+		<set name="magicLevel" value="95"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="sDef" value="253"/>
+		</for>
+	</skill>
+	<skill id="8697" levels="1" name="Special Talisman (R99-grade) - Shield Defense">
+		<set name="icon" value="icon.r85_talisman_pd_up_passive"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="sDef" value="273"/>
+		</for>
+	</skill>
+	<skill id="8698" levels="1" name="Special Talisman (R-grade) - Shield Defense (Active)">
+		<set name="icon" value="icon.r85_talisman_pd_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="sDef" value="1242"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8699" levels="1" name="Special Talisman (R90-grade) - Shield Defense (Active)">
+		<set name="icon" value="icon.r85_talisman_pd_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="90"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="sDef" value="1371"/>
+			</effect>
+		</for>
+	</skill>
+</list>

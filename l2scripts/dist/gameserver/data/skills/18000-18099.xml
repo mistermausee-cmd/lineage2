@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="18000" levels="1" name="Scroll of Escape: Cemetery">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="185912;20296;-3344"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="18001" levels="1" name="Scroll of Escape: Guillotine Fortress">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="54792;137800;-2536"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="18002" levels="1" name="Scroll of Escape: Orbis Temple">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="199384;85960;-208"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="18003" levels="1" name="Scroll of Escape: Heine">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="11336;219048;-3536"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="18004" levels="1" name="Scroll of Escape: Valley of Saints">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="65773;-71481;-3728"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="18005" levels="1" name="Scroll of Escape: Forge of the Gods">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="169091;-116162;-2416"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="18006" levels="1" name="Scroll of Escape: Ivory Tower">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="85176;16360;-3664"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="18007" levels="1" name="Scroll of Escape: Secret Room">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="147384;-52584;-2728"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="18008" levels="1" name="Scroll of Escape: The Cemetary">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="185912;20296;-3344"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="18009" levels="1" name="Tempest Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18010" levels="1" name="Love Potion: Atk. Spd.">
+		<set name="icon" value="icon.love_potion_attack_speed"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="abnormal_time" value="30"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="AWAKED_BUFF"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="buff_special_class"/>
+		<for>
+			<effect>
+				<add stat="pAtkSpd" value="1500"/>
+				<add stat="defenceFire" value="30"/>
+				<add stat="defenceWater" value="30"/>
+				<add stat="defenceWind" value="30"/>
+				<add stat="defenceEarth" value="30"/>
+				<add stat="defenceHoly" value="30"/>
+				<add stat="defenceUnholy" value="30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18011" levels="1" name="Love Potion: Casting Spd.">
+		<set name="icon" value="icon.love_potion_magic_speed"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="abnormal_time" value="30"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="AWAKED_BUFF"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="buff_special_class"/>
+		<for>
+			<effect>
+				<add stat="mAtkSpd" value="1999"/>
+				<add stat="defenceFire" value="30"/>
+				<add stat="defenceWater" value="30"/>
+				<add stat="defenceWind" value="30"/>
+				<add stat="defenceEarth" value="30"/>
+				<add stat="defenceHoly" value="30"/>
+				<add stat="defenceUnholy" value="30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18012" levels="1" name="Love Potion: Speed">
+		<set name="icon" value="icon.love_potion_move_speed"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="abnormal_time" value="30"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="AWAKED_BUFF"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="buff_special_class"/>
+		<for>
+			<effect>
+				<add stat="runSpd" value="300"/>
+				<add stat="defenceFire" value="30"/>
+				<add stat="defenceWater" value="30"/>
+				<add stat="defenceWind" value="30"/>
+				<add stat="defenceEarth" value="30"/>
+				<add stat="defenceHoly" value="30"/>
+				<add stat="defenceUnholy" value="30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18013" levels="1" name="Love Potion: P. Critical Rate">
+		<set name="icon" value="icon.love_potion_ad_ctr"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="abnormal_time" value="30"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="AWAKED_BUFF"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="buff_special_class"/>
+		<for>
+			<effect>
+				<add stat="pCritRate" value="50"/>
+				<add stat="defenceFire" value="30"/>
+				<add stat="defenceWater" value="30"/>
+				<add stat="defenceWind" value="30"/>
+				<add stat="defenceEarth" value="30"/>
+				<add stat="defenceHoly" value="30"/>
+				<add stat="defenceUnholy" value="30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18014" levels="1" name="Love Potion: M. Critical Rate">
+		<set name="icon" value="icon.love_potion_ap_ctr"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="abnormal_time" value="30"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="AWAKED_BUFF"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="buff_special_class"/>
+		<for>
+			<effect>
+				<add stat="mCritRate" value="50"/>
+				<add stat="defenceFire" value="30"/>
+				<add stat="defenceWater" value="30"/>
+				<add stat="defenceWind" value="30"/>
+				<add stat="defenceEarth" value="30"/>
+				<add stat="defenceHoly" value="30"/>
+				<add stat="defenceUnholy" value="30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18015" levels="1" name="Cruel Love">
+		<set name="icon" value="icon.love_potion_sad"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18016" levels="1" name="Wondrous Love">
+		<set name="icon" value="icon.love_potion_blessed"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="abnormal_time" value="30"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="AWAKED_BUFF"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="buff_special_class"/>
+		<for>
+			<effect>
+				<add stat="pAtkSpd" value="1500"/>
+				<add stat="mAtkSpd" value="1999"/>
+				<add stat="runSpd" value="300"/>
+				<add stat="pCritRate" value="50"/>
+				<add stat="mCritRate" value="50"/>
+				<add stat="resist_abnormal_debuff" value="-50"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18017" levels="1" name="Fortune Pocket - Stage 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18018" levels="1" name="Fortune Pocket - Stage 2">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18019" levels="1" name="Maphr\'s Pouch">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18020" levels="2" name="Maphr\'s Pouch">
+		<table name="#reuseDelay">-1000 1000</table>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="#reuseDelay"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18021" levels="1" name="Fortune Pocket - Stage 4">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1000"/>
+		<set name="hitTime" value="200"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18022" levels="1" name="Maphr\'s Pouch">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="hitTime" value="200"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18023" levels="2" name="Maphr\'s Pouch">
+		<table name="#reuseDelay">-1000 1000</table>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="#reuseDelay"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18024" levels="24" name="Venir\'s Talisman">
+		<table name="#MEN">1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 3</table>
+		<table name="#WIT">0 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 3</table>
+		<table name="#CON">0 0 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 3</table>
+		<table name="#INT">0 0 0 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 3</table>
+		<table name="#DEX">0 0 0 0 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 3</table>
+		<table name="#STR">0 0 0 0 0 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 3</table>
+		<table name="#LUC">0 0 0 0 0 0 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 3</table>
+		<table name="#CHA">0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 3</table>
+		<set name="icon" value="BranchIcon.Icon.etc_allstat_talisman_i02"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="STR" value="#STR"/>
+			<add order="0x10" stat="DEX" value="#DEX"/>
+			<add order="0x10" stat="CON" value="#CON"/>
+			<add order="0x10" stat="INT" value="#INT"/>
+			<add order="0x10" stat="MEN" value="#MEN"/>
+			<add order="0x10" stat="WIT" value="#WIT"/>
+			<add order="0x10" stat="LUC" value="#LUC"/>
+			<add order="0x10" stat="CHA" value="#CHA"/>
+		</for> 
+	</skill>
+	<skill id="18048" levels="1" name="Hair Accessory (LUC)">
+		<set name="icon" value="icon.etc_hairacc_pandent_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="LUC" value="3"/>
+		</for> 
+	</skill>
+	<skill id="18049" levels="1" name="Hair Accessory (CHA)">
+		<set name="icon" value="icon.etc_hairacc_pandent_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="CHA" value="3"/>
+		</for> 
+	</skill>
+	<skill id="18050" levels="1" name="Luck Potion">
+		<set name="icon" value="icon.etc_instant_lucky_potion_i00"/>
+		<set name="reuseDelay" value="20000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="magicType" value="AWAKED_BUFF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect>
+				<add order="0x10" stat="LUC" value="5"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18051" levels="1" name="Prevailing Sonata - Dance">
+		<set name="icon" value="icon.etc_bm_sonata_cookie"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18052" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="talismansLimit" value="1"/>
+		</for>
+	</skill>
+	<skill id="18053" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i01"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="talismansLimit" value="2"/>
+		</for>
+	</skill>
+	<skill id="18054" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i02"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="talismansLimit" value="3"/>
+		</for>
+	</skill>
+	<skill id="18055" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i03"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="talismansLimit" value="4"/>
+		</for>
+	</skill>
+	<skill id="18056" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i04"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="talismansLimit" value="5"/>
+		</for>
+	</skill>
+	<skill id="18057" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i05"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="talismansLimit" value="6"/>
+		</for>
+	</skill>
+	<skill id="18058" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="STR" value="1"/>
+		</for>
+	</skill>
+	<skill id="18059" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i01"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="STR" value="2"/>
+		</for>
+	</skill>
+	<skill id="18060" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i02"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="STR" value="3"/>
+		</for>
+	</skill>
+	<skill id="18061" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i03"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="STR" value="4"/>
+		</for>
+	</skill>
+	<skill id="18062" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i04"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="STR" value="5"/>
+		</for>
+	</skill>
+	<skill id="18063" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="DEX" value="1"/>
+		</for>
+	</skill>
+	<skill id="18064" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i01"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="DEX" value="2"/>
+		</for>
+	</skill>
+	<skill id="18065" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i02"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="DEX" value="3"/>
+		</for>
+	</skill>
+	<skill id="18066" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i03"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="DEX" value="4"/>
+		</for>
+	</skill>
+	<skill id="18067" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i04"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="DEX" value="5"/>
+		</for>
+	</skill>
+	<skill id="18068" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="CON" value="1"/>
+		</for>
+	</skill>
+	<skill id="18069" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i01"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="CON" value="2"/>
+		</for>
+	</skill>
+	<skill id="18070" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i02"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="CON" value="3"/>
+		</for>
+	</skill>
+	<skill id="18071" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i03"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="CON" value="4"/>
+		</for>
+	</skill>
+	<skill id="18072" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i04"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="CON" value="5"/>
+		</for>
+	</skill>
+	<skill id="18073" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="INT" value="1"/>
+		</for>
+	</skill>
+	<skill id="18074" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i01"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="INT" value="2"/>
+		</for>
+	</skill>
+	<skill id="18075" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i02"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="INT" value="3"/>
+		</for>
+	</skill>
+	<skill id="18076" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i03"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="INT" value="4"/>
+		</for>
+	</skill>
+	<skill id="18077" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i04"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="INT" value="5"/>
+		</for>
+	</skill>
+	<skill id="18078" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="MEN" value="1"/>
+		</for>
+	</skill>
+	<skill id="18079" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i01"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="MEN" value="2"/>
+		</for>
+	</skill>
+	<skill id="18080" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i02"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="MEN" value="3"/>
+		</for>
+	</skill>
+	<skill id="18081" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i03"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="MEN" value="4"/>
+		</for>
+	</skill>
+	<skill id="18082" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i04"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="MEN" value="5"/>
+		</for>
+	</skill>
+	<skill id="18083" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="WIT" value="1"/>
+		</for>
+	</skill>
+	<skill id="18084" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i01"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="WIT" value="2"/>
+		</for>
+	</skill>
+	<skill id="18085" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i02"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="WIT" value="3"/>
+		</for>
+	</skill>
+	<skill id="18086" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i03"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="WIT" value="4"/>
+		</for>
+	</skill>
+	<skill id="18087" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i04"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="WIT" value="5"/>
+		</for>
+	</skill>
+	<skill id="18088" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="LUC" value="1"/>
+		</for>
+	</skill>
+	<skill id="18089" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i01"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="LUC" value="2"/>
+		</for>
+	</skill>
+	<skill id="18090" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i02"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="LUC" value="3"/>
+		</for>
+	</skill>
+	<skill id="18091" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i03"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="LUC" value="4"/>
+		</for>
+	</skill>
+	<skill id="18092" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i04"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="LUC" value="5"/>
+		</for>
+	</skill>
+	<skill id="18093" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="CHA" value="1"/>
+		</for>
+	</skill>
+	<skill id="18094" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i01"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="CHA" value="2"/>
+		</for>
+	</skill>
+	<skill id="18095" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i02"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="CHA" value="3"/>
+		</for>
+	</skill>
+	<skill id="18096" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i03"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="CHA" value="4"/>
+		</for>
+	</skill>
+	<skill id="18097" levels="1" name="Dimensional Bracelet">
+		<set name="icon" value="icon.dimension_bracelet_i04"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="CHA" value="5"/>
+		</for>
+	</skill>
+	<skill id="18098" levels="1" name="Scroll: 1,000 SP">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="hitTime" value="200"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="40051"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_sp" value="1000"/>
+		</for>
+	</skill>
+	<skill id="18099" levels="1" name="Scroll: 10,000 SP">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="hitTime" value="200"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="40051"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_sp" value="10000"/>
+		</for>
+	</skill>
+</list>

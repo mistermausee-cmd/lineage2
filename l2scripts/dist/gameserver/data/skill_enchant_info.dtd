@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!ELEMENT list (enchant)*>
+
+	<!ELEMENT enchant (#PCDATA)>
+	<!ATTLIST enchant
+		level CDATA #REQUIRED
+		adena CDATA #REQUIRED
+		sp CDATA #REQUIRED
+		safe CDATA #IMPLIED
+		success_rate CDATA #REQUIRED
+		normal_enchant_item_id CDATA #IMPLIED
+		blessed_enchant_item_id CDATA #IMPLIED
+		change_enchant_item_id CDATA #IMPLIED
+		safe_enchant_item_id CDATA #IMPLIED>

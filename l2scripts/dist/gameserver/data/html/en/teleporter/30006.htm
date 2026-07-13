@@ -1,0 +1,16 @@
+<html><body>Gatekeeper Millia:<br>
+Welcome! I am Gatekeeper Millia:, dispatched from the Ivory Tower. I'm very happy to return to my hometown. Have you perhaps been to Einhovant's School of Magic? Grand Magister Gallint was my old teacher. Now then, how can I help you?<br>
+(Characters <font color="LEVEL">main class</font> not lower than <font color="LEVEL">level ${GATEKEEPER_FREE}</font> can use the teleport for free.)<br>
+<Button ALIGN=LEFT ICON="TELEPORT" action="bypass -h teleport_request">Teleport</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Chat 1">Ask about the airship wharf.</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 518">Exchange Dimension Diamonds.</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_teleport_noble">Noblesse Exclusive Teleport</button>
+#if ($SERVICES_PARNASSUS_ENABLED)
+<Button ALIGN=LEFT ICON="TELEPORT" action="bypass -h npc_%objectId%_services.TeleToParnassus:toParnassus" msg="811;Parnassus">Teleport to Parnassus (offshore zone) - ${SERVICES_PARNASSUS_PRICE} Adena]</button>
+#end
+#if ($SERVICES_GIRAN_HARBOR_ENABLED)
+<Button ALIGN=LEFT ICON="TELEPORT" action="bypass -h npc_%objectId%_services.TeleToGH:toGH" msg="811;Giran Harbor">Teleport to Parnassus (offshore zone) - Free]</button>
+#end
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h htmbypass_services.Birthday:summonAlegria">Summon Alegria</button>
+<Button ALIGN=LEFT ICON="QUEST" action="bypass -h talk_select">Quest</button>
+</body></html>

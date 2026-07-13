@@ -1,0 +1,1974 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<armor id="27800" name="Ultimate Eternal Leather Armor" add_name="Enchant Type / Light Armor / Lv1">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t812_u_i01"/>
+		<set name="price" value="422292000"/>
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="4140"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<skills>
+			<skill id="27688" level="1"/>
+		</skills>
+		<enchant4_skill id="13311" level="3"/>	<!--Особое Свойство - Легкая Броня-->
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165,144,171,172,173,174,175,146,179,180,181,145,176,177,178,140,152,153,154,155,156,157,188"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="361"/>
+			<add stat="pEvasRate" order="0x10" value="5"/>
+			<add stat="mEvasRate" order="0x10" value="5"/>
+		</for>
+	</armor>
+	<armor id="27801" name="Ultimate Eternal Leather Leggings" add_name="Enchant Type / Light Armor / Lv1">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t812_l_i01"/>
+		<set name="price" value="263933000"/>
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="1320"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<skills>
+			<skill id="27689" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165,144,171,172,173,174,175,146,179,180,181,145,176,177,178,140,152,153,154,155,156,157,188"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="226"/>
+			<add stat="pEvasRate" order="0x10" value="3"/>
+			<add stat="mEvasRate" order="0x10" value="3"/>
+		</for>
+	</armor>
+	<armor id="27802" name="Ultimate Eternal Leather Gloves" add_name="Enchant Type / Light Armor / Lv1">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t812_g_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="510"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="27690" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165,144,171,172,173,174,175,146,179,180,181,145,176,177,178,140,152,153,154,155,156,157,188"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="113"/>
+		</for>
+	</armor>
+	<armor id="27803" name="Ultimate Eternal Leather Boots" add_name="Enchant Type / Light Armor / Lv1">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t812_b_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1070"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="27691" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165,144,171,172,173,174,175,146,179,180,181,145,176,177,178,140,152,153,154,155,156,157,188"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="113"/>
+		</for>
+	</armor>
+	<armor id="27804" name="Ultimate Eternal Circlet" add_name="Recovery Type / Robe / Lv1">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_circlet_i01"/>
+		<set name="price" value="158359000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="530"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<skills>
+			<skill id="27692" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="146,179,180,181"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="169"/>
+		</for>
+	</armor>
+	<armor id="27805" name="Ultimate Eternal Tunic" add_name="Recovery Type / Robe / Lv1">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t813_u_i01"/>
+		<set name="price" value="422292000"/>
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="1750"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<skills>
+			<skill id="27693" level="1"/>
+		</skills>
+		<enchant4_skill id="13312" level="3"/>	<!--Особое Свойство - Магическая Броня-->
+		<cond msgId="113">
+			<player classId="146,179,180,181"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="248"/>
+			<add stat="mDef" order="0x10" value="56"/>
+			<add stat="maxMp" order="0x60" value="649"/>
+		</for>
+	</armor>
+	<armor id="27806" name="Ultimate Eternal Stockings" add_name="Recovery Type / Robe / Lv1">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t813_l_i01"/>
+		<set name="price" value="263933000"/>
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="850"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<skills>
+			<skill id="27694" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="146,179,180,181"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="155"/>
+			<add stat="mDef" order="0x10" value="37"/>
+			<add stat="maxMp" order="0x60" value="427"/>
+		</for>
+	</armor>
+	<armor id="27807" name="Ultimate Eternal Gloves" add_name="Recovery Type / Robe / Lv1">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t813_g_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="510"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="27695" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="146,179,180,181"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="113"/>
+		</for>
+	</armor>
+	<armor id="27808" name="Ultimate Eternal Shoes" add_name="Recovery Type / Robe / Lv1">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t813_b_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1070"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="27696" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="146,179,180,181"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="113"/>
+		</for>
+	</armor>
+	<armor id="27809" name="Ultimate Eternal Helmet" add_name="Heavy Armor / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_helmet_i01"/>
+		<set name="price" value="158359000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="530"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<skills>
+			<skill id="27682" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="140,152,153,154,155,156,157,139,148,149,150,151,144,171,172,173,174,175"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="173"/>
+		</for>
+	</armor>
+	<armor id="27810" name="Ultimate Eternal Breatplate" add_name="Heavy Armor / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t811_u_i01"/>
+		<set name="price" value="422292000"/>
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="7520"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<skills>
+			<skill id="27683" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="140,152,153,154,155,156,157,139,148,149,150,151,144,171,172,173,174,175"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="460"/>
+		</for>
+	</armor>
+	<armor id="27811" name="Ultimate Eternal Gaiters" add_name="Heavy Armor / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t811_l_i01"/>
+		<set name="price" value="263933000"/>
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="3170"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<skills>
+			<skill id="27684" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="140,152,153,154,155,156,157,139,148,149,150,151,144,171,172,173,174,175"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="288"/>
+		</for>
+	</armor>
+	<armor id="27812" name="Ultimate Eternal Gauntlets" add_name="Heavy Armor / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t811_g_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="510"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="27685" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="140,152,153,154,155,156,157,139,148,149,150,151,144,171,172,173,174,175"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="115"/>
+		</for>
+	</armor>
+	<armor id="27813" name="Ultimate Eternal Boots" add_name="Heavy Armor / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t811_b_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1070"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="27686" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="140,152,153,154,155,156,157,139,148,149,150,151,144,171,172,173,174,175"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="115"/>
+		</for>
+	</armor>
+	<armor id="27814" name="Ultimate Eternal Leather Helmet" add_name="Light Armor / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_leather_helmet_i01"/>
+		<set name="price" value="158359000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="530"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<skills>
+			<skill id="27687" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165,144,171,172,173,174,175,146,179,180,181,145,176,177,178,140,152,153,154,155,156,157,188"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="173"/>
+		</for>
+	</armor>
+	<armor id="27815" name="Ultimate Eternal Leather Armor" add_name="Light Armor / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t812_u_i01"/>
+		<set name="price" value="422292000"/>
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="4140"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<skills>
+			<skill id="27688" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165,144,171,172,173,174,175,146,179,180,181,145,176,177,178,140,152,153,154,155,156,157,188"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="368"/>
+			<add stat="pEvasRate" order="0x10" value="5"/>
+			<add stat="mEvasRate" order="0x10" value="5"/>
+		</for>
+	</armor>
+	<armor id="27816" name="Ultimate Eternal Leather Leggings" add_name="Light Armor / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t812_l_i01"/>
+		<set name="price" value="263933000"/>
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="1320"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<skills>
+			<skill id="27689" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165,144,171,172,173,174,175,146,179,180,181,145,176,177,178,140,152,153,154,155,156,157,188"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="230"/>
+			<add stat="pEvasRate" order="0x10" value="3"/>
+			<add stat="mEvasRate" order="0x10" value="3"/>
+		</for>
+	</armor>
+	<armor id="27817" name="Ultimate Eternal Leather Gloves" add_name="Light Armor / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t812_g_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="510"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="27690" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165,144,171,172,173,174,175,146,179,180,181,145,176,177,178,140,152,153,154,155,156,157,188"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="115"/>
+		</for>
+	</armor>
+	<armor id="27818" name="Ultimate Eternal Leather Boots" add_name="Light Armor / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t812_b_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1070"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="27691" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165,144,171,172,173,174,175,146,179,180,181,145,176,177,178,140,152,153,154,155,156,157,188"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="115"/>
+		</for>
+	</armor>
+	<armor id="27819" name="Ultimate Eternal Circlet" add_name="Robe / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_circlet_i01"/>
+		<set name="price" value="158359000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="530"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<skills>
+			<skill id="27692" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="146,179,180,181,143,166,167,168,169,170,145,176,177,178,144,171,172,173,174,175,189"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="173"/>
+		</for>
+	</armor>
+	<armor id="27820" name="Ultimate Eternal Tunic" add_name="Robe / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t813_u_i01"/>
+		<set name="price" value="422292000"/>
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="1750"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<skills>
+			<skill id="27693" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="146,179,180,181,143,166,167,168,169,170,145,176,177,178,144,171,172,173,174,175,189"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="253"/>
+			<add stat="mDef" order="0x10" value="56"/>
+			<add stat="maxMp" order="0x60" value="649"/>
+		</for>
+	</armor>
+	<armor id="27821" name="Ultimate Eternal Stockings" add_name="Robe / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t813_l_i01"/>
+		<set name="price" value="263933000"/>
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="850"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<skills>
+			<skill id="27694" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="146,179,180,181,143,166,167,168,169,170,145,176,177,178,144,171,172,173,174,175,189"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="158"/>
+			<add stat="mDef" order="0x10" value="37"/>
+			<add stat="maxMp" order="0x60" value="427"/>
+		</for>
+	</armor>
+	<armor id="27822" name="Ultimate Eternal Gloves" add_name="Robe / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t813_g_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="510"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="27695" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="146,179,180,181,143,166,167,168,169,170,145,176,177,178,144,171,172,173,174,175,189"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="115"/>
+		</for>
+	</armor>
+	<armor id="27823" name="Ultimate Eternal Shoes" add_name="Robe / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t813_b_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1070"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="27696" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="146,179,180,181,143,166,167,168,169,170,145,176,177,178,144,171,172,173,174,175,189"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="115"/>
+		</for>
+	</armor>
+	<armor id="27824" name="Ultimate Eternal Helmet" add_name="Attack Type / Heavy Armor / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_helmet_i01"/>
+		<set name="price" value="158359000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="530"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<skills>
+			<skill id="27682" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="140,152,153,154,155,156,157,139,148,149,150,151,144,171,172,173,174,175"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="173"/>
+		</for>
+	</armor>
+	<armor id="27825" name="Ultimate Eternal Breatplate" add_name="Attack Type / Heavy Armor / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t811_u_i01"/>
+		<set name="price" value="422292000"/>
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="7520"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<skills>
+			<skill id="27683" level="1"/>
+		</skills>
+		<enchant4_skill id="13309" level="3"/>	<!--Особое Свойство - Тяжелая Броня-->
+		<cond msgId="113">
+			<player classId="140,152,153,154,155,156,157,139,148,149,150,151,144,171,172,173,174,175"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="460"/>
+		</for>
+	</armor>
+	<armor id="27826" name="Ultimate Eternal Gaiters" add_name="Attack Type / Heavy Armor / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t811_l_i01"/>
+		<set name="price" value="263933000"/>
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="3170"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<skills>
+			<skill id="27684" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="140,152,153,154,155,156,157,139,148,149,150,151,144,171,172,173,174,175"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="288"/>
+		</for>
+	</armor>
+	<armor id="27827" name="Ultimate Eternal Gauntlets" add_name="Attack Type / Heavy Armor / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t811_g_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="510"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="27685" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="140,152,153,154,155,156,157,139,148,149,150,151,144,171,172,173,174,175"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="115"/>
+		</for>
+	</armor>
+	<armor id="27828" name="Ultimate Eternal Boots" add_name="Attack Type / Heavy Armor / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t811_b_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1070"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="27686" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="140,152,153,154,155,156,157,139,148,149,150,151,144,171,172,173,174,175"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="115"/>
+		</for>
+	</armor>
+	<armor id="27829" name="Ultimate Eternal Leather Helmet" add_name="Assassin Type / Light Armor / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_leather_helmet_i01"/>
+		<set name="price" value="158359000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="530"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<skills>
+			<skill id="27687" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="173"/>
+		</for>
+	</armor>
+	<armor id="27830" name="Ultimate Eternal Leather Armor" add_name="Assassin Type / Light Armor / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t812_u_i01"/>
+		<set name="price" value="422292000"/>
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="4140"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<skills>
+			<skill id="27688" level="1"/>
+		</skills>
+		<enchant4_skill id="13311" level="3"/>	<!--Особое Свойство - Легкая Броня-->
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="368"/>
+			<add stat="pEvasRate" order="0x10" value="5"/>
+			<add stat="mEvasRate" order="0x10" value="5"/>
+		</for>
+	</armor>
+	<armor id="27831" name="Ultimate Eternal Leather Leggings" add_name="Assassin Type / Light Armor / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t812_l_i01"/>
+		<set name="price" value="263933000"/>
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="1320"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<skills>
+			<skill id="27689" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="230"/>
+			<add stat="pEvasRate" order="0x10" value="3"/>
+			<add stat="mEvasRate" order="0x10" value="3"/>
+		</for>
+	</armor>
+	<armor id="27832" name="Ultimate Eternal Leather Gloves" add_name="Assassin Type / Light Armor / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t812_g_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="510"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="27690" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="115"/>
+		</for>
+	</armor>
+	<armor id="27833" name="Ultimate Eternal Leather Boots" add_name="Assassin Type / Light Armor / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t812_b_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1070"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="27691" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="115"/>
+		</for>
+	</armor>
+	<armor id="27834" name="Ultimate Eternal Circlet" add_name="Magic Type / Robe / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_circlet_i01"/>
+		<set name="price" value="158359000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="530"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<skills>
+			<skill id="27692" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="146,179,180,181,143,166,167,168,169,170,145,176,177,178,144,171,172,173,174,175,189"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="173"/>
+		</for>
+	</armor>
+	<armor id="27835" name="Ultimate Eternal Tunic" add_name="Magic Type / Robe / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t813_u_i01"/>
+		<set name="price" value="422292000"/>
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="1750"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<skills>
+			<skill id="27693" level="1"/>
+		</skills>
+		<enchant4_skill id="13312" level="3"/>	<!--Особое Свойство - Магическая Броня-->
+		<cond msgId="113">
+			<player classId="146,179,180,181,143,166,167,168,169,170,145,176,177,178,144,171,172,173,174,175,189"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="253"/>
+			<add stat="mDef" order="0x10" value="56"/>
+			<add stat="maxMp" order="0x60" value="649"/>
+		</for>
+	</armor>
+	<armor id="27836" name="Ultimate Eternal Stockings" add_name="Magic Type / Robe / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t813_l_i01"/>
+		<set name="price" value="263933000"/>
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="850"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<skills>
+			<skill id="27694" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="146,179,180,181,143,166,167,168,169,170,145,176,177,178,144,171,172,173,174,175,189"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="158"/>
+			<add stat="mDef" order="0x10" value="37"/>
+			<add stat="maxMp" order="0x60" value="427"/>
+		</for>
+	</armor>
+	<armor id="27837" name="Ultimate Eternal Gloves" add_name="Magic Type / Robe / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t813_g_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="510"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="27695" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="146,179,180,181,143,166,167,168,169,170,145,176,177,178,144,171,172,173,174,175,189"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="115"/>
+		</for>
+	</armor>
+	<armor id="27838" name="Ultimate Eternal Shoes" add_name="Magic Type / Robe / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t813_b_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1070"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="27696" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="146,179,180,181,143,166,167,168,169,170,145,176,177,178,144,171,172,173,174,175,189"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="115"/>
+		</for>
+	</armor>
+	<armor id="27839" name="Ultimate Eternal Helmet" add_name="Defense Type / Heavy Armor / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_helmet_i01"/>
+		<set name="price" value="158359000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="530"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<skills>
+			<skill id="27682" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="139,148,149,150,151"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="173"/>
+		</for>
+	</armor>
+	<armor id="27840" name="Ultimate Eternal Breatplate" add_name="Defense Type / Heavy Armor / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t811_u_i01"/>
+		<set name="price" value="422292000"/>
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="7520"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<skills>
+			<skill id="27683" level="1"/>
+		</skills>
+		<enchant4_skill id="13309" level="3"/>	<!--Особое Свойство - Тяжелая Броня-->
+		<cond msgId="113">
+			<player classId="139,148,149,150,151"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="460"/>
+		</for>
+	</armor>
+	<armor id="27841" name="Ultimate Eternal Gaiters" add_name="Defense Type / Heavy Armor / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t811_l_i01"/>
+		<set name="price" value="263933000"/>
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="3170"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<skills>
+			<skill id="27684" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="139,148,149,150,151"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="288"/>
+		</for>
+	</armor>
+	<armor id="27842" name="Ultimate Eternal Gauntlets" add_name="Defense Type / Heavy Armor / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t811_g_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="510"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="27685" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="139,148,149,150,151"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="115"/>
+		</for>
+	</armor>
+	<armor id="27843" name="Ultimate Eternal Boots" add_name="Defense Type / Heavy Armor / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t811_b_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1070"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="27686" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="139,148,149,150,151"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="115"/>
+		</for>
+	</armor>
+	<armor id="27844" name="Ultimate Eternal Leather Helmet" add_name="Enchant Type / Light Armor / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_leather_helmet_i01"/>
+		<set name="price" value="158359000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="530"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<skills>
+			<skill id="27687" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165,144,171,172,173,174,175,146,179,180,181,145,176,177,178,140,152,153,154,155,156,157,188"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="173"/>
+		</for>
+	</armor>
+	<armor id="27845" name="Ultimate Eternal Leather Armor" add_name="Enchant Type / Light Armor / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t812_u_i01"/>
+		<set name="price" value="422292000"/>
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="4140"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<skills>
+			<skill id="27688" level="1"/>
+		</skills>
+		<enchant4_skill id="13311" level="3"/>	<!--Особое Свойство - Легкая Броня-->
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165,144,171,172,173,174,175,146,179,180,181,145,176,177,178,140,152,153,154,155,156,157,188"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="368"/>
+			<add stat="pEvasRate" order="0x10" value="5"/>
+			<add stat="mEvasRate" order="0x10" value="5"/>
+		</for>
+	</armor>
+	<armor id="27846" name="Ultimate Eternal Leather Leggings" add_name="Enchant Type / Light Armor / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t812_l_i01"/>
+		<set name="price" value="263933000"/>
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="1320"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<skills>
+			<skill id="27689" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165,144,171,172,173,174,175,146,179,180,181,145,176,177,178,140,152,153,154,155,156,157,188"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="230"/>
+			<add stat="pEvasRate" order="0x10" value="3"/>
+			<add stat="mEvasRate" order="0x10" value="3"/>
+		</for>
+	</armor>
+	<armor id="27847" name="Ultimate Eternal Leather Gloves" add_name="Enchant Type / Light Armor / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t812_g_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="510"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="27690" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165,144,171,172,173,174,175,146,179,180,181,145,176,177,178,140,152,153,154,155,156,157,188"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="115"/>
+		</for>
+	</armor>
+	<armor id="27848" name="Ultimate Eternal Leather Boots" add_name="Enchant Type / Light Armor / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t812_b_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1070"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="27691" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165,144,171,172,173,174,175,146,179,180,181,145,176,177,178,140,152,153,154,155,156,157,188"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="115"/>
+		</for>
+	</armor>
+	<armor id="27849" name="Ultimate Eternal Circlet" add_name="Recovery Type / Robe / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_circlet_i01"/>
+		<set name="price" value="158359000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="530"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<skills>
+			<skill id="27692" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="146,179,180,181"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="173"/>
+		</for>
+	</armor>
+	<armor id="27850" name="Ultimate Eternal Tunic" add_name="Recovery Type / Robe / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t813_u_i01"/>
+		<set name="price" value="422292000"/>
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="1750"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<skills>
+			<skill id="27693" level="1"/>
+		</skills>
+		<enchant4_skill id="13312" level="3"/>	<!--Особое Свойство - Магическая Броня-->
+		<cond msgId="113">
+			<player classId="146,179,180,181"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="253"/>
+			<add stat="mDef" order="0x10" value="56"/>
+			<add stat="maxMp" order="0x60" value="649"/>
+		</for>
+	</armor>
+	<armor id="27851" name="Ultimate Eternal Stockings" add_name="Recovery Type / Robe / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t813_l_i01"/>
+		<set name="price" value="263933000"/>
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="850"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<skills>
+			<skill id="27694" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="146,179,180,181"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="158"/>
+			<add stat="mDef" order="0x10" value="37"/>
+			<add stat="maxMp" order="0x60" value="427"/>
+		</for>
+	</armor>
+	<armor id="27852" name="Ultimate Eternal Gloves" add_name="Recovery Type / Robe / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t813_g_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="510"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="27695" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="146,179,180,181"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="115"/>
+		</for>
+	</armor>
+	<armor id="27853" name="Ultimate Eternal Shoes" add_name="Recovery Type / Robe / lv2">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t813_b_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1070"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="27696" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="146,179,180,181"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="115"/>
+		</for>
+	</armor>
+	<armor id="27854" name="Ultimate Eternal Helmet" add_name="Heavy Armor / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_helmet_i01"/>
+		<set name="price" value="158359000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="530"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<skills>
+			<skill id="27682" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="140,152,153,154,155,156,157,139,148,149,150,151,144,171,172,173,174,175"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="176"/>
+		</for>
+	</armor>
+	<armor id="27855" name="Ultimate Eternal Breatplate" add_name="Heavy Armor / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t811_u_i01"/>
+		<set name="price" value="422292000"/>
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="7520"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<skills>
+			<skill id="27683" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="140,152,153,154,155,156,157,139,148,149,150,151,144,171,172,173,174,175"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="469"/>
+		</for>
+	</armor>
+	<armor id="27856" name="Ultimate Eternal Gaiters" add_name="Heavy Armor / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t811_l_i01"/>
+		<set name="price" value="263933000"/>
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="3170"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<skills>
+			<skill id="27684" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="140,152,153,154,155,156,157,139,148,149,150,151,144,171,172,173,174,175"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="293"/>
+		</for>
+	</armor>
+	<armor id="27857" name="Ultimate Eternal Gauntlets" add_name="Heavy Armor / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t811_g_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="510"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="27685" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="140,152,153,154,155,156,157,139,148,149,150,151,144,171,172,173,174,175"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="117"/>
+		</for>
+	</armor>
+	<armor id="27858" name="Ultimate Eternal Boots" add_name="Heavy Armor / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t811_b_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1070"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="27686" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="140,152,153,154,155,156,157,139,148,149,150,151,144,171,172,173,174,175"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="117"/>
+		</for>
+	</armor>
+	<armor id="27859" name="Ultimate Eternal Leather Helmet" add_name="Light Armor / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_leather_helmet_i01"/>
+		<set name="price" value="158359000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="530"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<skills>
+			<skill id="27687" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165,144,171,172,173,174,175,146,179,180,181,145,176,177,178,140,152,153,154,155,156,157,188"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="176"/>
+		</for>
+	</armor>
+	<armor id="27860" name="Ultimate Eternal Leather Armor" add_name="Light Armor / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t812_u_i01"/>
+		<set name="price" value="422292000"/>
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="4140"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<skills>
+			<skill id="27688" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165,144,171,172,173,174,175,146,179,180,181,145,176,177,178,140,152,153,154,155,156,157,188"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="375"/>
+			<add stat="pEvasRate" order="0x10" value="5"/>
+			<add stat="mEvasRate" order="0x10" value="5"/>
+		</for>
+	</armor>
+	<armor id="27861" name="Ultimate Eternal Leather Leggings" add_name="Light Armor / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t812_l_i01"/>
+		<set name="price" value="263933000"/>
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="1320"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<skills>
+			<skill id="27689" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165,144,171,172,173,174,175,146,179,180,181,145,176,177,178,140,152,153,154,155,156,157,188"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="234"/>
+			<add stat="pEvasRate" order="0x10" value="3"/>
+			<add stat="mEvasRate" order="0x10" value="3"/>
+		</for>
+	</armor>
+	<armor id="27862" name="Ultimate Eternal Leather Gloves" add_name="Light Armor / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t812_g_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="510"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="27690" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165,144,171,172,173,174,175,146,179,180,181,145,176,177,178,140,152,153,154,155,156,157,188"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="117"/>
+		</for>
+	</armor>
+	<armor id="27863" name="Ultimate Eternal Leather Boots" add_name="Light Armor / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t812_b_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1070"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="27691" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165,144,171,172,173,174,175,146,179,180,181,145,176,177,178,140,152,153,154,155,156,157,188"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="117"/>
+		</for>
+	</armor>
+	<armor id="27864" name="Ultimate Eternal Circlet" add_name="Robe / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_circlet_i01"/>
+		<set name="price" value="158359000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="530"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<skills>
+			<skill id="27692" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="146,179,180,181,143,166,167,168,169,170,145,176,177,178,144,171,172,173,174,175,189"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="176"/>
+		</for>
+	</armor>
+	<armor id="27865" name="Ultimate Eternal Tunic" add_name="Robe / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t813_u_i01"/>
+		<set name="price" value="422292000"/>
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="1750"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<skills>
+			<skill id="27693" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="146,179,180,181,143,166,167,168,169,170,145,176,177,178,144,171,172,173,174,175,189"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="258"/>
+			<add stat="mDef" order="0x10" value="56"/>
+			<add stat="maxMp" order="0x60" value="649"/>
+		</for>
+	</armor>
+	<armor id="27866" name="Ultimate Eternal Stockings" add_name="Robe / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t813_l_i01"/>
+		<set name="price" value="263933000"/>
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="850"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<skills>
+			<skill id="27694" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="146,179,180,181,143,166,167,168,169,170,145,176,177,178,144,171,172,173,174,175,189"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="161"/>
+			<add stat="mDef" order="0x10" value="37"/>
+			<add stat="maxMp" order="0x60" value="427"/>
+		</for>
+	</armor>
+	<armor id="27867" name="Ultimate Eternal Gloves" add_name="Robe / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t813_g_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="510"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="27695" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="146,179,180,181,143,166,167,168,169,170,145,176,177,178,144,171,172,173,174,175,189"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="117"/>
+		</for>
+	</armor>
+	<armor id="27868" name="Ultimate Eternal Shoes" add_name="Robe / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t813_b_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1070"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="27696" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="146,179,180,181,143,166,167,168,169,170,145,176,177,178,144,171,172,173,174,175,189"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="117"/>
+		</for>
+	</armor>
+	<armor id="27869" name="Ultimate Eternal Helmet" add_name="Attack Type / Heavy Armor / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_helmet_i01"/>
+		<set name="price" value="158359000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="530"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<skills>
+			<skill id="27682" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="140,152,153,154,155,156,157,139,148,149,150,151,144,171,172,173,174,175"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="176"/>
+		</for>
+	</armor>
+	<armor id="27870" name="Ultimate Eternal Breatplate" add_name="Attack Type / Heavy Armor / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t811_u_i01"/>
+		<set name="price" value="422292000"/>
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="7520"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<skills>
+			<skill id="27683" level="1"/>
+		</skills>
+		<enchant4_skill id="13309" level="3"/>	<!--Особое Свойство - Тяжелая Броня-->
+		<cond msgId="113">
+			<player classId="140,152,153,154,155,156,157,139,148,149,150,151,144,171,172,173,174,175"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="469"/>
+		</for>
+	</armor>
+	<armor id="27871" name="Ultimate Eternal Gaiters" add_name="Attack Type / Heavy Armor / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t811_l_i01"/>
+		<set name="price" value="263933000"/>
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="3170"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<skills>
+			<skill id="27684" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="140,152,153,154,155,156,157,139,148,149,150,151,144,171,172,173,174,175"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="293"/>
+		</for>
+	</armor>
+	<armor id="27872" name="Ultimate Eternal Gauntlets" add_name="Attack Type / Heavy Armor / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t811_g_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="510"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="27685" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="140,152,153,154,155,156,157,139,148,149,150,151,144,171,172,173,174,175"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="117"/>
+		</for>
+	</armor>
+	<armor id="27873" name="Ultimate Eternal Boots" add_name="Attack Type / Heavy Armor / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t811_b_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1070"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="27686" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="140,152,153,154,155,156,157,139,148,149,150,151,144,171,172,173,174,175"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="117"/>
+		</for>
+	</armor>
+	<armor id="27874" name="Ultimate Eternal Leather Helmet" add_name="Assassin Type / Light Armor / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_leather_helmet_i01"/>
+		<set name="price" value="158359000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="530"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<skills>
+			<skill id="27687" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="176"/>
+		</for>
+	</armor>
+	<armor id="27875" name="Ultimate Eternal Leather Armor" add_name="Assassin Type / Light Armor / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t812_u_i01"/>
+		<set name="price" value="422292000"/>
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="4140"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<skills>
+			<skill id="27688" level="1"/>
+		</skills>
+		<enchant4_skill id="13311" level="3"/>	<!--Особое Свойство - Легкая Броня-->
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="375"/>
+			<add stat="pEvasRate" order="0x10" value="5"/>
+			<add stat="mEvasRate" order="0x10" value="5"/>
+		</for>
+	</armor>
+	<armor id="27876" name="Ultimate Eternal Leather Leggings" add_name="Assassin Type / Light Armor / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t812_l_i01"/>
+		<set name="price" value="263933000"/>
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="1320"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<skills>
+			<skill id="27689" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="234"/>
+			<add stat="pEvasRate" order="0x10" value="3"/>
+			<add stat="mEvasRate" order="0x10" value="3"/>
+		</for>
+	</armor>
+	<armor id="27877" name="Ultimate Eternal Leather Gloves" add_name="Assassin Type / Light Armor / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t812_g_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="510"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="27690" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="117"/>
+		</for>
+	</armor>
+	<armor id="27878" name="Ultimate Eternal Leather Boots" add_name="Assassin Type / Light Armor / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t812_b_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1070"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="27691" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="117"/>
+		</for>
+	</armor>
+	<armor id="27879" name="Ultimate Eternal Circlet" add_name="Magic Type / Robe / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_circlet_i01"/>
+		<set name="price" value="158359000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="530"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<skills>
+			<skill id="27692" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="146,179,180,181,143,166,167,168,169,170,145,176,177,178,144,171,172,173,174,175,189"/>
+		</cond>	
+		<for>
+			<add stat="pDef" order="0x10" value="176"/>
+		</for>
+	</armor>
+	<armor id="27880" name="Ultimate Eternal Tunic" add_name="Magic Type / Robe / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t813_u_i01"/>
+		<set name="price" value="422292000"/>
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="1750"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<skills>
+			<skill id="27693" level="1"/>
+		</skills>
+		<enchant4_skill id="13312" level="3"/>	<!--Особое Свойство - Магическая Броня-->
+		<cond msgId="113">
+			<player classId="146,179,180,181,143,166,167,168,169,170,145,176,177,178,144,171,172,173,174,175,189"/>
+		</cond>	
+		<for>
+			<add stat="pDef" order="0x10" value="258"/>
+			<add stat="mDef" order="0x10" value="56"/>
+			<add stat="maxMp" order="0x60" value="649"/>
+		</for>
+	</armor>
+	<armor id="27881" name="Ultimate Eternal Stockings" add_name="Magic Type / Robe / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t813_l_i01"/>
+		<set name="price" value="263933000"/>
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="850"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<skills>
+			<skill id="27694" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="146,179,180,181,143,166,167,168,169,170,145,176,177,178,144,171,172,173,174,175,189"/>
+		</cond>	
+		<for>
+			<add stat="pDef" order="0x10" value="161"/>
+			<add stat="mDef" order="0x10" value="37"/>
+			<add stat="maxMp" order="0x60" value="427"/>
+		</for>
+	</armor>
+	<armor id="27882" name="Ultimate Eternal Gloves" add_name="Magic Type / Robe / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t813_g_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="510"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="27695" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="146,179,180,181,143,166,167,168,169,170,145,176,177,178,144,171,172,173,174,175,189"/>
+		</cond>	
+		<for>
+			<add stat="pDef" order="0x10" value="117"/>
+		</for>
+	</armor>
+	<armor id="27883" name="Ultimate Eternal Shoes" add_name="Magic Type / Robe / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t813_b_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1070"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="27696" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="146,179,180,181,143,166,167,168,169,170,145,176,177,178,144,171,172,173,174,175,189"/>
+		</cond>	
+		<for>
+			<add stat="pDef" order="0x10" value="117"/>
+		</for>
+	</armor>
+	<armor id="27884" name="Ultimate Eternal Helmet" add_name="Defense Type / Heavy Armor / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_helmet_i01"/>
+		<set name="price" value="158359000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="530"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<skills>
+			<skill id="27682" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="139,148,149,150,151"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="176"/>
+		</for>
+	</armor>
+	<armor id="27885" name="Ultimate Eternal Breatplate" add_name="Defense Type / Heavy Armor / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t811_u_i01"/>
+		<set name="price" value="422292000"/>
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="7520"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<skills>
+			<skill id="27683" level="1"/>
+		</skills>
+		<enchant4_skill id="13309" level="3"/>	<!--Особое Свойство - Тяжелая Броня-->
+		<cond msgId="113">
+			<player classId="139,148,149,150,151"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="469"/>
+		</for>
+	</armor>
+	<armor id="27886" name="Ultimate Eternal Gaiters" add_name="Defense Type / Heavy Armor / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t811_l_i01"/>
+		<set name="price" value="263933000"/>
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="3170"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<skills>
+			<skill id="27684" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="139,148,149,150,151"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="293"/>
+		</for>
+	</armor>
+	<armor id="27887" name="Ultimate Eternal Gauntlets" add_name="Defense Type / Heavy Armor / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t811_g_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="510"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="27685" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="139,148,149,150,151"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="117"/>
+		</for>
+	</armor>
+	<armor id="27888" name="Ultimate Eternal Boots" add_name="Defense Type / Heavy Armor / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t811_b_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1070"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="27686" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="139,148,149,150,151"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="117"/>
+		</for>
+	</armor>
+	<armor id="27889" name="Ultimate Eternal Leather Helmet" add_name="Enchant Type / Light Armor / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_leather_helmet_i01"/>
+		<set name="price" value="158359000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="530"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<skills>
+			<skill id="27687" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165,144,171,172,173,174,175,146,179,180,181,145,176,177,178,140,152,153,154,155,156,157,188"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="176"/>
+		</for>
+	</armor>
+	<armor id="27890" name="Ultimate Eternal Leather Armor" add_name="Enchant Type / Light Armor / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t812_u_i01"/>
+		<set name="price" value="422292000"/>
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="4140"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<skills>
+			<skill id="27688" level="1"/>
+		</skills>
+		<enchant4_skill id="13311" level="3"/>	<!--Особое Свойство - Легкая Броня-->
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165,144,171,172,173,174,175,146,179,180,181,145,176,177,178,140,152,153,154,155,156,157,188"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="375"/>
+			<add stat="pEvasRate" order="0x10" value="5"/>
+			<add stat="mEvasRate" order="0x10" value="5"/>
+		</for>
+	</armor>
+	<armor id="27891" name="Ultimate Eternal Leather Leggings" add_name="Enchant Type / Light Armor / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t812_l_i01"/>
+		<set name="price" value="263933000"/>
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="1320"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<skills>
+			<skill id="27689" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165,144,171,172,173,174,175,146,179,180,181,145,176,177,178,140,152,153,154,155,156,157,188"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="234"/>
+			<add stat="pEvasRate" order="0x10" value="3"/>
+			<add stat="mEvasRate" order="0x10" value="3"/>
+		</for>
+	</armor>
+	<armor id="27892" name="Ultimate Eternal Leather Gloves" add_name="Enchant Type / Light Armor / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t812_g_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="510"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="27690" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165,144,171,172,173,174,175,146,179,180,181,145,176,177,178,140,152,153,154,155,156,157,188"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="117"/>
+		</for>
+	</armor>
+	<armor id="27893" name="Ultimate Eternal Leather Boots" add_name="Enchant Type / Light Armor / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t812_b_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1070"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="27691" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="141,158,159,160,161,142,162,163,164,165,144,171,172,173,174,175,146,179,180,181,145,176,177,178,140,152,153,154,155,156,157,188"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="117"/>
+		</for>
+	</armor>
+	<armor id="27894" name="Ultimate Eternal Circlet" add_name="Recovery Type / Robe / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_circlet_i01"/>
+		<set name="price" value="158359000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="530"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<skills>
+			<skill id="27692" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="146,179,180,181"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="176"/>
+		</for>
+	</armor>
+	<armor id="27895" name="Ultimate Eternal Tunic" add_name="Recovery Type / Robe / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t813_u_i01"/>
+		<set name="price" value="422292000"/>
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="1750"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<skills>
+			<skill id="27693" level="1"/>
+		</skills>
+		<enchant4_skill id="13312" level="3"/>	<!--Особое Свойство - Магическая Броня-->
+		<cond msgId="113">
+			<player classId="146,179,180,181"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="258"/>
+			<add stat="mDef" order="0x10" value="56"/>
+			<add stat="maxMp" order="0x60" value="649"/>
+		</for>
+	</armor>
+	<armor id="27896" name="Ultimate Eternal Stockings" add_name="Recovery Type / Robe / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t813_l_i01"/>
+		<set name="price" value="263933000"/>
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="850"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<skills>
+			<skill id="27694" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="146,179,180,181"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="161"/>
+			<add stat="mDef" order="0x10" value="37"/>
+			<add stat="maxMp" order="0x60" value="427"/>
+		</for>
+	</armor>
+	<armor id="27897" name="Ultimate Eternal Gloves" add_name="Recovery Type / Robe / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t813_g_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="510"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<skills>
+			<skill id="27695" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="146,179,180,181"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="117"/>
+		</for>
+	</armor>
+	<armor id="27898" name="Ultimate Eternal Shoes" add_name="Recovery Type / Robe / lv3">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_t813_b_i01"/>
+		<set name="price" value="105573000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1070"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<skills>
+			<skill id="27696" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="146,179,180,181"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="117"/>
+		</for>
+	</armor>
+	<armor id="27899" name="Ultimate Eternal Helmet" add_name="Heavy Armor / lv4">
+		<set name="crystal_type" value="R99"/>
+		<set name="icon" value="BranchIcon.icon.armor_helmet_i01"/>
+		<set name="price" value="158359000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="530"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<skills>
+			<skill id="27682" level="1"/>
+		</skills>
+		<cond msgId="113">
+			<player classId="140,152,153,154,155,156,157,139,148,149,150,151,144,171,172,173,174,175"/>
+		</cond>
+		<for>
+			<add stat="pDef" order="0x10" value="180"/>
+		</for>
+	</armor>
+</list>

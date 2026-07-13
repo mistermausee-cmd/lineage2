@@ -1,0 +1,2843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="2100" levels="1" name="Escape (1-second)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isSkillTimePermanent" value="true"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+	</skill>
+	<skill id="2101" levels="1" name="General Strider Food">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="PET_FEED"/>
+		<set name="operate_type" value="A2"/>
+		<set name="feed_power" value="200;200;0"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="2102" levels="1" name="Clan Hall Strider Food">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="PET_FEED"/>
+		<set name="operate_type" value="A2"/>
+		<set name="feed_power" value="200;450;0"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="2103" levels="1" name="Mysterious Potion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_effect" value="BIG_HEAD"/>
+		<set name="abnormal_time" value="300"/>
+		<set name="abnormal_type" value="big_head"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<set name="trait" value="ETC"/>
+		<for>
+			<effect/>
+		</for>
+	</skill>
+	<skill id="2104" levels="1" name="Greater Soulshot Compressed Package (No-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1835" min_count="1000" max_count="1000"/>	<!--Soulshot: No Grade-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2105" levels="1" name="Greater Soulshot Compressed Package (D-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1463" min_count="1000" max_count="1000"/>	<!--Soulshot (D-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2106" levels="1" name="Greater Soulshot Compressed Package (C-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1464" min_count="1000" max_count="1000"/>	<!--Soulshot (C-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2107" levels="1" name="Greater Soulshot Compressed Package (B-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1465" min_count="1000" max_count="1000"/>	<!--Soulshot (B-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2108" levels="1" name="Greater Soulshot Compressed Package (A-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1466" min_count="1000" max_count="1000"/>	<!--Soulshot (A-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2109" levels="1" name="Greater Soulshot Compressed Package (S-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1467" min_count="1000" max_count="1000"/>	<!--Soulshot (S-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2110" levels="1" name="Greater Spiritshot Compressed Package (No-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="2509" min_count="1000" max_count="1000"/>	<!--Spiritshot: No Grade-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2111" levels="1" name="Greater Spiritshot Compressed Package (D-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="2510" min_count="1000" max_count="1000"/>	<!--Spiritshot (D-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2112" levels="1" name="Greater Spiritshot Compressed Package (C-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="2511" min_count="1000" max_count="1000"/>	<!--Spiritshot (C-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2113" levels="1" name="Greater Spiritshot Compressed Package (B-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="2512" min_count="1000" max_count="1000"/>	<!--Spiritshot (B-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2114" levels="1" name="Greater Spiritshot Compressed Package (A-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="2513" min_count="1000" max_count="1000"/>	<!--Spiritshot (A-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2115" levels="1" name="Greater Spiritshot Compressed Package (S-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="2514" min_count="1000" max_count="1000"/>	<!--Spiritshot (S-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2116" levels="1" name="Greater Blessed Spiritshot Compressed Package (No-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="3947" min_count="1000" max_count="1000"/>	<!--Blessed Spiritshot: No Grade-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2117" levels="1" name="Greater Blessed Spiritshot Compressed Package (D-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="3948" min_count="1000" max_count="1000"/>	<!--Blessed Spiritshot (D-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2118" levels="1" name="Greater Blessed Spiritshot Compressed Package (C-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="3949" min_count="1000" max_count="1000"/>	<!--Blessed Spiritshot (C-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2119" levels="1" name="Greater Blessed Spiritshot Compressed Package (B-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="3950" min_count="1000" max_count="1000"/>	<!--Blessed Spiritshot (B-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2120" levels="1" name="Greater Blessed Spiritshot Compressed Package (A-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="3951" min_count="1000" max_count="1000"/>	<!--Blessed Spiritshot (A-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2121" levels="1" name="Greater Blessed Spiritshot Compressed Package (S-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="3952" min_count="1000" max_count="1000"/>	<!--Blessed Spiritshot (S-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2122" levels="1" name="Facelifting Potion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="5235"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="2123" levels="1" name="Facelifting Potion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="5236"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="2124" levels="1" name="Facelifting Potion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="5237"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="2125" levels="1" name="Dye Potion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="5238"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="2126" levels="1" name="Dye Potion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="5239"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="2127" levels="1" name="Dye Potion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="5240"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="2128" levels="1" name="Dye Potion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="5241"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="2129" levels="1" name="Hair Style Change Potion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="5242"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="2130" levels="1" name="Hair Style Change Potion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="5243"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="2131" levels="1" name="Hair Style Change Potion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="5244"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="2132" levels="1" name="Hair Style Change Potion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="5245"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="2133" levels="1" name="Hair Style Change Potion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="5246"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="2134" levels="1" name="Hair Style Change Potion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="5247"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="2135" levels="1" name="Hair Style Change Potion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="5248"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="2136" levels="1" name="Rice Cake">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="2137" levels="1" name="Summon Regular Tree">
+		<!--
+			Descriptions:
+			1: During the Christmas event, summons a regular Christmas tree.
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="2138" levels="1" name="Summon Special Tree">
+		<!--
+			Descriptions:
+			1: During the Christmas event, summons a special Christmas tree.
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="2139" levels="1" name="Special Tree Recovery Bonus">
+		<!--
+			Last modify:	27.12.2007
+			Descriptions: Produces a special Christmas tree during the Christmas event. Increases HP and MP regeneration.
+		-->
+		<set name="icon" value="icon.skill1044"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="45"/>
+		<set name="abnormal_level" value="99"/>
+		<set name="abnormal_type" value="hp_regen_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="false"/>
+		<for>
+			<effect>
+				<mul stat="regHp" value="2"/>
+				<mul stat="regMp" value="1.2"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2140" levels="1" name="Item - Carol Sound Crystal">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2141" levels="1" name="Item - Carol Sound Crystal">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2142" levels="1" name="Item - Carol Sound Crystal">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2143" levels="1" name="Item - Carol Sound Crystal">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2144" levels="1" name="Item - Carol Sound Crystal">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2145" levels="1" name="Item - Carol Sound Crystal">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2146" levels="1" name="Item - Carol Sound Crystal">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2147" levels="1" name="Item - Carol Sound Crystal">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2148" levels="1" name="Item - Carol Sound Crystal">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2149" levels="1" name="Item - Carol Sound Crystal">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2150" levels="1" name="Soulshot (D-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_soul_shot">
+				<def name="power" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2151" levels="1" name="Soulshot (C-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_soul_shot">
+				<def name="power" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2152" levels="1" name="Soulshot (B-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_soul_shot">
+				<def name="power" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2153" levels="1" name="Soulshot (A-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_soul_shot">
+				<def name="power" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2154" levels="1" name="Soulshot (S-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_soul_shot">
+				<def name="power" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2155" levels="1" name="Spiritshot (D-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_spirit_shot">
+				<def name="power" value="100"/>
+				<def name="unk_spiritshot_parameter_1" value="40"/>
+				<def name="unk_spiritshot_parameter_2" value="1.0"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2156" levels="1" name="Spiritshot (C-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_spirit_shot">
+				<def name="power" value="100"/>
+				<def name="unk_spiritshot_parameter_1" value="40"/>
+				<def name="unk_spiritshot_parameter_2" value="1.0"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2157" levels="1" name="Spiritshot (B-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_spirit_shot">
+				<def name="power" value="100"/>
+				<def name="unk_spiritshot_parameter_1" value="40"/>
+				<def name="unk_spiritshot_parameter_2" value="1.0"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2158" levels="1" name="Spiritshot (A-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_spirit_shot">
+				<def name="power" value="100"/>
+				<def name="unk_spiritshot_parameter_1" value="40"/>
+				<def name="unk_spiritshot_parameter_2" value="1.0"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2159" levels="1" name="Spiritshot (S-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_spirit_shot">
+				<def name="power" value="100"/>
+				<def name="unk_spiritshot_parameter_1" value="40"/>
+				<def name="unk_spiritshot_parameter_2" value="1.0"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2160" levels="1" name="Blessed Spiritshot (D-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_spirit_shot">
+				<def name="power" value="300"/>
+				<def name="unk_spiritshot_parameter_1" value="40"/>
+				<def name="unk_spiritshot_parameter_2" value="2.4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2161" levels="1" name="Blessed Spiritshot (C-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_spirit_shot">
+				<def name="power" value="300"/>
+				<def name="unk_spiritshot_parameter_1" value="40"/>
+				<def name="unk_spiritshot_parameter_2" value="2.4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2162" levels="1" name="Blessed Spiritshot (B-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_spirit_shot">
+				<def name="power" value="300"/>
+				<def name="unk_spiritshot_parameter_1" value="40"/>
+				<def name="unk_spiritshot_parameter_2" value="2.4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2163" levels="1" name="Blessed Spiritshot (A-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_spirit_shot">
+				<def name="power" value="300"/>
+				<def name="unk_spiritshot_parameter_1" value="40"/>
+				<def name="unk_spiritshot_parameter_2" value="2.4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2164" levels="1" name="Blessed Spiritshot (S-grade) ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_spirit_shot">
+				<def name="power" value="300"/>
+				<def name="unk_spiritshot_parameter_1" value="40"/>
+				<def name="unk_spiritshot_parameter_2" value="2.4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2165" levels="1" name="Momentum Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="CHARGE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="charges" value="2"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="2166" levels="2" name="CP Potion">
+		<table name="#power">50 200</table>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect instant="true" name="RestoreCP" value="#power"/>
+		</for>
+	</skill>
+	<skill id="2167" levels="4" name="SP Scroll">
+		<table name="#power">50 500 10000 50000</table>
+		<table name="#itemConsumeId">5593 5594 5595 9898</table>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="hitTime" value="200"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="#itemConsumeId"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_sp" value="#power"/>
+		</for>
+	</skill>
+	<skill id="2168" levels="6" name="Lucky Charm">
+		<table name="#levelMin">1 20 40 52 61 76</table>
+		<table name="#levelMax">19 39 51 60 75 80</table>
+		<table name="#itemConsumeId">5703 5803 5804 5805 5806 5807</table>
+		<table name="#abnormal_level">1 2 3 4 5 6</table>
+		<set name="icon" value="icon.etc_orcish_talisman_i00"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="hitTime" value="2000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="#abnormal_level"/>
+		<set name="abnormal_type" value="reduce_drop_penalty"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="#itemConsumeId"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<set name="cancelable" value="false"/>
+		<cond msgId="1902">
+			<and>
+				<player minLevel="#levelMin"/>
+				<player max_level="#levelMax"/>
+			</and>
+		</cond>
+		<for>
+			<effect/>
+		</for>
+	</skill>
+	<skill id="2169" levels="2" name="Magic Haste Potion">
+		<table name="#icon">icon.etc_potion_of_acumen2_i00 icon.etc_potion_of_acumen3_i00</table>
+		<table name="#TabmAtkSpd">1.23 1.3</table>
+		<table name="#magicLevel">35 48</table>
+		<table name="#abnormal_level">2 3</table>
+		<set name="icon" value="#icon"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="#abnormal_level"/>
+		<set name="abnormal_type" value="casting_time_down"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect>
+				<mul stat="mAtkSpd" value="#TabmAtkSpd"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2170" levels="1" name="Scroll: Cancel Sleep">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="castRange" value="400"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="6037"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="sleep"/>
+				<def name="max_abnormal_level" value="1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2171" levels="1" name="Spellbook Paper">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="10.0">
+				<item id="5917" min_count="1" max_count="1"/>	<!--Kranvel\'s Spellbook: Chapter of Fire-->
+			</group>
+			<group chance="10.0">
+				<item id="5918" min_count="1" max_count="1"/>	<!--Kranvel\'s Spellbook: Chapter of Water-->
+			</group>
+			<group chance="10.0">
+				<item id="5919" min_count="1" max_count="1"/>	<!--Kranvel\'s Spellbook: Chapter of Wind-->
+			</group>
+			<group chance="10.0">
+				<item id="5920" min_count="1" max_count="1"/>	<!--Kranvel\'s Spellbook: Chapter of Earth-->
+			</group>
+			<group chance="60.0">
+				<item id="736" min_count="1" max_count="1"/>	<!--Scroll of Escape-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2172" levels="1" name="Scroll of Giants">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="2.5">
+				<item id="5922" min_count="1" max_count="1"/>	<!--Blueprint: Giants Golem 1-->
+			</group>
+			<group chance="2.5">
+				<item id="5923" min_count="1" max_count="1"/>	<!--Blueprint: Giants Golem 2-->
+			</group>
+			<group chance="2.5">
+				<item id="5924" min_count="1" max_count="1"/>	<!--Blueprint: Giants Golem 3-->
+			</group>
+			<group chance="2.5">
+				<item id="5925" min_count="1" max_count="1"/>	<!--Blueprint: Giants Golem 4-->
+			</group>
+			<group chance="2.5">
+				<item id="5926" min_count="1" max_count="1"/>	<!--Blueprint: Giants Golem 5-->
+			</group>
+			<group chance="2.5">
+				<item id="5927" min_count="1" max_count="1"/>	<!--Book: Basics of Giants Magic, Chapter 1-->
+			</group>
+			<group chance="2.5">
+				<item id="5928" min_count="1" max_count="1"/>	<!--Book: Basics of Giants Magic, Chapter 2-->
+			</group>
+			<group chance="2.5">
+				<item id="5929" min_count="1" max_count="1"/>	<!--Book: Basics of Giants Magic, Chapter 3-->
+			</group>
+			<group chance="2.5">
+				<item id="5930" min_count="1" max_count="1"/>	<!--Book: Basics of Giants Magic, Chapter 4-->
+			</group>
+			<group chance="2.5">
+				<item id="5931" min_count="1" max_count="1"/>	<!--Book: Basics of Giants Magic, Chapter 5-->
+			</group>
+			<group chance="2.5">
+				<item id="5932" min_count="1" max_count="1"/>	<!--Handbook: Giants Architecture, Chapter 1-->
+			</group>
+			<group chance="2.5">
+				<item id="5933" min_count="1" max_count="1"/>	<!--Handbook: Giants Architecture, Chapter 2-->
+			</group>
+			<group chance="2.5">
+				<item id="5934" min_count="1" max_count="1"/>	<!--Handbook: Giants Architecture, Chapter 3-->
+			</group>
+			<group chance="2.5">
+				<item id="5935" min_count="1" max_count="1"/>	<!--Handbook: Giants Architecture, Chapter 4-->
+			</group>
+			<group chance="2.5">
+				<item id="5936" min_count="1" max_count="1"/>	<!--Handbook: Giants Architecture, Chapter 5-->
+			</group>
+			<group chance="2.5">
+				<item id="5937" min_count="1" max_count="1"/>	<!--Book: Giants Medical Science, Chapter 1-->
+			</group>
+			<group chance="2.5">
+				<item id="5938" min_count="1" max_count="1"/>	<!--Book: Giants Medical Science, Chapter 2-->
+			</group>
+			<group chance="2.5">
+				<item id="5939" min_count="1" max_count="1"/>	<!--Book: Giants Medical Science, Chapter 3-->
+			</group>
+			<group chance="2.5">
+				<item id="5940" min_count="1" max_count="1"/>	<!--Book: Giants Medical Science, Chapter 4-->
+			</group>
+			<group chance="2.5">
+				<item id="5941" min_count="1" max_count="1"/>	<!--Book: Giants Medical Science, Chapter 5-->
+			</group>
+			<group chance="25.0">
+				<item id="5942" min_count="1" max_count="1"/>	<!--Giant\'s Love Letter-->
+			</group>
+			<group chance="25.0">
+				<item id="5943" min_count="1" max_count="1"/>	<!--Giants\' Doodle-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2173" levels="1" name="Book of Giants">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="5.0">
+				<item id="5945" min_count="1" max_count="1"/>	<!--Book: Giants Science & Technology, Chapter 1-->
+			</group>
+			<group chance="5.0">
+				<item id="5946" min_count="1" max_count="1"/>	<!--Book: Giants Science & Technology, Chapter 2-->
+			</group>
+			<group chance="5.0">
+				<item id="5947" min_count="1" max_count="1"/>	<!--Book: Giants Science & Technology, Chapter 3-->
+			</group>
+			<group chance="5.0">
+				<item id="5948" min_count="1" max_count="1"/>	<!--Book: Giants Science & Technology, Chapter 4-->
+			</group>
+			<group chance="5.0">
+				<item id="5949" min_count="1" max_count="1"/>	<!--Book: Giants Science & Technology, Chapter 5-->
+			</group>
+			<group chance="5.0">
+				<item id="5950" min_count="1" max_count="1"/>	<!--Almanac: Titan Culture, Chapter 1-->
+			</group>
+			<group chance="5.0">
+				<item id="5951" min_count="1" max_count="1"/>	<!--Almanac: Titan Culture, Chapter 2-->
+			</group>
+			<group chance="5.0">
+				<item id="5952" min_count="1" max_count="1"/>	<!--Almanac: Titan Culture, Chapter 3-->
+			</group>
+			<group chance="5.0">
+				<item id="5953" min_count="1" max_count="1"/>	<!--Almanac: Titan Culture, Chapter 4-->
+			</group>
+			<group chance="5.0">
+				<item id="5954" min_count="1" max_count="1"/>	<!--Almanac: Titan Culture, Chapter 5-->
+			</group>
+			<group chance="25.0">
+				<item id="5942" min_count="1" max_count="1"/>	<!--Giant\'s Love Letter-->
+			</group>
+			<group chance="25.0">
+				<item id="5943" min_count="1" max_count="1"/>	<!--Giants\' Doodle-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2174" levels="3" name="Ingredient Bag">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="30.0">
+				<item id="6019" min_count="2" max_count="2"/>	<!--Quicksilver-->
+			</group>
+			<group chance="30.0">
+				<item id="6013" min_count="2" max_count="2"/>	<!--Moonstone Shard-->
+			</group>
+			<group chance="20.0">
+				<item id="6014" min_count="1" max_count="1"/>	<!--Rotten Bone Piece-->
+			</group>
+			<group chance="20.0">
+				<item id="6016" min_count="1" max_count="1"/>	<!--Infernium Ore-->
+			</group>
+		</restoration>
+		<restoration level="2">
+			<group chance="10.0">
+				<item id="6017" min_count="2" max_count="2"/>	<!--Blood Root-->
+			</group>
+			<group chance="20.0">
+				<item id="6020" min_count="2" max_count="2"/>	<!--Sulfur-->
+			</group>
+			<group chance="35.0">
+				<item id="6014" min_count="1" max_count="1"/>	<!--Rotten Bone Piece-->
+			</group>
+			<group chance="35.0">
+				<item id="6016" min_count="1" max_count="1"/>	<!--Infernium Ore-->
+			</group>
+		</restoration>
+		<restoration level="3">
+			<group chance="20.0">
+				<item id="6012" min_count="1" max_count="1"/>	<!--Lava Stone-->
+			</group>
+			<group chance="20.0">
+				<item id="6018" min_count="2" max_count="2"/>	<!--Volcanic Ash-->
+			</group>
+			<group chance="20.0">
+				<item id="6019" min_count="2" max_count="2"/>	<!--Quicksilver-->
+			</group>
+			<group chance="40.0">
+				<item id="6013" min_count="1" max_count="1"/>	<!--Moonstone Shard-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2175" levels="1" name="Ingredient Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="20.0">
+				<item id="6017" min_count="2" max_count="2"/>	<!--Blood Root-->
+			</group>
+			<group chance="20.0">
+				<item id="6020" min_count="2" max_count="2"/>	<!--Sulfur-->
+			</group>
+			<group chance="35.0">
+				<item id="6016" min_count="1" max_count="1"/>	<!--Infernium Ore-->
+			</group>
+			<group chance="25.0">
+				<item id="6015" min_count="2" max_count="2"/>	<!--Demon\'s Blood-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2176" levels="4" name="Ancient Papyrus">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="2.0">
+				<item id="5978" min_count="1" max_count="1"/>	<!--Revelation of the Seals: Chapter of Descent-->
+			</group>
+			<group chance="2.0">
+				<item id="5983" min_count="1" max_count="1"/>	<!--Ancient Epic, Chapter 5-->
+			</group>
+			<group chance="2.0">
+				<item id="5988" min_count="1" max_count="1"/>	<!--Imperial Genealogy 5-->
+			</group>
+			<group chance="2.0">
+				<item id="5994" min_count="1" max_count="1"/>	<!--Blueprint: Tower of Insolence, 6th Floor-->
+			</group>
+			<group chance="2.0">
+				<item id="5995" min_count="1" max_count="1"/>	<!--Blueprint: Tower of Insolence, 7th Floor-->
+			</group>
+			<group chance="8.0">
+				<item id="5975" min_count="1" max_count="1"/>	<!--Revelation of the Seals: Chapter of Vengeance-->
+			</group>
+			<group chance="8.0">
+				<item id="5976" min_count="1" max_count="1"/>	<!--Revelation of the Seals: Chapter of Awakening-->
+			</group>
+			<group chance="8.0">
+				<item id="5977" min_count="1" max_count="1"/>	<!--Revelation of the Seals: Chapter of Calamity-->
+			</group>
+			<group chance="8.0">
+				<item id="5981" min_count="1" max_count="1"/>	<!--Ancient Epic, Chapter 3-->
+			</group>
+			<group chance="8.0">
+				<item id="5982" min_count="1" max_count="1"/>	<!--Ancient Epic, Chapter 4-->
+			</group>
+			<group chance="11.4">
+				<item id="5973" min_count="1" max_count="1"/>	<!--Revelation of the Seals: Chapter of Gnosis-->
+			</group>
+			<group chance="11.2">
+				<item id="5974" min_count="1" max_count="1"/>	<!--Revelation of the Seals: Chapter of Strife-->
+			</group>
+			<group chance="11.2">
+				<item id="5980" min_count="1" max_count="1"/>	<!--Ancient Epic, Chapter 2-->
+			</group>
+			<group chance="11.2">
+				<item id="5985" min_count="1" max_count="1"/>	<!--Imperial Genealogy 2-->
+			</group>
+			<group chance="1.8">
+				<item id="5972" min_count="1" max_count="1"/>	<!--Revelation of the Seals: Chapter of Avarice-->
+			</group>
+			<group chance="1.6">
+				<item id="5979" min_count="1" max_count="1"/>	<!--Ancient Epic, Chapter 1-->
+			</group>
+			<group chance="1.6">
+				<item id="5984" min_count="1" max_count="1"/>	<!--Imperial Genealogy 1-->
+			</group>
+		</restoration>
+		<restoration level="2">
+			<group chance="4.0">
+				<item id="5978" min_count="1" max_count="1"/>	<!--Revelation of the Seals: Chapter of Descent-->
+			</group>
+			<group chance="4.0">
+				<item id="5983" min_count="1" max_count="1"/>	<!--Ancient Epic, Chapter 5-->
+			</group>
+			<group chance="4.0">
+				<item id="5988" min_count="1" max_count="1"/>	<!--Imperial Genealogy 5-->
+			</group>
+			<group chance="4.0">
+				<item id="5994" min_count="1" max_count="1"/>	<!--Blueprint: Tower of Insolence, 6th Floor-->
+			</group>
+			<group chance="4.0">
+				<item id="5995" min_count="1" max_count="1"/>	<!--Blueprint: Tower of Insolence, 7th Floor-->
+			</group>
+			<group chance="3.6">
+				<item id="5975" min_count="1" max_count="1"/>	<!--Revelation of the Seals: Chapter of Vengeance-->
+			</group>
+			<group chance="3.6">
+				<item id="5976" min_count="1" max_count="1"/>	<!--Revelation of the Seals: Chapter of Awakening-->
+			</group>
+			<group chance="3.6">
+				<item id="5977" min_count="1" max_count="1"/>	<!--Revelation of the Seals: Chapter of Calamity-->
+			</group>
+			<group chance="3.6">
+				<item id="5981" min_count="1" max_count="1"/>	<!--Ancient Epic, Chapter 3-->
+			</group>
+			<group chance="3.6">
+				<item id="5982" min_count="1" max_count="1"/>	<!--Ancient Epic, Chapter 4-->
+			</group>
+			<group chance="10.5">
+				<item id="5973" min_count="1" max_count="1"/>	<!--Revelation of the Seals: Chapter of Gnosis-->
+			</group>
+			<group chance="10.5">
+				<item id="5974" min_count="1" max_count="1"/>	<!--Revelation of the Seals: Chapter of Strife-->
+			</group>
+			<group chance="10.5">
+				<item id="5980" min_count="1" max_count="1"/>	<!--Ancient Epic, Chapter 2-->
+			</group>
+			<group chance="10.5">
+				<item id="5985" min_count="1" max_count="1"/>	<!--Imperial Genealogy 2-->
+			</group>
+			<group chance="6.8">
+				<item id="5972" min_count="1" max_count="1"/>	<!--Revelation of the Seals: Chapter of Avarice-->
+			</group>
+			<group chance="6.6">
+				<item id="5979" min_count="1" max_count="1"/>	<!--Ancient Epic, Chapter 1-->
+			</group>
+			<group chance="6.6">
+				<item id="5984" min_count="1" max_count="1"/>	<!--Imperial Genealogy 1-->
+			</group>
+		</restoration>
+		<restoration level="3">
+			<group chance="1.6">
+				<item id="6001" min_count="1" max_count="1"/>	<!--Blueprint: Tower of Insolence, 13th Floor-->
+			</group>
+			<group chance="1.6">
+				<item id="5971" min_count="1" max_count="1"/>	<!--Ancient Joke Book-->
+			</group>
+			<group chance="1.6">
+				<item id="5970" min_count="1" max_count="1"/>	<!--Ancient Chain Letter-->
+			</group>
+			<group chance="1.6">
+				<item id="4408" min_count="1" max_count="1"/>	<!--Musical Score - Theme of Love-->
+			</group>
+			<group chance="1.6">
+				<item id="4409" min_count="1" max_count="1"/>	<!--Musical Score - Theme of Battle-->
+			</group>
+			<group chance="1.6">
+				<item id="5986" min_count="1" max_count="1"/>	<!--Imperial Genealogy 3-->
+			</group>
+			<group chance="1.6">
+				<item id="5987" min_count="1" max_count="1"/>	<!--Imperial Genealogy 4-->
+			</group>
+			<group chance="1.6">
+				<item id="5993" min_count="1" max_count="1"/>	<!--Blueprint: Tower of Insolence, 5th Floor-->
+			</group>
+			<group chance="1.6">
+				<item id="5999" min_count="1" max_count="1"/>	<!--Blueprint: Tower of Insolence, 11th Floor-->
+			</group>
+			<group chance="1.6">
+				<item id="6000" min_count="1" max_count="1"/>	<!--Blueprint: Tower of Insolence, 12th Floor-->
+			</group>
+			<group chance="10.25">
+				<item id="5991" min_count="1" max_count="1"/>	<!--Blueprint: Tower of Insolence, 3rd Floor-->
+			</group>
+			<group chance="10.25">
+				<item id="5992" min_count="1" max_count="1"/>	<!--Blueprint: Tower of Insolence, 4th Floor-->
+			</group>
+			<group chance="10.25">
+				<item id="5997" min_count="1" max_count="1"/>	<!--Blueprint: Tower of Insolence, 9th Floor-->
+			</group>
+			<group chance="10.25">
+				<item id="5998" min_count="1" max_count="1"/>	<!--Blueprint: Tower of Insolence, 10th Floor-->
+			</group>
+			<group chance="14.34">
+				<item id="5989" min_count="1" max_count="1"/>	<!--Blueprint: Tower of Insolence, 1st Floor-->
+			</group>
+			<group chance="14.33">
+				<item id="5990" min_count="1" max_count="1"/>	<!--Blueprint: Tower of Insolence, 2nd Floor-->
+			</group>
+			<group chance="14.33">
+				<item id="5996" min_count="1" max_count="1"/>	<!--Blueprint: Tower of Insolence, 8th Floor-->
+			</group>
+		</restoration>
+		<restoration level="4">
+			<group chance="3.0">
+				<item id="6001" min_count="1" max_count="1"/>	<!--Blueprint: Tower of Insolence, 13th Floor-->
+			</group>
+			<group chance="3.0">
+				<item id="5971" min_count="1" max_count="1"/>	<!--Ancient Joke Book-->
+			</group>
+			<group chance="3.0">
+				<item id="5970" min_count="1" max_count="1"/>	<!--Ancient Chain Letter-->
+			</group>
+			<group chance="3.0">
+				<item id="4408" min_count="1" max_count="1"/>	<!--Musical Score - Theme of Love-->
+			</group>
+			<group chance="3.0">
+				<item id="4409" min_count="1" max_count="1"/>	<!--Musical Score - Theme of Battle-->
+			</group>
+			<group chance="2.0">
+				<item id="5986" min_count="1" max_count="1"/>	<!--Imperial Genealogy 3-->
+			</group>
+			<group chance="2.0">
+				<item id="5987" min_count="1" max_count="1"/>	<!--Imperial Genealogy 4-->
+			</group>
+			<group chance="2.0">
+				<item id="5993" min_count="1" max_count="1"/>	<!--Blueprint: Tower of Insolence, 5th Floor-->
+			</group>
+			<group chance="2.0">
+				<item id="5999" min_count="1" max_count="1"/>	<!--Blueprint: Tower of Insolence, 11th Floor-->
+			</group>
+			<group chance="2.0">
+				<item id="6000" min_count="1" max_count="1"/>	<!--Blueprint: Tower of Insolence, 12th Floor-->
+			</group>
+			<group chance="2.5">
+				<item id="5991" min_count="1" max_count="1"/>	<!--Blueprint: Tower of Insolence, 3rd Floor-->
+			</group>
+			<group chance="2.5">
+				<item id="5992" min_count="1" max_count="1"/>	<!--Blueprint: Tower of Insolence, 4th Floor-->
+			</group>
+			<group chance="2.6">
+				<item id="5997" min_count="1" max_count="1"/>	<!--Blueprint: Tower of Insolence, 9th Floor-->
+			</group>
+			<group chance="2.6">
+				<item id="5998" min_count="1" max_count="1"/>	<!--Blueprint: Tower of Insolence, 10th Floor-->
+			</group>
+			<group chance="21.6">
+				<item id="5989" min_count="1" max_count="1"/>	<!--Blueprint: Tower of Insolence, 1st Floor-->
+			</group>
+			<group chance="21.6">
+				<item id="5990" min_count="1" max_count="1"/>	<!--Blueprint: Tower of Insolence, 2nd Floor-->
+			</group>
+			<group chance="21.6">
+				<item id="5996" min_count="1" max_count="1"/>	<!--Blueprint: Tower of Insolence, 8th Floor-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2177" levels="1" name="Blessed Scroll of Escape: Clan Hall">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="200"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="5858"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="clanhall" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2178" levels="1" name="Blessed Scroll of Escape: Castle">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="200"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="5859"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="castle" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2179" levels="1" name="Blessed Scroll of Resurrection (Pet)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="1000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="6387"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="power" value="100"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_ONE_SERVITOR"/>
+		<set name="corpse" value="true"/>
+		<set name="skillType" value="RESURRECT"/>
+		<set name="operate_type" value="A2"/>
+		<set name="canPet" value="true"/>
+	</skill>
+	<skill id="2180" levels="1" name="Wyvern Food">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="PET_FEED"/>
+		<set name="operate_type" value="A2"/>
+		<set name="feed_power" value="200;450;450"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="2181" levels="1" name="Item - Fishing Shot">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_fishing_shot">
+				<def name="power" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2182" levels="1" name="Item - Fishing Shot">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_fishing_shot">
+				<def name="power" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2183" levels="1" name="Item - Fishing Shot">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_fishing_shot">
+				<def name="power" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2184" levels="1" name="Item - Fishing Shot">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_fishing_shot">
+				<def name="power" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2185" levels="1" name="Item - Fishing Shot">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_fishing_shot">
+				<def name="power" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2186" levels="1" name="Item - Fishing Shot">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_fishing_shot">
+				<def name="power" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2187" levels="1" name="Item - Special Sound Crystal">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2188" levels="1" name="Golden Spice">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="hitTime" value="1000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="80"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="6643"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BEAST_FEED"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="2189" levels="1" name="Crystal Spice">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="hitTime" value="1000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="80"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="6644"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BEAST_FEED"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="2190" levels="9" name="Small Green Nimble Fish">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="27.6">
+				<item id="6908" min_count="6" max_count="6"/>	<!--Fish Oil-->
+			</group>
+			<group chance="16.56">
+				<item id="6913" min_count="1" max_count="1"/>	<!--Fish Gem-->
+			</group>
+		</restoration>
+		<restoration level="2">
+			<group chance="28.2">
+				<item id="6908" min_count="6" max_count="6"/>	<!--Fish Oil-->
+			</group>
+			<group chance="21.15">
+				<item id="6911" min_count="2" max_count="2"/>	<!--Fish Scale-->
+			</group>
+		</restoration>
+		<restoration level="3">
+			<group chance="30.6">
+				<item id="6908" min_count="6" max_count="6"/>	<!--Fish Oil-->
+			</group>
+			<group chance="30.6">
+				<item id="6915" min_count="1" max_count="1"/>	<!--Thin Fish Bone-->
+			</group>
+		</restoration>
+		<restoration level="4">
+			<group chance="33.4">
+				<item id="6908" min_count="6" max_count="6"/>	<!--Fish Oil-->
+			</group>
+			<group chance="20.04">
+				<item id="6913" min_count="1" max_count="1"/>	<!--Fish Gem-->
+			</group>
+		</restoration>
+		<restoration level="5">
+			<group chance="29.92">
+				<item id="6908" min_count="8" max_count="8"/>	<!--Fish Oil-->
+			</group>
+			<group chance="28.05">
+				<item id="6911" min_count="2" max_count="2"/>	<!--Fish Scale-->
+			</group>
+		</restoration>
+		<restoration level="6">
+			<group chance="41.6">
+				<item id="6908" min_count="6" max_count="6"/>	<!--Fish Oil-->
+			</group>
+			<group chance="33.28">
+				<item id="6915" min_count="1" max_count="1"/>	<!--Thin Fish Bone-->
+			</group>
+		</restoration>
+		<restoration level="7">
+			<group chance="15.0">
+				<item id="6908" min_count="12" max_count="12"/>	<!--Fish Oil-->
+			</group>
+			<group chance="18.0">
+				<item id="6913" min_count="1" max_count="1"/>	<!--Fish Gem-->
+			</group>
+			<group chance="24.0">
+				<item id="6920" min_count="8" max_count="8"/>	<!--Recipe: Greater Fish Oil (100%)-->
+			</group>
+		</restoration>
+		<restoration level="8">
+			<group chance="39.68">
+				<item id="6908" min_count="8" max_count="8"/>	<!--Fish Oil-->
+			</group>
+			<group chance="37.2">
+				<item id="6911" min_count="2" max_count="2"/>	<!--Fish Scale-->
+			</group>
+		</restoration>
+		<restoration level="9">
+			<group chance="26.5">
+				<item id="6908" min_count="12" max_count="12"/>	<!--Fish Oil-->
+			</group>
+			<group chance="42.4">
+				<item id="6915" min_count="1" max_count="1"/>	<!--Thin Fish Bone-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2191" levels="9" name="Small Jade Nimble Fish">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="19.0">
+				<item id="6908" min_count="12" max_count="12"/>	<!--Fish Oil-->
+			</group>
+			<group chance="22.8">
+				<item id="6913" min_count="1" max_count="1"/>	<!--Fish Gem-->
+			</group>
+			<group chance="30.4">
+				<item id="6920" min_count="8" max_count="8"/>	<!--Recipe: Greater Fish Oil (100%)-->
+			</group>
+		</restoration>
+		<restoration level="2">
+			<group chance="47.2">
+				<item id="6908" min_count="8" max_count="8"/>	<!--Fish Oil-->
+			</group>
+			<group chance="44.25">
+				<item id="6911" min_count="2" max_count="2"/>	<!--Fish Scale-->
+			</group>
+		</restoration>
+		<restoration level="3">
+			<group chance="31.0">
+				<item id="6908" min_count="12" max_count="12"/>	<!--Fish Oil-->
+			</group>
+			<group chance="49.6">
+				<item id="6915" min_count="1" max_count="1"/>	<!--Thin Fish Bone-->
+			</group>
+		</restoration>
+		<restoration level="4">
+			<group chance="21.6668">
+				<item id="6908" min_count="12" max_count="12"/>	<!--Fish Oil-->
+			</group>
+			<group chance="26.0">
+				<item id="6913" min_count="1" max_count="1"/>	<!--Fish Gem-->
+			</group>
+			<group chance="17.3334">
+				<item id="6920" min_count="16" max_count="16"/>	<!--Recipe: Greater Fish Oil (100%)-->
+			</group>
+		</restoration>
+		<restoration level="5">
+			<group chance="27.2">
+				<item id="6908" min_count="16" max_count="16"/>	<!--Fish Oil-->
+			</group>
+			<group chance="25.5">
+				<item id="6911" min_count="4" max_count="4"/>	<!--Fish Scale-->
+			</group>
+		</restoration>
+		<restoration level="6">
+			<group chance="35.5">
+				<item id="6908" min_count="12" max_count="12"/>	<!--Fish Oil-->
+			</group>
+			<group chance="28.4">
+				<item id="6915" min_count="2" max_count="2"/>	<!--Thin Fish Bone-->
+			</group>
+		</restoration>
+		<restoration level="7">
+			<group chance="24.3332">
+				<item id="6908" min_count="12" max_count="12"/>	<!--Fish Oil-->
+			</group>
+			<group chance="16.6856">
+				<item id="6913" min_count="2" max_count="2"/>	<!--Fish Gem-->
+			</group>
+			<group chance="19.4667">
+				<item id="6920" min_count="16" max_count="16"/>	<!--Recipe: Greater Fish Oil (100%)-->
+			</group>
+		</restoration>
+		<restoration level="8">
+			<group chance="30.0">
+				<item id="6908" min_count="16" max_count="16"/>	<!--Fish Oil-->
+			</group>
+			<group chance="28.125">
+				<item id="6911" min_count="4" max_count="4"/>	<!--Fish Scale-->
+			</group>
+		</restoration>
+		<restoration level="9">
+			<group chance="38.5">
+				<item id="6908" min_count="12" max_count="12"/>	<!--Fish Oil-->
+			</group>
+			<group chance="30.8">
+				<item id="6915" min_count="2" max_count="2"/>	<!--Thin Fish Bone-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2192" levels="9" name="Small Blue Nimble Fish">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="26.3332">
+				<item id="6908" min_count="12" max_count="12"/>	<!--Fish Oil-->
+			</group>
+			<group chance="18.0572">
+				<item id="6913" min_count="2" max_count="2"/>	<!--Fish Gem-->
+			</group>
+			<group chance="21.0667">
+				<item id="6920" min_count="16" max_count="16"/>	<!--Recipe: Greater Fish Oil (100%)-->
+			</group>
+		</restoration>
+		<restoration level="2">
+			<group chance="32.0">
+				<item id="6908" min_count="16" max_count="16"/>	<!--Fish Oil-->
+			</group>
+			<group chance="30.0">
+				<item id="6911" min_count="4" max_count="4"/>	<!--Fish Scale-->
+			</group>
+		</restoration>
+		<restoration level="3">
+			<group chance="41.0">
+				<item id="6908" min_count="12" max_count="12"/>	<!--Fish Oil-->
+			</group>
+			<group chance="32.8">
+				<item id="6915" min_count="2" max_count="2"/>	<!--Thin Fish Bone-->
+			</group>
+		</restoration>
+		<restoration level="4">
+			<group chance="1.992">
+				<item id="6904" min_count="1" max_count="1"/>	<!--Party Mask Fabric-->
+			</group>
+			<group chance="14.2288">
+				<item id="6908" min_count="14" max_count="14"/>	<!--Fish Oil-->
+			</group>
+			<group chance="13.28">
+				<item id="6909" min_count="4" max_count="4"/>	<!--Greater Fish Oil-->
+			</group>
+			<group chance="19.92">
+				<item id="6913" min_count="1" max_count="1"/>	<!--Fish Gem-->
+			</group>
+			<group chance="13.2801">
+				<item id="6920" min_count="16" max_count="16"/>	<!--Recipe: Greater Fish Oil (100%)-->
+			</group>
+		</restoration>
+		<restoration level="5">
+			<group chance="2.0064">
+				<item id="6904" min_count="1" max_count="1"/>	<!--Party Mask Fabric-->
+			</group>
+			<group chance="19.1088">
+				<item id="6908" min_count="10" max_count="10"/>	<!--Fish Oil-->
+			</group>
+			<group chance="16.0512">
+				<item id="6909" min_count="2" max_count="2"/>	<!--Greater Fish Oil-->
+			</group>
+			<group chance="12.5401">
+				<item id="6911" min_count="4" max_count="4"/>	<!--Fish Scale-->
+			</group>
+			<group chance="13.3762">
+				<item id="6921" min_count="4" max_count="4"/>	<!--Recipe: Premium Fish Oil(100%)-->
+			</group>
+		</restoration>
+		<restoration level="6">
+			<group chance="2.52">
+				<item id="6904" min_count="1" max_count="1"/>	<!--Party Mask Fabric-->
+			</group>
+			<group chance="16.8">
+				<item id="6908" min_count="16" max_count="16"/>	<!--Fish Oil-->
+			</group>
+			<group chance="12.6">
+				<item id="6909" min_count="4" max_count="4"/>	<!--Greater Fish Oil-->
+			</group>
+			<group chance="14.0">
+				<item id="6915" min_count="4" max_count="4"/>	<!--Thin Fish Bone-->
+			</group>
+		</restoration>
+		<restoration level="7">
+			<group chance="2.04">
+				<item id="6904" min_count="1" max_count="1"/>	<!--Party Mask Fabric-->
+			</group>
+			<group chance="14.5716">
+				<item id="6908" min_count="14" max_count="14"/>	<!--Fish Oil-->
+			</group>
+			<group chance="13.6">
+				<item id="6909" min_count="4" max_count="4"/>	<!--Greater Fish Oil-->
+			</group>
+			<group chance="10.2">
+				<item id="6913" min_count="2" max_count="2"/>	<!--Fish Gem-->
+			</group>
+			<group chance="13.6001">
+				<item id="6920" min_count="16" max_count="16"/>	<!--Recipe: Greater Fish Oil (100%)-->
+			</group>
+		</restoration>
+		<restoration level="8">
+			<group chance="2.0688">
+				<item id="6904" min_count="1" max_count="1"/>	<!--Party Mask Fabric-->
+			</group>
+			<group chance="19.7028">
+				<item id="6908" min_count="10" max_count="10"/>	<!--Fish Oil-->
+			</group>
+			<group chance="16.5504">
+				<item id="6909" min_count="2" max_count="2"/>	<!--Greater Fish Oil-->
+			</group>
+			<group chance="12.9301">
+				<item id="6911" min_count="4" max_count="4"/>	<!--Fish Scale-->
+			</group>
+			<group chance="13.7922">
+				<item id="6921" min_count="4" max_count="4"/>	<!--Recipe: Premium Fish Oil(100%)-->
+			</group>
+		</restoration>
+		<restoration level="9">
+			<group chance="2.61">
+				<item id="6904" min_count="1" max_count="1"/>	<!--Party Mask Fabric-->
+			</group>
+			<group chance="17.4">
+				<item id="6908" min_count="16" max_count="16"/>	<!--Fish Oil-->
+			</group>
+			<group chance="13.05">
+				<item id="6909" min_count="4" max_count="4"/>	<!--Greater Fish Oil-->
+			</group>
+			<group chance="14.5">
+				<item id="6915" min_count="4" max_count="4"/>	<!--Thin Fish Bone-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2193" levels="9" name="Small Yellow Nimble Fish">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="2.1216">
+				<item id="6904" min_count="1" max_count="1"/>	<!--Party Mask Fabric-->
+			</group>
+			<group chance="15.1544">
+				<item id="6908" min_count="14" max_count="14"/>	<!--Fish Oil-->
+			</group>
+			<group chance="14.144">
+				<item id="6909" min_count="4" max_count="4"/>	<!--Greater Fish Oil-->
+			</group>
+			<group chance="10.608">
+				<item id="6913" min_count="2" max_count="2"/>	<!--Fish Gem-->
+			</group>
+			<group chance="14.1441">
+				<item id="6920" min_count="16" max_count="16"/>	<!--Recipe: Greater Fish Oil (100%)-->
+			</group>
+		</restoration>
+		<restoration level="2">
+			<group chance="2.1456">
+				<item id="6904" min_count="1" max_count="1"/>	<!--Party Mask Fabric-->
+			</group>
+			<group chance="10.2172">
+				<item id="6908" min_count="20" max_count="20"/>	<!--Fish Oil-->
+			</group>
+			<group chance="17.1648">
+				<item id="6909" min_count="2" max_count="2"/>	<!--Greater Fish Oil-->
+			</group>
+			<group chance="13.4101">
+				<item id="6911" min_count="4" max_count="4"/>	<!--Fish Scale-->
+			</group>
+			<group chance="14.3042">
+				<item id="6921" min_count="4" max_count="4"/>	<!--Recipe: Premium Fish Oil(100%)-->
+			</group>
+		</restoration>
+		<restoration level="3">
+			<group chance="2.712">
+				<item id="6904" min_count="1" max_count="1"/>	<!--Party Mask Fabric-->
+			</group>
+			<group chance="18.08">
+				<item id="6908" min_count="16" max_count="16"/>	<!--Fish Oil-->
+			</group>
+			<group chance="13.56">
+				<item id="6909" min_count="4" max_count="4"/>	<!--Greater Fish Oil-->
+			</group>
+			<group chance="15.0666">
+				<item id="6915" min_count="4" max_count="4"/>	<!--Thin Fish Bone-->
+			</group>
+		</restoration>
+		<restoration level="4">
+			<group chance="2.592">
+				<item id="6904" min_count="1" max_count="1"/>	<!--Party Mask Fabric-->
+			</group>
+			<group chance="18.514">
+				<item id="6908" min_count="14" max_count="14"/>	<!--Fish Oil-->
+			</group>
+			<group chance="17.28">
+				<item id="6909" min_count="4" max_count="4"/>	<!--Greater Fish Oil-->
+			</group>
+			<group chance="12.96">
+				<item id="6913" min_count="2" max_count="2"/>	<!--Fish Gem-->
+			</group>
+			<group chance="17.28">
+				<item id="6920" min_count="16" max_count="16"/>	<!--Recipe: Greater Fish Oil (100%)-->
+			</group>
+		</restoration>
+		<restoration level="5">
+			<group chance="2.6544">
+				<item id="6904" min_count="1" max_count="1"/>	<!--Party Mask Fabric-->
+			</group>
+			<group chance="12.64">
+				<item id="6908" min_count="20" max_count="20"/>	<!--Fish Oil-->
+			</group>
+			<group chance="10.6176">
+				<item id="6909" min_count="4" max_count="4"/>	<!--Greater Fish Oil-->
+			</group>
+			<group chance="16.5901">
+				<item id="6911" min_count="4" max_count="4"/>	<!--Fish Scale-->
+			</group>
+			<group chance="17.6962">
+				<item id="6921" min_count="4" max_count="4"/>	<!--Recipe: Premium Fish Oil(100%)-->
+			</group>
+		</restoration>
+		<restoration level="6">
+			<group chance="3.408">
+				<item id="6904" min_count="1" max_count="1"/>	<!--Party Mask Fabric-->
+			</group>
+			<group chance="22.72">
+				<item id="6908" min_count="16" max_count="16"/>	<!--Fish Oil-->
+			</group>
+			<group chance="17.04">
+				<item id="6909" min_count="4" max_count="4"/>	<!--Greater Fish Oil-->
+			</group>
+			<group chance="18.9334">
+				<item id="6915" min_count="4" max_count="4"/>	<!--Thin Fish Bone-->
+			</group>
+		</restoration>
+		<restoration level="7">
+			<group chance="2.784">
+				<item id="6904" min_count="1" max_count="1"/>	<!--Party Mask Fabric-->
+			</group>
+			<group chance="19.8856">
+				<item id="6908" min_count="14" max_count="14"/>	<!--Fish Oil-->
+			</group>
+			<group chance="18.56">
+				<item id="6909" min_count="4" max_count="4"/>	<!--Greater Fish Oil-->
+			</group>
+			<group chance="13.92">
+				<item id="6913" min_count="2" max_count="2"/>	<!--Fish Gem-->
+			</group>
+			<group chance="18.5599">
+				<item id="6920" min_count="16" max_count="16"/>	<!--Recipe: Greater Fish Oil (100%)-->
+			</group>
+		</restoration>
+		<restoration level="8">
+			<group chance="2.8512">
+				<item id="6904" min_count="1" max_count="1"/>	<!--Party Mask Fabric-->
+			</group>
+			<group chance="13.5772">
+				<item id="6908" min_count="20" max_count="20"/>	<!--Fish Oil-->
+			</group>
+			<group chance="11.4049">
+				<item id="6909" min_count="4" max_count="4"/>	<!--Greater Fish Oil-->
+			</group>
+			<group chance="17.8201">
+				<item id="6911" min_count="4" max_count="4"/>	<!--Fish Scale-->
+			</group>
+			<group chance="19.0082">
+				<item id="6921" min_count="4" max_count="4"/>	<!--Recipe: Premium Fish Oil(100%)-->
+			</group>
+		</restoration>
+		<restoration level="9">
+			<group chance="3.648">
+				<item id="6904" min_count="1" max_count="1"/>	<!--Party Mask Fabric-->
+			</group>
+			<group chance="24.3198">
+				<item id="6908" min_count="16" max_count="16"/>	<!--Fish Oil-->
+			</group>
+			<group chance="18.2399">
+				<item id="6909" min_count="4" max_count="4"/>	<!--Greater Fish Oil-->
+			</group>
+			<group chance="20.2666">
+				<item id="6915" min_count="4" max_count="4"/>	<!--Thin Fish Bone-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2194" levels="9" name="Small Orange Nimble Fish">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="2.9856">
+				<item id="6904" min_count="1" max_count="1"/>	<!--Party Mask Fabric-->
+			</group>
+			<group chance="10.6628">
+				<item id="6908" min_count="28" max_count="28"/>	<!--Fish Oil-->
+			</group>
+			<group chance="19.904">
+				<item id="6909" min_count="4" max_count="4"/>	<!--Greater Fish Oil-->
+			</group>
+			<group chance="14.928">
+				<item id="6913" min_count="2" max_count="2"/>	<!--Fish Gem-->
+			</group>
+			<group chance="19.9039">
+				<item id="6920" min_count="16" max_count="16"/>	<!--Recipe: Greater Fish Oil (100%)-->
+			</group>
+		</restoration>
+		<restoration level="2">
+			<group chance="3.048">
+				<item id="6904" min_count="1" max_count="1"/>	<!--Party Mask Fabric-->
+			</group>
+			<group chance="14.5144">
+				<item id="6908" min_count="20" max_count="20"/>	<!--Fish Oil-->
+			</group>
+			<group chance="12.192">
+				<item id="6909" min_count="4" max_count="4"/>	<!--Greater Fish Oil-->
+			</group>
+			<group chance="9.5252">
+				<item id="6911" min_count="8" max_count="8"/>	<!--Fish Scale-->
+			</group>
+			<group chance="10.16">
+				<item id="6921" min_count="8" max_count="8"/>	<!--Recipe: Premium Fish Oil(100%)-->
+			</group>
+		</restoration>
+		<restoration level="3">
+			<group chance="3.894">
+				<item id="6904" min_count="1" max_count="1"/>	<!--Party Mask Fabric-->
+			</group>
+			<group chance="12.98">
+				<item id="6908" min_count="32" max_count="32"/>	<!--Fish Oil-->
+			</group>
+			<group chance="19.47">
+				<item id="6909" min_count="4" max_count="4"/>	<!--Greater Fish Oil-->
+			</group>
+			<group chance="21.6334">
+				<item id="6915" min_count="4" max_count="4"/>	<!--Thin Fish Bone-->
+			</group>
+		</restoration>
+		<restoration level="4">
+			<group chance="5.304">
+				<item id="7698" min_count="1" max_count="1"/>	<!--Piece of Daisy Hairpin-->
+			</group>
+			<group chance="21.216">
+				<item id="6910" min_count="1" max_count="1"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="13.2601">
+				<item id="6914" min_count="2" max_count="2"/>	<!--Shiny Fish Gem-->
+			</group>
+		</restoration>
+		<restoration level="5">
+			<group chance="6.208">
+				<item id="7686" min_count="1" max_count="1"/>	<!--Maiden\'s Hairpin Piece-->
+			</group>
+			<group chance="24.8321">
+				<item id="6910" min_count="1" max_count="1"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="17.2445">
+				<item id="6912" min_count="8" max_count="8"/>	<!--Shiny Fish Scale-->
+			</group>
+		</restoration>
+		<restoration level="6">
+			<group chance="6.336">
+				<item id="7697" min_count="1" max_count="1"/>	<!--Piece of Forget-me-not Hairpin-->
+			</group>
+			<group chance="25.344">
+				<item id="6910" min_count="1" max_count="1"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="23.4666">
+				<item id="6916" min_count="4" max_count="4"/>	<!--Thick Fish Bone-->
+			</group>
+		</restoration>
+		<restoration level="7">
+			<group chance="6.528">
+				<item id="7698" min_count="1" max_count="1"/>	<!--Piece of Daisy Hairpin-->
+			</group>
+			<group chance="26.112">
+				<item id="6910" min_count="1" max_count="1"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="16.3201">
+				<item id="6914" min_count="2" max_count="2"/>	<!--Shiny Fish Gem-->
+			</group>
+		</restoration>
+		<restoration level="8">
+			<group chance="6.72">
+				<item id="7686" min_count="1" max_count="1"/>	<!--Maiden\'s Hairpin Piece-->
+			</group>
+			<group chance="13.44">
+				<item id="6910" min_count="2" max_count="2"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="18.6667">
+				<item id="6912" min_count="8" max_count="8"/>	<!--Shiny Fish Scale-->
+			</group>
+		</restoration>
+		<restoration level="9">
+			<group chance="6.864">
+				<item id="7697" min_count="1" max_count="1"/>	<!--Piece of Forget-me-not Hairpin-->
+			</group>
+			<group chance="27.456">
+				<item id="6910" min_count="1" max_count="1"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="25.4222">
+				<item id="6916" min_count="4" max_count="4"/>	<!--Thick Fish Bone-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2195" levels="9" name="Small Purple Nimble Fish">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="7.0">
+				<item id="7698" min_count="1" max_count="1"/>	<!--Piece of Daisy Hairpin-->
+			</group>
+			<group chance="18.6666">
+				<item id="6910" min_count="2" max_count="2"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="17.5">
+				<item id="6914" min_count="2" max_count="2"/>	<!--Shiny Fish Gem-->
+			</group>
+		</restoration>
+		<restoration level="2">
+			<group chance="7.144">
+				<item id="7686" min_count="1" max_count="1"/>	<!--Maiden\'s Hairpin Piece-->
+			</group>
+			<group chance="14.288">
+				<item id="6910" min_count="2" max_count="2"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="19.8445">
+				<item id="6912" min_count="8" max_count="8"/>	<!--Shiny Fish Scale-->
+			</group>
+		</restoration>
+		<restoration level="3">
+			<group chance="7.28">
+				<item id="7697" min_count="1" max_count="1"/>	<!--Piece of Forget-me-not Hairpin-->
+			</group>
+			<group chance="29.12">
+				<item id="6910" min_count="1" max_count="1"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="26.963">
+				<item id="6916" min_count="4" max_count="4"/>	<!--Thick Fish Bone-->
+			</group>
+		</restoration>
+		<restoration level="4">
+			<group chance="7.44">
+				<item id="7698" min_count="1" max_count="1"/>	<!--Piece of Daisy Hairpin-->
+			</group>
+			<group chance="19.84">
+				<item id="6910" min_count="2" max_count="2"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="18.5999">
+				<item id="6914" min_count="2" max_count="2"/>	<!--Shiny Fish Gem-->
+			</group>
+		</restoration>
+		<restoration level="5">
+			<group chance="7.584">
+				<item id="7686" min_count="1" max_count="1"/>	<!--Maiden\'s Hairpin Piece-->
+			</group>
+			<group chance="15.168">
+				<item id="6910" min_count="2" max_count="2"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="21.0667">
+				<item id="6912" min_count="8" max_count="8"/>	<!--Shiny Fish Scale-->
+			</group>
+		</restoration>
+		<restoration level="6">
+			<group chance="8.72">
+				<item id="7697" min_count="1" max_count="1"/>	<!--Piece of Forget-me-not Hairpin-->
+			</group>
+			<group chance="17.44">
+				<item id="6910" min_count="2" max_count="2"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="32.2964">
+				<item id="6916" min_count="4" max_count="4"/>	<!--Thick Fish Bone-->
+			</group>
+		</restoration>
+		<restoration level="7">
+			<group chance="5.3328">
+				<item id="7685" min_count="1" max_count="1"/>	<!--Outlaw\'s Eyepatch Strap-->
+			</group>
+			<group chance="5.3328">
+				<item id="7698" min_count="1" max_count="1"/>	<!--Piece of Daisy Hairpin-->
+			</group>
+			<group chance="5.3328">
+				<item id="6907" min_count="1" max_count="1"/>	<!--Monocle Piece-->
+			</group>
+			<group chance="14.2208">
+				<item id="6910" min_count="2" max_count="2"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="13.3321">
+				<item id="6914" min_count="2" max_count="2"/>	<!--Shiny Fish Gem-->
+			</group>
+		</restoration>
+		<restoration level="8">
+			<group chance="6.798">
+				<item id="7686" min_count="1" max_count="1"/>	<!--Maiden\'s Hairpin Piece-->
+			</group>
+			<group chance="6.798">
+				<item id="6905" min_count="1" max_count="1"/>	<!--Hair Pin Piece-->
+			</group>
+			<group chance="13.596">
+				<item id="6910" min_count="2" max_count="2"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="18.8833">
+				<item id="6912" min_count="8" max_count="8"/>	<!--Shiny Fish Scale-->
+			</group>
+		</restoration>
+		<restoration level="9">
+			<group chance="6.942">
+				<item id="7697" min_count="1" max_count="1"/>	<!--Piece of Forget-me-not Hairpin-->
+			</group>
+			<group chance="6.942">
+				<item id="6906" min_count="1" max_count="1"/>	<!--Pirate\'s Eye Patch Material-->
+			</group>
+			<group chance="13.884">
+				<item id="6910" min_count="2" max_count="2"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="12.8555">
+				<item id="6916" min_count="8" max_count="8"/>	<!--Thick Fish Bone-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2196" levels="9" name="Small Red Nimble Fish">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="6.1296">
+				<item id="7685" min_count="1" max_count="1"/>	<!--Outlaw\'s Eyepatch Strap-->
+			</group>
+			<group chance="6.1296">
+				<item id="7698" min_count="1" max_count="1"/>	<!--Piece of Daisy Hairpin-->
+			</group>
+			<group chance="6.1296">
+				<item id="6907" min_count="1" max_count="1"/>	<!--Monocle Piece-->
+			</group>
+			<group chance="16.3456">
+				<item id="6910" min_count="2" max_count="2"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="15.3241">
+				<item id="6914" min_count="2" max_count="2"/>	<!--Shiny Fish Gem-->
+			</group>
+		</restoration>
+		<restoration level="2">
+			<group chance="7.806">
+				<item id="7686" min_count="1" max_count="1"/>	<!--Maiden\'s Hairpin Piece-->
+			</group>
+			<group chance="7.806">
+				<item id="6905" min_count="1" max_count="1"/>	<!--Hair Pin Piece-->
+			</group>
+			<group chance="15.612">
+				<item id="6910" min_count="2" max_count="2"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="21.6833">
+				<item id="6912" min_count="8" max_count="8"/>	<!--Shiny Fish Scale-->
+			</group>
+		</restoration>
+		<restoration level="3">
+			<group chance="7.956">
+				<item id="7697" min_count="1" max_count="1"/>	<!--Piece of Forget-me-not Hairpin-->
+			</group>
+			<group chance="7.956">
+				<item id="6906" min_count="1" max_count="1"/>	<!--Pirate\'s Eye Patch Material-->
+			</group>
+			<group chance="15.912">
+				<item id="6910" min_count="2" max_count="2"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="14.7333">
+				<item id="6916" min_count="8" max_count="8"/>	<!--Thick Fish Bone-->
+			</group>
+		</restoration>
+		<restoration level="4">
+			<group chance="6.4848">
+				<item id="7685" min_count="1" max_count="1"/>	<!--Outlaw\'s Eyepatch Strap-->
+			</group>
+			<group chance="6.4848">
+				<item id="7698" min_count="1" max_count="1"/>	<!--Piece of Daisy Hairpin-->
+			</group>
+			<group chance="6.4848">
+				<item id="6907" min_count="1" max_count="1"/>	<!--Monocle Piece-->
+			</group>
+			<group chance="17.2928">
+				<item id="6910" min_count="2" max_count="2"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="16.2121">
+				<item id="6914" min_count="2" max_count="2"/>	<!--Shiny Fish Gem-->
+			</group>
+		</restoration>
+		<restoration level="5">
+			<group chance="8.256">
+				<item id="7686" min_count="1" max_count="1"/>	<!--Maiden\'s Hairpin Piece-->
+			</group>
+			<group chance="8.256">
+				<item id="6905" min_count="1" max_count="1"/>	<!--Hair Pin Piece-->
+			</group>
+			<group chance="16.512">
+				<item id="6910" min_count="2" max_count="2"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="22.9333">
+				<item id="6912" min_count="8" max_count="8"/>	<!--Shiny Fish Scale-->
+			</group>
+		</restoration>
+		<restoration level="6">
+			<group chance="8.412">
+				<item id="7697" min_count="1" max_count="1"/>	<!--Piece of Forget-me-not Hairpin-->
+			</group>
+			<group chance="8.412">
+				<item id="6906" min_count="1" max_count="1"/>	<!--Pirate\'s Eye Patch Material-->
+			</group>
+			<group chance="16.824">
+				<item id="6910" min_count="2" max_count="2"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="15.5778">
+				<item id="6916" min_count="8" max_count="8"/>	<!--Thick Fish Bone-->
+			</group>
+		</restoration>
+		<restoration level="7">
+			<group chance="7.5696">
+				<item id="7685" min_count="1" max_count="1"/>	<!--Outlaw\'s Eyepatch Strap-->
+			</group>
+			<group chance="7.5696">
+				<item id="7698" min_count="1" max_count="1"/>	<!--Piece of Daisy Hairpin-->
+			</group>
+			<group chance="7.5696">
+				<item id="6907" min_count="1" max_count="1"/>	<!--Monocle Piece-->
+			</group>
+			<group chance="10.0928">
+				<item id="6910" min_count="4" max_count="4"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="18.9236">
+				<item id="6914" min_count="2" max_count="2"/>	<!--Shiny Fish Gem-->
+			</group>
+		</restoration>
+		<restoration level="8">
+			<group chance="9.648">
+				<item id="7686" min_count="1" max_count="1"/>	<!--Maiden\'s Hairpin Piece-->
+			</group>
+			<group chance="9.648">
+				<item id="6905" min_count="1" max_count="1"/>	<!--Hair Pin Piece-->
+			</group>
+			<group chance="19.296">
+				<item id="6910" min_count="2" max_count="2"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="21.44">
+				<item id="6912" min_count="8" max_count="8"/>	<!--Shiny Fish Scale-->
+			</group>
+		</restoration>
+		<restoration level="9">
+			<group chance="10.29">
+				<item id="7697" min_count="1" max_count="1"/>	<!--Piece of Forget-me-not Hairpin-->
+			</group>
+			<group chance="10.29">
+				<item id="6906" min_count="1" max_count="1"/>	<!--Pirate\'s Eye Patch Material-->
+			</group>
+			<group chance="20.58">
+				<item id="6910" min_count="2" max_count="2"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="19.0555">
+				<item id="6916" min_count="8" max_count="8"/>	<!--Thick Fish Bone-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2197" levels="9" name="Small White Nimble Fish">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="8.3856">
+				<item id="7685" min_count="1" max_count="1"/>	<!--Outlaw\'s Eyepatch Strap-->
+			</group>
+			<group chance="8.3856">
+				<item id="7698" min_count="1" max_count="1"/>	<!--Piece of Daisy Hairpin-->
+			</group>
+			<group chance="8.3856">
+				<item id="6907" min_count="1" max_count="1"/>	<!--Monocle Piece-->
+			</group>
+			<group chance="11.1808">
+				<item id="6910" min_count="4" max_count="4"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="10.4818">
+				<item id="6914" min_count="4" max_count="4"/>	<!--Shiny Fish Gem-->
+			</group>
+		</restoration>
+		<restoration level="2">
+			<group chance="10.686">
+				<item id="7686" min_count="1" max_count="1"/>	<!--Maiden\'s Hairpin Piece-->
+			</group>
+			<group chance="10.686">
+				<item id="6905" min_count="1" max_count="1"/>	<!--Hair Pin Piece-->
+			</group>
+			<group chance="21.372">
+				<item id="6910" min_count="2" max_count="2"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="23.7468">
+				<item id="6912" min_count="8" max_count="8"/>	<!--Shiny Fish Scale-->
+			</group>
+		</restoration>
+		<restoration level="3">
+			<group chance="10.884">
+				<item id="7697" min_count="1" max_count="1"/>	<!--Piece of Forget-me-not Hairpin-->
+			</group>
+			<group chance="10.884">
+				<item id="6906" min_count="1" max_count="1"/>	<!--Pirate\'s Eye Patch Material-->
+			</group>
+			<group chance="21.768">
+				<item id="6910" min_count="2" max_count="2"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="16.1244">
+				<item id="6916" min_count="8" max_count="8"/>	<!--Thick Fish Bone-->
+			</group>
+		</restoration>
+		<restoration level="4">
+			<group chance="8.8752">
+				<item id="7685" min_count="1" max_count="1"/>	<!--Outlaw\'s Eyepatch Strap-->
+			</group>
+			<group chance="8.8752">
+				<item id="7698" min_count="1" max_count="1"/>	<!--Piece of Daisy Hairpin-->
+			</group>
+			<group chance="8.8752">
+				<item id="6907" min_count="1" max_count="1"/>	<!--Monocle Piece-->
+			</group>
+			<group chance="11.8336">
+				<item id="6910" min_count="4" max_count="4"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="11.0938">
+				<item id="6914" min_count="4" max_count="4"/>	<!--Shiny Fish Gem-->
+			</group>
+		</restoration>
+		<restoration level="5">
+			<group chance="11.322">
+				<item id="7686" min_count="1" max_count="1"/>	<!--Maiden\'s Hairpin Piece-->
+			</group>
+			<group chance="11.322">
+				<item id="6905" min_count="1" max_count="1"/>	<!--Hair Pin Piece-->
+			</group>
+			<group chance="22.644">
+				<item id="6910" min_count="2" max_count="2"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="12.58">
+				<item id="6912" min_count="16" max_count="16"/>	<!--Shiny Fish Scale-->
+			</group>
+		</restoration>
+		<restoration level="6">
+			<group chance="11.538">
+				<item id="7697" min_count="1" max_count="1"/>	<!--Piece of Forget-me-not Hairpin-->
+			</group>
+			<group chance="11.538">
+				<item id="6906" min_count="1" max_count="1"/>	<!--Pirate\'s Eye Patch Material-->
+			</group>
+			<group chance="23.076">
+				<item id="6910" min_count="2" max_count="2"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="17.0936">
+				<item id="6916" min_count="8" max_count="8"/>	<!--Thick Fish Bone-->
+			</group>
+		</restoration>
+		<restoration level="7">
+			<group chance="9.4128">
+				<item id="7685" min_count="1" max_count="1"/>	<!--Outlaw\'s Eyepatch Strap-->
+			</group>
+			<group chance="9.4128">
+				<item id="7698" min_count="1" max_count="1"/>	<!--Piece of Daisy Hairpin-->
+			</group>
+			<group chance="9.4128">
+				<item id="6907" min_count="1" max_count="1"/>	<!--Monocle Piece-->
+			</group>
+			<group chance="12.5504">
+				<item id="6910" min_count="4" max_count="4"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="11.7658">
+				<item id="6914" min_count="4" max_count="4"/>	<!--Shiny Fish Gem-->
+			</group>
+		</restoration>
+		<restoration level="8">
+			<group chance="12.0">
+				<item id="7686" min_count="1" max_count="1"/>	<!--Maiden\'s Hairpin Piece-->
+			</group>
+			<group chance="12.0">
+				<item id="6905" min_count="1" max_count="1"/>	<!--Hair Pin Piece-->
+			</group>
+			<group chance="24.0">
+				<item id="6910" min_count="2" max_count="2"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="13.3334">
+				<item id="6912" min_count="16" max_count="16"/>	<!--Shiny Fish Scale-->
+			</group>
+		</restoration>
+		<restoration level="9">
+			<group chance="12.234">
+				<item id="7697" min_count="1" max_count="1"/>	<!--Piece of Forget-me-not Hairpin-->
+			</group>
+			<group chance="12.234">
+				<item id="6906" min_count="1" max_count="1"/>	<!--Pirate\'s Eye Patch Material-->
+			</group>
+			<group chance="24.468">
+				<item id="6910" min_count="2" max_count="2"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="18.1248">
+				<item id="6916" min_count="8" max_count="8"/>	<!--Thick Fish Bone-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2198" levels="9" name="Small Black Nimble Fish">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="9.9888">
+				<item id="7685" min_count="1" max_count="1"/>	<!--Outlaw\'s Eyepatch Strap-->
+			</group>
+			<group chance="9.9888">
+				<item id="7698" min_count="1" max_count="1"/>	<!--Piece of Daisy Hairpin-->
+			</group>
+			<group chance="9.9888">
+				<item id="6907" min_count="1" max_count="1"/>	<!--Monocle Piece-->
+			</group>
+			<group chance="13.3184">
+				<item id="6910" min_count="4" max_count="4"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="12.4858">
+				<item id="6914" min_count="4" max_count="4"/>	<!--Shiny Fish Gem-->
+			</group>
+		</restoration>
+		<restoration level="2">
+			<group chance="12.738">
+				<item id="7686" min_count="1" max_count="1"/>	<!--Maiden\'s Hairpin Piece-->
+			</group>
+			<group chance="12.738">
+				<item id="6905" min_count="1" max_count="1"/>	<!--Hair Pin Piece-->
+			</group>
+			<group chance="12.738">
+				<item id="6910" min_count="4" max_count="4"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="14.1534">
+				<item id="6912" min_count="16" max_count="16"/>	<!--Shiny Fish Scale-->
+			</group>
+		</restoration>
+		<restoration level="3">
+			<group chance="12.996">
+				<item id="7697" min_count="1" max_count="1"/>	<!--Piece of Forget-me-not Hairpin-->
+			</group>
+			<group chance="12.996">
+				<item id="6906" min_count="1" max_count="1"/>	<!--Pirate\'s Eye Patch Material-->
+			</group>
+			<group chance="12.996">
+				<item id="6910" min_count="4" max_count="4"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="19.2536">
+				<item id="6916" min_count="8" max_count="8"/>	<!--Thick Fish Bone-->
+			</group>
+		</restoration>
+		<restoration level="4">
+			<group chance="11.0832">
+				<item id="7685" min_count="1" max_count="1"/>	<!--Outlaw\'s Eyepatch Strap-->
+			</group>
+			<group chance="11.0832">
+				<item id="7698" min_count="1" max_count="1"/>	<!--Piece of Daisy Hairpin-->
+			</group>
+			<group chance="11.0832">
+				<item id="6907" min_count="1" max_count="1"/>	<!--Monocle Piece-->
+			</group>
+			<group chance="11.822">
+				<item id="6910" min_count="4" max_count="4"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="13.8542">
+				<item id="6914" min_count="4" max_count="4"/>	<!--Shiny Fish Gem-->
+			</group>
+		</restoration>
+		<restoration level="5">
+			<group chance="9.428">
+				<item id="7686" min_count="2" max_count="2"/>	<!--Maiden\'s Hairpin Piece-->
+			</group>
+			<group chance="14.1421">
+				<item id="6905" min_count="1" max_count="1"/>	<!--Hair Pin Piece-->
+			</group>
+			<group chance="14.1421">
+				<item id="6910" min_count="4" max_count="4"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="15.7134">
+				<item id="6912" min_count="16" max_count="16"/>	<!--Shiny Fish Scale-->
+			</group>
+		</restoration>
+		<restoration level="6">
+			<group chance="14.418">
+				<item id="7697" min_count="1" max_count="1"/>	<!--Piece of Forget-me-not Hairpin-->
+			</group>
+			<group chance="14.418">
+				<item id="6906" min_count="1" max_count="1"/>	<!--Pirate\'s Eye Patch Material-->
+			</group>
+			<group chance="14.418">
+				<item id="6910" min_count="4" max_count="4"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="21.36">
+				<item id="6916" min_count="8" max_count="8"/>	<!--Thick Fish Bone-->
+			</group>
+		</restoration>
+		<restoration level="7">
+			<group chance="11.7696">
+				<item id="7685" min_count="1" max_count="1"/>	<!--Outlaw\'s Eyepatch Strap-->
+			</group>
+			<group chance="11.7696">
+				<item id="7698" min_count="1" max_count="1"/>	<!--Piece of Daisy Hairpin-->
+			</group>
+			<group chance="11.7696">
+				<item id="6907" min_count="1" max_count="1"/>	<!--Monocle Piece-->
+			</group>
+			<group chance="12.554">
+				<item id="6910" min_count="4" max_count="4"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="14.7122">
+				<item id="6914" min_count="4" max_count="4"/>	<!--Shiny Fish Gem-->
+			</group>
+		</restoration>
+		<restoration level="8">
+			<group chance="10.008">
+				<item id="7686" min_count="2" max_count="2"/>	<!--Maiden\'s Hairpin Piece-->
+			</group>
+			<group chance="15.0121">
+				<item id="6905" min_count="1" max_count="1"/>	<!--Hair Pin Piece-->
+			</group>
+			<group chance="15.0121">
+				<item id="6910" min_count="4" max_count="4"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="16.6802">
+				<item id="6912" min_count="16" max_count="16"/>	<!--Shiny Fish Scale-->
+			</group>
+		</restoration>
+		<restoration level="9">
+			<group chance="10.208">
+				<item id="7697" min_count="2" max_count="2"/>	<!--Piece of Forget-me-not Hairpin-->
+			</group>
+			<group chance="15.3121">
+				<item id="6906" min_count="1" max_count="1"/>	<!--Pirate\'s Eye Patch Material-->
+			</group>
+			<group chance="15.3121">
+				<item id="6910" min_count="4" max_count="4"/>	<!--Premium Fish Oil-->
+			</group>
+			<group chance="22.6844">
+				<item id="6916" min_count="8" max_count="8"/>	<!--Thick Fish Bone-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2199" levels="3" name="Small Green Treasure Chest">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="30.6">
+				<item id="6908" min_count="12" max_count="12"/>	<!--Fish Oil-->
+			</group>
+			<group chance="48.96">
+				<item id="7609" min_count="8" max_count="8"/>	<!--Proof of Catching a Fish-->
+			</group>
+		</restoration>
+		<restoration level="2">
+			<group chance="41.6">
+				<item id="6908" min_count="12" max_count="12"/>	<!--Fish Oil-->
+			</group>
+			<group chance="33.28">
+				<item id="7609" min_count="16" max_count="16"/>	<!--Proof of Catching a Fish-->
+			</group>
+		</restoration>
+		<restoration level="3">
+			<group chance="26.5">
+				<item id="6908" min_count="24" max_count="24"/>	<!--Fish Oil-->
+			</group>
+			<group chance="24.2284">
+				<item id="7609" min_count="26" max_count="26"/>	<!--Proof of Catching a Fish-->
+			</group>
+		</restoration>
+	</skill>
+</list>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT list (faction)*>
+
+	<!ELEMENT faction (point)*>
+	<!ATTLIST faction
+		name CDATA #REQUIRED>
+
+		<!ELEMENT point (#PCDATA)>
+		<!ATTLIST point
+			level CDATA #REQUIRED
+			value CDATA #REQUIRED>

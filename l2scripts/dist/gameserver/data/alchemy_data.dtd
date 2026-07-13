@@ -1,0 +1,18 @@
+<!ELEMENT list (alchemy)*>
+
+	<!ELEMENT alchemy (ingridients|products)*>
+	<!ATTLIST alchemy
+		skill_id CDATA #REQUIRED
+		skill_level CDATA #REQUIRED
+		success_rate CDATA #REQUIRED>
+
+		<!ELEMENT ingridients (item)*>
+		<!ELEMENT products (on_success|on_fail)*>
+
+			<!ELEMENT on_success (item)*>
+			<!ELEMENT on_fail (item)*>
+
+			<!ELEMENT item (#PCDATA)>
+			<!ATTLIST item
+				id CDATA #REQUIRED
+				count CDATA #REQUIRED>

@@ -1,0 +1,1394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="9600" levels="1" name="Stronghold Siege (50-second)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="castRange" value="50"/>
+		<set name="hitTime" value="50000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9601" levels="1" name="Release Agathion\'s Seal - Sin Eater">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="npcId" value="16098"/>
+		<set name="summonType" value="agathion"/>	
+	</skill>
+	<skill id="9602" levels="1" name="Release Agathion\'s Seal - Sin Eater">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="90"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="npcId" value="16099"/>
+		<set name="summonType" value="agathion"/>	
+	</skill>
+	<skill id="9603" levels="1" name="Release Agathion\'s Seal - Sin Eater">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="95"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="npcId" value="16100"/>
+		<set name="summonType" value="agathion"/>	
+	</skill>
+	<skill id="9604" levels="1" name="Release Agathion\'s Seal - Sin Eater">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="61"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="npcId" value="16101"/>
+		<set name="summonType" value="agathion"/>
+	</skill>
+	<skill id="9605" levels="1" name="Release Agathion\'s Seal - Sin Eater">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="76"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="npcId" value="16102"/>
+		<set name="summonType" value="agathion"/>
+	</skill>
+	<skill id="9606" levels="1" name="Sealing Agathion">
+		<set name="icon" value="icon.etc_leash_i00"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="operate_type" value="P"/>
+		<for/>
+	</skill>
+	<skill id="9607" levels="1" name="Blessing of Light">
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="hitTime" value="17000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9608" levels="1" name="Blessing of Darkness">
+		<set name="icon" value="icon.etc_cp_potion_i01"/>
+		<set name="hitTime" value="17000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9609" levels="1" name="Clan Association - Horn Melody">
+		<set name="icon" value="icon.skill11517"/>
+		<set name="coolTime" value="300"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9610" levels="1" name="Clan Association - Drum Melody">
+		<set name="icon" value="icon.skill11522"/>
+		<set name="coolTime" value="300"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9611" levels="1" name="Clan Association - Pipe Organ Melody">
+		<set name="icon" value="icon.skill11519"/>
+		<set name="coolTime" value="300"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9612" levels="1" name="Clan Association - Guitar Melody">
+		<set name="icon" value="icon.skill11520"/>
+		<set name="coolTime" value="300"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9613" levels="1" name="Clan Association - Harp Melody">
+		<set name="icon" value="icon.skill11521"/>
+		<set name="coolTime" value="300"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9614" levels="1" name="Clan Association - Lute Melody">
+		<set name="icon" value="icon.skill11518"/>
+		<set name="coolTime" value="300"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9615" levels="1" name="Summon Association Request Manager">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9616" levels="1" name="Summon Association Quest Manager">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9617" levels="1" name="Scroll of Escape: Isle of Souls - Dystopia">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="20000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9618" levels="1" name="Yum Yum Candy">
+		<set name="icon" value="etc_whiteday_candy_i05"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9619" levels="1" name="Nom Nom Candy">
+		<set name="icon" value="etc_whiteday_candy_i06"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9620" levels="1" name="Yummy Gift Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9621" levels="1" name="Blessed Scroll of Escape: Gludio">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="200"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9622" levels="1" name="Innocent Heejin Teleport: Talking Island Village">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9623" levels="1" name="Innocent Heejin Teleport: Town of Aden">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9624" levels="1" name="Innocent Heejin Teleport: Magmeld">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9625" levels="1" name="Innocent Heejin Teleport: Keucereus Alliance Base">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9626" levels="1" name="Innocent Heejin\'s Gift">
+		<set name="icon" value="icon.etc_pi_gift_box_i02"/>
+		<set name="reuseDelay" value="72000000"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9627" levels="1" name="Innocent Heejin\'s Blessing">
+		<set name="icon" value="icon.exp_bottle_scroll"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9628" levels="1" name="Star Agathion\'s Gift Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9629" levels="1" name="Vitality Replenishing Star Candy">
+		<set name="icon" value="BranchSys.br_rudolf_food_red_i00"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9630" levels="1" name="Vitality Recovering Star Candy">
+		<set name="icon" value="BranchSys.br_rudolf_food_purple_i00"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9631" levels="1" name="Vitality Maintaining Star Candy">
+		<set name="icon" value="BranchSys.br_rudolf_food_blue_i00"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9632" levels="1" name="Star Agathion Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9633" levels="1" name="Transformation Scroll Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9634" levels="1" name="Destroy Greedy Pixie">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9635" levels="1" name="Dandy Hyuk Teleport: Talking Island Village">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9636" levels="1" name="Dandy Hyuk Teleport: Town of Aden">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9637" levels="1" name="Dandy Hyuk Teleport: Magmeld">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9638" levels="1" name="Dandy Hyuk Teleport: Keucereus Alliance Base">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9639" levels="1" name="Dandy Hyuk\'s Gift">
+		<set name="icon" value="icon.etc_pi_gift_box_i02"/>
+		<set name="reuseDelay" value="72000000"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9640" levels="1" name="Dandy Hyuk\'s Blessing">
+		<set name="icon" value="icon.exp_bottle_scroll"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9641" levels="1" name="Powerful Sooro Teleport: Talking Island Village">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9642" levels="1" name="Powerful Sooro Teleport: Town of Aden">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9643" levels="1" name="Powerful Sooro Teleport: Magmeld">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9644" levels="1" name="Powerful Sooro Teleport: Keucereus Alliance Base">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9645" levels="1" name="Powerful Sooro\'s Gift">
+		<set name="icon" value="icon.etc_pi_gift_box_i02"/>
+		<set name="reuseDelay" value="72000000"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9646" levels="1" name="Powerful Sooro\'s Blessing">
+		<set name="icon" value="icon.exp_bottle_scroll"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9647" levels="1" name="Chic Jaebum Teleport: Talking Island Village">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9648" levels="1" name="Chic Jaebum Teleport: Town of Aden">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9649" levels="1" name="Chic Jaebum Teleport: Magmeld">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9650" levels="1" name="Chic Jaebum Teleport: Keucereus Alliance Base">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9651" levels="1" name="Chic Jaebum\'s Gift">
+		<set name="icon" value="icon.etc_pi_gift_box_i02"/>
+		<set name="reuseDelay" value="72000000"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9652" levels="1" name="Chic Jaebum\'s Blessing">
+		<set name="icon" value="icon.exp_bottle_scroll"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9653" levels="1" name="Cute Shinyoung Teleport: Talking Island Village">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9654" levels="1" name="Cute Shinyoung Teleport: Town of Aden">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9655" levels="1" name="Cute Shinyoung Teleport: Magmeld">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9656" levels="1" name="Cute Shinyoung Teleport: Keucereus Alliance Base">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9657" levels="1" name="Cute Shinyoung\'s Gift">
+		<set name="icon" value="icon.etc_pi_gift_box_i02"/>
+		<set name="reuseDelay" value="72000000"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9658" levels="1" name="Cute Shinyoung\'s Blessing">
+		<set name="icon" value="icon.exp_bottle_scroll"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9659" levels="1" name="Repair Energy Supplier">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9660" levels="1" name="Heavenly P. Atk. Cookie (Event)">
+		<set name="icon" value="icon.etc_bm_attack_cookie"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="AWAKED_BUFF"/>
+		<set name="itemConsumeId" value="35999"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="buff_special_class"/>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="song_of_earth;song_of_life;song_of_water;song_of_wind;song_of_hunter;song_of_vitality;song_of_vengeance;song_of_renewal;song_of_champion;song_of_meditation;song_of_warding;song_of_windstorm;song_of_purification;wispering_of_battle;dance_of_berserker;dance_of_bladestorm;dance_of_concentration;dance_of_fire;dance_of_fury;dance_of_inspiration;dance_of_mystic;dance_of_siren;dance_of_vampire;dance_of_warrior;motion_of_defence;berserker;pa_pd_up"/>
+				<mul stat="pAtk" value="1.35"/>
+				<mul stat="mAtk" value="1.16"/>
+				<mul stat="pAtkSpd" value="1.08"/>
+				<mul stat="mAtkSpd" value="1.08"/>
+				<add stat="p_critical_damage_per" value="35"/>
+				<add stat="pCritRate" value="100"/>
+				<add stat="runSpd" value="8"/>
+				<mul stat="pDef" value="0.92"/>
+				<mul stat="mDef" value="0.84"/>
+				<sub stat="pEvasRate" value="4"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_earth"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_life"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_water"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_wind"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_hunter"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vitality"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vengeance"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_renewal"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_champion"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_meditation"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_warding"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_windstorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_purification"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="wispering_of_battle"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_berserker"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_bladestorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_concentration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fury"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_inspiration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_mystic"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_siren"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_vampire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_warrior"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="motion_of_defence"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="berserker"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="pa_pd_up"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="9661" levels="1" name="Heavenly P. Def. Cookie (Event)">
+		<set name="icon" value="icon.etc_bm_defence_cookie"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="buff_special_class"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="AWAKED_BUFF"/>
+		<set name="itemConsumeId" value="36000"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="song_of_earth;song_of_life;song_of_water;song_of_wind;song_of_hunter;song_of_vitality;song_of_vengeance;song_of_renewal;song_of_champion;song_of_meditation;song_of_warding;song_of_windstorm;song_of_purification;wispering_of_battle;dance_of_berserker;dance_of_bladestorm;dance_of_concentration;dance_of_fire;dance_of_fury;dance_of_inspiration;dance_of_mystic;dance_of_siren;dance_of_vampire;dance_of_warrior;motion_of_defence;berserker;improve_shield_rate_defence_up;shield_prob_up;shield_defence_up;pa_pd_up"/>
+				<mul stat="pAtk" value="1.12"/>
+				<mul stat="pDef" value="1.45"/>
+				<mul stat="sDef" value="1.5"/>
+				<mul stat="rShld" value="1.3"/>
+				<add stat="p_critical_damage_per" value="35"/>
+				<add stat="pCritRate" value="100"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_earth"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_life"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_water"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_wind"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_hunter"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vitality"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vengeance"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_renewal"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_champion"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_meditation"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_warding"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_windstorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_purification"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="wispering_of_battle"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_berserker"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_bladestorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_concentration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fury"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_inspiration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_mystic"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_siren"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_vampire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_warrior"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="motion_of_defence"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="berserker"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="improve_shield_rate_defence_up"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="shield_prob_up"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="shield_defence_up"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="pa_pd_up"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="9662" levels="1" name="Heavenly Magic Cookie (Event)">
+		<set name="icon" value="icon.etc_bm_magic_cookie"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="AWAKED_BUFF"/>
+		<set name="itemConsumeId" value="36001"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="buff_special_class"/>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="song_of_earth;song_of_life;song_of_water;song_of_wind;song_of_hunter;song_of_vitality;song_of_vengeance;song_of_renewal;song_of_champion;song_of_meditation;song_of_warding;song_of_windstorm;song_of_purification;wispering_of_battle;dance_of_berserker;dance_of_bladestorm;dance_of_concentration;dance_of_fire;dance_of_fury;dance_of_inspiration;dance_of_mystic;dance_of_siren;dance_of_vampire;dance_of_warrior;motion_of_defence;pa_pd_up;cancel_prob_down;berserker"/>
+				<mul stat="pAtk" value="1.08"/>
+				<mul stat="mAtk" value="1.4"/>
+				<mul stat="mAtkSpd" value="1.08"/>
+				<mul stat="pAtkSpd" value="1.08"/>
+				<mul stat="mDef" value="1.14"/>
+				<add stat="mCritRate" value="100"/>
+				<mul stat="regMp" value="1.2"/>
+				<add stat="runSpd" value="8"/>
+				<mul stat="pDef" value="0.92"/>
+				<sub stat="pEvasRate" value="4"/>
+				<mul stat="mpConsum" value="0.85"/>
+				<mul stat="mpConsumePhysical" value="0.95"/>
+				<mul stat="mReuse" value="0.8"/>
+				<mul stat="pReuse" value="0.8"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_earth"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_life"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_water"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_wind"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_hunter"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vitality"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vengeance"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_renewal"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_champion"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_meditation"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_warding"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_windstorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_purification"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="wispering_of_battle"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_berserker"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_bladestorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_concentration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fury"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_inspiration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_mystic"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_siren"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_vampire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_warrior"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="motion_of_defence"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="berserker"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="cancel_prob_down"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="pa_pd_up"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="9663" levels="1" name="Heavenly CP Cookie (Event)">
+		<set name="icon" value="icon.etc_bm_cp_cookie"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="magicLevel" value="1"/>
+		<set name="itemConsumeId" value="36002"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="buff_special_class"/>
+		<for>
+			<effect>
+				<mul stat="maxCp" value="1.20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="9664" levels="1" name="Kaliel\'s Treasure Chest (Low-grade)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9665" levels="1" name="Kaliel\'s Treasure Chest (Mid-grade)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9666" levels="1" name="Kaliel\'s Treasure Chest (High-grade)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9667" levels="1" name="Mysterious Pouch">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9668" levels="1" name="Summon Association Request Manager">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9669" levels="1" name="CON/MEN Pendant Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9670" levels="1" name="INT/WIT Pendant Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9671" levels="1" name="STR/DEX Pendant Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9672" levels="1" name="P. Def./P. Evasion Pendant Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9673" levels="1" name="P. Atk./P. Accuracy Pendant Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9674" levels="1" name="Critical Pendant Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9675" levels="1" name="Double Crystal Enhancement Reward: Amaranthine Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9676" levels="1" name="Double Crystal Enhancement Reward: Amaranthine Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9677" levels="1" name="Double Crystal Enhancement Reward: Amaranthine Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9678" levels="1" name="Bloody Amaranthine Weapon Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1" consume_item_id="36146">
+			<group chance="7.143">
+				<item id="35203" min_count="1" max_count="1"/>
+			</group>
+			<group chance="7.143">
+				<item id="35193" min_count="1" max_count="1"/>
+			</group>
+			<group chance="7.143">
+				<item id="35206" min_count="1" max_count="1"/>
+			</group>
+			<group chance="7.143">
+				<item id="35204" min_count="1" max_count="1"/>
+			</group>
+			<group chance="7.143">
+				<item id="35199" min_count="1" max_count="1"/>
+			</group>
+			<group chance="7.143">
+				<item id="35198" min_count="1" max_count="1"/>
+			</group>
+			<group chance="7.143">
+				<item id="35197" min_count="1" max_count="1"/>
+			</group>
+			<group chance="7.143">
+				<item id="35202" min_count="1" max_count="1"/>
+			</group>
+			<group chance="7.143">
+				<item id="35196" min_count="1" max_count="1"/>
+			</group>
+			<group chance="7.143">
+				<item id="35201" min_count="1" max_count="1"/>
+			</group>
+			<group chance="7.143">
+				<item id="35194" min_count="1" max_count="1"/>
+			</group>
+			<group chance="7.143">
+				<item id="35200" min_count="1" max_count="1"/>
+			</group>
+			<group chance="7.143">
+				<item id="35195" min_count="1" max_count="1"/>
+			</group>
+			<group chance="7.143">
+				<item id="35205" min_count="1" max_count="1"/>
+			</group>
+		</restoration>
+	</skill>
+	<skill id="9679" levels="1" name="Dark Amaranthine Weapon Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1" consume_item_id="36147">
+			<group chance="7.143">
+				<item id="35105" min_count="1" max_count="1"/>
+			</group>
+			<group chance="7.143">
+				<item id="35095" min_count="1" max_count="1"/>
+			</group>
+			<group chance="7.143">
+				<item id="35108" min_count="1" max_count="1"/>
+			</group>
+			<group chance="7.143">
+				<item id="35107" min_count="1" max_count="1"/>
+			</group>
+			<group chance="7.143">
+				<item id="35106" min_count="1" max_count="1"/>
+			</group>
+			<group chance="7.143">
+				<item id="35101" min_count="1" max_count="1"/>
+			</group>
+			<group chance="7.143">
+				<item id="35100" min_count="1" max_count="1"/>
+			</group>
+			<group chance="7.143">
+				<item id="35099" min_count="1" max_count="1"/>
+			</group>
+			<group chance="7.143">
+				<item id="35104" min_count="1" max_count="1"/>
+			</group>
+			<group chance="7.143">
+				<item id="35098" min_count="1" max_count="1"/>
+			</group>
+			<group chance="7.143">
+				<item id="35103" min_count="1" max_count="1"/>
+			</group>
+			<group chance="7.143">
+				<item id="35096" min_count="1" max_count="1"/>
+			</group>
+			<group chance="7.143">
+				<item id="35102" min_count="1" max_count="1"/>
+			</group>
+			<group chance="7.143">
+				<item id="35097" min_count="1" max_count="1"/>
+			</group>
+		</restoration>
+	</skill>
+	<skill id="9680" levels="1" name="Kaliel\'s Attribute Crystal Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9681" levels="1" name="Enhanced Kaliel\'s Attribute Stone Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9682" levels="1" name="Enhanced Kaliel\'s Attribute Crystal Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9683" levels="1" name="Kaliel\'s Soul Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9684" levels="1" name="Kaliel\'s Gift Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9685" levels="1" name="Kaliel\'s Hourglass">
+		<set name="icon" value="icon.etc_dragons_blood_i03"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9686" levels="1" name="Kaliel\'s Training Scroll">
+		<set name="icon" value="icon.etc_ev_draco_exp_up"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9687" levels="1" name="Giant\'s Scroll: Enchant Weapon (R-grade)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9688" levels="1" name="Giant\'s Scroll: Enchant Armor (R-grade)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9689" levels="1" name="Activate Summon Device">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="12000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9690" levels="1" name="Scroll of Escape: Fog of Blood Region">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="20000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="36170"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="loc" value="-15896;30520;-3616"/>	<!--TODO: Check.-->
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9691" levels="1" name="Scroll of Escape: Isle of Souls Harbor">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="20000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="36171"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="loc" value="-73696;53507;-3680"/>	<!--TODO: Check.-->
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9692" levels="1" name="Scroll of Escape: Ruins of Ye Sagira">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="20000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="36172"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="loc" value="-114605;230113;-1648"/>	<!--TODO: Check.-->
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9693" levels="1" name="Scroll of Escape: Guillotine Fortress">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="20000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="36173"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="loc" value="33720;146216;-3488"/>	<!--TODO: Check.-->
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9694" levels="1" name="Scroll of Escape: Parnassus">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="20000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="36174"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="loc" value="149403;172484;-952"/>	<!--TODO: Check.-->
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9695" levels="1" name="Scroll of Escape: Seal of Shilen">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="20000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="36175"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="loc" value="187480;20840;-3616"/>	<!--TODO: Check.-->
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="9696" levels="1" name="2012 World Olympiad Hero">
+		<set name="icon" value="icon.accessory_archer_hat2_i00"/>
+		<set name="icon" value="icon.accessory_archer_hat2_i00" />
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="STR" value="5"/>
+			<add order="0x10" stat="DEX" value="5"/>
+			<add order="0x10" stat="CON" value="5"/>
+			<add order="0x10" stat="INT" value="5"/>
+			<add order="0x10" stat="WIT" value="5"/>
+			<add order="0x10" stat="MEN" value="5"/>
+		</for>
+	</skill>
+	<skill id="9697" levels="1" name="2012 World Olympiad Hero">
+		<set name="icon" value="icon.accessory_archer_hat2_i00"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="STR" value="5"/>
+			<add order="0x10" stat="DEX" value="5"/>
+			<add order="0x10" stat="CON" value="5"/>
+			<add order="0x10" stat="INT" value="5"/>
+			<add order="0x10" stat="WIT" value="5"/>
+			<add order="0x10" stat="MEN" value="5"/>
+		</for>
+	</skill>
+	<skill id="9698" levels="1" name="2012 World Olympiad Hero">
+		<set name="icon" value="icon.accessory_archer_hat2_i00"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="STR" value="5"/>
+			<add order="0x10" stat="DEX" value="5"/>
+			<add order="0x10" stat="CON" value="5"/>
+			<add order="0x10" stat="INT" value="5"/>
+			<add order="0x10" stat="WIT" value="5"/>
+			<add order="0x10" stat="MEN" value="5"/>
+		</for>
+	</skill>
+	<skill id="9699" levels="1" name="2012 World Olympiad Hero">
+		<set name="icon" value="icon.accessory_archer_hat2_i00"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="STR" value="5"/>
+			<add order="0x10" stat="DEX" value="5"/>
+			<add order="0x10" stat="CON" value="5"/>
+			<add order="0x10" stat="INT" value="5"/>
+			<add order="0x10" stat="WIT" value="5"/>
+			<add order="0x10" stat="MEN" value="5"/>
+		</for>
+	</skill>
+</list>

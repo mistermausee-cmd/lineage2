@@ -1,0 +1,27 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<list>
+	<instance id="167" name="Crystal Prison Vullock" maxChannels="25" collapseIfEmpty="10" timelimit="60" dispelBuffs="true">
+		<collapse on-party-dismiss="true" timer="10"/>
+		<level min="95" max="200"/>
+		<party min="1" max="7"/>
+		<return loc="149368 173640 -945"/>
+		<teleport loc="154504 142616 -12762"/>
+		<remove itemId="0" count="0" necessary="false"/>
+		<give itemId="0" count="0"/>
+		<quest id="0"/>
+		<reuse resetReuse="30 6 * * 3,6" setUponEntry="false" sharedReuseGroup="0"/>
+		<zones>
+			<zone name="[baylor]" active="true"/>
+		</zones>
+		<doors>
+			<door id="24220009" opened="false"/>
+			<door id="24220011" opened="false"/>
+			<door id="24220012" opened="false"/>
+			<door id="24220014" opened="false"/>
+			<door id="24220015" opened="false"/>
+			<door id="24220016" opened="false"/>
+			<door id="24220017" opened="false"/>
+			<door id="24220019" opened="false"/>
+		</doors>
+	</instance>
+</list>

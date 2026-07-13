@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "events.dtd">
+<!--AUTHOR: Noel-->
+<list>
+	<!--формат даты HH:mm dd.MM.yyyy-->
+	<event id="8" name="Royal love" impl="Fun">
+		<parameter name="start_time_pattern" value="06:30 14.02.2017" />
+		<parameter name="stop_time_pattern" value="06:30 27.02.2017" />
+		<on_start>
+			<spawn name="spawn_group"/>
+			<global_add_reward name="droplist"/>
+		</on_start>
+		<on_time>
+			<on time="1209600">	<!--2 Weeks-->
+				<global_remove_reward name="droplist"/>
+			</on>
+		</on_time>
+		<on_stop>
+			<despawn name="spawn_group"/>
+			<global_remove_reward name="droplist"/>
+			<global_remove_items name="event_items"/>
+		</on_stop>
+		<objects name="spawn_group">
+			<spawn_ex name="royal_love_event"/>
+		</objects>
+		<objects name="droplist">
+			<rewardlist type="EVENT_GROUPED">
+				<group chance="7">
+					<reward item_id="28500" min="1" max="1" chance="1"/>	<!--Королевские слезы-->
+				</group>
+			</rewardlist>
+		</objects>
+		<objects name="event_items">
+			<item id="28500"/>	<!--Королевские Слезы-->
+			<item id="28501"/>	<!--Шоколад Королевской Симпатии-->
+			<item id="28502"/>	<!--Конфета Королевской Преданности-->
+			<item id="28503"/>	<!--Печенье Королевской Страсти-->
+			<item id="28504"/>	<!--Шоколад Фринтезы для Трансформации-->
+			<item id="28505"/>	<!--Конфета Фринтезы для Трансформации-->
+			<item id="28506"/>	<!--Печенье Фринтезы для Трансформации-->
+			<item id="28507"/>	<!--Шоколад Фринтезы для Призыва Друга-->
+			<item id="28508"/>	<!--Конфета Фринтезы для Призыва Друга-->
+			<item id="28509"/>	<!--Печенье Фринтезы для Призыва Друга-->
+		</objects>
+	</event>
+</list>

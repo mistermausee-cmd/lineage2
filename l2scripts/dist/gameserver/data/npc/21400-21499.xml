@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "npc.dtd">
+<list>
+	<npc id="21438" name="Heathen Warrior" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="28.5"/>
+		<set name="collision_radius" value="11"/>
+		<set name="level" value="65"/>
+		<set name="rewardExp" value="2685"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="60"/>
+		<set name="baseHpMax" value="2193.43142"/>
+		<set name="baseHpRate" value="0.25"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="1188.8"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="80"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="582.81759"/>
+		<set name="basePDef" value="271.89033"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="397.98887"/>
+		<set name="baseMDef" value="198.95754"/>
+		<set name="baseWalkSpd" value="80"/>
+		<set name="baseRunSpd" value="175"/>
+		<set name="baseShldDef" value="135.945165"/>
+		<set name="baseShldRate" value="20"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="5"/>
+		<set name="baseAttackType" value="DAGGER"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.52"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="300"/>
+		<set name="shots" value="NONE"/>
+		<faction names="undead_clan" range="300"/>
+		<equip>
+			<rhand item_id="946"/>	<!--Skeleton Dagger-->
+			<lhand item_id="945"/>	<!--Skeleton Buckler-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4410" level="13"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4411" level="13"/>	<!--Slightly Strong M. Atk.-->
+			<skill id="4412" level="9"/>	<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="9"/>	<!--Slightly Weak M. Def.-->
+			<skill id="4274" level="1"/>	<!--Blunt Weapon Vulnerability-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="7"/>	<!--Dagger-->
+			<skill id="4032" level="6" use_type="PhysicalSpecial"/>	<!--Power Strike-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="20" max="25" chance="70.0000"/>
+			<reward item_id="45929" min="1" max="1" chance="0.5495"/>
+			<reward item_id="45930" min="1" max="1" chance="0.3003"/>
+			<reward item_id="4077" min="1" max="1" chance="0.3003"/>
+			<reward item_id="4078" min="1" max="1" chance="0.0750"/>
+			<reward item_id="79" min="1" max="1" chance="0.0500"/>
+			<reward item_id="6333" min="1" max="1" chance="0.0500"/>
+			<reward item_id="7883" min="1" max="1" chance="0.0500"/>
+			<reward item_id="7889" min="1" max="1" chance="0.0500"/>
+			<reward item_id="45931" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36939" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36932" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36916" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36915" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36892" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36891" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36866" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36865" min="1" max="1" chance="0.0300"/>
+			<reward item_id="8336" min="1" max="1" chance="0.0300"/>
+			<reward item_id="8330" min="1" max="1" chance="0.0300"/>
+			<reward item_id="4114" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36527" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36557" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36537" min="1" max="1" chance="0.0100"/>
+			<reward item_id="729" min="1" max="1" chance="0.0100"/>
+			<reward item_id="36562" min="1" max="1" chance="0.0100"/>
+			<reward item_id="45932" min="1" max="1" chance="0.0100"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="36532" min="1" max="1" chance="0.7519"/>
+			<reward item_id="36881" min="1" max="1" chance="0.3003"/>
+			<reward item_id="36882" min="1" max="1" chance="0.3003"/>
+		</rewardlist>
+	</npc>
+	<npc id="21439" name="Heathen Inmate" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="40;48.5"/>
+		<set name="collision_radius" value="30;15.5"/>
+		<set name="level" value="66"/>
+		<set name="rewardExp" value="2768"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="63"/>
+		<set name="baseHpMax" value="2244.67715"/>
+		<set name="baseHpRate" value="0.25"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="1219.8"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="603.79903"/>
+		<set name="basePDef" value="276.72752"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="412.31647"/>
+		<set name="baseMDef" value="202.49719"/>
+		<set name="baseWalkSpd" value="15"/>
+		<set name="baseRunSpd" value="175"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.45"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="300"/>
+		<set name="shots" value="NONE"/>
+		<faction names="undead_clan" range="300"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4410" level="13"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4411" level="13"/>	<!--Slightly Strong M. Atk.-->
+			<skill id="4412" level="9"/>	<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="9"/>	<!--Slightly Weak M. Def.-->
+			<skill id="4414" level="3"/>	<!--Light Armor Type-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4073" level="6" use_type="PhysicalSpecial"/>	<!--Stun-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="14" max="26" chance="70.0000"/>
+			<reward item_id="45929" min="1" max="1" chance="0.5495"/>
+			<reward item_id="45930" min="1" max="1" chance="0.3003"/>
+			<reward item_id="4117" min="1" max="1" chance="0.2000"/>
+			<reward item_id="4116" min="1" max="1" chance="0.2000"/>
+			<reward item_id="4115" min="1" max="1" chance="0.2000"/>
+			<reward item_id="36923" min="1" max="1" chance="0.0900"/>
+			<reward item_id="36537" min="1" max="1" chance="0.0550"/>
+			<reward item_id="97" min="1" max="1" chance="0.0500"/>
+			<reward item_id="45931" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36940" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36939" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36916" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36903" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36892" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36873" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36866" min="1" max="1" chance="0.0300"/>
+			<reward item_id="5276" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36562" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36542" min="1" max="1" chance="0.0300"/>
+			<reward item_id="45932" min="1" max="1" chance="0.0100"/>
+			<reward item_id="5456" min="1" max="1" chance="0.0010"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="36532" min="1" max="1" chance="0.7519"/>
+			<reward item_id="36881" min="1" max="1" chance="0.3003"/>
+			<reward item_id="36882" min="1" max="1" chance="0.3003"/>
+		</rewardlist>
+	</npc>
+	<npc id="21440" name="Heathen Archer" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Ranger"/>
+		<set name="collision_height" value="27"/>
+		<set name="collision_radius" value="11"/>
+		<set name="level" value="67"/>
+		<set name="rewardExp" value="3030"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="69"/>
+		<set name="baseHpMax" value="2295.48154"/>
+		<set name="baseHpRate" value="0.25"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="1251"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="80"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="624.93199"/>
+		<set name="basePDef" value="281.55251"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="426.74754"/>
+		<set name="baseMDef" value="206.02791"/>
+		<set name="baseWalkSpd" value="40"/>
+		<set name="baseRunSpd" value="155"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="1100"/>
+		<set name="baseRandDam" value="5"/>
+		<set name="baseAttackType" value="BOW"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.8"/>
+		<set name="baseReuseDelay" value="1500"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="undead_clan" range="300"/>
+		<equip>
+			<rhand item_id="284"/>	<!--Dark Elven Longbow-->
+		</equip>
+		<ai_params>
+			<set name="LongRangeGuardRate" value="5"/>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4410" level="13"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4411" level="13"/>	<!--Slightly Strong M. Atk.-->
+			<skill id="4412" level="9"/>	<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="9"/>	<!--Slightly Weak M. Def.-->
+			<skill id="4414" level="3"/>	<!--Light Armor Type-->
+			<skill id="4274" level="1"/>	<!--Blunt Weapon Vulnerability-->
+			<skill id="4071" level="3"/>	<!--Bow/Crossbow Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4415" level="9"/>	<!--Bow-->
+			<skill id="4040" level="6" use_type="PhysicalSpecial"/>	<!--Power Shot-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="23" max="36" chance="70.0000"/>
+			<reward item_id="45929" min="1" max="1" chance="0.5000"/>
+			<reward item_id="4099" min="1" max="1" chance="0.3003"/>
+			<reward item_id="4087" min="1" max="1" chance="0.3003"/>
+			<reward item_id="4086" min="1" max="1" chance="0.3003"/>
+			<reward item_id="45930" min="1" max="1" chance="0.3003"/>
+			<reward item_id="4085" min="1" max="1" chance="0.1000"/>
+			<reward item_id="4084" min="1" max="1" chance="0.1000"/>
+			<reward item_id="6335" min="1" max="1" chance="0.0900"/>
+			<reward item_id="2403" min="1" max="1" chance="0.0700"/>
+			<reward item_id="2404" min="1" max="1" chance="0.0700"/>
+			<reward item_id="36542" min="1" max="1" chance="0.0550"/>
+			<reward item_id="2399" min="1" max="1" chance="0.0500"/>
+			<reward item_id="2398" min="1" max="1" chance="0.0500"/>
+			<reward item_id="45931" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36940" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36924" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36923" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36517" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36547" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36857" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36858" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36873" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36874" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36903" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36904" min="1" max="1" chance="0.0300"/>
+			<reward item_id="45932" min="1" max="1" chance="0.0100"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="36532" min="1" max="1" chance="0.7519"/>
+			<reward item_id="36881" min="1" max="1" chance="0.3003"/>
+			<reward item_id="36882" min="1" max="1" chance="0.3003"/>
+		</rewardlist>
+	</npc>
+	<npc id="21441" name="Heathen Soldier" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="28;33"/>
+		<set name="collision_radius" value="10;12"/>
+		<set name="level" value="68"/>
+		<set name="rewardExp" value="2938"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="69"/>
+		<set name="baseHpMax" value="2345.76698"/>
+		<set name="baseHpRate" value="0.25"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="1282.4"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="646.17968"/>
+		<set name="basePDef" value="286.3615"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="441.25696"/>
+		<set name="baseMDef" value="209.54692"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="170"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.21"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="300"/>
+		<set name="shots" value="NONE"/>
+		<faction names="undead_clan" range="300"/>
+		<equip>
+			<rhand item_id="96"/>	<!--Scythe-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4410" level="13"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4411" level="13"/>	<!--Slightly Strong M. Atk.-->
+			<skill id="4412" level="9"/>	<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="9"/>	<!--Slightly Weak M. Def.-->
+			<skill id="4274" level="1"/>	<!--Blunt Weapon Vulnerability-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4072" level="6" use_type="PhysicalSpecial"/>	<!--Stun-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="15" max="20" chance="70.0000"/>
+			<reward item_id="45929" min="1" max="1" chance="0.5000"/>
+			<reward item_id="5494" min="1" max="1" chance="0.3003"/>
+			<reward item_id="45930" min="1" max="1" chance="0.3003"/>
+			<reward item_id="8346" min="1" max="1" chance="0.1000"/>
+			<reward item_id="8341" min="1" max="1" chance="0.1000"/>
+			<reward item_id="5543" min="1" max="1" chance="0.1000"/>
+			<reward item_id="5532" min="1" max="1" chance="0.1000"/>
+			<reward item_id="5448" min="1" max="1" chance="0.0700"/>
+			<reward item_id="5442" min="1" max="1" chance="0.0700"/>
+			<reward item_id="45931" min="1" max="1" chance="0.0300"/>
+			<reward item_id="729" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36931" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36924" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36905" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36904" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36890" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36874" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36858" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36517" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36522" min="1" max="1" chance="0.0300"/>
+			<reward item_id="7899" min="1" max="1" chance="0.0200"/>
+			<reward item_id="7894" min="1" max="1" chance="0.0200"/>
+			<reward item_id="2504" min="1" max="1" chance="0.0200"/>
+			<reward item_id="212" min="1" max="1" chance="0.0200"/>
+			<reward item_id="36552" min="1" max="1" chance="0.0100"/>
+			<reward item_id="36547" min="1" max="1" chance="0.0100"/>
+			<reward item_id="45932" min="1" max="1" chance="0.0100"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="36532" min="1" max="1" chance="0.7519"/>
+			<reward item_id="36881" min="1" max="1" chance="0.3003"/>
+			<reward item_id="36882" min="1" max="1" chance="0.3003"/>
+		</rewardlist>
+	</npc>
+	<npc id="21442" name="Heathen Knight" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="25"/>
+		<set name="collision_radius" value="10"/>
+		<set name="level" value="69"/>
+		<set name="rewardExp" value="3025"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="71"/>
+		<set name="baseHpMax" value="2395.45533"/>
+		<set name="baseHpRate" value="0.25"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="1314"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="667.50361"/>
+		<set name="basePDef" value="291.15063"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="455.81844"/>
+		<set name="baseMDef" value="213.05139"/>
+		<set name="baseWalkSpd" value="40"/>
+		<set name="baseRunSpd" value="165"/>
+		<set name="baseShldDef" value="145.575315"/>
+		<set name="baseShldRate" value="20"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.17"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="300"/>
+		<set name="shots" value="NONE"/>
+		<faction names="undead_clan" range="300"/>
+		<equip>
+			<rhand item_id="150"/>	<!--Elemental Sword-->
+			<lhand item_id="103"/>	<!--Tower Shield-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4410" level="13"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4411" level="13"/>	<!--Slightly Strong M. Atk.-->
+			<skill id="4412" level="9"/>	<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="9"/>	<!--Slightly Weak M. Def.-->
+			<skill id="4274" level="1"/>	<!--Blunt Weapon Vulnerability-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4232" level="6" use_type="PhysicalSpecial"/>	<!--Spinning Slasher-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="16" max="33" chance="70.0000"/>
+			<reward item_id="6341" min="1" max="1" chance="0.3003"/>
+			<reward item_id="8346" min="1" max="1" chance="0.2000"/>
+			<reward item_id="8341" min="1" max="1" chance="0.2000"/>
+			<reward item_id="5543" min="1" max="1" chance="0.2000"/>
+			<reward item_id="5532" min="1" max="1" chance="0.2000"/>
+			<reward item_id="5450" min="1" max="1" chance="0.0600"/>
+			<reward item_id="5448" min="1" max="1" chance="0.0600"/>
+			<reward item_id="8487" min="1" max="1" chance="0.0600"/>
+			<reward item_id="45929" min="1" max="1" chance="0.0550"/>
+			<reward item_id="36931" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36932" min="1" max="1" chance="0.0300"/>
+			<reward item_id="45931" min="1" max="1" chance="0.0300"/>
+			<reward item_id="45930" min="1" max="1" chance="0.0300"/>
+			<reward item_id="729" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36915" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36905" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36891" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36890" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36865" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36522" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36527" min="1" max="1" chance="0.0300"/>
+			<reward item_id="36552" min="1" max="1" chance="0.0200"/>
+			<reward item_id="36557" min="1" max="1" chance="0.0200"/>
+			<reward item_id="7899" min="1" max="1" chance="0.0200"/>
+			<reward item_id="7894" min="1" max="1" chance="0.0200"/>
+			<reward item_id="2504" min="1" max="1" chance="0.0200"/>
+			<reward item_id="212" min="1" max="1" chance="0.0200"/>
+			<reward item_id="45932" min="1" max="1" chance="0.0100"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="36532" min="1" max="1" chance="0.7519"/>
+			<reward item_id="36881" min="1" max="1" chance="0.3003"/>
+			<reward item_id="36882" min="1" max="1" chance="0.3003"/>
+		</rewardlist>
+	</npc>
+</list>

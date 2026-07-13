@@ -1,0 +1,43 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<list>
+	<instance id="179" name="Fortuna" maxChannels="100" collapseIfEmpty="1" timelimit="180" dispelBuffs="true">
+		<collapse on-party-dismiss="true" timer="60"/>
+		<level min="90"/>
+		<return loc="206856 89992 -1037"/>
+		<teleport loc="42104 -172712 -7980"/>
+		<party min="7" max="7"/>
+		<remove itemId="0" count="0" necessary="false"/>
+		<give itemId="0" count="0"/>
+		<reuse resetReuse="30 6 * * *" setUponEntry="false" sharedReuseGroup="0"/>
+		<spawns>
+		</spawns>
+		<doors>
+			<door id="21120001" opened="true"/>
+		</doors>
+		<spawns>
+			<group name="fortuna_179_1" spawned="false"/>
+			<group name="fortuna_179_2" spawned="false"/>
+			<group name="fortuna_179_3" spawned="false"/>
+			<group name="fortuna_179_4_1" spawned="false"/>
+			<group name="fortuna_179_4_2" spawned="false"/>
+			<group name="fortuna_179_4_3" spawned="false"/>
+			<group name="fortuna_179_5_1" spawned="false"/>
+			<group name="fortuna_179_5_2" spawned="false"/>
+			<group name="fortuna_179_5_3" spawned="false"/>
+			<group name="fortuna_179_6" spawned="false"/>
+			<group name="fortuna_179_7" spawned="false"/>
+			<group name="fortuna_179_8" spawned="false"/>
+			<group name="fortuna_179_9_1" spawned="false"/>
+			<group name="fortuna_179_9_2" spawned="false"/>
+			<group name="fortuna_179_9_3" spawned="false"/>
+			<group name="fortuna_179_10" spawned="false"/>
+			<group name="fortuna_179_11" spawned="false"/>
+			<group name="fortuna_179_12" spawned="false"/>
+			<group name="fortuna_179_13" spawned="false"/>
+			<group name="fortuna_179_14" spawned="false"/>
+		</spawns>
+		<zones>
+			<zone name="[fortuna_begin]" active="true"/>
+		</zones>
+	</instance>
+</list>

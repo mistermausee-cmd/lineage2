@@ -1,0 +1,16 @@
+<html><head><body>
+Blacksmith Vincenz:<br>
+Welcome to the thunder forge! Hahaha! Noisy, isn't it?<br>
+Do you have anything that you like to craft? We do it all here! Order whatever you like. A pendant? A sword? A war golem? It's all the same to us.<br>
+<Button ALIGN=LEFT ICON="NORMAL" action="link common/blacksmith_r_set_option001.htm">"Show me the R-grade set options."</Button>
+<Button ALIGN=LEFT ICON="NORMAL" action="link common/dual_sword003.htm">"I want to craft a dual weapon."</Button>
+<Button ALIGN=LEFT ICON="NORMAL" action="link common/weapon_variation001.htm">"I want to bestow special ability on a weapon."</Button>
+<Button ALIGN=LEFT ICON="NORMAL" action="link common/blacksmith_recipe.htm">"I want to craft an item."</Button>
+<Button ALIGN=LEFT ICON="NORMAL" action="link common/blacksmith_vincenz002.htm">"I want to seal armor and accessories."</Button>
+<Button ALIGN=LEFT ICON="NORMAL" action="link common/cursed_to_unidentified.htm">"I want to change a Bound Item to an Unidentified Item."</Button>
+#if ($ALLOW_AUGMENTATION)
+<Button ALIGN=LEFT ICON="NORMAL" action="link common/blacksmith_vincenz005.htm">"I want to augment an item."</Button>
+#end
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_TerritoryStatus">"Can you tell me about the local lord and tax rate?"</Button>
+<Button ALIGN=LEFT ICON="QUEST" action="bypass -h talk_select">Quest</Button>
+</body></html>

@@ -1,0 +1,3097 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "npc.dtd">
+<list>
+	<npc id="20800" name="Eva's Watchman" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="30"/>
+		<set name="collision_radius" value="15"/>
+		<set name="level" value="47"/>
+		<set name="rewardExp" value="8874"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="153"/>
+		<set name="baseHpMax" value="1276.53628"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="5.5"/>
+		<set name="baseMpMax" value="665"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="261.69549"/>
+		<set name="basePDef" value="186.63569"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="178.7041"/>
+		<set name="baseMDef" value="136.5719"/>
+		<set name="baseWalkSpd" value="70"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.41"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group chance="20">
+				<reward item_id="8600" min="1" max="1" chance="50"/>	<!--Herb of Life-->
+				<reward item_id="8601" min="1" max="1" chance="40"/>	<!--Greater Herb of Life-->
+				<reward item_id="8602" min="1" max="1" chance="10"/>	<!--Superior Herb of Life-->
+			</group>
+			<group chance="33">
+				<reward item_id="8603" min="1" max="1" chance="60"/>	<!--Herb of Mana-->
+				<reward item_id="8604" min="1" max="1" chance="30"/>	<!--Greater Herb of Mana-->
+				<reward item_id="8605" min="1" max="1" chance="10"/>	<!--Superior Herb of Mana-->
+			</group>
+			<group chance="0.7">
+				<reward item_id="34849" min="1" max="1" chance="100"/>	<!--Mysterious Herb of Power-->
+			</group>
+			<group chance="0.7">
+				<reward item_id="34850" min="1" max="1" chance="100"/>	<!--Mysterious Herb of Magic-->
+			</group>
+			<group chance="0.1">
+				<reward item_id="13028" min="1" max="1" chance="100"/>	<!--Vitality Replenishing Herb-->
+			</group>
+		</rewardlist>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="2"/>	<!--Magic Creatures-->
+			<skill id="4410" level="10"/>	<!--Slightly Weak P. Atk.-->
+			<skill id="4411" level="10"/>	<!--Slightly Weak M. Atk.-->
+			<skill id="4412" level="12"/>	<!--Slightly Strong P. Def.-->
+			<skill id="4413" level="12"/>	<!--Slightly Strong M. Def.-->
+			<skill id="4276" level="1"/>	<!--Bow/Crossbow Vulnerability-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4119" level="3" use_type="DeBuff"/>	<!--Decrease Accuracy-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="77" max="158" chance="70.0000"/>
+			<reward item_id="34992" min="2" max="2" chance="11.6268"/>
+			<reward item_id="34990" min="1" max="1" chance="10.5698"/>
+			<reward item_id="1867" min="1" max="1" chance="6.9471"/>
+			<reward item_id="1872" min="1" max="1" chance="6.9051"/>
+			<reward item_id="1911" min="1" max="1" chance="3.4362"/>
+			<reward item_id="2223" min="1" max="1" chance="1.7907"/>
+			<reward item_id="1966" min="1" max="1" chance="1.6867"/>
+			<reward item_id="1881" min="1" max="1" chance="1.0570"/>
+			<reward item_id="1969" min="1" max="1" chance="0.8333"/>
+			<reward item_id="1875" min="1" max="1" chance="0.5291"/>
+			<reward item_id="1968" min="1" max="1" chance="0.5263"/>
+			<reward item_id="2226" min="1" max="1" chance="0.3236"/>
+			<reward item_id="45929" min="1" max="1" chance="0.2646"/>
+			<reward item_id="34991" min="23" max="23" chance="0.0689"/>
+			<reward item_id="45930" min="1" max="1" chance="0.0661"/>
+			<reward item_id="4041" min="1" max="1" chance="0.0300"/>
+			<reward item_id="2333" min="1" max="1" chance="0.0184"/>
+			<reward item_id="382" min="1" max="1" chance="0.0141"/>
+			<reward item_id="355" min="1" max="1" chance="0.0088"/>
+			<reward item_id="45931" min="1" max="1" chance="0.0066"/>
+			<reward item_id="45932" min="1" max="1" chance="0.0013"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="1911" min="1" max="1" chance="0.3003"/>
+			<reward item_id="1966" min="1" max="1" chance="0.0750"/>
+			<reward item_id="2223" min="1" max="1" chance="0.0300"/>
+		</rewardlist>
+	</npc>
+	<npc id="20801" name="Theeder Piker" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="32"/>
+		<set name="collision_radius" value="9"/>
+		<set name="level" value="48"/>
+		<set name="rewardExp" value="10700"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="188"/>
+		<set name="baseHpMax" value="1324.01623"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="5.5"/>
+		<set name="baseMpMax" value="692.4"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="275.82705"/>
+		<set name="basePDef" value="191.12803"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="188.35412"/>
+		<set name="baseMDef" value="139.8592"/>
+		<set name="baseWalkSpd" value="80"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="80"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.45"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<faction names="theeder_clan" range="300"/>
+		<equip>
+			<rhand item_id="302"/>	<!--Body Slasher-->
+		</equip>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group chance="20">
+				<reward item_id="8600" min="1" max="1" chance="50"/>	<!--Herb of Life-->
+				<reward item_id="8601" min="1" max="1" chance="40"/>	<!--Greater Herb of Life-->
+				<reward item_id="8602" min="1" max="1" chance="10"/>	<!--Superior Herb of Life-->
+			</group>
+			<group chance="33">
+				<reward item_id="8603" min="1" max="1" chance="60"/>	<!--Herb of Mana-->
+				<reward item_id="8604" min="1" max="1" chance="30"/>	<!--Greater Herb of Mana-->
+				<reward item_id="8605" min="1" max="1" chance="10"/>	<!--Superior Herb of Mana-->
+			</group>
+			<group chance="0.7">
+				<reward item_id="34849" min="1" max="1" chance="100"/>	<!--Mysterious Herb of Power-->
+			</group>
+			<group chance="0.7">
+				<reward item_id="34850" min="1" max="1" chance="100"/>	<!--Mysterious Herb of Magic-->
+			</group>
+			<group chance="0.1">
+				<reward item_id="13028" min="1" max="1" chance="100"/>	<!--Vitality Replenishing Herb-->
+			</group>
+		</rewardlist>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="7"/>	<!--Spirits-->
+			<skill id="4410" level="10"/>	<!--Slightly Weak P. Atk.-->
+			<skill id="4411" level="10"/>	<!--Slightly Weak M. Atk.-->
+			<skill id="4412" level="12"/>	<!--Slightly Strong P. Def.-->
+			<skill id="4413" level="12"/>	<!--Slightly Strong M. Def.-->
+			<skill id="4071" level="5"/>	<!--Bow/Crossbow Resistance-->
+			<skill id="4085" level="1"/>	<!--Critical Damage-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="13"/>	<!--Two-handed Sword-->
+			<skill id="4244" level="4" use_type="PhysicalSpecial"/>	<!--Wild Sweep-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="93" max="190" chance="70.0000"/>
+			<reward item_id="34992" min="1" max="1" chance="15.0360"/>
+			<reward item_id="1868" min="1" max="1" chance="10.1900"/>
+			<reward item_id="2946" min="1" max="1" chance="3.5498"/>
+			<reward item_id="1873" min="1" max="1" chance="3.0072"/>
+			<reward item_id="6668" min="1" max="1" chance="2.6850"/>
+			<reward item_id="1895" min="1" max="1" chance="2.1480"/>
+			<reward item_id="1539" min="1" max="1" chance="1.6707"/>
+			<reward item_id="34991" min="1" max="1" chance="1.5036"/>
+			<reward item_id="1876" min="1" max="1" chance="1.1260"/>
+			<reward item_id="4438" min="1" max="1" chance="0.3759"/>
+			<reward item_id="45929" min="1" max="1" chance="0.2506"/>
+			<reward item_id="3010" min="1" max="1" chance="0.2045"/>
+			<reward item_id="2330" min="1" max="1" chance="0.1477"/>
+			<reward item_id="4042" min="1" max="1" chance="0.1253"/>
+			<reward item_id="951" min="1" max="1" chance="0.1155"/>
+			<reward item_id="45930" min="1" max="1" chance="0.0627"/>
+			<reward item_id="2347" min="1" max="1" chance="0.0175"/>
+			<reward item_id="2351" min="1" max="1" chance="0.0157"/>
+			<reward item_id="45931" min="1" max="1" chance="0.0063"/>
+			<reward item_id="4233" min="1" max="1" chance="0.0048"/>
+			<reward item_id="45932" min="1" max="1" chance="0.0013"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="2946" min="1" max="1" chance="0.3003"/>
+			<reward item_id="951" min="1" max="1" chance="0.0030"/>
+			<reward item_id="2330" min="1" max="1" chance="0.0030"/>
+		</rewardlist>
+	</npc>
+	<npc id="20802" name="Theeder Mage" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Mystic"/>
+		<set name="collision_height" value="32"/>
+		<set name="collision_radius" value="9"/>
+		<set name="level" value="49"/>
+		<set name="rewardExp" value="10892"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="193"/>
+		<set name="baseHpMax" value="1372.18568"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="5.5"/>
+		<set name="baseMpMax" value="720"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="290.44588"/>
+		<set name="basePDef" value="195.66302"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="198.33688"/>
+		<set name="baseMDef" value="143.17771"/>
+		<set name="baseWalkSpd" value="80"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="20"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="9"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.45"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="theeder_clan" range="300"/>
+		<equip>
+			<rhand item_id="192"/>	<!--Crystal Staff-->
+		</equip>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group chance="20">
+				<reward item_id="8600" min="1" max="1" chance="50"/>	<!--Herb of Life-->
+				<reward item_id="8601" min="1" max="1" chance="40"/>	<!--Greater Herb of Life-->
+				<reward item_id="8602" min="1" max="1" chance="10"/>	<!--Superior Herb of Life-->
+			</group>
+			<group chance="33">
+				<reward item_id="8603" min="1" max="1" chance="60"/>	<!--Herb of Mana-->
+				<reward item_id="8604" min="1" max="1" chance="30"/>	<!--Greater Herb of Mana-->
+				<reward item_id="8605" min="1" max="1" chance="10"/>	<!--Superior Herb of Mana-->
+			</group>
+			<group chance="0.7">
+				<reward item_id="34849" min="1" max="1" chance="100"/>	<!--Mysterious Herb of Power-->
+			</group>
+			<group chance="0.7">
+				<reward item_id="34850" min="1" max="1" chance="100"/>	<!--Mysterious Herb of Magic-->
+			</group>
+			<group chance="0.1">
+				<reward item_id="13028" min="1" max="1" chance="100"/>	<!--Vitality Replenishing Herb-->
+			</group>
+		</rewardlist>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="7"/>	<!--Spirits-->
+			<skill id="4410" level="12"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4411" level="12"/>	<!--Slightly Strong M. Atk.-->
+			<skill id="4412" level="10"/>	<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="13"/>	<!--Slightly Strong M. Def.-->
+			<skill id="4414" level="3"/>	<!--Light Armor Type-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4415" level="5"/>	<!--Blunt Weapon-->
+			<skill id="4118" level="4" use_type="CheckMagic"/>	<!--Paralysis-->
+			<skill id="4046" level="4" use_type="CheckMagic1"/>	<!--Sleep-->
+			<skill id="4046" level="4" use_type="SleepMagic"/>	<!--Sleep-->
+			<skill id="4039" level="4" use_type="DDMagic"/>	<!--Mana Drain-->
+			<skill id="4094" level="4" use_type="CancelMagic"/>	<!--Cancellation-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="88" max="180" chance="70.0000"/>
+			<reward item_id="1342" min="10" max="30" chance="18.0558"/>
+			<reward item_id="1975" min="1" max="1" chance="1.4991"/>
+			<reward item_id="737" min="1" max="1" chance="0.9009"/>
+			<reward item_id="34990" min="4" max="4" chance="0.6173"/>
+			<reward item_id="34991" min="29" max="29" chance="0.3788"/>
+			<reward item_id="2088" min="1" max="1" chance="0.3497"/>
+			<reward item_id="4039" min="1" max="1" chance="0.3012"/>
+			<reward item_id="45929" min="1" max="1" chance="0.3012"/>
+			<reward item_id="4044" min="1" max="1" chance="0.3012"/>
+			<reward item_id="1894" min="1" max="1" chance="0.3003"/>
+			<reward item_id="2333" min="1" max="1" chance="0.1062"/>
+			<reward item_id="45930" min="1" max="1" chance="0.0752"/>
+			<reward item_id="4041" min="1" max="1" chance="0.0750"/>
+			<reward item_id="2334" min="1" max="1" chance="0.0210"/>
+			<reward item_id="45931" min="1" max="1" chance="0.0075"/>
+			<reward item_id="325" min="1" max="1" chance="0.0045"/>
+			<reward item_id="45932" min="1" max="1" chance="0.0015"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="1975" min="1" max="1" chance="0.0750"/>
+			<reward item_id="4039" min="1" max="1" chance="0.0750"/>
+			<reward item_id="2333" min="1" max="1" chance="0.0030"/>
+		</rewardlist>
+	</npc>
+	<npc id="20803" name="Doll Master" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="42"/>
+		<set name="collision_radius" value="20"/>
+		<set name="level" value="50"/>
+		<set name="rewardExp" value="21327"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="386"/>
+		<set name="baseHpMax" value="1421.00103"/>
+		<set name="baseHpRate" value="3"/>
+		<set name="baseHpReg" value="5.5"/>
+		<set name="baseMpMax" value="747.8"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="305.54906"/>
+		<set name="basePDef" value="200.23844"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="208.6504"/>
+		<set name="baseMDef" value="146.5258"/>
+		<set name="baseWalkSpd" value="80"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.56"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group chance="20">
+				<reward item_id="8600" min="1" max="1" chance="50"/>	<!--Herb of Life-->
+				<reward item_id="8601" min="1" max="1" chance="40"/>	<!--Greater Herb of Life-->
+				<reward item_id="8602" min="1" max="1" chance="10"/>	<!--Superior Herb of Life-->
+			</group>
+			<group chance="33">
+				<reward item_id="8603" min="1" max="1" chance="60"/>	<!--Herb of Mana-->
+				<reward item_id="8604" min="1" max="1" chance="30"/>	<!--Greater Herb of Mana-->
+				<reward item_id="8605" min="1" max="1" chance="10"/>	<!--Superior Herb of Mana-->
+			</group>
+			<group chance="0.7">
+				<reward item_id="34849" min="1" max="1" chance="100"/>	<!--Mysterious Herb of Power-->
+			</group>
+			<group chance="0.7">
+				<reward item_id="34850" min="1" max="1" chance="100"/>	<!--Mysterious Herb of Magic-->
+			</group>
+			<group chance="0.1">
+				<reward item_id="13028" min="1" max="1" chance="100"/>	<!--Vitality Replenishing Herb-->
+			</group>
+		</rewardlist>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4410" level="13"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4411" level="13"/>	<!--Slightly Strong M. Atk.-->
+			<skill id="4412" level="14"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="9"/>	<!--Slightly Weak M. Def.-->
+			<skill id="4274" level="1"/>	<!--Blunt Weapon Vulnerability-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4074" level="2" use_type="Buff"/>	<!--Haste-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="166" max="338" chance="70.0000"/>
+			<reward item_id="1895" min="1" max="1" chance="4.5207"/>
+			<reward item_id="34991" min="6" max="6" chance="0.9346"/>
+			<reward item_id="4043" min="1" max="1" chance="0.5263"/>
+			<reward item_id="3014" min="1" max="1" chance="0.4425"/>
+			<reward item_id="45929" min="1" max="1" chance="0.4386"/>
+			<reward item_id="4040" min="1" max="1" chance="0.3165"/>
+			<reward item_id="4042" min="1" max="1" chance="0.2639"/>
+			<reward item_id="2107" min="1" max="1" chance="0.2375"/>
+			<reward item_id="2106" min="1" max="1" chance="0.2375"/>
+			<reward item_id="45930" min="1" max="1" chance="0.1099"/>
+			<reward item_id="2360" min="1" max="1" chance="0.0258"/>
+			<reward item_id="2356" min="1" max="1" chance="0.0258"/>
+			<reward item_id="45931" min="1" max="1" chance="0.0110"/>
+			<reward item_id="231" min="1" max="1" chance="0.0026"/>
+			<reward item_id="233" min="1" max="1" chance="0.0026"/>
+			<reward item_id="45932" min="1" max="1" chance="0.0022"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="4043" min="1" max="1" chance="0.3003"/>
+			<reward item_id="4044" min="1" max="1" chance="0.3003"/>
+			<reward item_id="4042" min="1" max="1" chance="0.0750"/>
+		</rewardlist>
+	</npc>
+	<npc id="20804" name="Crokian Lad" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="61"/>
+		<set name="collision_radius" value="36"/>
+		<set name="level" value="41"/>
+		<set name="rewardExp" value="19276"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="303"/>
+		<set name="baseHpMax" value="1008.23781"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="5.5"/>
+		<set name="baseMpMax" value="504.8"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="187.11878"/>
+		<set name="basePDef" value="160.69002"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="127.77787"/>
+		<set name="baseMDef" value="117.58598"/>
+		<set name="baseWalkSpd" value="18"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.78"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<faction names="croc_clan2" range="300"/>
+		<equip>
+			<rhand item_id="5128"/>	<!--Crokian Blade-->
+		</equip>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group chance="20">
+				<reward item_id="8600" min="1" max="1" chance="50"/>	<!--Herb of Life-->
+				<reward item_id="8601" min="1" max="1" chance="40"/>	<!--Greater Herb of Life-->
+				<reward item_id="8602" min="1" max="1" chance="10"/>	<!--Superior Herb of Life-->
+			</group>
+			<group chance="33">
+				<reward item_id="8603" min="1" max="1" chance="60"/>	<!--Herb of Mana-->
+				<reward item_id="8604" min="1" max="1" chance="30"/>	<!--Greater Herb of Mana-->
+				<reward item_id="8605" min="1" max="1" chance="10"/>	<!--Superior Herb of Mana-->
+			</group>
+			<group chance="0.7">
+				<reward item_id="34849" min="1" max="1" chance="100"/>	<!--Mysterious Herb of Power-->
+			</group>
+			<group chance="0.7">
+				<reward item_id="34850" min="1" max="1" chance="100"/>	<!--Mysterious Herb of Magic-->
+			</group>
+			<group chance="0.1">
+				<reward item_id="13028" min="1" max="1" chance="100"/>	<!--Vitality Replenishing Herb-->
+			</group>
+		</rewardlist>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4074" level="2" use_type="Buff"/>	<!--Haste-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="83" max="166" chance="70.0000"/>
+			<reward item_id="34992" min="1" max="1" chance="17.9937"/>
+			<reward item_id="1864" min="1" max="1" chance="15.4000"/>
+			<reward item_id="34990" min="1" max="1" chance="12.8527"/>
+			<reward item_id="34991" min="1" max="1" chance="7.9093"/>
+			<reward item_id="1869" min="1" max="1" chance="7.4940"/>
+			<reward item_id="2160" min="1" max="1" chance="5.3191"/>
+			<reward item_id="1878" min="1" max="1" chance="5.1411"/>
+			<reward item_id="1884" min="1" max="1" chance="4.5470"/>
+			<reward item_id="1953" min="1" max="1" chance="2.6408"/>
+			<reward item_id="1956" min="1" max="1" chance="1.9452"/>
+			<reward item_id="2934" min="1" max="1" chance="1.9452"/>
+			<reward item_id="2930" min="1" max="1" chance="1.3815"/>
+			<reward item_id="735" min="1" max="1" chance="1.0711"/>
+			<reward item_id="4470" min="1" max="1" chance="0.4717"/>
+			<reward item_id="2207" min="1" max="1" chance="0.3390"/>
+			<reward item_id="2298" min="1" max="1" chance="0.0561"/>
+			<reward item_id="630" min="1" max="1" chance="0.0434"/>
+			<reward item_id="2494" min="1" max="1" chance="0.0434"/>
+			<reward item_id="5274" min="1" max="1" chance="0.0428"/>
+			<reward item_id="2412" min="1" max="1" chance="0.0304"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="1953" min="1" max="1" chance="0.0750"/>
+			<reward item_id="2160" min="1" max="1" chance="0.0750"/>
+			<reward item_id="4470" min="1" max="1" chance="0.0300"/>
+		</rewardlist>
+	</npc>
+	<npc id="20805" name="Dailaon Lad" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Ranger"/>
+		<set name="collision_height" value="58"/>
+		<set name="collision_radius" value="40"/>
+		<set name="level" value="42"/>
+		<set name="rewardExp" value="20895"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="334"/>
+		<set name="baseHpMax" value="1050.81652"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="5.5"/>
+		<set name="baseMpMax" value="531"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="80"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="198.34591"/>
+		<set name="basePDef" value="164.88513"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="135.44454"/>
+		<set name="baseMDef" value="120.65578"/>
+		<set name="baseWalkSpd" value="18"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="1100"/>
+		<set name="baseRandDam" value="5"/>
+		<set name="baseAttackType" value="BOW"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.91"/>
+		<set name="baseReuseDelay" value="1500"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="croc_clan2" range="300"/>
+		<equip>
+			<rhand item_id="5127"/>	<!--Dailaon Knife-->
+		</equip>
+		<ai_params>
+			<set name="LongRangeGuardRate" value="5"/>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group chance="20">
+				<reward item_id="8600" min="1" max="1" chance="50"/>	<!--Herb of Life-->
+				<reward item_id="8601" min="1" max="1" chance="40"/>	<!--Greater Herb of Life-->
+				<reward item_id="8602" min="1" max="1" chance="10"/>	<!--Superior Herb of Life-->
+			</group>
+			<group chance="33">
+				<reward item_id="8603" min="1" max="1" chance="60"/>	<!--Herb of Mana-->
+				<reward item_id="8604" min="1" max="1" chance="30"/>	<!--Greater Herb of Mana-->
+				<reward item_id="8605" min="1" max="1" chance="10"/>	<!--Superior Herb of Mana-->
+			</group>
+			<group chance="0.7">
+				<reward item_id="34849" min="1" max="1" chance="100"/>	<!--Mysterious Herb of Power-->
+			</group>
+			<group chance="0.7">
+				<reward item_id="34850" min="1" max="1" chance="100"/>	<!--Mysterious Herb of Magic-->
+			</group>
+			<group chance="0.1">
+				<reward item_id="13028" min="1" max="1" chance="100"/>	<!--Vitality Replenishing Herb-->
+			</group>
+		</rewardlist>
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+			<skill id="4412" level="10"/>	<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="10"/>	<!--Slightly Weak M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="9"/>	<!--Bow-->
+			<skill id="4228" level="4" use_type="PhysicalSpecial"/>	<!--Double Dagger Attack-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="89" max="180" chance="70.0000"/>
+			<reward item_id="6668" min="1" max="1" chance="7.9474"/>
+			<reward item_id="1895" min="1" max="1" chance="6.3579"/>
+			<reward item_id="1905" min="1" max="1" chance="3.2720"/>
+			<reward item_id="2162" min="1" max="1" chance="1.6250"/>
+			<reward item_id="2205" min="1" max="1" chance="0.7042"/>
+			<reward item_id="2053" min="1" max="1" chance="0.2778"/>
+			<reward item_id="2051" min="1" max="1" chance="0.0976"/>
+			<reward item_id="2050" min="1" max="1" chance="0.0976"/>
+			<reward item_id="2305" min="1" max="1" chance="0.0972"/>
+			<reward item_id="2058" min="1" max="1" chance="0.0920"/>
+			<reward item_id="2049" min="1" max="1" chance="0.0920"/>
+			<reward item_id="2048" min="1" max="1" chance="0.0920"/>
+			<reward item_id="5164" min="1" max="1" chance="0.0742"/>
+			<reward item_id="159" min="1" max="1" chance="0.0016"/>
+			<reward item_id="190" min="1" max="1" chance="0.0016"/>
+			<reward item_id="189" min="1" max="1" chance="0.0016"/>
+			<reward item_id="188" min="1" max="1" chance="0.0016"/>
+			<reward item_id="187" min="1" max="1" chance="0.0016"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="1905" min="1" max="1" chance="0.3003"/>
+			<reward item_id="2162" min="1" max="1" chance="0.0750"/>
+			<reward item_id="2053" min="1" max="1" chance="0.0300"/>
+		</rewardlist>
+	</npc>
+	<npc id="20806" name="Crokian Lad Warrior" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="61"/>
+		<set name="collision_radius" value="36"/>
+		<set name="level" value="43"/>
+		<set name="rewardExp" value="20056"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="325"/>
+		<set name="baseHpMax" value="1094.28943"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="5.5"/>
+		<set name="baseMpMax" value="557.4"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="210.04832"/>
+		<set name="basePDef" value="169.13417"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="143.43577"/>
+		<set name="baseMDef" value="123.76505"/>
+		<set name="baseWalkSpd" value="18"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.78"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<faction names="croc_clan2" range="300"/>
+		<equip>
+			<rhand item_id="5128"/>	<!--Crokian Blade-->
+		</equip>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group chance="20">
+				<reward item_id="8600" min="1" max="1" chance="50"/>	<!--Herb of Life-->
+				<reward item_id="8601" min="1" max="1" chance="40"/>	<!--Greater Herb of Life-->
+				<reward item_id="8602" min="1" max="1" chance="10"/>	<!--Superior Herb of Life-->
+			</group>
+			<group chance="33">
+				<reward item_id="8603" min="1" max="1" chance="60"/>	<!--Herb of Mana-->
+				<reward item_id="8604" min="1" max="1" chance="30"/>	<!--Greater Herb of Mana-->
+				<reward item_id="8605" min="1" max="1" chance="10"/>	<!--Superior Herb of Mana-->
+			</group>
+			<group chance="0.7">
+				<reward item_id="34849" min="1" max="1" chance="100"/>	<!--Mysterious Herb of Power-->
+			</group>
+			<group chance="0.7">
+				<reward item_id="34850" min="1" max="1" chance="100"/>	<!--Mysterious Herb of Magic-->
+			</group>
+			<group chance="0.1">
+				<reward item_id="13028" min="1" max="1" chance="100"/>	<!--Vitality Replenishing Herb-->
+			</group>
+		</rewardlist>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+			<skill id="4412" level="10"/>	<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="10"/>	<!--Slightly Weak M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4030" level="3" use_type="Buff"/>	<!--Might-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="84" max="171" chance="70.0000"/>
+			<reward item_id="34991" min="1" max="1" chance="15.3469"/>
+			<reward item_id="34992" min="1" max="1" chance="15.3469"/>
+			<reward item_id="1865" min="1" max="1" chance="8.8159"/>
+			<reward item_id="1870" min="1" max="1" chance="8.7989"/>
+			<reward item_id="2934" min="1" max="1" chance="8.6019"/>
+			<reward item_id="1879" min="1" max="1" chance="2.5578"/>
+			<reward item_id="2204" min="1" max="1" chance="1.5007"/>
+			<reward item_id="2999" min="1" max="1" chance="1.0300"/>
+			<reward item_id="1875" min="1" max="1" chance="1.0231"/>
+			<reward item_id="1805" min="1" max="1" chance="0.2525"/>
+			<reward item_id="2047" min="1" max="1" chance="0.2364"/>
+			<reward item_id="2967" min="1" max="1" chance="0.2331"/>
+			<reward item_id="2300" min="1" max="1" chance="0.0670"/>
+			<reward item_id="5159" min="1" max="1" chance="0.0512"/>
+			<reward item_id="70" min="1" max="1" chance="0.0039"/>
+			<reward item_id="2499" min="1" max="1" chance="0.0039"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="2934" min="1" max="1" chance="0.3003"/>
+			<reward item_id="2204" min="1" max="1" chance="0.0300"/>
+			<reward item_id="1805" min="1" max="1" chance="0.0030"/>
+		</rewardlist>
+	</npc>
+	<npc id="20807" name="Farhite Lad" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="48"/>
+		<set name="collision_radius" value="24"/>
+		<set name="level" value="44"/>
+		<set name="rewardExp" value="21094"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="347"/>
+		<set name="baseHpMax" value="1138.62924"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="5.5"/>
+		<set name="baseMpMax" value="584"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="222.23112"/>
+		<set name="basePDef" value="173.43552"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="151.75505"/>
+		<set name="baseMDef" value="126.91259"/>
+		<set name="baseWalkSpd" value="15"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="20"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="9"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.74"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="croc_clan2" range="300"/>
+		<equip>
+			<rhand item_id="5131"/>	<!--Monster Only (Parhit Staff)-->
+		</equip>
+		<ai_params>
+			<set name="LongRangeGuardRate" value="5"/>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group chance="20">
+				<reward item_id="8600" min="1" max="1" chance="50"/>	<!--Herb of Life-->
+				<reward item_id="8601" min="1" max="1" chance="40"/>	<!--Greater Herb of Life-->
+				<reward item_id="8602" min="1" max="1" chance="10"/>	<!--Superior Herb of Life-->
+			</group>
+			<group chance="33">
+				<reward item_id="8603" min="1" max="1" chance="60"/>	<!--Herb of Mana-->
+				<reward item_id="8604" min="1" max="1" chance="30"/>	<!--Greater Herb of Mana-->
+				<reward item_id="8605" min="1" max="1" chance="10"/>	<!--Superior Herb of Mana-->
+			</group>
+			<group chance="0.7">
+				<reward item_id="34849" min="1" max="1" chance="100"/>	<!--Mysterious Herb of Power-->
+			</group>
+			<group chance="0.7">
+				<reward item_id="34850" min="1" max="1" chance="100"/>	<!--Mysterious Herb of Magic-->
+			</group>
+			<group chance="0.1">
+				<reward item_id="13028" min="1" max="1" chance="100"/>	<!--Vitality Replenishing Herb-->
+			</group>
+		</rewardlist>
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+			<skill id="4412" level="10"/>	<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="10"/>	<!--Slightly Weak M. Def.-->
+			<skill id="4414" level="3"/>	<!--Light Armor Type-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4415" level="5"/>	<!--Blunt Weapon-->
+			<skill id="4153" level="4" use_type="W_LongRangeDDMagic"/>	<!--Decrease Speed-->
+			<skill id="4160" level="4" use_type="W_ShortRangeDDMagic"/>	<!--Aura Burn-->
+			<skill id="4065" level="4" use_type="MagicHeal"/>	<!--Heal-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="88" max="181" chance="70.0000"/>
+			<reward item_id="34992" min="1" max="1" chance="8.1704"/>
+			<reward item_id="34991" min="1" max="1" chance="5.4469"/>
+			<reward item_id="1871" min="1" max="1" chance="5.0749"/>
+			<reward item_id="1908" min="1" max="1" chance="3.4829"/>
+			<reward item_id="1866" min="1" max="1" chance="3.2890"/>
+			<reward item_id="2164" min="1" max="1" chance="2.8292"/>
+			<reward item_id="1910" min="1" max="1" chance="2.7696"/>
+			<reward item_id="1954" min="1" max="1" chance="1.4118"/>
+			<reward item_id="1962" min="1" max="1" chance="0.8475"/>
+			<reward item_id="737" min="1" max="1" chance="0.8197"/>
+			<reward item_id="34990" min="1" max="1" chance="0.6803"/>
+			<reward item_id="45929" min="1" max="1" chance="0.3268"/>
+			<reward item_id="5220" min="1" max="1" chance="0.3268"/>
+			<reward item_id="1885" min="1" max="1" chance="0.3003"/>
+			<reward item_id="2221" min="1" max="1" chance="0.2703"/>
+			<reward item_id="2225" min="1" max="1" chance="0.1776"/>
+			<reward item_id="45930" min="1" max="1" chance="0.0817"/>
+			<reward item_id="471" min="1" max="1" chance="0.0292"/>
+			<reward item_id="2321" min="1" max="1" chance="0.0285"/>
+			<reward item_id="2316" min="1" max="1" chance="0.0285"/>
+			<reward item_id="439" min="1" max="1" chance="0.0183"/>
+			<reward item_id="45931" min="1" max="1" chance="0.0082"/>
+			<reward item_id="45932" min="1" max="1" chance="0.0016"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="1908" min="1" max="1" chance="0.3003"/>
+			<reward item_id="1910" min="1" max="1" chance="0.3003"/>
+			<reward item_id="2164" min="1" max="1" chance="0.0750"/>
+		</rewardlist>
+	</npc>
+	<npc id="20808" name="Nos Lad" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="86"/>
+		<set name="collision_radius" value="52"/>
+		<set name="level" value="45"/>
+		<set name="rewardExp" value="26117"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="436"/>
+		<set name="baseHpMax" value="1183.80594"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="5.5"/>
+		<set name="baseMpMax" value="610.8"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="234.89829"/>
+		<set name="basePDef" value="177.78746"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="160.40508"/>
+		<set name="baseMDef" value="130.09715"/>
+		<set name="baseWalkSpd" value="18"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.78"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<faction names="croc_clan2" range="300"/>
+		<equip>
+			<rhand item_id="128"/>	<!--Knight's Sword-->
+		</equip>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group chance="20">
+				<reward item_id="8600" min="1" max="1" chance="50"/>	<!--Herb of Life-->
+				<reward item_id="8601" min="1" max="1" chance="40"/>	<!--Greater Herb of Life-->
+				<reward item_id="8602" min="1" max="1" chance="10"/>	<!--Superior Herb of Life-->
+			</group>
+			<group chance="33">
+				<reward item_id="8603" min="1" max="1" chance="60"/>	<!--Herb of Mana-->
+				<reward item_id="8604" min="1" max="1" chance="30"/>	<!--Greater Herb of Mana-->
+				<reward item_id="8605" min="1" max="1" chance="10"/>	<!--Superior Herb of Mana-->
+			</group>
+			<group chance="0.7">
+				<reward item_id="34849" min="1" max="1" chance="100"/>	<!--Mysterious Herb of Power-->
+			</group>
+			<group chance="0.7">
+				<reward item_id="34850" min="1" max="1" chance="100"/>	<!--Mysterious Herb of Magic-->
+			</group>
+			<group chance="0.1">
+				<reward item_id="13028" min="1" max="1" chance="100"/>	<!--Vitality Replenishing Herb-->
+			</group>
+		</rewardlist>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+			<skill id="4410" level="10"/>	<!--Slightly Weak P. Atk.-->
+			<skill id="4411" level="10"/>	<!--Slightly Weak M. Atk.-->
+			<skill id="4412" level="12"/>	<!--Slightly Strong P. Def.-->
+			<skill id="4413" level="12"/>	<!--Slightly Strong M. Def.-->
+			<skill id="4071" level="5"/>	<!--Bow/Crossbow Resistance-->
+			<skill id="4085" level="1"/>	<!--Critical Damage-->
+			<skill id="4086" level="1"/>	<!--Critical Chance-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4103" level="2" use_type="Buff"/>	<!--Ultimate Evasion-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="110" max="223" chance="70.0000"/>
+			<reward item_id="6668" min="1" max="1" chance="4.7045"/>
+			<reward item_id="1908" min="1" max="1" chance="1.8158"/>
+			<reward item_id="1954" min="1" max="1" chance="1.7511"/>
+			<reward item_id="1962" min="1" max="1" chance="1.0540"/>
+			<reward item_id="2163" min="1" max="1" chance="0.9804"/>
+			<reward item_id="34990" min="4" max="4" chance="0.9009"/>
+			<reward item_id="34991" min="29" max="29" chance="0.5525"/>
+			<reward item_id="45929" min="1" max="1" chance="0.5263"/>
+			<reward item_id="4039" min="1" max="1" chance="0.4386"/>
+			<reward item_id="4044" min="1" max="1" chance="0.4386"/>
+			<reward item_id="1894" min="1" max="1" chance="0.3003"/>
+			<reward item_id="45930" min="1" max="1" chance="0.1318"/>
+			<reward item_id="4041" min="1" max="1" chance="0.0750"/>
+			<reward item_id="2324" min="1" max="1" chance="0.0459"/>
+			<reward item_id="471" min="1" max="1" chance="0.0362"/>
+			<reward item_id="439" min="1" max="1" chance="0.0226"/>
+			<reward item_id="45931" min="1" max="1" chance="0.0132"/>
+			<reward item_id="45932" min="1" max="1" chance="0.0026"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="1908" min="1" max="1" chance="0.3003"/>
+			<reward item_id="1954" min="1" max="1" chance="0.3003"/>
+			<reward item_id="2163" min="1" max="1" chance="0.0750"/>
+		</rewardlist>
+	</npc>
+	<npc id="20832" name="Zaken's Pikeman" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="28;33"/>
+		<set name="collision_radius" value="10;12"/>
+		<set name="level" value="92"/>
+		<set name="rewardExp" value="3264"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="221"/>
+		<set name="baseHpMax" value="14213.315791308"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="5.5"/>
+		<set name="baseMpMax" value="2096"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="210.04832"/>
+		<set name="basePDef" value="169.13417"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="143.43577"/>
+		<set name="baseMDef" value="123.76505"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.21"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<faction names="undead_clan1" range="300"/>
+		<equip>
+			<rhand item_id="292"/>	<!--Pike-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="true"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4410" level="8"/>	<!--Weak P. Atk.-->
+			<skill id="4411" level="8"/>	<!--Weak M. Atk.-->
+			<skill id="4412" level="14"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="14"/>	<!--Strong M. Def.-->
+			<skill id="4414" level="3"/>	<!--Light Armor Type-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4244" level="4" use_type="PhysicalSpecial"/>	<!--Wild Sweep-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="43" max="87" chance="70.0000"/>
+			<reward item_id="34991" min="1" max="1" chance="7.7927"/>
+			<reward item_id="34992" min="1" max="1" chance="7.7927"/>
+			<reward item_id="1879" min="1" max="1" chance="1.2988"/>
+			<reward item_id="1875" min="1" max="1" chance="0.5208"/>
+			<reward item_id="2933" min="1" max="1" chance="0.5076"/>
+			<reward item_id="2931" min="1" max="1" chance="0.5076"/>
+			<reward item_id="2932" min="1" max="1" chance="0.5076"/>
+			<reward item_id="1949" min="1" max="1" chance="0.5076"/>
+			<reward item_id="1963" min="1" max="1" chance="0.5076"/>
+			<reward item_id="1957" min="1" max="1" chance="0.5076"/>
+			<reward item_id="2162" min="1" max="1" chance="0.3759"/>
+			<reward item_id="2312" min="1" max="1" chance="0.0340"/>
+			<reward item_id="5159" min="1" max="1" chance="0.0260"/>
+			<reward item_id="61" min="1" max="1" chance="0.0121"/>
+			<reward item_id="2428" min="1" max="1" chance="0.0121"/>
+			<reward item_id="2427" min="1" max="1" chance="0.0121"/>
+			<reward item_id="607" min="1" max="1" chance="0.0121"/>
+			<reward item_id="2451" min="1" max="1" chance="0.0121"/>
+			<reward item_id="1125" min="1" max="1" chance="0.0121"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="1902" min="1" max="1" chance="11.0061"/>
+			<reward item_id="1825" min="1" max="1" chance="7.7593"/>
+			<reward item_id="5231" min="1" max="1" chance="7.7593"/>
+		</rewardlist>
+	</npc>
+	<npc id="20833" name="Zaken's Archer" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Ranger"/>
+		<set name="collision_height" value="27"/>
+		<set name="collision_radius" value="11"/>
+		<set name="level" value="92"/>
+		<set name="rewardExp" value="3631"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="248"/>
+		<set name="baseHpMax" value="14213.315791308"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="5.5"/>
+		<set name="baseMpMax" value="2096"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="80"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="222.23112"/>
+		<set name="basePDef" value="173.43552"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="151.75505"/>
+		<set name="baseMDef" value="126.91259"/>
+		<set name="baseWalkSpd" value="40"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="1100"/>
+		<set name="baseRandDam" value="5"/>
+		<set name="baseAttackType" value="BOW"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.8"/>
+		<set name="baseReuseDelay" value="1500"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="undead_clan1" range="300"/>
+		<equip>
+			<rhand item_id="279"/>	<!--Reinforced Longbow-->
+		</equip>
+		<ai_params>
+			<set name="LongRangeGuardRate" value="5"/>
+			<set name="unsowing" value="true"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4410" level="8"/>	<!--Weak P. Atk.-->
+			<skill id="4411" level="8"/>	<!--Weak M. Atk.-->
+			<skill id="4412" level="14"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="14"/>	<!--Strong M. Def.-->
+			<skill id="4414" level="3"/>	<!--Light Armor Type-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4415" level="9"/>	<!--Bow-->
+			<skill id="4040" level="4" use_type="PhysicalSpecial"/>	<!--Power Shot-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="47" max="97" chance="70.0000"/>
+			<reward item_id="34992" min="2" max="2" chance="7.6058"/>
+			<reward item_id="34990" min="1" max="1" chance="6.9143"/>
+			<reward item_id="1881" min="1" max="1" chance="0.6897"/>
+			<reward item_id="2209" min="1" max="1" chance="0.3906"/>
+			<reward item_id="1875" min="1" max="1" chance="0.3460"/>
+			<reward item_id="45929" min="1" max="1" chance="0.2075"/>
+			<reward item_id="2074" min="1" max="1" chance="0.2020"/>
+			<reward item_id="2205" min="1" max="1" chance="0.1642"/>
+			<reward item_id="45930" min="1" max="1" chance="0.0518"/>
+			<reward item_id="2299" min="1" max="1" chance="0.0227"/>
+			<reward item_id="45931" min="1" max="1" chance="0.0052"/>
+			<reward item_id="281" min="1" max="1" chance="0.0032"/>
+			<reward item_id="45932" min="1" max="1" chance="0.0010"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="1905" min="1" max="1" chance="11.7410"/>
+			<reward item_id="1875" min="1" max="1" chance="8.0465"/>
+			<reward item_id="34991" min="3" max="3" chance="8.0465"/>
+		</rewardlist>
+	</npc>
+	<npc id="20834" name="Mardian" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Mystic"/>
+		<set name="collision_height" value="25.5"/>
+		<set name="collision_radius" value="26"/>
+		<set name="level" value="42"/>
+		<set name="rewardExp" value="5403"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="360"/>
+		<set name="baseHpMax" value="1050.81652"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="5.5"/>
+		<set name="baseMpMax" value="531"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="198.34591"/>
+		<set name="basePDef" value="164.88513"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="135.44454"/>
+		<set name="baseMDef" value="120.65578"/>
+		<set name="baseWalkSpd" value="72"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.26"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<faction names="-1" range="300"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="12"/>	<!--Bugs-->
+			<skill id="4410" level="12"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4411" level="12"/>	<!--Slightly Strong M. Atk.-->
+			<skill id="4412" level="10"/>	<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="10"/>	<!--Slightly Weak M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4074" level="2" use_type="Buff"/>	<!--Haste-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="72" max="145" chance="70.0000"/>
+			<reward item_id="34992" min="1" max="1" chance="15.7077"/>
+			<reward item_id="34990" min="1" max="1" chance="11.2198"/>
+			<reward item_id="34991" min="1" max="1" chance="6.9045"/>
+			<reward item_id="1878" min="1" max="1" chance="4.4879"/>
+			<reward item_id="6668" min="1" max="1" chance="4.0070"/>
+			<reward item_id="1951" min="1" max="1" chance="1.1328"/>
+			<reward item_id="2996" min="1" max="1" chance="0.8929"/>
+			<reward item_id="1950" min="1" max="1" chance="0.7299"/>
+			<reward item_id="2306" min="1" max="1" chance="0.0490"/>
+			<reward item_id="5274" min="1" max="1" chance="0.0374"/>
+			<reward item_id="380" min="1" max="1" chance="0.0239"/>
+			<reward item_id="353" min="1" max="1" chance="0.0149"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="34992" min="1" max="1" chance="71.4983"/>
+			<reward item_id="34990" min="1" max="1" chance="14.8955"/>
+			<reward item_id="1805" min="1" max="1" chance="0.5952"/>
+		</rewardlist>
+	</npc>
+	<npc id="20835" name="Zaken's Watchman" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="28"/>
+		<set name="collision_radius" value="15"/>
+		<set name="level" value="92"/>
+		<set name="rewardExp" value="2974"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="206"/>
+		<set name="baseHpMax" value="14213.315791308"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="5.5"/>
+		<set name="baseMpMax" value="2096"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="234.89829"/>
+		<set name="basePDef" value="177.78746"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="160.40508"/>
+		<set name="baseMDef" value="130.09715"/>
+		<set name="baseWalkSpd" value="80"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="20"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="9"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.34"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<ai_params>
+			<set name="LongRangeGuardRate" value="5"/>
+			<set name="unsowing" value="true"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="2"/>	<!--Magic Creatures-->
+			<skill id="4410" level="8"/>	<!--Weak P. Atk.-->
+			<skill id="4411" level="8"/>	<!--Weak M. Atk.-->
+			<skill id="4412" level="14"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="14"/>	<!--Strong M. Def.-->
+			<skill id="4414" level="3"/>	<!--Light Armor Type-->
+			<skill id="4444" level="2"/>	<!--Greater Bow/Crossbow Resistance-->
+			<skill id="4273" level="3"/>	<!--Dagger/Rapier Resistance-->
+			<skill id="4274" level="1"/>	<!--Blunt Weapon Vulnerability-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4415" level="5"/>	<!--Blunt Weapon-->
+			<skill id="4151" level="4" use_type="W_LongRangeDDMagic"/>	<!--Wind Strike-->
+			<skill id="4160" level="4" use_type="W_ShortRangeDDMagic"/>	<!--Aura Burn-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="39" max="79" chance="70.0000"/>
+			<reward item_id="34991" min="1" max="1" chance="3.3431"/>
+			<reward item_id="34992" min="1" max="1" chance="3.3431"/>
+			<reward item_id="1954" min="1" max="1" chance="0.6211"/>
+			<reward item_id="1879" min="1" max="1" chance="0.5587"/>
+			<reward item_id="1962" min="1" max="1" chance="0.3745"/>
+			<reward item_id="2990" min="1" max="1" chance="0.2653"/>
+			<reward item_id="1875" min="1" max="1" chance="0.2227"/>
+			<reward item_id="3000" min="1" max="1" chance="0.2141"/>
+			<reward item_id="45929" min="1" max="1" chance="0.1337"/>
+			<reward item_id="4040" min="1" max="1" chance="0.0668"/>
+			<reward item_id="45930" min="1" max="1" chance="0.0334"/>
+			<reward item_id="2303" min="1" max="1" chance="0.0146"/>
+			<reward item_id="471" min="1" max="1" chance="0.0129"/>
+			<reward item_id="3033" min="1" max="1" chance="0.0111"/>
+			<reward item_id="3954" min="1" max="1" chance="0.0111"/>
+			<reward item_id="439" min="1" max="1" chance="0.0080"/>
+			<reward item_id="45931" min="1" max="1" chance="0.0033"/>
+			<reward item_id="45932" min="1" max="1" chance="0.0007"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="34992" min="1" max="1" chance="49.5145"/>
+			<reward item_id="1879" min="1" max="1" chance="16.5048"/>
+			<reward item_id="1906" min="1" max="1" chance="13.6122"/>
+		</rewardlist>
+	</npc>
+	<npc id="20836" name="Pirate Zombie" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Mystic"/>
+		<set name="collision_height" value="23"/>
+		<set name="collision_radius" value="10"/>
+		<set name="level" value="92"/>
+		<set name="rewardExp" value="6798"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="466"/>
+		<set name="baseHpMax" value="14213.315791308"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="5.5"/>
+		<set name="baseMpMax" value="2096"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="80"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="222.23112"/>
+		<set name="basePDef" value="173.43552"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="151.75505"/>
+		<set name="baseMDef" value="126.91259"/>
+		<set name="baseWalkSpd" value="11"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="5"/>
+		<set name="baseAttackType" value="DAGGER"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.74"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="undead_clan1" range="300"/>
+		<equip>
+			<rhand item_id="225"/>	<!--Mithril Dagger-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4410" level="12"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4411" level="12"/>	<!--Slightly Strong M. Atk.-->
+			<skill id="4412" level="14"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="10"/>	<!--Slightly Weak M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="7"/>	<!--Dagger-->
+			<skill id="4067" level="4" use_type="PhysicalSpecial"/>	<!--Blow-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="82" max="168" chance="70.0000"/>
+			<reward item_id="34992" min="2" max="2" chance="14.4825"/>
+			<reward item_id="34990" min="1" max="1" chance="13.1659"/>
+			<reward item_id="2251" min="1" max="1" chance="1.6457"/>
+			<reward item_id="1881" min="1" max="1" chance="1.3166"/>
+			<reward item_id="1875" min="1" max="1" chance="0.6579"/>
+			<reward item_id="45929" min="1" max="1" chance="0.3953"/>
+			<reward item_id="2075" min="1" max="1" chance="0.1290"/>
+			<reward item_id="2062" min="1" max="1" chance="0.1290"/>
+			<reward item_id="2076" min="1" max="1" chance="0.1290"/>
+			<reward item_id="45930" min="1" max="1" chance="0.0987"/>
+			<reward item_id="2319" min="1" max="1" chance="0.0344"/>
+			<reward item_id="45931" min="1" max="1" chance="0.0099"/>
+			<reward item_id="45932" min="1" max="1" chance="0.0020"/>
+			<reward item_id="96" min="1" max="1" chance="0.0019"/>
+			<reward item_id="302" min="1" max="1" chance="0.0019"/>
+			<reward item_id="298" min="1" max="1" chance="0.0019"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="1875" min="1" max="1" chance="13.9288"/>
+			<reward item_id="34991" min="3" max="3" chance="13.9288"/>
+		</rewardlist>
+	</npc>
+	<npc id="20837" name="Tainted Ogre" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="44;52.5"/>
+		<set name="collision_radius" value="21;25"/>
+		<set name="level" value="45"/>
+		<set name="rewardExp" value="6158"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="428"/>
+		<set name="baseHpMax" value="1183.80594"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="5.5"/>
+		<set name="baseMpMax" value="610.8"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="234.89829"/>
+		<set name="basePDef" value="177.78746"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="160.40508"/>
+		<set name="baseMDef" value="130.09715"/>
+		<set name="baseWalkSpd" value="22"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="20"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="9"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.69"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<faction names="undead_clan1" range="300"/>
+		<equip>
+			<rhand item_id="194"/>	<!--Heavy Doom Axe-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="11"/>	<!--Giants-->
+			<skill id="4410" level="12"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4411" level="12"/>	<!--Slightly Strong M. Atk.-->
+			<skill id="4412" level="10"/>	<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="10"/>	<!--Slightly Weak M. Def.-->
+			<skill id="4225" level="1"/>	<!--Stun Attack Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="6"/>	<!--Blunt Weapon-->
+			<skill id="4073" level="4" use_type="PhysicalSpecial"/>	<!--Stun-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="81" max="164" chance="70.0000"/>
+			<reward item_id="34992" min="1" max="1" chance="17.6191"/>
+			<reward item_id="1873" min="1" max="1" chance="3.5238"/>
+			<reward item_id="1895" min="1" max="1" chance="2.5170"/>
+			<reward item_id="34991" min="1" max="1" chance="1.7619"/>
+			<reward item_id="2944" min="1" max="1" chance="0.4831"/>
+			<reward item_id="1958" min="1" max="1" chance="0.4831"/>
+			<reward item_id="2939" min="1" max="1" chance="0.4831"/>
+			<reward item_id="2940" min="1" max="1" chance="0.4831"/>
+			<reward item_id="2942" min="1" max="1" chance="0.4831"/>
+			<reward item_id="2943" min="1" max="1" chance="0.4831"/>
+			<reward item_id="2938" min="1" max="1" chance="0.4831"/>
+			<reward item_id="2937" min="1" max="1" chance="0.4831"/>
+			<reward item_id="2941" min="1" max="1" chance="0.4831"/>
+			<reward item_id="45929" min="1" max="1" chance="0.3521"/>
+			<reward item_id="2225" min="1" max="1" chance="0.1916"/>
+			<reward item_id="4042" min="1" max="1" chance="0.1468"/>
+			<reward item_id="45930" min="1" max="1" chance="0.0881"/>
+			<reward item_id="2321" min="1" max="1" chance="0.0307"/>
+			<reward item_id="2431" min="1" max="1" chance="0.0111"/>
+			<reward item_id="2429" min="1" max="1" chance="0.0111"/>
+			<reward item_id="62" min="1" max="1" chance="0.0111"/>
+			<reward item_id="2452" min="1" max="1" chance="0.0111"/>
+			<reward item_id="2433" min="1" max="1" chance="0.0111"/>
+			<reward item_id="2432" min="1" max="1" chance="0.0111"/>
+			<reward item_id="2454" min="1" max="1" chance="0.0111"/>
+			<reward item_id="2430" min="1" max="1" chance="0.0111"/>
+			<reward item_id="2453" min="1" max="1" chance="0.0111"/>
+			<reward item_id="45931" min="1" max="1" chance="0.0088"/>
+			<reward item_id="45932" min="1" max="1" chance="0.0018"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="1895" min="1" max="1" chance="58.5827"/>
+			<reward item_id="1960" min="1" max="1" chance="11.2350"/>
+			<reward item_id="2214" min="1" max="1" chance="5.0878"/>
+		</rewardlist>
+	</npc>
+	<npc id="20838" name="Bloody Bat" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Mystic"/>
+		<set name="collision_height" value="33.5"/>
+		<set name="collision_radius" value="10"/>
+		<set name="level" value="45"/>
+		<set name="rewardExp" value="5773"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="402"/>
+		<set name="baseHpMax" value="1183.80594"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="5.5"/>
+		<set name="baseMpMax" value="610.8"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="80"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="234.89829"/>
+		<set name="basePDef" value="177.78746"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="160.40508"/>
+		<set name="baseMDef" value="130.09715"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="5"/>
+		<set name="baseAttackType" value="DAGGER"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.5"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="-1" range="300"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="4"/>	<!--Animals-->
+			<skill id="4410" level="10"/>	<!--Slightly Weak P. Atk.-->
+			<skill id="4411" level="10"/>	<!--Slightly Weak M. Atk.-->
+			<skill id="4412" level="12"/>	<!--Slightly Strong P. Def.-->
+			<skill id="4413" level="12"/>	<!--Slightly Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="7"/>	<!--Dagger-->
+			<skill id="4088" level="4" use_type="DeBuff"/>	<!--Bleed-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="76" max="154" chance="70.0000"/>
+			<reward item_id="34992" min="1" max="1" chance="9.0834"/>
+			<reward item_id="34991" min="24" max="24" chance="6.1346"/>
+			<reward item_id="1909" min="1" max="1" chance="2.0446"/>
+			<reward item_id="1908" min="1" max="1" chance="1.4337"/>
+			<reward item_id="1910" min="1" max="1" chance="1.1401"/>
+			<reward item_id="34990" min="1" max="1" chance="0.7576"/>
+			<reward item_id="3004" min="1" max="1" chance="0.5650"/>
+			<reward item_id="5220" min="1" max="1" chance="0.3636"/>
+			<reward item_id="45929" min="1" max="1" chance="0.3636"/>
+			<reward item_id="45930" min="1" max="1" chance="0.0908"/>
+			<reward item_id="4041" min="1" max="1" chance="0.0790"/>
+			<reward item_id="883" min="1" max="1" chance="0.0381"/>
+			<reward item_id="852" min="1" max="1" chance="0.0254"/>
+			<reward item_id="915" min="1" max="1" chance="0.0190"/>
+			<reward item_id="45931" min="1" max="1" chance="0.0091"/>
+			<reward item_id="45932" min="1" max="1" chance="0.0018"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="34991" min="1" max="1" chance="64.0646"/>
+			<reward item_id="1964" min="1" max="1" chance="15.5308"/>
+			<reward item_id="2216" min="1" max="1" chance="7.9419"/>
+		</rewardlist>
+	</npc>
+	<npc id="20839" name="Dismal Humming" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="26"/>
+		<set name="collision_radius" value="12"/>
+		<set name="level" value="92"/>
+		<set name="rewardExp" value="3452"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="245"/>
+		<set name="baseHpMax" value="14213.315791308"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="5.5"/>
+		<set name="baseMpMax" value="2096"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="248.0526"/>
+		<set name="basePDef" value="182.18816"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="169.38777"/>
+		<set name="baseMDef" value="133.31739"/>
+		<set name="baseWalkSpd" value="21"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.59"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<faction names="undead_clan" range="300"/>
+		<ai_params>
+			<set name="unsowing" value="true"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4410" level="8"/>	<!--Weak P. Atk.-->
+			<skill id="4411" level="8"/>	<!--Weak M. Atk.-->
+			<skill id="4412" level="14"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="14"/>	<!--Strong M. Def.-->
+			<skill id="4438" level="2"/>	<!--Greater Sleep Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4088" level="4" use_type="DeBuff"/>	<!--Bleed-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="45" max="92" chance="70.0000"/>
+			<reward item_id="34990" min="3" max="3" chance="6.1959"/>
+			<reward item_id="34992" min="1" max="1" chance="6.0371"/>
+			<reward item_id="6668" min="1" max="1" chance="1.6171"/>
+			<reward item_id="1882" min="1" max="1" chance="1.0062"/>
+			<reward item_id="2945" min="1" max="1" chance="0.7299"/>
+			<reward item_id="1964" min="1" max="1" chance="0.7299"/>
+			<reward item_id="2936" min="1" max="1" chance="0.6667"/>
+			<reward item_id="45929" min="1" max="1" chance="0.1812"/>
+			<reward item_id="1894" min="1" max="1" chance="0.1590"/>
+			<reward item_id="2230" min="1" max="1" chance="0.0878"/>
+			<reward item_id="4042" min="1" max="1" chance="0.0755"/>
+			<reward item_id="45930" min="1" max="1" chance="0.0453"/>
+			<reward item_id="2495" min="1" max="1" chance="0.0178"/>
+			<reward item_id="631" min="1" max="1" chance="0.0178"/>
+			<reward item_id="2326" min="1" max="1" chance="0.0158"/>
+			<reward item_id="2413" min="1" max="1" chance="0.0124"/>
+			<reward item_id="45931" min="1" max="1" chance="0.0045"/>
+			<reward item_id="45932" min="1" max="1" chance="0.0009"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="1908" min="1" max="1" chance="10.8867"/>
+			<reward item_id="2066" min="1" max="1" chance="0.9009"/>
+			<reward item_id="2320" min="1" max="1" chance="0.4000"/>
+		</rewardlist>
+	</npc>
+	<npc id="20840" name="Death Flyer" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="35;42"/>
+		<set name="collision_radius" value="20"/>
+		<set name="level" value="92"/>
+		<set name="rewardExp" value="3566"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="256"/>
+		<set name="baseHpMax" value="14213.315791308"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="5.5"/>
+		<set name="baseMpMax" value="2096"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="261.69549"/>
+		<set name="basePDef" value="186.63569"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="178.7041"/>
+		<set name="baseMDef" value="136.5719"/>
+		<set name="baseWalkSpd" value="100"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="20"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="9"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.37"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="undead_clan" range="300"/>
+		<ai_params>
+			<set name="unsowing" value="true"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4410" level="8"/>	<!--Weak P. Atk.-->
+			<skill id="4411" level="8"/>	<!--Weak M. Atk.-->
+			<skill id="4412" level="14"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="14"/>	<!--Strong M. Def.-->
+			<skill id="4414" level="3"/>	<!--Light Armor Type-->
+			<skill id="4438" level="2"/>	<!--Greater Sleep Resistance-->
+			<skill id="4439" level="2"/>	<!--Greater Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4415" level="5"/>	<!--Blunt Weapon-->
+			<skill id="4074" level="2" use_type="Buff"/>	<!--Haste-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="46" max="95" chance="70.0000"/>
+			<reward item_id="34992" min="4" max="4" chance="9.8748"/>
+			<reward item_id="1873" min="1" max="1" chance="1.9112"/>
+			<reward item_id="34991" min="8" max="8" chance="0.6369"/>
+			<reward item_id="1889" min="1" max="1" chance="0.3185"/>
+			<reward item_id="4044" min="1" max="1" chance="0.1592"/>
+			<reward item_id="45929" min="1" max="1" chance="0.1592"/>
+			<reward item_id="2083" min="1" max="1" chance="0.0873"/>
+			<reward item_id="2084" min="1" max="1" chance="0.0873"/>
+			<reward item_id="952" min="1" max="1" chance="0.0637"/>
+			<reward item_id="2229" min="1" max="1" chance="0.0579"/>
+			<reward item_id="45930" min="1" max="1" chance="0.0398"/>
+			<reward item_id="45931" min="1" max="1" chance="0.0040"/>
+			<reward item_id="227" min="1" max="1" chance="0.0012"/>
+			<reward item_id="242" min="1" max="1" chance="0.0012"/>
+			<reward item_id="45932" min="1" max="1" chance="0.0008"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="1967" min="1" max="1" chance="6.4698"/>
+			<reward item_id="2166" min="1" max="1" chance="4.0211"/>
+			<reward item_id="2328" min="1" max="1" chance="0.2762"/>
+		</rewardlist>
+	</npc>
+	<npc id="20841" name="Fiend Archer" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Ranger"/>
+		<set name="collision_height" value="55"/>
+		<set name="collision_radius" value="17"/>
+		<set name="level" value="92"/>
+		<set name="rewardExp" value="3662"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="321"/>
+		<set name="baseHpMax" value="14213.315791308"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="5.5"/>
+		<set name="baseMpMax" value="2096"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="80"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="275.82705"/>
+		<set name="basePDef" value="191.12803"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="188.35412"/>
+		<set name="baseMDef" value="139.8592"/>
+		<set name="baseWalkSpd" value="70"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="1100"/>
+		<set name="baseRandDam" value="5"/>
+		<set name="baseAttackType" value="BOW"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.76"/>
+		<set name="baseReuseDelay" value="1500"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<faction names="demonic_clan" range="300"/>
+		<ai_params>
+			<set name="LongRangeGuardRate" value="5"/>
+			<set name="unsowing" value="true"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="4410" level="8"/>	<!--Weak P. Atk.-->
+			<skill id="4411" level="8"/>	<!--Weak M. Atk.-->
+			<skill id="4412" level="14"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="14"/>	<!--Strong M. Def.-->
+			<skill id="4414" level="3"/>	<!--Light Armor Type-->
+			<skill id="4071" level="5"/>	<!--Bow/Crossbow Resistance-->
+			<skill id="4085" level="1"/>	<!--Critical Damage-->
+			<skill id="4086" level="1"/>	<!--Critical Chance-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4415" level="9"/>	<!--Bow-->
+			<skill id="4389" level="4"/>	<!--Mental Attack Resistance-->
+			<skill id="4141" level="4" use_type="W_FiendArcher"/>	<!--Wind Fist-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="48" max="98" chance="70.0000"/>
+			<reward item_id="34992" min="1" max="1" chance="9.0063"/>
+			<reward item_id="34990" min="1" max="1" chance="4.5032"/>
+			<reward item_id="34991" min="17" max="17" chance="0.5102"/>
+			<reward item_id="4043" min="1" max="1" chance="0.1502"/>
+			<reward item_id="45929" min="1" max="1" chance="0.1502"/>
+			<reward item_id="2085" min="1" max="1" chance="0.0935"/>
+			<reward item_id="2086" min="1" max="1" chance="0.0935"/>
+			<reward item_id="5550" min="1" max="1" chance="0.0600"/>
+			<reward item_id="952" min="1" max="1" chance="0.0600"/>
+			<reward item_id="45930" min="1" max="1" chance="0.0375"/>
+			<reward item_id="2348" min="1" max="1" chance="0.0105"/>
+			<reward item_id="2351" min="1" max="1" chance="0.0094"/>
+			<reward item_id="45931" min="1" max="1" chance="0.0037"/>
+			<reward item_id="282" min="1" max="1" chance="0.0012"/>
+			<reward item_id="285" min="1" max="1" chance="0.0012"/>
+			<reward item_id="45932" min="1" max="1" chance="0.0008"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="1911" min="1" max="1" chance="9.0711"/>
+			<reward item_id="4438" min="1" max="1" chance="0.8696"/>
+			<reward item_id="951" min="1" max="1" chance="0.2217"/>
+		</rewardlist>
+	</npc>
+	<npc id="20842" name="Musveren" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="30"/>
+		<set name="collision_radius" value="15"/>
+		<set name="level" value="92"/>
+		<set name="rewardExp" value="3492"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="258"/>
+		<set name="baseHpMax" value="14213.315791308"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="5.5"/>
+		<set name="baseMpMax" value="2096"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="290.44588"/>
+		<set name="basePDef" value="195.66302"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="198.33688"/>
+		<set name="baseMDef" value="143.17771"/>
+		<set name="baseWalkSpd" value="70"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.41"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="undead_clan" range="300"/>
+		<ai_params>
+			<set name="unsowing" value="true"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="2"/>	<!--Magic Creatures-->
+			<skill id="4410" level="8"/>	<!--Weak P. Atk.-->
+			<skill id="4411" level="8"/>	<!--Weak M. Atk.-->
+			<skill id="4412" level="14"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="14"/>	<!--Strong M. Def.-->
+			<skill id="4444" level="2"/>	<!--Greater Bow/Crossbow Resistance-->
+			<skill id="4273" level="3"/>	<!--Dagger/Rapier Resistance-->
+			<skill id="4274" level="1"/>	<!--Blunt Weapon Vulnerability-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4002" level="4" use_type="DDMagic"/>	<!--Blood Siphon-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="45" max="93" chance="70.0000"/>
+			<reward item_id="34991" min="4" max="4" chance="5.5005"/>
+			<reward item_id="34992" min="1" max="1" chance="5.1567"/>
+			<reward item_id="1912" min="1" max="1" chance="0.9259"/>
+			<reward item_id="1911" min="1" max="1" chance="0.6410"/>
+			<reward item_id="1913" min="1" max="1" chance="0.5236"/>
+			<reward item_id="1874" min="1" max="1" chance="0.3436"/>
+			<reward item_id="34990" min="2" max="2" chance="0.1718"/>
+			<reward item_id="45929" min="1" max="1" chance="0.1718"/>
+			<reward item_id="4043" min="1" max="1" chance="0.1718"/>
+			<reward item_id="952" min="1" max="1" chance="0.0687"/>
+			<reward item_id="45930" min="1" max="1" chance="0.0430"/>
+			<reward item_id="884" min="1" max="1" chance="0.0171"/>
+			<reward item_id="853" min="1" max="1" chance="0.0114"/>
+			<reward item_id="916" min="1" max="1" chance="0.0086"/>
+			<reward item_id="45931" min="1" max="1" chance="0.0043"/>
+			<reward item_id="45932" min="1" max="1" chance="0.0009"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="1976" min="1" max="1" chance="7.0772"/>
+			<reward item_id="2167" min="1" max="1" chance="5.9380"/>
+			<reward item_id="2335" min="1" max="1" chance="0.2710"/>
+		</rewardlist>
+	</npc>
+	<npc id="20843" name="Zaken's Royal Guard" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="28.5"/>
+		<set name="collision_radius" value="11"/>
+		<set name="level" value="92"/>
+		<set name="rewardExp" value="4413"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="332"/>
+		<set name="baseHpMax" value="304477.177619526"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="5.5"/>
+		<set name="baseMpMax" value="20960"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="80"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="305.54906"/>
+		<set name="basePDef" value="200.23844"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="208.6504"/>
+		<set name="baseMDef" value="146.5258"/>
+		<set name="baseWalkSpd" value="80"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="100.11922"/>
+		<set name="baseShldRate" value="20"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="5"/>
+		<set name="baseAttackType" value="DAGGER"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.52"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<faction names="undead_clan" range="300"/>
+		<equip>
+			<rhand item_id="225"/>	<!--Mithril Dagger-->
+			<lhand item_id="945"/>	<!--Skeleton Buckler-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="true"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4410" level="8"/>	<!--Weak P. Atk.-->
+			<skill id="4411" level="8"/>	<!--Weak M. Atk.-->
+			<skill id="4412" level="14"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="14"/>	<!--Strong M. Def.-->
+			<skill id="4071" level="5"/>	<!--Bow/Crossbow Resistance-->
+			<skill id="4273" level="3"/>	<!--Dagger/Rapier Resistance-->
+			<skill id="4274" level="1"/>	<!--Blunt Weapon Vulnerability-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="7"/>	<!--Dagger-->
+			<skill id="4067" level="5" use_type="PhysicalSpecial"/>	<!--Blow-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="58" max="118" chance="70.0000"/>
+			<reward item_id="34992" min="1" max="1" chance="5.0757"/>
+			<reward item_id="34991" min="24" max="24" chance="3.4279"/>
+			<reward item_id="34990" min="2" max="2" chance="0.2028"/>
+			<reward item_id="2109" min="1" max="1" chance="0.1706"/>
+			<reward item_id="3014" min="1" max="1" chance="0.1418"/>
+			<reward item_id="45929" min="1" max="1" chance="0.1410"/>
+			<reward item_id="4040" min="1" max="1" chance="0.1015"/>
+			<reward item_id="4041" min="1" max="1" chance="0.0441"/>
+			<reward item_id="45930" min="1" max="1" chance="0.0352"/>
+			<reward item_id="2357" min="1" max="1" chance="0.0083"/>
+			<reward item_id="4188" min="1" max="1" chance="0.0058"/>
+			<reward item_id="45931" min="1" max="1" chance="0.0035"/>
+			<reward item_id="283" min="1" max="1" chance="0.0018"/>
+			<reward item_id="45932" min="1" max="1" chance="0.0007"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="1539" min="1" max="1" chance="32.7301"/>
+			<reward item_id="1914" min="1" max="1" chance="8.2745"/>
+			<reward item_id="4601" min="1" max="1" chance="0.3268"/>
+		</rewardlist>
+	</npc>
+	<npc id="20844" name="Kaim Vanul" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="40;48"/>
+		<set name="collision_radius" value="24;29"/>
+		<set name="level" value="92"/>
+		<set name="rewardExp" value="3935"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="300"/>
+		<set name="baseHpMax" value="14213.315791308"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="2096"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="321.13207"/>
+		<set name="basePDef" value="204.85194"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="219.29157"/>
+		<set name="baseMDef" value="149.90176"/>
+		<set name="baseWalkSpd" value="37"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.45"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="demonic_clan" range="300"/>
+		<ai_params>
+			<set name="unsowing" value="true"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="4410" level="8"/>	<!--Weak P. Atk.-->
+			<skill id="4411" level="8"/>	<!--Weak M. Atk.-->
+			<skill id="4412" level="14"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="14"/>	<!--Strong M. Def.-->
+			<skill id="4085" level="1"/>	<!--Critical Damage-->
+			<skill id="4086" level="1"/>	<!--Critical Chance-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4047" level="5" use_type="HoldMagic"/>	<!--Hold-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="52" max="105" chance="70.0000"/>
+			<reward item_id="34992" min="2" max="2" chance="6.6466"/>
+			<reward item_id="34990" min="1" max="1" chance="6.0423"/>
+			<reward item_id="1915" min="1" max="1" chance="0.8000"/>
+			<reward item_id="1881" min="1" max="1" chance="0.6061"/>
+			<reward item_id="1914" min="1" max="1" chance="0.5102"/>
+			<reward item_id="1916" min="1" max="1" chance="0.3861"/>
+			<reward item_id="1875" min="1" max="1" chance="0.3021"/>
+			<reward item_id="45929" min="1" max="1" chance="0.1259"/>
+			<reward item_id="34991" min="23" max="23" chance="0.0394"/>
+			<reward item_id="45930" min="1" max="1" chance="0.0315"/>
+			<reward item_id="885" min="1" max="1" chance="0.0120"/>
+			<reward item_id="4609" min="1" max="1" chance="0.0101"/>
+			<reward item_id="4601" min="1" max="1" chance="0.0101"/>
+			<reward item_id="854" min="1" max="1" chance="0.0080"/>
+			<reward item_id="2355" min="1" max="1" chance="0.0074"/>
+			<reward item_id="917" min="1" max="1" chance="0.0060"/>
+			<reward item_id="45931" min="1" max="1" chance="0.0032"/>
+			<reward item_id="45932" min="1" max="1" chance="0.0006"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="1539" min="1" max="1" chance="29.2227"/>
+			<reward item_id="34991" min="23" max="23" chance="1.1435"/>
+			<reward item_id="4603" min="1" max="1" chance="0.2924"/>
+		</rewardlist>
+	</npc>
+	<npc id="20845" name="Pirate Zombie Captain" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="28"/>
+		<set name="collision_radius" value="17"/>
+		<set name="level" value="92"/>
+		<set name="rewardExp" value="5944"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="460"/>
+		<set name="baseHpMax" value="14213.315791308"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="2096"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="80"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="337.18867"/>
+		<set name="basePDef" value="209.50106"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="230.25615"/>
+		<set name="baseMDef" value="153.30378"/>
+		<set name="baseWalkSpd" value="14"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="5"/>
+		<set name="baseAttackType" value="DAGGER"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.76"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<faction names="zaken_clan" range="300"/>
+		<equip>
+			<rhand item_id="232"/>	<!--Dark Elven Dagger-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="true"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4410" level="8"/>	<!--Weak P. Atk.-->
+			<skill id="4411" level="8"/>	<!--Weak M. Atk.-->
+			<skill id="4412" level="18"/>	<!--Extremely Strong P. Def.-->
+			<skill id="4413" level="14"/>	<!--Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="7"/>	<!--Dagger-->
+			<skill id="4067" level="5" use_type="PhysicalSpecial"/>	<!--Blow-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="71" max="143" chance="70.0000"/>
+			<reward item_id="34992" min="1" max="1" chance="10.5869"/>
+			<reward item_id="1873" min="1" max="1" chance="2.1174"/>
+			<reward item_id="1895" min="1" max="1" chance="1.5124"/>
+			<reward item_id="6669" min="1" max="1" chance="1.2310"/>
+			<reward item_id="34991" min="1" max="1" chance="1.0587"/>
+			<reward item_id="3017" min="1" max="1" chance="0.1479"/>
+			<reward item_id="45929" min="1" max="1" chance="0.1471"/>
+			<reward item_id="4042" min="1" max="1" chance="0.0882"/>
+			<reward item_id="45930" min="1" max="1" chance="0.0368"/>
+			<reward item_id="2089" min="1" max="1" chance="0.0337"/>
+			<reward item_id="2096" min="1" max="1" chance="0.0337"/>
+			<reward item_id="2095" min="1" max="1" chance="0.0337"/>
+			<reward item_id="2092" min="1" max="1" chance="0.0337"/>
+			<reward item_id="2091" min="1" max="1" chance="0.0337"/>
+			<reward item_id="2090" min="1" max="1" chance="0.0337"/>
+			<reward item_id="4608" min="1" max="1" chance="0.0118"/>
+			<reward item_id="5155" min="1" max="1" chance="0.0106"/>
+			<reward item_id="45931" min="1" max="1" chance="0.0037"/>
+			<reward item_id="45932" min="1" max="1" chance="0.0008"/>
+			<reward item_id="84" min="1" max="1" chance="0.0004"/>
+			<reward item_id="77" min="1" max="1" chance="0.0004"/>
+			<reward item_id="75" min="1" max="1" chance="0.0004"/>
+			<reward item_id="145" min="1" max="1" chance="0.0004"/>
+			<reward item_id="134" min="1" max="1" chance="0.0004"/>
+			<reward item_id="76" min="1" max="1" chance="0.0004"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="4042" min="1" max="1" chance="2.9868"/>
+			<reward item_id="2100" min="1" max="1" chance="1.0102"/>
+			<reward item_id="2354" min="1" max="1" chance="0.2924"/>
+		</rewardlist>
+	</npc>
+	<npc id="20846" name="Doll Blader" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="12"/>
+		<set name="collision_radius" value="6"/>
+		<set name="level" value="92"/>
+		<set name="rewardExp" value="4718"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="371"/>
+		<set name="baseHpMax" value="14213.315791308"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="2096"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="80"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="353.71092"/>
+		<set name="basePDef" value="214.18326"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="241.5387"/>
+		<set name="baseMDef" value="156.73001"/>
+		<set name="baseWalkSpd" value="22"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="93.9662757459918"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="5"/>
+		<set name="baseAttackType" value="DAGGER"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.5"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="zaken_clan" range="300"/>
+		<equip>
+			<rhand item_id="5129"/>	<!--Doll Knife-->
+			<lhand item_id="5129"/>	<!--Doll Knife-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="true"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="4410" level="8"/>	<!--Weak P. Atk.-->
+			<skill id="4411" level="8"/>	<!--Weak M. Atk.-->
+			<skill id="4412" level="14"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="14"/>	<!--Strong M. Def.-->
+			<skill id="4414" level="3"/>	<!--Light Armor Type-->
+			<skill id="4085" level="1"/>	<!--Critical Damage-->
+			<skill id="4086" level="1"/>	<!--Critical Chance-->
+			<skill id="4438" level="2"/>	<!--Greater Sleep Resistance-->
+			<skill id="4439" level="2"/>	<!--Greater Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4415" level="7"/>	<!--Dagger-->
+			<skill id="4074" level="2" use_type="Buff"/>	<!--Haste-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="62" max="127" chance="70.0000"/>
+			<reward item_id="34991" min="4" max="4" chance="5.1876"/>
+			<reward item_id="34992" min="1" max="1" chance="4.8633"/>
+			<reward item_id="1985" min="1" max="1" chance="0.3356"/>
+			<reward item_id="1874" min="1" max="1" chance="0.3247"/>
+			<reward item_id="1984" min="1" max="1" chance="0.2083"/>
+			<reward item_id="4043" min="1" max="1" chance="0.1621"/>
+			<reward item_id="34990" min="2" max="2" chance="0.1621"/>
+			<reward item_id="1987" min="1" max="1" chance="0.1484"/>
+			<reward item_id="45929" min="1" max="1" chance="0.1126"/>
+			<reward item_id="4959" min="1" max="1" chance="0.0937"/>
+			<reward item_id="4941" min="1" max="1" chance="0.0374"/>
+			<reward item_id="45930" min="1" max="1" chance="0.0282"/>
+			<reward item_id="4133" min="1" max="1" chance="0.0234"/>
+			<reward item_id="420" min="1" max="1" chance="0.0049"/>
+			<reward item_id="400" min="1" max="1" chance="0.0031"/>
+			<reward item_id="45931" min="1" max="1" chance="0.0028"/>
+			<reward item_id="401" min="1" max="1" chance="0.0014"/>
+			<reward item_id="45932" min="1" max="1" chance="0.0005"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="2955" min="1" max="1" chance="10.0037"/>
+			<reward item_id="1918" min="1" max="1" chance="6.8453"/>
+			<reward item_id="4042" min="1" max="1" chance="2.6343"/>
+		</rewardlist>
+	</npc>
+	<npc id="20847" name="Veil Master" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="40"/>
+		<set name="collision_radius" value="12"/>
+		<set name="level" value="92"/>
+		<set name="rewardExp" value="4500"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="359"/>
+		<set name="baseHpMax" value="14213.315791308"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="2096"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="370.68904"/>
+		<set name="basePDef" value="218.89589"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="253.13256"/>
+		<set name="baseMDef" value="160.17851"/>
+		<set name="baseWalkSpd" value="70"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.74"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<faction names="zaken_clan" range="300"/>
+		<ai_params>
+			<set name="unsowing" value="true"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="4410" level="8"/>	<!--Weak P. Atk.-->
+			<skill id="4411" level="8"/>	<!--Weak M. Atk.-->
+			<skill id="4412" level="14"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="14"/>	<!--Strong M. Def.-->
+			<skill id="4414" level="3"/>	<!--Light Armor Type-->
+			<skill id="4085" level="1"/>	<!--Critical Damage-->
+			<skill id="4086" level="1"/>	<!--Critical Chance-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4076" level="3" use_type="CheckMagic"/>	<!--Decrease Speed-->
+			<skill id="4046" level="5" use_type="SleepMagic"/>	<!--Sleep-->
+			<skill id="4087" level="5" use_type="DDMagic"/>	<!--Blaze-->
+			<skill id="4094" level="5" use_type="CancelMagic"/>	<!--Cancellation-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="59" max="121" chance="70.0000"/>
+			<reward item_id="34992" min="1" max="1" chance="11.1575"/>
+			<reward item_id="34990" min="3" max="3" chance="4.8039"/>
+			<reward item_id="34991" min="1" max="1" chance="2.8609"/>
+			<reward item_id="1878" min="1" max="1" chance="1.8596"/>
+			<reward item_id="2954" min="1" max="1" chance="0.2525"/>
+			<reward item_id="2955" min="1" max="1" chance="0.2525"/>
+			<reward item_id="2963" min="1" max="1" chance="0.2169"/>
+			<reward item_id="2964" min="1" max="1" chance="0.2169"/>
+			<reward item_id="2962" min="1" max="1" chance="0.2169"/>
+			<reward item_id="2961" min="1" max="1" chance="0.2169"/>
+			<reward item_id="2960" min="1" max="1" chance="0.2169"/>
+			<reward item_id="4039" min="1" max="1" chance="0.1550"/>
+			<reward item_id="45929" min="1" max="1" chance="0.1076"/>
+			<reward item_id="4178" min="1" max="1" chance="0.0853"/>
+			<reward item_id="45930" min="1" max="1" chance="0.0269"/>
+			<reward item_id="5160" min="1" max="1" chance="0.0093"/>
+			<reward item_id="4184" min="1" max="1" chance="0.0054"/>
+			<reward item_id="2436" min="1" max="1" chance="0.0038"/>
+			<reward item_id="2460" min="1" max="1" chance="0.0038"/>
+			<reward item_id="2461" min="1" max="1" chance="0.0029"/>
+			<reward item_id="2438" min="1" max="1" chance="0.0029"/>
+			<reward item_id="2437" min="1" max="1" chance="0.0029"/>
+			<reward item_id="2463" min="1" max="1" chance="0.0029"/>
+			<reward item_id="2462" min="1" max="1" chance="0.0029"/>
+			<reward item_id="45931" min="1" max="1" chance="0.0027"/>
+			<reward item_id="45932" min="1" max="1" chance="0.0006"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="1985" min="1" max="1" chance="5.2100"/>
+			<reward item_id="4937" min="1" max="1" chance="2.4933"/>
+			<reward item_id="1806" min="1" max="1" chance="0.3021"/>
+		</rewardlist>
+	</npc>
+	<npc id="20848" name="Light Bringer" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="23"/>
+		<set name="collision_radius" value="10"/>
+		<set name="level" value="92"/>
+		<set name="rewardExp" value="5838"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="414"/>
+		<set name="baseHpMax" value="14213.315791308"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="5.5"/>
+		<set name="baseMpMax" value="2096"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="248.0526"/>
+		<set name="basePDef" value="182.18816"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="169.38777"/>
+		<set name="baseMDef" value="133.31739"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.41"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<faction names="-1" range="300"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="3"/>	<!--Beast-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4076" level="3" use_type="DeBuff"/>	<!--Decrease Speed-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="76" max="156" chance="70.0000"/>
+			<reward item_id="34992" min="1" max="1" chance="36.7492"/>
+			<reward item_id="1868" min="1" max="1" chance="18.3746"/>
+			<reward item_id="1865" min="1" max="1" chance="9.1873"/>
+			<reward item_id="34991" min="1" max="1" chance="6.1249"/>
+			<reward item_id="1873" min="1" max="1" chance="3.6749"/>
+			<reward item_id="2164" min="1" max="1" chance="0.7092"/>
+			<reward item_id="45929" min="1" max="1" chance="0.3676"/>
+			<reward item_id="2076" min="1" max="1" chance="0.1200"/>
+			<reward item_id="2062" min="1" max="1" chance="0.1200"/>
+			<reward item_id="2075" min="1" max="1" chance="0.1200"/>
+			<reward item_id="45930" min="1" max="1" chance="0.0919"/>
+			<reward item_id="45931" min="1" max="1" chance="0.0092"/>
+			<reward item_id="45932" min="1" max="1" chance="0.0018"/>
+			<reward item_id="96" min="1" max="1" chance="0.0017"/>
+			<reward item_id="302" min="1" max="1" chance="0.0017"/>
+			<reward item_id="298" min="1" max="1" chance="0.0017"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="34992" min="1" max="1" chance="64.7978"/>
+			<reward item_id="1895" min="1" max="1" chance="55.5409"/>
+			<reward item_id="1908" min="1" max="1" chance="18.4085"/>
+		</rewardlist>
+	</npc>
+	<npc id="20849" name="Light Worm" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="16"/>
+		<set name="collision_radius" value="5"/>
+		<set name="level" value="41"/>
+		<set name="rewardExp" value="6957"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="110"/>
+		<set name="baseHpMax" value="1008.23781"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="5.5"/>
+		<set name="baseMpMax" value="504.8"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="187.11878"/>
+		<set name="basePDef" value="160.69002"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="127.77787"/>
+		<set name="baseMDef" value="117.58598"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.06"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<faction names="-1" range="300"/>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group chance="20">
+				<reward item_id="8600" min="1" max="1" chance="50"/>	<!--Herb of Life-->
+				<reward item_id="8601" min="1" max="1" chance="40"/>	<!--Greater Herb of Life-->
+				<reward item_id="8602" min="1" max="1" chance="10"/>	<!--Superior Herb of Life-->
+			</group>
+			<group chance="33">
+				<reward item_id="8603" min="1" max="1" chance="60"/>	<!--Herb of Mana-->
+				<reward item_id="8604" min="1" max="1" chance="30"/>	<!--Greater Herb of Mana-->
+				<reward item_id="8605" min="1" max="1" chance="10"/>	<!--Superior Herb of Mana-->
+			</group>
+			<group chance="0.7">
+				<reward item_id="34849" min="1" max="1" chance="100"/>	<!--Mysterious Herb of Power-->
+			</group>
+			<group chance="0.7">
+				<reward item_id="34850" min="1" max="1" chance="100"/>	<!--Mysterious Herb of Magic-->
+			</group>
+			<group chance="0.1">
+				<reward item_id="13028" min="1" max="1" chance="100"/>	<!--Vitality Replenishing Herb-->
+			</group>
+		</rewardlist>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="4"/>	<!--Animals-->
+			<skill id="4410" level="10"/>	<!--Slightly Weak P. Atk.-->
+			<skill id="4411" level="10"/>	<!--Slightly Weak M. Atk.-->
+			<skill id="4412" level="12"/>	<!--Slightly Strong P. Def.-->
+			<skill id="4413" level="12"/>	<!--Slightly Strong M. Def.-->
+			<skill id="4438" level="2"/>	<!--Greater Sleep Resistance-->
+			<skill id="4439" level="2"/>	<!--Greater Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4076" level="3" use_type="DeBuff"/>	<!--Decrease Speed-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="62" max="124" chance="70.0000"/>
+			<reward item_id="34990" min="1" max="1" chance="20.0131"/>
+			<reward item_id="34992" min="1" max="1" chance="20.0131"/>
+			<reward item_id="1867" min="1" max="1" chance="11.4361"/>
+			<reward item_id="1872" min="1" max="1" chance="11.4361"/>
+			<reward item_id="34991" min="1" max="1" chance="8.5770"/>
+			<reward item_id="1956" min="1" max="1" chance="8.5716"/>
+			<reward item_id="1870" min="1" max="1" chance="5.0380"/>
+			<reward item_id="1869" min="1" max="1" chance="4.9870"/>
+			<reward item_id="1871" min="1" max="1" chance="4.9420"/>
+			<reward item_id="1953" min="1" max="1" chance="1.2360"/>
+			<reward item_id="4469" min="1" max="1" chance="0.4310"/>
+			<reward item_id="2205" min="1" max="1" chance="0.2717"/>
+			<reward item_id="1805" min="1" max="1" chance="0.2519"/>
+			<reward item_id="2211" min="1" max="1" chance="0.1923"/>
+			<reward item_id="5279" min="1" max="1" chance="0.0286"/>
+			<reward item_id="5274" min="1" max="1" chance="0.0286"/>
+			<reward item_id="438" min="1" max="1" chance="0.0210"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="1956" min="1" max="1" chance="0.3003"/>
+			<reward item_id="4469" min="1" max="1" chance="0.0055"/>
+			<reward item_id="1805" min="1" max="1" chance="0.0030"/>
+		</rewardlist>
+	</npc>
+	<npc id="20850" name="Golden Stag Lord" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="30"/>
+		<set name="collision_radius" value="25"/>
+		<set name="level" value="50"/>
+		<set name="rewardExp" value="3783"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="284"/>
+		<set name="baseHpMax" value="1421.00103"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="5.5"/>
+		<set name="baseMpMax" value="747.8"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="305.54906"/>
+		<set name="basePDef" value="200.23844"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="208.6504"/>
+		<set name="baseMDef" value="146.5258"/>
+		<set name="baseWalkSpd" value="35"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.63"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="-1" range="300"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="4"/>	<!--Animals-->
+			<skill id="4071" level="5"/>	<!--Bow/Crossbow Resistance-->
+			<skill id="4085" level="1"/>	<!--Critical Damage-->
+			<skill id="4086" level="1"/>	<!--Critical Chance-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4076" level="3" use_type="DeBuff"/>	<!--Decrease Speed-->
+		</skills>
+	</npc>
+	<npc id="20851" name="Theeder" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="32"/>
+		<set name="collision_radius" value="9"/>
+		<set name="level" value="47"/>
+		<set name="rewardExp" value="3409"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="245"/>
+		<set name="baseHpMax" value="1276.53628"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="5.5"/>
+		<set name="baseMpMax" value="665"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="261.69549"/>
+		<set name="basePDef" value="186.63569"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="178.7041"/>
+		<set name="baseMDef" value="136.5719"/>
+		<set name="baseWalkSpd" value="80"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="20"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="9"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.45"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<faction names="-1" range="300"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="7"/>	<!--Spirits-->
+			<skill id="4085" level="1"/>	<!--Critical Damage-->
+			<skill id="4086" level="1"/>	<!--Critical Chance-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="15"/>	<!--Two-handed Blunt Weapon-->
+		</skills>
+	</npc>
+	<npc id="20852" name="Banshee" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Mystic"/>
+		<set name="collision_height" value="23"/>
+		<set name="collision_radius" value="9"/>
+		<set name="level" value="60"/>
+		<set name="rewardExp" value="5341"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="463"/>
+		<set name="baseHpMax" value="1933.24044"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1036.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="80"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="481.34551"/>
+		<set name="basePDef" value="247.65008"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="328.69659"/>
+		<set name="baseMDef" value="181.21958"/>
+		<set name="baseWalkSpd" value="80"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="5"/>
+		<set name="baseAttackType" value="DAGGER"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.56"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<faction names="-1" range="300"/>
+		<equip>
+			<rhand item_id="3939"/>	<!--Monster Only (Bensh)-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="4410" level="12"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4411" level="12"/>	<!--Slightly Strong M. Atk.-->
+			<skill id="4412" level="10"/>	<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="10"/>	<!--Slightly Weak M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="7"/>	<!--Dagger-->
+		</skills>
+	</npc>
+	<npc id="20853" name="Kel Mahum" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="26"/>
+		<set name="collision_radius" value="13"/>
+		<set name="level" value="65"/>
+		<set name="rewardExp" value="9389"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="872"/>
+		<set name="baseHpMax" value="2193.43142"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="1188.8"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="80"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="582.81759"/>
+		<set name="basePDef" value="271.89033"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="397.98887"/>
+		<set name="baseMDef" value="198.95754"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="5"/>
+		<set name="baseAttackType" value="DAGGER"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.52"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<faction names="kel_mahum_clan" range="300"/>
+		<equip>
+			<rhand item_id="242"/>	<!--Soulfire Dirk-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="8"/>	<!--Angels-->
+			<skill id="4412" level="13"/>	<!--Slightly Strong P. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="7"/>	<!--Dagger-->
+			<skill id="4090" level="1" use_type="SelfBuff"/>	<!--Spirit Wolf-->
+			<skill id="4072" level="6" use_type="SelfRangeDDMagic"/>	<!--Stun-->
+			<skill id="4032" level="6" use_type="PhysicalSpecial"/>	<!--Power Strike-->
+		</skills>
+	</npc>
+	<npc id="20858" name="Angel" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="36.5;42.5"/>
+		<set name="collision_radius" value="13.5;16"/>
+		<set name="level" value="72"/>
+		<set name="rewardExp" value="10923"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1110"/>
+		<set name="baseHpMax" value="2540.15331"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1410"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="731.52506"/>
+		<set name="basePDef" value="305.35947"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="499.53679"/>
+		<set name="baseMDef" value="223.44881"/>
+		<set name="baseWalkSpd" value="30"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.52"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tower_guard_clan" range="300"/>
+		<equip>
+			<rhand item_id="148"/>	<!--Sword of Valhalla-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="8"/>	<!--Angels-->
+			<skill id="4410" level="12"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4411" level="12"/>	<!--Slightly Strong M. Atk.-->
+			<skill id="4412" level="10"/>	<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="10"/>	<!--Slightly Weak M. Def.-->
+			<skill id="4085" level="1"/>	<!--Critical Damage-->
+			<skill id="4086" level="1"/>	<!--Critical Chance-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4091" level="1" use_type="SelfBuff"/>	<!--Spirit Ogre-->
+			<skill id="4072" level="7" use_type="SelfRangeDDMagic"/>	<!--Stun-->
+			<skill id="4032" level="7" use_type="PhysicalSpecial"/>	<!--Power Strike-->
+		</skills>
+	</npc>
+	<npc id="20861" name="Oel Mahum Champion" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="61"/>
+		<set name="collision_radius" value="23"/>
+		<set name="level" value="56"/>
+		<set name="rewardExp" value="6641"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="545"/>
+		<set name="baseHpMax" value="1724.6831"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="918.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="405.96455"/>
+		<set name="basePDef" value="228.40135"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="277.22116"/>
+		<set name="baseMDef" value="167.1342"/>
+		<set name="baseWalkSpd" value="67"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.46"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<faction names="oel_mahum_clan" range="300"/>
+		<equip>
+			<rhand item_id="127"/>	<!--Crimson Sword-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+			<skill id="4410" level="12"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4411" level="12"/>	<!--Slightly Strong M. Atk.-->
+			<skill id="4412" level="10"/>	<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="10"/>	<!--Slightly Weak M. Def.-->
+			<skill id="4071" level="5"/>	<!--Bow/Crossbow Resistance-->
+			<skill id="4273" level="3"/>	<!--Dagger/Rapier Resistance-->
+			<skill id="4274" level="1"/>	<!--Blunt Weapon Vulnerability-->
+			<skill id="4085" level="1"/>	<!--Critical Damage-->
+			<skill id="4086" level="1"/>	<!--Critical Chance-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4090" level="1" use_type="SelfBuff"/>	<!--Spirit Wolf-->
+			<skill id="4033" level="5" use_type="SelfRangeDDMagic"/>	<!--Aura Burn-->
+			<skill id="4032" level="5" use_type="PhysicalSpecial"/>	<!--Power Strike-->
+		</skills>
+	</npc>
+	<npc id="20862" name="Death Lord" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="40;48"/>
+		<set name="collision_radius" value="21;25"/>
+		<set name="level" value="75"/>
+		<set name="rewardExp" value="9330"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="984"/>
+		<set name="baseHpMax" value="2676.65854"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1507.8"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="794.70901"/>
+		<set name="basePDef" value="319.24623"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="542.68324"/>
+		<set name="baseMDef" value="233.61053"/>
+		<set name="baseWalkSpd" value="40"/>
+		<set name="baseRunSpd" value="174"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.5"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="demonic_clan" range="300"/>
+		<equip>
+			<rhand item_id="78"/>	<!--Great Sword-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4410" level="12"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4411" level="12"/>	<!--Slightly Strong M. Atk.-->
+			<skill id="4412" level="10"/>	<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="10"/>	<!--Slightly Weak M. Def.-->
+			<skill id="4071" level="5"/>	<!--Bow/Crossbow Resistance-->
+			<skill id="4273" level="3"/>	<!--Dagger/Rapier Resistance-->
+			<skill id="4274" level="1"/>	<!--Blunt Weapon Vulnerability-->
+			<skill id="4085" level="1"/>	<!--Critical Damage-->
+			<skill id="4086" level="1"/>	<!--Critical Chance-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4034" level="8" use_type="DDMagic1"/>	<!--Ice Bolt-->
+			<skill id="4078" level="8" use_type="DDMagic2"/>	<!--Flame Strike-->
+			<skill id="4118" level="8" use_type="DeBuff"/>	<!--Paralysis-->
+		</skills>
+	</npc>
+</list>

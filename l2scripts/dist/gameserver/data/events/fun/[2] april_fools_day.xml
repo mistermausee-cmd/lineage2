@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "events.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<!--формат даты HH:mm dd.MM.yyyy-->
+	<event id="2" name="April Fools Day" impl="AprilFoolsDay">
+		<parameter name="start_time_pattern" value="18:00 08.04.2012" />
+		<parameter name="stop_time_pattern" value="18:15 21.04.2012" />
+		<on_start>
+			<global_add_reward name="droplist"/>
+		</on_start>
+		<on_stop>
+			<global_remove_reward name="droplist"/>
+		</on_stop>
+		<objects name="droplist">
+			<rewardlist type="EVENT_GROUPED">
+				<group chance="100">
+					<reward item_id="20923" min="1" max="1" chance="5"/>	<!--Эспадон Венеры-->
+					<reward item_id="20924" min="1" max="1" chance="5"/>	<!--Заклинатель Венеры-->
+					<reward item_id="20925" min="1" max="1" chance="5"/>	<!--Парные Мечи Венеры-->
+				</group>
+			</rewardlist>
+		</objects>
+	</event>
+</list>

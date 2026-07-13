@@ -1,0 +1,13 @@
+<html><head><body>
+Adventure Guildsman:<br>
+Welcome to Underground Gainak, a place with endless adventures.<br>
+I've been dispatched here from the Adventurer's Guild.<br>
+We know anything and everything that can help you in your adventures. We are also <font color="LEVEL">exchanging Adventurer's Marks and Seals</font>. How can I help you?<br>
+#if ($ALT_PCBANG_POINTS_ENABLED)
+<Button ALIGN=LEFT ICON="NORMAL" action="link adventurer_guildsman/pccafe_list001.htm"><font color="LEVEL">"I want to use PC points."</font></Button>
+#end
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_questlist">"Tell me about quests."</Button>
+<Button ALIGN=LEFT ICON="NORMAL" action="link adventurer_guildsman/adventurer_agent_town_voucher_change.htm">"I want to exchange Adventurer's Marks and Seals."</Button>
+<Button ALIGN=LEFT ICON="NORMAL" action="link adventurer_guildsman/life_crystal_gludin.htm">"I'd like to use a Life Crystal."</Button>
+<Button ALIGN=LEFT ICON="QUEST" action="bypass -h talk_select">Quest</Button>
+</body></html>

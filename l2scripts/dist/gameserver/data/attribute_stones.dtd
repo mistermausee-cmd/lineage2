@@ -1,0 +1,36 @@
+<!ELEMENT list (chance_variations | attribute_stone | default)*>
+
+	<!ELEMENT chance_variations (variation)*>
+
+			<!ELEMENT variation (chances)*>
+			<!ATTLIST variation
+				id CDATA #REQUIRED>
+
+				<!ELEMENT chances (#PCDATA)>
+				<!ATTLIST chances
+					grade CDATA #REQUIRED
+					weapon_chance CDATA #REQUIRED
+					armor_chance CDATA #REQUIRED>
+
+	<!ELEMENT default (#PCDATA)>
+	<!ATTLIST default
+		variation CDATA #REQUIRED
+		enchant_power_weapon CDATA #REQUIRED
+		enchant_power_armor CDATA #REQUIRED
+		max_enchant_weapon CDATA #REQUIRED
+		max_enchant_armor CDATA #REQUIRED
+		first_enchant_power_weapon CDATA #IMPLIED
+		first_enchant_power_armor CDATA #IMPLIED>
+
+	<!ELEMENT attribute_stone (#PCDATA)>
+	<!ATTLIST attribute_stone
+		id CDATA #REQUIRED
+		element CDATA #REQUIRED
+		variation CDATA #IMPLIED
+		enchant_power_weapon CDATA #IMPLIED
+		enchant_power_armor CDATA #IMPLIED
+		max_enchant_weapon CDATA #IMPLIED
+		max_enchant_armor CDATA #IMPLIED
+		first_enchant_power_weapon CDATA #IMPLIED
+		first_enchant_power_armor CDATA #IMPLIED
+		item_type CDATA #IMPLIED>

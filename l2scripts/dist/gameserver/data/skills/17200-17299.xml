@@ -1,0 +1,1344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="17200" levels="1" name="Potion of Protection: Sleep (Low-grade)">
+		<set name="icon" value="icon.etc_fruit_juice_glass_bottle_i05"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="br_event_buf1"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<p_defence_trait name="sleep" value="5"/>
+				<mul stat="pvpPhysDefenceBonus" value="1.03"/>
+				<mul stat="pvpPhysSkillDefenceBonus" value="1.03"/>
+				<mul stat="pvpMagicSkillDefenceBonus" value="1.03"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="17201" levels="1" name="Potion of Protection: Poison (Low-grade)">
+		<set name="icon" value="icon.etc_fruit_juice_glass_bottle_i02"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="br_event_buf1"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<p_defence_trait name="poison" value="5"/>
+				<mul stat="pvpPhysDefenceBonus" value="1.03"/>
+				<mul stat="pvpPhysSkillDefenceBonus" value="1.03"/>
+				<mul stat="pvpMagicSkillDefenceBonus" value="1.03"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="17202" levels="1" name="Potion of Protection: Knock Back/ Knock Down (Low-grade)">
+		<set name="icon" value="icon.etc_fruit_juice_glass_bottle_i10"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="br_event_buf1"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<p_defence_trait name="knockdown" value="5"/>
+				<p_defence_trait name="knockback" value="5"/>
+				<mul stat="pvpPhysDefenceBonus" value="1.03"/>
+				<mul stat="pvpPhysSkillDefenceBonus" value="1.03"/>
+				<mul stat="pvpMagicSkillDefenceBonus" value="1.03"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="17203" levels="1" name="Potion of Protection: Aerial Yoke (Low-grade)">
+		<set name="icon" value="icon.etc_fruit_juice_glass_bottle_i11"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="br_event_buf1"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<p_defence_trait name="airbind" value="5"/>
+				<mul stat="pvpPhysDefenceBonus" value="1.03"/>
+				<mul stat="pvpPhysSkillDefenceBonus" value="1.03"/>
+				<mul stat="pvpMagicSkillDefenceBonus" value="1.03"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="17204" levels="1" name="Scroll: 100,000 SP">
+		<set name="icon" value="icon.etc_sp_scroll1_i00"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="17276"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_sp" value="100000"/>
+		</for>
+	</skill>
+	<skill id="17205" levels="1" name="Scroll: 1,000,000 SP">
+		<set name="icon" value="icon.etc_sp_scroll2_i00"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17206" levels="1" name="Scroll: 10,000,000 SP">
+		<set name="icon" value="icon.etc_sp_scroll3_i00"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17207" levels="1" name="Master Yogi\'s Special Scroll: Enchant Weapon">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17208" levels="1" name="Transformation Potion: Metal Suit">
+		<set name="icon" value="icon.etc_whiteday_herb"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17209" levels="1" name="Metal Suit Hair Accessory Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17210" levels="1" name="Metal Suit Breastplate Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17211" levels="1" name="Metal Suit Gaiters Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17212" levels="1" name="Metal Suit Boots Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17213" levels="1" name="Metal Suit Gloves Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17214" levels="1" name="Master Yogi\'s Force Effect (Free)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17215" levels="11" name="Master Yogi\'s Force - Stage 1">
+		<table name="#castRange">900 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</table>
+		<set name="icon" value="icon.yogi_stick_i00"/>
+		<set name="castRange" value="#castRange"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17216" levels="1" name="Master Yogi\'s Force Effect (Paid)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17217" levels="11" name="Master Yogi\'s Force - Stage 1">
+		<table name="#castRange">900 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</table>
+		<set name="icon" value="icon.yogi_stick_i00"/>
+		<set name="castRange" value="#castRange"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17218" levels="1" name="Valiant Chest">
+		<set name="icon" value="icon.new_user_box"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17219" levels="1" name="Hero\'s Gift">
+		<set name="icon" value="icon.etc_raid_d_i02"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17220" levels="1" name="Valiant Scroll">
+		<set name="icon" value="icon.etc_cave_page_i00"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17221" levels="1" name="Hero\'s SP Scroll (Novice)">
+		<set name="icon" value="icon.etc_sp_scroll1_i00"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17222" levels="2" name="Hero\'s SP Scroll (Experienced)">
+		<set name="icon" value="icon.etc_sp_scroll2_i00"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17223" levels="3" name="Hero\'s SP Scroll (Expert)">
+		<set name="icon" value="icon.etc_sp_scroll3_i00"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17224" levels="1" name="Valentine Appearance Stone: Dagger">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_dagger"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17225" levels="1" name="Valentine Appearance Stone: One-handed Sword">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_sword"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17226" levels="1" name="Valentine Appearance Stone: Two-handed Sword">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_twohand_sword"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17227" levels="1" name="Valentine Appearance Stone: One-handed Blunt Weapon">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_blunt"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17228" levels="1" name="Valentine Appearance Stone: Fist Weapon">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_dualfist"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17229" levels="1" name="Valentine Appearance Stone: Spear">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_pole"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17230" levels="1" name="Valentine Appearance Stone: Bow">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_bow"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17231" levels="1" name="Valentine Appearance Stone: Crossbow">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_twohand_crossbow"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17232" levels="1" name="Valentine Appearance Stone: One-handed Magic Sword">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_sword"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17233" levels="1" name="Valentine Appearance Stone: One-handed Magic Blunt Weapon">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_magic_blunt"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17234" levels="1" name="Valentine Appearance Stone: Two-handed Magic Blunt Weapon">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_magic_twohand_blunt"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17235" levels="1" name="Valentine Appearance Stone: DualSword">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_dual"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17236" levels="1" name="Valentine Appearance Stone: Dual Dagger">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_dualdagger"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17237" levels="1" name="Valentine Appearance Stone: Dual Blunt Weapon">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_dualblunt"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17238" levels="1" name="Valentine Appearance Stone: Shield">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_shield"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17239" levels="1" name="Valentine Appearance Stone: Sigil">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_sigil"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17240" levels="1" name="Valentine Appearance Stone: Dagger">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_dagger"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17241" levels="1" name="Valentine Appearance Stone: One-handed Sword">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_sword"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17242" levels="1" name="Valentine Appearance Stone: Two-handed Sword">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_twohand_sword"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17243" levels="1" name="Valentine Appearance Stone: One-handed Blunt Weapon">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_blunt"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17244" levels="1" name="Valentine Appearance Stone: Fist Weapon">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_dualfist"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17245" levels="1" name="Valentine Appearance Stone: Spear">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_pole"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17246" levels="1" name="Valentine Appearance Stone: Bow">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_bow"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17247" levels="1" name="Valentine Appearance Stone: Crossbow">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_twohand_crossbow"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17248" levels="1" name="Valentine Appearance Stone: One-handed Magic Sword">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_sword"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17249" levels="1" name="Valentine Appearance Stone: One-handed Magic Blunt Weapon">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_magic_blunt"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17250" levels="1" name="Valentine Appearance Stone: Two-handed Magic Blunt Weapon">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_magic_twohand_blunt"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17251" levels="1" name="Valentine Appearance Stone: DualSword">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_dual"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17252" levels="1" name="Valentine Appearance Stone: Dual Dagger">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_dualdagger"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17253" levels="1" name="Valentine Appearance Stone: Dual Blunt Weapon">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_dualblunt"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17254" levels="1" name="Valentine Appearance Stone: Shield">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_shield"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17255" levels="1" name="Valentine Appearance Stone: Sigil">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_sigil"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17256" levels="1" name="Hero\'s XP Scroll">
+		<set name="icon" value="icon.exp_bottle_scroll"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="itemConsumeId" value="37886"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_get_exp">
+				<def name="power" value="1000000000"/>
+				<def name="percent_power" value="30"/>
+				<def name="percent_power_max_lvl" value="99"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="17257" levels="1" name="Hero\'s SP Rune">
+		<set name="icon" value="br_cashtex.item.br_cash_rune_of_feather_i00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17258" levels="1" name="NC Dinos Hat Appearance Stone">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_hair1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17259" levels="1" name="NC Dinos Hat Appearance Stone">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_hair1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17260" levels="1" name="Zorro Hat Appearance Stone">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_hair2"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17261" levels="1" name="Zorro Hat Appearance Stone">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_hair2"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17262" levels="1" name="Leona\'s Gift">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="37823"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="17445" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17411" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17338" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17387" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17392" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17386" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17441" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17407" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17391" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17431" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17397" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17438" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17404" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17439" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17405" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17440" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17406" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17437" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17403" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17436" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17402" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17711" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17714" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17712" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17710" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17713" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17709" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17385" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17432" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17398" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17382" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17444" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17410" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17390" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17383" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17433" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17399" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="19440" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17434" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17400" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="3936" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="37781" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="37772" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="36389" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="36386" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17446" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17412" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17389" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17442" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17408" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17430" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17396" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17443" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17409" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17435" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17435" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17401" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="17384" min_count="1" max_count="1"/>
+			</group>
+		</restoration>
+	</skill>
+	<skill id="17263" levels="1" name="Warrior\'s Quick Healing Potion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="HEAL"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect instant="true" name="RestoreHP" value="5000">
+				<def name="cp_including" value="true"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="17264" levels="1" name="Scroll of Escape: Hellbound">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="20000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17265" levels="1" name="Leona\'s Reward Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<restoration level="1">
+			<group chance="85.0">
+				<item id="37791" min_count="1" max_count="1"/>
+			</group>
+			<group chance="10.0">
+				<item id="45445" min_count="1" max_count="1"/>
+			</group>
+			<group chance="5.0">
+				<item id="17277" min_count="1" max_count="1"/>
+			</group>
+		</restoration>
+	</skill>
+	<skill id="17266" levels="3" name="SP Rune 10%">
+		<table name="#icon">br_cashtex.skill.br_cash_rune_of_sp_buff_1 br_cashtex.skill.br_cash_rune_of_sp_buff_2 br_cashtex.skill.br_cash_rune_of_sp_buff_3</table>
+		<set name="icon" value="#icon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17267" levels="3" name="SP Rune 10%">
+		<table name="#icon">br_cashtex.skill.br_cash_rune_of_sp_buff_1 br_cashtex.skill.br_cash_rune_of_sp_buff_2 br_cashtex.skill.br_cash_rune_of_sp_buff_3</table>
+		<set name="icon" value="#icon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17268" levels="1" name="Master Yogi\'s Force Effect (Free)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17269" levels="1" name="Master Yogi\'s Force Effect (Paid)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17270" levels="1" name="Scroll: 1,000,000,000 SP">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="hitTime" value="200"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="37904"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_sp" value="1000000000"/>
+		</for>
+	</skill>
+	<skill id="17271" levels="1" name="Kat the Cat\'s Surprise Gift">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17272" levels="1" name="Pig Lollipop Appearance Stone: One-handed Sword">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17273" levels="1" name="Chrono Cithara Appearance Stone: One-handed Sword">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17274" levels="1" name="Chrono Unitus Appearance Stone: Fist Weapon">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17275" levels="1" name="Chrono Campana Appearance Stone: Spear">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17276" levels="1" name="Chrono Darbuka Appearance Stone: Two-handed Blunt Weapon">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17277" levels="1" name="Chrono Maracas Appearance Stone: Dualsword">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17278" levels="1" name="Pumpkin Dagger Appearance Stone: Dagger">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17279" levels="1" name="Pumpkin Dual Dagger Appearance Stone: Dual Dagger">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17280" levels="1" name="Scarecrow Sword Appearance Stone: One-handed Magic Sword">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17281" levels="1" name="Pig Lollipop Appearance Stone: One-handed Sword (15-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17282" levels="1" name="Chrono Cithara Appearance Stone: One-handed Sword (15-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17283" levels="1" name="Chrono Unitus Appearance Stone: Fist Weapon (15-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17284" levels="1" name="Chrono Campana Appearance Stone: Spear (15-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17285" levels="1" name="Chrono Darbuka Appearance Stone: Two-handed Blunt Weapon (15-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17286" levels="1" name="Chrono Maracas Appearance Stone: Dualsword (15-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17287" levels="1" name="Pumpkin Dagger Appearance Stone: Dagger (15-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17288" levels="1" name="Pumpkin Dual Dagger Appearance Stone: Dual Dagger (15-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17289" levels="1" name="Scarecrow Sword Appearance Stone: One-handed Magic Sword (15-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17290" levels="1" name="Player Commendation - Art of Seduction">
+		<set name="icon" value="BranchSys2.icon.br_rosalia_rose_blue_i00"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="br_event_buf1"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="24355"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="cancelable" value="false"/>
+		<set name="buff_slot_type" value="2"/>
+		<for>
+			<effect>
+				<mul stat="maxHp" value="1.30"/>
+				<mul stat="maxMp" value="1.30"/>
+				<mul stat="maxCp" value="1.30"/>
+				<mul stat="pAtk" value="1.10"/>
+				<mul stat="mAtk" value="1.20"/>
+				<mul stat="pDef" value="1.30"/>
+				<mul stat="mDef" value="1.30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="17291" levels="1" name="Player Commendation - Prevailing Sonata">
+		<set name="icon" value="icon.skill11529"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17292" levels="1" name="Player Commendation - Daring Sonata">
+		<set name="icon" value="icon.skill11530"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17293" levels="1" name="Player Commendation - Refreshing Sonata">
+		<set name="icon" value="icon.skill11532"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17294" levels="1" name="Player Commendation - Knight\'s Harmony">
+		<set name="icon" value="icon.skill11523"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17295" levels="1" name="Player Commendation - Warrior\'s Harmony">
+		<set name="icon" value="icon.skill11524"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17296" levels="1" name="Player Commendation - Wizard\'s Harmony">
+		<set name="icon" value="icon.skill11525"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17297" levels="1" name="Emperor\'s Cookie: Prevailing Sonata">
+		<set name="icon" value="icon.etc_bm_sonata_cookie"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="buff_special_aura"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="song_of_earth;song_of_life;song_of_water;song_of_wind;song_of_hunter;song_of_vitality;song_of_vengeance;song_of_renewal;song_of_champion;song_of_meditation;song_of_warding;song_of_windstorm;song_of_purification;wispering_of_battle;dance_of_berserker;dance_of_bladestorm;dance_of_concentration;dance_of_fire;dance_of_fury;dance_of_inspiration;dance_of_mystic;dance_of_siren;dance_of_vampire;dance_of_warrior;motion_of_defence;buff_unicorn_seraphim;buff_queen_of_cat;knight_aura"/>
+				<mul stat="mAtkSpd" value="1.3"/>
+				<mul stat="pAtkSpd" value="1.15"/>
+				<mul stat="maxHp" value="1.3"/>
+				<mul stat="regMp" value="1.2"/>
+				<mul stat="mpConsum" value="0.90"/>
+				<mul stat="concentration" value="1.1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_earth"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_life"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_water"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_wind"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_hunter"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vitality"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vengeance"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_renewal"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_champion"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_meditation"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_warding"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_windstorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_purification"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="wispering_of_battle"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_berserker"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_bladestorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_concentration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fury"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_inspiration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_mystic"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_siren"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_vampire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_warrior"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="motion_of_defence"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_unicorn_seraphim"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_queen_of_cat"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="knight_aura"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="17298" levels="1" name="Emperor\'s Cookie: Daring Sonata">
+		<set name="icon" value="icon.etc_bm_sonata_cookie"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="enchanter_mod"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="song_of_earth;song_of_life;song_of_water;song_of_wind;song_of_hunter;song_of_vitality;song_of_vengeance;song_of_renewal;song_of_champion;song_of_meditation;song_of_warding;song_of_windstorm;song_of_purification;wispering_of_battle;dance_of_berserker;dance_of_bladestorm;dance_of_concentration;dance_of_fire;dance_of_fury;dance_of_inspiration;dance_of_mystic;dance_of_siren;dance_of_vampire;dance_of_warrior;motion_of_defence;buff_unicorn_seraphim;buff_queen_of_cat;knight_aura"/>
+				<mul stat="pAtk" value="1.08"/>
+				<mul stat="mAtk" value="1.16"/>
+				<mul stat="mAtkSpd" value="1.08"/>
+				<mul stat="pAtkSpd" value="1.08"/>
+				<mul stat="pDef" value="0.97"/>
+				<mul stat="mDef" value="0.89"/>
+				<add stat="absorbDam" value="8"/>
+				<add stat="absorbBowDam" value="8"/>
+				<add stat="absorbPSkillDam" value="8"/>
+				<add stat="absorbMSkillDam" value="8"/>
+				<add stat="reflectDam" value="10"/>
+				<add stat="reflectPSkillDam" value="10"/>
+				<add stat="reflectMSkillDam" value="10"/>
+				<add stat="reflectBowDam" value="10"/>
+				<sub stat="pEvasRate" value="4"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_earth"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_life"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_water"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_wind"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_hunter"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vitality"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vengeance"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_renewal"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_champion"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_meditation"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_warding"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_windstorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_purification"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="wispering_of_battle"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_berserker"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_bladestorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_concentration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fury"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_inspiration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_mystic"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_siren"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_vampire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_warrior"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="motion_of_defence"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_unicorn_seraphim"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_queen_of_cat"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="knight_aura"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="17299" levels="1" name="Emperor\'s Cookie: Refreshing Sonata">
+		<set name="icon" value="icon.etc_bm_sonata_cookie"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="synergy_is"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="song_of_earth;song_of_life;song_of_water;song_of_wind;song_of_hunter;song_of_vitality;song_of_vengeance;song_of_renewal;song_of_champion;song_of_meditation;song_of_warding;song_of_windstorm;song_of_purification;wispering_of_battle;dance_of_berserker;dance_of_bladestorm;dance_of_concentration;dance_of_fire;dance_of_fury;dance_of_inspiration;dance_of_mystic;dance_of_siren;dance_of_vampire;dance_of_warrior;motion_of_defence;buff_unicorn_seraphim;buff_queen_of_cat;knight_aura"/>
+				<mul stat="regHp" value="1.2"/>
+				<mul stat="mpConsum" value="0.8"/>
+				<add stat="pAccCombat" value="4"/>
+				<add stat="runSpd" value="20"/>
+				<mul stat="pReuse" value="0.9"/>
+				<mul stat="mReuse" value="0.9"/>
+				<add stat="pEvasRate" value="3"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_earth"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_life"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_water"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_wind"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_hunter"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vitality"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vengeance"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_renewal"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_champion"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_meditation"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_warding"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_windstorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_purification"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="wispering_of_battle"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_berserker"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_bladestorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_concentration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fury"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_inspiration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_mystic"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_siren"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_vampire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_warrior"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="motion_of_defence"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_unicorn_seraphim"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_queen_of_cat"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="knight_aura"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+</list>

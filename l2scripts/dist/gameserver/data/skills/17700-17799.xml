@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="17701" levels="6" name="Topaz: Spiritshot">
+		<table name="#icon">icon.etc_bm_jewel_topaz_i00 icon.etc_bm_jewel_topaz_i00 icon.etc_bm_jewel_topaz_i00 icon.etc_bm_jewel_topaz_i00 icon.etc_bm_jewel_topaz_i00 icon.bm_jewel_absdmg_high_lv1_lavianrose</table>
+		<table name="#power">1062 3717 6903 10089 13275</table>
+		<set name="icon" value="#icon"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="power" value="#power"/>
+		<set name="static" value="true"/>
+		<set name="directHp" value="true"/>
+		<set name="operate_type" value="A2"/>
+		<set name="magicType" value="SPECIAL"/>	<!--TODO: Check this.-->
+		<set name="useSS" value="false"/>	<!--TODO: Check this.-->
+		<set name="isSkillTimePermanent" value="true"/>	<!--TODO: Check this.-->
+		<set name="isReuseDelayPermanent" value="true"/>	<!--TODO: Check this.-->
+		<for>
+			<effect instant="true" name="Interrupt"/>
+		</for>
+	</skill>
+	<skill id="17702" levels="5" name="Jewel: Quick Recovery">
+		<table name="#RestoreHPPower">1500 3000 6000 8000 13000</table>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="magicType" value="SPECIAL"/>	<!--TODO: Check this.-->
+		<set name="useSS" value="false"/>	<!--TODO: Check this.-->
+		<set name="isSkillTimePermanent" value="true"/>	<!--TODO: Check this.-->
+		<set name="isReuseDelayPermanent" value="true"/>	<!--TODO: Check this.-->
+		<for>
+			<effect instant="true" name="RestoreHP" value="#RestoreHPPower">
+				<def name="cp_including" value="true"/>
+				<def name="ignore_bonuses" value="true"/>	<!--TODO: Check this.-->
+				<def name="static_power" value="true"/>	<!--TODO: Check this.-->
+			</effect>
+		</for>
+	</skill>
+	<skill id="17703" levels="5" name="Jewel: Heal Boost">
+		<table name="#hpEff">1.03 1.06 1.09 1.13 1.21</table>
+		<set name="icon" value="icon.skill4416_dwarf"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="hpEff" value="#hpEff"/>
+		</for>
+	</skill>
+	<skill id="17704" levels="6" name="Obsidian">
+		<table name="#icon">icon.etc_bm_jewel_obsidian_i00 icon.etc_bm_jewel_obsidian_i00 icon.etc_bm_jewel_obsidian_i00 icon.etc_bm_jewel_obsidian_i00 icon.etc_bm_jewel_obsidian_i00 icon.bm_jewel_pvpdef_high_lv1_lavianrose</table>
+		<table name="#pvpDefenceBonus">1.01 1.03 1.07 1.11 1.15</table>
+		<table name="#triggerLevel">0 0 0 0 0 1</table>
+		<set name="icon" value="#icon"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDefenceBonus" value="#pvpDefenceBonus"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="#pvpDefenceBonus"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="#pvpDefenceBonus"/>
+		</for>
+		<triggers>
+			<trigger id="18720" level="#triggerLevel" type="RECEIVE_DAMAGE" chance="10"/>			
+		</triggers>
+	</skill>
+	<skill id="17705" levels="6" name="Opal">
+		<table name="#icon">icon.etc_bm_jewel_opal_i00 icon.etc_bm_jewel_opal_i00 icon.etc_bm_jewel_opal_i00 icon.etc_bm_jewel_opal_i00 icon.etc_bm_jewel_opal_i00 icon.bm_jewel_atkeleup_high_lv1_lavianrose</table>
+		<table name="#elementPower">10 20 40 70 120</table>
+		<table name="#power">0 0 0 0 0 70</table>
+		<set name="icon" value="#icon"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="attackFire" value="#elementPower"/>
+			<add stat="attackWater" value="#elementPower"/>
+			<add stat="attackWind" value="#elementPower"/>
+			<add stat="attackEarth" value="#elementPower"/>
+			<add stat="attackHoly" value="#elementPower"/>
+			<add stat="attackUnholy" value="#elementPower"/>
+			<add stat="defenceFire" value="#power"/>
+			<add stat="defenceWater" value="#power"/>
+			<add stat="defenceWind" value="#power"/>
+			<add stat="defenceEarth" value="#power"/>
+			<add stat="defenceHoly" value="#power"/>
+			<add stat="defenceUnholy" value="#power"/>
+		</for>
+	</skill>
+	<skill id="17706" levels="5" name="Jewel: Atk. Spd. Increase">
+		<table name="#pAtkSpd">33 48 78 138 258</table>
+		<set name="icon" value="icon.etc_talisman_i02"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAtkSpd" value="#pAtkSpd"/>
+		</for>
+	</skill>
+	<skill id="17707" levels="5" name="Jewel: Casting Spd. Increase">
+		<table name="#mAtkSpd">33 52 90 166 318</table>
+		<set name="icon" value="icon.skill17085"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="mAtkSpd" value="#mAtkSpd"/>
+		</for>
+	</skill>
+	<skill id="17708" levels="6" name="Diamond">
+		<table name="#icon">icon.etc_bm_jewel_diamond_i00 icon.etc_bm_jewel_diamond_i00 icon.etc_bm_jewel_diamond_i00 icon.etc_bm_jewel_diamond_i00 icon.etc_bm_jewel_diamond_i00 icon.bm_jewel_phydef_high_lv1_lavianrose</table>
+		<table name="#pDef">283 567 945 1418 1986</table>
+		<table name="#pDef2">1 1 1 1 1 1.1</table>
+		<table name="#pCritDamRcpt">0.99 0.98 0.97 0.96 0.95</table>
+		<set name="icon" value="#icon"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pDef" value="#pDef"/>
+			<mul stat="pCritDamRcpt" value="#pCritDamRcpt"/>
+			<mul stat="pDef" value="#pDef2"/>
+		</for>
+	</skill>
+	<skill id="17709" levels="6" name="Pearl">
+		<table name="#icon">icon.etc_bm_jewel_pearl_i00 icon.etc_bm_jewel_pearl_i00 icon.etc_bm_jewel_pearl_i00 icon.etc_bm_jewel_pearl_i00 icon.etc_bm_jewel_pearl_i00 icon.bm_jewel_magdef_high_lv1_lavianrose</table>
+		<table name="#mDef">163 328 548 821 1150</table>
+		<table name="#mDef2">1 1 1 1 1 1.1</table>
+		<table name="#mCritDamRcpt">0.99 0.98 0.97 0.96 0.95</table>
+		<set name="icon" value="#icon"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="mDef" value="#mDef"/>
+			<mul stat="mCritDamRcpt" value="#mCritDamRcpt"/>
+			<mul stat="mDef" value="#mDef2"/>
+		</for>
+	</skill>
+	<skill id="17710" levels="1" name="10th Anniversary Blessing Effect (Free)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17711" levels="24" name="10th Anniversary Blessing - Stage 1">
+		<table name="#castRange">900 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</table>
+		<set name="icon" value="icon.ev_10th"/>
+		<set name="castRange" value="#castRange"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17712" levels="1" name="10th Anniversary Blessing Effect (Paid)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17713" levels="24" name="10th Anniversary Special Blessing - Stage 1">
+		<table name="#castRange">900 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</table>
+		<set name="icon" value="icon.ev_10th"/>
+		<set name="castRange" value="#castRange"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17714" levels="1" name="Dancing Cat\'s Steps">
+		<set name="icon" value="icon.skill_sing"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17715" levels="1" name="Spirit Hit Lv. 1">
+		<set name="icon" value="icon.skill3260"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17716" levels="1" name="Spirit Hit Lv. 2">
+		<set name="icon" value="icon.skill3260"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17717" levels="1" name="Spirit Hit Lv. 3">
+		<set name="icon" value="icon.skill3260"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17718" levels="1" name="Dandy\'s Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17719" levels="1" name="Dandy\'s Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17720" levels="1" name="Dandy\'s Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17721" levels="1" name="Dandy\'s Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17722" levels="1" name="Dandy\'s Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17723" levels="1" name="Dandy\'s Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17724" levels="1" name="Dandy\'s Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17725" levels="1" name="Dandy\'s Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17726" levels="1" name="Dandy\'s Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17727" levels="1" name="Dandy\'s Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17728" levels="1" name="Dandy\'s Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17729" levels="1" name="Dandy\'s Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17730" levels="1" name="Dandy\'s Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17731" levels="1" name="Dandy\'s Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17732" levels="1" name="Dandy\'s Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17733" levels="1" name="Dandy\'s Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17734" levels="1" name="Dandy\'s Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17735" levels="1" name="Dandy\'s Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17736" levels="1" name="Dandy\'s Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17737" levels="1" name="Dandy\'s Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17738" levels="1" name="Dandy\'s Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17739" levels="1" name="Dandy\'s Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17740" levels="1" name="Dandy\'s Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17741" levels="1" name="Dandy\'s Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17742" levels="1" name="Dandy\'s Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17743" levels="1" name="Dandy\'s Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17744" levels="1" name="Dandy\'s Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17745" levels="1" name="Dandy\'s Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17746" levels="1" name="Dandy\'s Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17747" levels="1" name="Dandy\'s Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17748" levels="1" name="Dandy\'s Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17749" levels="1" name="Dandy\'s Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17750" levels="1" name="Dandy\'s Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17751" levels="1" name="Dandy\'s Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17752" levels="1" name="Dandy\'s Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17753" levels="1" name="Dandy\'s Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17754" levels="1" name="Dandy\'s Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17755" levels="1" name="Dandy\'s Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17756" levels="1" name="Dandy\'s Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17757" levels="1" name="Dandy\'s Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17758" levels="1" name="Dandy\'s Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17759" levels="1" name="Dandy\'s Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17760" levels="1" name="Dandy\'s Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17761" levels="1" name="Dandy\'s Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17762" levels="1" name="Dandy\'s Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17763" levels="1" name="Dandy\'s Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17764" levels="1" name="Dandy\'s Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17765" levels="1" name="Dandy\'s Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17766" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17767" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17768" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17769" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17770" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17771" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17772" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17773" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17774" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17775" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17776" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17777" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17778" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17779" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17780" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17781" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17782" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17783" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17784" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17785" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17786" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17787" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17788" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17789" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17790" levels="1" name="Great Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17791" levels="1" name="Great Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17792" levels="1" name="Great Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17793" levels="1" name="Great Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17794" levels="1" name="Great Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17795" levels="1" name="Great Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17796" levels="1" name="Great Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17797" levels="1" name="Great Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17798" levels="1" name="Great Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17799" levels="1" name="Great Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+</list>

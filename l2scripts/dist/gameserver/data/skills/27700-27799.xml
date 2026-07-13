@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="27700" levels="6" name="Inherent Abilities - Gloves Attack">
+		<table name="#pAtk">1.01 1.011 1.012 1.013 1.014 1.015</table>
+		<table name="#mAtk">1.02 1.022 1.024 1.026 1.028 1.03</table>
+		<set name="icon" value="icon.pk"/>
+		<set name="operate_type" value="P"/>
+		<set name="magicLevel" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<for>
+			<mul stat="pAtk" value="#pAtk"/>
+			<mul stat="mAtk" value="#mAtk"/>
+		</for>
+	</skill>
+	<skill id="27701" levels="6" name="Inherent Abilities - Shoes Attack">
+		<table name="#pAtk">1.01 1.011 1.012 1.013 1.014 1.015</table>
+		<table name="#mAtk">1.02 1.022 1.024 1.026 1.028 1.03</table>
+		<set name="icon" value="icon.pk"/>
+		<set name="operate_type" value="P"/>
+		<set name="magicLevel" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<for>
+			<mul stat="pAtk" value="#pAtk"/>
+			<mul stat="mAtk" value="#mAtk"/>
+		</for>
+	</skill>
+	<skill id="27702" levels="6" name="Shilen\'s Ring">
+		<table name="#mDef">1.3 1.32 1.35 1.4 1.45 1.5</table>
+		<table name="#critDmg">18 20 20 25 25 30</table>
+		<table name="#atkSpd">1 1.12 1.12 1.15 1.18 1.2</table>
+		<table name="#unholy">100 110 110 120 120 130</table>
+		<table name="#stats">5 6 6 7 7 8</table>
+		<set name="icon" value="BranchIcon.Icon.ring_of_shilen_i00"/>
+		<set name="operate_type" value="P"/>
+		<set name="magicLevel" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<for>
+			<mul stat="mDef" value="#mDef"/>
+			<add stat="defenceUnholy" value="#unholy"/>
+			<add order="0x10" stat="STR" value="#stats"/>
+			<add order="0x10" stat="INT" value="#stats"/>
+			<add stat="p_skill_critical_damage_per" value="#critDmg"/>
+			<add stat="p_magic_critical_dmg_per" value="#critDmg"/>
+			<mul stat="mAtkSpd" value="#atkSpd"/>
+			<mul stat="pAtkSpd" value="#atkSpd"/>
+		</for>
+	</skill>
+	<skill id="27703" levels="1" name="Shilen\'s Harshness">
+		<set name="icon" value="BranchIcon.Icon.ring_of_shilen_i00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27704" levels="1" name="Shilen\'s Will">
+		<set name="icon" value="BranchIcon.Icon.ring_of_shilen_i00"/>
+		<set name="reuseDelay" value="7200000"/>
+		<set name="hitTime" value="200"/>
+		<set name="abnormal_time" value="60"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="pAtk" value="2"/>
+				<mul stat="mAtk" value="2"/>		
+			</effect>
+		</for>
+	</skill>
+	<skill id="27705" levels="6" name="Shilen\'s Necklace">
+		<table name="#mDef">1.6 1.62 1.65 1.7 1.75 1.8</table>
+		<table name="#unholy">120 130 130 140 140 150</table>
+		<table name="#stats">7 8 8 9 9 10</table>
+		<table name="#maxHp">1 1.25 1.3 1.34 1.37 1.4</table>
+		<table name="#mentalphis">25 25 30 35 35 40</table>
+		<set name="icon" value="BranchIcon.Icon.necklace_of_shilen_i00"/>
+		<set name="operate_type" value="P"/>
+		<set name="magicLevel" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<for>
+			<mul stat="mDef" value="#mDef"/>
+			<add stat="defenceUnholy" value="#unholy"/>
+			<add order="0x10" stat="STR" value="#stats"/>
+			<add order="0x10" stat="INT" value="#stats"/>
+			<p_attack_trait name="derangement" value="#mentalphis"/>
+			<mul stat="maxHp" value="#maxHp"/>
+			<!--TODO "шанс физической атаки" выяснить что это такое-->
+		</for>
+	</skill>
+	<skill id="27706" levels="1" name="Shilen\'s Strength">
+		<set name="icon" value="BranchIcon.Icon.necklace_of_shilen_i00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27707" levels="1" name="Shilen\'s Dignity">
+		<set name="icon" value="BranchIcon.Icon.necklace_of_shilen_i00"/>
+		<set name="reuseDelay" value="7200000"/>
+		<set name="hitTime" value="200"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27708" levels="6" name="Shilen\'s Earring">
+		<table name="#mDef">1.5 1.52 1.55 1.6 1.65 1.7</table>
+		<table name="#unholy">110 120 120 130 130 140</table>
+		<table name="#stats">6 7 7 8 8 9</table>
+		<table name="#maxCp">1 1.5 1.57 1.68 1.8 2</table>
+		<table name="#p_defence_trait_derangement">30 30 35 35 40 45</table>
+		<table name="#p_defence_trait_sword">30 30 35 35 40 45</table>
+		<table name="#p_defence_trait_dual">30 30 35 35 40 45</table>
+		<table name="#p_defence_trait_blunt">30 30 35 35 40 45</table>
+		<table name="#p_defence_trait_dagger">30 30 35 35 40 45</table>
+		<table name="#p_defence_trait_pole">30 30 35 35 40 45</table>
+		<table name="#p_defence_trait_fist">30 30 35 35 40 45</table>
+		<table name="#runSpd">10 15 15 20 20 25</table>
+		<table name="#reuseDelay">300000 0 0 0 0 0</table>
+		<set name="icon" value="BranchIcon.Icon.earring_of_shilen_i00"/>
+		<set name="reuseDelay" value="#reuseDelay"/>
+		<set name="operate_type" value="P"/>
+		<set name="magicLevel" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<for>
+			<mul stat="mDef" value="#mDef"/>
+			<add stat="defenceUnholy" value="#unholy"/>
+			<add order="0x10" stat="STR" value="#stats"/>
+			<add order="0x10" stat="INT" value="#stats"/>
+			<p_defence_trait name="derangement" value="#p_defence_trait_derangement"/>
+			<mul stat="maxCp" value="#maxCp"/>
+			<mul stat="maxCp" value="#maxCp"/>
+			<p_defence_trait name="sword" value="#p_defence_trait_sword"/>
+			<p_defence_trait name="dual" value="#p_defence_trait_dual"/>
+			<p_defence_trait name="blunt" value="#p_defence_trait_blunt"/>
+			<p_defence_trait name="dagger" value="#p_defence_trait_dagger"/>
+			<p_defence_trait name="pole" value="#p_defence_trait_pole"/>
+			<p_defence_trait name="fist" value="#p_defence_trait_fist"/>
+			<add stat="runSpd" value="#runSpd"/>
+		</for>
+	</skill>
+	<skill id="27709" levels="1" name="Shilen\'s Energy">
+		<set name="icon" value="BranchIcon.Icon.earring_of_shilen_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="CHA" value="10">
+				<game night="true"/>
+			</add>
+		</for>
+	</skill>
+	<skill id="27710" levels="1" name="Shilen\'s Protection">
+		<set name="icon" value="BranchIcon.Icon.earring_of_shilen_i00"/>
+		<set name="reuseDelay" value="7200000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27711" levels="1" name="Scroll: Shilen\'s Ring">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27712" levels="1" name="Scroll: Shilen\'s Necklace">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27713" levels="1" name="Scroll: Shilen\'s Earring">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27714" levels="1" name="Shilen\'s Strength">
+		<set name="icon" value="icon.skill3080"/>
+		<set name="castRange" value="400"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27715" levels="1" name="Prestige Cube">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27716" levels="1" name="Zodiac Agathion Pack">
+		<set name="icon" value="icon.etc_treasure_box_i02"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27717" levels="6" name="Greater Gemstone\'s Blessing">
+		<set name="icon" value="icon.etc_bm_brooch_lavianrose_piece"/>			
+		<set name="operate_type" value="P"/>
+		<table name="#val1">1 1.07 1.15 1.17 1.2 1.25</table>
+		<table name="#val2">1.05 1.07 1.15 1.17 1.2 1.25</table>
+		<for>
+			<mul stat="maxHp" value="#val1"/>				
+			<mul stat="maxCp" value="#val2"/>
+		</for>
+	</skill>
+	<skill id="27718" levels="1" name="La Vie En Rose\'s Elegant Brooch">
+		<set name="icon" value="BranchIcon.icon.etc_g_bm_brooch_lavianrose"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="jewels_limit" value="6"/>
+			<add stat="inventoryLimit" order="0x40" value="12"/>
+		</for>
+	</skill>
+	<skill id="27719" levels="1" name="La Vie En Rose\'s Elegant Brooch">
+		<set name="icon" value="BranchIcon.icon.etc_g_bm_brooch_lavianrose"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27720" levels="1" name="Ultimate Jewelry Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27721" levels="1" name="Lv.1 La Vie En Rose\'s Energy">
+		<set name="icon" value="icon.skill10019"/>
+		<set name="reuseDelay" value="900000"/>
+		<set name="coolTime" value="1000"/>
+		<set name="hitTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="affect_range" value="1000"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_PARTY"/>
+		<set name="abnormal_type" value="la_vie_en_roses_energy"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_time" value="30"/>
+		<for>
+			<effect>
+				<mul stat="mAtk" value="4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="27722" levels="1" name="Lv.2 La Vie En Rose\'s Energy">
+		<set name="icon" value="icon.skill10019"/>
+		<set name="reuseDelay" value="900000"/>
+		<set name="coolTime" value="1000"/>
+		<set name="hitTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="affect_range" value="1000"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_PARTY"/>
+		<set name="abnormal_type" value="la_vie_en_roses_energy"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_time" value="30"/>
+		<for>
+			<effect>
+				<mul stat="mAtk" value="4"/>
+				<mul stat="pAtk" value="2"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="27723" levels="1" name="Lv.3 La Vie En Rose\'s Energy">
+		<set name="icon" value="icon.skill10019"/>
+		<set name="reuseDelay" value="900000"/>
+		<set name="coolTime" value="1000"/>
+		<set name="hitTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="affect_range" value="1000"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_PARTY"/>
+		<set name="abnormal_type" value="la_vie_en_roses_energy"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_time" value="30"/>
+		<for>
+			<effect>
+				<mul stat="mAtk" value="4"/>
+				<mul stat="pAtk" value="2"/>
+				<add stat="mDef" value="10000"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="27724" levels="1" name="Lv.4 La Vie En Rose\'s Energy">
+		<set name="icon" value="icon.skill10019"/>
+		<set name="reuseDelay" value="900000"/>
+		<set name="coolTime" value="1000"/>
+		<set name="hitTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="affect_range" value="1000"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_PARTY"/>
+		<set name="abnormal_type" value="la_vie_en_roses_energy"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_time" value="30"/>
+		<for>
+			<effect>
+				<mul stat="mAtk" value="4"/>
+				<mul stat="pAtk" value="2"/>
+				<add stat="mDef" value="10000"/>
+				<add stat="pDef" value="13000"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="27725" levels="1" name="Ultimate Jewelry Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27726" levels="1" name="Abundance Box - Infinite">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27727" levels="1" name="Equip Goddess\' Accessory - Lv. 1 Necklace">
+		<set name="icon" value="icon.accessory_punishment_talisman_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27728" levels="1" name="Unequip Goddess\' Accessory - Lv. 1 Necklace">
+		<set name="icon" value="icon.accessory_punishment_talisman_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27729" levels="1" name="Equip Goddess\' Accessory - Lv. 1 Earring">
+		<set name="icon" value="icon.accessory_punishment_talisman_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27730" levels="1" name="Unequip Goddess\' Accessory - Lv. 1 Earring">
+		<set name="icon" value="icon.accessory_punishment_talisman_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27731" levels="1" name="Equip Goddess\' Accessory - Lv. 1 Ring">
+		<set name="icon" value="icon.accessory_punishment_talisman_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27732" levels="1" name="Unequip Goddess\' Accessory - Lv. 1 Ring">
+		<set name="icon" value="icon.accessory_punishment_talisman_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27733" levels="1" name="Equip Goddess\' Accessory - Lv. 2 Necklace">
+		<set name="icon" value="icon.accessory_punishment_talisman_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27734" levels="1" name="Unequip Goddess\' Accessory - Lv. 2 Necklace">
+		<set name="icon" value="icon.accessory_punishment_talisman_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27735" levels="1" name="Equip Goddess\' Accessory - Lv. 2 Earring">
+		<set name="icon" value="icon.accessory_punishment_talisman_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27736" levels="1" name="Unequip Goddess\' Accessory - Lv. 2 Earring">
+		<set name="icon" value="icon.accessory_punishment_talisman_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27737" levels="1" name="Equip Goddess\' Accessory - Lv. 2 Ring">
+		<set name="icon" value="icon.accessory_punishment_talisman_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27738" levels="1" name="Unequip Goddess\' Accessory - Lv. 2 Ring">
+		<set name="icon" value="icon.accessory_punishment_talisman_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27739" levels="1" name="Equip Goddess\' Accessory - Lv. 3 Necklace">
+		<set name="icon" value="icon.accessory_punishment_talisman_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27740" levels="1" name="Unequip Goddess\' Accessory - Lv. 3 Necklace">
+		<set name="icon" value="icon.accessory_punishment_talisman_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27741" levels="1" name="Equip Goddess\' Accessory - Lv. 3 Earring">
+		<set name="icon" value="icon.accessory_punishment_talisman_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27742" levels="1" name="Unequip Goddess\' Accessory - Lv. 3 Earring">
+		<set name="icon" value="icon.accessory_punishment_talisman_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27743" levels="1" name="Equip Goddess\' Accessory - Lv. 3 Ring">
+		<set name="icon" value="icon.accessory_punishment_talisman_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27744" levels="1" name="Unequip Goddess\' Accessory - Lv. 3 Ring">
+		<set name="icon" value="icon.accessory_punishment_talisman_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27745" levels="1" name="Chef Monkey\'s Belt">
+		<set name="icon" value="BranchIcon.icon.g_monkey_belt"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27746" levels="1" name="Item Skill: Unlimited Vitality Agathion">
+		<set name="icon" value="BranchSys.icon.br_aga_bonus_i00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27747" levels="1" name="2016 World Olympiad Hero">
+		<set name="icon" value="icon.accessory_ornithomimus_cap_i00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27748" levels="1" name="Special Treasure Chest">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27749" levels="6" name="Gran Kain\'s Necklace">
+		<set name="icon" value="BranchIcon.Icon.necklace_of_grankein_i00"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27750" levels="6" name="Einhasad\'s Necklace">
+		<set name="icon" value="BranchIcon.Icon.necklace_of_einhasad_i00"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27751" levels="6" name="Pa\'agrio\'s Earring">
+		<set name="icon" value="BranchIcon.Icon.earring_of_paagrio_i00"/>
+		<table name="#power">-1 -124 -124 -188 -188 -188</table>		
+		<set name="abnormal_effect" value="DOT_POISON"/>
+		<set name="abnormal_time" value="30"/>		
+		<set name="abnormal_type" value="poison"/>		
+		<set name="magicType" value="MAGIC"/>
+		<set name="levelModifier" value="1"/>
+		<set name="affectLimit" value="9;10"/>
+		<set name="hitCancelTime" value="500"/>		
+		<set name="target" value="TARGET_ONE"/>		
+		<set name="skillType" value="POISON"/>
+		<set name="operate_type" value="A2"/>
+		<set name="trait" value="POISON"/>
+		<set name="saveVs" value="CON"/>
+		<set name="activateRate" value="100"/>		
+		<for>
+			<effect name="t_hp" interval="1" value="#power"/>
+		</for>
+	</skill>
+	<skill id="27752" levels="6" name="Eva\'s Earring">
+		<set name="icon" value="BranchIcon.Icon.earring_of_eva_i00"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="castRange" value="600"/>
+		<set name="abnormal_time" value="40"/>
+		<set name="abnormal_level" value="1"/>		
+		<set name="operate_type" value="A2"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_SELF"/>
+		<table name="#def">1 1.2 1.25 1.3 1.4 1.5</table>
+		<table name="#power">0 0 0 0 150 300</table>
+		<table name="#pvp">1 1 1.1 1.12 1.15 1.2</table>
+		<for>
+			<effect>
+				<mul stat="pDef" value="#def"/>
+				<mul stat="mDef" value="#def"/>
+				<add stat="defenceFire" value="#power"/>
+				<add stat="defenceWater" value="#power"/>
+				<add stat="defenceWind" value="#power"/>
+				<add stat="defenceEarth" value="#power"/>
+				<add stat="defenceHoly" value="#power"/>
+				<add stat="defenceUnholy" value="#power"/>
+				<mul stat="pvpPhysDefenceBonus" value="#pvp"/>
+				<mul stat="pvpPhysSkillDefenceBonus" value="#pvp"/>
+				<mul stat="pvpMagicSkillDefenceBonus" value="#pvp"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="27753" levels="6" name="Sayha\'s Ring">
+		<set name="icon" value="BranchIcon.Icon.ring_of_sayhas_i00"/>
+		<set name="target" value="TARGET_ONE"/>		
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="abnormal_effect" value="SILENCE"/>
+		<set name="abnormal_type" value="silence_physical"/>
+		<set name="activateRate" value="100"/>
+		<for>
+			<effect name="Mute"/>
+			<effect name="MutePhisycal"/>
+		</for>
+	</skill>
+	<skill id="27754" levels="6" name="Maphr\'s Ring">
+		<set name="icon" value="BranchIcon.Icon.ring_of_maphr_i00"/>
+		<set name="target" value="TARGET_ONE"/>		
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="abnormal_effect" value="ROOT"/>
+		<set name="abnormal_type" value="root_magically"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="skillType" value="ROOT"/>		
+		<set name="trait" value="HOLD"/>
+		<set name="activateRate" value="100"/>
+		<for>
+			<effect name="p_block_move"/>
+		</for>
+	</skill>
+	<skill id="27755" levels="1" name="Shilen\'s Necklace">
+		<set name="icon" value="BranchIcon.Icon.necklace_of_shilen_i00"/>
+		<set name="reuseDelay" value="120000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27756" levels="1" name="Shilen\'s Earring">
+		<set name="icon" value="BranchIcon.Icon.earring_of_shilen_i00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27757" levels="1" name="Shilen\'s Ring">
+		<set name="icon" value="BranchIcon.Icon.ring_of_shilen_i00"/>
+		<set name="reuseDelay" value="7200000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27758" levels="1" name="Entrance Pass: Embryo Command Post ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27759" levels="1" name="Eva\'s Rune">
+		<set name="icon" value="BranchSys.icon.br_rune_of_eva_i00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27760" levels="1" name="+10 Shiny Elemental Shirt Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27761" levels="1" name="+10 Reflect Attack T-shirt Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27762" levels="1" name="+10 Reflect Magic T-shirt Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27763" levels="1" name="+10 Pa\'agrio\'s Shirt Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27764" levels="1" name="+10 Sayha\'s Shirt Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27765" levels="1" name="+10 Eva\'s Shirt Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27766" levels="1" name="+10 Maphr\'s Shirt Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27767" levels="1" name="Shiny Elemental Shirt Special Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27768" levels="1" name="Reflect Attack T-shirt Special Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27769" levels="1" name="Reflect Magic T-shirt Special Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27770" levels="1" name="Royal White Save Ticket (R)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27771" levels="1" name="Royal White Save Ticket (R95)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27772" levels="1" name="Royal White Save Ticket (R99)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27773" levels="1" name="Royal Purple Save Ticket (R)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27774" levels="1" name="Royal Purple Save Ticket (R95)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27775" levels="1" name="Royal Purple Save Ticket (R99)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27776" levels="1" name="Entrance Pass: Embryo Command Post ">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27777" levels="1" name="Abundant Seven Signs Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27778" levels="1" name="Release Agathion\'s Seal - Babayaga">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27779" levels="1" name="Babayaga Teleport: Town of Aden">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27780" levels="1" name="Babayaga Teleport - Town of Rune">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27781" levels="1" name="Babayaga Teleport - Town of Giran">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27782" levels="1" name="Agathion\'s Blessing: Dash">
+		<set name="icon" value="icon.skill_transform_buff"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27783" levels="1" name="Agathion\'s Blessing: Meditation">
+		<set name="icon" value="icon.skill1430"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27784" levels="1" name="Agathion\'s Blessing: Featherweight">
+		<set name="icon" value="icon.skill0332"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27785" levels="1" name="Agathion Cute Trick - Babayaga">
+		<set name="icon" value="icon.skill_agathion_cute"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27786" levels="1" name="Ride Elk">
+		<set name="icon" value="icon.skilltransform3"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27787" levels="10" name="Sayha\'s Talisman">
+		<set name="icon" value="icon.bm_sayhas_talisman"/>		
+		<set name="operate_type" value="P"/>
+		<table name="#pDef">112 225 450 676 901 1126 1351 1576 1801 2027</table>
+		<table name="#mAtk">74 147 294 441 589 736 883 1030 1178 1325</table>
+		<table name="#power">0.01 0.02 0.03 0.05 0.07 0.1 0.15 0.2 0.25 0.25</table>
+		<table name="#SkillPower">1 1 1 1.02 1.02  1.03 1.03 1.05 1.05 1.09</table>
+		<table name="#Reuse">1 1 1 0.98 0.98 0.97 0.97 0.95 0.95 0.95</table>
+		<for>
+		<add stat="pDef" value="#pDef"/>
+		<add stat="mAtk" value="#mAtk"/>
+		<add stat="exp_rate_multiplier" value="#power"/>
+		<add stat="sp_rate_multiplier" value="#power"/>
+		
+		<mul stat="p_skill_power" value="#SkillPower">
+				<or>
+					<has skill="18024;10"/>
+					<has skill="18024;11"/>
+					<has skill="18024;12"/>
+					<has skill="18024;13"/>
+					<has skill="18024;14"/>
+					<has skill="18024;15"/>
+					<has skill="18024;16"/>
+					<has skill="18024;17"/>
+					<has skill="18024;18"/>
+					<has skill="18024;19"/>
+					<has skill="18024;20"/>
+					<has skill="18024;21"/>
+					<has skill="18024;22"/>
+					<has skill="18024;23"/>
+					<has skill="18024;24"/>				
+				</or>
+		</mul>		
+		<mul stat="mSkillPower" value="#SkillPower">
+				<or>
+					<has skill="18024;10"/>
+					<has skill="18024;11"/>
+					<has skill="18024;12"/>
+					<has skill="18024;13"/>
+					<has skill="18024;14"/>
+					<has skill="18024;15"/>
+					<has skill="18024;16"/>
+					<has skill="18024;17"/>
+					<has skill="18024;18"/>
+					<has skill="18024;19"/>
+					<has skill="18024;20"/>
+					<has skill="18024;21"/>
+					<has skill="18024;22"/>
+					<has skill="18024;23"/>
+					<has skill="18024;24"/>
+				</or>
+		</mul>		
+		<mul stat="mReuse" value="#Reuse">
+				<or>
+					<has skill="18024;10"/>
+					<has skill="18024;11"/>
+					<has skill="18024;12"/>
+					<has skill="18024;13"/>
+					<has skill="18024;14"/>
+					<has skill="18024;15"/>
+					<has skill="18024;16"/>
+					<has skill="18024;17"/>
+					<has skill="18024;18"/>
+					<has skill="18024;19"/>
+					<has skill="18024;20"/>
+					<has skill="18024;21"/>
+					<has skill="18024;22"/>
+					<has skill="18024;23"/>
+					<has skill="18024;24"/>
+				</or>
+		</mul>		
+		<mul stat="pReuse" value="#Reuse">
+				<or>
+					<has skill="18024;10"/>
+					<has skill="18024;11"/>
+					<has skill="18024;12"/>
+					<has skill="18024;13"/>
+					<has skill="18024;14"/>
+					<has skill="18024;15"/>
+					<has skill="18024;16"/>
+					<has skill="18024;17"/>
+					<has skill="18024;18"/>
+					<has skill="18024;19"/>
+					<has skill="18024;20"/>
+					<has skill="18024;21"/>
+					<has skill="18024;22"/>
+					<has skill="18024;23"/>
+					<has skill="18024;24"/>
+				</or>
+		</mul>
+		</for>	
+	</skill>
+	<skill id="27788" levels="4" name="Sayha\'s Trust">
+		<set name="icon" value="icon.bm_sayhas_talisman"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27789" levels="4" name="Sayha\'s Protection">
+		<table name="#icon">icon.sayhas_talisman_g_Lv1 icon.sayhas_talisman_g_Lv2 icon.sayhas_talisman_g_Lv3 icon.sayhas_talisman_g_Lv4</table>
+		<table name="#reuseDelay">600000 420000 300000 180000</table>
+		<table name="#val">1.05 1.07 1.07 1.1</table>
+		<set name="abnormal_time" value="45"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>		
+		<set name="icon" value="#icon"/>
+		<set name="reuseDelay" value="#reuseDelay"/>
+		<set name="coolTime" value="300"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="300"/>
+		<set name="skillType" value="BUFF"/>	
+		<set name="target" value="TARGET_SELF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+			<mul stat="pvpPhysDefenceBonus" value="#val"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="#val"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="#val"/>				
+			<mul stat="pvePhysDefenceBonus" value="#val"/>
+			<mul stat="pvePhysSkillDefenceBonus" value="#val"/>
+			<mul stat="pveMagicSkillDefenceBonus" value="#val"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="27790" levels="4" name="Sayha\'s Encouragement">
+		<table name="#icon">icon.sayhas_talisman_pve_Lv1 icon.sayhas_talisman_pve_Lv2 icon.sayhas_talisman_pve_Lv3 icon.sayhas_talisman_pve_Lv4</table>
+		<table name="#reuseDelay">600000 480000 480000 300000</table>
+		<set name="icon" value="#icon"/>
+		<table name="#val">1.05 1.08 1.08 1.1</table>
+		<table name="#abnormal_time">180 180 300 600</table>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="reuseDelay" value="#reuseDelay"/>
+		<set name="coolTime" value="300"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="300"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+			<mul stat="pvePhysDmgBonus" value="#val"/>
+			<mul stat="pveMagicSkillDmgBonus" value="#val"/>
+			<mul stat="pvePhysSkillDmgBonus" value="#val"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="27791" levels="4" name="Sayha\'s Anger">
+		<table name="#icon">icon.sayhas_talisman_pvp_Lv1 icon.sayhas_talisman_pvp_Lv2 icon.sayhas_talisman_pvp_Lv3 icon.sayhas_talisman_pvp_Lv4</table>
+		<table name="#reuseDelay">600000 420000 300000 180000</table>
+		<table name="#val">1.08 1.08 1.12 1.15</table>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="icon" value="#icon"/>
+		<set name="reuseDelay" value="#reuseDelay"/>
+		<set name="coolTime" value="300"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="300"/>
+		<set name="abnormal_time" value="45"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+			<mul stat="pvpPhysDmgBonus" value="#val"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="#val"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="#val"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="27792" levels="3" name="Sayha\'s Support">
+		<table name="#reuseDelay">1800000 1200000 360000</table>
+		<set name="icon" value="icon.bm_sayhas_talisman"/>
+		<set name="reuseDelay" value="#reuseDelay"/>
+		<set name="coolTime" value="300"/>
+		<set name="hitTime" value="300"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27793" levels="1" name="Fortune Talisman Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27794" levels="1" name="Seed Talisman Enhancement Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27795" levels="1" name="Fortune Hair Accessory Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27796" levels="1" name="Exclusive Reward Chest">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27797" levels="1" name="Ultimate Jewelry Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27798" levels="1" name="Elk\'s Blessing">
+		<set name="icon" value="BranchSys.icon.br_xmas_miracle_i00"/>
+		<set name="reuseDelay" value="43200000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="27799" levels="1" name="Elk\'s Summon">
+		<set name="icon" value="icon.skill1403"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="hitTime" value="15000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+</list>

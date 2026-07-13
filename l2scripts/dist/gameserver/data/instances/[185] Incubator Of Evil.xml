@@ -1,0 +1,63 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<!--AUTHOR: Iqman-->
+<list>
+	<!--Incubator of evil [3rd proff]-->
+	<instance id="185" name="Incubator Of Evil" maxChannels="100" collapseIfEmpty="0" timelimit="60" dispelBuffs="false">
+		<collapse on-party-dismiss="true" timer="60"/>
+		<level min="76"/>
+	        <party min="1" max="1"/>
+		<return loc="186024 20392 -3381"/> <!-- To aden -->
+		<teleport loc="56168 -172920 -7980"/>
+		<remove itemId="0" count="0" necessary="false"/>
+		<give itemId="0" count="0"/>
+		<!-- <quest id="10341"/> todo multiply quest values [bonux] -->
+		<reuse resetReuse="* * * * *" setUponEntry="false" sharedReuseGroup="0"/>
+		<spawns>
+			<spawn mobId="33170" respawn="0" type="point">
+				<coords loc="56168 -172664 -7980 49151"></coords>
+			</spawn>
+			<spawn mobId="33171" respawn="0" type="point">
+				<coords loc="56280 -172632 -7980 49151"></coords>
+			</spawn>
+			<spawn mobId="33172" respawn="0" type="point">
+				<coords loc="56376 -172632 -7980 49151"></coords>
+			</spawn>
+			<spawn mobId="33173" respawn="0" type="point">
+				<coords loc="56056 -172632 -7980 49151"></coords>
+			</spawn>
+			<spawn mobId="33174" respawn="0" type="point">
+				<coords loc="55976 -172632 -7980 49151"></coords>
+			</spawn>
+			<!-- barrels spawn -->
+			<spawn mobId="33416" respawn="0" type="point">
+				<coords loc="56280 -176296 -7980 16383"></coords>
+			</spawn>
+			<spawn mobId="33416" respawn="0" type="point">
+				<coords loc="56072 -176296 -7976 16383"></coords>
+			</spawn>
+			<spawn mobId="33416" respawn="0" type="point">
+				<coords loc="56504 -176296 -7980 16383"></coords>
+			</spawn>
+			<spawn mobId="33416" respawn="0" type="point">
+				<coords loc="55880 -176296 -7980 16383"></coords>
+			</spawn>
+
+			<!-- First Wave -->
+            <group name="ioe_attack1_1" spawned="false"/>
+            <group name="ioe_attack1_2" spawned="false"/>
+            <group name="ioe_attack1_3" spawned="false"/>
+            <group name="ioe_attack1_4" spawned="false"/>
+            <group name="ioe_attack1_5" spawned="false"/>
+
+            <!-- Second Wave -->
+            <group name="ioe_attack2_1" spawned="false"/>
+            <group name="ioe_attack2_2" spawned="false"/>
+            <group name="ioe_attack2_3" spawned="false"/>
+            <group name="ioe_attack2_4" spawned="false"/>
+            <group name="ioe_attack2_5" spawned="false"/>
+		</spawns>
+		<doors>
+			<door id="21120002" opened="false"/>
+		</doors>
+	</instance>
+</list>

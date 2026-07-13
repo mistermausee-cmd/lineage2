@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="10903" levels="4" name="Hawk Eye">
+		<table name="#abnormal_level">1 2 3 4</table>
+		<table name="#magicLevel">85 90 95 99</table>
+		<table name="#mod">1.05 1.06 1.07 1.10</table>
+		<table name="#TabrunSpd">0</table>
+		<table name="#pCritDamRcpt">1</table>
+		<table name="#mCritDamRcpt">0.95 0.93 0.9 0.85</table>
+		<table name="#abnormal_time">1800</table>
+		<table name="#mp_consume">62 69 76 83</table>
+		<set name="icon" value="icon.skill11872"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="#abnormal_level"/>
+		<!--TODO: <set name="abnormal_type" value=""/>-->
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="magicType" value="MAGIC"/>
+		<enchant_info type="1" name="Time">
+			<table name="#abnormal_time" type="ADD">90 180 270 360 450 540 630 720 810 900 990 1080 1170 1260 1350 1440 1530 1620 1710 1800 1890 1980 2070 2160 2250 2340 2430 2520 2610 2700 2790</table>
+			<enchant_tables skill_level="3" enchant_levels="20"/>
+			<enchant_tables skill_level="4" enchant_levels="20"/>
+		</enchant_info>
+		<enchant_info type="2" name="Counter">
+			<table name="#pCritDamRcpt">0.99 0.985 0.98 0.975 0.97 0.965 0.96 0.955 0.95 0.945 0.94 0.935 0.93 0.925 0.92 0.915 0.91 0.9 0.895 0.89</table>
+			<enchant_tables skill_level="3" enchant_levels="20"/>
+			<enchant_tables skill_level="4" enchant_levels="20"/>
+		</enchant_info>
+		<enchant_info type="3" name="Wind">
+			<table name="#TabrunSpd" type="ADD">2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40</table>
+			<enchant_tables skill_level="3" enchant_levels="20"/>
+			<enchant_tables skill_level="4" enchant_levels="20"/>
+		</enchant_info>
+		<for>
+			<effect>
+				<mul stat="pAtk" value="#mod">
+					<using kind="Crossbow, Bow"/>
+				</mul>
+				<mul stat="p_skill_power" value="#mod">
+					<using kind="Crossbow, Bow"/>
+				</mul>
+				<mul stat="mCritDamRcpt" value="#mCritDamRcpt">
+					<using kind="Crossbow, Bow"/>
+				</mul>
+				<add stat="runSpd" value="#TabrunSpd"/>
+				<mul stat="pCritDamRcpt" value="#pCritDamRcpt"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="10904" levels="4" name="Superior Skill Mastery">
+		<table name="#magicLevel">85 90 95 99</table>
+		<table name="#pSkillPower">1.05 1.06 1.07 1.10</table>
+		<set name="icon" value="icon.skill11874"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="p_skill_power" value="#pSkillPower"/>
+		</for>
+	</skill>
+	<skill id="10905" levels="3" name="Fatal Arrow">
+		<table name="#mp_consume">93 96 99</table>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="coolTime" value="250"/>
+		<set name="castRange" value="1100"/>
+		<set name="hitTime" value="1799"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="10950" levels="4" name="Vengeful Sniper">
+		<table name="#abnormal_level">1 2 3 4</table>
+		<table name="#magicLevel">85 90 95 99</table>
+		<table name="#mod">1.05 1.06 1.07 1.10</table>
+		<table name="#abnormal_time">1800</table>
+		<table name="#TabrunSpd">0</table>
+		<table name="#pCritDamRcpt">1</table>
+		<table name="#mp_consume">62 69 76 83</table>
+		<set name="icon" value="icon.skill11873"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="#abnormal_level"/>
+		<!--TODO: <set name="abnormal_type" value=""/>-->
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="magicType" value="MAGIC"/>
+		<enchant_info type="1" name="Time">
+			<table name="#abnormal_time" type="ADD">90 180 270 360 450 540 630 720 810 900 990 1080 1170 1260 1350 1440 1530 1620 1710 1800 1890 1980 2070 2160 2250 2340 2430 2520 2610 2700 2790</table>
+			<enchant_tables skill_level="3" enchant_levels="20"/>
+			<enchant_tables skill_level="4" enchant_levels="20"/>
+		</enchant_info>
+		<enchant_info type="2" name="Counter">
+			<table name="#pCritDamRcpt">0.99 0.985 0.98 0.975 0.97 0.965 0.96 0.955 0.95 0.945 0.94 0.935 0.93 0.925 0.92 0.915 0.91 0.9 0.895 0.89</table>
+			<enchant_tables skill_level="3" enchant_levels="20"/>
+			<enchant_tables skill_level="4" enchant_levels="20"/>
+		</enchant_info>
+		<enchant_info type="3" name="Wind">
+			<table name="#TabrunSpd" type="ADD">2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40</table>
+			<enchant_tables skill_level="3" enchant_levels="20"/>
+			<enchant_tables skill_level="4" enchant_levels="20"/>
+		</enchant_info>
+		<for>
+			<effect>
+				<mul stat="pAtk" value="#mod">
+					<using kind="Crossbow, Bow"/>
+				</mul>
+				<mul stat="pvpPhysDmgBonus" value="#mod">
+					<using kind="Crossbow, Bow"/>
+				</mul>
+				<mul stat="pvpPhysSkillDmgBonus" value="#mod">
+					<using kind="Crossbow, Bow"/>
+				</mul>
+				<mul stat="pvpMagicSkillDmgBonus" value="#mod">
+					<using kind="Crossbow, Bow"/>
+				</mul>
+				<add stat="runSpd" value="#TabrunSpd"/>
+				<mul stat="pCritDamRcpt" value="#pCritDamRcpt"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="10951" levels="4" name="Superior Instinct Mastery">
+		<table name="#magicLevel">85 90 95 99</table>
+		<table name="#mod">1.05 1.07 1.1 1.15</table>
+		<set name="icon" value="icon.skill10951"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDmgBonus" value="#mod"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="#mod"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="#mod"/>
+			<mul stat="pAtk" value="#mod">
+				<using kind="Crossbow"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="10952" levels="1" name="Survival Instinct">
+		<table name="#abnormal_time">60</table>
+		<table name="#runSpd">0</table>
+		<set name="icon" value="icon.skill10952"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="64"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="itemConsumeId" value="3031"/>
+		<set name="itemConsumeCount" value="5"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="magicLevel" value="101"/>
+		<enchant_info type="1" name="Time">
+			<enchant_tables skill_level="1" enchant_levels="20">
+				<table name="#abnormal_time">61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80</table>
+			</enchant_tables>
+		</enchant_info>
+		<enchant_info type="2" name="Wind">
+			<enchant_tables skill_level="1" enchant_levels="20">
+				<table name="#runSpd">2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40</table>
+			</enchant_tables>
+		</enchant_info>
+		<for>
+			<effect>
+				<mul stat="pAtk" value="1.2"/>
+				<mul stat="p_skill_power" value="1.15"/>
+				<mul stat="pAtkSpd" value="1.15"/>
+				<mul stat="pDef" value="1.2"/>
+				<mul stat="mDef" value="1.2"/>
+				<add stat="runSpd" value="#runSpd"/>
+			</effect>
+			<effect instant="true" name="RestoreHP" value="20">
+				<def name="percent" value="true"/>
+			</effect>			
+			<effect instant="true" name="RestoreCP" value="20">
+				<def name="percent" value="true"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="10953" levels="1" name="Hunting Instinct">
+		<table name="#abnormal_time">60</table>
+		<table name="#runSpd">0</table>
+		<set name="icon" value="icon.skill10953"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="64"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>		
+		<set name="itemConsumeId" value="3031"/>
+		<set name="itemConsumeCount" value="5"/>		
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="magicLevel" value="101"/>
+		<enchant_info type="1" name="Time">
+			<enchant_tables skill_level="1" enchant_levels="20">
+				<table name="#abnormal_time">61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80</table>
+			</enchant_tables>
+		</enchant_info>
+		<enchant_info type="2" name="Wind">
+			<enchant_tables skill_level="1" enchant_levels="20">
+				<table name="#runSpd">2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40</table>
+			</enchant_tables>
+		</enchant_info>
+		<for>
+			<effect>
+				<mul stat="pAtk" value="1.1"/>
+				<mul stat="p_skill_power" value="1.15"/>
+				<add stat="pCritRate" value="15"/>
+				<add stat="p_skill_critical_damage_per" value="15"/>
+				<add stat="runSpd" value="#runSpd"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="10954" levels="1" name="Counter Instinct">
+		<table name="#abnormal_time">60</table>
+		<table name="#runSpd">0</table>
+		<set name="icon" value="icon.skill10954"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="64"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="itemConsumeId" value="1785"/>
+		<set name="itemConsumeCount" value="5"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="magicLevel" value="101"/>
+		<enchant_info type="1" name="Time">
+			<enchant_tables skill_level="1" enchant_levels="20">
+				<table name="#abnormal_time">61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80</table>
+			</enchant_tables>
+		</enchant_info>
+		<enchant_info type="2" name="Wind">
+			<enchant_tables skill_level="1" enchant_levels="20">
+				<table name="#runSpd">2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40</table>
+			</enchant_tables>
+		</enchant_info>
+		<for>
+			<effect>
+				<mul stat="pAtk" value="1.1"/>
+				<mul stat="p_skill_power" value="1.15"/>
+				<add stat="p_skill_critical_damage_per" value="25"/>
+				<add stat="runSpd" value="#runSpd"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="10955" levels="1" name="Bloody Instinct">
+		<table name="#abnormal_time">60</table>
+		<table name="#runSpd">0</table>
+		<set name="icon" value="icon.skill10955"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="64"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>		
+		<set name="itemConsumeId" value="3031"/>
+		<set name="itemConsumeCount" value="5"/>		
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="magicLevel" value="101"/>
+		<enchant_info type="1" name="Time">
+			<enchant_tables skill_level="1" enchant_levels="20">
+				<table name="#abnormal_time">61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80</table>
+			</enchant_tables>
+		</enchant_info>
+		<enchant_info type="2" name="Wind">
+			<enchant_tables skill_level="1" enchant_levels="20">
+				<table name="#runSpd">2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40</table>
+			</enchant_tables>
+		</enchant_info>
+		<for>
+			<effect>
+				<mul stat="pvpPhysDmgBonus" value="1.15"/>
+				<mul stat="pvpPhysSkillDmgBonus" value="1.15"/>
+				<mul stat="pAtk" value="1.1"/>
+				<mul stat="p_skill_power" value="1.15"/>
+				<add stat="runSpd" value="#runSpd"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="10956" levels="1" name="Divine Expansion">
+		<set name="icon" value="icon.skillexofdiv"/>
+		<set name="magicLevel" value="100"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="buffLimit" value="1"/>
+		</for>
+	</skill>
+	<skill id="10997" levels="1" name="Archer - Individual Passive">
+		<set name="icon" value="icon.skill0217"/>
+		<set name="magicLevel" value="85"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isTrigger" value="true"/>
+		<set name="abnormal_time" value="5"/>	<!--TODO: Check abnormal time and effects.-->
+		<for>
+			<effect>
+				<add stat="runSpd" value="30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="10998" levels="1" name="Archer - Individual">
+		<set name="icon" value="icon.skill1543"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="500"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="attack_time_down_special"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="ITEM"/>
+		<set name="operate_type" value="P"/>
+		<triggers>
+			<trigger id="10997" level="1" type="RECEIVE_DAMAGE" chance="50">
+				<player damage="100;0"/>
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="10999" levels="1" name="Heavy Hit">
+		<set name="icon" value="icon.skill10317"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="coolTime" value="1799"/>
+		<set name="castRange" value="700"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="1"/>
+		<set name="magicLevel" value="85"/>
+		<table name="#power">19158</table>
+		<set name="power" value="#power"/>
+		<set name="target" value="TARGET_AREA"/>
+		<set name="overHit" value="true"/>
+		<set name="affect_range" value="100"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="113">
+			<using kind="Bow,Crossbow"/>
+		</cond>
+	</skill>
+</list>

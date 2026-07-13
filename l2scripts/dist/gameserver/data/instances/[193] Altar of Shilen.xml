@@ -1,0 +1,233 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<list>
+    <instance id="193" name="Altar of Shilen" maxChannels="25" collapseIfEmpty="10" timelimit="60" dispelBuffs="true">
+        <collapse on-party-dismiss="true" timer="10"/>
+        <level min="95"/>
+        <party min="2" max="7"/>
+        <return loc="149368 173640 -945"/>
+        <teleport loc="179368 13720 -7420"/>
+        <remove itemId="0" count="0" necessary="false"/>
+        <give itemId="0" count="0"/>
+        <quest id="0"/>
+        <reuse resetReuse="30 6 * * *" setUponEntry="false" sharedReuseGroup="0"/>
+		<spawns>
+			<group name="altar_1_stage" spawned="false"/>
+			<group name="altar_2_stage" spawned="false"/>
+			<group name="altar_3_stage" spawned="false"/>
+			<group name="BossStage1" spawned="false"/>
+			<group name="BossStage2" spawned="false"/>
+			<group name="BossStage3_1" spawned="false"/>
+			<group name="BossStage3_2" spawned="false"/>
+			<spawn mobId="32798" type="point" respawn="0"><!--NPC manager-->
+				<coords loc="179560 13576 -7420 32767"/>
+				<coords loc="179560 13576 -9852 32767"/>
+				<coords loc="179560 12728 -12796 32767"/>
+			</spawn>
+			<spawn mobId="33300" type="point" respawn="120">
+				<coords loc="178136 16712 -13670 16383"/>
+			</spawn>
+            <spawn  mobId="23140" type="point" respawn="120">
+				<coords loc="177672 15864 -8341 62044"/>
+				<coords loc="182072 14680 -7638 38182"/>
+				<coords loc="182072 14680 -7638 38182"/>
+				<coords loc="182200 14312 -7639 55027"/>
+				<coords loc="181736 15224 -7643 19739"/>
+				<coords loc="181832 14584 -7638 62980"/>
+				<coords loc="182872 17816 -7901 19424"/>
+				<coords loc="182104 18248 -7897 30212"/>
+				<coords loc="182024 17448 -7898 48112"/>
+				<coords loc="182632 17544 -7901 58716"/>
+				<coords loc="179128 18776 -8158 32767"/>
+				<coords loc="179192 18680 -8158 55285"/>
+				<coords loc="179288 18584 -8157 57343"/>
+				<coords loc="179560 18200 -8157 55580"/>
+				<coords loc="179688 18008 -8158 55285"/>
+				<coords loc="179848 17800 -8158 55991"/>
+				<coords loc="178728 18088 -8162 26941"/>
+				<coords loc="179544 18936 -8161 14103"/>
+				<coords loc="178584 18296 -8161 22642"/>
+            </spawn>
+			<spawn  mobId="23141" type="point" respawn="120">
+				<coords loc="182600 16968 -7901 46393"/>
+				<coords loc="182424 18280 -7901 19739"/>
+				<coords loc="182168 15224 -7643 32431"/>
+				<coords loc="181448 14808 -7643 50019"/>
+				<coords loc="182312 15336 -7643 6039"/>
+				<coords loc="179880 18296 -8162 51929"/>
+				<coords loc="178808 15432 -8341 32767"/>
+				<coords loc="177560 15304 -8341 16739"/>
+			</spawn>
+			<spawn  mobId="23142" type="point" respawn="120">
+				<coords loc="178760 15848 -8341 62044"/>
+				<coords loc="182792 17768 -7901 19161"/>
+				<coords loc="182456 15000 -7643 57343"/>
+				<coords loc="181480 15192 -7639 34065"/>
+				<coords loc="181672 14328 -7643 58498"/>
+				<coords loc="182664 15208 -7643 12908"/>
+				<coords loc="182312 18024 -7897 15583"/>
+				<coords loc="179240 18296 -8157 3968"/>
+				<coords loc="179480 18648 -8157 13400"/>
+				<coords loc="179784 18648 -8158 54978"/>
+				<coords loc="179272 17720 -8161 44315"/>
+				<coords loc="181896 15064 -7639 17605"/>
+				<coords loc="179448 18376 -8157 64055"/>
+				<coords loc="178840 18392 -8161 32493"/>
+			</spawn>
+			<spawn mobId="23139" type="point" respawn="120">
+				<coords loc="181928 14808 -7638 36597"/>
+				<coords loc="182328 17448 -7901 0"/>
+				<coords loc="181688 14792 -7638 39084"/>
+				<coords loc="182552 17992 -7896 12309"/>
+				<coords loc="181944 18072 -7901 31863"/>
+				<coords loc="183160 17144 -7901 58716"/>
+				<coords loc="182184 14536 -7643 2902"/>
+				<coords loc="181512 14456 -7639 56398"/>
+				<coords loc="182264 17544 -7898 47629"/>
+				<coords loc="178952 18280 -8160 27813"/>
+				<coords loc="179064 17944 -8161 56324"/>
+				<coords loc="179416 18360 -8156 16383"/>
+				<coords loc="182344 14728 -7643 12266"/>
+				<coords loc="178920 17752 -8161 30804"/>
+			</spawn>
+			<spawn  mobId="23131" type="point" respawn="0">
+				<coords loc="181976 15128 -7643 36597"/>
+				<coords loc="182040 18072 -7901 0"/>
+				<coords loc="179096 17880 -8162 39084"/>
+			</spawn>
+			<spawn mobId="23138" type="point" respawn="0">
+				<coords loc="182408 14936 -10075 36597"/>
+				<coords loc="182296 18232 -10333 0"/>
+				<coords loc="179016 18216 -10594 39084"/>
+			</spawn>			
+			 <spawn mobId="23126" type="point" respawn="120">
+				<coords loc="182072 14680 -10075 38182"/>
+				<coords loc="182072 14680 -10075 38182"/>
+				<coords loc="182200 14312 -10075 55027"/>
+				<coords loc="181736 15224 -10075 19739"/>
+				<coords loc="181832 14584 -10075 62980"/>
+				<coords loc="182872 17816 -10333 19424"/>
+				<coords loc="182104 18248 -10333 30212"/>
+				<coords loc="182024 17448 -10333 48112"/>
+				<coords loc="182632 17544 -10333 58716"/>
+				<coords loc="179128 18776 -10594 32767"/>
+				<coords loc="179192 18680 -10594 55285"/>
+				<coords loc="179288 18584 -10594 57343"/>
+				<coords loc="179560 18200 -10594 55580"/>
+				<coords loc="179688 18008 -10594 55285"/>
+				<coords loc="179848 17800 -10594 55991"/>
+				<coords loc="178728 18088 -10594 26941"/>
+				<coords loc="179544 18936 -10594 14103"/>
+				<coords loc="178584 18296 -10594 22642"/>
+            </spawn>
+			<spawn mobId="23127" type="point" respawn="120">
+				<coords loc="182600 16968 -10333 46393"/>
+				<coords loc="182424 18280 -10333 19739"/>
+				<coords loc="182168 15224 -10075 32431"/>
+				<coords loc="181448 14808 -10075 50019"/>
+				<coords loc="182312 15336 -10075 6039"/>
+				<coords loc="179880 18296 -10594 51929"/>
+			</spawn>
+			<spawn mobId="23128" type="point" respawn="120">
+				<coords loc="182792 17768 -10333 19161"/>
+				<coords loc="182456 15000 -10075 57343"/>
+				<coords loc="181480 15192 -10075 34065"/>
+				<coords loc="181672 14328 -10075 58498"/>
+				<coords loc="182664 15208 -10075 12908"/>
+				<coords loc="182312 18024 -10333 15583"/>
+				<coords loc="179240 18296 -10594 3968"/>
+				<coords loc="179480 18648 -10594 13400"/>
+				<coords loc="179784 18648 -10594 54978"/>
+				<coords loc="179272 17720 -10594 44315"/>
+				<coords loc="181896 15064 -10075 17605"/>
+				<coords loc="179448 18376 -10594 64055"/>
+				<coords loc="178840 18392 -10594 32493"/>
+			</spawn>
+			<spawn mobId="23129" type="point" respawn="120">
+				<coords loc="181928 14808 -10075 36597"/>
+				<coords loc="182328 17448 -10333 0"/>
+				<coords loc="181688 14792 -10075 39084"/>
+				<coords loc="182552 17992 -10333 12309"/>
+				<coords loc="181944 18072 -10333 31863"/>
+				<coords loc="183160 17144 -10333 58716"/>
+				<coords loc="182184 14536 -10075 2902"/>
+				<coords loc="181512 14456 -10075 56398"/>
+				<coords loc="182264 17544 -10333 47629"/>
+				<coords loc="178952 18280 -10594 27813"/>
+				<coords loc="179064 17944 -10594 56324"/>
+				<coords loc="179416 18360 -10594 16383"/>
+				<coords loc="182344 14728 -10075 12266"/>
+				<coords loc="178920 17752 -10594 30804"/>
+			</spawn>
+			 <spawn mobId="23133" type="point" respawn="120">
+				<coords loc="182024 17448 -13277 48112"/>
+				<coords loc="182632 17544 -13277 58716"/>
+				<coords loc="179128 18776 -13533 32767"/>
+				<coords loc="179192 18680 -13533 55285"/>
+				<coords loc="179288 18584 -13533 57343"/>
+				<coords loc="179560 18200 -13533 55580"/>
+				<coords loc="179688 18008 -13533 55285"/>
+				<coords loc="179848 17800 -13533 55991"/>
+				<coords loc="178728 18088 -13533 26941"/>
+				<coords loc="179544 18936 -13533 14103"/>
+				<coords loc="178584 18296 -13533 22642"/>
+            </spawn>
+			 <spawn mobId="23134" type="point" respawn="120">
+				<coords loc="182072 14680 -13016 38182"/>
+				<coords loc="182072 14680 -13016 38182"/>
+				<coords loc="182200 14312 -13016 55027"/>
+				<coords loc="181736 15224 -13016 19739"/>
+				<coords loc="181832 14584 -13016 62980"/>
+				<coords loc="182872 17816 -13277 19424"/>
+				<coords loc="182104 18248 -13277 30212"/>
+            </spawn>			
+			<spawn mobId="23135" type="point" respawn="120">
+				<coords loc="182600 16968 -13277 46393"/>
+				<coords loc="182424 18280 -13277 19739"/>
+				<coords loc="182168 15224 -13016 32431"/>
+				<coords loc="181448 14808 -13016 50019"/>
+				<coords loc="182312 15336 -13016 6039"/>
+				<coords loc="179880 18296 -13533 51929"/>
+			</spawn>
+			<spawn mobId="23136" type="point" respawn="120">
+				<coords loc="182792 17768 -13277 19161"/>
+				<coords loc="182456 15000 -13016 57343"/>
+				<coords loc="181480 15192 -13016 34065"/>
+				<coords loc="181672 14328 -13016 58498"/>
+				<coords loc="182664 15208 -13016 12908"/>
+				<coords loc="182312 18024 -13277 15583"/>
+				<coords loc="179240 18296 -13533 3968"/>
+				<coords loc="179480 18648 -13533 13400"/>
+				<coords loc="179784 18648 -13533 54978"/>
+				<coords loc="179272 17720 -13533 44315"/>
+				<coords loc="181896 15064 -13016 17605"/>
+				<coords loc="179448 18376 -13533 64055"/>
+				<coords loc="178840 18392 -13533 32493"/>
+			</spawn>
+			<spawn mobId="23137" type="point" respawn="120">
+				<coords loc="181928 14808 -13016 36597"/>
+				<coords loc="182328 17448 -13277 0"/>
+				<coords loc="181688 14792 -13016 39084"/>
+				<coords loc="182552 17992 -13277 12309"/>
+				<coords loc="181944 18072 -13277 31863"/>
+				<coords loc="183160 17144 -13277 58716"/>
+				<coords loc="182184 14536 -13016 2902"/>
+				<coords loc="181512 14456 -13016 56398"/>
+				<coords loc="182264 17544 -13277 47629"/>
+				<coords loc="178952 18280 -13533 27813"/>
+				<coords loc="179064 17944 -13533 56324"/>
+				<coords loc="179416 18360 -13533 16383"/>
+				<coords loc="182344 14728 -13016 12266"/>
+				<coords loc="178920 17752 -13533 30804"/>
+			</spawn>
+        </spawns>
+		<doors>
+			<door id="25180001" opened="false"/>
+			<door id="25180002" opened="false"/>
+			<door id="25180003" opened="false"/>
+			<door id="25180004" opened="false"/>
+			<door id="25180005" opened="false"/>
+			<door id="25180006" opened="false"/>
+			<door id="25180007" opened="false"/>
+		</doors>
+    </instance>
+</list>

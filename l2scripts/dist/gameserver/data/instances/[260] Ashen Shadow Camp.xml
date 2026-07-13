@@ -1,0 +1,23 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<!--By Evil_dnk-->
+<list>
+	<instance id="260" name="Ashen Shadow Camp" maxChannels="20" collapseIfEmpty="1" timelimit="60" dispelBuffs="false">
+		<collapse on-party-dismiss="true" timer="60"/> 
+		<level min="99"/>
+		<party min="1" max="7"/>
+		<return loc="-14072 122984 -3120"/>
+		<teleport loc="-77464 156504 -3208"/>
+		<remove itemId="0" count="0" necessary="false"/>
+		<give itemId="0" count="0"/>
+		<quest id="0"/> 
+		<reuse resetReuse="30 6 * * 3,6" setUponEntry="false" sharedReuseGroup="0"/> 	
+		<spawns>
+			<group name="shadow_camp" spawned="true"/>
+			<group name="shadow_camp_altar" spawned="false"/>
+			<group name="shadow_camp_signal1" spawned="false"/>
+			<group name="shadow_camp_signal2" spawned="false"/>
+			<group name="shadow_camp_box" spawned="false"/>
+			<group name="shadow_camp_prison" spawned="false"/>
+		</spawns> 
+	</instance>
+</list>

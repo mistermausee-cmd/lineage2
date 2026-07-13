@@ -1,0 +1,1463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<armor id="47000" name="Paulina\'s Dynasty Necklace" add_name="Skill Cooldown">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="S"/>
+		<set name="icon" value="icon.accessary_dynasty_necklace_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="NECKLACE"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="108"/>
+			<add stat="maxMp" order="0x60" value="46"/>
+		</for>
+		<skills>
+			<skill id="13934" level="3"/>
+		</skills>
+	</armor>
+	<armor id="47001" name="Paulina\'s Dynasty Earring" add_name="Vampiric Rage">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="S"/>
+		<set name="icon" value="icon.accessary_dynasty_earing_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="RIGHT_EAR"/>
+			<slot id="LEFT_EAR"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="81"/>
+			<add stat="maxMp" order="0x60" value="35"/>
+		</for>
+		<skills>
+			<skill id="13935" level="3"/>
+		</skills>
+	</armor>
+	<armor id="47002" name="Paulina\'s Dynasty Earring" add_name="MP Consumption">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="S"/>
+		<set name="icon" value="icon.accessary_dynasty_earing_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="RIGHT_EAR"/>
+			<slot id="LEFT_EAR"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="81"/>
+			<add stat="maxMp" order="0x60" value="35"/>
+		</for>
+		<skills>
+			<skill id="13936" level="3"/>
+		</skills>
+	</armor>
+	<armor id="47003" name="Paulina\'s Dynasty Ring" add_name="Critical Damage">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="S"/>
+		<set name="icon" value="icon.accessary_dynasty_ring_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="RIGHT_FINGER"/>
+			<slot id="LEFT_FINGER"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="54"/>
+			<add stat="maxMp" order="0x60" value="23"/>
+		</for>
+		<skills>
+			<skill id="13937" level="3"/>
+		</skills>
+	</armor>
+	<armor id="47004" name="Paulina\'s Dynasty Ring" add_name="Critical Rate">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="S"/>
+		<set name="icon" value="icon.accessary_dynasty_ring_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="RIGHT_FINGER"/>
+			<slot id="LEFT_FINGER"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="54"/>
+			<add stat="maxMp" order="0x60" value="23"/>
+		</for>
+		<skills>
+			<skill id="13938" level="3"/>
+		</skills>
+	</armor>
+	<armor id="47005" name="Old Elemental Shirt">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.etc_shirts_a_i04"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="130"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="28"/>
+		</for>
+	</armor>
+	<etcitem id="47006" name="Supply Items for Adventurer">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_box_of_adventure_1_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<weapon id="47007" name="Paulina\'s Apocalypse Shaper" add_name="Not used">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.weapon_phasian_i00"/>
+		<set name="type" value="DAGGER"/>
+		<set name="weight" value="1520"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="441"/>
+			<add stat="mAtk" order="0x10" value="232"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="47008" name="Paulina\'s Apocalypse Cutter">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.weapon_pasis_i00"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="1520"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="durability" value="43200"/>
+		<set name="temporal" value="true"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="13939" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="519"/>
+			<add stat="mAtk" order="0x10" value="232"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="47009" name="Paulina\'s Apocalypse Slasher">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.weapon_volver_i00"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="1740"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="durability" value="43200"/>
+		<set name="temporal" value="true"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="13940" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="632"/>
+			<add stat="mAtk" order="0x10" value="232"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="47010" name="Paulina\'s Apocalypse Avenger">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.weapon_raksilion_i00"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="1740"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="durability" value="43200"/>
+		<set name="temporal" value="true"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="13940" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="519"/>
+			<add stat="mAtk" order="0x10" value="232"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="47011" name="Paulina\'s Apocalypse Fighter">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.weapon_kirche_i00"/>
+		<set name="type" value="DUALFIST"/>
+		<set name="weight" value="1550"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="durability" value="43200"/>
+		<set name="temporal" value="true"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="13940" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="632"/>
+			<add stat="mAtk" order="0x10" value="232"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="47012" name="Paulina\'s Apocalypse Stormer">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.weapon_grave_i00"/>
+		<set name="type" value="POLE"/>
+		<set name="weight" value="2010"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="durability" value="43200"/>
+		<set name="temporal" value="true"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="13940" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="519"/>
+			<add stat="mAtk" order="0x10" value="232"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="47013" name="Paulina\'s Apocalypse Thrower">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.weapon_spina_i00"/>
+		<set name="type" value="BOW"/>
+		<set name="weight" value="1520"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="durability" value="43200"/>
+		<set name="temporal" value="true"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="13943" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="1022"/>
+			<add stat="mAtk" order="0x10" value="232"/>
+			<set stat="basePAtkSpd" order="0x08" value="293"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="47014" name="Paulina\'s Apocalypse Shooter">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.weapon_medianox_i00"/>
+		<set name="type" value="CROSSBOW"/>
+		<set name="weight" value="1580"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="durability" value="43200"/>
+		<set name="temporal" value="true"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="13943" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="920"/>
+			<add stat="mAtk" order="0x10" value="232"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="47015" name="Paulina\'s Apocalypse Buster" add_name="Not used">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.weapon_imerose_i00"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="1520"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="is_magic_weapon" value="true"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="403"/>
+			<add stat="mAtk" order="0x10" value="293"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="47016" name="Paulina\'s Apocalypse Caster">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.weapon_yuke_i00"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="1080"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="durability" value="43200"/>
+		<set name="temporal" value="true"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="13941" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="415"/>
+			<add stat="mAtk" order="0x10" value="293"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="47017" name="Paulina\'s Apocalypse Retributer">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.weapon_herencia_i00"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="1080"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="durability" value="43200"/>
+		<set name="temporal" value="true"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="13944" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="505"/>
+			<add stat="mAtk" order="0x10" value="322"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+			<add stat="mAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="47018" name="Paulina\'s Apocalypse Dualsword">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.weapon_r_dualsword_i00"/>
+		<set name="type" value="DUAL"/>
+		<set name="weight" value="1520"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="durability" value="43200"/>
+		<set name="temporal" value="true"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="13940" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="632"/>
+			<add stat="mAtk" order="0x10" value="232"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="47019" name="Paulina\'s Apocalypse Dual Dagger">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.weapon_r_dualdagger_i00"/>
+		<set name="type" value="DUALDAGGER"/>
+		<set name="weight" value="2050"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="durability" value="43200"/>
+		<set name="temporal" value="true"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="13942" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="519"/>
+			<add stat="mAtk" order="0x10" value="232"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="47020" name="Paulina\'s Apocalypse Dual Blunt" add_name="Not used">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.weapon_r_dualblunt_i00"/>
+		<set name="type" value="DUALBLUNT"/>
+		<set name="weight" value="1740"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="613"/>
+			<add stat="mAtk" order="0x10" value="232"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<armor id="47021" name="Paulina\'s Twilight Helmet" add_name="Heavy Armor">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_helmet_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="530"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="130"/>
+		</for>
+	</armor>
+	<armor id="47022" name="Paulina\'s Twilight Breastplate" add_name="Heavy Armor">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t601_u_i00"/>
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="7520"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="191"/>
+		</for>
+	</armor>
+	<armor id="47023" name="Paulina\'s Twilight Gaiters" add_name="Heavy Armor">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t601_l_i00"/>
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="3170"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="119"/>
+		</for>
+	</armor>
+	<armor id="47024" name="Paulina\'s Twilight Gauntlets" add_name="Heavy Armor">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t601_g_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="510"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="87"/>
+		</for>
+	</armor>
+	<armor id="47025" name="Paulina\'s Twilight Boots" add_name="Heavy Armor">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t601_b_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1070"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="87"/>
+		</for>
+	</armor>
+	<weapon id="47026" name="Paulina\'s Twilight Shield" add_name="Heavy Armor">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.kratere_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1130"/>
+		<equip>
+			<slot id="LEFT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pEvasRate" order="0x10" value="-8"/>
+			<add stat="sDef" order="0x10" value="466"/>
+			<add stat="rShld" order="0x10" value="20"/>
+		</for>
+	</weapon>
+	<armor id="47027" name="Paulina\'s Twilight Leather Helmet" add_name="Light Armor">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="530"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="130"/>
+		</for>
+	</armor>
+	<armor id="47028" name="Paulina\'s Twilight Leather Armor" add_name="Light Armor">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t602_u_i00"/>
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="4140"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="152"/>
+			<add stat="pEvasRate" order="0x10" value="5"/>
+			<add stat="mEvasRate" order="0x10" value="5"/>
+		</for>
+	</armor>
+	<armor id="47029" name="Paulina\'s Twilight Leather Leggings" add_name="Light Armor">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t602_l_i00"/>
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="1320"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="95"/>
+			<add stat="pEvasRate" order="0x10" value="3"/>
+			<add stat="mEvasRate" order="0x10" value="3"/>
+		</for>
+	</armor>
+	<armor id="47030" name="Paulina\'s Twilight Leather Gloves" add_name="Light Armor">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t602_g_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="510"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="87"/>
+		</for>
+	</armor>
+	<armor id="47031" name="Paulina\'s Twilight Leather Boots" add_name="Light Armor">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t602_b_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1070"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="87"/>
+		</for>
+	</armor>
+	<armor id="47032" name="Paulina\'s Twilight Circlet" add_name="Robe">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_circlet_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="530"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="130"/>
+		</for>
+	</armor>
+	<armor id="47033" name="Paulina\'s Twilight Tunic" add_name="Robe">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t603_u_i00"/>
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="1750"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="105"/>
+			<add stat="mDef" order="0x10" value="41"/>
+			<add stat="maxMp" order="0x60" value="649"/>
+		</for>
+	</armor>
+	<armor id="47034" name="Paulina\'s Twilight Stockings" add_name="Robe">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t603_l_i00"/>
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="850"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="65"/>
+			<add stat="mDef" order="0x10" value="27"/>
+			<add stat="maxMp" order="0x60" value="427"/>
+		</for>
+	</armor>
+	<armor id="47035" name="Paulina\'s Twilight Gloves" add_name="Robe">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t603_g_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="510"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="87"/>
+		</for>
+	</armor>
+	<armor id="47036" name="Paulina\'s Twilight Shoes" add_name="Robe">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t603_b_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1070"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="87"/>
+		</for>
+	</armor>
+	<armor id="47037" name="Paulina\'s Twilight Sigil" add_name="Robe">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.weapon_dynaksus_i00"/>
+		<set name="type" value="SIGIL"/>
+		<set name="weight" value="920"/>
+		<equip>
+			<slot id="LEFT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="42"/>
+			<add stat="pEvasRate" order="0x10" value="-8"/>
+		</for>
+	</armor>
+	<armor id="47038" name="Paulina\'s Twilight Necklace" add_name="Skill Cooldown">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.r2_necklace_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="NECKLACE"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="146"/>
+			<add stat="maxMp" order="0x60" value="58"/>
+		</for>
+	</armor>
+	<armor id="47039" name="Paulina\'s Twilight Earring" add_name="Vampiric Rage">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.r2_earring_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="RIGHT_EAR"/>
+			<slot id="LEFT_EAR"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="109"/>
+			<add stat="maxMp" order="0x60" value="43"/>
+		</for>
+	</armor>
+	<armor id="47040" name="Paulina\'s Twilight Earring" add_name="MP Consumption">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.r2_earring_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="RIGHT_EAR"/>
+			<slot id="LEFT_EAR"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="109"/>
+			<add stat="maxMp" order="0x60" value="43"/>
+		</for>
+	</armor>
+	<armor id="47041" name="Paulina\'s Twilight Ring" add_name="Critical Damage">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.r2_ring_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="RIGHT_FINGER"/>
+			<slot id="LEFT_FINGER"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="73"/>
+			<add stat="maxMp" order="0x60" value="29"/>
+		</for>
+	</armor>
+	<armor id="47042" name="Paulina\'s Twilight Ring" add_name="Critical Rate">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.r2_ring_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="RIGHT_FINGER"/>
+			<slot id="LEFT_FINGER"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="73"/>
+			<add stat="maxMp" order="0x60" value="29"/>
+		</for>
+	</armor>
+	<etcitem id="47043" name="Beloa\'s Supply Items">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_box_of_adventure_1_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<armor id="47044" name="Commando Belt">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.event_energy_belt_i00"/>
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="440"/>
+		<equip>
+			<slot id="BELT"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="25"/>
+		</for>
+	</armor>
+	<etcitem id="47045" name="Dimensional Force Sustaining Device">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_medicine_of_growth_i00"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="47046" name="Alligator Leather">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_scale_of_medusa_green_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="47047" name="Destroyed Gargoyle Fragment">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_debris_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="47048" name="Basilisk Scale">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_scale_of_medusa_red_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="47049" name="Mahum ID Tag">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_totem_necklace_black_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="47050" name="Spore Pocket">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_pouch_yellow_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="47051" name="Mark of the Plains Monsters">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_leash_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="47052" name="Mark of the Plateau Monsters">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_broken_crystal_silver_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="47053" name="Slaughterer Mark">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_ketra_friendship_1_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="47054" name="Scroll of Escape: Arms of Timiniel">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_scroll_of_return_i05"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="handler" value="SkillsReduce"/>
+		<skills>
+			<skill id="17993" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="47055" name="Scroll of Escape: Arms of Timiniel">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_scroll_of_return_i05"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="handler" value="SkillsReduce"/>
+		<skills>
+			<skill id="17993" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="47056" name="Scroll of Escape: Harnak Underground Ruins">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_scroll_of_return_i05"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="handler" value="SkillsReduce"/>
+		<skills>
+			<skill id="17991" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="47057" name="Scroll of Escape: Bloody Swampland">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_scroll_of_return_i05"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="handler" value="SkillsReduce"/>
+		<skills>
+			<skill id="17989" level="1"/>
+		</skills>	
+	</etcitem>
+	<etcitem id="47058" name="Scroll of Escape: Kartia\'s Labyrinth">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_scroll_of_return_i05"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="handler" value="SkillsReduce"/>
+		<skills>
+			<skill id="17992" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="47059" name="Scroll of Escape: Isle of Souls">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_scroll_of_return_i05"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="47060" name="Scroll of Escape: Seal of Shilen">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_scroll_of_return_i05"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="47061" name="Scroll of Escape: Pagan Temple">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_scroll_of_return_i05"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="47062" name="Scroll of Escape: Cemetery">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_scroll_of_return_i05"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="47063" name="Scroll of Escape: Blazing Swamp">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_scroll_of_return_i05"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="47064" name="Blessed Paulina\'s Seraph Heavy Armor Box" add_name="30-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="BranchSys.br_fortuna_box_s_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="47065" name="Blessed Paulina\'s Seraph Light Armor Box" add_name="30-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="BranchSys.br_fortuna_box_s_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="47066" name="Blessed Paulina\'s Seraph Robe Box" add_name="30-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="BranchSys.br_fortuna_box_s_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="47067" name="Blessed Paulina\'s Seraph Accessory Pack" add_name="30-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="BranchSys.br_fortuna_box_s_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="47068" name="PC Cafe - Paulina\'s Seraph Heavy Armor Box" add_name="4-hour">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.event_hero_treasure_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="47069" name="PC Cafe - Paulina\'s Seraph Light Armor Box" add_name="4-hour">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.event_hero_treasure_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="47070" name="PC Cafe - Paulina\'s Seraph Robe Box" add_name="4-hour">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.event_hero_treasure_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="47071" name="PC Cafe - Paulina\'s Seraph Accessory Pack" add_name="4-hour">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.event_hero_treasure_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="47072" name="Blessed Paulina\'s Specter Dualsword Box" add_name="30-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_lucky_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="47073" name="Blessed Paulina\'s Specter Cutter Box" add_name="30-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_lucky_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="47074" name="Blessed Paulina\'s Specter Slasher Box" add_name="30-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_lucky_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="47075" name="Blessed Paulina\'s Specter Avenger Box" add_name="30-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_lucky_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="47076" name="Blessed Paulina\'s Specter Fighter Box" add_name="30-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_lucky_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="47077" name="Blessed Paulina\'s Specter Stormer Box" add_name="30-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_lucky_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="47078" name="Blessed Paulina\'s Specter Thrower Box" add_name="30-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_lucky_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="47079" name="Blessed Paulina\'s Specter Shooter Box" add_name="30-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_lucky_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="47080" name="Blessed Paulina\'s Specter Dual Dagger Box" add_name="30-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_lucky_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="47081" name="Blessed Paulina\'s Specter Caster Box" add_name="30-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_lucky_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="47082" name="Blessed Paulina\'s Specter Retributer Box" add_name="30-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="br_cashtex.item.br_cash_lucky_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="47083" name="Tulesir\'s Gift Box">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_box_of_adventure_2_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="47084" name="Beloa\'s Gift Box">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_box_of_adventure_2_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="47085" name="Superior Giant\'s Codex Box">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.event_hero_treasure_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="47086" name="Venir\'s Talisman Box">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.event_hero_treasure_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="47087" name="Jewelry Box">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.event_hero_treasure_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="47088" name="Crystal with Anakim\'s Energy">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.bm_ensoul_stone_PvE_empty"/>
+		<set name="weight" value="5"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="47089" name="Anakim Soul Crystal" add_name="Stage 1">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.bm_ensoul_stone_pve"/>
+		<set name="weight" value="20"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="SOUL_CRYSTAL"/>
+	</etcitem>
+	<etcitem id="47090" name="Anakim Soul Crystal" add_name="Stage 2">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.bm_ensoul_stone_pve"/>
+		<set name="weight" value="20"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="SOUL_CRYSTAL"/>
+	</etcitem>
+	<etcitem id="47091" name="Anakim Soul Crystal" add_name="Stage 3">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.bm_ensoul_stone_pve"/>
+		<set name="weight" value="20"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="SOUL_CRYSTAL"/>
+	</etcitem>
+	<etcitem id="47092" name="Anakim Soul Crystal" add_name="Stage 4">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.bm_ensoul_stone_pve"/>
+		<set name="weight" value="20"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="SOUL_CRYSTAL"/>
+	</etcitem>
+	<etcitem id="47093" name="Anakim Soul Crystal" add_name="Stage 5">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.bm_ensoul_stone_pve"/>
+		<set name="weight" value="20"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="SOUL_CRYSTAL"/>
+	</etcitem>
+	<etcitem id="47094" name="Anakim Soul Crystal" add_name="Stage 6">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.bm_ensoul_stone_pve"/>
+		<set name="weight" value="20"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="SOUL_CRYSTAL"/>
+	</etcitem>
+	<etcitem id="47095" name="Anakim Soul Crystal" add_name="Stage 7">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.bm_ensoul_stone_pve"/>
+		<set name="weight" value="20"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="SOUL_CRYSTAL"/>
+	</etcitem>
+	<etcitem id="47096" name="Anakim Soul Crystal" add_name="Stage 8">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.bm_ensoul_stone_pve"/>
+		<set name="weight" value="20"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="SOUL_CRYSTAL"/>
+	</etcitem>
+	<etcitem id="47097" name="Anakim Soul Crystal" add_name="Stage 9">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.bm_ensoul_stone_pve"/>
+		<set name="weight" value="20"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="SOUL_CRYSTAL"/>
+	</etcitem>
+	<etcitem id="47098" name="Anakim Soul Crystal" add_name="Stage 10">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.bm_ensoul_stone_pve"/>
+		<set name="weight" value="20"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="SOUL_CRYSTAL"/>
+	</etcitem>
+	<etcitem id="47099" name="Crystal with Lilith\'s Energy">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.bm_ensoul_stone_PvP_empty"/>
+		<set name="weight" value="5"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+</list>

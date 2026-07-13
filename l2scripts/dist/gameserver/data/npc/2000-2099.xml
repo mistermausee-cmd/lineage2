@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "npc.dtd">
+<list>
+	<npc id="2081" name="Canabion of Plague" title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="29"/>
+		<set name="collision_radius" value="9"/>
+		<set name="level" value="82"/>
+		<set name="rewardExp" value="8477"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="927"/>
+		<set name="baseHpMax" value="3643.38976668326"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1743"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="1055.28566004965"/>
+		<set name="basePDef" value="349.77477"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="720.623302603812"/>
+		<set name="baseMDef" value="255.95"/>
+		<set name="baseWalkSpd" value="8"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.58"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="rim_clan" range="200"/>
+		<ai_params>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4032" level="8" use_type="Skill01_ID"/>	<!--Power Strike-->
+			<skill id="5719" level="1" use_type="Debuff"/>	<!--Kanabion Susceptibility-->
+		</skills>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group chance="42">
+				<reward item_id="8600" min="1" max="1" chance="20"/>	<!--Herb of Life-->
+				<reward item_id="8601" min="1" max="1" chance="45"/>	<!--Greater Herb of Life-->
+				<reward item_id="8602" min="1" max="1" chance="35"/>	<!--Superior Herb of Life-->
+			</group>
+			<group chance="11">
+				<reward item_id="8603" min="1" max="1" chance="10"/>	<!--Herb of Mana-->
+				<reward item_id="8604" min="1" max="1" chance="54"/>	<!--Greater Herb of Mana-->
+				<reward item_id="8605" min="1" max="1" chance="36"/>	<!--Superior Herb of Mana-->
+			</group>
+			<group chance="25">
+				<reward item_id="8606" min="1" max="1" chance="20"/>	<!--Herb of Power-->
+				<reward item_id="8608" min="1" max="1" chance="20"/>	<!--Herb of Alacrity-->
+				<reward item_id="8610" min="1" max="1" chance="20"/>	<!--Herb of Critical Attack - Probability-->
+				<reward item_id="10655" min="1" max="1" chance="20"/>	<!--Herb of Vampiric Rage-->
+				<reward item_id="10656" min="1" max="1" chance="20"/>	<!--Herb of Critical Attack - Power-->
+			</group>
+			<group chance="10">
+				<reward item_id="8607" min="1" max="1" chance="50"/>	<!--Herb of Magic-->
+				<reward item_id="8609" min="1" max="1" chance="50"/>	<!--Herb of Casting Spd.-->
+			</group>
+			<group chance="1">
+				<reward item_id="8612" min="1" max="1" chance="33"/>	<!--Herb of the Warrior-->
+				<reward item_id="8613" min="1" max="1" chance="33"/>	<!--Herb of the Mystic-->
+				<reward item_id="8614" min="1" max="1" chance="34"/>	<!--Herb of Recovery-->
+			</group>
+			<group chance="11">
+				<reward item_id="8611" min="1" max="1" chance="94"/>	<!--Herb of Speed-->
+				<reward item_id="10657" min="1" max="1" chance="6"/>	<!--Herb of Doubt-->
+			</group>
+		</rewardlist>
+	</npc>
+	<npc id="2082" name="Canabion of Plague" title="Doppler">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="31.5"/>
+		<set name="collision_radius" value="9"/>
+		<set name="level" value="82"/>
+		<set name="rewardExp" value="8477"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="927"/>
+		<set name="baseHpMax" value="3643.38976668326"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1743"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="1055.28566004965"/>
+		<set name="basePDef" value="349.77477"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="720.623302603812"/>
+		<set name="baseMDef" value="255.95"/>
+		<set name="baseWalkSpd" value="10"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.55"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="rim_clan" range="200">
+			<ignore npc_id="2081"/>	<!--Canabion of Plague-->
+		</faction>
+		<ai_params>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4032" level="8" use_type="Skill01_ID"/>	<!--Power Strike-->
+			<skill id="5719" level="1" use_type="Debuff"/>	<!--Kanabion Susceptibility-->
+		</skills>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group chance="42">
+				<reward item_id="8600" min="1" max="1" chance="20"/>	<!--Herb of Life-->
+				<reward item_id="8601" min="1" max="1" chance="45"/>	<!--Greater Herb of Life-->
+				<reward item_id="8602" min="1" max="1" chance="35"/>	<!--Superior Herb of Life-->
+			</group>
+			<group chance="11">
+				<reward item_id="8603" min="1" max="1" chance="10"/>	<!--Herb of Mana-->
+				<reward item_id="8604" min="1" max="1" chance="54"/>	<!--Greater Herb of Mana-->
+				<reward item_id="8605" min="1" max="1" chance="36"/>	<!--Superior Herb of Mana-->
+			</group>
+			<group chance="25">
+				<reward item_id="8606" min="1" max="1" chance="20"/>	<!--Herb of Power-->
+				<reward item_id="8608" min="1" max="1" chance="20"/>	<!--Herb of Alacrity-->
+				<reward item_id="8610" min="1" max="1" chance="20"/>	<!--Herb of Critical Attack - Probability-->
+				<reward item_id="10655" min="1" max="1" chance="20"/>	<!--Herb of Vampiric Rage-->
+				<reward item_id="10656" min="1" max="1" chance="20"/>	<!--Herb of Critical Attack - Power-->
+			</group>
+			<group chance="10">
+				<reward item_id="8607" min="1" max="1" chance="50"/>	<!--Herb of Magic-->
+				<reward item_id="8609" min="1" max="1" chance="50"/>	<!--Herb of Casting Spd.-->
+			</group>
+			<group chance="1">
+				<reward item_id="8612" min="1" max="1" chance="33"/>	<!--Herb of the Warrior-->
+				<reward item_id="8613" min="1" max="1" chance="33"/>	<!--Herb of the Mystic-->
+				<reward item_id="8614" min="1" max="1" chance="34"/>	<!--Herb of Recovery-->
+			</group>
+			<group chance="11">
+				<reward item_id="8611" min="1" max="1" chance="94"/>	<!--Herb of Speed-->
+				<reward item_id="10657" min="1" max="1" chance="6"/>	<!--Herb of Doubt-->
+			</group>
+		</rewardlist>
+	</npc>
+	<npc id="2083" name="Canabion of Plague" title="Void">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="35"/>
+		<set name="collision_radius" value="10"/>
+		<set name="level" value="83"/>
+		<set name="rewardExp" value="8898"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="961"/>
+		<set name="baseHpMax" value="3835.59060587002"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1777.4"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="1099.42361669366"/>
+		<set name="basePDef" value="353.86144"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="750.763809564873"/>
+		<set name="baseMDef" value="258.94045"/>
+		<set name="baseWalkSpd" value="15"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.55"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="rim_clan" range="300">
+			<ignore npc_id="2081"/>	<!--Canabion of Plague-->
+		</faction>
+		<ai_params>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4032" level="8" use_type="Skill01_ID"/>	<!--Power Strike-->
+			<skill id="4340" level="1" use_type="Buff"/>	<!--Ultimate Buff-->
+			<skill id="5719" level="1" use_type="Debuff"/>	<!--Kanabion Susceptibility-->
+		</skills>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group chance="42">
+				<reward item_id="8600" min="1" max="1" chance="20"/>	<!--Herb of Life-->
+				<reward item_id="8601" min="1" max="1" chance="45"/>	<!--Greater Herb of Life-->
+				<reward item_id="8602" min="1" max="1" chance="35"/>	<!--Superior Herb of Life-->
+			</group>
+			<group chance="11">
+				<reward item_id="8603" min="1" max="1" chance="10"/>	<!--Herb of Mana-->
+				<reward item_id="8604" min="1" max="1" chance="54"/>	<!--Greater Herb of Mana-->
+				<reward item_id="8605" min="1" max="1" chance="36"/>	<!--Superior Herb of Mana-->
+			</group>
+			<group chance="25">
+				<reward item_id="8606" min="1" max="1" chance="20"/>	<!--Herb of Power-->
+				<reward item_id="8608" min="1" max="1" chance="20"/>	<!--Herb of Alacrity-->
+				<reward item_id="8610" min="1" max="1" chance="20"/>	<!--Herb of Critical Attack - Probability-->
+				<reward item_id="10655" min="1" max="1" chance="20"/>	<!--Herb of Vampiric Rage-->
+				<reward item_id="10656" min="1" max="1" chance="20"/>	<!--Herb of Critical Attack - Power-->
+			</group>
+			<group chance="10">
+				<reward item_id="8607" min="1" max="1" chance="50"/>	<!--Herb of Magic-->
+				<reward item_id="8609" min="1" max="1" chance="50"/>	<!--Herb of Casting Spd.-->
+			</group>
+			<group chance="1">
+				<reward item_id="8612" min="1" max="1" chance="33"/>	<!--Herb of the Warrior-->
+				<reward item_id="8613" min="1" max="1" chance="33"/>	<!--Herb of the Mystic-->
+				<reward item_id="8614" min="1" max="1" chance="34"/>	<!--Herb of Recovery-->
+			</group>
+			<group chance="11">
+				<reward item_id="8611" min="1" max="1" chance="94"/>	<!--Herb of Speed-->
+				<reward item_id="10657" min="1" max="1" chance="6"/>	<!--Herb of Doubt-->
+			</group>
+		</rewardlist>
+	</npc>
+</list>

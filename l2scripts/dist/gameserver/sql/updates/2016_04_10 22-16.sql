@@ -1,0 +1,1 @@
+ALTER TABLE fortress DROP COLUMN supply_spawn;

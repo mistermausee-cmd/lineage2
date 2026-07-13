@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="11997" levels="1" name="Healer - Individual Passive">
+		<set name="icon" value="icon.skill0217"/>
+		<set name="magicLevel" value="85"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="11998" levels="1" name="Healer - Individual">
+		<set name="icon" value="icon.skill1543"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="500"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="attack_time_down_special"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="ITEM"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="11999" levels="1" name="Heavy Hit">
+		<set name="icon" value="icon.skill10317"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="coolTime" value="300"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="2"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="A2"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="power" value="5000"/>
+	</skill>
+</list>

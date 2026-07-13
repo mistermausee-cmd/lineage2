@@ -1,0 +1,13 @@
+<html><head><body>
+Член Гильдии Путешественников:<br>
+Добро пожаловать! Я из Гильдии Путешественников, собираю и сообщаю информацию о различной работе.<br>
+Еще я занимаюсь <font color="LEVEL">выдачей наград за Знаки Путешественника и печати</font>.<br>
+Хотите узнать о тех, кто оказался в беде?<br>
+#if ($ALT_PCBANG_POINTS_ENABLED)
+<Button ALIGN=LEFT ICON="NORMAL" action="link adventurer_guildsman/pccafe_list001.htm"><font color="LEVEL">Использовать очки ПА</font></Button>
+#end
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_questlist">Информация о задании</Button>
+<Button ALIGN=LEFT ICON="NORMAL" action="link adventurer_guildsman/adventurer_agent_town_voucher_change.htm">Обменять Знаки Путешественника и печати</Button>
+<Button ALIGN=LEFT ICON="NORMAL" action="link adventurer_guildsman/life_crystal_gludin.htm">Применить кристалл жизни</Button>
+<Button ALIGN=LEFT ICON="QUEST" action="bypass -h talk_select">Квест</Button>
+</body></html>

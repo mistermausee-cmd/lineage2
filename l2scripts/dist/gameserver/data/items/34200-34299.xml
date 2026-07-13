@@ -1,0 +1,3249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<weapon id="34200" name="Player Commendation - Samurai Long Sword (Fire) - Focus" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_samurai_longsword_i01"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="138"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3010" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="156"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="34201" name="Player Commendation - Samurai Long Sword (Holy) - Focus" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_samurai_longsword_i01"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="138"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="holy" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3010" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="156"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="34202" name="Player Commendation - Samurai Long Sword (Dark) - Focus" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_samurai_longsword_i01"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="138"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="unholy" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3010" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="156"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="34203" name="Player Commendation - Admiral\'s Estoc (Earth) - Focus" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_blink_slasher_i01"/>
+		<set name="type" value="RAPIER"/>
+		<set name="weight" value="138"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="40"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="earth" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3010" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="141"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="406"/>
+			<set stat="basePCritRate" order="0x08" value="100"/>
+			<add stat="pAccCombat" order="0x10" value="-1.5"/>
+		</for>
+	</weapon>
+	<weapon id="34204" name="Player Commendation - Admiral\'s Estoc (Water) - Focus" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_blink_slasher_i01"/>
+		<set name="type" value="RAPIER"/>
+		<set name="weight" value="138"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="40"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="water" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3010" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="141"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="406"/>
+			<set stat="basePCritRate" order="0x08" value="100"/>
+			<add stat="pAccCombat" order="0x10" value="-1.5"/>
+		</for>
+	</weapon>
+	<weapon id="34205" name="Player Commendation - Admiral\'s Estoc (Wind) - Focus" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_blink_slasher_i01"/>
+		<set name="type" value="RAPIER"/>
+		<set name="weight" value="138"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="40"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="wind" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3010" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="141"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="406"/>
+			<set stat="basePCritRate" order="0x08" value="100"/>
+			<add stat="pAccCombat" order="0x10" value="-1.5"/>
+		</for>
+	</weapon>
+	<weapon id="34206" name="Player Commendation - Admiral\'s Estoc (Fire) - Focus" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_blink_slasher_i01"/>
+		<set name="type" value="RAPIER"/>
+		<set name="weight" value="138"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="40"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3010" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="141"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="406"/>
+			<set stat="basePCritRate" order="0x08" value="100"/>
+			<add stat="pAccCombat" order="0x10" value="-1.5"/>
+		</for>
+	</weapon>
+	<weapon id="34207" name="Player Commendation - Admiral\'s Estoc (Holy) - Focus" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_blink_slasher_i01"/>
+		<set name="type" value="RAPIER"/>
+		<set name="weight" value="138"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="40"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="holy" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3010" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="141"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="406"/>
+			<set stat="basePCritRate" order="0x08" value="100"/>
+			<add stat="pAccCombat" order="0x10" value="-1.5"/>
+		</for>
+	</weapon>
+	<weapon id="34208" name="Player Commendation - Admiral\'s Estoc (Dark) - Focus" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_blink_slasher_i01"/>
+		<set name="type" value="RAPIER"/>
+		<set name="weight" value="138"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="40"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="unholy" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3010" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="141"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="406"/>
+			<set stat="basePCritRate" order="0x08" value="100"/>
+			<add stat="pAccCombat" order="0x10" value="-1.5"/>
+		</for>
+	</weapon>
+	<weapon id="34209" name="Player Commendation - Yaksa Mace (Earth) - Health" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_yaksa_mace_i01"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="164"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="earth" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="156"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34210" name="Player Commendation - Yaksa Mace (Water) - Health" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_yaksa_mace_i01"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="164"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="water" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="156"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34211" name="Player Commendation - Yaksa Mace (Wind) - Health" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_yaksa_mace_i01"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="164"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="wind" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="156"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34212" name="Player Commendation - Yaksa Mace (Fire) - Health" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_yaksa_mace_i01"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="164"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="156"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34213" name="Player Commendation - Yaksa Mace (Holy) - Health" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_yaksa_mace_i01"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="164"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="holy" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="156"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34214" name="Player Commendation - Yaksa Mace (Dark) - Health" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_yaksa_mace_i01"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="164"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="unholy" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="156"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34215" name="Player Commendation - Eminence Bow (Earth) - Guidance" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;10;0"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_eminence_bow_i01"/>
+		<set name="type" value="BOW"/>
+		<set name="weight" value="172"/>
+		<set name="soulshots" value="10"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="mp_consume" value="3"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="earth" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3008" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="323"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="293"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="34216" name="Player Commendation - Eminence Bow (Water) - Guidance" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;10;0"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_eminence_bow_i01"/>
+		<set name="type" value="BOW"/>
+		<set name="weight" value="172"/>
+		<set name="soulshots" value="10"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="mp_consume" value="3"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="water" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3008" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="323"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="293"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="34217" name="Player Commendation - Eminence Bow (Wind) - Guidance" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;10;0"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_eminence_bow_i01"/>
+		<set name="type" value="BOW"/>
+		<set name="weight" value="172"/>
+		<set name="soulshots" value="10"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="mp_consume" value="3"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="wind" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3008" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="323"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="293"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="34218" name="Player Commendation - Eminence Bow (Fire) - Guidance" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;10;0"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_eminence_bow_i01"/>
+		<set name="type" value="BOW"/>
+		<set name="weight" value="172"/>
+		<set name="soulshots" value="10"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="mp_consume" value="3"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3008" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="323"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="293"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="34219" name="Player Commendation - Eminence Bow (Holy) - Guidance" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;10;0"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_eminence_bow_i01"/>
+		<set name="type" value="BOW"/>
+		<set name="weight" value="172"/>
+		<set name="soulshots" value="10"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="mp_consume" value="3"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="holy" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3008" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="323"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="293"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="34220" name="Player Commendation - Eminence Bow (Dark) - Guidance" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;10;0"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_eminence_bow_i01"/>
+		<set name="type" value="BOW"/>
+		<set name="weight" value="172"/>
+		<set name="soulshots" value="10"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="mp_consume" value="3"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="unholy" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3008" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="323"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="293"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="34221" name="Player Commendation - Orcish Poleaxe (Earth) - Critical Stun" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;66;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_orcish_poleaxe_i01"/>
+		<set name="type" value="POLE"/>
+		<set name="weight" value="195"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="earth" value="150"/>
+		</attributes>
+		<!-- todo остальные скиллы -->
+		<skills>
+			<skill id="3599" level="1"/>
+		</skills>
+		<triggers>
+			<trigger id="3016" level="4" type="CRIT" chance="29"/>
+		</triggers>
+		<for>
+			<add stat="pAtk" order="0x10" value="156"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="34222" name="Player Commendation - Orcish Poleaxe (Water) - Critical Stun" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;66;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_orcish_poleaxe_i01"/>
+		<set name="type" value="POLE"/>
+		<set name="weight" value="195"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="water" value="150"/>
+		</attributes>
+		<!-- todo остальные скиллы -->
+		<skills>
+			<skill id="3599" level="1"/>
+		</skills>
+		<triggers>
+			<trigger id="3016" level="4" type="CRIT" chance="29"/>
+		</triggers>
+		<for>
+			<add stat="pAtk" order="0x10" value="156"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="34223" name="Player Commendation - Orcish Poleaxe (Wind) - Critical Stun" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;66;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_orcish_poleaxe_i01"/>
+		<set name="type" value="POLE"/>
+		<set name="weight" value="195"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="wind" value="150"/>
+		</attributes>
+		<!-- todo остальные скиллы -->
+		<skills>
+			<skill id="3599" level="1"/>
+		</skills>
+		<triggers>
+			<trigger id="3016" level="4" type="CRIT" chance="29"/>
+		</triggers>
+		<for>
+			<add stat="pAtk" order="0x10" value="156"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="34224" name="Player Commendation - Orcish Poleaxe (Fire) - Critical Stun" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;66;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_orcish_poleaxe_i01"/>
+		<set name="type" value="POLE"/>
+		<set name="weight" value="195"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="150"/>
+		</attributes>
+		<!-- todo остальные скиллы -->
+		<skills>
+			<skill id="3599" level="1"/>
+		</skills>
+		<triggers>
+			<trigger id="3016" level="4" type="CRIT" chance="29"/>
+		</triggers>
+		<for>
+			<add stat="pAtk" order="0x10" value="156"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="34225" name="Player Commendation - Orcish Poleaxe (Holy) - Critical Stun" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;66;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_orcish_poleaxe_i01"/>
+		<set name="type" value="POLE"/>
+		<set name="weight" value="195"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="holy" value="150"/>
+		</attributes>
+		<!-- todo остальные скиллы -->
+		<skills>
+			<skill id="3599" level="1"/>
+		</skills>
+		<triggers>
+			<trigger id="3016" level="4" type="CRIT" chance="29"/>
+		</triggers>
+		<for>
+			<add stat="pAtk" order="0x10" value="156"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="34226" name="Player Commendation - Orcish Poleaxe (Dark) - Critical Stun" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;66;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_orcish_poleaxe_i01"/>
+		<set name="type" value="POLE"/>
+		<set name="weight" value="195"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="unholy" value="150"/>
+		</attributes>
+		<!-- todo остальные скиллы -->
+		<skills>
+			<skill id="3599" level="1"/>
+		</skills>
+		<triggers>
+			<trigger id="3016" level="4" type="CRIT" chance="29"/>
+		</triggers>
+		<for>
+			<add stat="pAtk" order="0x10" value="156"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="34227" name="Player Commendation - Ecliptic Axe (Earth) - M. Atk." add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_eclipse_axe_i01"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="164"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="earth" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3077" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="125"/>
+			<add stat="mAtk" order="0x10" value="111"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34228" name="Player Commendation - Ecliptic Axe (Water) - M. Atk." add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_eclipse_axe_i01"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="164"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="water" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3077" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="125"/>
+			<add stat="mAtk" order="0x10" value="111"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34229" name="Player Commendation - Ecliptic Axe (Wind) - M. Atk." add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_eclipse_axe_i01"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="164"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="wind" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3077" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="125"/>
+			<add stat="mAtk" order="0x10" value="111"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34230" name="Player Commendation - Ecliptic Axe (Fire) - M. Atk." add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_eclipse_axe_i01"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="164"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3077" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="125"/>
+			<add stat="mAtk" order="0x10" value="111"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34231" name="Player Commendation - Ecliptic Axe (Holy) - M. Atk." add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_eclipse_axe_i01"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="164"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="holy" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3077" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="125"/>
+			<add stat="mAtk" order="0x10" value="111"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34232" name="Player Commendation - Ecliptic Axe (Dark) - M. Atk." add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_eclipse_axe_i01"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="164"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="unholy" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3077" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="125"/>
+			<add stat="mAtk" order="0x10" value="111"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34233" name="Player Commendation - Crystal Dagger (Earth) - Critical Damage" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_crystal_dagger_i01"/>
+		<set name="type" value="DAGGER"/>
+		<set name="weight" value="100"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="5"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="earth" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3043" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="136"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="34234" name="Player Commendation - Crystal Dagger (Water) - Critical Damage" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_crystal_dagger_i01"/>
+		<set name="type" value="DAGGER"/>
+		<set name="weight" value="100"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="5"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="water" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3043" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="136"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="34235" name="Player Commendation - Crystal Dagger (Wind) - Critical Damage" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_crystal_dagger_i01"/>
+		<set name="type" value="DAGGER"/>
+		<set name="weight" value="100"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="5"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="wind" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3043" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="136"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="34236" name="Player Commendation - Crystal Dagger (Fire) - Critical Damage" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_crystal_dagger_i01"/>
+		<set name="type" value="DAGGER"/>
+		<set name="weight" value="100"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="5"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3043" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="136"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="34237" name="Player Commendation - Crystal Dagger (Holy) - Critical Damage" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_crystal_dagger_i01"/>
+		<set name="type" value="DAGGER"/>
+		<set name="weight" value="100"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="5"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="holy" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3043" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="136"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="34238" name="Player Commendation - Crystal Dagger (Dark) - Critical Damage" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_crystal_dagger_i01"/>
+		<set name="type" value="DAGGER"/>
+		<set name="weight" value="100"/>
+		<set name="soulshots" value="3"/>
+		<set name="spiritshots" value="3"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="5"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="unholy" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3043" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="136"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="34239" name="Player Commendation - Guardian\'s Sword (Earth) - Health" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;44;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_guardians_sword_i01"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="193"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="earth" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="236"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="34240" name="Player Commendation - Guardian\'s Sword (Water) - Health" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;44;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_guardians_sword_i01"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="193"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="water" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="236"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="34241" name="Player Commendation - Guardian\'s Sword (Wind) - Health" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;44;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_guardians_sword_i01"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="193"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="wind" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="236"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="34242" name="Player Commendation - Guardian\'s Sword (Fire) - Health" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;44;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_guardians_sword_i01"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="193"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="236"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="34243" name="Player Commendation - Guardian\'s Sword (Holy) - Health" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;44;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_guardians_sword_i01"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="193"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="holy" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="236"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="34244" name="Player Commendation - Guardian\'s Sword (Dark) - Health" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;44;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_guardians_sword_i01"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="193"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="unholy" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="236"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="34245" name="Player Commendation - Damascus Sword (Earth) - Focus" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_sword_of_damascus_i01"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="135"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="earth" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3010" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="194"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="34246" name="Player Commendation - Damascus Sword (Water) - Focus" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_sword_of_damascus_i01"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="135"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="water" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3010" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="194"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="34247" name="Player Commendation - Damascus Sword (Wind) - Focus" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_sword_of_damascus_i01"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="135"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="wind" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3010" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="194"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="34248" name="Player Commendation - Damascus Sword (Fire) - Focus" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_sword_of_damascus_i01"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="135"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3010" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="194"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="34249" name="Player Commendation - Damascus Sword (Holy) - Focus" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_sword_of_damascus_i01"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="135"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="holy" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3010" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="194"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="34250" name="Player Commendation - Damascus Sword (Dark) - Focus" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_sword_of_damascus_i01"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="135"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="unholy" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3010" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="194"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="34251" name="Player Commendation - Dismantler (Earth) - Health" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_dismantler_i01"/>
+		<set name="type" value="ANCIENTSWORD"/>
+		<set name="weight" value="193"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="15"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="earth" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="210"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="350"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<add stat="pAccCombat" order="0x10" value="2"/>
+		</for>
+	</weapon>
+	<weapon id="34252" name="Player Commendation - Dismantler (Water) - Health" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_dismantler_i01"/>
+		<set name="type" value="ANCIENTSWORD"/>
+		<set name="weight" value="193"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="15"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="water" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="210"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="350"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<add stat="pAccCombat" order="0x10" value="2"/>
+		</for>
+	</weapon>
+	<weapon id="34253" name="Player Commendation - Dismantler (Wind) - Health" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_dismantler_i01"/>
+		<set name="type" value="ANCIENTSWORD"/>
+		<set name="weight" value="193"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="15"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="wind" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="210"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="350"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<add stat="pAccCombat" order="0x10" value="2"/>
+		</for>
+	</weapon>
+	<weapon id="34254" name="Player Commendation - Dismantler (Fire) - Health" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_dismantler_i01"/>
+		<set name="type" value="ANCIENTSWORD"/>
+		<set name="weight" value="193"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="15"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="210"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="350"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<add stat="pAccCombat" order="0x10" value="2"/>
+		</for>
+	</weapon>
+	<weapon id="34255" name="Player Commendation - Dismantler (Holy) - Health" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_dismantler_i01"/>
+		<set name="type" value="ANCIENTSWORD"/>
+		<set name="weight" value="193"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="15"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="holy" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="210"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="350"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<add stat="pAccCombat" order="0x10" value="2"/>
+		</for>
+	</weapon>
+	<weapon id="34256" name="Player Commendation - Dismantler (Dark) - Health" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_dismantler_i01"/>
+		<set name="type" value="ANCIENTSWORD"/>
+		<set name="weight" value="193"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="15"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="unholy" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="210"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="350"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<add stat="pAccCombat" order="0x10" value="2"/>
+		</for>
+	</weapon>
+	<weapon id="34257" name="Player Commendation - Lance (Earth) - Critical Stun" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;66;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_lancia_i01"/>
+		<set name="type" value="POLE"/>
+		<set name="weight" value="192"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="earth" value="150"/>
+		</attributes>
+		<!-- todo остальные скиллы -->
+		<skills>
+			<skill id="3599" level="1"/>
+		</skills>
+		<triggers>
+			<trigger id="3016" level="4" type="CRIT" chance="25"/>
+		</triggers>
+		<for>
+			<add stat="pAtk" order="0x10" value="194"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="34258" name="Player Commendation - Lance (Water) - Critical Stun" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;66;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_lancia_i01"/>
+		<set name="type" value="POLE"/>
+		<set name="weight" value="192"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="water" value="150"/>
+		</attributes>
+		<!-- todo остальные скиллы -->
+		<skills>
+			<skill id="3599" level="1"/>
+		</skills>
+		<triggers>
+			<trigger id="3016" level="4" type="CRIT" chance="25"/>
+		</triggers>
+		<for>
+			<add stat="pAtk" order="0x10" value="194"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="34259" name="Player Commendation - Lance (Wind) - Critical Stun" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;66;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_lancia_i01"/>
+		<set name="type" value="POLE"/>
+		<set name="weight" value="192"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="wind" value="150"/>
+		</attributes>
+		<!-- todo остальные скиллы -->
+		<skills>
+			<skill id="3599" level="1"/>
+		</skills>
+		<triggers>
+			<trigger id="3016" level="4" type="CRIT" chance="25"/>
+		</triggers>
+		<for>
+			<add stat="pAtk" order="0x10" value="194"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="34260" name="Player Commendation - Lance (Fire) - Critical Stun" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;66;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_lancia_i01"/>
+		<set name="type" value="POLE"/>
+		<set name="weight" value="192"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="150"/>
+		</attributes>
+		<!-- todo остальные скиллы -->
+		<skills>
+			<skill id="3599" level="1"/>
+		</skills>
+		<triggers>
+			<trigger id="3016" level="4" type="CRIT" chance="25"/>
+		</triggers>
+		<for>
+			<add stat="pAtk" order="0x10" value="194"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="34261" name="Player Commendation - Lance (Holy) - Critical Stun" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;66;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_lancia_i01"/>
+		<set name="type" value="POLE"/>
+		<set name="weight" value="192"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="holy" value="150"/>
+		</attributes>
+		<!-- todo остальные скиллы -->
+		<skills>
+			<skill id="3599" level="1"/>
+		</skills>
+		<triggers>
+			<trigger id="3016" level="4" type="CRIT" chance="25"/>
+		</triggers>
+		<for>
+			<add stat="pAtk" order="0x10" value="194"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="34262" name="Player Commendation - Lance (Dark) - Critical Stun" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;66;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_lancia_i01"/>
+		<set name="type" value="POLE"/>
+		<set name="weight" value="192"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="unholy" value="150"/>
+		</attributes>
+		<!-- todo остальные скиллы -->
+		<skills>
+			<skill id="3599" level="1"/>
+		</skills>
+		<triggers>
+			<trigger id="3016" level="4" type="CRIT" chance="25"/>
+		</triggers>
+		<for>
+			<add stat="pAtk" order="0x10" value="194"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="34263" name="Player Commendation - Bellion Cestus (Earth) - Rsk. Haste" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;32;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_bellion_cestus_i01"/>
+		<set name="type" value="DUALFIST"/>
+		<set name="weight" value="139"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="5"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="earth" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3034" level="6"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="236"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34264" name="Player Commendation - Bellion Cestus (Water) - Rsk. Haste" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;32;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_bellion_cestus_i01"/>
+		<set name="type" value="DUALFIST"/>
+		<set name="weight" value="139"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="5"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="water" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3034" level="6"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="236"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34265" name="Player Commendation - Bellion Cestus (Wind) - Rsk. Haste" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;32;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_bellion_cestus_i01"/>
+		<set name="type" value="DUALFIST"/>
+		<set name="weight" value="139"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="5"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="wind" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3034" level="6"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="236"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34266" name="Player Commendation - Bellion Cestus (Fire) - Rsk. Haste" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;32;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_bellion_cestus_i01"/>
+		<set name="type" value="DUALFIST"/>
+		<set name="weight" value="139"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="5"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3034" level="6"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="236"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34267" name="Player Commendation - Bellion Cestus (Holy) - Rsk. Haste" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;32;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_bellion_cestus_i01"/>
+		<set name="type" value="DUALFIST"/>
+		<set name="weight" value="139"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="5"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="holy" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3034" level="6"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="236"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34268" name="Player Commendation - Bellion Cestus (Dark) - Rsk. Haste" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;32;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_bellion_cestus_i01"/>
+		<set name="type" value="DUALFIST"/>
+		<set name="weight" value="139"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="5"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="unholy" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3034" level="6"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="236"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34269" name="Player Commendation - Staff of Evil Spirits (Earth) - Blessed Body" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;46;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_staff_of_evil_sprit_i01"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="93"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="earth" value="150"/>
+		</attributes>
+		<triggers>
+			<trigger id="1045" level="5" chance="20" type="SUPPORT_MAGICAL_SKILL_USE"/>
+		</triggers>
+		<for>
+			<add stat="pAtk" order="0x10" value="189"/>
+			<add stat="mAtk" order="0x10" value="145"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34270" name="Player Commendation - Staff of Evil Spirits (Water) - Blessed Body" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;46;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_staff_of_evil_sprit_i01"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="93"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="water" value="150"/>
+		</attributes>
+		<triggers>
+			<trigger id="1045" level="5" chance="20" type="SUPPORT_MAGICAL_SKILL_USE"/>
+		</triggers>
+		<for>
+			<add stat="pAtk" order="0x10" value="189"/>
+			<add stat="mAtk" order="0x10" value="145"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34271" name="Player Commendation - Staff of Evil Spirits (Wind) - Blessed Body" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;46;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_staff_of_evil_sprit_i01"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="93"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="wind" value="150"/>
+		</attributes>
+		<triggers>
+			<trigger id="1045" level="5" chance="20" type="SUPPORT_MAGICAL_SKILL_USE"/>
+		</triggers>
+		<for>
+			<add stat="pAtk" order="0x10" value="189"/>
+			<add stat="mAtk" order="0x10" value="145"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34272" name="Player Commendation - Staff of Evil Spirits (Fire) - Blessed Body" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;46;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_staff_of_evil_sprit_i01"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="93"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="150"/>
+		</attributes>
+		<triggers>
+			<trigger id="1045" level="5" chance="20" type="SUPPORT_MAGICAL_SKILL_USE"/>
+		</triggers>
+		<for>
+			<add stat="pAtk" order="0x10" value="189"/>
+			<add stat="mAtk" order="0x10" value="145"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34273" name="Player Commendation - Staff of Evil Spirits (Holy) - Blessed Body" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;46;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_staff_of_evil_sprit_i01"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="93"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="holy" value="150"/>
+		</attributes>
+		<triggers>
+			<trigger id="1045" level="5" chance="20" type="SUPPORT_MAGICAL_SKILL_USE"/>
+		</triggers>
+		<for>
+			<add stat="pAtk" order="0x10" value="189"/>
+			<add stat="mAtk" order="0x10" value="145"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34274" name="Player Commendation - Staff of Evil Spirits (Dark) - Blessed Body" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;46;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_staff_of_evil_sprit_i01"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="93"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="unholy" value="150"/>
+		</attributes>
+		<triggers>
+			<trigger id="1045" level="5" chance="20" type="SUPPORT_MAGICAL_SKILL_USE"/>
+		</triggers>
+		<for>
+			<add stat="pAtk" order="0x10" value="189"/>
+			<add stat="mAtk" order="0x10" value="145"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34275" name="Player Commendation - Deadman\'s Glory (Earth) - Health" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_deadmans_glory_i01"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="160"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="earth" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="194"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34276" name="Player Commendation - Deadman\'s Glory (Water) - Health" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_deadmans_glory_i01"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="160"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="water" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="194"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34277" name="Player Commendation - Deadman\'s Glory (Wind) - Health" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_deadmans_glory_i01"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="160"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="wind" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="194"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34278" name="Player Commendation - Deadman\'s Glory (Fire) - Health" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_deadmans_glory_i01"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="160"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="194"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34279" name="Player Commendation - Deadman\'s Glory (Holy) - Health" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_deadmans_glory_i01"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="160"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="holy" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="194"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34280" name="Player Commendation - Deadman\'s Glory (Dark) - Health" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_deadmans_glory_i01"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="160"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="unholy" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="194"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34281" name="Player Commendation - Samurai Long Sword*Samurai Long Sword (Earth)" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;44;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_dual_sword_i00"/>
+		<set name="type" value="DUAL"/>
+		<set name="weight" value="208"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="earth" value="150"/>
+		</attributes>
+		<enchant4_skill id="3045" level="14"/>
+		<!--Special Ability: Haste-->
+		<for>
+			<add stat="pAtk" order="0x10" value="236"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="34282" name="Player Commendation - Samurai Long Sword*Samurai Long Sword (Water)" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;44;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_dual_sword_i00"/>
+		<set name="type" value="DUAL"/>
+		<set name="weight" value="208"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="water" value="150"/>
+		</attributes>
+		<enchant4_skill id="3045" level="14"/>
+		<!--Special Ability: Haste-->
+		<for>
+			<add stat="pAtk" order="0x10" value="236"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="34283" name="Player Commendation - Samurai Long Sword*Samurai Long Sword (Wind)" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;44;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_dual_sword_i00"/>
+		<set name="type" value="DUAL"/>
+		<set name="weight" value="208"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="wind" value="150"/>
+		</attributes>
+		<enchant4_skill id="3045" level="14"/>
+		<!--Special Ability: Haste-->
+		<for>
+			<add stat="pAtk" order="0x10" value="236"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="34284" name="Player Commendation - Samurai Long Sword*Samurai Long Sword (Fire)" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;44;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_dual_sword_i00"/>
+		<set name="type" value="DUAL"/>
+		<set name="weight" value="208"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="150"/>
+		</attributes>
+		<enchant4_skill id="3045" level="14"/>
+		<!--Special Ability: Haste-->
+		<for>
+			<add stat="pAtk" order="0x10" value="236"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="34285" name="Player Commendation - Samurai Long Sword*Samurai Long Sword (Holy)" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;44;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_dual_sword_i00"/>
+		<set name="type" value="DUAL"/>
+		<set name="weight" value="208"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="holy" value="150"/>
+		</attributes>
+		<enchant4_skill id="3045" level="14"/>
+		<!--Special Ability: Haste-->
+		<for>
+			<add stat="pAtk" order="0x10" value="236"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="34286" name="Player Commendation - Samurai Long Sword*Samurai Long Sword (Dark)" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;44;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_dual_sword_i00"/>
+		<set name="type" value="DUAL"/>
+		<set name="weight" value="208"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="unholy" value="150"/>
+		</attributes>
+		<enchant4_skill id="3045" level="14"/>
+		<!--Special Ability: Haste-->
+		<for>
+			<add stat="pAtk" order="0x10" value="236"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="34287" name="Player Commendation - Demon\'s Dagger (Earth) - Critical Damage" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_demons_sword_i01"/>
+		<set name="type" value="DAGGER"/>
+		<set name="weight" value="97"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="5"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="earth" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3043" level="6"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="170"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="34288" name="Player Commendation - Demon\'s Dagger (Water) - Critical Damage" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_demons_sword_i01"/>
+		<set name="type" value="DAGGER"/>
+		<set name="weight" value="97"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="5"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="water" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3043" level="6"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="170"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="34289" name="Player Commendation - Demon\'s Dagger (Wind) - Critical Damage" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_demons_sword_i01"/>
+		<set name="type" value="DAGGER"/>
+		<set name="weight" value="97"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="5"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="wind" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3043" level="6"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="170"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="34290" name="Player Commendation - Demon\'s Dagger (Fire) - Critical Damage" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_demons_sword_i01"/>
+		<set name="type" value="DAGGER"/>
+		<set name="weight" value="97"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="5"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3043" level="6"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="170"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="34291" name="Player Commendation - Demon\'s Dagger (Holy) - Critical Damage" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_demons_sword_i01"/>
+		<set name="type" value="DAGGER"/>
+		<set name="weight" value="97"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="5"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="holy" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3043" level="6"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="170"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="34292" name="Player Commendation - Demon\'s Dagger (Dark) - Critical Damage" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_demons_sword_i01"/>
+		<set name="type" value="DAGGER"/>
+		<set name="weight" value="97"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="5"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="unholy" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3043" level="6"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="170"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="34293" name="Player Commendation - Kaim Vanul\'s Bones (Earth) - Mana Up" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_bone_of_kaim_vanul_i01"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="157"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="earth" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3014" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="155"/>
+			<add stat="mAtk" order="0x10" value="132"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34294" name="Player Commendation - Kaim Vanul\'s Bones (Water) - Mana Up" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_bone_of_kaim_vanul_i01"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="157"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="water" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3014" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="155"/>
+			<add stat="mAtk" order="0x10" value="132"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34295" name="Player Commendation - Kaim Vanul\'s Bones (Wind) - Mana Up" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_bone_of_kaim_vanul_i01"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="157"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="wind" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3014" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="155"/>
+			<add stat="mAtk" order="0x10" value="132"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34296" name="Player Commendation - Kaim Vanul\'s Bones (Fire) - Mana Up" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_bone_of_kaim_vanul_i01"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="157"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="fire" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3014" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="155"/>
+			<add stat="mAtk" order="0x10" value="132"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34297" name="Player Commendation - Kaim Vanul\'s Bones (Holy) - Mana Up" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_bone_of_kaim_vanul_i01"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="157"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="holy" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3014" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="155"/>
+			<add stat="mAtk" order="0x10" value="132"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34298" name="Player Commendation - Kaim Vanul\'s Bones (Dark) - Mana Up" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_bone_of_kaim_vanul_i01"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="157"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="unholy" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3014" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="155"/>
+			<add stat="mAtk" order="0x10" value="132"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="34299" name="Player Commendation - Colichemarde (Earth) - Focus" add_name="PC-exclusive">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.weapon_colichemarde_i01"/>
+		<set name="type" value="RAPIER"/>
+		<set name="weight" value="135"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="durability" value="180"/>
+		<set name="rnd_dam" value="40"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<attributes>
+			<attribute element="earth" value="150"/>
+		</attributes>
+		<skills>
+			<skill id="3010" level="4"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="176"/>
+			<add stat="mAtk" order="0x10" value="99"/>
+			<set stat="basePAtkSpd" order="0x08" value="406"/>
+			<set stat="basePCritRate" order="0x08" value="100"/>
+			<add stat="pAccCombat" order="0x10" value="-1.5"/>
+		</for>
+	</weapon>
+</list>

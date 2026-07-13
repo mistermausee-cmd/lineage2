@@ -1,0 +1,1152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<etcitem id="46200" name="Halloween Appearance Stone" add_name="90-day">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="BranchSys3.icon1.g_scrl_change_chest"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="APPEARANCE_STONE"/>
+	</etcitem>
+	<etcitem id="46201" name="Halloween Weapon Appearance Stone" add_name="7-day">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.shape_shifting_sword_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="APPEARANCE_STONE"/>
+	</etcitem>
+	<etcitem id="46202" name="Halloween Weapon Appearance Stone" add_name="90-day">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.shape_shifting_sword_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="APPEARANCE_STONE"/>
+	</etcitem>
+	<armor id="46203" name="Halloween Outfit">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.ev_wp_halloween"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+	</armor>
+	<weapon id="46204" name="Halloween Shaper">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.ev_wp_halloween"/>
+		<set name="type" value="DAGGER"/>
+		<set name="weight" value="500"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="685"/>
+			<add stat="mAtk" order="0x10" value="414"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="46205" name="Halloween Cutter">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.ev_wp_halloween"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="500"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="752"/>
+			<add stat="mAtk" order="0x10" value="414"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="46206" name="Halloween Slasher">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.ev_wp_halloween"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="500"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="916"/>
+			<add stat="mAtk" order="0x10" value="414"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="46207" name="Halloween Avenger">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.ev_wp_halloween"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="500"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="752"/>
+			<add stat="mAtk" order="0x10" value="414"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="46208" name="Halloween Fighter">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.ev_wp_halloween"/>
+		<set name="type" value="DUALFIST"/>
+		<set name="weight" value="500"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="916"/>
+			<add stat="mAtk" order="0x10" value="414"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="46209" name="Halloween Stormer">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.ev_wp_halloween"/>
+		<set name="type" value="POLE"/>
+		<set name="weight" value="500"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="752"/>
+			<add stat="mAtk" order="0x10" value="414"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="46210" name="Halloween Thrower">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.ev_wp_halloween"/>
+		<set name="type" value="BOW"/>
+		<set name="weight" value="500"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="1481"/>
+			<add stat="mAtk" order="0x10" value="414"/>
+			<set stat="basePAtkSpd" order="0x08" value="293"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="46211" name="Halloween Shooter">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.ev_wp_halloween"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="500"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="1333"/>
+			<add stat="mAtk" order="0x10" value="414"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="46212" name="Halloween Buster">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.ev_wp_halloween"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="500"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="602"/>
+			<add stat="mAtk" order="0x10" value="486"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="46213" name="Halloween Caster">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.ev_wp_halloween"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="500"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="602"/>
+			<add stat="mAtk" order="0x10" value="486"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="46214" name="Halloween Retributer">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.ev_wp_halloween"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="500"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="733"/>
+			<add stat="mAtk" order="0x10" value="535"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="46215" name="Halloween Dualsword">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.ev_wp_halloween"/>
+		<set name="type" value="DUAL"/>
+		<set name="weight" value="500"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="916"/>
+			<add stat="mAtk" order="0x10" value="414"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="46216" name="Halloween Dual Dagger">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.ev_wp_halloween"/>
+		<set name="type" value="DUALDAGGER"/>
+		<set name="weight" value="500"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="752"/>
+			<add stat="mAtk" order="0x10" value="414"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="46217" name="Halloween Dual Blunt Weapon">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.ev_wp_halloween"/>
+		<set name="type" value="DUALBLUNT"/>
+		<set name="weight" value="500"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="916"/>
+			<add stat="mAtk" order="0x10" value="414"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<etcitem id="46218" name="Magic Number Cube" add_name="Event">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_11th_event_group"/>
+		<set name="weight" value="1"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46219" name="Summon Scroll: Piero" add_name="Event">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_11th_event_solo"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46220" name="Membership Card - Market Eleven" add_name="Event">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.ev_buff_11th"/>
+		<set name="weight" value="1"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46221" name="L2 Market R99 Armor Enhancement Stone Pack" add_name="Event">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_treasure_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46222" name="L2 Market +8 Amaranthine Weapon Pack" add_name="Event">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_treasure_box_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46223" name="L2 Market Seed Talisman Pack" add_name="Event">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_treasure_box_i02"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46224" name="L2 Market +4 Eternal Armor Pack" add_name="Event">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_treasure_box_i03"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46225" name="L2 Market Rare Accessory Pack" add_name="Event">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_treasure_box_i04"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46226" name="L2 Market Soul Bottle Pack" add_name="Event">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_treasure_box_i05"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46227" name="L2 Market Belt Pack" add_name="Event">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_treasure_box_i06"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46228" name="L2 Market Talisman - Seven Signs Pack" add_name="Event">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_treasure_box_i07"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46229" name="L2 Market R99 Weapon Enhancement Stone Pack" add_name="Event">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_treasure_box_i08"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46230" name="+8  Amaranthine Shaper Capsule" add_name="Not in Use">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.weapon_stanpid_i01"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46231" name="+8  Amaranthine Cutter Capsule" add_name="Not in Use">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.weapon_plenitas_i01"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46232" name="+8  Amaranthine Slasher Capsule" add_name="Not in Use">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.weapon_bauen_i01"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46233" name="+8  Amaranthine Avenger Capsule" add_name="Not in Use">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.weapon_r_dualsword_i21"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46234" name="+8  Amaranthine Fighter Capsule" add_name="Not in Use">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.weapon_r_dualdagger_i21"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46235" name="+8  Amaranthine Stormer Capsule" add_name="Not in Use">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.weapon_r_dualblunt_i21"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46236" name="+8  Amaranthine Thrower Capsule" add_name="Not in Use">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.weapon_qutram_i01"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46237" name="+8  Amaranthine Shooter Capsule" add_name="Not in Use">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.weapon_durga_i01"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46238" name="+8  Amaranthine Buster Capsule" add_name="Not in Use">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.weapon_crabel_i01"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46239" name="+8  Amaranthine Caster Capsule" add_name="Not in Use">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.weapon_castron_i01"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46240" name="+8  Amaranthine Retributer Capsule" add_name="Not in Use">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.weapon_stilla_i01"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46241" name="+4 Eternal Heavy Armor Capsule" add_name="Event">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_equip_item_box_i00"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46242" name="+4 Eternal Light Armor Capsule" add_name="Event">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_equip_item_box_i00"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46243" name="+4 Eternal Robe Armor Capsule" add_name="Event">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_equip_item_box_i00"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46244" name="11th Anniversary Coin" add_name="Event">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_11th_token"/>
+		<set name="weight" value="1"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46245" name="Piero\'s Victory Box" add_name="Event">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_box_of_adventure_1_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46246" name="Piero\'s Jackpot Box" add_name="Event">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_box_of_adventure_3_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<weapon id="46247" name="Halloween Shield">
+		<set name="commissionable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.ev_wp_halloween"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1130"/>
+		<equip>
+			<slot id="LEFT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pEvasRate" order="0x10" value="-8"/>
+			<add stat="sDef" order="0x10" value="546"/>
+			<add stat="rShld" order="0x10" value="20"/>
+		</for>
+	</weapon>
+	<armor id="46248" name="Halloween Sigil">
+		<set name="commissionable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.ev_wp_halloween"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="920"/>
+		<equip>
+			<slot id="NONE"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="150"/>
+		</for>
+	</armor>
+	<weapon id="46249" name="Dual Candle Sword" add_name="Event">
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.ev_11th_candle"/>
+		<set name="type" value="DUAL"/>
+		<set name="weight" value="150"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="rnd_dam" value="1"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="8"/>
+			<add stat="mAtk" order="0x10" value="6"/>
+			<set stat="basePAtkSpd" order="0x08" value="200"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<etcitem id="46250" name="Blessed Venezia Rune">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.skill19226"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46251" name="Blessed Venezia Rune Pack" add_name="15-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_pi_box_belief_pack"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46252" name="Venezia Rune">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.skill19226"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46253" name="Venezia Rune Pack" add_name="15-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_pi_box_love_pack"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46254" name="Dandy\'s Golden Ball">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.ev_dinos_baseball_gold"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46255" name="Automatic Appearance: Halloween Outfit">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.ev_wp_halloween"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="APPEARANCE_STONE"/>
+	</etcitem>
+	<etcitem id="46256" name="Automatic Appearance: Halloween Weapon">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.ev_wp_halloween"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="APPEARANCE_STONE"/>
+	</etcitem>
+	<etcitem id="46257" name="Scroll of Escape: Enchanted Valley">
+		<set name="crystal_type" value="NONE"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_scroll_of_return_i03"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="handler" value="SkillsReduce"/>
+		<skills>
+			<skill id="23725" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="46258" name="Nymph Stamen">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_fir_spring_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46259" name="Mimyu\'s Reward Box">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_box_of_adventure_4_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<armor id="46260" name="Dark Knight Suit">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.dark_kninght"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="400"/>
+		</for>
+	</armor>
+	<armor id="46261" name="Ninja Outfit">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys3.icon1.g_co_ninja_u"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="400"/>
+		</for>
+	</armor>
+	<armor id="46262" name="Metal Suit">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys3.icon1.g_co_sf_u"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="400"/>
+		</for>
+	</armor>
+	<etcitem id="46263" name="Freya\'s Wish Stick">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.bm_freya_wand"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46264" name="Freya\'s Art of Seduction">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.bm_freya_rose_red_i00"/>
+		<set name="weight" value="1"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46265" name="Freya\'s Wish-filled Gift">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.freya_box_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46266" name="Sirra\'s Wish-filled Gift">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.freya_box_i02"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46267" name="Snowman\'s Wish-filled Gift">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.freya_box_i03"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46268" name="Frozen Weapon Appearance Stone" add_name="90-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.shape_shifting_sword_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="APPEARANCE_STONE"/>
+	</etcitem>
+	<etcitem id="46269" name="Automatic Appearance: Frozen Weapon">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="BranchSys3.iconWeapon.g_tears_sword_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46270" name="Dark Knight Suit Appearance Stone">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="BranchSys3.icon1.g_scrl_change_chest"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="APPEARANCE_STONE"/>
+	</etcitem>
+	<etcitem id="46271" name="Ninja Outfit Appearance Stone">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="BranchSys3.icon1.g_scrl_change_chest"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="APPEARANCE_STONE"/>
+	</etcitem>
+	<etcitem id="46272" name="Metal Suit Appearance Stone">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="BranchSys3.icon1.g_scrl_change_chest"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="APPEARANCE_STONE"/>
+	</etcitem>
+	<etcitem id="46273" name="Freya\'s Kindness">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.event_six_party_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46274" name="Wind Vitality Tonic">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_potion_blue_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46275" name="Vampiric Style Appearance Stone Pack">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.ev_10th_present2"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46276" name="Ninja Outfit Appearance Stone">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.ev_10th_present2"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="APPEARANCE_STONE"/>
+	</etcitem>
+	<etcitem id="46277" name="Metal Suit Appearance Stone Pack">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.ev_10th_present2"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46278" name="Vampiric Hair Accessory Appearance Stone">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_hair2"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="APPEARANCE_STONE"/>
+	</etcitem>
+	<etcitem id="46279" name="Ninja Hair Accessory Appearance Stone">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_hair2"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="APPEARANCE_STONE"/>
+	</etcitem>
+	<etcitem id="46280" name="Metal Suit Hair Accessory Appearance Stone">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_hair2"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="APPEARANCE_STONE"/>
+	</etcitem>
+	<etcitem id="46281" name="Freya Agathion Pack">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.ev_10th_present2"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46282" name="Embryo Supplies">
+		<set name="destroyable" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_crystal_spice_comp_i00"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46283" name="Aden Vanguard Supply Box">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_box_of_adventure_2_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46284" name="Exclusive Christmas Bait">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_bait_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46285" name="Christmas Bait Box">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_treasure_box_i03"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<weapon id="46286" name="Christmas Fishing Rod">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.christmas_fishingrod_i00"/>
+		<set name="type" value="ROD"/>
+		<set name="weight" value="1000"/>
+		<set name="rnd_dam" value="1"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="1"/>
+			<add stat="mAtk" order="0x10" value="1"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<etcitem id="46287" name="Fish Gift Box">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.fish_swallowing_gift_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46288" name="Holiday Blessing">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="BranchSys.icon.br_xmas_miracle_i00"/>
+		<set name="weight" value="5"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46289" name="Miraculous Christmas Gift Box">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46290" name="Santa\'s Small Gift Box">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.event_six_party_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<armor id="46291" name="Christmas Talisman" add_name="ALL STAT +2">
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_xmas_talisman_i01"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="46292" name="Christmas Talisman" add_name="ALL STAT +1">
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_xmas_talisman_i01"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="46293" name="Christmas Talisman: P. Skill Critical Damage" add_name="1-hour">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_xmas_talisman_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="46294" name="Christmas Talisman: M. Skill Critical Damage" add_name="1-hour">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_xmas_talisman_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="46295" name="Christmas Talisman: Ultimate Defense" add_name="1-hour">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_xmas_talisman_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="46296" name="Christmas Talisman: Debuff Resistance" add_name="1-hour">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_xmas_talisman_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="46297" name="Christmas Talisman: P. Atk." add_name="1-hour">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_xmas_talisman_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="46298" name="Christmas Talisman: M. Atk." add_name="1-hour">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_xmas_talisman_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="46299" name="Christmas Talisman: P. Def." add_name="1-hour">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_xmas_talisman_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+</list>

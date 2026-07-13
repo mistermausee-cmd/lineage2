@@ -1,0 +1,2038 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="14200" levels="1" name="Blessing of Garden">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14200 - 1 / Critical P. Atk. is increased by 40%.
+		-->
+		<set name="icon" value="icon.skill1253"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_time" value="300"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="npc_fury"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14201" levels="1" name="Apherus Invincibility">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14201 - 1 / Invincible status.
+		-->
+		<set name="icon" value="icon.skill0442"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_effect" value="INVINCIBILITY"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="invincibility"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14202" levels="1" name="Garden Malice">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14202 - 1 / Poison status.
+		-->
+		<set name="icon" value="icon.skill1168"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="castRange" value="100"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_effect" value="DOT_POISON"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="poison"/>
+		<set name="magicLevel" value="95"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="lv_bonus_rate" value="1"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="subordination_abnormal" value="poison"/>
+		<set name="trait" value="POISON"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14203" levels="1" name="Hold">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14203 - 1 / Hold status.
+		-->
+		<set name="icon" value="icon.skill4047"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="150"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="2"/>
+		<set name="abnormal_effect" value="ROOT"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="root_magically"/>
+		<set name="magicLevel" value="90"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="lv_bonus_rate" value="2"/>
+		<set name="basic_property" value="magic_abnormal_resist"/>
+		<set name="trait" value="HOLD"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14204" levels="1" name="Hold">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14204 - 1 / Hold status.
+		-->
+		<set name="icon" value="icon.skill4047"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="150"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="2"/>
+		<set name="abnormal_effect" value="ROOT"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="root_magically"/>
+		<set name="magicLevel" value="90"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="lv_bonus_rate" value="2"/>
+		<set name="basic_property" value="magic_abnormal_resist"/>
+		<set name="trait" value="HOLD"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14205" levels="1" name="Oath of Loyalty">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14205 - 1
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_time" value="20"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="speed_down"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="lv_bonus_rate" value="2"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14206" levels="2" name="Lachik Evolution">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14206 - 1 / Lachik Evaluation P. Atk. 100% increased.
+			14206 - 2 / Lachik Evaluation P. Atk. 300% increased.
+		-->
+		<table name="#abnormal_level">1 2</table>
+		<set name="icon" value="icon.skill1068"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="2"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="#abnormal_level"/>
+		<set name="abnormal_type" value="pa_up"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14207" levels="1" name="Pull Up">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14207 - 1
+		-->
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="4000"/>
+		<set name="castRange" value="300"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_time" value="1"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="knockdown"/>
+		<set name="magicLevel" value="90"/>
+		<set name="lv_bonus_rate" value="2"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14208" levels="1" name="Reverberation of Shock">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14208 - 1 / Knock back.
+		-->
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="300"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_effect" value="KNOCKBACK"/>
+		<set name="abnormal_time" value="2"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="knockdown"/>
+		<set name="lv_bonus_rate" value="1"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14209" levels="1" name="Millipede Paralysis">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14209 - 1
+		-->
+		<set name="icon" value="icon.skill0279"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="80"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="paralyze"/>
+		<set name="magicLevel" value="95"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="lv_bonus_rate" value="1"/>
+		<set name="basic_property" value="magic_abnormal_resist"/>
+		<set name="trait" value="PARALYZE"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14210" levels="1" name="Teredor Hiding Presentation">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14210 - 1
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1659"/>
+		<set name="magicLevel" value="95"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14211" levels="1" name="Teredor Appearance Presentation">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14211 - 1
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1659"/>
+		<set name="magicLevel" value="95"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14212" levels="1" name="Manifestation of Authority">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14212 - 1
+		-->
+		<set name="icon" value="icon.skill14289"/>
+		<set name="hitTime" value="8000"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14213" levels="1" name="Manifestation of Authority">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14213 - 1
+		-->
+		<set name="icon" value="icon.skill14289"/>
+		<set name="hitTime" value="8000"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14214" levels="1" name="Manifestation of Authority">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14214 - 1
+		-->
+		<set name="icon" value="icon.skill14289"/>
+		<set name="hitTime" value="8000"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14215" levels="1" name="Barrier of Reflection">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14215 - 1 / Reflects 600% of damage.
+		-->
+		<set name="icon" value="icon.skill0086"/>
+		<set name="hitTime" value="5000"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_time" value="6"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="dmg_shield"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="reflectDam" value="500"/>
+				<add stat="reflectBowDam" value="500"/>
+				<add stat="reflectPSkillDam" value="500"/>
+				<add stat="reflectMSkillDam" value="500"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14216" levels="1" name="Energy Seal">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14216 - 1 / Yoke status.
+		-->
+		<set name="icon" value="icon.skill14216"/>
+		<set name="reuseDelay" value="120000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="600000"/>
+		<set name="mp_consume" value="2"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14217" levels="1" name="Yoke Status">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14217 - 1 / Momentarily immobilized.
+		-->
+		<set name="icon" value="icon.skill1042"/>
+		<set name="castRange" value="900"/>
+		<set name="abnormal_effect" value="AIRBIND"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="airbind"/>
+		<set name="magicLevel" value="99"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14218" levels="1" name="Istina\'s Mark">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14218 - 1 / Istina\'s Mark is received. Handling Istina any further will be difficult.
+		-->
+		<set name="icon" value="icon.skill5239"/>
+		<set name="castRange" value="200"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_effect" value="DOT_BLEEDING"/>
+		<set name="abnormal_time" value="45"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="death_clack"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="target" value="TARGET_AREA"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isTrigger" value="true"/>
+		<set name="affect_range" value="300"/>
+		<for>
+			<effect name="Buff"/>
+		</for>
+	</skill>
+	<skill id="14219" levels="1" name="Death Blow">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14219 - 1
+		-->
+		<set name="icon" value="icon.skill0003"/>
+		<set name="castRange" value="500"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="1"/>
+		<set name="magicLevel" value="99"/>
+		<set name="target" value="TARGET_AREA"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isIgnoreResists" value="true"/>
+		<set name="isIgnoreInvul" value="true"/>
+		<set name="affect_range" value="200"/>
+		<cond msgId="113">
+			<target hasBuffId="14218;1"/>
+		</cond>
+		<for>
+			<effect instant="true" name="t_hp" value="-2147483647"/>
+		</for>
+	</skill>
+	<skill id="14220" levels="1" name="Flood">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14220 - 1 / Flood
+		-->
+		<set name="icon" value="icon.skill14220"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="2"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="pa_up"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul order="0x40" stat="pAtk" value="1.2"/>
+				<mul order="0x40" stat="mAtk" value="1.2"/>
+				<mul order="0x40" stat="pAtkSpd" value="1.2"/>
+				<mul order="0x40" stat="mAtkSpd" value="1.2"/>
+			</effect>
+		</for>		
+	</skill>
+	<skill id="14221" levels="1" name="Acid Eruption">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14221 - 1
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="5000"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14222" levels="1" name="Acid Eruption">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14222 - 1
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14223" levels="1" name="Acid Eruption">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14223 - 1
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_AURA"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="power" value="10000"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14224" levels="1" name="Energy Control Device">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14224 - 1 / Energy Control
+		-->
+		<set name="icon" value="icon.skill14216"/>
+		<set name="reuseDelay" value="20000"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="25000"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14225" levels="8" name="Control Stage 1">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14225 - 1 / Control Stage 1
+			14225 - 2 / Control Stage 2
+			14225 - 3 / Control Stage 3
+			14225 - 4 / Control Stage 4
+			14225 - 5 / Control Stage 5
+			14225 - 6 / Control Stage 6
+			14225 - 7 / Control Stage 7
+			14225 - 8 / Control Stage 8
+		-->
+		<table name="#icon">icon.skill14225_1 icon.skill14225_2 icon.skill14225_3 icon.skill14225_4 icon.skill14225_5 icon.skill14225_5 icon.skill14225_5 icon.skill14225_5</table>
+		<table name="#abnormal_level">1 2 3 4 5 6 7 8</table>
+		<set name="icon" value="#icon"/>
+		<set name="abnormal_time" value="25"/>
+		<set name="abnormal_level" value="#abnormal_level"/>
+		<set name="abnormal_type" value="seizure_a"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14226" levels="1" name="Flood Cancel">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14226 - 1
+		-->
+		<set name="icon" value="icon.skill14226"/>
+		<set name="abnormal_time" value="60"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="pa_up"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14227" levels="1" name="Regeneration of Limit">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14227 - 1 / Istina\'s life force is quickly regenerated.
+		-->
+		<set name="icon" value="icon.skill1229"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="10"/>
+		<set name="abnormal_type" value="life_force_orc"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14228" levels="1" name="Energy Regeneration Stage 1">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14228 - 1 / Energy Regeneration
+		-->
+		<set name="icon" value="icon.skill1229"/>
+		<set name="castRange" value="2000"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_time" value="25"/>
+		<set name="abnormal_level" value="10"/>
+		<set name="abnormal_type" value="life_force_orc"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="HOT"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect interval="1" name="RestoreHP" value="100"/>
+		</for>
+	</skill>
+	<skill id="14229" levels="1" name="Energy Regeneration Stage 2">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14229 - 1 / Energy Regeneration
+		-->
+		<set name="icon" value="icon.skill1229"/>
+		<set name="castRange" value="2000"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_time" value="20"/>
+		<set name="abnormal_level" value="11"/>
+		<set name="abnormal_type" value="life_force_orc"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="HOT"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect interval="1" name="RestoreHP" value="100"/>
+		</for>
+	</skill>
+	<skill id="14230" levels="1" name="Energy Regeneration Stage 3">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14230 - 1 / Energy Regeneration
+		-->
+		<set name="icon" value="icon.skill1229"/>
+		<set name="castRange" value="2000"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="abnormal_level" value="12"/>
+		<set name="abnormal_type" value="life_force_orc"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="HOT"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect interval="1" name="RestoreHP" value="100"/>
+		</for>
+	</skill>
+	<skill id="14231" levels="1" name="Creation\'s Rage">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14231 - 1 / Stun status.
+		-->
+		<set name="icon" value="icon.skill0048"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_effect" value="STUN"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="stun"/>
+		<set name="magicLevel" value="99"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="trait" value="SHOCK"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14232" levels="1" name="Yoke of Thorns">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14232 - 1 / Speed is decreased by 50%.
+		-->
+		<set name="icon" value="icon.skill0127"/>
+		<set name="castRange" value="300"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_time" value="20"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="speed_down"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="lv_bonus_rate" value="2"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14233" levels="1" name="Shock Wave">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14233 - 1
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="castRange" value="300"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="1"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14234" levels="1" name="Mind Contamination">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14234 - 1 / Max HP and Max MP are decreased by 50%.
+		-->
+		<set name="icon" value="icon.skill1045"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="abnormal_level" value="10"/>
+		<set name="abnormal_type" value="max_hp_up"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14235" levels="1" name="Maguen Steal">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14235 - 1
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="castRange" value="50"/>
+		<set name="hitTime" value="2000"/>
+		<set name="magicLevel" value="99"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14236" levels="1" name="Ultimate Forcefulness">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14236 - 1 / Looking at Taklacan with forcefulness.
+		-->
+		<set name="icon" value="icon.skill0018"/>
+		<set name="castRange" value="200"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="target_lock"/>
+		<set name="magicLevel" value="99"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14237" levels="1" name="Earth Vibration">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14237 - 1 / Vibration spreads through the body to decrease HP continuously.
+		-->
+		<set name="icon" value="icon.skill0096"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_effect" value="DOT_BLEEDING"/>
+		<set name="abnormal_time" value="30"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="bleeding"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="subordination_abnormal" value="bleeding"/>
+		<set name="trait" value="BLEED"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14238" levels="1" name="Sound Blade">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14238 - 1 / Physical and magic skills are blocked.
+		-->
+		<set name="icon" value="icon.skill1336"/>
+		<set name="castRange" value="200"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_effect" value="SILENCE"/>
+		<set name="abnormal_time" value="20"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="silence_all"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="trait" value="DERANGEMENT"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14239" levels="1" name="Sound Prison">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14239 - 1 / Hold status.
+		-->
+		<set name="icon" value="icon.skill4047"/>
+		<set name="castRange" value="1200"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_effect" value="ROOT"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="root_magically"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="trait" value="HOLD"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14240" levels="1" name="Poison Eruption">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14240 - 1 / Poison status.
+		-->
+		<set name="icon" value="icon.skill4035"/>
+		<set name="castRange" value="200"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_effect" value="DOT_POISON"/>
+		<set name="abnormal_time" value="30"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="poison"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="subordination_abnormal" value="poison"/>
+		<set name="trait" value="POISON"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14241" levels="1" name="Poison Fog">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14241 - 1 / Poison status.
+		-->
+		<set name="icon" value="icon.skill4035"/>
+		<set name="castRange" value="200"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_effect" value="DOT_POISON"/>
+		<set name="abnormal_time" value="30"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="poison"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="subordination_abnormal" value="poison"/>
+		<set name="trait" value="POISON"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14242" levels="1" name="Wide Area Curse">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14242 - 1 / HP is decreased by the decaying darkness.
+		-->
+		<set name="icon" value="icon.skill1107"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_effect" value="DOT_BLEEDING"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="dot_attr"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="lv_bonus_rate" value="1"/>
+		<set name="basic_property" value="magic_abnormal_resist"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14243" levels="1" name="Hero\'s Influence">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14243 - 1
+		-->
+		<set name="icon" value="icon.skill0024"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="castRange" value="2000"/>
+		<set name="hitTime" value="10000"/>
+		<set name="mp_consume" value="1"/>
+		<set name="magicLevel" value="99"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14244" levels="1" name="Region Status Metastasis">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14244 - 1
+		-->
+		<set name="icon" value="icon.skilltransform3"/>
+		<set name="castRange" value="900"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="215"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14245" levels="1" name="Rotten Net">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14245 - 1 / Stun status.
+		-->
+		<set name="icon" value="icon.skill14245"/>
+		<set name="castRange" value="700"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="87"/>
+		<set name="abnormal_time" value="9"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="stun"/>
+		<set name="lv_bonus_rate" value="2"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="trait" value="SHOCK"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14246" levels="1" name="Earth Demolition">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14246 - 1
+		-->
+		<set name="icon" value="icon.skill0096"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="1"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14247" levels="1" name="Black Vortex">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14247 - 1
+		-->
+		<set name="icon" value="icon.skill0054"/>
+		<set name="castRange" value="1000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_time" value="1"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="fly_away"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="lv_bonus_rate" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14248" levels="1" name="Leap Attack">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14248 - 1 / Stun status.
+		-->
+		<set name="icon" value="icon.skill0793"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="100"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_effect" value="STUN"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="stun"/>
+		<set name="magicLevel" value="99"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14249" levels="1" name="Recovery Howl">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14249 - 1 / Flood
+		-->
+		<set name="icon" value="icon.skill0918"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="2"/>
+		<set name="abnormal_time" value="60"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="pa_up"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14250" levels="1" name="Touch of Death">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14250 - 1 / Stun status.
+		-->
+		<set name="icon" value="icon.skill0260"/>
+		<set name="castRange" value="300"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_effect" value="STUN"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="stun"/>
+		<set name="magicLevel" value="99"/>
+		<set name="lv_bonus_rate" value="1"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="trait" value="SHOCK"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14251" levels="1" name="Death Rap">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14251 - 1
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="castRange" value="45"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="1"/>
+		<set name="magicLevel" value="99"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14252" levels="1" name="Hands of Hell">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14252 - 1 / Pulled away.
+		-->
+		<set name="icon" value="icon.skill0003"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_time" value="2"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="knockdown"/>
+		<set name="magicLevel" value="98"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14253" levels="1" name="Drag to Hell">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14253 - 1 / Poison status.
+		-->
+		<set name="icon" value="icon.skill1168"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_effect" value="DOT_POISON"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="dot_attr"/>
+		<set name="magicLevel" value="98"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14254" levels="1" name="Flash">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14254 - 1
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="500"/>
+		<set name="magicLevel" value="85"/>
+		<set name="target" value="TARGET_AURA"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14255" levels="1" name="Large Flash">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14255 - 1
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="500"/>
+		<set name="magicLevel" value="85"/>
+		<set name="target" value="TARGET_AURA"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14256" levels="2" name="Powerful Slash">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14256 - 1
+			14256 - 2
+		-->
+		<table name="#magicLevel">92 96</table>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14257" levels="2" name="Nearby Slash">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14257 - 1
+			14257 - 2
+		-->
+		<table name="#magicLevel">92 96</table>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14258" levels="2" name="Scalp">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14258 - 1
+			14258 - 2
+		-->
+		<table name="#magicLevel">92 96</table>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14259" levels="2" name="Double Slash">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14259 - 1
+			14259 - 2
+		-->
+		<table name="#magicLevel">92 96</table>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="1"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14260" levels="2" name="HP Drain">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14260 - 1
+			14260 - 2
+		-->
+		<table name="#magicLevel">93 96</table>
+		<set name="icon" value="icon.skill1147"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="1"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14261" levels="2" name="Coagulated Blood">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14261 - 1
+			14261 - 2
+		-->
+		<table name="#magicLevel">93 96</table>
+		<set name="icon" value="icon.skill1275"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="1"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14262" levels="2" name="Flame Hurl">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14262 - 1
+			14262 - 2
+		-->
+		<table name="#magicLevel">93 96</table>
+		<set name="icon" value="icon.skill1230"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14263" levels="2" name="Electric Attack">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14263 - 1
+			14263 - 2 / Stun status.
+		-->
+		<table name="#trait">NONE SHOCK</table>
+		<table name="#magicLevel">93 -1</table>
+		<table name="#abnormal_type">none stun</table>
+		<table name="#abnormal_level">0 1</table>
+		<table name="#abnormal_time">0 8</table>
+		<table name="#abnormal_effect">NONE STUN</table>
+		<set name="icon" value="icon.skill1275"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_effect" value="#abnormal_effect"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="#abnormal_level"/>
+		<set name="abnormal_type" value="#abnormal_type"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="trait" value="#trait"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14264" levels="1" name="Poison Cloud">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14264 - 1 / Poison status.
+		-->
+		<set name="icon" value="icon.skill1167"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_effect" value="DOT_POISON"/>
+		<set name="abnormal_time" value="30"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="poison"/>
+		<set name="magicLevel" value="93"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="subordination_abnormal" value="poison"/>
+		<set name="trait" value="POISON"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14265" levels="1" name="Resurrection">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14265 - 1
+		-->
+		<set name="icon" value="icon.skill1016"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="1"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="95"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14266" levels="1" name="Yoke">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14266 - 1 / Hold status.
+		-->
+		<set name="icon" value="icon.skill1201"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="2"/>
+		<set name="abnormal_effect" value="ROOT"/>
+		<set name="abnormal_time" value="8"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="root_magically"/>
+		<set name="magicLevel" value="95"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="lv_bonus_rate" value="2"/>
+		<set name="basic_property" value="magic_abnormal_resist"/>
+		<set name="trait" value="HOLD"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<p_defence_trait name="hold" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14267" levels="2" name="Hole Punch">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14267 - 1
+			14267 - 2
+		-->
+		<table name="#magicLevel">96 97</table>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14268" levels="1" name="Stun and Fear">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14268 - 1 / Fear status.
+		-->
+		<set name="icon" value="icon.skill1092"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_effect" value="TURN_FLEE"/>
+		<set name="abnormal_time" value="8"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="turn_flee"/>
+		<set name="magicLevel" value="97"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="trait" value="DERANGEMENT"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14269" levels="1" name="Foot Strike">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14269 - 1 / Hold status.
+		-->
+		<set name="icon" value="icon.skill1201"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="2"/>
+		<set name="abnormal_effect" value="ROOT"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="root_magically"/>
+		<set name="magicLevel" value="98"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="trait" value="HOLD"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<p_defence_trait name="hold" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14270" levels="1" name="Spinning Blade of Fear">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14270 - 1 / Fear status.
+		-->
+		<set name="icon" value="icon.skill1092"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_effect" value="TURN_FLEE"/>
+		<set name="abnormal_time" value="9"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="turn_flee"/>
+		<set name="magicLevel" value="98"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="trait" value="DERANGEMENT"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14271" levels="1" name="Spinning Blade">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14271 - 1 / Hold status.
+		-->
+		<set name="icon" value="icon.skill1201"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="2"/>
+		<set name="abnormal_effect" value="ROOT"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="root_magically"/>
+		<set name="magicLevel" value="98"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="trait" value="HOLD"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<p_defence_trait name="hold" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14272" levels="1" name="Powerful Blow">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14272 - 1
+		-->
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="1"/>
+		<set name="magicLevel" value="98"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14273" levels="1" name="Indiscriminate Rush">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14273 - 1 / Knock back.
+		-->
+		<set name="icon" value="icon.skill0494"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_effect" value="STUN"/>
+		<set name="abnormal_time" value="3"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="stun"/>
+		<set name="magicLevel" value="98"/>
+		<set name="lv_bonus_rate" value="1"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="trait" value="SHOCK"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14274" levels="1" name="Mechanic Shot">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14274 - 1
+		-->
+		<set name="icon" value="icon.skill1275"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="2000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="magicLevel" value="45"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14275" levels="1" name="Swing">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14275 - 1
+		-->
+		<set name="icon" value="icon.skill0245"/>
+		<set name="reuseDelay" value="4000"/>
+		<set name="castRange" value="2000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="magicLevel" value="45"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14276" levels="1" name="Particle Repair">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14276 - 1
+		-->
+		<set name="icon" value="icon.skill0045"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="castRange" value="2000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="magicLevel" value="45"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14277" levels="1" name="Orbis Spawn">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14277 - 1 / Decaying darkness.
+		-->
+		<set name="icon" value="icon.skill11273"/>
+		<set name="castRange" value="1000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="public_slot"/>
+		<set name="magicLevel" value="99"/>
+		<set name="trait" value="HOLD"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14278" levels="1" name="Orbis De-spawn">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14278 - 1
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="castRange" value="1000"/>
+		<set name="hitTime" value="5000"/>
+		<set name="abnormal_effect" value="ROOT"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="public_slot"/>
+		<set name="magicLevel" value="99"/>
+		<set name="trait" value="HOLD"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14279" levels="1" name="Octavis\' Influence">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14279 - 1 / Octavis\' influence.
+		-->
+		<set name="icon" value="icon.skill14279"/>
+		<set name="castRange" value="1000"/>
+		<set name="hitTime" value="12000"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="public_slot"/>
+		<set name="magicLevel" value="99"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14280" levels="1" name="Octavis\' Influence">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14280 - 1 / Octavis\' influence.
+		-->
+		<set name="icon" value="icon.skill14279"/>
+		<set name="castRange" value="1000"/>
+		<set name="hitTime" value="12000"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="public_slot"/>
+		<set name="magicLevel" value="99"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14281" levels="1" name="Octavis\' Influence">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14281 - 1 / Octavis\' influence.
+		-->
+		<set name="icon" value="icon.skill14279"/>
+		<set name="castRange" value="1000"/>
+		<set name="hitTime" value="5000"/>
+		<set name="abnormal_effect" value="ROOT"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="public_slot"/>
+		<set name="magicLevel" value="99"/>
+		<set name="trait" value="HOLD"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14282" levels="1" name="Octavis\' Obedience">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14282 - 1
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="castRange" value="1000"/>
+		<set name="hitTime" value="5000"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14283" levels="1" name="Golem Connection">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14283 - 1
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="castRange" value="1000"/>
+		<set name="abnormal_effect" value="ROOT"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="public_slot"/>
+		<set name="magicLevel" value="99"/>
+		<set name="trait" value="HOLD"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14284" levels="1" name="Golem Connection Break">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14284 - 1
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="castRange" value="1000"/>
+		<set name="abnormal_effect" value="ROOT"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="public_slot"/>
+		<set name="magicLevel" value="99"/>
+		<set name="trait" value="HOLD"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14285" levels="1" name="Octavis\' Arrow Shaft">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14285 - 1 / Octavis\' arrow shaft. Throw a spear on the floor to inflict powerful attack damage.
+		-->
+		<set name="icon" value="icon.skill0507"/>
+		<set name="castRange" value="1000"/>
+		<set name="hitTime" value="5000"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="public_slot"/>
+		<set name="magicLevel" value="99"/>
+		<set name="target" value="TARGET_AURA"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="affect_range" value="1000"/>
+		<set name="power" value="400"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14286" levels="1" name="Teleport">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14286 - 1
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="castRange" value="1000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="magicLevel" value="99"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14287" levels="1" name="Enhance">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14287 - 1
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="castRange" value="1000"/>
+		<set name="hitTime" value="10000"/>
+		<set name="magicLevel" value="99"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14288" levels="1" name="Agathion Cute Trick - Magmeld">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14288 - 1 / See the summoned spirit perform cute tricks.
+		-->
+		<set name="icon" value="icon.skill_agathion_cute"/>
+		<set name="hitTime" value="3000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<cond msgId="2292">
+			<player agathion="16080"/>
+		</cond>
+	</skill>
+	<skill id="14289" levels="2" name="Manifestation of Authority">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14289 - 1 / Atk Spd, Speed, Casting Spd, Max HP, Max MP decreased; HP consumed every second.
+			14289 - 2 / If afflicted, decreases Atk. Spd./Casting Spd./Speed/Max HP, and Max MP. HP decreases every second.
+		-->
+		<table name="#abnormal_time">30</table>
+		<table name="#abnormal_level">1 2</table>
+		<set name="icon" value="icon.skill14289"/>
+		<set name="hitTime" value="7000"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="#abnormal_level"/>
+		<!-- <set name="abnormal_type" value="ultimate_debuff"/> -->
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isTrigger" value="true"/>
+		<set name="isSelfDispellable" value="false"/>
+		<set name="isOffensive" value="true"/>		
+		<set name="reflectable" value="false"/>
+		<for>
+			<effect name="t_hp" interval="1" value="-10">
+				<def name="percent" value="true"/>
+				<!-- TODO: Check. -->
+				<mul order="0x50" stat="pAtkSpd" value="0.8"/>
+				<mul order="0x50" stat="runSpd" value="0.8"/>
+				<mul order="0x50" stat="mAtkSpd" value="0.8"/>
+				<!-- // -->
+				<mul order="0x50" stat="maxHp" value="0.75"/>
+				<mul order="0x50" stat="maxMp" value="0.8"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14291" levels="1" name="Self Defense">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14291 - 1 / Cannot be targeted.
+		-->
+		<set name="icon" value="icon.skill0445"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="abnormal_time" value="4"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="mirage"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14292" levels="7" name="Strike">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14292 - 1
+			14292 - 2
+			14292 - 3
+			14292 - 4
+			14292 - 5
+			14292 - 6
+			14292 - 7
+		-->
+		<table name="#magicLevel">56 59 62 65 68 71 74</table>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="castRange" value="150"/>
+		<set name="hitTime" value="1500"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14293" levels="7" name="Range Strike">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14293 - 1
+			14293 - 2
+			14293 - 3
+			14293 - 4
+			14293 - 5
+			14293 - 6
+			14293 - 7
+		-->
+		<table name="#magicLevel">56 59 62 65 68 71 74</table>
+		<set name="icon" value="icon.skill0036"/>
+		<set name="hitTime" value="3000"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14294" levels="7" name="Stun Strike">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14294 - 1 / Stun status.
+			14294 - 2 / Stun status.
+			14294 - 3 / Stun status.
+			14294 - 4 / Stun status.
+			14294 - 5 / Stun status.
+			14294 - 6 / Stun status.
+			14294 - 7 / Stun status.
+		-->
+		<table name="#magicLevel">56 59 62 65 68 71 74</table>
+		<set name="icon" value="icon.skill0100"/>
+		<set name="castRange" value="150"/>
+		<set name="hitTime" value="1500"/>
+		<set name="abnormal_effect" value="STUN"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="stun"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="lv_bonus_rate" value="1"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="trait" value="SHOCK"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14295" levels="7" name="Range Stun Strike">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14295 - 1 / Stun status.
+			14295 - 2 / Stun status.
+			14295 - 3 / Stun status.
+			14295 - 4 / Stun status.
+			14295 - 5 / Stun status.
+			14295 - 6 / Stun status.
+			14295 - 7 / Stun status.
+		-->
+		<table name="#magicLevel">56 59 62 65 68 71 74</table>
+		<set name="icon" value="icon.skill0048"/>
+		<set name="hitTime" value="3000"/>
+		<set name="abnormal_effect" value="STUN"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="stun"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="lv_bonus_rate" value="1"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="trait" value="SHOCK"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14296" levels="7" name="Shot">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14296 - 1
+			14296 - 2
+			14296 - 3
+			14296 - 4
+			14296 - 5
+			14296 - 6
+			14296 - 7
+		-->
+		<table name="#magicLevel">56 59 62 65 68 71 74</table>
+		<set name="icon" value="icon.skill0056"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="1500"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14297" levels="7" name="Stun Shot">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14297 - 1 / Stun status.
+			14297 - 2 / Stun status.
+			14297 - 3 / Stun status.
+			14297 - 4 / Stun status.
+			14297 - 5 / Stun status.
+			14297 - 6 / Stun status.
+			14297 - 7 / Stun status.
+		-->
+		<table name="#magicLevel">56 59 62 65 68 71 74</table>
+		<set name="icon" value="icon.skill0101"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="1500"/>
+		<set name="abnormal_effect" value="STUN"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="stun"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="lv_bonus_rate" value="1"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="trait" value="SHOCK"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14298" levels="7" name="Stab">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14298 - 1 / Bleed. Speed is decreased.
+			14298 - 2 / Bleed. Speed is decreased.
+			14298 - 3 / Bleed. Speed is decreased.
+			14298 - 4 / Bleed. Speed is decreased.
+			14298 - 5 / Bleed. Speed is decreased.
+			14298 - 6 / Bleed. Speed is decreased.
+			14298 - 7 / Bleed. Speed is decreased.
+		-->
+		<table name="#magicLevel">56 59 62 65 68 71 74</table>
+		<set name="icon" value="icon.skill0096"/>
+		<set name="castRange" value="150"/>
+		<set name="hitTime" value="1500"/>
+		<set name="abnormal_effect" value="DOT_BLEEDING"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="bleeding"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="lv_bonus_rate" value="2"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="subordination_abnormal" value="bleeding"/>
+		<set name="trait" value="BLEED"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14299" levels="3" name="Darkness Burn">
+		<!--
+			@Rivelia.
+			Generated using Rivelia\'s XML Parser @ 2014.
+			Skill Informations:
+			14299 - 1
+			14299 - 2
+			14299 - 3
+		-->
+		<table name="#magicLevel">68 71 74</table>
+		<set name="icon" value="icon.skill1265"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="1500"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+</list>

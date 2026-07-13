@@ -1,0 +1,2164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="26000" levels="1" name="Small Fortuna Box">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="20.55555">
+				<item id="22006" min_count="3" max_count="3"/>	<!--Scroll: Enchant Weapon (C-Grade)-->
+			</group>
+			<group chance="14.01515">
+				<item id="22007" min_count="2" max_count="2"/>	<!--Scroll: Enchant Weapon (C-Grade)-->
+			</group>
+			<group chance="6.16666">
+				<item id="22008" min_count="1" max_count="1"/>	<!--Scroll: Enchant Weapon (B-Grade)-->
+			</group>
+			<group chance="0.86999">
+				<item id="22014" min_count="1" max_count="1"/>	<!--Ancient Weapon Enchant Crystal (B-Grade)-->
+			</group>
+			<group chance="3.19444">
+				<item id="22022" min_count="3" max_count="3"/>	<!--High grade potion which improves attack speed-->
+			</group>
+			<group chance="6.38888">
+				<item id="22023" min_count="3" max_count="3"/>	<!--Greater Haste Potion-->
+			</group>
+			<group chance="5.75">
+				<item id="22024" min_count="1" max_count="1"/>	<!--Quick Healing Potion-->
+			</group>
+			<group chance="10.0">
+				<item id="8743" min_count="1" max_count="1"/>	<!--High-Grade Life Stone -  Level 46-->
+			</group>
+			<group chance="8.33333">
+				<item id="8744" min_count="1" max_count="1"/>	<!--High-Grade Life Stone -  Level 49-->
+			</group>
+			<group chance="6.94444">
+				<item id="8745" min_count="1" max_count="1"/>	<!--High-Grade Life Stone -  Level 52-->
+			</group>
+			<group chance="2.0">
+				<item id="8753" min_count="1" max_count="1"/>	<!--Top-Grade Life Stone -  Level 46-->
+			</group>
+			<group chance="1.66666">
+				<item id="8754" min_count="1" max_count="1"/>	<!--Top-Grade Life Stone -  Level 49-->
+			</group>
+			<group chance="1.38888">
+				<item id="8755" min_count="1" max_count="1"/>	<!--Top-Grade Life Stone -  Level 52-->
+			</group>
+			<group chance="12.77777">
+				<item id="22025" min_count="5" max_count="5"/>	<!--Greater Healing Potion-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="26001" levels="1" name="Medium Fortuna Box">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="27.27272">
+				<item id="22007" min_count="3" max_count="3"/>	<!--Scroll: Enchant Weapon (C-Grade)-->
+			</group>
+			<group chance="9.0">
+				<item id="22008" min_count="2" max_count="2"/>	<!--Scroll: Enchant Weapon (B-Grade)-->
+			</group>
+			<group chance="5.0">
+				<item id="22009" min_count="1" max_count="1"/>	<!--Scroll: Enchant Weapon (A-Grade)-->
+			</group>
+			<group chance="0.93959">
+				<item id="22014" min_count="1" max_count="1"/>	<!--Ancient Weapon Enchant Crystal (B-Grade)-->
+			</group>
+			<group chance="0.32467">
+				<item id="22015" min_count="1" max_count="1"/>	<!--Ancient Weapon Enchant Crystal (A-Grade)-->
+			</group>
+			<group chance="3.75">
+				<item id="22022" min_count="5" max_count="5"/>	<!--High grade potion which improves attack speed-->
+			</group>
+			<group chance="7.5">
+				<item id="22023" min_count="5" max_count="5"/>	<!--Greater Haste Potion-->
+			</group>
+			<group chance="5.625">
+				<item id="22024" min_count="2" max_count="2"/>	<!--Quick Healing Potion-->
+			</group>
+			<group chance="9.11458">
+				<item id="8746" min_count="1" max_count="1"/>	<!--High-Grade Life Stone -  Level 55-->
+			</group>
+			<group chance="7.875">
+				<item id="8747" min_count="1" max_count="1"/>	<!--High-Grade Life Stone -  Level 58-->
+			</group>
+			<group chance="6.5625">
+				<item id="8748" min_count="1" max_count="1"/>	<!--High-Grade Life Stone -  Level 61-->
+			</group>
+			<group chance="1.82291">
+				<item id="8756" min_count="1" max_count="1"/>	<!--Top-Grade Life Stone -  Level 55-->
+			</group>
+			<group chance="1.575">
+				<item id="8757" min_count="1" max_count="1"/>	<!--Top-Grade Life Stone -  Level 58-->
+			</group>
+			<group chance="1.3125">
+				<item id="8758" min_count="1" max_count="1"/>	<!--Top-Grade Life Stone -  Level 61-->
+			</group>
+			<group chance="12.5">
+				<item id="22025" min_count="10" max_count="10"/>	<!--Greater Healing Potion-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="26002" levels="1" name="Large Fortuna Box">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="27.0">
+				<item id="22008" min_count="2" max_count="2"/>	<!--Scroll: Enchant Weapon (B-Grade)-->
+			</group>
+			<group chance="15.0">
+				<item id="22009" min_count="1" max_count="1"/>	<!--Scroll: Enchant Weapon (A-Grade)-->
+			</group>
+			<group chance="0.78299">
+				<item id="22014" min_count="1" max_count="1"/>	<!--Ancient Weapon Enchant Crystal (B-Grade)-->
+			</group>
+			<group chance="0.27056">
+				<item id="22015" min_count="1" max_count="1"/>	<!--Ancient Weapon Enchant Crystal (A-Grade)-->
+			</group>
+			<group chance="0.00775">
+				<item id="22018" min_count="1" max_count="1"/>	<!--Divine Weapon Enchant Crystal (B-Grade)-->
+			</group>
+			<group chance="0.0027">
+				<item id="22019" min_count="1" max_count="1"/>	<!--Divine Weapon Enchant Crystal (A-Grade)-->
+			</group>
+			<group chance="3.75">
+				<item id="22022" min_count="10" max_count="10"/>	<!--High grade potion which improves attack speed-->
+			</group>
+			<group chance="7.5">
+				<item id="22023" min_count="10" max_count="10"/>	<!--Greater Haste Potion-->
+			</group>
+			<group chance="4.5">
+				<item id="22024" min_count="5" max_count="5"/>	<!--Quick Healing Potion-->
+			</group>
+			<group chance="9.75">
+				<item id="8749" min_count="1" max_count="1"/>	<!--High-Grade Life Stone -  Level 64-->
+			</group>
+			<group chance="8.125">
+				<item id="8750" min_count="1" max_count="1"/>	<!--High-Grade Life Stone -  Level 67-->
+			</group>
+			<group chance="6.77083">
+				<item id="8751" min_count="1" max_count="1"/>	<!--High-Grade Life Stone -  Level 70-->
+			</group>
+			<group chance="1.95">
+				<item id="8759" min_count="1" max_count="1"/>	<!--Top-Grade Life Stone -  Level 64-->
+			</group>
+			<group chance="1.625">
+				<item id="8760" min_count="1" max_count="1"/>	<!--Top-Grade Life Stone -  Level 67-->
+			</group>
+			<group chance="1.35416">
+				<item id="8761" min_count="1" max_count="1"/>	<!--Top-Grade Life Stone -  Level 70-->
+			</group>
+			<group chance="12.5">
+				<item id="22025" min_count="20" max_count="20"/>	<!--Greater Healing Potion-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="26003" levels="1" name="Small Fortuna Cube">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="20.22222">
+				<item id="22010" min_count="3" max_count="3"/>	<!--Scroll: Enchant Armor (C-Grade)-->
+			</group>
+			<group chance="13.78787">
+				<item id="22011" min_count="2" max_count="2"/>	<!--Scroll: Enchant Armor (C-Grade)-->
+			</group>
+			<group chance="6.06666">
+				<item id="22012" min_count="1" max_count="1"/>	<!--Scroll: Enchant Armor (B-Grade)-->
+			</group>
+			<group chance="0.69599">
+				<item id="22016" min_count="1" max_count="1"/>	<!--Ancient Weapon Enchant Crystal (B-Grade)-->
+			</group>
+			<group chance="3.47222">
+				<item id="22022" min_count="3" max_count="3"/>	<!--High grade potion which improves attack speed-->
+			</group>
+			<group chance="6.94444">
+				<item id="22023" min_count="3" max_count="3"/>	<!--Greater Haste Potion-->
+			</group>
+			<group chance="6.25">
+				<item id="22024" min_count="1" max_count="1"/>	<!--Quick Healing Potion-->
+			</group>
+			<group chance="9.5">
+				<item id="8743" min_count="1" max_count="1"/>	<!--High-Grade Life Stone -  Level 46-->
+			</group>
+			<group chance="7.91666">
+				<item id="8744" min_count="1" max_count="1"/>	<!--High-Grade Life Stone -  Level 49-->
+			</group>
+			<group chance="6.59722">
+				<item id="8745" min_count="1" max_count="1"/>	<!--High-Grade Life Stone -  Level 52-->
+			</group>
+			<group chance="1.9">
+				<item id="8753" min_count="1" max_count="1"/>	<!--Top-Grade Life Stone -  Level 46-->
+			</group>
+			<group chance="1.58333">
+				<item id="8754" min_count="1" max_count="1"/>	<!--Top-Grade Life Stone -  Level 49-->
+			</group>
+			<group chance="1.31944">
+				<item id="8755" min_count="1" max_count="1"/>	<!--Top-Grade Life Stone -  Level 52-->
+			</group>
+			<group chance="13.88888">
+				<item id="22025" min_count="5" max_count="5"/>	<!--Greater Healing Potion-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="26004" levels="1" name="Medium Fortuna Cube">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="26.51515">
+				<item id="22011" min_count="3" max_count="3"/>	<!--Scroll: Enchant Armor (C-Grade)-->
+			</group>
+			<group chance="8.75">
+				<item id="22012" min_count="2" max_count="2"/>	<!--Scroll: Enchant Armor (B-Grade)-->
+			</group>
+			<group chance="4.86111">
+				<item id="22013" min_count="1" max_count="1"/>	<!--Scroll: Enchant Armor (A-Grade)-->
+			</group>
+			<group chance="0.91349">
+				<item id="22016" min_count="1" max_count="1"/>	<!--Ancient Weapon Enchant Crystal (B-Grade)-->
+			</group>
+			<group chance="0.31565">
+				<item id="22017" min_count="1" max_count="1"/>	<!--Ancient Armor Enchant Crystal (A-Grade)-->
+			</group>
+			<group chance="3.75">
+				<item id="22022" min_count="5" max_count="5"/>	<!--High grade potion which improves attack speed-->
+			</group>
+			<group chance="7.5">
+				<item id="22023" min_count="5" max_count="5"/>	<!--Greater Haste Potion-->
+			</group>
+			<group chance="5.625">
+				<item id="22024" min_count="2" max_count="2"/>	<!--Quick Healing Potion-->
+			</group>
+			<group chance="9.54861">
+				<item id="8746" min_count="1" max_count="1"/>	<!--High-Grade Life Stone -  Level 55-->
+			</group>
+			<group chance="8.25">
+				<item id="8747" min_count="1" max_count="1"/>	<!--High-Grade Life Stone -  Level 58-->
+			</group>
+			<group chance="6.875">
+				<item id="8748" min_count="1" max_count="1"/>	<!--High-Grade Life Stone -  Level 61-->
+			</group>
+			<group chance="1.90972">
+				<item id="8756" min_count="1" max_count="1"/>	<!--Top-Grade Life Stone -  Level 55-->
+			</group>
+			<group chance="1.65">
+				<item id="8757" min_count="1" max_count="1"/>	<!--Top-Grade Life Stone -  Level 58-->
+			</group>
+			<group chance="1.375">
+				<item id="8758" min_count="1" max_count="1"/>	<!--Top-Grade Life Stone -  Level 61-->
+			</group>
+			<group chance="12.5">
+				<item id="22025" min_count="10" max_count="10"/>	<!--Greater Healing Potion-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="26005" levels="1" name="Large Fortuna Cube">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="26.25">
+				<item id="22012" min_count="2" max_count="2"/>	<!--Scroll: Enchant Armor (B-Grade)-->
+			</group>
+			<group chance="14.58333">
+				<item id="22013" min_count="1" max_count="1"/>	<!--Scroll: Enchant Armor (A-Grade)-->
+			</group>
+			<group chance="0.69599">
+				<item id="22016" min_count="1" max_count="1"/>	<!--Ancient Weapon Enchant Crystal (B-Grade)-->
+			</group>
+			<group chance="0.24049">
+				<item id="22017" min_count="1" max_count="1"/>	<!--Ancient Armor Enchant Crystal (A-Grade)-->
+			</group>
+			<group chance="0.00638">
+				<item id="22020" min_count="1" max_count="1"/>	<!--Divine Armor Enchant Crystal (B-Grade)-->
+			</group>
+			<group chance="0.0022">
+				<item id="22021" min_count="1" max_count="1"/>	<!--Divine Armor Enchant Crystal (A-Grade)-->
+			</group>
+			<group chance="3.95833">
+				<item id="22022" min_count="10" max_count="10"/>	<!--High grade potion which improves attack speed-->
+			</group>
+			<group chance="7.91666">
+				<item id="22023" min_count="10" max_count="10"/>	<!--Greater Haste Potion-->
+			</group>
+			<group chance="4.75">
+				<item id="22024" min_count="5" max_count="5"/>	<!--Quick Healing Potion-->
+			</group>
+			<group chance="9.58333">
+				<item id="8749" min_count="1" max_count="1"/>	<!--High-Grade Life Stone -  Level 64-->
+			</group>
+			<group chance="7.98611">
+				<item id="8750" min_count="1" max_count="1"/>	<!--High-Grade Life Stone -  Level 67-->
+			</group>
+			<group chance="6.65509">
+				<item id="8751" min_count="1" max_count="1"/>	<!--High-Grade Life Stone -  Level 70-->
+			</group>
+			<group chance="1.91666">
+				<item id="8759" min_count="1" max_count="1"/>	<!--Top-Grade Life Stone -  Level 64-->
+			</group>
+			<group chance="1.59722">
+				<item id="8760" min_count="1" max_count="1"/>	<!--Top-Grade Life Stone -  Level 67-->
+			</group>
+			<group chance="1.33101">
+				<item id="8761" min_count="1" max_count="1"/>	<!--Top-Grade Life Stone -  Level 70-->
+			</group>
+			<group chance="13.19444">
+				<item id="22025" min_count="20" max_count="20"/>	<!--Greater Healing Potion-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="26006" levels="1" name="Scroll: Enchant Weapon (D-grade)">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26007" levels="1" name="Scroll: Enchant Weapon (C-grade)">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26008" levels="1" name="Scroll: Enchant Weapon (B-grade)">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26009" levels="1" name="Scroll: Enchant Weapon (A-grade)">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26010" levels="1" name="Scroll: Enchant Armor (D-grade)">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26011" levels="1" name="Scroll: Enchant Armor (C-grade)">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26012" levels="1" name="Scroll: Enchant Armor (B-grade)">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26013" levels="1" name="Scroll: Enchant Armor (A-grade)">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26014" levels="1" name="Ancient Scroll: Enchant Weapon (B-grade)">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26015" levels="1" name="Ancient Scroll: Enchant Weapon (A-grade)">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26016" levels="1" name="Ancient Scroll: Enchant Armor (B-grade)">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26017" levels="1" name="Ancient Scroll: Enchant Armor (A-grade)">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26018" levels="1" name="Divine Scroll: Enchant Weapon (B-grade)">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26019" levels="1" name="Divine Scroll: Enchant Weapon (A-grade)">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26020" levels="1" name="Divine Scroll: Enchant Armor (B-grade)">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26021" levels="1" name="Divine Scroll: Enchant Armor (A-grade)">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26022" levels="1" name="Greater Haste Potion">
+		<!--
+			  Last modify: 26.10.2009
+			  Description: State in which Attack Speed has increased. Effect 2.
+		-->
+		<set name="icon" value="br_cashtex.item.br_cash_adv_swift_attack_potion_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="attack_time_down"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="pAtkSpd" value="1.33"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26023" levels="1" name="Greater Wind Walk Potion">
+		<!--
+			  Last modify: 26.10.2009
+			  Description: State in which Moving Speed has increased. Effect 2.
+		-->
+		<set name="icon" value="br_cashtex.item.br_cash_adv_quick_step_potion_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="speed_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="runSpd" value="33"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26024" levels="1" name="Quick Healing Potion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="HEAL"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect instant="true" name="RestoreHP" value="435"/>
+		</for>
+	</skill>
+	<skill id="26025" levels="1" name="Major Healing Potion">
+		<set name="icon" value="br_cashtex.item.br_cash_greater_healing_potion_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="hp_recover"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="power" value="3"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="HOT"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="RestoreHP" interval="3" value="150"/>
+		</for>
+	</skill>
+	<skill id="26026" levels="1" name="Major Healing Potion">
+		<set name="icon" value="br_cashtex.item.br_cash_healing_potion_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="hp_recover"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="power" value="2"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="HOT"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="RestoreHP" interval="3" value="72"/>
+		</for>
+	</skill>
+	<skill id="26027" levels="6" name="Elixir of CP (D-grade)">
+		<table name="#levelMin">1 20 40 52 61 76</table>
+		<table name="#levelMax">19 39 51 60 75 90</table>
+		<table name="#power">350 600 800 1000 1200</table>
+		<table name="#ride_state">NONE;STRIDER;WYVERN;WOLF NONE;STRIDER;WYVERN;WOLF NONE;STRIDER;WYVERN;WOLF NONE;STRIDER;WYVERN;WOLF NONE;STRIDER;WYVERN;WOLF</table>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="#ride_state"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="1902">
+			<and>
+				<player minLevel="#levelMin"/>
+				<player max_level="#levelMax"/>
+			</and>
+		</cond>
+		<for>
+			<effect instant="true" name="RestoreCP" value="#power"/>
+		</for>
+	</skill>
+	<skill id="26028" levels="6" name="Elixir of Life (D-grade)">
+		<table name="#levelMin">1 20 40 52 61 76</table>
+		<table name="#levelMax">19 39 51 60 75 90</table>
+		<table name="#power">650 1100 1500 1900 2300</table>
+		<table name="#ride_state">NONE;STRIDER;WYVERN;WOLF NONE;STRIDER;WYVERN;WOLF NONE;STRIDER;WYVERN;WOLF NONE;STRIDER;WYVERN;WOLF NONE;STRIDER;WYVERN;WOLF</table>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="#ride_state"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="HEAL"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="1902">
+			<and>
+				<player minLevel="#levelMin"/>
+				<player max_level="#levelMax"/>
+			</and>
+		</cond>
+		<for>
+			<effect instant="true" name="RestoreHP" value="#power"/>
+		</for>
+	</skill>
+	<skill id="26029" levels="1" name="CP Potion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect instant="true" name="RestoreCP" value="50"/>
+		</for>
+	</skill>
+	<skill id="26030" levels="1" name="Mana Potion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect instant="true" name="RestoreMP" value="60"/>
+		</for>
+	</skill>
+	<skill id="26031" levels="1" name="Scroll: Wind Walk">
+		<!--
+			  Description: Increases moving speed by 33 for 60 minutes.
+		-->
+		<set name="icon" value="br_cashtex.item.br_cash_scroll_of_wind_walk_i00"/>
+		<set name="hitTime" value="4000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="speed_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="22039"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="runSpd" value="33"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26032" levels="1" name="Scroll: Haste">
+		<!--
+			  Description: Increases Atk. Spd. by 33% for 60 minutes.
+		-->
+		<set name="icon" value="br_cashtex.item.br_cash_scroll_of_haste_i00"/>
+		<set name="hitTime" value="4000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="attack_time_down"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="22040"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="pAtkSpd" value="1.33"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26033" levels="1" name="Scroll: Might">
+		<!--
+			  Description: Increases P. Atk. by 15% for 60 minutes.
+		-->
+		<set name="icon" value="br_cashtex.item.br_cash_scroll_of_might_i00"/>
+		<set name="hitTime" value="4000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="pa_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="22041"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="pAtk" value="1.15"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26034" levels="1" name="Scroll: Shield">
+		<!--
+			  Description: Increases P. Def. by 15% for 60 minutes.
+		-->
+		<set name="icon" value="br_cashtex.item.br_cash_scroll_of_shield_i00"/>
+		<set name="hitTime" value="4000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="pd_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="22042"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="pDef" value="1.15"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26035" levels="1" name="Scroll: Death Whisper">
+		<!--
+			  Description: Increases the power of critical attacks by 35% for 60 minutes.
+		-->
+		<set name="icon" value="br_cashtex.item.br_cash_scroll_of_death_whisper_i00"/>
+		<set name="hitTime" value="4000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="critical_dmg_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="22043"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="p_critical_damage_per" value="35"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26036" levels="1" name="Scroll: Guidance">
+		<!--
+			  Description: Increases accuracy by 4.
+		-->
+		<set name="icon" value="br_cashtex.item.br_cash_scroll_of_guidance_i00"/>
+		<set name="hitTime" value="4000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="hit_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="22044"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="pAccCombat" value="4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26037" levels="1" name="Scroll: Empower">
+		<!--
+			  Description: Increases M. Atk. by 75%.
+		-->
+		<set name="icon" value="br_cashtex.item.br_cash_scroll_of_empower_i00"/>
+		<set name="hitTime" value="4000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="ma_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="22045"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="mAtk" value="1.75"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26038" levels="1" name="Scroll: Greater Acumen">
+		<!--
+			  Description: Increases Casting Spd. by 30% for 60 minutes.
+		-->
+		<set name="icon" value="br_cashtex.item.br_cash_scroll_of_greater_acumen_i00"/>
+		<set name="hitTime" value="4000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="casting_time_down"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="22046"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="mAtkSpd" value="1.3"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26039" levels="1" name="Scroll: Vampiric Rage">
+		<!--
+			  Description: 9% of the standard short-range physical damage inflicted on the enemy is recovered as HP for 60 minutes.
+		-->
+		<set name="icon" value="br_cashtex.item.br_cash_scroll_of_vampiric_rage_i00"/>
+		<set name="hitTime" value="4000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="vampiric_attack"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="22047"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="absorbDam" value="9"/>
+				<add stat="absorbBowDam" value="9"/>
+				<add stat="absorbPSkillDam" value="9"/>
+				<add stat="absorbMSkillDam" value="9"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26040" levels="1" name="Scroll: Blessed Body">
+		<!--
+			  Description: Increases Max HP by 35%.
+		-->
+		<set name="icon" value="br_cashtex.item.br_cash_scroll_of_bless_the_body_i00"/>
+		<set name="hitTime" value="4000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="max_hp_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="22048"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="maxHp" value="1.35"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26041" levels="1" name="Scroll: Berserker Spirit">
+		<!--
+			  Description: Decreases a party member\'s P. Def. by 8%, M. Def. by 16%, and evasion by 4, and increases P. Atk. by 8%, M. Atk. by 16%, Atk. Spd. by 8%, Casting Spd. by 8%, and moving speed by 8.
+		-->
+		<set name="icon" value="br_cashtex.item.br_cash_scroll_of_berserker_spirit_i00"/>
+		<set name="hitTime" value="4000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="berserker"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="22049"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="mAtk" value="1.16"/>
+				<mul stat="pAtk" value="1.08"/>
+				<mul stat="pDef" value="0.92"/>
+				<mul stat="mDef" value="0.84"/>
+				<mul stat="mAtkSpd" value="1.08"/>
+				<mul stat="pAtkSpd" value="1.08"/>
+				<add stat="runSpd" value="8"/>
+				<sub stat="pEvasRate" value="4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26042" levels="1" name="Scroll: Magic Barrier">
+		<!--
+			  Description: Increases magic resistance by 30%.
+		-->
+		<set name="icon" value="br_cashtex.item.br_cash_scroll_of_magic_barrier_i00"/>
+		<set name="hitTime" value="4000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="md_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="22050"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="mDef" value="1.3"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26043" levels="1" name="Scroll: Blessed Soul">
+		<!--
+			  Description: Increases Max MP by 35%.
+		-->
+		<set name="icon" value="br_cashtex.item.br_cash_scroll_of_bless_the_soul_i00"/>
+		<set name="hitTime" value="4000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="max_mp_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="22051"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="maxMp" value="1.35"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26044" levels="1" name="Scroll: Clarity">
+		<!--
+			  Description: Decreases physical skill MP consumption by 20%, magic skill\'s MP consumption by 10%, and song/dance skill\'s MP consumption by 20%.
+		-->
+		<set name="icon" value="br_cashtex.item.br_cash_scroll_of_clarity_i00"/>
+		<set name="hitTime" value="4000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="cheap_magic"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="22052"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="mpConsum" value="0.9"/>
+				<mul stat="mpConsumePhysical" value="0.8"/>
+				<mul stat="mpDanceConsume" value="0.8"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26045" levels="1" name="Scroll: Wild Magic">
+		<!--
+			  Description: Increases the rate of causing exceptional damage by the Damage Magic by 2.
+		-->
+		<set name="icon" value="br_cashtex.item.br_cash_scroll_of_wild_magic_i00"/>
+		<set name="hitTime" value="4000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="magic_critical_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="22053"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="baseMCritRate" value="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26046" levels="7" name="XP Rune III (Lv. 1-100+) 10%">
+		<!--
+			  Description: Acquired Experience Points increase by 10%.
+		-->
+		<table name="#icon">br_cashtex.skill.br_cash_rune_of_exp_buff_1 br_cashtex.skill.br_cash_rune_of_exp_buff_2 br_cashtex.skill.br_cash_rune_of_exp_buff_3 br_cashtex.skill.br_cash_rune_of_exp_buff_4 br_cashtex.skill.br_cash_rune_of_exp_buff_5 br_cashtex.skill.br_cash_rune_of_exp_buff_5 br_cashtex.skill.br_cash_rune_of_exp_buff_5</table>
+		<table name="#power">0.1 0.2 0.3 0.4 0.5 1 2</table>
+		<set name="icon" value="#icon"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<cond msgId="1902">
+			<and>
+				<player minLevel="1"/>
+				<player max_level="105"/>
+			</and>
+		</cond>
+		<for>
+			<add stat="exp_rate_multiplier" value="#power"/>
+		</for>
+	</skill>
+	<skill id="26047" levels="7" name="SP Rune 10%">
+		<!--
+			  Description: Acquired SP increase by 10%.
+		-->
+		<table name="#icon">br_cashtex.skill.br_cash_rune_of_sp_buff_1 br_cashtex.skill.br_cash_rune_of_sp_buff_2 br_cashtex.skill.br_cash_rune_of_sp_buff_3 br_cashtex.skill.br_cash_rune_of_sp_buff_4 br_cashtex.skill.br_cash_rune_of_sp_buff_5 br_cashtex.skill.br_cash_rune_of_sp_buff_5 br_cashtex.skill.br_cash_rune_of_sp_buff_5</table>
+		<table name="#power">0.1 0.2 0.3 0.4 0.5 1 2</table>
+		<set name="icon" value="#icon"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="sp_rate_multiplier" value="#power"/>
+		</for>
+	</skill>
+	<skill id="26048" levels="5" name="Rune of Crystal (Lv. 1)">
+		<!--
+			  Description: One\'s Grade Penalty decreases by 1 level.
+		-->
+		<table name="#icon">br_cashtex.skill.br_cash_rune_of_rp_buff_1 br_cashtex.skill.br_cash_rune_of_rp_buff_2 br_cashtex.skill.br_cash_rune_of_rp_buff_3 br_cashtex.skill.br_cash_rune_of_rp_buff_4 br_cashtex.skill.br_cash_rune_of_rp_buff_5</table>
+		<table name="#power">1 2 3 4 5</table>
+		<set name="icon" value="#icon"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="gradeExpertiseLevel" value="#power"/>
+		</for>
+	</skill>
+	<skill id="26049" levels="1" name="Rune of Feather">
+		<!--
+			  Description: One\'s Weight Limit increases by 20%
+		-->
+		<set name="icon" value="br_cashtex.item.br_cash_rune_of_feather_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxLoad" value="1.2"/>
+		</for>
+	</skill>
+	<skill id="26050" levels="1" name="Blessed Spiritshot (D-grade)">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_spirit_shot">
+				<def name="power" value="300"/>
+				<def name="unk_spiritshot_parameter_1" value="40"/>
+				<def name="unk_spiritshot_parameter_2" value="2.4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26051" levels="1" name="Blessed Spiritshot (C-grade)">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_spirit_shot">
+				<def name="power" value="300"/>
+				<def name="unk_spiritshot_parameter_1" value="40"/>
+				<def name="unk_spiritshot_parameter_2" value="2.4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26052" levels="1" name="Blessed Spiritshot (B-grade)">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_spirit_shot">
+				<def name="power" value="300"/>
+				<def name="unk_spiritshot_parameter_1" value="40"/>
+				<def name="unk_spiritshot_parameter_2" value="2.4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26053" levels="1" name="Blessed Spiritshot (A-grade)">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_spirit_shot">
+				<def name="power" value="300"/>
+				<def name="unk_spiritshot_parameter_1" value="40"/>
+				<def name="unk_spiritshot_parameter_2" value="2.4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26054" levels="1" name="Blessed Spiritshot (S-grade)">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_spirit_shot">
+				<def name="power" value="300"/>
+				<def name="unk_spiritshot_parameter_1" value="40"/>
+				<def name="unk_spiritshot_parameter_2" value="2.4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26055" levels="1" name="Spiritshot (D-grade)">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_spirit_shot">
+				<def name="power" value="100"/>
+				<def name="unk_spiritshot_parameter_1" value="40"/>
+				<def name="unk_spiritshot_parameter_2" value="1.0"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26056" levels="1" name="Spiritshot (C-grade)">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_spirit_shot">
+				<def name="power" value="100"/>
+				<def name="unk_spiritshot_parameter_1" value="40"/>
+				<def name="unk_spiritshot_parameter_2" value="1.0"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26057" levels="1" name="Spiritshot (B-grade)">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_spirit_shot">
+				<def name="power" value="100"/>
+				<def name="unk_spiritshot_parameter_1" value="40"/>
+				<def name="unk_spiritshot_parameter_2" value="1.0"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26058" levels="1" name="Spiritshot (A-grade)">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_spirit_shot">
+				<def name="power" value="100"/>
+				<def name="unk_spiritshot_parameter_1" value="40"/>
+				<def name="unk_spiritshot_parameter_2" value="1.0"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26059" levels="1" name="Spiritshot (S-grade)">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_spirit_shot">
+				<def name="power" value="100"/>
+				<def name="unk_spiritshot_parameter_1" value="40"/>
+				<def name="unk_spiritshot_parameter_2" value="1.0"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26060" levels="1" name="Soulshot (D-grade)">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_soul_shot">
+				<def name="power" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26061" levels="1" name="Soulshot (C-grade)">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_soul_shot">
+				<def name="power" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26062" levels="1" name="Soulshot (B-grade)">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_soul_shot">
+				<def name="power" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26063" levels="1" name="Soulshot (A-grade)">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_soul_shot">
+				<def name="power" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26064" levels="1" name="Soulshot (S-grade)">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_soul_shot">
+				<def name="power" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26065" levels="1" name="Fighter\'s Scroll Bundle">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="22039" min_count="1" max_count="1"/>	<!--Wind Walk Scroll-->
+				<item id="22040" min_count="1" max_count="1"/>	<!--Haste Scroll-->
+				<item id="22047" min_count="1" max_count="1"/>	<!--Vampiric Rage Scroll-->
+				<item id="22041" min_count="1" max_count="1"/>	<!--Might Scroll-->
+				<item id="22042" min_count="1" max_count="1"/>	<!--Shield Scroll-->
+				<item id="22043" min_count="1" max_count="1"/>	<!--Scroll of Death Whisper-->
+				<item id="22044" min_count="1" max_count="1"/>	<!--Scroll of Guidance-->
+				<item id="22048" min_count="1" max_count="1"/>	<!--Bless the Body Scroll-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="26066" levels="1" name="Mage\'s Scroll Bundle">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="22049" min_count="1" max_count="1"/>	<!--Berserker Spirit Scroll-->
+				<item id="22050" min_count="1" max_count="1"/>	<!--Magic Barrier Scroll-->
+				<item id="22051" min_count="1" max_count="1"/>	<!--Bless the Soul Scroll-->
+				<item id="22045" min_count="1" max_count="1"/>	<!--Empower Scroll-->
+				<item id="22046" min_count="1" max_count="1"/>	<!--Grater Acumen Scroll-->
+				<item id="22052" min_count="1" max_count="1"/>	<!--Clarity Scroll-->
+				<item id="22048" min_count="1" max_count="1"/>	<!--Bless the Body Scroll-->
+				<item id="22053" min_count="1" max_count="1"/>	<!--Wild Magic Scroll-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="26067" levels="5" name="Bone Quiver">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="22067" min_count="10000" max_count="10000"/>	<!--Bone Arrow-->
+			</group>
+		</restoration>
+		<restoration level="2">
+			<group chance="100.0">
+				<item id="22068" min_count="10000" max_count="10000"/>	<!--Steel Arrow-->
+			</group>
+		</restoration>
+		<restoration level="3">
+			<group chance="100.0">
+				<item id="22069" min_count="10000" max_count="10000"/>	<!--Silver Arrow-->
+			</group>
+		</restoration>
+		<restoration level="4">
+			<group chance="100.0">
+				<item id="22070" min_count="10000" max_count="10000"/>	<!--Mithril Arrow-->
+			</group>
+		</restoration>
+		<restoration level="5">
+			<group chance="100.0">
+				<item id="22071" min_count="10000" max_count="10000"/>	<!--Arrow of Light-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="26068" levels="10" name="Blessed Spiritshot Pack (D-grade)">
+		<!--
+			  Last modify: 02.11.2009
+			  Description: Blessed Spiritshot Pack 1-5, Blessed Spiritshot Large Pack 6-10, Item Mall.
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="22072" min_count="5000" max_count="5000"/>	<!--Blessed Spiritshot (C-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="2">
+			<group chance="100.0">
+				<item id="22073" min_count="5000" max_count="5000"/>	<!--Blessed Spiritshot (C-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="3">
+			<group chance="100.0">
+				<item id="22074" min_count="5000" max_count="5000"/>	<!--Blessed Spiritshot (B-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="4">
+			<group chance="100.0">
+				<item id="22075" min_count="5000" max_count="5000"/>	<!--Blessed Spiritshot (A-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="5">
+			<group chance="100.0">
+				<item id="22076" min_count="5000" max_count="5000"/>	<!--Blessed Spiritshot (S-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="6">
+			<group chance="100.0">
+				<item id="22072" min_count="10000" max_count="10000"/>	<!--Blessed Spiritshot (C-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="7">
+			<group chance="100.0">
+				<item id="22073" min_count="10000" max_count="10000"/>	<!--Blessed Spiritshot (C-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="8">
+			<group chance="100.0">
+				<item id="22074" min_count="10000" max_count="10000"/>	<!--Blessed Spiritshot (B-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="9">
+			<group chance="100.0">
+				<item id="22075" min_count="10000" max_count="10000"/>	<!--Blessed Spiritshot (A-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="10">
+			<group chance="100.0">
+				<item id="22076" min_count="10000" max_count="10000"/>	<!--Blessed Spiritshot (S-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="26069" levels="10" name="Spiritshot Pack (D-grade)">
+		<!--
+			  Last modify: 02.11.2009
+			  Description: Spiritshot Pack 1-5, Spiritshot Large Pack 6-10, Item Mall.
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="22077" min_count="5000" max_count="5000"/>	<!--Spiritshot (C-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="2">
+			<group chance="100.0">
+				<item id="22078" min_count="5000" max_count="5000"/>	<!--Spiritshot (C-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="3">
+			<group chance="100.0">
+				<item id="22079" min_count="5000" max_count="5000"/>	<!--Spiritshot (B-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="4">
+			<group chance="100.0">
+				<item id="22080" min_count="5000" max_count="5000"/>	<!--Spiritshot (A-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="5">
+			<group chance="100.0">
+				<item id="22081" min_count="5000" max_count="5000"/>	<!--Spiritshot (S-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="6">
+			<group chance="100.0">
+				<item id="22077" min_count="10000" max_count="10000"/>	<!--Spiritshot (C-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="7">
+			<group chance="100.0">
+				<item id="22078" min_count="10000" max_count="10000"/>	<!--Spiritshot (C-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="8">
+			<group chance="100.0">
+				<item id="22079" min_count="10000" max_count="10000"/>	<!--Spiritshot (B-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="9">
+			<group chance="100.0">
+				<item id="22080" min_count="10000" max_count="10000"/>	<!--Spiritshot (A-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="10">
+			<group chance="100.0">
+				<item id="22081" min_count="10000" max_count="10000"/>	<!--Spiritshot (S-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="26070" levels="10" name="Soulshot Pack (D-grade)">
+		<!--
+			  Last modify: 02.11.2009
+			  Description: Soulshot Pack 1-5, Soulshot Large Pack 6-10, Item Mall.
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="22082" min_count="5000" max_count="5000"/>	<!--Soulshot (C-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="2">
+			<group chance="100.0">
+				<item id="22083" min_count="5000" max_count="5000"/>	<!--Soulshot (C-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="3">
+			<group chance="100.0">
+				<item id="22084" min_count="5000" max_count="5000"/>	<!--Soulshot (B-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="4">
+			<group chance="100.0">
+				<item id="22085" min_count="5000" max_count="5000"/>	<!--Soulshot (A-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="5">
+			<group chance="100.0">
+				<item id="22086" min_count="5000" max_count="5000"/>	<!--Soulshot (S-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="6">
+			<group chance="100.0">
+				<item id="22082" min_count="10000" max_count="10000"/>	<!--Soulshot (C-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="7">
+			<group chance="100.0">
+				<item id="22083" min_count="10000" max_count="10000"/>	<!--Soulshot (C-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="8">
+			<group chance="100.0">
+				<item id="22084" min_count="10000" max_count="10000"/>	<!--Soulshot (B-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="9">
+			<group chance="100.0">
+				<item id="22085" min_count="10000" max_count="10000"/>	<!--Soulshot (A-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="10">
+			<group chance="100.0">
+				<item id="22086" min_count="10000" max_count="10000"/>	<!--Soulshot (S-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="26071" levels="17" name="Wrapped Daisy Hairpin">
+		<!--
+			  Last modify: 03.11.2009
+			  Description: Hair accessory\'s.
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="22156" min_count="1" max_count="1"/>	<!--Daisy Hairpin-->
+			</group>
+		</restoration>
+		<restoration level="2">
+			<group chance="100.0">
+				<item id="22157" min_count="1" max_count="1"/>	<!--Forget-me-not Hairpin-->
+			</group>
+		</restoration>
+		<restoration level="3">
+			<group chance="100.0">
+				<item id="22158" min_count="1" max_count="1"/>	<!--Outlaw\'s Eyepatch-->
+			</group>
+		</restoration>
+		<restoration level="4">
+			<group chance="100.0">
+				<item id="22159" min_count="1" max_count="1"/>	<!--Pirate\'s eyepatch-->
+			</group>
+		</restoration>
+		<restoration level="5">
+			<group chance="100.0">
+				<item id="22160" min_count="1" max_count="1"/>	<!--Monocle-->
+			</group>
+		</restoration>
+		<restoration level="6">
+			<group chance="100.0">
+				<item id="22161" min_count="1" max_count="1"/>	<!--Red Mask of Victory-->
+			</group>
+		</restoration>
+		<restoration level="7">
+			<group chance="100.0">
+				<item id="22162" min_count="1" max_count="1"/>	<!--Red Horn of Victory-->
+			</group>
+		</restoration>
+		<restoration level="8">
+			<group chance="100.0">
+				<item id="22163" min_count="1" max_count="1"/>	<!--Party Mask-->
+			</group>
+		</restoration>
+		<restoration level="9">
+			<group chance="100.0">
+				<item id="22164" min_count="1" max_count="1"/>	<!--Red Party Mask-->
+			</group>
+		</restoration>
+		<restoration level="10">
+			<group chance="100.0">
+				<item id="22165" min_count="1" max_count="1"/>	<!--Cat Ears-->
+			</group>
+		</restoration>
+		<restoration level="11">
+			<group chance="100.0">
+				<item id="22166" min_count="1" max_count="1"/>	<!--Lady\'s Hair Pin-->
+			</group>
+		</restoration>
+		<restoration level="12">
+			<group chance="100.0">
+				<item id="22167" min_count="1" max_count="1"/>	<!--Raccoon Ears-->
+			</group>
+		</restoration>
+		<restoration level="13">
+			<group chance="100.0">
+				<item id="22168" min_count="1" max_count="1"/>	<!--Rabbit Ear-->
+			</group>
+		</restoration>
+		<restoration level="14">
+			<group chance="100.0">
+				<item id="22169" min_count="1" max_count="1"/>	<!--Little Angel Wings-->
+			</group>
+		</restoration>
+		<restoration level="15">
+			<group chance="100.0">
+				<item id="22170" min_count="1" max_count="1"/>	<!--Fairy\'s Tentacle-->
+			</group>
+		</restoration>
+		<restoration level="16">
+			<group chance="100.0">
+				<item id="22171" min_count="1" max_count="1"/>	<!--Dandy\'s Chapeau-->
+			</group>
+		</restoration>
+		<restoration level="17">
+			<group chance="100.0">
+				<item id="22172" min_count="1" max_count="1"/>	<!--Artisan\'s Goggles-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="26072" levels="3" name="Wrapped Pet Coupon - Buffalo">
+		<!--
+			  Last modify: 03.11.2009
+			  Description: Pet Exchange Ticket\'s.
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="7583" min_count="1" max_count="1"/>	<!--Pet Exchange Ticket: Buffalo-->
+			</group>
+		</restoration>
+		<restoration level="2">
+			<group chance="100.0">
+				<item id="7584" min_count="1" max_count="1"/>	<!--Pet Exchange Ticket: Cougar-->
+			</group>
+		</restoration>
+		<restoration level="3">
+			<group chance="100.0">
+				<item id="7585" min_count="1" max_count="1"/>	<!--Pet Exchange Ticket: Kookaburra-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="26073" levels="5" name="Bone Bolt Container">
+		<!--  .
+			  Last modify: 03.11.2009
+			  Description: Bolt Container\'s.
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="22144" min_count="10000" max_count="10000"/>	<!--Bone Bolt-->
+			</group>
+		</restoration>
+		<restoration level="2">
+			<group chance="100.0">
+				<item id="22145" min_count="10000" max_count="10000"/>	<!--Steel Bolt-->
+			</group>
+		</restoration>
+		<restoration level="3">
+			<group chance="100.0">
+				<item id="22146" min_count="10000" max_count="10000"/>	<!--Silver Bolt-->
+			</group>
+		</restoration>
+		<restoration level="4">
+			<group chance="100.0">
+				<item id="22147" min_count="10000" max_count="10000"/>	<!--Mithril Bolt-->
+			</group>
+		</restoration>
+		<restoration level="5">
+			<group chance="100.0">
+				<item id="22148" min_count="10000" max_count="10000"/>	<!--Bolt of Light-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="26074" levels="1" name="Life Stone Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26075" levels="1" name="Adenian Life Stone Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26076" levels="1" name="Lucky Enchant Stone: Armor Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26077" levels="1" name="Lucky Enchant Stone: Weapon Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26078" levels="1" name="Soul Bottle Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26079" levels="1" name="Samurai Outfit Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26080" levels="1" name="Samurai Hair Accessory Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26081" levels="1" name="Samurai Outfit Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26082" levels="1" name="Vampire Top Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26083" levels="1" name="Vampire Pants Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26084" levels="1" name="Vampire Gloves Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26085" levels="1" name="Vampire Shoes Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26086" levels="1" name="Vampire Hair Accessory Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26087" levels="1" name="Pandora\'s Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26088" levels="1" name="Gambler\'s Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26089" levels="1" name="Tears One-handed Sword Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26090" levels="1" name="Tears Dagger Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26091" levels="1" name="Tears Two-handed Sword Appearance Sword">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26092" levels="1" name="Tears Fist Weapon Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26093" levels="1" name="Tears Spear Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26094" levels="1" name="Tears Bow Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26095" levels="1" name="Tears Crossbow Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26096" levels="1" name="Tears One-handed Blunt Weapon Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26097" levels="1" name="Tears Magic Sword Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26098" levels="1" name="Tears One-handed Magic Blunt Weapon Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26099" levels="1" name="Tears Two-handed Magic Blunt Weapon Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+</list>

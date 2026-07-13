@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "events.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<!--формат даты HH:mm dd.MM.yyyy-->
+	<event id="7" name="The Hunt for Santa Begins" impl="Fun">
+		<parameter name="start_time_pattern" value="06:30 10.12.2014" />
+		<parameter name="stop_time_pattern" value="06:30 07.01.2015" />
+		<on_start>
+			<spawn name="spawn_group"/>
+		</on_start>
+		<on_stop>
+			<despawn name="spawn_group"/>
+			<global_remove_items name="event_items"/>
+		</on_stop>
+		<objects name="spawn_group">
+			<spawn_ex name="hunt_for_santa_event"/>
+		</objects>
+		<objects name="event_items">
+			<item id="40311"/>	<!--Подарок Ноэлли-->
+			<item id="40313"/>	<!--Знак Деда Мороза-->
+		</objects>
+	</event>
+</list>

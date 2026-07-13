@@ -1,0 +1,19 @@
+<html><head>
+Graman:<br>
+I specialize in Pets on Talking Island. My name is Graman. In recent times this place is just full of energy. Looks like it affects animals. What can I do for You?<br>
+<Button ALIGN="LEFT" ICON="NORMAL" action="link petmanager/pet_help.htm">Learn a method of growing Pets</button>
+<Button ALIGN="LEFT" ICON="NORMAL" action="bypass -h npc_%objectId%_Buy 1">Buy an item for your Pet</button>
+<Button ALIGN="LEFT" ICON="NORMAL" action="bypass -h npc_%objectId%_Multisell 212">Exchange gear Pet to the best</button>
+<Button ALIGN="LEFT" ICON="NORMAL" action="bypass -h npc_%objectId%_Multisell 221">Exchange gear Dragon/Dragon</button>
+<Button ALIGN="LEFT" ICON="NORMAL" action="link petmanager/pet_evolution.htm">The Development Of Pet</button>
+<Button ALIGN="LEFT" ICON="NORMAL" action="link petmanager/pet_manager_trade_ticket.htm">Use Exchange Coupon Pet</button>
+#if ($SERVICES_CHANGE_PET_NAME_ENABLED)
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_services.petevolve.exchange:showErasePetName">Remove Pet's Name.</button>
+#end
+#if ($SERVICES_EXCHANGE_BABY_PET_ENABLED)
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_services.petevolve.exchange:showBabyPetExchange">Exchange Improved Baby pet.</button>
+#end
+#if ($SERVICES_RIDE_HIRE_ENABLED)
+<Button ALIGN=LEFT ICON="NORMAL" action="link scripts/services/ride-prices.htm">Ride hire mountable pet.</button>
+#end
+</body></html>

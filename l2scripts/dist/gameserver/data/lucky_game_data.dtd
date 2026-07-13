@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT list (config|game)*>
+
+	<!ELEMENT config (#PCDATA)>
+	<!ATTLIST config
+		allow CDATA #REQUIRED
+		unique_reward_games_count CDATA #REQUIRED
+		additional_rewards_games_count CDATA #REQUIRED>
+
+	<!ELEMENT game (fee|common_rewards|unique_rewards|additional_rewards)*>
+	<!ATTLIST game
+		id CDATA #REQUIRED
+		games_limit CDATA #IMPLIED
+		reuse CDATA #IMPLIED>
+
+		<!ELEMENT fee (item)*>
+		<!ELEMENT common_rewards (item)*>
+		<!ELEMENT unique_rewards (item)*>
+		<!ELEMENT additional_rewards (item)*>
+
+			<!ELEMENT item (#PCDATA)>
+			<!ATTLIST item
+				id CDATA #REQUIRED
+				count CDATA #IMPLIED
+				min_count CDATA #IMPLIED
+				max_count CDATA #IMPLIED
+				chance CDATA #IMPLIED>

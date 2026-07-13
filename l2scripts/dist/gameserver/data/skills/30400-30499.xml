@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="30400" levels="2" name="Divine Wind">
+		<table name="#defence">10 20</table>
+		<set name="icon" value="icon.skill30400"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="defenceWind" value="#defence"/>
+			<add stat="defenceHoly" value="#defence"/>
+		</for>
+	</skill>
+	<skill id="30401" levels="2" name="Tenacity">
+		<table name="#maxHp">1.01 1.02</table>
+		<table name="#runSpd">4 7</table>
+		<set name="icon" value="icon.skill30401"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="#maxHp"/>
+			<add stat="runSpd" value="#runSpd"/>
+		</for>
+	</skill>
+	<skill id="30402" levels="2" name="Efficacy">
+		<table name="#mpConsum">0.99 0.98</table>
+		<set name="icon" value="icon.skill30402"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mpConsum" value="#mpConsum"/>
+			<mul stat="mpConsumePhysical" value="#mpConsum"/>
+			<mul stat="mpDanceConsume" value="#mpConsum"/>
+		</for>
+	</skill>
+</list>

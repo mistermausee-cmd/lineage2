@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE fake_player_ai SYSTEM "fake_player.dtd">
+<!--AUTHOR: Bonux-->
+<fake_player_ai race="HUMAN" type="FIGHTER">
+	<on_character_create>	<!--Создается персонаж-->
+		<wait min_delay="3000" max_delay="9000"/>
+		<move_to_npc id="30009"/>
+		<speak_with_npc id="30009"/>
+		<wait min_delay="1000" max_delay="3000"/>
+		<use_community bypass="_cbbsbuffer get 0 1_0 Warrior;Воину"/>
+		<wait min_delay="500" max_delay="1500"/>
+		<farm/>
+	</on_character_create>
+	<farm name="Cedric Training School" min_level="1" max_level="40">
+		<zones>
+			<zone>
+				<circle loc="-71336 258392 800 -3200 -3000"/>
+			</zone>
+			<spawn_points>
+				<coords loc="-71338 258271 -3104 0"/>
+				<coords loc="-71417 258270 -3104 0"/>
+				<coords loc="-71453 258305 -3104 0"/>
+				<coords loc="-71467 258378 -3104 0"/>
+			</spawn_points>
+		</zones>
+		<farm_monsters>
+			<npc id="18342"/>
+		</farm_monsters>
+		<on_obtain_max_level>
+			<wait min_delay="1000" max_delay="3000"/>
+			<random_action>
+				<ordinary_actions>
+					<wait min_delay="2000" max_delay="3000"/>
+					<use_community bypass="_cbbsteleport_17"/>
+				</ordinary_actions>
+				<ordinary_actions>
+					<move_to_point x="-71608" y="258088" z="-3096" min_range="50" max_range="150"/>
+					<move_to_point x="-72072" y="257528" z="-3120" min_range="50" max_range="150"/>
+					<move_to_point x="-73016" y="256456" z="-3120" min_range="50" max_range="150"/>
+					<move_to_point x="-73768" y="255672" z="-3136" min_range="50" max_range="150"/>
+					<random_action>
+						<use_item id="10650"/>	<!--Используем SoE-->
+						<ordinary_actions>
+							<move_to_point x="-74872" y="254424" z="-3296" min_range="0" max_range="50"/>
+							<move_to_point x="-76408" y="252392" z="-3328" min_range="0" max_range="50"/>
+							<move_to_point x="-78424" y="249992" z="-3568" min_range="0" max_range="50"/>
+							<move_to_point x="-79512" y="248728" z="-3568" min_range="0" max_range="50"/>
+							<move_to_point x="-80568" y="247480" z="-3632" min_range="50" max_range="150"/>
+							<move_to_point x="-82328" y="245080" z="-3712" min_range="50" max_range="150"/>
+							<move_to_point x="-83304" y="244040" z="-3728" min_range="50" max_range="150"/>
+						</ordinary_actions>
+					</random_action>
+				</ordinary_actions>
+			</random_action>
+		</on_obtain_max_level>
+	</farm>
+</fake_player_ai>

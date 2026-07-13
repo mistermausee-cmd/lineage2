@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="14800" levels="1" name="Master\'s Blessing - Elemental Resistance">
+		<set name="icon" value="icon.skill11565"/>
+		<set name="reuseDelay" value="1000"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="5"/>
+		<set name="abnormal_type" value="armor_element_all"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="armor_fire;armor_water;armor_wind;armor_earth;md_up_attr;dance_of_aqua_guard;dance_of_earth_guard;song_of_elemental;song_of_flame_guard;song_of_storm_guard;song_of_wind"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="armor_fire"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="armor_water"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="armor_wind"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="armor_earth"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="md_up_attr"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_aqua_guard"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_earth_guard"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_elemental"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_flame_guard"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_storm_guard"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_wind"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14801" levels="1" name="Master\'s Blessing - Holy Attack Resistance">
+		<set name="icon" value="icon.skill11567"/>
+		<set name="reuseDelay" value="1000"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="5"/>
+		<set name="abnormal_type" value="armor_holy"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="dance_of_alignment;armor_unholy;dance_of_light;song_of_invocation;resist_bleeding"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_alignment"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="armor_unholy"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_light"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_invocation"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="resist_bleeding"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+			<effect>
+				<p_defence_trait name="bleed" value="50"/>
+				<p_defence_trait name="poison" value="50"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14802" levels="1" name="Master\'s Blessing - Mental Attack Resistance">
+		<set name="icon" value="icon.skill11824"/>
+		<set name="reuseDelay" value="1000"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="5"/>
+		<set name="abnormal_type" value="resist_derangement"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="dance_of_protection;resist_debuff_dispel"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_protection"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="resist_debuff_dispel"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+			<effect>
+				<p_defence_trait name="hold" value="50"/>
+				<p_defence_trait name="derangement" value="50"/>
+				<p_defence_trait name="sleep" value="50"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14803" levels="1" name="Garden Dark Magic">
+		<set name="icon" value="icon.skill0279"/>
+		<set name="abnormal_effect" value="PARALYZE"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="paralyze"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="trait" value="PARALYZE"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<p_defence_trait name="paralyze" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14804" levels="10" name="Damage Reflect Attack Resistance">
+		<set name="icon" value="icon.skill0350"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="resistRelectDam" value="10"/>
+		</for>
+	</skill>
+	<skill id="14814" levels="1" name="Instant Kill Attack Resistance">
+		<set name="icon" value="icon.skill0263"/>
+		<set name="magicLevel" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14815" levels="1" name="Instant Kill Attack Resistance">
+		<set name="icon" value="icon.skill0263"/>
+		<set name="magicLevel" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14816" levels="1" name="Instant Kill Attack Resistance">
+		<set name="icon" value="icon.skill0263"/>
+		<set name="magicLevel" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14817" levels="1" name="Instant Kill Attack Resistance">
+		<set name="icon" value="icon.skill0263"/>
+		<set name="magicLevel" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14818" levels="1" name="Instant Kill Attack Resistance">
+		<set name="icon" value="icon.skill0263"/>
+		<set name="magicLevel" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14819" levels="1" name="Instant Kill Attack Resistance">
+		<set name="icon" value="icon.skill0263"/>
+		<set name="magicLevel" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14820" levels="1" name="Instant Kill Attack Resistance">
+		<set name="icon" value="icon.skill0263"/>
+		<set name="magicLevel" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14821" levels="1" name="Instant Kill Attack Resistance">
+		<set name="icon" value="icon.skill0263"/>
+		<set name="magicLevel" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14822" levels="1" name="Instant Kill Attack Resistance">
+		<set name="icon" value="icon.skill0263"/>
+		<set name="magicLevel" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14823" levels="1" name="Instant Kill Attack Resistance">
+		<set name="icon" value="icon.skill0263"/>
+		<set name="magicLevel" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14824" levels="1" name="Event Neutralization Resistance">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="50"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_defence_trait name="physical_blockade" value="100"/>
+			<p_defence_trait name="airbind" value="100"/>
+			<p_defence_trait name="derangement" value="100"/>
+			<p_defence_trait name="pull" value="100"/>
+			<p_defence_trait name="sleep" value="100"/>
+			<p_defence_trait name="hold" value="100"/>
+			<p_defence_trait name="disarm" value="100"/>
+			<p_defence_trait name="turn_stone" value="100"/>
+			<p_defence_trait name="deport" value="100"/>
+			<p_defence_trait name="paralyze" value="100"/>
+			<p_defence_trait name="shock" value="100"/>
+			<p_defence_trait name="knockdown" value="100"/>
+			<p_defence_trait name="boss" value="100"/>
+			<p_defence_trait name="changebody" value="100"/>
+		</for>
+	</skill>
+	<skill id="14825" levels="9" name="Peace Attack">
+		<set name="icon" value="icon.skill_transform_s_attack"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="2500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14826" levels="9" name="Intensity Slash">
+		<set name="icon" value="icon.skill_transform_s_attack"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="2500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14827" levels="9" name="Lovely Fire">
+		<set name="icon" value="icon.skill_transform_s_attack"/>
+		<set name="reuseDelay" value="4000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="2500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14828" levels="9" name="Innocence Blast">
+		<set name="icon" value="icon.skill_transform_s_attack"/>
+		<set name="reuseDelay" value="7000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="500"/>
+		<set name="hitTime" value="2500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14829" levels="9" name="Grace Strike">
+		<set name="icon" value="icon.skill_transform_s_attack"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="2500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14830" levels="9" name="Gratitude Burst">
+		<set name="icon" value="icon.skill_transform_s_attack"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="2500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14831" levels="9" name="Mystery Bolt">
+		<set name="icon" value="icon.skill_transform_s_attack"/>
+		<set name="reuseDelay" value="4000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="2500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14832" levels="9" name="Platonic Storm">
+		<set name="icon" value="icon.skill_transform_s_attack"/>
+		<set name="reuseDelay" value="7000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="500"/>
+		<set name="hitTime" value="2500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14833" levels="1" name="Tersi\'s Holy Water">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="6000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14834" levels="1" name="Larva Blow">
+		<set name="icon" value="icon.skill0092"/>
+		<set name="lv_bonus_rate" value="1"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="trait" value="SHOCK"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14835" levels="1" name="Dwarf Explosion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="trait" value="SHOCK"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14836" levels="1" name="Nonsense">
+		<set name="icon" value="icon.skill0092"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1000"/>
+		<set name="lv_bonus_rate" value="1"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="trait" value="SHOCK"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14837" levels="1" name="Poor and Pitiful Creature">
+		<set name="icon" value="icon.skill11052"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1000"/>
+		<set name="lv_bonus_rate" value="1"/>
+		<set name="trait" value="AIRBIND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<p_defence_trait name="hold" value="100"/>
+				<p_defence_trait name="knockback" value="100"/>
+				<p_defence_trait name="airbind" value="100"/>
+				<p_defence_trait name="shock" value="100"/>
+				<p_defence_trait name="derangement" value="100"/>
+				<p_defence_trait name="knockdown" value="100"/>
+				<p_defence_trait name="changebody" value="100"/>
+				<p_defence_trait name="sleep" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14838" levels="1" name="Hide">
+		<set name="icon" value="icon.skill11541"/>
+		<set name="lv_bonus_rate" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14839" levels="1" name="Cancel Hide">
+		<set name="icon" value="icon.skill01703"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14840" levels="1" name="Adolph\'s Superior Aggression Aura">
+		<set name="icon" value="icon.skill10027"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14841" levels="1" name="Adolph\'s Superior Aggression Aura">
+		<set name="icon" value="icon.skill10027"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14842" levels="1" name="Adolph\'s Superior Aggression Aura">
+		<set name="icon" value="icon.skill10027"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14843" levels="1" name="Adolph\'s Chain Hydra">
+		<set name="icon" value="icon.skill10016"/>
+		<set name="reuseDelay" value="45000"/>
+		<set name="coolTime" value="1000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="500"/>
+		<set name="lv_bonus_rate" value="30"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="trait" value="PULL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="fly_speed" value="600"/>
+	</skill>
+	<skill id="14844" levels="1" name="Adolph\'s Chain Hydra">
+		<set name="icon" value="icon.skill10016"/>
+		<set name="reuseDelay" value="45000"/>
+		<set name="coolTime" value="1000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="500"/>
+		<set name="lv_bonus_rate" value="30"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="trait" value="PULL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="fly_speed" value="600"/>
+	</skill>
+	<skill id="14845" levels="1" name="Adolph\'s Chain Hydra">
+		<set name="icon" value="icon.skill10016"/>
+		<set name="reuseDelay" value="45000"/>
+		<set name="coolTime" value="1000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="500"/>
+		<set name="lv_bonus_rate" value="30"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="trait" value="PULL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="fly_speed" value="600"/>
+	</skill>
+	<skill id="14846" levels="1" name="Adolph\'s Justice Punishment">
+		<set name="icon" value="icon.skill10010"/>
+		<set name="reuseDelay" value="7000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="lv_bonus_rate" value="30"/>
+		<set name="basic_property" value="magic_abnormal_resist"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14847" levels="1" name="Adolph\'s Justice Punishment">
+		<set name="icon" value="icon.skill10010"/>
+		<set name="reuseDelay" value="7000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="lv_bonus_rate" value="30"/>
+		<set name="basic_property" value="magic_abnormal_resist"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14848" levels="1" name="Adolph\'s Justice Punishment">
+		<set name="icon" value="icon.skill10010"/>
+		<set name="reuseDelay" value="7000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="lv_bonus_rate" value="30"/>
+		<set name="basic_property" value="magic_abnormal_resist"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14849" levels="1" name="Adolph\'s Shield Wave">
+		<set name="icon" value="icon.skill10012"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1000"/>
+		<set name="lv_bonus_rate" value="30"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="trait" value="SHOCK"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14850" levels="1" name="Adolph\'s Shield Wave">
+		<set name="icon" value="icon.skill10012"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1000"/>
+		<set name="lv_bonus_rate" value="30"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="trait" value="SHOCK"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14851" levels="1" name="Adolph\'s Shield Wave">
+		<set name="icon" value="icon.skill10012"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1000"/>
+		<set name="lv_bonus_rate" value="30"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="trait" value="SHOCK"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14852" levels="1" name="Adolph\'s Final Ultimate Defense">
+		<set name="icon" value="icon.skill10017"/>
+		<set name="reuseDelay" value="900000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14853" levels="1" name="Adolph\'s Final Ultimate Defense">
+		<set name="icon" value="icon.skill10017"/>
+		<set name="reuseDelay" value="900000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14854" levels="1" name="Adolph\'s Final Ultimate Defense">
+		<set name="icon" value="icon.skill10017"/>
+		<set name="reuseDelay" value="900000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14855" levels="1" name="Barton\'s Hurricane Rush">
+		<set name="icon" value="icon.skill10267"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="100"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="trait" value="SHOCK"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14856" levels="1" name="Barton\'s Hurricane Rush">
+		<set name="icon" value="icon.skill10267"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="100"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="trait" value="SHOCK"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14857" levels="1" name="Barton\'s Hurricane Rush">
+		<set name="icon" value="icon.skill10267"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="100"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="trait" value="SHOCK"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14858" levels="1" name="Barton\'s Infinity Strike">
+		<set name="icon" value="icon.skill10275"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14859" levels="1" name="Barton\'s Infinity Strike">
+		<set name="icon" value="icon.skill10275"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14860" levels="1" name="Barton\'s Infinity Strike">
+		<set name="icon" value="icon.skill10275"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14861" levels="1" name="Barton\'s Sonic Star">
+		<set name="icon" value="icon.skill10281"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14862" levels="1" name="Barton\'s Sonic Star">
+		<set name="icon" value="icon.skill10281"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14863" levels="1" name="Barton\'s Sonic Star">
+		<set name="icon" value="icon.skill10281"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14864" levels="1" name="Barton\'s Power Bomber">
+		<set name="icon" value="icon.skill10262"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="trait" value="KNOCKDOWN"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<p_defence_trait name="hold" value="100"/>
+				<p_defence_trait name="knockback" value="100"/>
+				<p_defence_trait name="airbind" value="100"/>
+				<p_defence_trait name="shock" value="100"/>
+				<p_defence_trait name="sleep" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14865" levels="1" name="Barton\'s Power Bomber">
+		<set name="icon" value="icon.skill10262"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="trait" value="KNOCKDOWN"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<p_defence_trait name="hold" value="100"/>
+				<p_defence_trait name="knockback" value="100"/>
+				<p_defence_trait name="airbind" value="100"/>
+				<p_defence_trait name="shock" value="100"/>
+				<p_defence_trait name="sleep" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14866" levels="1" name="Barton\'s Power Bomber">
+		<set name="icon" value="icon.skill10262"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="trait" value="KNOCKDOWN"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<p_defence_trait name="hold" value="100"/>
+				<p_defence_trait name="knockback" value="100"/>
+				<p_defence_trait name="airbind" value="100"/>
+				<p_defence_trait name="shock" value="100"/>
+				<p_defence_trait name="sleep" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14867" levels="1" name="Barton\'s Berserker Rage">
+		<set name="icon" value="icon.skill10274"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="coolTime" value="300"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14868" levels="1" name="Barton\'s Berserker Rage">
+		<set name="icon" value="icon.skill10274"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="coolTime" value="300"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14869" levels="1" name="Barton\'s Berserker Rage">
+		<set name="icon" value="icon.skill10274"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="coolTime" value="300"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14870" levels="1" name="Hayuk\'s Multiple Arrow">
+		<set name="icon" value="icon.skill10771"/>
+		<set name="reuseDelay" value="7000"/>
+		<set name="coolTime" value="349"/>
+		<set name="castRange" value="1100"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14871" levels="1" name="Hayuk\'s Multiple Arrow">
+		<set name="icon" value="icon.skill10771"/>
+		<set name="reuseDelay" value="7000"/>
+		<set name="coolTime" value="349"/>
+		<set name="castRange" value="1100"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14872" levels="1" name="Hayuk\'s Multiple Arrow">
+		<set name="icon" value="icon.skill10771"/>
+		<set name="reuseDelay" value="7000"/>
+		<set name="coolTime" value="349"/>
+		<set name="castRange" value="1100"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14873" levels="1" name="Hayuk\'s Heavy Arrow Rain">
+		<set name="icon" value="icon.skill10772"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="coolTime" value="349"/>
+		<set name="castRange" value="1100"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14874" levels="1" name="Hayuk\'s Heavy Arrow Rain">
+		<set name="icon" value="icon.skill10772"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="coolTime" value="349"/>
+		<set name="castRange" value="1100"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14875" levels="1" name="Hayuk\'s Heavy Arrow Rain">
+		<set name="icon" value="icon.skill10772"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="coolTime" value="349"/>
+		<set name="castRange" value="1100"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14876" levels="1" name="Hayuk\'s Recoil Shot">
+		<set name="icon" value="icon.skill10770"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="coolTime" value="449"/>
+		<set name="castRange" value="1100"/>
+		<set name="hitTime" value="1500"/>
+		<set name="lv_bonus_rate" value="20"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="trait" value="KNOCKDOWN"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14877" levels="1" name="Hayuk\'s Recoil Shot">
+		<set name="icon" value="icon.skill10770"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="coolTime" value="449"/>
+		<set name="castRange" value="1100"/>
+		<set name="hitTime" value="1500"/>
+		<set name="lv_bonus_rate" value="20"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="trait" value="KNOCKDOWN"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14878" levels="1" name="Hayuk\'s Recoil Shot">
+		<set name="icon" value="icon.skill10770"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="coolTime" value="449"/>
+		<set name="castRange" value="1100"/>
+		<set name="hitTime" value="1500"/>
+		<set name="lv_bonus_rate" value="20"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="trait" value="KNOCKDOWN"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14879" levels="1" name="Hayuk\'s Pinpoint Shot">
+		<set name="icon" value="icon.skill10763"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="coolTime" value="850"/>
+		<set name="castRange" value="1100"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14880" levels="1" name="Hayuk\'s Pinpoint Shot">
+		<set name="icon" value="icon.skill10763"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="coolTime" value="850"/>
+		<set name="castRange" value="1100"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14881" levels="1" name="Hayuk\'s Pinpoint Shot">
+		<set name="icon" value="icon.skill10763"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="coolTime" value="850"/>
+		<set name="castRange" value="1100"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14882" levels="1" name="Hayuk\'s Quick Evasion">
+		<set name="icon" value="icon.skill10774"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="300"/>
+		<set name="hitTime" value="699"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14883" levels="1" name="Eliyah\'s Mass Exile">
+		<set name="icon" value="icon.skill11296"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="trait" value="DEPORT"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14884" levels="1" name="Eliyah\'s Mass Exile">
+		<set name="icon" value="icon.skill11296"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="trait" value="DEPORT"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14885" levels="1" name="Eliyah\'s Mass Exile">
+		<set name="icon" value="icon.skill11296"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="trait" value="DEPORT"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14886" levels="1" name="Eliyah\'s Summon Death Gate">
+		<set name="icon" value="icon.skill11266"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14887" levels="1" name="Eliyah\'s Summon Death Gate">
+		<set name="icon" value="icon.skill11266"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14888" levels="1" name="Eliyah\'s Summon Death Gate">
+		<set name="icon" value="icon.skill11266"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14889" levels="1" name="Adolph\'s Aggression">
+		<set name="icon" value="icon.skill10026"/>
+		<set name="reuseDelay" value="6000"/>
+		<set name="coolTime" value="200"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="699"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14890" levels="1" name="Adolph\'s Aggression">
+		<set name="icon" value="icon.skill10026"/>
+		<set name="reuseDelay" value="6000"/>
+		<set name="coolTime" value="200"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="699"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14891" levels="1" name="Adolph\'s Aggression">
+		<set name="icon" value="icon.skill10026"/>
+		<set name="reuseDelay" value="6000"/>
+		<set name="coolTime" value="200"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="699"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14892" levels="1" name="Guardian Spirit\'s Blow">
+		<set name="icon" value="icon.skill0003"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="100"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14893" levels="1" name="Guardian Spirit\'s Blow">
+		<set name="icon" value="icon.skill0003"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="100"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14894" levels="1" name="Guardian Spirit\'s Blow">
+		<set name="icon" value="icon.skill0003"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="100"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14895" levels="1" name="Guardian Spirit\'s Wrath">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="20000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14896" levels="1" name="Guardian Spirit\'s Wrath">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="20000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14897" levels="1" name="Guardian Spirit\'s Wrath">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="20000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14898" levels="1" name="Elise\' Progressive Heal">
+		<set name="icon" value="icon.skill11828"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14899" levels="1" name="Elise\' Radiant Heal">
+		<set name="icon" value="icon.skill11755"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="HEAL"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect instant="true" name="RestoreHP" value="1488">
+				<def name="cp_including" value="true"/>
+			</effect>
+		</for>
+	</skill>
+</list>

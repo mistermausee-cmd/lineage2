@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="18344" levels="1" name="Escape: Village">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="hitTime" value="5000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18345" levels="5" name="Spellbook: Dignity of the Exalted Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<table name="#itemConsumeId">45922 45923 45924 47852 47853</table>
+		<table name="#skill">19222-1 19222-2 19222-3 19222-4 19222-5</table>		
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="itemConsumeId" value="#itemConsumeId"/>	<!--Spellbook: Dignity of the Exalted-->
+		<set name="itemConsumeCount" value="1"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="#skill"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="#skill"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18348" levels="1" name="Spellbook: Belief of the Exalted">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="itemConsumeId" value="45925"/>	<!--Spellbook: Belief of the Exalted-->
+		<set name="itemConsumeCount" value="1"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="19223"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="19223"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18349" levels="1" name="Spellbook: Blessing of the Exalted">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="itemConsumeId" value="45926"/>	<!--Spellbook: Blessing of the Exalted-->
+		<set name="itemConsumeCount" value="1"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="19224"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="19224"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18350" levels="1" name="Spellbook: Summon Instant Cure Potion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="itemConsumeId" value="45927"/>	<!--Spellbook: Summon Battle Potion-->
+		<set name="itemConsumeCount" value="1"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="19225"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="19225"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18351" levels="2" name="Spellbook: Favor of the Exalted Lv. 1">
+		<table name="#itemConsumeId">45928 45870</table>
+		<table name="#skill">19226-1 19226-2</table>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="itemConsumeId" value="#itemConsumeId"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="#skill"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="#skill"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18352" levels="1" name="Special Magic Ornament Eternal Belt">
+		<set name="icon" value="icon.skill0332"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18353" levels="1" name="Special Magic Ornament Eternal Belt">
+		<set name="icon" value="icon.skill0332"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18354" levels="1" name="Special Magic Ornament Eternal Belt">
+		<set name="icon" value="icon.skill0332"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18355" levels="1" name="Special Magic Ornament Eternal Belt">
+		<set name="icon" value="icon.skill0332"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18356" levels="1" name="Atelia Energy Combination Box">
+		<set name="icon" value="icon.event_hero_treasure_box_i00"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18357" levels="1" name="Enhanced Atelia Energy Combination Box">
+		<set name="icon" value="icon.event_hero_treasure_box_i00"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18358" levels="1" name="Dimensional Hero\'s Supply Box">
+		<set name="icon" value="icon.new_user_box"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18359" levels="1" name="Summon Kableon">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18360" levels="1" name="Festival Buff - Yum Yum">
+		<set name="icon" value="icon.ev_festival_chicken"/>
+		<set name="reuseDelay" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18361" levels="1" name="Festival Buff - Tipsy Tipsy">
+		<set name="icon" value="icon.ev_festival_herong"/>
+		<set name="reuseDelay" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18362" levels="1" name="Star Rating Preparation">
+		<set name="icon" value="icon.etc_deco_star_i00"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18363" levels="5" name="Star Rating">
+		<set name="icon" value="icon.etc_deco_star_i00"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18364" levels="1" name="Festival\'s Effect">
+		<set name="icon" value="icon.skill_sing"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18365" levels="1" name="Festival\'s Effect">
+		<set name="icon" value="icon.skill_sing"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18366" levels="1" name="Festival\'s Effect">
+		<set name="icon" value="icon.skill_sing"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18367" levels="1" name="Festival Reward">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18368" levels="1" name="Festival Reward">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18369" levels="1" name="Kableon\'s Concentration">
+		<set name="icon" value="icon.skill11507"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18370" levels="1" name="Mid-grade Spirit Stone">
+		<set name="icon" value="icon.renewal_mineral_r"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18371" levels="1" name="High-grade Spirit Stone">
+		<set name="icon" value="icon.renewal_mineral_r95"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18372" levels="1" name="Top-grade Spirit Stone">
+		<set name="icon" value="icon.renewal_mineral_r99"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18373" levels="1" name="Life Stone Instilled with Giants\' Power">
+		<set name="icon" value="icon.etc_small_bubble_i00"/>
+		<set name="reuseDelay" value="604800000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18374" levels="1" name="Pippi\'s Shirt">
+		<set name="icon" value="icon.r1_shirt_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18375" levels="1" name="Kokko\'s Shirt">
+		<set name="icon" value="icon.r1_shirt_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18376" levels="1" name="Pippi\'s Belt">
+		<set name="icon" value="icon.belt_i03"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18377" levels="1" name="Kokko\'s Belt">
+		<set name="icon" value="icon.belt_i03"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18378" levels="1" name="Awakened Hero\'s Olympiad Gift">
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="15">
+				<item id="32289" min_count="1" max_count="1"/>	
+				<item id="37894" min_count="1" max_count="1"/>
+				<item id="30357" min_count="1" max_count="1"/>
+				<item id="30358" min_count="1" max_count="1"/>
+				<item id="30359" min_count="1" max_count="1"/>
+				<item id="45584" min_count="7" max_count="7"/>
+			</group>
+			<group chance="50">
+				<item id="30297" min_count="1" max_count="1"/>
+				<item id="37894" min_count="1" max_count="1"/>
+				<item id="30357" min_count="1" max_count="1"/>
+				<item id="30358" min_count="1" max_count="1"/>
+				<item id="30359" min_count="1" max_count="1"/>
+				<item id="45584" min_count="7" max_count="7"/>
+			</group>
+			<group chance="5">
+				<item id="32290" min_count="1" max_count="1"/>
+				<item id="37894" min_count="1" max_count="1"/>
+				<item id="30357" min_count="1" max_count="1"/>
+				<item id="30358" min_count="1" max_count="1"/>
+				<item id="30359" min_count="1" max_count="1"/>
+				<item id="45584" min_count="7" max_count="7"/>
+			</group>
+			<group chance="30">
+				<item id="17527" min_count="1" max_count="1"/>
+				<item id="37894" min_count="1" max_count="1"/>
+				<item id="30357" min_count="1" max_count="1"/>
+				<item id="30358" min_count="1" max_count="1"/>
+				<item id="30359" min_count="1" max_count="1"/>
+				<item id="45584" min_count="7" max_count="7"/>
+			</group>
+			<group chance="10">
+				<item id="17526" min_count="1" max_count="1"/>
+				<item id="37894" min_count="1" max_count="1"/>
+				<item id="30357" min_count="1" max_count="1"/>
+				<item id="30358" min_count="1" max_count="1"/>
+				<item id="30359" min_count="1" max_count="1"/>
+				<item id="45584" min_count="7" max_count="7"/>
+			</group>
+			<group chance="10">
+				<item id="32291" min_count="1" max_count="1"/>
+				<item id="37894" min_count="1" max_count="1"/>
+				<item id="30357" min_count="1" max_count="1"/>
+				<item id="30358" min_count="1" max_count="1"/>
+				<item id="30359" min_count="1" max_count="1"/>
+				<item id="45584" min_count="7" max_count="7"/>
+			</group>
+		</restoration>
+	</skill>
+	<skill id="18379" levels="1" name="Indomitable Hero\'s Olympiad Gift">
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="50">
+				<item id="30298" min_count="1" max_count="1"/>
+				<item id="45584" min_count="7" max_count="7"/>
+				<item id="1538" min_count="1" max_count="1"/>
+				<item id="37894" min_count="5" max_count="5"/>
+			</group>
+			<group chance="30">
+				<item id="36389" min_count="1" max_count="1"/>
+				<item id="45584" min_count="7" max_count="7"/>
+				<item id="37894" min_count="5" max_count="5"/>
+				<item id="1538" min_count="1" max_count="1"/>
+			</group>
+			<group chance="10">
+				<item id="36386" min_count="1" max_count="1"/>
+				<item id="45584" min_count="7" max_count="7"/>
+				<item id="37894" min_count="5" max_count="5"/>
+				<item id="1538" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100">
+				<item id="35563" min_count="1" max_count="1"/>
+				<item id="45584" min_count="7" max_count="7"/>
+				<item id="37894" min_count="5" max_count="5"/>
+				<item id="1538" min_count="1" max_count="1"/>
+			</group>
+			<group chance="20">
+				<item id="37894" min_count="5" max_count="5"/>
+				<item id="35567" min_count="1" max_count="1"/>
+				<item id="45584" min_count="7" max_count="7"/>
+				<item id="1538" min_count="1" max_count="1"/>
+			</group>
+		</restoration>
+	</skill>
+	<skill id="18380" levels="2" name="Player Commendation - Talisman - STR">
+		<table name="#icon">Icon.etc_allstat_talisman_i00 icon.npoint_talisman_stat</table>
+		<set name="icon" value="#icon"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="STR" value="5"/>
+		</for>
+	</skill>
+	<skill id="18381" levels="2" name="Player Commendation - Talisman - INT">
+		<table name="#icon">Icon.etc_allstat_talisman_i00 icon.npoint_talisman_stat</table>
+		<set name="icon" value="#icon"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="INT" value="5"/>
+		</for>
+	</skill>
+	<skill id="18382" levels="2" name="Player Commendation - Talisman - DEX">
+		<table name="#icon">Icon.etc_allstat_talisman_i00 icon.npoint_talisman_stat</table>
+		<set name="icon" value="#icon"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="DEX" value="5"/>
+		</for>
+	</skill>
+	<skill id="18383" levels="2" name="Player Commendation - Talisman - WIT">
+		<table name="#icon">Icon.etc_allstat_talisman_i00 icon.npoint_talisman_stat</table>
+		<set name="icon" value="#icon"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="WIT" value="5"/>
+		</for>
+	</skill>
+	<skill id="18384" levels="2" name="Player Commendation - Talisman - CON">
+		<table name="#icon">Icon.etc_allstat_talisman_i00 icon.npoint_talisman_stat</table>
+		<set name="icon" value="#icon"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="CON" value="5"/>
+		</for>
+	</skill>
+	<skill id="18385" levels="2" name="Player Commendation - Talisman - MEN">
+		<table name="#icon">Icon.etc_allstat_talisman_i00 icon.npoint_talisman_stat</table>
+		<set name="icon" value="#icon"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="MEN" value="5"/>
+		</for>
+	</skill>
+	<skill id="18386" levels="2" name="Player Commendation - Talisman - Attack Attribute">
+		<set name="icon" value="Icon.etc_allstat_talisman_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="attackFire" value="50"/>
+			<add stat="attackWater" value="50"/>
+			<add stat="attackWind" value="50"/>
+			<add stat="attackEarth" value="50"/>
+			<add stat="attackHoly" value="50"/>
+			<add stat="attackUnholy" value="50"/>
+		</for>
+	</skill>
+	<skill id="18387" levels="1" name="Player Commendation - Talisman - Fire Resistance">
+		<set name="icon" value="Icon.etc_allstat_talisman_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="defenceFire" value="50"/>
+		</for>
+	</skill>
+	<skill id="18388" levels="1" name="Player Commendation - Talisman - Water Resistance">
+		<set name="icon" value="Icon.etc_allstat_talisman_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="defenceWater" value="50"/>
+		</for>
+	</skill>
+	<skill id="18389" levels="1" name="Player Commendation - Talisman - Wind Resistance">
+		<set name="icon" value="Icon.etc_allstat_talisman_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="defenceWind" value="50"/>
+		</for>
+	</skill>
+	<skill id="18390" levels="1" name="Player Commendation - Talisman - Earth Resistance">
+		<set name="icon" value="Icon.etc_allstat_talisman_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="defenceEarth" value="50"/>
+		</for>
+	</skill>
+	<skill id="18391" levels="1" name="Player Commendation - Talisman - Holy Resistance">
+		<set name="icon" value="Icon.etc_allstat_talisman_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="defenceHoly" value="50"/>
+		</for>
+	</skill>
+	<skill id="18392" levels="1" name="Player Commendation - Talisman - Dark Resistance">
+		<set name="icon" value="Icon.etc_allstat_talisman_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="defenceUnholy" value="50"/>
+		</for>
+	</skill>
+	<skill id="18393" levels="1" name="Dimensional Elcyum Pack">
+		<set name="icon" value="icon.event_hero_treasure_box_i00"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18394" levels="1" name="Dimensional Augment Pack">
+		<set name="icon" value="icon.event_hero_treasure_box_i00"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18395" levels="1" name="Dimensional Enhancement Pack">
+		<set name="icon" value="icon.event_hero_treasure_box_i00"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18396" levels="1" name="Player Commendation Points">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18397" levels="1" name="Player Commendation Points">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18398" levels="1" name="Zaken\'s Treasure Chest">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="magicLevel" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="80">
+				<item id="40052" min_count="1" max_count="1"/>
+			</group>
+			<group chance="20">
+				<item id="40053" min_count="1" max_count="1"/>
+			</group>
+		</restoration>
+	</skill>
+	<skill id="18399" levels="1" name="Leona Blackbird\'s Treasure Chest">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="magicLevel" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="80">
+				<item id="40052" min_count="1" max_count="1"/>
+			</group>
+			<group chance="20">
+				<item id="40053" min_count="1" max_count="1"/>
+			</group>
+		</restoration>
+	</skill>
+</list>

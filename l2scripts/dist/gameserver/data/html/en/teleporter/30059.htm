@@ -1,0 +1,17 @@
+<html><body>Gatekeeper Trisha:<br>
+It might be a better idea to walk slowly, taking your time in visiting the other villages. But if you don't have time, we Gatekeepers can open the door of time and space for you. Where do you wish to go?<br>
+(Characters <font color="LEVEL">main class</font> not lower than <font color="LEVEL">level ${GATEKEEPER_FREE}</font> can use the teleport for free.)<br>
+<Button ALIGN=LEFT ICON="TELEPORT" action="bypass -h teleport_request">Teleport</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 518">Exchange Dimension Diamonds.</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_teleport_noble">(Nobless only) Teleport</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_teleport_mdt_to" msg="811;Monster Racetrack">Move to Arena & Monster Race Track (free)</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_teleport_fi_to" msg="811;Fantasy Isle">Teleport to Fantasy Isle (free)</button>
+#if ($SERVICES_PARNASSUS_ENABLED)
+<Button ALIGN=LEFT ICON="TELEPORT" action="bypass -h npc_%objectId%_services.TeleToParnassus:toParnassus" msg="811;Parnassus">Teleport to Parnassus (offshore zone) - ${SERVICES_PARNASSUS_PRICE} Adena]</button>
+#end
+#if ($SERVICES_GIRAN_HARBOR_ENABLED)
+<Button ALIGN=LEFT ICON="TELEPORT" action="bypass -h npc_%objectId%_services.TeleToGH:toGH" msg="811;Giran Harbor">Teleport to Parnassus (offshore zone) - Free]</button>
+#end
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h htmbypass_services.Birthday:summonAlegria">Call Alegria</button>
+<Button ALIGN=LEFT ICON="QUEST" action="bypass -h talk_select">Quest</button>
+</body></html>

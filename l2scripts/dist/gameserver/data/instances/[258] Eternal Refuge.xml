@@ -1,0 +1,24 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<!--By Evil_dnk-->
+<list>
+	<instance id="258" name="Eternal Refuge" maxChannels="20" collapseIfEmpty="1" timelimit="60" dispelBuffs="false">
+		<level min="99"/>
+		<party min="2" max="7"/>
+		<return loc="147880 26712 -2208"/>
+		<teleport loc="-42920 -16248 -12208"/>
+		<reuse resetReuse="30 6 * * *" setUponEntry="true" sharedReuseGroup="0"/> 	
+		<spawns>
+			<group name="eternal_rb1" spawned="true"/>
+			<group name="eternal_rb2" spawned="false"/>
+			<group name="eternal_rb3" spawned="false"/>
+			<group name="eternal_rb4" spawned="false"/>
+			<group name="eternal_rb5" spawned="false"/>
+		</spawns> 
+		<doors>
+			<door id="18170002" opened="false"/>
+			<door id="18170004" opened="false"/>
+			<door id="18170006" opened="false"/>
+			<door id="18170008" opened="false"/>
+		</doors>
+	</instance>
+</list>

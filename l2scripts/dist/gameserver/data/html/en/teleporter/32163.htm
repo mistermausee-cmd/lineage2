@@ -1,0 +1,16 @@
+<html><body>Teleport Device:<br>
+Currently the entire Island of Souls Village is closed due to an epidemic. Some residents managed to get out before the quarantine and have taken refuge on Talking Island. We recommend visitors avoid this dangerous region.<br>
+(Characters <font color="LEVEL">main class</font> not lower than <font color="LEVEL">level ${GATEKEEPER_FREE}</font> can use the teleport for free.)<br>
+<Button ALIGN=LEFT ICON="TELEPORT" action="bypass -h teleport_request">Teleport</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Tele20Lvl 4">Go to the stronghold</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 518">Exchange Dimensional Diamonds</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_teleport_noble">[Noblesse Exclusive] Teleport</button>
+#if ($SERVICES_PARNASSUS_ENABLED)
+<Button ALIGN=LEFT ICON="TELEPORT" action="bypass -h npc_%objectId%_services.TeleToParnassus:toParnassus" msg="811;Parnassus">Teleport to Parnassus (offshore zone) - ${SERVICES_PARNASSUS_PRICE} Adena]</button>
+#end
+#if ($SERVICES_GIRAN_HARBOR_ENABLED)
+<Button ALIGN=LEFT ICON="TELEPORT" action="bypass -h npc_%objectId%_services.TeleToGH:toGH" msg="811;Giran Harbor">Teleport to Parnassus (offshore zone) - Free]</button>
+#end
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h htmbypass_services.Birthday:summonAlegria">Call Alegria</Button>
+<Button ALIGN=LEFT ICON="QUEST" action="bypass -h talk_select">Quest</button>
+</body></html>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "events.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<!--формат даты HH:mm dd.MM.yyyy-->
+	<event id="1" name="Beer Festival" impl="Fun">
+		<parameter name="start_time_pattern" value="06:30 23.10.2013" />
+		<parameter name="stop_time_pattern" value="06:30 13.11.2013" />
+		<on_start>
+			<spawn name="spawn_group"/>
+			<global_add_reward name="droplist"/>
+		</on_start>
+		<on_time>
+			<on time="1209600">	<!--2 Weeks-->
+				<global_remove_reward name="droplist"/>
+			</on>
+		</on_time>
+		<on_stop>
+			<despawn name="spawn_group"/>
+			<global_remove_reward name="droplist"/>
+			<global_remove_items name="event_items"/>
+		</on_stop>
+		<objects name="spawn_group">
+			<spawn_ex name="beer_fest_event"/>
+		</objects>
+		<objects name="droplist">
+			<rewardlist type="EVENT_GROUPED">
+				<group chance="100">
+					<reward item_id="23314" min="1" max="1" chance="10"/>	<!--Ингредиенты для Пива - Солод-->
+					<reward item_id="23315" min="1" max="1" chance="10"/>	<!--Ингредиенты для Пива - Хмель-->
+					<reward item_id="23316" min="1" max="1" chance="5"/>	<!--Ингредиенты для Пива - Дрожжи-->
+					<reward item_id="23318" min="1" max="1" chance="0.5"/>	<!--Пивной Бочонок-->
+				</group>
+			</rewardlist>
+		</objects>
+		<objects name="event_items">
+			<item id="23308"/>	<!--Рецепт: Эльфийский Эль-->
+			<item id="23309"/>	<!--Эльфийский Эль-->
+			<item id="23310"/>	<!--Пиво из Диона-->
+			<item id="23311"/>	<!--Королевский Напиток Гномов-->
+			<item id="23312"/>	<!--Светлое Пиво из Адена-->
+			<item id="23314"/>	<!--Ингредиенты для Пива - Солод-->
+			<item id="23315"/>	<!--Ингредиенты для Пива - Хмель-->
+			<item id="23316"/>	<!--Ингредиенты для Пива - Дрожжи-->
+			<item id="23318"/>	<!--Пивной Бочонок-->
+		</objects>
+	</event>
+</list>

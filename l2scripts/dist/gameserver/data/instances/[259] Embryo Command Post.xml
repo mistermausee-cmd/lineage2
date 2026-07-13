@@ -1,0 +1,35 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<instance id="259" name="Embryo Command Post" maxChannels="10" collapseIfEmpty="10" timelimit="60" dispelBuffs="false">
+		<level min="100"/>
+		<party min="5" max="7"/>
+		<return loc="-50104 49304 -1792"/>
+		<teleport loc="-44040 45816 -8848"/>
+		<reuse resetReuse="30 6 * * *" setUponEntry="false" sharedReuseGroup="0"/>
+		<spawns>
+			<group name="embyo_259_1st_main" spawned="false"/>
+			<group name="embyo_259_1st_center" spawned="false"/>
+			<group name="embyo_259_1st_raid" spawned="false"/>
+			<group name="embyo_259_2nd_1st_room" spawned="false"/>
+			<group name="embyo_259_2nd_2nd_room" spawned="false"/>
+			<group name="embyo_259_2nd_3rd_room" spawned="false"/>
+			<group name="embyo_259_2nd_4th_room" spawned="false"/>
+			<group name="embyo_259_2nd_raid" spawned="false"/>
+			<group name="embyo_259_3rd_raid" spawned="false"/>
+		</spawns>
+		<doors>
+			<door id="18190100" opened="false"/>
+			<door id="18190102" opened="false"/>
+			<door id="18190104" opened="false"/>
+			<door id="18190106" opened="false"/>
+		</doors>
+		<zones>
+			<zone name="[embyo_259_1st_teleport]" active="false"/>
+			<zone name="[embyo_259_2nd_teleport]" active="false"/>
+			<zone name="[embyo_259_1st_stairs]" active="false"/>
+			<zone name="[embyo_259_2nd_stairs]" active="false"/>
+			<zone name="[embyo_259_3rd_bursntein]" active="true"/>
+		</zones>
+	</instance>
+</list>

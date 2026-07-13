@@ -1,0 +1,1624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="21200" levels="1" name="Age of Three Kingdoms">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys.Icon.br_spirit_skill_i00"/>
+		<set name="reuseDelay" value="7200000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="multi_buff"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="20977"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21201" levels="1" name="Haste">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys2.icon.br_dragonboat_cap_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="attack_time_down"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21202" levels="1" name="Release Agathion\'s Seal - Ball Trapping Gnosian">
+		<!--
+			Description: Removes the seal of Agathion.
+		-->
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="npcId" value="1576"/>
+		<set name="summonType" value="agathion"/>
+	</skill>
+	<skill id="21203" levels="1" name="Release Agathion\'s Seal - Ball Trapping Orodriel">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="npcId" value="1577"/>
+		<set name="summonType" value="agathion"/>
+	</skill>
+	<skill id="21204" levels="1" name="Release Agathion\'s Seal - Penalty Kick">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="npcId" value="1578"/>
+		<set name="summonType" value="agathion"/>
+	</skill>
+	<skill id="21205" levels="1" name="Release Agathion\'s Seal - Ball Trapping Gnosian">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="npcId" value="1579"/>
+		<set name="summonType" value="agathion"/>
+	</skill>
+	<skill id="21206" levels="1" name="Release Agathion\'s Seal - Ball Trapping Orodriel">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="npcId" value="1580"/>
+		<set name="summonType" value="agathion"/>
+	</skill>
+	<skill id="21207" levels="1" name="Release Agathion\'s Seal - Penalty Kick">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="npcId" value="1581"/>
+		<set name="summonType" value="agathion"/>
+	</skill>
+	<skill id="21208" levels="1" name="Release Agathion\'s Seal - Ball Trapping Gnosian">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="npcId" value="1582"/>
+		<set name="summonType" value="agathion"/>
+	</skill>
+	<skill id="21209" levels="1" name="Release Agathion\'s Seal - Ball Trapping Orodriel">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="npcId" value="1583"/>
+		<set name="summonType" value="agathion"/>
+	</skill>
+	<skill id="21210" levels="1" name="Release Agathion\'s Seal - Penalty Kick">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="npcId" value="1584"/>
+		<set name="summonType" value="agathion"/>
+	</skill>
+	<skill id="21211" levels="1" name="Blessing of Victory">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys2.icon.br_worldcup_hair_i02"/>
+		<set name="magicLevel" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21212" levels="1" name="Release Agathion\'s Seal - Granny Tiger">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="npcId" value="1585"/>
+		<set name="summonType" value="agathion"/>
+	</skill>
+	<skill id="21213" levels="1" name="Release Agathion\'s Seal - Flower Fairy Spirit">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="npcId" value="1586"/>
+		<set name="summonType" value="agathion"/>
+	</skill>
+	<skill id="21214" levels="1" name="Release Agathion\'s Seal - Cheerleader Orodriel">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="npcId" value="1587"/>
+		<set name="summonType" value="agathion"/>
+	</skill>
+	<skill id="21215" levels="1" name="Release Agathion\'s Seal - Cheerleader Lanya">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="npcId" value="1588"/>
+		<set name="summonType" value="agathion"/>
+	</skill>
+	<skill id="21216" levels="1" name="Release Agathion\'s Seal - Cheerleader Naonin">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="npcId" value="1589"/>
+		<set name="summonType" value="agathion"/>
+	</skill>
+	<skill id="21217" levels="1" name="Release Agathion\'s Seal - Cheerleader Mortia">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="npcId" value="1590"/>
+		<set name="summonType" value="agathion"/>
+	</skill>
+	<skill id="21218" levels="1" name="Release Agathion\'s Seal - Cheerleader Kaurin">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="npcId" value="1591"/>
+		<set name="summonType" value="agathion"/>
+	</skill>
+	<skill id="21219" levels="1" name="Release Agathion\'s Seal - Cheerleader Meruril">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="npcId" value="1592"/>
+		<set name="summonType" value="agathion"/>
+	</skill>
+	<skill id="21220" levels="1" name="Release Agathion\'s Seal - Handy">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="npcId" value="1593"/>
+		<set name="summonType" value="agathion"/>
+	</skill>
+	<skill id="21221" levels="1" name="Blessed Resurrection">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys2.icon.br_flag_cap_i00"/>
+		<set name="reuseDelay" value="43200000"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="3000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21222" levels="1" name="Elemental Resistance">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys2.icon.br_polar_bear_cap_i00"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="md_up_attr"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21223" levels="1" name="Ultimate Defense">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys2.icon.br_polar_bear_wp_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_effect" value="ULTIMATE_DEFENCE"/>
+		<set name="abnormal_time" value="30"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="pd_up_special"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21224" levels="1" name="Great Adventurer\'s Soul Power">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys2.icon.br_stagbeetle_cap_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="300"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="multi_buff"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21225" levels="1" name="Brave Warrior\'s Soul Power">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys2.icon.br_hornbeetle_cap_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="300"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="multi_buff"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21226" levels="1" name="Great Wizard\'s Soul Power">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys2.icon.br_ladybug_cap_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="300"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="multi_buff"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21227" levels="1" name="Great Adventurer\'s Soul Power">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys2.icon.br_mantis_cap_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="300"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="multi_buff"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21228" levels="1" name="Brave Warrior\'s Soul Power">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys2.icon.br_locust_cap_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="300"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="multi_buff"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21229" levels="1" name="Blood Awakening">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys2.icon.br_close_helmet_i00"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="improve_vampiric_haste"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="vampiric_attack;attack_time_down"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="vampiric_attack"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="attack_time_down"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21230" levels="1" name="Improve Magic">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys2.icon.br_navy_cap_i00"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="improve_ma_md_up"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="ma_up;md_up"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="ma_up"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="md_up"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21231" levels="1" name="Improve Critical Attack">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys2.icon.br_gold_eyeglass_i00"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="improve_crt_rate_dmg_up"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="critical_prob_up;critical_dmg_up"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="critical_prob_up"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="critical_dmg_up"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21232" levels="1" name="Shiny Platform">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skilltransform3"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21233" levels="1" name="Release Agathion\'s Seal - Singer &amp; Dancer">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="npcId" value="1594"/>
+		<set name="summonType" value="agathion"/>
+	</skill>
+	<skill id="21234" levels="1" name="Release Agathion\'s Seal - Zaken\'s Spirit Swords">
+		<!--
+			Description: Removes the seal of Agathion.
+		-->
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="npcId" value="1595"/>
+		<set name="summonType" value="agathion"/>
+	</skill>
+	<skill id="21235" levels="1" name="Power Shirt: Speed">
+		<set name="icon" value="BranchSys2.icon.7anni_shirt_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="runSpd" value="7"/>
+		</for>
+	</skill>
+	<skill id="21236" levels="1" name="Power Shirt: Blessed Escape">
+		<set name="icon" value="Icon.skill1050"/>
+		<set name="reuseDelay" value="72000000"/>
+		<set name="hitTime" value="200"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21237" levels="1" name="Power Shirt: Invincibility">
+		<set name="icon" value="BranchSys2.icon.7anni_shirt_i00"/>
+		<set name="reuseDelay" value="72000000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="abnormal_effect" value="INVINCIBILITY"/>
+		<set name="abnormal_time" value="7"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="invincibility"/>
+		<set name="abnormal_cancel_on_action" value="true"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="Invulnerable"/>
+			<effect name="p_block_debuff"/>
+		</for>
+	</skill>
+	<skill id="21238" levels="1" name="Jet Bike">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skilltransform3"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21239" levels="1" name="Release Agathion\'s Seal - Cow">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21240" levels="1" name="Release Agathion\'s Seal - Makeshift Bat">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21241" levels="1" name="Magic Glasses">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys.icon.br_Eye_Glasses_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21242" levels="1" name="Zaken\'s Call">
+		<!--Can move to near Zaken\'s Headquarters. Reuse delay 30 minutes.-->
+		<set name="icon" value="BranchSys2.Icon.br_zaken_cloak_i00"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="10000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="52201;218801;-3224"/>
+	</skill>
+	<skill id="21243" levels="1" name="Freya\'s Call">
+		<!--Can move to near Freya\'s Headquarters. Reuse delay 30 minutes.-->
+		<set name="icon" value="BranchSys2.Icon.br_freya_cloak_i00"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="10000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="102744;-124296;-2784"/>
+	</skill>
+	<skill id="21244" levels="1" name="Frintezza\'s Call">
+		<!--Can move to near Frintezza\'s Headquarters. Reuse delay 30 minutes.-->
+		<set name="icon" value="BranchSys2.Icon.br_frintessa_cloak_i00"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="10000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="181384;-80856;-2728"/>
+	</skill>
+	<skill id="21245" levels="1" name="Release Agathion\'s Seal - Rudolph">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21246" levels="1" name="Rudolph\'s Vitality">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_rbracelet_aga_agit_i00"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_effect" value="VP_UP"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="vp_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21247" levels="1" name="Santa\'s Gift">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21248" levels="1" name="Release Agathion\'s Seal - Zinyanzi">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21249" levels="1" name="Release Agathion\'s Seal - Yanzi">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21250" levels="2" name="Academy Benefaction">
+		<table name="#hitTime">1000 0</table>
+		<table name="#reuseDelay">5000 0</table>
+		<set name="icon" value="icon.accessory_academy_i00"/>
+		<set name="reuseDelay" value="#reuseDelay"/>
+		<set name="hitTime" value="#hitTime"/>
+		<set name="magicLevel" value="1"/>
+		<set name="ride_state" value="NONE"/>
+		<set name="abnormal_time" value="7200"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="abnormal_item"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<for>
+		<effect>
+			<mul order="0x80" stat="expLost" value="0.5">
+				<and>
+					<player minLevel="1"/>
+					<player max_level="84"/>
+				</and>
+			</mul>
+			<add stat="exp_rate_multiplier" value="0.1">
+				<and>
+					<player minLevel="1"/>
+					<player max_level="84"/>
+				</and>
+			</add>
+		</effect>
+		</for>
+	</skill>
+	<skill id="21251" levels="1" name="Shiny Party Hat - Greater Body">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="BranchSys.icon.br_party_hat_gold_i00"/>
+		<set name="reuseDelay" value="1200000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="6"/>
+		<set name="abnormal_type" value="max_hp_up"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21252" levels="1" name="Hellblade">
+		<!--
+			Власть Каладберга	Во время атаки с определенным шансом наносит цели мощный урон и вызывает кровотечение.
+		-->
+		<set name="icon" value="BranchSys2.icon.br_wp_Caladbulg_i00"/>
+		<set name="magicLevel" value="84"/>
+		<set name="operate_type" value="P"/>
+		<triggers>
+			<trigger id="23319" level="1" type="ATTACK" chance="5"/>
+		</triggers>
+	</skill>
+	<skill id="21253" levels="1" name="Butcher Blades">
+		<!--
+			Власть Низов	Во время атаки с определенным шансом вызывает у цели кровотечение.
+		-->
+		<set name="icon" value="BranchSys2.icon.br_wp_habus_knife_i00"/>
+		<set name="magicLevel" value="83"/>
+		<set name="operate_type" value="P"/>
+		<triggers>
+			<trigger id="23320" level="1" type="ATTACK" chance="5"/>
+		</triggers>
+	</skill>
+	<skill id="21254" levels="1" name="Claw of Destruction">
+		<!--
+			Власть Тиатенона	С определенным шансом во время PvP пугает противника и обращает его в бегство.
+		-->
+		<set name="icon" value="BranchSys2.icon.br_wp_tiatenon_i00"/>
+		<set name="magicLevel" value="82"/>
+		<set name="operate_type" value="P"/>
+		<triggers>
+			<trigger id="23321" level="1" type="ATTACK" chance="5"/>
+		</triggers>
+	</skill>
+	<skill id="21255" levels="1" name="Blades of Delusion">
+		<!--
+			Власть Астарота	С определенным шансом во время атаки снижает Физ. Защ. цели.
+		-->
+		<set name="icon" value="BranchSys2.icon.br_wp_astarot_i00"/>
+		<set name="magicLevel" value="82"/>
+		<set name="operate_type" value="P"/>
+		<triggers>
+			<trigger id="23322" level="1" type="ATTACK" chance="5"/>
+		</triggers>
+	</skill>
+	<skill id="21256" levels="1" name="Blood Brother">
+		<!--
+			Власть Трибинга	С определенным шансом во время атаки снижает Физ. Защ. Цели и повергает в шок.
+		-->
+		<set name="icon" value="BranchSys2.icon.br_wp_tirbing_i00"/>
+		<set name="magicLevel" value="82"/>
+		<set name="operate_type" value="P"/>
+		<triggers>
+			<trigger id="23323" level="1" type="ATTACK" chance="5"/>
+		</triggers>
+	</skill>
+	<skill id="21257" levels="1" name="Mardil">
+		<!--
+			Власть Мардила	С определенным шансом при получении повреждений увеличивает Скор. Маг. и силу Атк. Ветром.
+		-->
+		<set name="icon" value="BranchSys2.icon.br_wp_wind_of_mardil_i00"/>
+		<set name="magicLevel" value="71"/>
+		<set name="operate_type" value="P"/>
+		<triggers>
+			<trigger id="23324" level="1" type="RECEIVE_DAMAGE" chance="5">
+				<player damage="100;0"/>
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="21258" levels="1" name="Ride Rocking Horse">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skilltransform3"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="useSS" value="false"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<cond>
+			<player can_transform="20007"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="20007"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21259" levels="1" name="Release Agathion\'s Seal - Lantern">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21260" levels="1" name="Notifier">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill5239"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21261" levels="1" name="Bad Bunny\'s Necklace">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="branchsys2.icon2.g_accessory_event_necklace"/>
+		<set name="magicLevel" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21262" levels="1" name="Bad Bunny\'s Earring">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="branchsys2.icon2.g_accessory_event_earring"/>
+		<set name="magicLevel" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21263" levels="1" name="Bad Bunny\'s Ring">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="branchsys2.icon2.g_accessory_event_ring"/>
+		<set name="magicLevel" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21264" levels="1" name="Summon Friend">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="hitTime" value="10000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21265" levels="1" name="Summon Friend">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="hitTime" value="10000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21266" levels="1" name="Release Agathion\'s Seal - Juju">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21267" levels="1" name="Notifier">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="icon" value="icon.skill5239"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21268" levels="1" name="Jack O\'Lantern Crush">
+		<set name="icon" value="BranchSys3.Icon.g_halloween_scythe"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="coolTime" value="100"/>
+		<set name="hitTime" value="1600"/>
+		<set name="magicLevel" value="77"/>
+		<set name="trait" value="SHOCK"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21269" levels="1" name="Jack O\'Lantern Blessing">
+		<set name="icon" value="BranchSys.icon.br_golden_jack0_mask_i00"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="hitTime" value="800"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_effect" value="INVINCIBILITY"/>
+		<set name="abnormal_time" value="7"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="invincibility"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21270" levels="1" name="Ride Tame Princess Ant">
+		<set name="icon" value="icon.skilltransform3"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="useSS" value="false"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<cond>
+			<player can_transform="20008"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="20008"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21271" levels="1" name="Ride Black Bear">
+		<set name="icon" value="icon.skilltransform3"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="useSS" value="false"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<cond>
+			<player can_transform="20009"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="20009"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21272" levels="1" name="Ride Halloween Witch\'s Broomstick">
+		<set name="icon" value="icon.skilltransform3"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="useSS" value="false"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<cond>
+			<player can_transform="20010"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="20010"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21273" levels="7" name="Release Agathion\'s Seal - Valakas">
+		<table name="#npcId">1606 1607 1608 1609 1610 1611 1612</table>
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="npcId" value="#npcId"/>
+		<set name="summonType" value="agathion"/>
+	</skill>
+	<skill id="21274" levels="6" name="Start of Evolution">
+		<set name="icon" value="BranchSys3.icon.skill22419"/>
+		<set name="reuseDelay" value="86400000"/>
+		<set name="hitTime" value="2000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21275" levels="5" name="Cloak Inventory Slot Add">
+		<set name="icon" value="icon.skill0332"/>
+		<set name="magicLevel" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21276" levels="5" name="Add Cloak Weight Gauge">
+		<set name="icon" value="icon.skill0150"/>
+		<set name="magicLevel" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21277" levels="1" name="Miracle of the Tree - Vitality Recovery">
+		<set name="icon" value="BranchSys.icon.br_xmas_miracle_i00"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_effect" value="VP_UP"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="26"/>
+		<set name="abnormal_type" value="br_event_buf2"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="trait" value="ETC"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21278" levels="1" name="Vitality Recovery Potion">
+		<set name="icon" value="BranchSys2.br_essence_rose_i00"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_effect" value="VP_UP"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="vp_keep"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="trait" value="ETC"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21279" levels="1" name="Drake Lord\'s Authority">
+		<set name="icon" value="BranchSys3.Icon.g_drake_maul_i00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21280" levels="1" name="Freya\'s Authority">
+		<set name="icon" value="BranchSys3.Icon.g_glacierin_i00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21281" levels="1" name="Spezion\'s Authority">
+		<set name="icon" value="BranchSys3.Icon.g_spacia_claw_i00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21282" levels="1" name="Maliss\' Authority">
+		<set name="icon" value="BranchSys3.Icon.g_melisa_stormer_i00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21283" levels="1" name="Steregos\' Authority">
+		<set name="icon" value="BranchSys3.Icon.g_dainsleif_i00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21284" levels="1" name="Ron\'s Authority">
+		<set name="icon" value="BranchSys3.Icon.g_urukmash_i00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21285" levels="1" name="Scroll of Escape: Uthanka\'s Tomb">
+		<set name="icon" value="BranchSys3.lcon.g_ring_of_uthanka"/>
+		<set name="hitTime" value="20000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21286" levels="1" name="Ride Unicorn">
+		<set name="icon" value="icon.skilltransform3"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="useSS" value="false"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<cond>
+			<player can_transform="20016"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="20016"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21287" levels="1" name="Emergency Ballista Repair">
+		<set name="icon" value="icon.skill0818"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="castRange" value="250"/>
+		<set name="hitTime" value="5000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21288" levels="1" name="Emergency Ballista Repair">
+		<set name="icon" value="icon.skill0818"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="castRange" value="250"/>
+		<set name="hitTime" value="5000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21289" levels="1" name="Throw Corrosive Acid">
+		<set name="icon" value="icon.skill1167"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="hitTime" value="6000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21290" levels="1" name="Throw Corrosive Acid">
+		<set name="icon" value="icon.skill1167"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="hitTime" value="6000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21291" levels="1" name="Relic Engraving Activation">
+		<set name="icon" value="icon.skill0191"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="hitTime" value="6000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21292" levels="1" name="Relic Engraving Activation">
+		<set name="icon" value="icon.skill0191"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="hitTime" value="6000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21293" levels="1" name="Two-handed Weapon of Vampiric Rage">
+		<set name="icon" value="icon.skill1268"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21294" levels="1" name="Transformed: Uthanka">
+		<set name="icon" value="icon.skilltransform3"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="useSS" value="false"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<cond>
+			<player can_transform="20018"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="20018"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21295" levels="1" name="Un-equip Uthanka\'s Ring">
+		<set name="icon" value="BranchSys3.lcon.s_g_ring_of_uthanka"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="trait" value="HOLD"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21296" levels="1" name="Exorcist\'s Punishment">
+		<set name="icon" value="icon.skill1405"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="castRange" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21297" levels="1" name="Nevit\'s Touch">
+		<set name="icon" value="icon.skill5662"/>
+		<set name="reuseDelay" value="20000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21298" levels="1" name="Release Agathion\'s Seal - Lancet">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="21299" levels="1" name="Release Agathion\'s Seal - Liposa">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+</list>

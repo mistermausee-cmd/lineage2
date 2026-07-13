@@ -1,0 +1,18 @@
+<html><title>Security configuration</title><body>
+<font color="00ff66">Options account termination:</font><br1>
+- Block by IP address <font color="LEVEL">(%ip_block%)</font><br1>
+- Hwid lock address <font color="LEVEL">(%hwid_block%)</font>
+<br>
+<font color="00ff66">Warning for precautions:</font><br1>
+- IP changes periodically<br1>
+- HWid - ID: <font color="LEVEL">%hwid_val%</font><br1>
+- HWid changed during the upgrade PC
+<br>
+<font color="00ff66">The state of the current session:</font><br1>
+IP address: <font color="LEVEL">%curIP%</font>
+<br>
+<button value="To set the IP blocking" action="bypass -h user_lockIp" width="280" height="22" back="L2UI_CT1.Button_DF" fore="L2UI_CT1.Button_DF" /><br1>
+<button value="Install a lock on Hwid" action="bypass -h user_lockHwid" width="280" height="22" back="L2UI_CT1.Button_DF" fore="L2UI_CT1.Button_DF" /><br1>
+<button value="Remove blocked IP" action="bypass -h user_unlockIp" width="280" height="22" back="L2UI_CT1.Button_DF" fore="L2UI_CT1.Button_DF" /><br1>
+<button value="Remove the Hwid lock" action="bypass -h user_unlockHwid" width="280" height="22" back="L2UI_CT1.Button_DF" fore="L2UI_CT1.Button_DF" /><br>
+</body></html>

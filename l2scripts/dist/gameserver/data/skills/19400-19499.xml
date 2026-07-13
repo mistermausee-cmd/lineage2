@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="19400" levels="3" name="Elemental Spike - Decrease Dark Resistance">
+		<table name="#abnormal_time">7 7 15</table>
+		<table name="#activateRate">100</table>
+		<table name="#dispel_max_abnormal_lvl">9 0 0</table>
+		<table name="#unholy">20 50 100</table>
+		<set name="icon" value="icon.skill11011"/>
+		<set name="abnormal_level" value="5"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_type" value="multi_debuff_fire"/>
+		<set name="activateRate" value="#activateRate"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="ITEM"/>
+		<set name="operate_type" value="A2"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="target" value="TARGET_ONE"/>
+		<for>
+			<effect>
+				<sub stat="defenceUnholy" value="#unholy"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="multi_debuff_fire"/>
+				<def name="max_abnormal_level" value="#dispel_max_abnormal_lvl"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="multi_debuff_water"/>
+				<def name="max_abnormal_level" value="#dispel_max_abnormal_lvl"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="multi_debuff_wind"/>
+				<def name="max_abnormal_level" value="#dispel_max_abnormal_lvl"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="multi_debuff_earth"/>
+				<def name="max_abnormal_level" value="#dispel_max_abnormal_lvl"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="multi_debuff_holy"/>
+				<def name="max_abnormal_level" value="#dispel_max_abnormal_lvl"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="19403" levels="3" name="Elemental Harmony">
+		<set name="icon" value="icon.skill10044"/>
+		<set name="mp_consume" value="70"/>
+		<table name="#power">50 70 100</table>
+		<table name="#abnormal_time">5 5 10</table>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="skillType" value="BUFF_CHARGER"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHideUseMessage" value="true"/>
+		<for>
+			<effect>
+				<add stat="attackFire" value="#power"/>
+				<add stat="attackWater" value="#power"/>
+				<add stat="attackWind" value="#power"/>
+				<add stat="attackEarth" value="#power"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="19404" levels="6" name="Fire Attribute">
+		<set name="icon" value="icon.skill11046"/>
+		<set name="mp_consume" value="70"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="19405" levels="4" name="Discarded Wizard\'s Soul">
+		<table name="#mp_consume">483 495 507 519</table>
+		<set name="icon" value="icon.skill19405"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="3500"/>
+		<set name="mp_consume" value="#mp_consume"/>		
+		<table name="#magicLevel">99 101 103 105</table>		
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="MAGIC"/>		
+		<set name="target" value="TARGET_SELF"/>		
+		<set name="skillType" value="SUMMON"/>
+		<set name="operate_type" value="A2"/>
+		<!-- Summon-specific -->
+		<table name="#npcIds">15207 15208 15209 15210</table>
+		<set name="npcId" value="#npcIds"/>
+	</skill>
+	<skill id="19406" levels="4" name="Curse from Deadland">
+		<set name="icon" value="icon.action225"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="72"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="19407" levels="3" name="Essence of Mana">
+		<set name="icon" value="icon.skill11034"/>
+		<set name="mp_consume" value="36"/>
+		<table name="#S">1.3 1.4 1.5</table>			
+		<table name="#mCritRate">30 40 50</table>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="operate_type" value="T"/>
+		<for>
+			<effect>
+				<mul stat="mAtk" value="#S"/>
+				<add stat="mCritRate" value="#mCritRate"/>				
+				<mul stat="pDef" value="#S"/>				
+			</effect>
+		</for>
+	</skill>
+	<skill id="19408" levels="2" name="Embody Mana Armor">
+		<set name="icon" value="icon.skill11065"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="mp_consume" value="36"/>
+		<table name="#pshie">90 95</table>
+		<set name="abnormal_effect" value="MP_SHIELD"/>		
+		<set name="abnormal_type" value="mp_shield"/>
+		<set name="target" value="TARGET_SELF"/>		
+		<set name="operate_type" value="T"/>
+		<for>			
+			<effect name="AbsorbDamageToMp" interval="1" value="50"><!-- TO DOO 50 маны каждую сек-->
+				<set order="0x10" stat="p_mp_shield" value="#pshie"/>
+				<add order="0x40" stat="reflectDam" value="10"/>
+				<add order="0x40" stat="reflectBowDam" value="10"/>
+				<add order="0x40" stat="reflectPSkillDam" value="10"/>
+				<add order="0x40" stat="reflectMSkillDam" value="10"/>				
+			</effect>
+		</for>
+	</skill>
+	<skill id="19409" levels="1" name="Curse Gloom">
+		<set name="icon" value="icon.skill1263"/>		
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="abnormal_type" value="md_down"/>		
+		<set name="magicLevel" value="85"/>	
+		<set name="magicType" value="MAGIC"/>		
+		<set name="operate_type" value="A2"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="target" value="TARGET_ONE"/>
+		<for>
+			<effect>
+				<mul stat="mDef" value="0.5"/>
+				<sub stat="defenceWater" value="50"/>
+				<sub stat="defenceFire" value="50"/>
+				<sub stat="defenceWind" value="50"/>
+				<sub stat="defenceEarth" value="50"/>
+				<sub stat="defenceHoly" value="50"/>
+				<sub stat="defenceUnholy" value="50"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="19410" levels="1" name="Elemental Crash (Wind)">
+		<set name="icon" value="icon.skill11018"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="19411" levels="1" name="Elemental Crash (Earth)">
+		<set name="icon" value="icon.skill11018"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="19412" levels="1" name="Elemental Crash (Holy)">
+		<set name="icon" value="icon.skill11018"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="19413" levels="7" name="Elemental Burst: Water">
+		<set name="icon" value="icon.skill11865"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="19414" levels="7" name="Elemental Burst: Wind">
+		<set name="icon" value="icon.skill11865"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="19415" levels="7" name="Elemental Burst: Earth">
+		<set name="icon" value="icon.skill11865"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="19416" levels="7" name="Elemental Burst: Holy">
+		<set name="icon" value="icon.skill11865"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="19417" levels="7" name="Elemental Burst: Water">
+		<set name="icon" value="icon.skill11865"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="19418" levels="7" name="Elemental Burst: Wind">
+		<set name="icon" value="icon.skill11865"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="19419" levels="7" name="Elemental Burst: Earth">
+		<set name="icon" value="icon.skill11865"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="19420" levels="4" name="Quadruple Elemental Blast">
+		<set name="icon" value="icon.skill11067"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+</list>

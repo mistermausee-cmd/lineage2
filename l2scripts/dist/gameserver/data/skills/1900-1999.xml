@@ -1,0 +1,1363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="1901" levels="1" name="Aim">
+		<!--Увеличивает Точность на 3 и уменьшает шанс вражеской Крит. Атк. на 3%.-->
+		<set name="icon" value="icon.skill1901"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="attackFire" value="10"/>
+			<add stat="attackWater" value="10"/>
+			<add stat="attackWind" value="10"/>
+			<add stat="attackEarth" value="10"/>
+		</for>
+	</skill>
+	<skill id="1902" levels="1" name="Mental Fortress">
+		<!--Увеличивает Маг. Защ. на 18, Физ. Атк. на 31, Маг. Атк. на 32.-->
+		<set name="icon" value="icon.skill1902"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="resist_abnormal_debuff" value="-1"/>
+		</for>
+	</skill>
+	<skill id="1903" levels="1" name="Fitness">
+		<!--Увеличивает бонус восстановления HP на 1, бонус восстановления MP на 1.-->
+		<set name="icon" value="icon.skill1903"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="regHp" value="1"/>
+			<add stat="regMp" value="1"/>
+		</for>
+	</skill>
+	<skill id="1904" levels="2" name="Unbind">
+		<table name="#abnormal_time">10 12</table>
+		<set name="icon" value="icon.skill1904"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="hitTime" value="200"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="race_human1"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="A2"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="isNotAffectedByMute" value="true"/>
+		<set name="canUseWhileAbnormal" value="true"/>
+		<for>
+			<effect name="p_block_debuff">
+				<p_defence_trait name="hold" value="100"/>
+				<p_defence_trait name="bleed" value="100"/>
+				<p_defence_trait name="shock" value="100"/>
+				<p_defence_trait name="poison" value="100"/>
+			</effect>
+			<effect name="i_dispel_by_category">
+				<def name="abnormal_category" value="slot_debuff"/>
+				<def name="dispel_chance" value="100"/>
+				<def name="max_count" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1905" levels="1" name="Swiftness">
+		<!--Увеличивает Скор. Атк. на 4, Скор. Маг. на 3 и Скорость на 13.-->
+		<set name="icon" value="icon.skill1905"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAtkSpd" value="4"/>
+			<add stat="mAtkSpd" value="3"/>
+			<add stat="runSpd" value="13"/>
+		</for>
+	</skill>
+	<skill id="1906" levels="1" name="Blessing of Water">
+		<!--Увеличивает атаку водой на 10, сопротивление воде на 10, бонус восстановления MP +2.-->
+		<set name="icon" value="icon.skill1906"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="defenceWater" value="20"/>
+		</for>
+	</skill>
+	<skill id="1907" levels="2" name="Prevision">
+		<!--В течение 15 сек. увеличивает Физ. Уклонение и Маг. Уклонение на 30.-->
+		<table name="#pAtkSpd">0 90</table>
+		<table name="#mAtkSpd">0 90</table>
+		<set name="icon" value="icon.skill1907"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="hitTime" value="200"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="race_elf1"/>
+		<set name="magicLevel" value="99"/>
+		<set name="effectPoint" value="523"/>
+		<set name="operate_type" value="A2"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_SELF"/>
+		<for>
+			<effect>
+				<add stat="pEvasRate" value="90"/>
+				<add stat="mEvasRate" value="90"/>
+				<add stat="runSpd" value="50"/>
+				<add stat="pAtkSpd" value="#pAtkSpd"/>
+				<add stat="mAtkSpd" value="#mAtkSpd"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1908" levels="1" name="Delicacy">
+		<!--Увеличивает шанс Крит. Атк. на 15, шанс Крит. Атк. магией на 10.-->
+		<set name="icon" value="icon.skill1908"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="basePCritRate" value="10"/>
+			<add stat="baseMCritRate" value="10"/>
+		</for>
+	</skill>
+	<skill id="1909" levels="1" name="Sharpness">
+		<!--Увеличивает урон от Крит. Атк. и Крит. Атк. магией на 208.-->
+		<set name="icon" value="icon.skill1909"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="p_critical_damage_per" value="1"/>
+			<add stat="p_magic_critical_dmg_per" value="1"/>
+		</for>
+	</skill>
+	<skill id="1910" levels="1" name="Dark Presence">
+		<!--На время ночи увеличивает СИЛ и ИНТ на 1.-->
+		<set name="icon" value="icon.skill1910"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="STR" value="1">
+				<game night="true"/>
+			</add>
+			<add order="0x10" stat="INT" value="1">
+				<game night="true"/>
+			</add>
+		</for>
+	</skill>
+	<skill id="1911" levels="1" name="Blessing of Wind">
+		<!--Увеличивает урон магией ветра на 10 и сопротивление ветру на 10.-->
+		<set name="icon" value="icon.skill1911"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="defenceWind" value="20"/>
+		</for>
+	</skill>
+	<skill id="1912" levels="2" name="Disparition">
+		<!--Снимает все отрицательные эффекты и в течение 5 сек. повышает Скорость на 30. Нельзя применить к врагам.-->
+		<table name="#abnormal_time">5 6</table>
+		<set name="icon" value="icon.skill1912"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="hitTime" value="200"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="race_darkelf1"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="A2"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="isNotAffectedByMute" value="true"/>
+		<set name="canUseWhileAbnormal" value="true"/>
+		<for>
+			<effect name="p_block_target"/>
+			<effect name="i_dispel_by_category">
+				<def name="abnormal_category" value="slot_debuff"/>
+				<def name="dispel_chance" value="100"/>
+				<def name="max_count" value="10"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1913" levels="1" name="Life Siphon">
+		<!--1% нанесенного врагу урона переводит в HP.-->
+		<set name="icon" value="icon.skill1913"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="absorbDam" value="1"/>
+			<add stat="absorbBowDam" value="1"/>
+			<add stat="absorbPSkillDam" value="1"/>
+			<add stat="absorbMSkillDam" value="1"/>
+		</for>
+	</skill>
+	<skill id="1914" levels="2" name="Savage">
+		<!--В течение 60 сек. увеличивает Скор. Атк. на 17% и уменьшает Физ. Защ. на 15%.-->
+		<table name="#Def">0.9 1</table>
+		<set name="icon" value="icon.skill1914"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="hitTime" value="200"/>
+		<set name="abnormal_time" value="60"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="race_orc1"/>
+		<set name="magicLevel" value="99"/>
+		<set name="effectPoint" value="523"/>
+		<set name="operate_type" value="A2"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_SELF"/>
+		<for>
+			<effect>
+				<mul stat="pAtk" value="1.1"/>
+				<mul stat="mAtk" value="1.2"/>
+				<mul stat="mAtkSpd" value="1.1"/>
+				<mul stat="pAtkSpd" value="1.1"/>
+				<mul stat="pDef" value="#Def"/>
+				<mul stat="mDef" value="#Def"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1915" levels="1" name="Blessing of Fire">
+		<!--Увеличивает урон магией огня на 10 и сопротивление огню на 10.-->
+		<set name="icon" value="icon.skill1915"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="defenceFire" value="20"/>
+		</for>
+	</skill>
+	<skill id="1916" levels="1" name="Energetic">
+		<!--Увеличивает бонус восстановления HP на 3.-->
+		<set name="icon" value="icon.skill1916"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.01"/>
+			<mul stat="maxCp" value="1.01"/>
+			<mul stat="maxMp" value="1.01"/>
+		</for>
+	</skill>
+	<skill id="1917" levels="1" name="Undying Will">
+		<!--При получении урона, в случае, когда HP ниже 30%, в течение 5 сек. действует неуязвимость. Эффект срабатывает один раз в 5 минут.-->
+		<set name="icon" value="icon.skill1917"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<triggers>
+			<trigger id="1918" level="1" type="RECEIVE_DAMAGE" chance="100">
+				<and>
+					<player damage="1;0"/>
+					<player percentHP="30"/>
+				</and>
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="1918" levels="2" name="Undying Will">
+		<!--Наделяет состоянием неуязвимости.-->
+		<table name="#abnormal_time">5 6</table>
+		<set name="icon" value="icon.skill1917"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="200"/>
+		<set name="abnormal_effect" value="INVINCIBILITY"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="race_orc2"/>
+		<set name="magicLevel" value="99"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="113" addName="1">
+			<player percentHP="30"/>
+		</cond>
+		<for>
+			<effect name="Invulnerable">
+				<!-- <add stat="manaShield" value="70"/> Нужна реализация с Ядра -->
+			</effect>
+			<effect name="p_block_debuff"/>
+			<effect name="i_dispel_by_category">
+				<def name="abnormal_category" value="slot_debuff"/>
+				<def name="dispel_chance" value="100"/>
+				<def name="max_count" value="10"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1919" levels="1" name="Dexterity">
+		<!--Увеличивает эффективность атакующих умений на 2%.-->
+		<set name="icon" value="icon.skill1919"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pReuse" value="0.99"/>
+			<mul stat="mReuse" value="0.99"/>
+		</for>
+	</skill>
+	<skill id="1920" levels="2" name="Endurance">
+		<!--В течение 5 сек. возвращает врагу 50% полученного урона и каждую секунду восстанавливает 92 HP.-->
+		<table name="#abnormal_time">5 7</table>
+		<set name="icon" value="icon.skill1920"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="hitTime" value="200"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="race_dwaf1"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="A2"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_SELF"/>
+		<for>
+			<effect name="RestoreHP" interval="1" value="460">
+				<add stat="reflectDam" value="50"/>
+				<add stat="reflectPSkillDam" value="50"/>
+				<add stat="reflectMSkillDam" value="50"/>
+				<add stat="reflectBowDam" value="50"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1921" levels="1" name="Blessing of Earth">
+		<!--Увеличивает урон землей на 10 и сопротивление земле на 10.-->
+		<set name="icon" value="icon.skill1921"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="defenceEarth" value="20"/>
+		</for>
+	</skill>
+	<skill id="1922" levels="2" name="Earth Tremor">
+		<!--Сбивает врагов вокруг персонажа с ног на 3 сек.-->
+		<table name="#abnormal_time">3 5</table>
+		<set name="icon" value="icon.skill1922"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="200"/>
+		<set name="abnormal_effect" value="KNOCKDOWN"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="knockdown"/>
+		<set name="magicLevel" value="99"/>
+		<set name="activateRate" value="85"/>
+		<set name="affect_range" value="400"/>
+		<set name="operate_type" value="A2"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="trait" value="KNOCKDOWN"/>   
+		<set name="lv_bonus_rate" value="20"/>
+		<set name="target" value="TARGET_AURA"/>
+		<for>
+			<effect name="KnockDown">
+				<def name="fly_radius" value="130"/>
+				<mul stat="pDef" value="0.5"/>
+				<mul stat="mDef" value="0.5"/>
+				<p_defence_trait name="hold" value="100"/>
+				<p_defence_trait name="shock" value="100"/>
+				<p_defence_trait name="derangement" value="100"/>
+				<p_defence_trait name="changebody" value="100"/>
+				<p_defence_trait name="sleep" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1923" levels="1" name="Battle Instinct">
+		<!--Увеличивает урон при PvP на 1%. Также уменьшает расход MP умениями на 5%.-->
+		<set name="icon" value="icon.skill1923"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDefenceBonus" value="1.01"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.01"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.01"/>
+		</for>
+	</skill>
+	<skill id="1924" levels="1" name="Dark Silence">
+		<!--Увеличивает урон темной магией на 10 и сопротивление магии тьмы на 10. Также увеличивает устойчивость к безмолвию и страху на 20.-->
+		<set name="icon" value="icon.skill1924"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="defenceUnholy" value="20"/>
+			<p_defence_trait name="derangement" value="20"/>
+		</for>
+	</skill>
+	<skill id="1925" levels="2" name="Soul Protection">
+		<!--В течение 60 сек. позволяет блокировать 3 отрицательных эффекта.-->
+		<table name="#defence">0 15</table>
+		<set name="icon" value="icon.skill1925"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="hitTime" value="200"/>
+		<set name="abnormal_time" value="60"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="race_kamael1"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="A2"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_SELF"/>
+		<for>
+			<effect name="p_block_debuff">
+				<def name="max_disabled_debuffs" value="3"/>
+				<add stat="defenceWater" value="#defence"/>
+				<add stat="defenceFire" value="#defence"/>
+				<add stat="defenceEarth" value="#defence"/>
+				<add stat="defenceWind" value="#defence"/>
+				<add stat="defenceHoly" value="#defence"/>
+				<add stat="defenceUnholy" value="#defence"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1926" levels="1" name="Body Reinforcement">
+		<set name="icon" value="icon.skill1926"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="coolTime" value="200"/>
+		<set name="hitTime" value="2500"/>
+		<set name="abnormal_time" value="300"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="operate_type" value="A2"/>
+		<set name="useSS" value="false"/>
+		<cond>
+			<player can_transform="251"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="251">
+				<mul stat="pAtk" value="2"/>
+				<mul stat="pDef" value="2"/>
+				<mul stat="mAtk" value="2"/>
+				<mul stat="mDef" value="2"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1927" levels="1" name="Sigel Aura">
+		<set name="icon" value="icon.icon_sigel"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="AU"/>
+		<set name="target" value="TARGET_SELF"/>
+		<for>
+			<effect name="p_aura">
+				<def name="id" value="1928"/>	<!--Sigel Aura-->
+			</effect>
+		</for>
+	</skill>
+	<skill id="1928" levels="1" name="Sigel Force">
+		<set name="icon" value="icon.icon_sigel_01"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="abnormal_time" value="11"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="synergy_sigel"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="MUSIC"/>
+		<set name="operate_type" value="A6"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_PARTY"/>
+		<set name="effectPoint" value="2"/>
+		<set name="affect_range" value="1600"/>
+		<for>
+			<effect>
+				<mul stat="pAtk" value="1.01">
+					<using kind="Bow, Crossbow, Sword, Blunt,Dagger, Pole,Fist, Dual Sword, Dual Fist, Big Sword, Big Blunt, Dual Blunt,Rapier, Dual Dagger"/>
+				</mul>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1929" levels="1" name="Tyrr Aura">
+		<set name="icon" value="icon.icon_tir"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="AU"/>
+		<set name="target" value="TARGET_SELF"/>
+		<for>
+			<effect name="p_aura">
+				<def name="id" value="1930"/>	<!--Tyrr Aura-->
+			</effect>
+		</for>
+	</skill>
+	<skill id="1930" levels="1" name="Tyrr Force">
+		<set name="icon" value="icon.icon_tir_01"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="abnormal_time" value="11"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="synergy_tir"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="MUSIC"/>
+		<set name="operate_type" value="A6"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_PARTY"/>
+		<set name="effectPoint" value="2"/>
+		<set name="affect_range" value="1600"/>
+		<for>
+			<effect>
+				<add stat="pCritRate" value="1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1931" levels="1" name="Othell Aura">
+		<set name="icon" value="icon.icon_othel"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="AU"/>
+		<set name="target" value="TARGET_SELF"/>
+		<for>
+			<effect name="p_aura">
+				<def name="id" value="1932"/>	<!--Othell Aura-->
+			</effect>
+		</for>
+	</skill>
+	<skill id="1932" levels="1" name="Othell Force">
+		<set name="icon" value="icon.icon_othel_01"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="abnormal_time" value="11"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="synergy_othel"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="MUSIC"/>
+		<set name="operate_type" value="A6"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_PARTY"/>
+		<set name="effectPoint" value="2"/>
+		<set name="affect_range" value="1600"/>
+		<for>
+			<effect>
+				<mul stat="pAtkSpd" value="1.01">
+					<using kind="Bow, Crossbow, Sword, Blunt,Dagger, Pole,Fist, Dual Sword, Dual Fist, Big Sword, Big Blunt, Dual Blunt, Rapier, Dual Dagger"/>
+				</mul>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1933" levels="1" name="Yul Aura">
+		<set name="icon" value="icon.icon_yr"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="AU"/>
+		<set name="target" value="TARGET_SELF"/>
+		<for>
+			<effect name="p_aura">
+				<def name="id" value="1934"/>	<!--Yul Aura-->
+			</effect>
+		</for>
+	</skill>
+	<skill id="1934" levels="1" name="Yul Force">
+		<set name="icon" value="icon.icon_yr_01"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="abnormal_time" value="11"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="synergy_yr"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="MUSIC"/>
+		<set name="operate_type" value="A6"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_PARTY"/>
+		<set name="effectPoint" value="2"/>
+		<set name="affect_range" value="1600"/>
+		<for>
+			<effect>
+				<mul stat="regMp" value="1.5"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1935" levels="1" name="Feoh Aura">
+		<set name="icon" value="icon.icon_feoh"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="AU"/>
+		<set name="target" value="TARGET_SELF"/>
+		<for>
+			<effect name="p_aura">
+				<def name="id" value="1936"/>	<!--Feoh Aura-->
+			</effect>
+		</for>
+	</skill>
+	<skill id="1936" levels="1" name="Feoh Force">
+		<set name="icon" value="icon.icon_feoh_01"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="abnormal_time" value="11"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="synergy_feoh"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="MUSIC"/>
+		<set name="operate_type" value="A6"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_PARTY"/>
+		<set name="effectPoint" value="2"/>
+		<set name="affect_range" value="1600"/>
+		<for>
+			<effect>
+				<mul stat="mAtkSpd" value="1.01"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1937" levels="1" name="Wynn Aura">
+		<set name="icon" value="icon.icon_wynn"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="AU"/>
+		<set name="target" value="TARGET_SELF"/>
+		<for>
+			<effect name="p_aura">
+				<def name="id" value="1938"/>	<!--Wynn Aura-->
+			</effect>
+		</for>
+	</skill>
+	<skill id="1938" levels="1" name="Wynn Force">
+		<set name="icon" value="icon.icon_wynn_01"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="abnormal_time" value="11"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="synergy_wynn"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="MUSIC"/>
+		<set name="operate_type" value="A6"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_PARTY"/>
+		<set name="effectPoint" value="2"/>
+		<set name="affect_range" value="1600"/>
+		<for>
+			<effect>
+				<mul stat="mpConsum" value="0.97"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1939" levels="1" name="Aeore Aura">
+		<set name="icon" value="icon.icon_eolh"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="AU"/>
+		<set name="target" value="TARGET_SELF"/>
+		<for>
+			<effect name="p_aura">
+				<def name="id" value="1940"/>	<!--Aeore Aura-->
+			</effect>
+		</for>
+	</skill>
+	<skill id="1940" levels="1" name="Aeore Force">
+		<set name="icon" value="icon.icon_eolh_01"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="abnormal_time" value="11"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="synergy_eolh"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="MUSIC"/>
+		<set name="operate_type" value="A6"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_PARTY"/>
+		<set name="effectPoint" value="2"/>
+		<set name="affect_range" value="1600"/>
+		<for>
+			<effect>
+				<mul stat="mAtk" value="1.01"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1941" levels="1" name="Physical Nail Attack">
+		<set name="icon" value="icon.skill0539"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="coolTime" value="720"/>
+		<set name="hitTime" value="1080"/>
+		<set name="mp_consume" value="1"/>
+		<set name="magicLevel" value="85"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="1942" levels="1" name="Wing Storm">
+		<set name="icon" value="icon.skill0492"/>
+		<set name="reuseDelay" value="4000"/>
+		<set name="coolTime" value="720"/>
+		<set name="hitTime" value="1080"/>
+		<set name="mp_consume" value="1"/>
+		<set name="magicLevel" value="85"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="1943" levels="1" name="Wing Rush">
+		<set name="icon" value="icon.skill0540"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="200"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="800"/>
+		<set name="mp_consume" value="1"/>
+		<set name="magicLevel" value="85"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="1944" levels="1" name="Death Arrow">
+		<set name="icon" value="icon.skill1431"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1200"/>
+		<set name="mp_consume" value="1"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="1945" levels="1" name="Power Death Beam">
+		<set name="icon" value="icon.skill1471"/>
+		<set name="reuseDelay" value="4000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="1"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="1946" levels="1" name="Block Sigel Force">
+		<set name="icon" value="icon.icon_sigel"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="1947" levels="1" name="Block Tyrr Force">
+		<set name="icon" value="icon.icon_tir"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="1948" levels="1" name="Block Othell Force">
+		<set name="icon" value="icon.icon_othel"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="1949" levels="1" name="Block Yul Force">
+		<set name="icon" value="icon.icon_yr"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="1950" levels="1" name="Block Feoh Force">
+		<set name="icon" value="icon.icon_feoh"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="1951" levels="1" name="Block Iss Force">
+		<set name="icon" value="icon.icon_is"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="1952" levels="1" name="Block Wynn Force">
+		<set name="icon" value="icon.icon_wynn"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="1953" levels="1" name="Block Aeore Force">
+		<set name="icon" value="icon.icon_eolh"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="1954" levels="1" name="Flying Body Reinforcement">
+		<set name="icon" value="icon.skill0840"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="coolTime" value="200"/>
+		<set name="hitTime" value="2500"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<cond>
+			<player can_transform="260"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="260">
+				<mul stat="pDef" value="0.7"/>
+				<mul stat="mDef" value="0.7"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1955" levels="3" name="Party Solidarity">
+		<table name="#pAtk">1.01 1.05 1.13</table>
+		<table name="#pCritRate">1 2 4</table>
+		<table name="#atkSpd">1.01 1.02 1.04</table>
+		<table name="#mAtk">1.01 1.05 1.13</table>
+		<table name="#reuse">0.99 0.98 0.95</table>
+		<set name="icon" value="icon.skill1955"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="abnormal_time" value="11"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="synergy_party_buf"/>
+		<set name="operate_type" value="A5"/>
+		<set name="magicType" value="MUSIC"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="magicLevel" value="85"/>
+		<for>
+			<effect>
+				<mul stat="pAtk" value="#pAtk"/>
+				<mul stat="mAtk" value="#mAtk"/>
+				<add stat="pCritRate" value="#pCritRate"/>
+				<mul stat="pAtkSpd" value="#atkSpd"/>
+				<mul stat="mAtkSpd" value="#atkSpd"/>
+				<mul stat="mReuse" value="#reuse"/>
+				<mul stat="pReuse" value="#reuse"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1956" levels="4" name="Sub - P. Atk./M. Atk. Increase">
+		<table name="#pAtk"> 1.01 1.02 1.03 1.04 </table>
+		<table name="#mAtk"> 1.01 1.03 1.04 1.06 </table>
+		<set name="icon" value="icon.skill0816"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="#pAtk"/>
+			<mul stat="mAtk" value="#mAtk"/>
+		</for>
+	</skill>
+	<skill id="1957" levels="4" name="Sub - P. Def./M. Def. Increase">
+		<table name="#pDef"> 1.01 1.02 1.03 1.04 </table>
+		<table name="#mDef"> 1.01 1.02 1.03 1.04 </table>
+		<set name="icon" value="icon.skill0439"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pDef" value="#pDef"/>
+			<mul stat="mDef" value="#mDef"/>
+		</for>
+	</skill>
+	<skill id="1958" levels="4" name="Sub - Atk. Spd./Casting Spd. Increase">
+		<table name="#pAtkSpd"> 1.01 1.02 1.03 1.04 </table>
+		<table name="#mAtkSpd"> 1.01 1.02 1.03 1.04 </table>
+		<set name="icon" value="icon.skill0817"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtkSpd" value="#pAtkSpd"/>
+			<mul stat="mAtkSpd" value="#mAtkSpd"/>
+		</for>
+	</skill>
+	<skill id="1959" levels="4" name="Sub - Critical Rate Increase">
+		<table name="#critRate">10 20 30 40</table>
+		<set name="icon" value="icon.skill0814"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="basePCritRate" value="#critRate"/>
+			<add stat="baseMCritRate" value="#critRate"/>
+		</for>
+	</skill>
+	<skill id="1960" levels="4" name="Sub - P. Accuracy/ M. Accuracy Increase">
+		<table name="#pAccCombat">2 4 6 8</table>
+		<table name="#mAccCombat">2 4 6 8</table>
+		<set name="icon" value="icon.skill1240"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAccCombat" value="#pAccCombat"/>
+			<add stat="mAccCombat" value="#mAccCombat"/>
+		</for>
+	</skill>
+	<skill id="1961" levels="4" name="Sub - P. Evasion/ M. Evasion Increase">
+		<table name="#pEvasRate">2 4 6 8</table>
+		<table name="#mEvasRate">2 4 6 8</table>
+		<set name="icon" value="icon.skill0198"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pEvasRate" value="#pEvasRate"/>
+			<add stat="mEvasRate" value="#mEvasRate"/>
+		</for>
+	</skill>
+	<skill id="1962" levels="4" name="Dual - P. Atk./M. Atk. Increase">
+		<table name="#pAtk"> 1.03 1.06 1.09 1.12 </table>
+		<table name="#mAtk"> 1.04 1.09 1.13 1.18 </table>
+		<set name="icon" value="icon.skill0816"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="#pAtk"/>
+			<mul stat="mAtk" value="#mAtk"/>
+		</for>
+	</skill>
+	<skill id="1963" levels="4" name="Dual - P. Def./M. Def. Increase">
+		<table name="#pDef"> 1.03 1.06 1.09 1.12 </table>
+		<table name="#mDef"> 1.03 1.06 1.09 1.12 </table>
+		<set name="icon" value="icon.skill0439"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pDef" value="#pDef"/>
+			<mul stat="mDef" value="#mDef"/>
+		</for>
+	</skill>
+	<skill id="1964" levels="4" name="Dual - Atk. Spd./Casting Spd. Increase">
+		<table name="#pAtkSpd"> 1.03 1.06 1.09 1.12 </table>
+		<table name="#mAtkSpd"> 1.03 1.06 1.09 1.12 </table>
+		<set name="icon" value="icon.skill0817"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtkSpd" value="#pAtkSpd"/>
+			<mul stat="mAtkSpd" value="#mAtkSpd"/>
+		</for>
+	</skill>
+	<skill id="1965" levels="4" name="Dual - Max HP Increase">
+		<table name="#maxHp"> 1.06 1.12 1.18 1.24 </table>
+		<set name="icon" value="icon.skill0211"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="#maxHp"/>
+		</for>
+	</skill>
+	<skill id="1966" levels="4" name="Dual - Max MP Increase">
+		<table name="#maxMp"> 1.06 1.12 1.18 1.24 </table>
+		<set name="icon" value="icon.skill0213"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxMp" value="#maxMp"/>
+		</for>
+	</skill>
+	<skill id="1967" levels="4" name="Dual - Max CP Increase">
+		<table name="#maxCp"> 1.06 1.12 1.18 1.24 </table>
+		<set name="icon" value="icon.skill1397"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxCp" value="#maxCp"/>
+		</for>
+	</skill>
+	<skill id="1968" levels="1" name="Dual - HP Drain">
+		<set name="icon" value="icon.dual_hpsteal"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="absorbDam" value="5"/>
+			<add stat="absorbBowDam" value="5"/>
+			<add stat="absorbPSkillDam" value="5"/>
+			<add stat="absorbMSkillDam" value="5"/>
+		</for>
+	</skill>
+	<skill id="1969" levels="1" name="Dual - MP Drain">
+		<set name="icon" value="icon.dual_mpsteal"/>
+		<set name="operate_type" value="P"/>
+		<triggers>
+			<trigger id="1995" level="1" type="ATTACK" chance="3">
+				<player damage="100;0"/>
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="1970" levels="1" name="Dual - Specialized for P. Atk.">
+		<set name="icon" value="icon.dual_atkup"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.09"/>
+			<mul stat="pDef" value="0.91"/>
+		</for>
+	</skill>
+	<skill id="1971" levels="1" name="Dual - Specialized for M. Atk.">
+		<set name="icon" value="icon.dual_defup"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="1.13"/>
+			<mul stat="mDef" value="0.91"/>
+		</for>
+	</skill>
+	<skill id="1972" levels="1" name="Dual - Physical Trait Increase">
+		<set name="icon" value="icon.skill4084"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_defence_trait name="disarm" value="20"/>
+			<p_defence_trait name="knockback" value="20"/>
+			<p_defence_trait name="physical_blockade" value="20"/>
+			<p_defence_trait name="shock" value="20"/>
+			<p_defence_trait name="knockdown" value="20"/>
+			<p_defence_trait name="pull" value="20"/>
+			<p_attack_trait name="disarm" value="20"/>
+			<p_attack_trait name="knockback" value="20"/>
+			<p_attack_trait name="physical_blockade" value="20"/>
+			<p_attack_trait name="shock" value="20"/>
+			<p_attack_trait name="knockdown" value="20"/>
+			<p_attack_trait name="pull" value="20"/>
+		</for>
+	</skill>
+	<skill id="1973" levels="1" name="Dual - Mental Trait Increase">
+		<set name="icon" value="icon.skill4116"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_defence_trait name="hold" value="20"/>
+			<p_defence_trait name="turn_stone" value="20"/>
+			<p_defence_trait name="deport" value="20"/>
+			<p_defence_trait name="airbind" value="20"/>
+			<p_defence_trait name="paralyze" value="20"/>
+			<p_defence_trait name="derangement" value="20"/>
+			<p_defence_trait name="changebody" value="20"/>
+			<p_defence_trait name="sleep" value="20"/>
+			<p_attack_trait name="hold" value="20"/>
+			<p_attack_trait name="turn_stone" value="20"/>
+			<p_attack_trait name="deport" value="20"/>
+			<p_attack_trait name="airbind" value="20"/>
+			<p_attack_trait name="paralyze" value="20"/>
+			<p_attack_trait name="derangement" value="20"/>
+			<p_attack_trait name="changebody" value="20"/>
+			<p_attack_trait name="sleep" value="20"/>
+		</for>
+	</skill>
+	<skill id="1974" levels="1" name="Dual - Berserker\'s Rage">
+		<set name="icon" value="icon.dual_t_atkup"/>
+		<set name="operate_type" value="P"/>
+		<triggers>
+			<trigger id="1975" level="1" type="ATTACK" chance="3">
+				<player damage="100;0"/>
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="1975" levels="1" name="Dual - Berserker\'s Rage">
+		<set name="icon" value="icon.dual_t_atkup"/>
+		<set name="reuseDelay" value="20000"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_time" value="15"/>	<!--TODO: Check abnormal time and effects.-->
+		<set name="isTrigger" value="true"/>
+		<for>
+			<effect>
+				<mul stat="pAtk" value="1.27"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1976" levels="1" name="Dual - Master\'s Rage">
+		<set name="icon" value="icon.dual_t_skup"/>
+		<set name="operate_type" value="P"/>
+		<triggers>
+			<trigger id="1977" level="1" type="ON_CAST_SKILL" chance="3"/>
+		</triggers>
+	</skill>
+	<skill id="1977" levels="1" name="Dual - Master\'s Rage">
+		<set name="icon" value="icon.dual_t_skup"/>
+		<set name="reuseDelay" value="20000"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isTrigger" value="true"/>
+		<for>
+			<effect>
+				<mul stat="p_skill_power" value="1.27"/>
+				<mul stat="mSkillPower" value="1.27"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1978" levels="1" name="Dual - Light of Protection">
+		<set name="icon" value="icon.dual_t_dmgdef"/>
+		<set name="operate_type" value="P"/>
+		<triggers>
+			<trigger id="1979" level="1" type="RECEIVE_DAMAGE" chance="3">
+				<player damage="100;0"/>
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="1979" levels="1" name="Dual - Light of Protection">
+		<set name="icon" value="icon.dual_t_dmgdef"/>
+		<set name="reuseDelay" value="20000"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_time" value="15"/>	<!--TODO: Check abnormal time and effects.-->
+		<set name="isTrigger" value="true"/>
+		<for>
+			<effect>
+				<mul stat="pDef" value="1.4"/>
+				<mul stat="mDef" value="1.4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1980" levels="1" name="Dual - Light of Blessing">
+		<set name="icon" value="icon.dual_t_dmgheal"/>
+		<set name="operate_type" value="P"/>
+		<triggers>
+			<trigger id="1981" level="1" type="RECEIVE_DAMAGE" chance="1">
+				<player damage="1000;0"/>
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="1981" levels="1" name="Dual - Light of Blessing">
+		<set name="icon" value="icon.dual_t_dmgheal"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect instant="true" name="RestoreHP" value="10000"/>
+		</for>
+	</skill>
+	<skill id="1982" levels="1" name="Dual - Shackles of the Giants">
+		<!--
+			Уровень: 1; Описание: Blocks the target\'s Physical Skills for 5 sec. Can only use on PCs.
+			
+		-->
+		<set name="icon" value="icon.dual_a_pblock"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="1500"/>
+		<set name="trait" value="DERANGEMENT"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="activateRate" value="90"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_time" value="5"/>	<!--TODO: Check abnormal time and effects.-->
+		<cond msgId="113">
+			<target type="PLAYER"/>
+		</cond>
+		<for>
+			<effect name="MutePhisycal"/>
+		</for>
+	</skill>
+	<skill id="1983" levels="1" name="Dual - Silence of the Giants">
+		<!--
+			Уровень: 1; Описание: Blocks the target\'s Magical Skills for 5 sec. Can only use on PCs.
+		-->
+		<set name="icon" value="icon.dual_a_mblock"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="1500"/>
+		<set name="trait" value="DERANGEMENT"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="activateRate" value="90"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_time" value="5"/>	<!--TODO: Check abnormal time and effects.-->
+		<cond msgId="113">
+			<target type="PLAYER"/>
+		</cond>
+		<for>
+			<effect name="Mute"/>
+		</for>
+	</skill>
+	<skill id="1984" levels="1" name="Dual - Yoke of the Giants">
+		<!--
+			Уровень: 1; Описание: Decreases the target and nearby enemies\' Spd. by 9% for 5 sec. Can only use on PCs.
+		-->
+		<set name="icon" value="icon.dual_a_spdown"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="1500"/>
+		<set name="trait" value="HOLD"/>
+		<set name="target" value="TARGET_AURA"/>
+		<set name="affect_range" value="200"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="activateRate" value="90"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_time" value="5"/>	<!--TODO: Check abnormal time and effects.-->
+		<cond msgId="113">
+			<target type="PLAYER"/>
+		</cond>
+		<for>
+			<effect>
+				<mul stat="runSpd" value="0.10">
+					<target type="PLAYABLE"/>
+				</mul>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1985" levels="1" name="Dual - Shield of the Giants">
+		<set name="icon" value="icon.dual_a_refdmg"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_time" value="30"/>	<!--TODO: Check abnormal time and effects.-->
+		<for>
+			<effect>
+				<add stat="resistRelectDam" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1986" levels="4" name="Dual Maximum HP">
+		<table name="#magicLevel">85 90 95 99</table>
+		<table name="#maxHp">463 972 1458 1926</table>
+		<set name="icon" value="icon.skill0917"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="operate_type" value="T"/>
+		<set name="target" value="TARGET_SELF"/>
+		<cond msgId="113" addName="1">
+			<and>
+				<or>
+					<player class_type="BASE_CLASS"/>
+					<player class_type="DUAL_SUBCLASS"/>
+				</or>
+				<player minLevel="#magicLevel"/>
+			</and>
+		</cond>
+		<for>
+			<effect>
+				<add stat="maxHp" value="#maxHp"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1987" levels="1" name="Sigel Armor Limit">
+		<set name="icon" value="icon.skill6213_4"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtkSpd" value="0.5">
+				<or>
+					<using armor="Light"/>
+					<using armor="Magic"/>
+				</or>
+			</mul>
+			<mul stat="mAtkSpd" value="0.5">
+				<or>
+					<using armor="Light"/>
+					<using armor="Magic"/>
+				</or>
+			</mul>
+		</for>
+	</skill>
+	<skill id="1988" levels="1" name="Tyrr Armor Limit">
+		<set name="icon" value="icon.skill6213_4"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtkSpd" value="0.5">
+				<using armor="Magic"/>
+			</mul>
+			<mul stat="mAtkSpd" value="0.5">
+				<using armor="Magic"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="1989" levels="1" name="Yul Armor Limit">
+		<set name="icon" value="icon.skill6213_4"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtkSpd" value="0.5">
+				<or>
+					<using armor="Heavy"/>
+					<using armor="Magic"/>
+				</or>
+			</mul>
+			<mul stat="mAtkSpd" value="0.5">
+				<or>
+					<using armor="Heavy"/>
+					<using armor="Magic"/>
+				</or>
+			</mul>
+		</for>
+	</skill>
+	<skill id="1990" levels="1" name="Othell Armor Limit">
+		<set name="icon" value="icon.skill6213_4"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtkSpd" value="0.5">
+				<or>
+					<using armor="Heavy"/>
+					<using armor="Magic"/>
+				</or>
+			</mul>
+			<mul stat="mAtkSpd" value="0.5">
+				<or>
+					<using armor="Heavy"/>
+					<using armor="Magic"/>
+				</or>
+			</mul>
+		</for>
+	</skill>
+	<skill id="1991" levels="1" name="Feoh Armor Limit">
+		<set name="icon" value="icon.skill6213_4"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtkSpd" value="0.5">
+				<or>
+					<using armor="Light"/>
+					<using armor="Heavy"/>
+				</or>
+			</mul>
+			<mul stat="mAtkSpd" value="0.5">
+				<or>
+					<using armor="Light"/>
+					<using armor="Heavy"/>
+				</or>
+			</mul>
+		</for>
+	</skill>
+	<skill id="1992" levels="1" name="Wynn Armor Limit">
+		<set name="icon" value="icon.skill6213_4"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtkSpd" value="0.5">
+				<using armor="Heavy"/>
+			</mul>
+			<mul stat="mAtkSpd" value="0.5">
+				<using armor="Heavy"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="1993" levels="1" name="Iss Armor Limit">
+		<set name="icon" value="icon.skill6213_4"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="1994" levels="1" name="Aeore Armor Limit">
+		<set name="icon" value="icon.skill6213_4"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtkSpd" value="0.5">
+				<using armor="Heavy"/>
+			</mul>
+			<mul stat="mAtkSpd" value="0.5">
+				<using armor="Heavy"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="1995" levels="1" name="Dual - MP Drain">
+		<set name="icon" value="icon.dual_mpsteal"/>
+		<set name="reuseDelay" value="6000"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect instant="true" name="RestoreMP" value="3">
+				<def name="percent" value="true"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="1996" levels="2" name="Hurricane Shackle">
+		<set name="icon" value="icon.skill1996"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1000"/>
+		<set name="abnormal_time" value="60"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="clan_recall_block"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="target" value="TARGET_ONE"/>
+		<for>
+			<effect name="p_block_escape"/>
+		</for>
+	</skill>
+	<skill id="1997" levels="2" name="Gravity Exile">
+		<set name="icon" value="icon.skill1997"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1000"/>
+		<set name="abnormal_time" value="30"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="clan_resurrection_block"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="target" value="TARGET_ONE"/>
+		<for>
+			<effect/>
+		</for>
+	</skill>
+</list>

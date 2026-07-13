@@ -1,0 +1,1338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<weapon id="46700" name="Emperor Shunaiman\'s Shooter" add_name="30-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.npoint_weapon_crossbow"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="500"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="1406"/>
+			<add stat="mAtk" order="0x10" value="409"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="46701" name="Emperor Shunaiman\'s Buster" add_name="30-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.npoint_weapon_onehand_magic_sword"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="500"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="683"/>
+			<add stat="mAtk" order="0x10" value="513"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="46702" name="Emperor Shunaiman\'s Caster" add_name="30-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.npoint_weapon_onehand_magic_blunt"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="500"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="683"/>
+			<add stat="mAtk" order="0x10" value="513"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="46703" name="Emperor Shunaiman\'s Retributer" add_name="30-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.npoint_weapon_twohand_magic_blunt"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="500"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="832"/>
+			<add stat="mAtk" order="0x10" value="555"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+			<add stat="mAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="46704" name="Emperor Shunaiman\'s Dualsword" add_name="30-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.npoint_weapon_dual_sword"/>
+		<set name="type" value="DUAL"/>
+		<set name="weight" value="500"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="1007"/>
+			<add stat="mAtk" order="0x10" value="409"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="46705" name="Emperor Shunaiman\'s Dual Dagger" add_name="30-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.npoint_weapon_dual_dagger"/>
+		<set name="type" value="DUALDAGGER"/>
+		<set name="weight" value="500"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="851"/>
+			<add stat="mAtk" order="0x10" value="409"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="46706" name="Emperor Shunaiman\'s Dual Blunt" add_name="30-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.npoint_weapon_dual_blunt"/>
+		<set name="type" value="DUALBLUNT"/>
+		<set name="weight" value="500"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="1007"/>
+			<add stat="mAtk" order="0x10" value="409"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<etcitem id="46707" name="Stylish Color Title">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.color_name_i00"/>
+		<set name="weight" value="5"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46708" name="Entrance Pass: Nightmare Kamaloka">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_bm_kalie_instantzone_re"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46709" name="Pa\'agrio\'s Blessing">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.nshop_bless_of_paagrio"/>
+		<set name="weight" value="1"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<armor id="46710" name="Lindvior\'s Earring" add_name="30-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.npoint_earring_of_lind_30day"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="temporal" value="true"/>
+		<set name="durability" value="43200"/>
+		<equip>
+			<slot id="RIGHT_EAR"/>
+			<slot id="LEFT_EAR"/>
+		</equip>
+		<skills>
+			<skill id="13525" level="1"/>	<!--Серьга Линдвиора-->
+			<skill id="13526" level="1"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="170"/>
+			<add stat="maxMp" order="0x60" value="59"/>
+		</for>
+	</armor>
+	<etcitem id="46711" name="Lindvior\'s Earring 30-day pack">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.npoint_earring_of_lind_30day_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46712" name="Blessed Antharas\' Earring 30-day pack">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.npoint_antaras_30day_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46713" name="Blessed Valakas\' Necklace 30-day pack">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.npoint_valakas_30day_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46714" name="Tauti\'s Ring 30-day pack">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.npoint_tauti_30day_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46715" name="Earth Wyrm Heart Ring 30-day pack">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.npoint_earthworm_30day_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<armor id="46716" name="Refined Black Romantic Chapeau">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.npoint_black_hat"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="46717" name="Mysterious Talisman - STR" add_name="30-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.npoint_talisman_stat"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="durability" value="43200"/>
+		<set name="temporal" value="true"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+		<for>
+			<add order="0x10" stat="STR" value="5"/>
+		</for>
+	</armor>
+	<armor id="46718" name="Mysterious Talisman - INT" add_name="30-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.npoint_talisman_stat"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="durability" value="43200"/>
+		<set name="temporal" value="true"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+		<for>
+			<add order="0x10" stat="INT" value="5"/>
+		</for>
+	</armor>
+	<armor id="46719" name="Mysterious Talisman - DEX" add_name="30-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.npoint_talisman_stat"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="durability" value="43200"/>
+		<set name="temporal" value="true"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+		<for>
+			<add order="0x10" stat="DEX" value="5"/>
+		</for>
+	</armor>
+	<armor id="46720" name="Mysterious Talisman - WIT" add_name="30-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.npoint_talisman_stat"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="durability" value="43200"/>
+		<set name="temporal" value="true"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+		<for>
+			<add order="0x10" stat="WIT" value="5"/>
+		</for>
+	</armor>
+	<armor id="46721" name="Mysterious Talisman - CON" add_name="30-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.npoint_talisman_stat"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="durability" value="43200"/>
+		<set name="temporal" value="true"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+		<for>
+			<add order="0x10" stat="CON" value="5"/>
+		</for>
+	</armor>
+	<armor id="46722" name="Mysterious Talisman - MEN" add_name="30-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.npoint_talisman_stat"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="durability" value="43200"/>
+		<set name="temporal" value="true"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+		<for>
+			<add order="0x10" stat="MEN" value="5"/>
+		</for>
+	</armor>
+	<etcitem id="46723" name="Mysterious Talisman - STR 30-day pack ">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_bm_lure_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46724" name="Mysterious Talisman - INT 30-day pack">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_bm_lure_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46725" name="Mysterious Talisman - DEX 30-day pack">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_bm_lure_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46726" name="Mysterious Talisman - WIT 30-day pack">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_bm_lure_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46727" name="Mysterious Talisman - CON 30-day pack">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_bm_lure_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46728" name="Mysterious Talisman - MEN 30-day pack">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_bm_lure_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46729" name="Scroll of Escape: Town of Goddard">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_scroll_of_return_i03"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46730" name="Scroll of Escape: Varka Silenos Barracks">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_scroll_of_return_i03"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SCROLL"/>
+		<set name="crystal_type" value="NONE"/>
+		<skills>
+			<skill id="9975" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="46731" name="Scroll of Escape: Town of Goddard">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_scroll_of_return_i03"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SCROLL"/>
+		<set name="crystal_type" value="NONE"/>
+		<skills>
+			<skill id="17959" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="46732" name="Scroll of Escape: Ketra Orc Outpost">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_scroll_of_return_i03"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="SCROLL"/>
+		<set name="crystal_type" value="NONE"/>
+		<skills>
+			<skill id="9976" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="46733" name="Scroll of Escape: Town of Giran">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_scroll_of_return_i03"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46734" name="Scroll of Escape: Dragon Valley">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_scroll_of_return_i03"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46735" name="Hatchling Flesh">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_bodypart_liver_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46736" name="Practice Fish">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_tuna_i02"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="46737" name="Practice Bait">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_normal_lure"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="LURE"/>
+		<equip>
+			<slot id="LEFT_HAND"/>
+		</equip>
+	</etcitem>
+	<weapon id="46738" name="Practice Fishing Rod">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_fishing_rod_i00"/>
+		<set name="type" value="ROD"/>
+		<set name="weight" value="1000"/>
+		<set name="rnd_dam" value="1"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="1"/>
+			<add stat="mAtk" order="0x10" value="1"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<etcitem id="46739" name="Reward Fishing Rod Pack">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_box_of_adventure_1_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="EXTRACTABLE"/>
+		<capsuled_items>
+			<capsuled_item id="46740" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_items>
+	</etcitem>
+	<weapon id="46740" name="Reward Fishing Rod" add_name="7-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_fishing_rod_i00"/>
+		<set name="type" value="ROD"/>
+		<set name="weight" value="1000"/>
+		<set name="rnd_dam" value="1"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="1"/>
+			<add stat="mAtk" order="0x10" value="1"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="46741" name="Monster Only (Lesser Giant A)">
+		<set name="crystal_type" value="D"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="type" value="POLE"/>
+		<set name="weight" value="300"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="50"/>
+			<add stat="mAtk" order="0x10" value="26"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="46742" name="Monster Only (Lesser Giant Wizard\'s Weapon A)">
+		<set name="crystal_type" value="D"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="type" value="POLE"/>
+		<set name="weight" value="300"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="50"/>
+			<add stat="mAtk" order="0x10" value="26"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<etcitem id="46743" name="Varka\'s Badge: Soldier">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_ketra_badge_grunt_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46744" name="Varka\'s Badge: General">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_ketra_badge_officer_i02"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46745" name="Ketra\'s Badge: Soldier">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_barka_badge_grunt_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46746" name="Ketra\'s Badge: General">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_barka_badge_officer_i02"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46747" name="Shinedust">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_broken_crystal_green_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46748" name="Minion\'s Shine Stone">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_energy_stone_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46749" name="Resistance Mark">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_belt_deco_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46750" name="Resistance Mark Stage 1">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_barka_friendship_1_i00"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46751" name="Resistance Mark Stage 2">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_barka_friendship_2_i00"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46752" name="Resistance Mark Stage 3">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_barka_friendship_3_i00"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46753" name="Resistance Mark Stage 4">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_barka_friendship_4_i00"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46754" name="Resistance Mark Stage 5">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_barka_friendship_5_i00"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46755" name="Demon\'s Trace">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_ertheia_prophecy_device"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46756" name="Minion\'s Report">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.letter_piece"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46757" name="Giants\' Relic Key">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.aphros_key"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46758" name="Steel Requiem Weapon Coupon">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_lottery_card_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46759" name="Steel Apocalypse Weapon Coupon">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_lottery_card_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46760" name="Steel Armor Pack">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.event_hero_treasure_box_i00"/>
+		<set name="weight" value="10"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46761" name="Schumadriba\'s Reward Treasure Chest">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_box_of_adventure_1_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46762" name="Schumadriba\'s Advanced Reward Treasure Chest">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_box_of_adventure_2_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46763" name="Scroll of Escape: Giant\'s Cave">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_scroll_of_return_i03"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46764" name="Shadai\'s Good Fortune Jewelry Box">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.bm_pendant_pve_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46765" name="Ruby Treasure Chest of Good Fortune">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_bm_jewelbox_ruby_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46766" name="Sapphire Treasure Chest of Good Fortune">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_bm_jewelbox_sapphire_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46767" name="Topaz Treasure Chest of Good Fortune">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_bm_jewelbox_topaz_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46768" name="Opal Treasure Chest of Good Fortune">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_bm_jewelbox_opal_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46769" name="Obsidian Treasure Chest of Good Fortune">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_bm_jewelbox_obsidian_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46770" name="Diamond Treasure Chest of Good Fortune">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_bm_jewelbox_diamond_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46771" name="Emerald Treasure Chest of Good Fortune">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_bm_jewelbox_emerald_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46772" name="Aquamarine Treasure Chest of Good Fortune">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_bm_jewelbox_aquamarine_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46773" name="Pearl Treasure Chest of Good Fortune">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_bm_jewelbox_pearl_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46774" name="Vital Stone Treasure Chest of Good Fortune">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_bm_jewelbox_vital"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46775" name="Garnet Treasure Chest of Good Fortune">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_bm_jewelbox_garnet"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46776" name="Tanzanite Treasure Chest of Good Fortune">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_bm_jewelbox_tanzanite"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46777" name="Vitality Replenishing Potion of Quest Pride" add_name="Event">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_potion_of_energy_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46778" name="Special Bait Coupon of Quest Pride" add_name="Event">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_bm_lure_ticket"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46779" name="Equipment Enchantment Chest of Quest Pride" add_name="Event">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46780" name="Skill Enchantment Chest of Quest Pride" add_name="Event">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46781" name="Good Fortune Chest of Quest Pride" add_name="Event">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46782" name="Graduation Gift">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.new_user_box"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46783" name="Blue Dynasty Transformation Potion">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.general_stone_i01"/>
+		<set name="weight" value="5"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46784" name="Red Zubei Transformation Potion">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.general_stone_i00"/>
+		<set name="weight" value="5"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46785" name="Spirit Fragment">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_ertheia_prophecy_device_piece"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46786" name="Key to the Dimension Dissolver\'s Prison">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_dark_key_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46787" name="Remnant of the Rift">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_broken_crystal_gold_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46788" name="Ten-day Log">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_musical_note_i02"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46789" name="Fairy Blood">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.low_stone_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46790" name="Satyr Blood">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.low_stone_i02"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<weapon id="46791" name="Paulina\'s Sword of Revolution">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="D"/>
+		<set name="icon" value="icon.weapon_sword_of_revolution_i00"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="1450"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="100"/>
+			<add stat="mAtk" order="0x10" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+		<skills>
+			<skill id="13929" level="1"/>
+		</skills>
+	</weapon>
+	<weapon id="46792" name="Paulina\'s Claymore">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="D"/>
+		<set name="icon" value="icon.weapon_claymore_i00"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="2090"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="121"/>
+			<add stat="mAtk" order="0x10" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+		<skills>
+			<skill id="13929" level="1"/>
+		</skills>
+	</weapon>
+	<weapon id="46793" name="Paulina\'s Tarbar">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="D"/>
+		<set name="icon" value="icon.weapon_tarbar_i00"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="1730"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="100"/>
+			<add stat="mAtk" order="0x10" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+		<skills>
+			<skill id="13929" level="1"/>
+		</skills>
+	</weapon>
+	<weapon id="46794" name="Paulina\'s Scallop Jamadhr">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="D"/>
+		<set name="icon" value="icon.weapon_scallop_jamadhr_i00"/>
+		<set name="type" value="DUALFIST"/>
+		<set name="weight" value="1520"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="121"/>
+			<add stat="mAtk" order="0x10" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+		<skills>
+			<skill id="13929" level="1"/>
+		</skills>
+	</weapon>
+	<weapon id="46795" name="Paulina\'s Light Crossbow">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="D"/>
+		<set name="icon" value="icon.weapon_cyclone_bow_i00"/>
+		<set name="type" value="BOW"/>
+		<set name="weight" value="1810"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="mp_consume" value="2"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="196"/>
+			<add stat="mAtk" order="0x10" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="293"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+		<skills>
+			<skill id="13929" level="1"/>
+		</skills>
+	</weapon>
+	<weapon id="46796" name="Paulina\'s Mithril Dagger">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="D"/>
+		<set name="icon" value="icon.weapon_mithril_dagger_i00"/>
+		<set name="type" value="DAGGER"/>
+		<set name="weight" value="1060"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="87"/>
+			<add stat="mAtk" order="0x10" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+		<skills>
+			<skill id="13929" level="1"/>
+		</skills>
+	</weapon>
+	<weapon id="46797" name="Paulina\'s Ghost Staff">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="D"/>
+		<set name="icon" value="icon.weapon_ghost_staff_i00"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="1000"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="97"/>
+			<add stat="mAtk" order="0x10" value="88"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+		<skills>
+			<skill id="13930" level="1"/>
+		</skills>
+	</weapon>
+	<weapon id="46798" name="Paulina\'s General\'s Katzbalger">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="D"/>
+		<set name="icon" value="icon.weapon_tulwar_i00"/>
+		<set name="type" value="ANCIENTSWORD"/>
+		<set name="weight" value="2010"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="15"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="108"/>
+			<add stat="mAtk" order="0x10" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="350"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<add stat="pAccCombat" order="0x10" value="2"/>
+		</for>
+		<skills>
+			<skill id="13929" level="1"/>
+		</skills>
+	</weapon>
+	<weapon id="46799" name="Paulina\'s Grand ÃpÃ©e">
+		<set name="commissionable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="D"/>
+		<set name="icon" value="icon.weapon_rapier_i00"/>
+		<set name="type" value="RAPIER"/>
+		<set name="weight" value="1440"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="40"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="13929" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="90"/>
+			<add stat="mAtk" order="0x10" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="406"/>
+			<set stat="basePCritRate" order="0x08" value="100"/>
+			<add stat="pAccCombat" order="0x10" value="-1.5"/>
+		</for>
+	</weapon>
+</list>

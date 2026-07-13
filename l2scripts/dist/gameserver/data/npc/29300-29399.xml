@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "npc.dtd">
+<list>
+	<npc id="29300" name="Varkaron" title="Dimensional Invader">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="100"/>
+		<set name="collision_radius" value="38"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="231808530"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="47100"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="89"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="63"/>
+		<set name="baseRunSpd" value="300"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="5467" level="1"/>	<!--Dark Attack-->
+			<skill id="4494" level="1"/>	<!--Raid Boss-->
+			<skill id="16510" level="1"/>	<!--99Lv. Raid Boss-->
+		</client_skills>
+	</npc>
+	<npc id="29301" name="Minion Monisac" title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="27"/>
+		<set name="collision_radius" value="12"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="168928.895137943"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="2355"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="89"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="230"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+			<skill id="5467" level="1"/>	<!--Dark Attack-->
+		</client_skills>
+	</npc>
+	<npc id="29302" name="Minion Monishe" title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="27.5"/>
+		<set name="collision_radius" value="18"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="168928.895137943"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="2355"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="89"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="150"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="5467" level="1"/>	<!--Dark Attack-->
+		</client_skills>
+	</npc>
+	<npc id="29303" name="Helios" title="Emperor of the Beginning">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="124"/>
+		<set name="collision_radius" value="105"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="247524303"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="51696"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="40"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="11"/>	<!--Giants-->
+			<skill id="5465" level="1"/>	<!--Earth Attack-->
+			<skill id="16746" level="2"/>	<!--Helios-->
+			<skill id="14804" level="10"/>	<!--Damage Reflect Attack Resistance-->
+		</client_skills>
+	</npc>
+	<npc id="29304" name="Helios" title="Emperor of the Beginning">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="152"/>
+		<set name="collision_radius" value="105"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="247524303"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="51696"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="40"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="11"/>	<!--Giants-->
+			<skill id="5465" level="1"/>	<!--Earth Attack-->
+			<skill id="16746" level="2"/>	<!--Helios-->
+			<skill id="14804" level="10"/>	<!--Damage Reflect Attack Resistance-->
+		</client_skills>
+	</npc>
+	<npc id="29305" name="Helios" title="Emperor of the Beginning">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="180"/>
+		<set name="collision_radius" value="105"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="247524303"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="51696"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="40"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="11"/>	<!--Giants-->
+			<skill id="5465" level="1"/>	<!--Earth Attack-->
+			<skill id="16746" level="2"/>	<!--Helios-->
+			<skill id="14804" level="10"/>	<!--Damage Reflect Attack Resistance-->
+		</client_skills>
+	</npc>
+	<npc id="29306" name="Leopold" title="Superion Siege Cannon">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="249"/>
+		<set name="collision_radius" value="1"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="600826"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="25848"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="1"/>
+		<set name="baseRunSpd" value="230"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="2"/>	<!--Magic Creatures-->
+			<skill id="5465" level="1"/>	<!--Earth Attack-->
+		</client_skills>
+	</npc>
+	<npc id="29307" name="Helios' Red Lightning" title="Enuma Elish">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="33.5"/>
+		<set name="collision_radius" value="25"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="168928.895137943"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="2355"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="10"/>
+		<set name="baseRunSpd" value="230"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="2"/>	<!--Magic Creatures-->
+			<skill id="5465" level="1"/>	<!--Earth Attack-->
+		</client_skills>
+	</npc>
+	<npc id="29308" name="Helios' Blue Lightning" title="Enuma Elish">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="33.5"/>
+		<set name="collision_radius" value="25"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="168928.895137943"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="2355"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="10"/>
+		<set name="baseRunSpd" value="230"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="2"/>	<!--Magic Creatures-->
+			<skill id="5465" level="1"/>	<!--Earth Attack-->
+		</client_skills>
+	</npc>
+	<npc id="29309" name="Leopold Origin" title="Ultimate Kamael">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="35.5"/>
+		<set name="collision_radius" value="30"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2403304"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="25848"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="55"/>
+		<set name="baseRunSpd" value="230"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="11"/>	<!--Giants-->
+			<skill id="5465" level="1"/>	<!--Earth Attack-->
+			<skill id="16547" level="10"/>	<!--Danger Zone Attack Resistance-->
+			<skill id="4438" level="5"/>	<!--Greater Sleep Resistance-->
+			<skill id="4440" level="5"/>	<!--Greater Paralysis Resistance-->
+			<skill id="4441" level="5"/>	<!--Greater Mental Attack Resistance-->
+		</client_skills>
+	</npc>
+	<npc id="29310" name="Enuma Elish Origin" title="Ultimate Kamael">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="35.5"/>
+		<set name="collision_radius" value="30"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2403304"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="25848"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="55"/>
+		<set name="baseRunSpd" value="230"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="11"/>	<!--Giants-->
+			<skill id="5465" level="1"/>	<!--Earth Attack-->
+			<skill id="16547" level="10"/>	<!--Danger Zone Attack Resistance-->
+			<skill id="4438" level="5"/>	<!--Greater Sleep Resistance-->
+			<skill id="4440" level="5"/>	<!--Greater Paralysis Resistance-->
+			<skill id="4441" level="5"/>	<!--Greater Mental Attack Resistance-->
+		</client_skills>
+	</npc>
+	<npc id="29311" name="Royal Templar Colonel" title="Emperor's Escort">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="45.5"/>
+		<set name="collision_radius" value="24"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="3004130"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="25848"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="55"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="11"/>	<!--Giants-->
+			<skill id="5465" level="1"/>	<!--Earth Attack-->
+			<skill id="14823" level="1"/>	<!--Instant Kill Attack Resistance-->
+			<skill id="16547" level="10"/>	<!--Danger Zone Attack Resistance-->
+			<skill id="4379" level="5"/>	<!--Spear Resistance-->
+			<skill id="4435" level="5"/>	<!--High Stun Attack Resistance-->
+			<skill id="4461" level="1"/>	<!--Dagger/Rapier Vulnerability-->
+			<skill id="16608" level="1"/>	<!--Servitor Attack Weakness-->
+			<skill id="4071" level="1"/>	<!--Bow/Crossbow Resistance-->
+		</client_skills>
+	</npc>
+	<npc id="29312" name="Royal Sharpshooter" title="Emperor's Escort">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="45.5"/>
+		<set name="collision_radius" value="24"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="3004130"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="25848"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="55"/>
+		<set name="baseRunSpd" value="190"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="11"/>	<!--Giants-->
+			<skill id="5465" level="1"/>	<!--Earth Attack-->
+			<skill id="14823" level="1"/>	<!--Instant Kill Attack Resistance-->
+			<skill id="16547" level="10"/>	<!--Danger Zone Attack Resistance-->
+			<skill id="4379" level="5"/>	<!--Spear Resistance-->
+			<skill id="4461" level="1"/>	<!--Dagger/Rapier Vulnerability-->
+			<skill id="16608" level="1"/>	<!--Servitor Attack Weakness-->
+			<skill id="4071" level="1"/>	<!--Bow/Crossbow Resistance-->
+		</client_skills>
+	</npc>
+	<npc id="29313" name="Royal Archmage" title="Emperor's Escort">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="45.5"/>
+		<set name="collision_radius" value="24"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="3004130"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="25848"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="55"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="11"/>	<!--Giants-->
+			<skill id="5465" level="1"/>	<!--Earth Attack-->
+			<skill id="14823" level="1"/>	<!--Instant Kill Attack Resistance-->
+			<skill id="16547" level="10"/>	<!--Danger Zone Attack Resistance-->
+			<skill id="4379" level="5"/>	<!--Spear Resistance-->
+			<skill id="4438" level="5"/>	<!--Greater Sleep Resistance-->
+			<skill id="4461" level="1"/>	<!--Dagger/Rapier Vulnerability-->
+			<skill id="16608" level="1"/>	<!--Servitor Attack Weakness-->
+			<skill id="4071" level="1"/>	<!--Bow/Crossbow Resistance-->
+		</client_skills>
+	</npc>
+	<npc id="29314" name="Royal Gatekeeper" title="Emperor's Escort">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="45.5"/>
+		<set name="collision_radius" value="24"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="3004130"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="25848"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="55"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="11"/>	<!--Giants-->
+			<skill id="5465" level="1"/>	<!--Earth Attack-->
+			<skill id="14823" level="1"/>	<!--Instant Kill Attack Resistance-->
+			<skill id="16547" level="10"/>	<!--Danger Zone Attack Resistance-->
+			<skill id="4379" level="5"/>	<!--Spear Resistance-->
+			<skill id="4435" level="5"/>	<!--High Stun Attack Resistance-->
+			<skill id="4461" level="1"/>	<!--Dagger/Rapier Vulnerability-->
+			<skill id="16608" level="1"/>	<!--Servitor Attack Weakness-->
+			<skill id="4071" level="1"/>	<!--Bow/Crossbow Resistance-->
+		</client_skills>
+	</npc>
+	<npc id="29315" name="Mimillion" title="Red Lightning Watchman">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="50.5"/>
+		<set name="collision_radius" value="32"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="60082600"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="25848"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="55"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="11"/>	<!--Giants-->
+			<skill id="5465" level="1"/>	<!--Earth Attack-->
+		</client_skills>
+	</npc>
+	<npc id="29316" name="Mimillus" title="Blue Lightning Watchman">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="50.5"/>
+		<set name="collision_radius" value="32"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="60082600"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="25848"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="55"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="11"/>	<!--Giants-->
+			<skill id="5465" level="1"/>	<!--Earth Attack-->
+		</client_skills>
+	</npc>
+	<npc id="29317" name="Lindvior" title="Wind Dragon">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="316.5"/>
+		<set name="collision_radius" value="525"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="209461939"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="47100"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="100"/>
+		<set name="baseRunSpd" value="270"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<client_skills>
+			<skill id="4416" level="10" />	<!--Dragons-->
+			<skill id="5464" level="1" />	<!--Wind Attack-->
+			<skill id="15638" level="1" />	<!--Lindvior-->
+			<skill id="14804" level="10" />	<!--Damage Reflect Attack Resistance-->
+		</client_skills>
+	</npc>
+</list>

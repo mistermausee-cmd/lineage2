@@ -1,0 +1,2 @@
+ALTER TABLE `characters` ADD `is_noble` TINYINT(1) UNSIGNED NOT NULL DEFAULT '0' AFTER `bot_rating`;
+UPDATE characters LEFT JOIN olympiad_nobles ON characters.obj_Id = olympiad_nobles.char_id SET characters.is_noble = 1 WHERE olympiad_nobles.char_id > 0;

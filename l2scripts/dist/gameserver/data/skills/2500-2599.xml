@@ -1,0 +1,1934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="2500" levels="1" name="Beast Soulshot Compressed Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="6645" min_count="500" max_count="500"/>	<!--Beast Soulshot-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2501" levels="1" name="Beast Spiritshot Compressed Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="6646" min_count="500" max_count="500"/>	<!--Beast Spiritshot-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2502" levels="1" name="Blessed Beast Spiritshot Compressed Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="6647" min_count="500" max_count="500"/>	<!--Blessed Beast Spiritshot-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2504" levels="1" name="Old Agathion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="6471" min_count="20" max_count="20"/>	<!--Big Red Nimble Fish-->
+				<item id="5094" min_count="40" max_count="40"/>	<!--Great Codran-->
+				<item id="9814" min_count="3" max_count="3"/>	<!--Memento Mori-->
+				<item id="9816" min_count="4" max_count="4"/>	<!--Earth Egg-->
+				<item id="9817" min_count="4" max_count="4"/>	<!--Nonliving Nucleus-->
+				<item id="9815" min_count="2" max_count="2"/>	<!--Dragon Heart-->
+				<item id="57" min_count="6000000" max_count="6000000"/>	<!--Adena-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2505" levels="1" name="Chant of Combat">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeCount" value="1" />
+		<set name="itemConsumeId" value="10608" /> <!-- Forgotten Scroll - Chant of Combat -->
+		<set name="hitCancelTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="1517"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="1517"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2506" levels="1" name="Chant of Critical">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeCount" value="1" />
+		<set name="itemConsumeId" value="10609" /> <!-- Forgotten Scroll - Chant of Critical -->
+		<set name="hitCancelTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="1518"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="1518"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2507" levels="1" name="Chant of Blood Awakening">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeCount" value="1" />
+		<set name="itemConsumeId" value="10610" /> <!-- Forgotten Scroll - Chant of Blood Awakening -->
+		<set name="hitCancelTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="1519"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="1519"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2508" levels="1" name="Squash Seed">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10640"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="1500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="operate_type" value="A2"/>
+		<set name="npcId" value="12774"/>
+		<set name="lifeTime" value="-1"/>
+		<set name="random_offset_on_spawn" value="true"/>
+		<set name="summonType" value="NPC"/>
+	</skill>
+	<skill id="2509" levels="1" name="Large Squash Seed">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10641"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="1500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="operate_type" value="A2"/>
+		<set name="npcId" value="12777"/>
+		<set name="lifeTime" value="-1"/>
+		<set name="random_offset_on_spawn" value="true"/>
+		<set name="summonType" value="NPC"/>
+	</skill>
+	<skill id="2510" levels="1" name="Wondrous Cubic">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="35.0">
+				<item id="10633" min_count="1" max_count="1"/>	<!--Cube Fragment Armor - D-->
+			</group>
+			<group chance="25.0">
+				<item id="10642" min_count="1" max_count="1"/>	<!--Cube Fragment Weapon - D-->
+			</group>
+			<group chance="20.0">
+				<item id="10634" min_count="1" max_count="1"/>	<!--Cube Fragment Armor - C-->
+			</group>
+			<group chance="10.0">
+				<item id="10643" min_count="1" max_count="1"/>	<!--Cube Fragment Weapon - C-->
+			</group>
+			<group chance="4.0">
+				<item id="10635" min_count="1" max_count="1"/>	<!--Cube Fragment Armor - B-->
+			</group>
+			<group chance="3.0">
+				<item id="10644" min_count="1" max_count="1"/>	<!--Cube Fragment Weapon - B-->
+			</group>
+			<group chance="1.2">
+				<item id="10636" min_count="1" max_count="1"/>	<!--Cube Fragment Armor - A-->
+			</group>
+			<group chance="0.8">
+				<item id="10645" min_count="1" max_count="1"/>	<!--Cube Fragment Weapon - A-->
+			</group>
+			<group chance="0.6">
+				<item id="10637" min_count="1" max_count="1"/>	<!--Cube Fragment Armor - S-->
+			</group>
+			<group chance="0.4">
+				<item id="10646" min_count="1" max_count="1"/>	<!--Cube Fragment Weapon - S-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2511" levels="1" name="Transformation Scroll: Gatekeeper">
+		<!--
+			  Description: Transformed into a gatekeeper.
+		-->
+		<set name="icon" value="icon.skilltransform3"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2512" levels="1" name="Herb of HP Drain">
+		<!--
+			  Description: Allows you to temporarily drain an enemy\'s HP and add it to your own. Cannot be used with skill-based or long-range attacks. Effect 4.
+		-->
+		<set name="icon" value="BranchSys2.icon.etc_vampiric_rage_herb_i01"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="hitTime" value="100"/>
+		<set name="abnormal_instant" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="300"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="vampiric_attack"/>
+		<set name="magicLevel" value="40"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<set name="isHideUseMessage" value="true"/>
+		<for>
+			<effect>
+				<add stat="absorbDam" value="9"/>
+				<add stat="absorbBowDam" value="9"/>
+				<add stat="absorbPSkillDam" value="9"/>
+				<add stat="absorbMSkillDam" value="9"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2513" levels="1" name="Mysterious Herb">
+		<!--
+			  Description: Head is enlarged.
+		-->
+		<set name="icon" value="icon.skill2513"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="abnormal_instant" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_effect" value="BIG_HEAD"/>
+		<set name="abnormal_time" value="300"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="big_head"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<set name="isHideUseMessage" value="true"/>
+		<set name="trait" value="ETC"/>
+		<for>
+			<effect/>
+		</for>
+	</skill>
+	<skill id="2514" levels="1" name="Herb of Critical Attack - Damage">
+		<!--
+			  Description: Critical attack power is temporarily increased. Effect 3.
+		-->
+		<set name="icon" value="BranchSys2.icon.etc_crt_force_herb_i01"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="hitTime" value="100"/>
+		<set name="abnormal_instant" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="300"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="critical_dmg_up"/>
+		<set name="magicLevel" value="48"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<set name="isHideUseMessage" value="true"/>
+		<for>
+			<effect>
+				<add stat="p_critical_damage_per" value="35"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2515" levels="1" name="Lucky Clover (D-grade)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2516" levels="1" name="Lucky Clover (C-grade)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2517" levels="1" name="Lucky Clover (B-grade)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2518" levels="1" name="Lucky Clover (A-grade)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2519" levels="1" name="Lucky Clover (S-grade)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2520" levels="1" name="Lucky Clover (D-grade)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2521" levels="1" name="Lucky Clover (C-grade)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2522" levels="1" name="Lucky Clover (B-grade)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2523" levels="1" name="Lucky Clover (A-grade)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2524" levels="1" name="Lucky Clover (S-grade)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2525" levels="1" name="Scroll of Escape: Kamael Village">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="10000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="12753"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="loc" value="-120000;44500;352"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2526" levels="1" name="Evasion Counter">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeCount" value="1" />
+		<set name="itemConsumeId" value="12768" /> <!-- Forgotten Scroll - Evasion Counter -->
+		<set name="hitCancelTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="818"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="818"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2527" levels="1" name="Evasion Chance">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeCount" value="1" />
+		<set name="itemConsumeId" value="12769" /> <!-- Forgotten Scroll - Evasion Chance -->
+		<set name="hitCancelTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="819"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="819"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2528" levels="1" name="Evasion Haste">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeCount" value="1" />
+		<set name="itemConsumeId" value="12770" /> <!-- Forgotten Scroll - Evasion Haste -->
+		<set name="hitCancelTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="820"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="820"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2529" levels="1" name="Shadow Step">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeCount" value="1" />
+		<set name="itemConsumeId" value="12771" /> <!-- Forgotten Scroll - Shadow Step -->
+		<set name="hitCancelTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="821"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="821"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2530" levels="1" name="Recovery Item (Battleground)">
+		<!--
+			Need correct: reuseDelay
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="12819"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="death_penalty"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2531" levels="1" name="Adventurer\'s Scroll of Escape">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="20000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10650"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2532" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="12824"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="4" max_count="4"/>	<!--Greater Healing Potion-->
+				<item id="1463" min_count="50" max_count="50"/>	<!--Soulshot (D-Grade)-->
+				<item id="2510" min_count="50" max_count="50"/>	<!--Spiritshot (D-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2533" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10836"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="4" max_count="4"/>	<!--Greater Healing Potion-->
+				<item id="1463" min_count="100" max_count="100"/>	<!--Soulshot (D-Grade)-->
+				<item id="2510" min_count="100" max_count="100"/>	<!--Spiritshot (D-Grade)-->
+				<item id="956" min_count="1" max_count="1"/>	<!--Scroll: Enchant Armor (D-Grade)-->
+				<item id="8623" min_count="3" max_count="3"/>	<!--Elixir of Life (D-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2534" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="12825"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="4" max_count="4"/>	<!--Greater Healing Potion-->
+				<item id="1463" min_count="100" max_count="100"/>	<!--Soulshot (D-Grade)-->
+				<item id="2510" min_count="100" max_count="100"/>	<!--Spiritshot (D-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2535" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10837"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="2" max_count="2"/>	<!--Greater Healing Potion-->
+				<item id="1463" min_count="150" max_count="150"/>	<!--Soulshot (D-Grade)-->
+				<item id="2510" min_count="150" max_count="150"/>	<!--Spiritshot (D-Grade)-->
+				<item id="956" min_count="1" max_count="1"/>	<!--Scroll: Enchant Armor (D-Grade)-->
+				<item id="8623" min_count="3" max_count="3"/>	<!--Elixir of Life (D-Grade)-->
+				<item id="8629" min_count="2" max_count="2"/>	<!--Elixir of Mental Strength (D-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2536" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10838"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="5" max_count="5"/>	<!--Greater Healing Potion-->
+				<item id="1463" min_count="210" max_count="210"/>	<!--Soulshot (D-Grade)-->
+				<item id="2510" min_count="210" max_count="210"/>	<!--Spiritshot (D-Grade)-->
+				<item id="956" min_count="1" max_count="1"/>	<!--Scroll: Enchant Armor (D-Grade)-->
+				<item id="8623" min_count="3" max_count="3"/>	<!--Elixir of Life (D-Grade)-->
+				<item id="8629" min_count="3" max_count="3"/>	<!--Elixir of Mental Strength (D-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2537" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10839"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="7" max_count="7"/>	<!--Greater Healing Potion-->
+				<item id="1463" min_count="300" max_count="300"/>	<!--Soulshot (D-Grade)-->
+				<item id="2510" min_count="300" max_count="300"/>	<!--Spiritshot (D-Grade)-->
+				<item id="956" min_count="1" max_count="1"/>	<!--Scroll: Enchant Armor (D-Grade)-->
+				<item id="955" min_count="1" max_count="1"/>	<!--Scroll: Enchant Weapon (D-Grade)-->
+				<item id="8623" min_count="7" max_count="7"/>	<!--Elixir of Life (D-Grade)-->
+				<item id="8629" min_count="7" max_count="7"/>	<!--Elixir of Mental Strength (D-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2538" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10840"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="5" max_count="5"/>	<!--Greater Healing Potion-->
+				<item id="1463" min_count="140" max_count="140"/>	<!--Soulshot (D-Grade)-->
+				<item id="2510" min_count="140" max_count="140"/>	<!--Spiritshot (D-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2539" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10841"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="7" max_count="7"/>	<!--Greater Healing Potion-->
+				<item id="1463" min_count="250" max_count="250"/>	<!--Soulshot (D-Grade)-->
+				<item id="2510" min_count="250" max_count="250"/>	<!--Spiritshot (D-Grade)-->
+				<item id="956" min_count="1" max_count="1"/>	<!--Scroll: Enchant Armor (D-Grade)-->
+				<item id="8623" min_count="5" max_count="5"/>	<!--Elixir of Life (D-Grade)-->
+				<item id="8629" min_count="4" max_count="4"/>	<!--Elixir of Mental Strength (D-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2540" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="12826"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="6" max_count="6"/>	<!--Greater Healing Potion-->
+				<item id="1463" min_count="200" max_count="200"/>	<!--Soulshot (D-Grade)-->
+				<item id="2510" min_count="200" max_count="200"/>	<!--Spiritshot (D-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2541" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="12827"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="11" max_count="11"/>	<!--Greater Healing Potion-->
+				<item id="1463" min_count="500" max_count="500"/>	<!--Soulshot (D-Grade)-->
+				<item id="2510" min_count="500" max_count="500"/>	<!--Spiritshot (D-Grade)-->
+				<item id="956" min_count="1" max_count="1"/>	<!--Scroll: Enchant Armor (D-Grade)-->
+				<item id="955" min_count="1" max_count="1"/>	<!--Scroll: Enchant Weapon (D-Grade)-->
+				<item id="8623" min_count="10" max_count="10"/>	<!--Elixir of Life (D-Grade)-->
+				<item id="8629" min_count="10" max_count="10"/>	<!--Elixir of Mental Strength (D-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2542" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10842"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="7" max_count="7"/>	<!--Greater Healing Potion-->
+				<item id="1463" min_count="400" max_count="400"/>	<!--Soulshot (D-Grade)-->
+				<item id="2510" min_count="400" max_count="400"/>	<!--Spiritshot (D-Grade)-->
+				<item id="956" min_count="1" max_count="1"/>	<!--Scroll: Enchant Armor (D-Grade)-->
+				<item id="8623" min_count="6" max_count="6"/>	<!--Elixir of Life (D-Grade)-->
+				<item id="8629" min_count="6" max_count="6"/>	<!--Elixir of Mental Strength (D-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2543" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10843"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="9" max_count="9"/>	<!--Greater Healing Potion-->
+				<item id="1463" min_count="400" max_count="400"/>	<!--Soulshot (D-Grade)-->
+				<item id="2510" min_count="400" max_count="400"/>	<!--Spiritshot (D-Grade)-->
+				<item id="956" min_count="1" max_count="1"/>	<!--Scroll: Enchant Armor (D-Grade)-->
+				<item id="8623" min_count="9" max_count="9"/>	<!--Elixir of Life (D-Grade)-->
+				<item id="8629" min_count="8" max_count="8"/>	<!--Elixir of Mental Strength (D-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2544" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10844"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="10" max_count="10"/>	<!--Greater Healing Potion-->
+				<item id="1463" min_count="500" max_count="500"/>	<!--Soulshot (D-Grade)-->
+				<item id="2510" min_count="500" max_count="500"/>	<!--Spiritshot (D-Grade)-->
+				<item id="956" min_count="2" max_count="2"/>	<!--Scroll: Enchant Armor (D-Grade)-->
+				<item id="955" min_count="1" max_count="1"/>	<!--Scroll: Enchant Weapon (D-Grade)-->
+				<item id="8623" min_count="15" max_count="15"/>	<!--Elixir of Life (D-Grade)-->
+				<item id="8629" min_count="15" max_count="15"/>	<!--Elixir of Mental Strength (D-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2545" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10845"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="7" max_count="7"/>	<!--Greater Healing Potion-->
+				<item id="1464" min_count="150" max_count="150"/>	<!--Soulshot (C-Grade)-->
+				<item id="2511" min_count="150" max_count="150"/>	<!--Spiritshot (C-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2546" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10846"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="5" max_count="5"/>	<!--Greater Healing Potion-->
+				<item id="1464" min_count="120" max_count="120"/>	<!--Soulshot (C-Grade)-->
+				<item id="2511" min_count="120" max_count="120"/>	<!--Spiritshot (C-Grade)-->
+				<item id="952" min_count="1" max_count="1"/>	<!--Scroll: Enchant Armor (C-Grade)-->
+				<item id="8624" min_count="5" max_count="5"/>	<!--Elixir of Life (C-Grade)-->
+				<item id="8630" min_count="4" max_count="4"/>	<!--Elixir of Mental Strength (C-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2547" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="12828"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="11" max_count="11"/>	<!--Greater Healing Potion-->
+				<item id="1464" min_count="150" max_count="150"/>	<!--Soulshot (C-Grade)-->
+				<item id="2511" min_count="150" max_count="150"/>	<!--Spiritshot (C-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2548" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="12829"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="7" max_count="7"/>	<!--Greater Healing Potion-->
+				<item id="1464" min_count="300" max_count="300"/>	<!--Soulshot (C-Grade)-->
+				<item id="2511" min_count="300" max_count="300"/>	<!--Spiritshot (C-Grade)-->
+				<item id="952" min_count="1" max_count="1"/>	<!--Scroll: Enchant Armor (C-Grade)-->
+				<item id="951" min_count="1" max_count="1"/>	<!--Scroll: Enchant Weapon (C-Grade)-->
+				<item id="8624" min_count="7" max_count="7"/>	<!--Elixir of Life (C-Grade)-->
+				<item id="8630" min_count="7" max_count="7"/>	<!--Elixir of Mental Strength (C-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2549" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10847"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="6" max_count="6"/>	<!--Greater Healing Potion-->
+				<item id="1464" min_count="200" max_count="200"/>	<!--Soulshot (C-Grade)-->
+				<item id="2511" min_count="200" max_count="200"/>	<!--Spiritshot (C-Grade)-->
+				<item id="8624" min_count="7" max_count="7"/>	<!--Elixir of Life (C-Grade)-->
+				<item id="8630" min_count="6" max_count="6"/>	<!--Elixir of Mental Strength (C-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2550" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10848"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="10" max_count="10"/>	<!--Greater Healing Potion-->
+				<item id="1464" min_count="250" max_count="250"/>	<!--Soulshot (C-Grade)-->
+				<item id="2511" min_count="250" max_count="250"/>	<!--Spiritshot (C-Grade)-->
+				<item id="952" min_count="1" max_count="1"/>	<!--Scroll: Enchant Armor (C-Grade)-->
+				<item id="8624" min_count="8" max_count="8"/>	<!--Elixir of Life (C-Grade)-->
+				<item id="8630" min_count="7" max_count="7"/>	<!--Elixir of Mental Strength (C-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2551" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10849"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="10" max_count="10"/>	<!--Greater Healing Potion-->
+				<item id="1464" min_count="350" max_count="350"/>	<!--Soulshot (C-Grade)-->
+				<item id="2511" min_count="350" max_count="350"/>	<!--Spiritshot (C-Grade)-->
+				<item id="952" min_count="2" max_count="2"/>	<!--Scroll: Enchant Armor (C-Grade)-->
+				<item id="951" min_count="1" max_count="1"/>	<!--Scroll: Enchant Weapon (C-Grade)-->
+				<item id="8624" min_count="10" max_count="10"/>	<!--Elixir of Life (C-Grade)-->
+				<item id="8630" min_count="10" max_count="10"/>	<!--Elixir of Mental Strength (C-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2552" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10850"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="6" max_count="6"/>	<!--Greater Healing Potion-->
+				<item id="1465" min_count="100" max_count="100"/>	<!--Soulshot (B-Grade)-->
+				<item id="2512" min_count="100" max_count="100"/>	<!--Spiritshot (B-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2553" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10851"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="10" max_count="10"/>	<!--Greater Healing Potion-->
+				<item id="1465" min_count="200" max_count="200"/>	<!--Soulshot (B-Grade)-->
+				<item id="2512" min_count="200" max_count="200"/>	<!--Spiritshot (B-Grade)-->
+				<item id="8625" min_count="7" max_count="7"/>	<!--Elixir of Life (B-Grade)-->
+				<item id="8631" min_count="7" max_count="7"/>	<!--Elixir of Mental Strength (B-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2554" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="12830"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="8" max_count="8"/>	<!--Greater Healing Potion-->
+				<item id="1465" min_count="120" max_count="120"/>	<!--Soulshot (B-Grade)-->
+				<item id="2512" min_count="120" max_count="120"/>	<!--Spiritshot (B-Grade)-->
+				<item id="8625" min_count="7" max_count="7"/>	<!--Elixir of Life (B-Grade)-->
+				<item id="8631" min_count="7" max_count="7"/>	<!--Elixir of Mental Strength (B-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2555" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="12831"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="15" max_count="15"/>	<!--Greater Healing Potion-->
+				<item id="1464" min_count="300" max_count="300"/>	<!--Soulshot (C-Grade)-->
+				<item id="2511" min_count="300" max_count="300"/>	<!--Spiritshot (C-Grade)-->
+				<item id="952" min_count="2" max_count="2"/>	<!--Scroll: Enchant Armor (C-Grade)-->
+				<item id="951" min_count="1" max_count="1"/>	<!--Scroll: Enchant Weapon (C-Grade)-->
+				<item id="8624" min_count="15" max_count="15"/>	<!--Elixir of Life (C-Grade)-->
+				<item id="8630" min_count="14" max_count="14"/>	<!--Elixir of Mental Strength (C-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2556" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10852"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="4" max_count="4"/>	<!--Greater Healing Potion-->
+				<item id="1465" min_count="200" max_count="200"/>	<!--Soulshot (B-Grade)-->
+				<item id="2512" min_count="200" max_count="200"/>	<!--Spiritshot (B-Grade)-->
+				<item id="948" min_count="1" max_count="1"/>	<!--Scroll: Enchant Armor (B-Grade)-->
+				<item id="8625" min_count="5" max_count="5"/>	<!--Elixir of Life (B-Grade)-->
+				<item id="8631" min_count="5" max_count="5"/>	<!--Elixir of Mental Strength (B-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2557" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10853"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="10" max_count="10"/>	<!--Greater Healing Potion-->
+				<item id="1465" min_count="250" max_count="250"/>	<!--Soulshot (B-Grade)-->
+				<item id="2512" min_count="250" max_count="250"/>	<!--Spiritshot (B-Grade)-->
+				<item id="948" min_count="1" max_count="1"/>	<!--Scroll: Enchant Armor (B-Grade)-->
+				<item id="8625" min_count="6" max_count="6"/>	<!--Elixir of Life (B-Grade)-->
+				<item id="8631" min_count="6" max_count="6"/>	<!--Elixir of Mental Strength (B-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2558" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10854"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="15" max_count="15"/>	<!--Greater Healing Potion-->
+				<item id="1465" min_count="380" max_count="380"/>	<!--Soulshot (B-Grade)-->
+				<item id="2512" min_count="380" max_count="380"/>	<!--Spiritshot (B-Grade)-->
+				<item id="948" min_count="2" max_count="2"/>	<!--Scroll: Enchant Armor (B-Grade)-->
+				<item id="8625" min_count="12" max_count="12"/>	<!--Elixir of Life (B-Grade)-->
+				<item id="8631" min_count="12" max_count="12"/>	<!--Elixir of Mental Strength (B-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2559" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10855"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="5" max_count="5"/>	<!--Greater Healing Potion-->
+				<item id="1466" min_count="120" max_count="120"/>	<!--Soulshot (A-Grade)-->
+				<item id="2513" min_count="120" max_count="120"/>	<!--Spiritshot (A-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2560" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10856"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="10" max_count="10"/>	<!--Greater Healing Potion-->
+				<item id="1466" min_count="250" max_count="250"/>	<!--Soulshot (A-Grade)-->
+				<item id="2513" min_count="250" max_count="250"/>	<!--Spiritshot (A-Grade)-->
+				<item id="8626" min_count="9" max_count="9"/>	<!--Elixir of Life (A-Grade)-->
+				<item id="8632" min_count="9" max_count="9"/>	<!--Elixir of Mental Strength (A-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2561" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="12832"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="5" max_count="5"/>	<!--Greater Healing Potion-->
+				<item id="1466" min_count="150" max_count="150"/>	<!--Soulshot (A-Grade)-->
+				<item id="2513" min_count="150" max_count="150"/>	<!--Spiritshot (A-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2562" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="12833"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="4" max_count="4"/>	<!--Greater Healing Potion-->
+				<item id="1465" min_count="100" max_count="100"/>	<!--Soulshot (B-Grade)-->
+				<item id="2512" min_count="100" max_count="100"/>	<!--Spiritshot (B-Grade)-->
+				<item id="947" min_count="1" max_count="1"/>	<!--Scroll: Enchant Weapon (B-Grade)-->
+				<item id="8625" min_count="3" max_count="3"/>	<!--Elixir of Life (B-Grade)-->
+				<item id="8631" min_count="3" max_count="3"/>	<!--Elixir of Mental Strength (B-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2563" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10857"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="10" max_count="10"/>	<!--Greater Healing Potion-->
+				<item id="1466" min_count="300" max_count="300"/>	<!--Soulshot (A-Grade)-->
+				<item id="2513" min_count="300" max_count="300"/>	<!--Spiritshot (A-Grade)-->
+				<item id="8626" min_count="10" max_count="10"/>	<!--Elixir of Life (A-Grade)-->
+				<item id="8632" min_count="10" max_count="10"/>	<!--Elixir of Mental Strength (A-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2564" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10858"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="3" max_count="3"/>	<!--Greater Healing Potion-->
+				<item id="1466" min_count="140" max_count="140"/>	<!--Soulshot (A-Grade)-->
+				<item id="2513" min_count="140" max_count="140"/>	<!--Spiritshot (A-Grade)-->
+				<item id="730" min_count="1" max_count="1"/>	<!--Scroll: Enchant Armor (A-Grade)-->
+				<item id="8626" min_count="5" max_count="5"/>	<!--Elixir of Life (A-Grade)-->
+				<item id="8632" min_count="5" max_count="5"/>	<!--Elixir of Mental Strength (A-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2565" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10859"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="6" max_count="6"/>	<!--Greater Healing Potion-->
+				<item id="1466" min_count="250" max_count="250"/>	<!--Soulshot (A-Grade)-->
+				<item id="2513" min_count="250" max_count="250"/>	<!--Spiritshot (A-Grade)-->
+				<item id="730" min_count="2" max_count="2"/>	<!--Scroll: Enchant Armor (A-Grade)-->
+				<item id="8626" min_count="6" max_count="6"/>	<!--Elixir of Life (A-Grade)-->
+				<item id="8632" min_count="6" max_count="6"/>	<!--Elixir of Mental Strength (A-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2566" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10860"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="9" max_count="9"/>	<!--Greater Healing Potion-->
+				<item id="1467" min_count="130" max_count="130"/>	<!--Soulshot (S-Grade)-->
+				<item id="2514" min_count="130" max_count="130"/>	<!--Spiritshot (S-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2567" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10861"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="10" max_count="10"/>	<!--Greater Healing Potion-->
+				<item id="1467" min_count="350" max_count="350"/>	<!--Soulshot (S-Grade)-->
+				<item id="2514" min_count="350" max_count="350"/>	<!--Spiritshot (S-Grade)-->
+				<item id="8627" min_count="12" max_count="12"/>	<!--Elixir of Life (S-Grade)-->
+				<item id="8633" min_count="11" max_count="11"/>	<!--Elixir of Mental Strength (S-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2568" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="12834"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="10" max_count="10"/>	<!--Greater Healing Potion-->
+				<item id="1466" min_count="350" max_count="350"/>	<!--Soulshot (A-Grade)-->
+				<item id="2513" min_count="350" max_count="350"/>	<!--Spiritshot (A-Grade)-->
+				<item id="730" min_count="2" max_count="2"/>	<!--Scroll: Enchant Armor (A-Grade)-->
+				<item id="8626" min_count="10" max_count="10"/>	<!--Elixir of Life (A-Grade)-->
+				<item id="8632" min_count="10" max_count="10"/>	<!--Elixir of Mental Strength (A-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2569" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10862"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="12" max_count="12"/>	<!--Greater Healing Potion-->
+				<item id="1467" min_count="360" max_count="360"/>	<!--Soulshot (S-Grade)-->
+				<item id="2514" min_count="360" max_count="360"/>	<!--Spiritshot (S-Grade)-->
+				<item id="8627" min_count="12" max_count="12"/>	<!--Elixir of Life (S-Grade)-->
+				<item id="8633" min_count="12" max_count="12"/>	<!--Elixir of Mental Strength (S-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2570" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10863"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="6" max_count="6"/>	<!--Greater Healing Potion-->
+				<item id="1467" min_count="140" max_count="140"/>	<!--Soulshot (S-Grade)-->
+				<item id="2514" min_count="140" max_count="140"/>	<!--Spiritshot (S-Grade)-->
+				<item id="960" min_count="1" max_count="1"/>	<!--Scroll: Enchant Armor (S-Grade)-->
+				<item id="8627" min_count="4" max_count="4"/>	<!--Elixir of Life (S-Grade)-->
+				<item id="8633" min_count="3" max_count="3"/>	<!--Elixir of Mental Strength (S-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2571" levels="1" name="Pathfinder Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10864"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="1539" min_count="15" max_count="15"/>	<!--Greater Healing Potion-->
+				<item id="1467" min_count="360" max_count="360"/>	<!--Soulshot (S-Grade)-->
+				<item id="2514" min_count="360" max_count="360"/>	<!--Spiritshot (S-Grade)-->
+				<item id="960" min_count="1" max_count="1"/>	<!--Scroll: Enchant Armor (S-Grade)-->
+				<item id="8627" min_count="11" max_count="11"/>	<!--Elixir of Life (S-Grade)-->
+				<item id="8633" min_count="11" max_count="11"/>	<!--Elixir of Mental Strength (S-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2572" levels="1" name="Pathfinder\'s Reward">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13003"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="3.2">
+				<item id="947" min_count="1" max_count="1"/>	<!--Scroll: Enchant Weapon (B-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2573" levels="1" name="Pathfinder\'s Reward">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13004"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="1.6111">
+				<item id="729" min_count="1" max_count="1"/>	<!--Scroll: Enchant Weapon (A-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2574" levels="1" name="Pathfinder\'s Reward">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13005"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="1.14">
+				<item id="959" min_count="1" max_count="1"/>	<!--Scroll: Enchant Weapon (S-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2575" levels="1" name="Pathfinder\'s Reward">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13006"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="19.8">
+				<item id="9546" min_count="1" max_count="1"/>	<!--Fire Stone-->
+			</group>
+			<group chance="19.8">
+				<item id="9548" min_count="1" max_count="1"/>	<!--Earth Stone-->
+			</group>
+			<group chance="19.8">
+				<item id="9550" min_count="1" max_count="1"/>	<!--Dark Stone-->
+			</group>
+			<group chance="1.98">
+				<item id="959" min_count="1" max_count="1"/>	<!--Scroll: Enchant Weapon (S-Grade)-->
+			</group>
+			<group chance="0.1">
+				<item id="9442" min_count="1" max_count="1"/>	<!--Dynasty Sword-->
+			</group>
+			<group chance="0.1">
+				<item id="9443" min_count="1" max_count="1"/>	<!--Dynasty Blade-->
+			</group>
+			<group chance="0.1">
+				<item id="9444" min_count="1" max_count="1"/>	<!--Dynasty Phantom-->
+			</group>
+			<group chance="0.1">
+				<item id="9445" min_count="1" max_count="1"/>	<!--Dynasty Bow-->
+			</group>
+			<group chance="0.1">
+				<item id="9446" min_count="1" max_count="1"/>	<!--Dynasty Knife-->
+			</group>
+			<group chance="0.1">
+				<item id="9447" min_count="1" max_count="1"/>	<!--Dynasty Halberd-->
+			</group>
+			<group chance="0.1">
+				<item id="9448" min_count="1" max_count="1"/>	<!--Dynasty Cudgel-->
+			</group>
+			<group chance="0.1">
+				<item id="9449" min_count="1" max_count="1"/>	<!--Dynasty Mace-->
+			</group>
+			<group chance="0.1">
+				<item id="9450" min_count="1" max_count="1"/>	<!--Dynasty Bagh-Nakh-->
+			</group>
+			<group chance="0.1">
+				<item id="10252" min_count="1" max_count="1"/>	<!--Dynasty Staff-->
+			</group>
+			<group chance="0.1">
+				<item id="10253" min_count="1" max_count="1"/>	<!--Dynasty Crusher-->
+			</group>
+			<group chance="1.0">
+				<item id="15645" min_count="1" max_count="1"/>	<!--Sealed Moirai Helmet Piece-->
+			</group>
+			<group chance="1.0">
+				<item id="15646" min_count="1" max_count="1"/>	<!--Sealed Moirai Leather Helmet Piece-->
+			</group>
+			<group chance="1.0">
+				<item id="15647" min_count="1" max_count="1"/>	<!--Sealed Moirai Circlet Piece-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2576" levels="1" name="Pathfinder\'s Reward">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13007"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="26.4">
+				<item id="9546" min_count="1" max_count="1"/>	<!--Fire Stone-->
+			</group>
+			<group chance="26.4">
+				<item id="9548" min_count="1" max_count="1"/>	<!--Earth Stone-->
+			</group>
+			<group chance="26.4">
+				<item id="9550" min_count="1" max_count="1"/>	<!--Dark Stone-->
+			</group>
+			<group chance="3.84">
+				<item id="959" min_count="1" max_count="1"/>	<!--Scroll: Enchant Weapon (S-Grade)-->
+			</group>
+			<group chance="0.13">
+				<item id="10215" min_count="1" max_count="1"/>	<!--Icarus Sawsword-->
+			</group>
+			<group chance="0.13">
+				<item id="10216" min_count="1" max_count="1"/>	<!--Icarus Disperser-->
+			</group>
+			<group chance="0.13">
+				<item id="10217" min_count="1" max_count="1"/>	<!--Icarus Spirit-->
+			</group>
+			<group chance="0.13">
+				<item id="10218" min_count="1" max_count="1"/>	<!--Icarus Heavy Arms-->
+			</group>
+			<group chance="0.13">
+				<item id="10219" min_count="1" max_count="1"/>	<!--Icarus Trident-->
+			</group>
+			<group chance="0.13">
+				<item id="10220" min_count="1" max_count="1"/>	<!--Icarus Hammer-->
+			</group>
+			<group chance="0.13">
+				<item id="10221" min_count="1" max_count="1"/>	<!--Icarus Hand-->
+			</group>
+			<group chance="0.13">
+				<item id="10222" min_count="1" max_count="1"/>	<!--Icarus Hall-->
+			</group>
+			<group chance="0.13">
+				<item id="10223" min_count="1" max_count="1"/>	<!--Icarus Spitter-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2577" levels="1" name="Instant Defense">
+		<!--
+			Description: Becomes invincible momentarily.
+		-->
+		<set name="icon" value="icon.skill1418"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="invincibility"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113">
+			<or>
+				<player instance_zone="43"/>
+				<player instance_zone="44"/>
+				<player instance_zone="45"/>
+			</or>
+		</cond>
+		<for>
+			<effect name="Invulnerable"/>
+			<effect name="p_block_debuff"/>
+		</for>
+	</skill>
+	<skill id="2578" levels="1" name="Cure Poison Paralyze">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113">
+			<or>
+				<player instance_zone="43"/>
+				<player instance_zone="44"/>
+				<player instance_zone="45"/>
+			</or>
+		</cond>
+		<for>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="poison"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2579" levels="1" name="Cure Death Clock">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: Cures the Incense of Death.
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="death_clack"/>
+				<def name="max_abnormal_level" value="1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2580" levels="1" name="Vitality Replenishing Herb">
+		<set name="icon" value="icon.skilltransform4"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="hitTime" value="100"/>
+		<set name="abnormal_instant" value="true"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_effect" value="VP_UP"/>
+		<set name="abnormal_time" value="300"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="vp_up"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<set name="isHideUseMessage" value="true"/>
+		<!--<set name="is_vitality_limited" value="true"/> - Хербы на оффе не учитываются, как потион виталити.-->
+		<for>
+			<effect name="Vitality"/>
+		</for>
+	</skill>
+	<skill id="2581" levels="1" name="not_used">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2582" levels="1" name="not_used">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2583" levels="1" name="not_used">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2584" levels="1" name="Item - Special Sound Crystal">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2585" levels="1" name="Item - Special Sound Crystal">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2586" levels="2" name="Vitality Replenishing Potion">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2587" levels="1" name="Increase number of teleport slots.">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13015"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2588" levels="1" name="My Teleport">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="RECALL" />
+		<set name="to_flag" value="true"/>
+		<set name="operate_type" value="A2" />
+		<set name="isSkillTimePermanent" value="true"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+	</skill>
+	<skill id="2589" levels="1" name="Extra Pass: Kamaloka (Hall of the Abyss)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13010"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="HARDCODED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2590" levels="1" name="Extra Pass: Near Kamaloka">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13011"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="HARDCODED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2591" levels="1" name="Extra Pass: Kamaloka (Labyrinth of the Abyss)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13012"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="HARDCODED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2592" levels="1" name="Quick Healing Potion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="HEAL"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect instant="true" name="RestoreHP" value="5000">
+				<def name="cp_including" value="true"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2593" levels="1" name="Bow/Crossbow Attack Resistance Potion">
+		<set name="icon" value="icon.etc_potion_red_i00"/>
+		<set name="ride_state" value="NONE"/>
+		<set name="abnormal_time" value="180"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="pd_up_bow"/>
+		<set name="magicLevel" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="113">
+			<or>
+				<player instance_zone="43"/>
+				<player instance_zone="44"/>
+				<player instance_zone="45"/>
+			</or>
+		</cond>
+		<for>
+			<effect>
+				<p_defence_trait name="bow" value="40"/>
+				<p_defence_trait name="crossbow" value="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2594" levels="1" name="Scroll of Escape: Pailaka">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="20000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13129"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2595" levels="1" name="Gran Kain\'s Blessed Scroll of Escape">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="200"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13258"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2596" levels="1" name="Gran Kain\'s Blessed Scroll of Resurrection">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="1000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13259"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2597" levels="1" name="Gran Kain\'s Echo Crystal - Theme of Journey">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2598" levels="1" name="Gran Kain\'s Echo Crystal - Theme of Battle">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2599" levels="1" name="Gran Kain\'s Echo Crystal - Theme of Love">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: none
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+</list>

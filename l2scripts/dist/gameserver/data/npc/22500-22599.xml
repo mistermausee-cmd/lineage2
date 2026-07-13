@@ -1,0 +1,2431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "npc.dtd">
+<list>
+	<npc id="22500" name="Lost Watchman" title="">
+		<set name="type" value="SpecialMonster"/>
+		<set name="ai_type" value="custom.LabyrinthLostWatcher"/>
+		<set name="collision_height" value="36.5;42.5"/>
+		<set name="collision_radius" value="13.5;16"/>
+		<set name="level" value="78"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="34114.9474043184"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="119.343181906062"/>
+		<set name="baseMpMax" value="1607.4"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="5411.70496793952"/>
+		<set name="basePDef" value="532.320976"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="3695.4930113615"/>
+		<set name="baseMDef" value="584.294088"/>
+		<set name="baseWalkSpd" value="30"/>
+		<set name="baseRunSpd" value="170"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.52"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="300"/>
+		<set name="shots" value="SOUL_BSPIRIT"/>
+		<faction names="abyss_clan" range="1000"/>
+		<equip>
+			<rhand item_id="148"/>	<!--Sword of Valhalla-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+			<set name="noRandomWalk" value="true"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="8"/>	<!--Angels-->
+			<skill id="5464" level="1"/>	<!--Wind Attack-->
+			<skill id="4410" level="7"/>	<!--Weak P. Atk.-->
+			<skill id="4411" level="7"/>	<!--Weak M. Atk.-->
+			<skill id="4414" level="3"/>	<!--Light Armor Type-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4032" level="8" use_type="Skill01_ID"/>	<!--Power Strike-->
+			<skill id="4047" level="8" use_type="Skill02_ID"/>	<!--Hold-->
+		</skills>
+		<attributes>
+			<attack attribute="wind" value="100"/>
+		</attributes>
+	</npc>
+	<npc id="22501" name="Lost Watchman" title="">
+		<set name="type" value="SpecialMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="36.5;42.5"/>
+		<set name="collision_radius" value="13.5;16"/>
+		<set name="level" value="78"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="34114.9474043184"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="119.343181906062"/>
+		<set name="baseMpMax" value="1607.4"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="5411.70496793952"/>
+		<set name="basePDef" value="532.320976"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="3695.4930113615"/>
+		<set name="baseMDef" value="584.294088"/>
+		<set name="baseWalkSpd" value="30"/>
+		<set name="baseRunSpd" value="170"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.52"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="300"/>
+		<set name="shots" value="SOUL_BSPIRIT"/>
+		<faction names="abyss_clan" range="1000"/>
+		<equip>
+			<rhand item_id="148"/>	<!--Sword of Valhalla-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+			<set name="noRandomWalk" value="true"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="8"/>	<!--Angels-->
+			<skill id="5464" level="1"/>	<!--Wind Attack-->
+			<skill id="4410" level="7"/>	<!--Weak P. Atk.-->
+			<skill id="4411" level="7"/>	<!--Weak M. Atk.-->
+			<skill id="4414" level="3"/>	<!--Light Armor Type-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4032" level="8" use_type="Skill01_ID"/>	<!--Power Strike-->
+			<skill id="4047" level="8" use_type="Skill02_ID"/>	<!--Hold-->
+		</skills>
+		<attributes>
+			<attack attribute="wind" value="100"/>
+		</attributes>
+	</npc>
+	<npc id="22502" name="Lost Beholder" title="">
+		<set name="type" value="SpecialMonster"/>
+		<set name="ai_type" value="custom.LabyrinthLostBeholder"/>
+		<set name="collision_height" value="30;36.5"/>
+		<set name="collision_radius" value="8;9"/>
+		<set name="level" value="78"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="68176.1551881449"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="119.249184145668"/>
+		<set name="baseMpMax" value="1607.4"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="5290.96371101051"/>
+		<set name="basePDef" value="532.320976"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="3613.0423837298"/>
+		<set name="baseMDef" value="584.294088"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.46"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="300"/>
+		<set name="shots" value="SOUL_BSPIRIT"/>
+		<faction names="abyss_clan" range="1000"/>
+		<equip>
+			<rhand item_id="6717"/>	<!--Monster Only (Einhasad Warrior)-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+			<set name="noRandomWalk" value="true"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="8"/>	<!--Angels-->
+			<skill id="5465" level="1"/>	<!--Earth Attack-->
+			<skill id="4412" level="7"/>	<!--Weak P. Def.-->
+			<skill id="4413" level="8"/>	<!--Weak M. Def.-->
+			<skill id="4414" level="3"/>	<!--Light Armor Type-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4415" level="4"/>	<!--One-handed Sword-->
+			<skill id="4032" level="8" use_type="Skill01_ID"/>	<!--Power Strike-->
+			<skill id="4613" level="8" use_type="Skill02_ID"/>	<!--Clan Heal-->
+			<skill id="4098" level="9" use_type="Skill03_ID"/>	<!--Silence-->
+		</skills>
+		<attributes>
+			<attack attribute="earth" value="100"/>
+		</attributes>
+	</npc>
+	<npc id="22503" name="Lost Watchman" title="">
+		<set name="type" value="SpecialMonster"/>
+		<set name="ai_type" value="custom.LabyrinthLostWatcher"/>
+		<set name="collision_height" value="37.5;46.79999924"/>
+		<set name="collision_radius" value="25;32"/>
+		<set name="level" value="81"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="33903.5162107711"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="116.510535585003"/>
+		<set name="baseMpMax" value="1708.8"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="5953.77196777846"/>
+		<set name="basePDef" value="552.978032"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="4277.99509727735"/>
+		<set name="baseMDef" value="606.967992"/>
+		<set name="baseWalkSpd" value="70"/>
+		<set name="baseRunSpd" value="190"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="DUAL"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.47"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="300"/>
+		<set name="shots" value="SOUL_BSPIRIT"/>
+		<faction names="abyss_clan" range="1000"/>
+		<equip>
+			<rhand item_id="10278"/>	<!--Monster Only (Behamah Dual)-->
+			<lhand item_id="10278"/>	<!--Monster Only (Behamah Dual)-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+			<set name="noRandomWalk" value="true"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="5467" level="1"/>	<!--Dark Attack-->
+			<skill id="4410" level="7"/>	<!--Weak P. Atk.-->
+			<skill id="4411" level="7"/>	<!--Weak M. Atk.-->
+			<skill id="4414" level="1"/>	<!--Heavy Armor Type-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4415" level="19"/>	<!--Dualsword-->
+			<skill id="4032" level="9" use_type="Skill01_ID"/>	<!--Power Strike-->
+			<skill id="4047" level="9" use_type="Skill02_ID"/>	<!--Hold-->
+		</skills>
+		<attributes>
+			<attack attribute="unholy" value="100"/>
+		</attributes>
+	</npc>
+	<npc id="22504" name="Lost Watchman" title="">
+		<set name="type" value="SpecialMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="37.5;46.79999924"/>
+		<set name="collision_radius" value="25;32"/>
+		<set name="level" value="81"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="33903.5162107711"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="116.510535585003"/>
+		<set name="baseMpMax" value="1708.8"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="5953.77196777846"/>
+		<set name="basePDef" value="552.978032"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="4277.99509727735"/>
+		<set name="baseMDef" value="606.967992"/>
+		<set name="baseWalkSpd" value="70"/>
+		<set name="baseRunSpd" value="190"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="DUAL"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.47"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="300"/>
+		<set name="shots" value="SOUL_BSPIRIT"/>
+		<faction names="abyss_clan" range="1000"/>
+		<equip>
+			<rhand item_id="10278"/>	<!--Monster Only (Behamah Dual)-->
+			<lhand item_id="10278"/>	<!--Monster Only (Behamah Dual)-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+			<set name="noRandomWalk" value="true"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="5467" level="1"/>	<!--Dark Attack-->
+			<skill id="4410" level="7"/>	<!--Weak P. Atk.-->
+			<skill id="4411" level="7"/>	<!--Weak M. Atk.-->
+			<skill id="4414" level="1"/>	<!--Heavy Armor Type-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4415" level="19"/>	<!--Dualsword-->
+			<skill id="4032" level="9" use_type="Skill01_ID"/>	<!--Power Strike-->
+			<skill id="4047" level="9" use_type="Skill02_ID"/>	<!--Hold-->
+		</skills>
+		<attributes>
+			<attack attribute="unholy" value="100"/>
+		</attributes>
+	</npc>
+	<npc id="22505" name="Lost Beholder" title="">
+		<set name="type" value="SpecialMonster"/>
+		<set name="ai_type" value="custom.LabyrinthLostBeholder"/>
+		<set name="collision_height" value="55"/>
+		<set name="collision_radius" value="21"/>
+		<set name="level" value="81"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="67753.320433582"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="116.418244088663"/>
+		<set name="baseMpMax" value="1708.8"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="5820.93658315993"/>
+		<set name="basePDef" value="552.978032"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="4182.54818946522"/>
+		<set name="baseMDef" value="606.967992"/>
+		<set name="baseWalkSpd" value="30"/>
+		<set name="baseRunSpd" value="170"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="5"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.54"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="300"/>
+		<set name="shots" value="SOUL_BSPIRIT"/>
+		<faction names="abyss_clan" range="1000"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+			<set name="noRandomWalk" value="true"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="2"/>	<!--Magic Creatures-->
+			<skill id="5464" level="1"/>	<!--Wind Attack-->
+			<skill id="4412" level="7"/>	<!--Weak P. Def.-->
+			<skill id="4413" level="8"/>	<!--Weak M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="1"/>	<!--Bare Hands-->
+			<skill id="4032" level="9" use_type="Skill01_ID"/>	<!--Power Strike-->
+			<skill id="4613" level="9" use_type="Skill02_ID"/>	<!--Clan Heal-->
+			<skill id="4098" level="10" use_type="Skill03_ID"/>	<!--Silence-->
+		</skills>
+		<attributes>
+			<attack attribute="wind" value="100"/>
+		</attributes>
+	</npc>
+	<npc id="22506" name="Boom - Child" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="13.5"/>
+		<set name="collision_radius" value="33"/>
+		<set name="level" value="75"/>
+		<set name="rewardExp" value="10044"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1059"/>
+		<set name="baseHpMax" value="2676.65854"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1507.8"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="476.825406"/>
+		<set name="basePDef" value="287.321607"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="325.609944"/>
+		<set name="baseMDef" value="210.249477"/>
+		<set name="baseWalkSpd" value="250"/>
+		<set name="baseRunSpd" value="300"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<ai_params>
+			<set name="isFlying" value="true"/>
+			<set name="unsowing" value="false"/>
+			<set name="corpse_time" value="0"/>
+			<set name="no_sleep_mode" value="true"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="5814" level="1" use_type="Skill01_ID"/>	<!--Self-destruction-->
+		</skills>
+	</npc>
+	<npc id="22507" name="Boom - Child" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="13.5"/>
+		<set name="collision_radius" value="33"/>
+		<set name="level" value="77"/>
+		<set name="rewardExp" value="10067"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1089"/>
+		<set name="baseHpMax" value="2856.7687256316"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1574"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="513.864335372484"/>
+		<set name="basePDef" value="295.443657"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="350.902732161345"/>
+		<set name="baseMDef" value="216.192843"/>
+		<set name="baseWalkSpd" value="250"/>
+		<set name="baseRunSpd" value="300"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<ai_params>
+			<set name="isFlying" value="true"/>
+			<set name="unsowing" value="false"/>
+			<set name="corpse_time" value="0"/>
+			<set name="no_sleep_mode" value="true"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="5814" level="1" use_type="Skill01_ID"/>	<!--Self-destruction-->
+		</skills>
+	</npc>
+	<npc id="22508" name="Boom - Child" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="13.5"/>
+		<set name="collision_radius" value="33"/>
+		<set name="level" value="80"/>
+		<set name="rewardExp" value="18897"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="424"/>
+		<set name="baseHpMax" value="3290.11306877694"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1674.8"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="582.322529102768"/>
+		<set name="basePDef" value="307.2375"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="397.650797477647"/>
+		<set name="baseMDef" value="224.823069"/>
+		<set name="baseWalkSpd" value="250"/>
+		<set name="baseRunSpd" value="300"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<ai_params>
+			<set name="isFlying" value="true"/>
+			<set name="unsowing" value="false"/>
+			<set name="corpse_time" value="0"/>
+			<set name="no_sleep_mode" value="true"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="5814" level="1" use_type="Skill01_ID"/>	<!--Self-destruction-->
+		</skills>
+	</npc>
+	<npc id="22536" name="Royal Guard Captain" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="55"/>
+		<set name="collision_radius" value="40"/>
+		<set name="level" value="95"/>
+		<set name="rewardExp" value="600558"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="12198"/>
+		<set name="baseHpMax" value="321920.871586548"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="110.577296732991"/>
+		<set name="baseMpMax" value="22058"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="5940.3994655008"/>
+		<set name="basePDef" value="582.692054494118"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="4128.10845732292"/>
+		<set name="baseMDef" value="639.583141129412"/>
+		<set name="baseWalkSpd" value="100"/>
+		<set name="baseRunSpd" value="200"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="80"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="POLE"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="SOUL_BSPIRIT"/>
+		<faction names="des_dragon" range="1000"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="no_sleep_mode" value="true"/>
+			<set name="canSeeInSilentMove" value="true"/>
+			<set name="noRandomWalk" value="true"/>
+			<set name="transformChance" value="3"/>
+			<set name="transformOnDead" value="22545"/>
+			<set name="max_pursue_range" value="6000"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="10"/>	<!--Dragons-->
+			<skill id="5462" level="1"/>	<!--Fire Attack-->
+			<skill id="4410" level="20"/>	<!--Extremely Strong P. Atk.-->
+			<skill id="4411" level="17"/>	<!--Very Strong M. Atk.-->
+			<skill id="4412" level="17"/>	<!--Very Strong P. Def.-->
+			<skill id="4413" level="12"/>	<!--Slightly Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="11"/>	<!--Spear-->
+			<skill id="5274" level="5" use_type="Skill01_ID"/>	<!--Power Shot-->
+			<skill id="5826" level="1" use_type="Breath"/>	<!--Fire Breath-->
+			<skill id="4072" level="10" use_type="SelfRangeDD_ID"/>	<!--Stun-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="934" max="2169" chance="70.0000"/>
+			<reward item_id="6346" min="5" max="15" chance="3.0303"/>
+			<reward item_id="6344" min="3" max="4" chance="3.0303"/>
+			<reward item_id="36523" min="1" max="1" chance="1.8182"/>
+			<reward item_id="6342" min="9" max="27" chance="1.6560"/>
+			<reward item_id="36563" min="1" max="1" chance="0.3003"/>
+			<reward item_id="36548" min="1" max="1" chance="0.3003"/>
+			<reward item_id="6853" min="1" max="1" chance="0.3003"/>
+			<reward item_id="6326" min="1" max="1" chance="0.3003"/>
+			<reward item_id="6327" min="1" max="1" chance="0.3003"/>
+			<reward item_id="6328" min="1" max="1" chance="0.3003"/>
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="36532" min="1" max="1" chance="75.6700"/>
+			<reward item_id="36533" min="1" max="1" chance="14.0000"/>
+			<reward item_id="36881" min="1" max="1" chance="0.3003"/>
+			<reward item_id="36882" min="1" max="1" chance="0.3003"/>
+		</rewardlist>
+		<attributes>
+			<attack attribute="fire" value="100"/>
+		</attributes>
+	</npc>
+	<npc id="22537" name="Dragontroop Spellshifter" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Mystic"/>
+		<set name="collision_height" value="49.90000153"/>
+		<set name="collision_radius" value="29"/>
+		<set name="level" value="95"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="321920.871586548"/>
+		<set name="baseHpRate" value="0.5"/>
+		<set name="baseHpReg" value="110.577296732991"/>
+		<set name="baseMpMax" value="33087"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="5940.3994655008"/>
+		<set name="basePDef" value="582.692054494118"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="4128.10845732292"/>
+		<set name="baseMDef" value="639.583141129412"/>
+		<set name="baseWalkSpd" value="43"/>
+		<set name="baseRunSpd" value="170"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.42"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="SOUL_BSPIRIT"/>
+		<faction names="des_dragon" range="1000"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="no_sleep_mode" value="true"/>
+			<set name="canSeeInSilentMove" value="true"/>
+			<set name="noRandomWalk" value="true"/>
+			<set name="transformChance" value="3"/>
+			<set name="transformOnDead" value="22545"/>
+			<set name="max_pursue_range" value="6000"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="10"/>	<!--Dragons-->
+			<skill id="5462" level="1"/>	<!--Fire Attack-->
+			<skill id="4410" level="14"/>	<!--Strong P. Atk.-->
+			<skill id="4411" level="15"/>	<!--Strong M. Atk.-->
+			<skill id="4412" level="14"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="14"/>	<!--Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="5328" level="5" use_type="Skill01_ID"/>	<!--Unholy Strike-->
+			<skill id="5829" level="1" use_type="Skill02_ID"/>	<!--Fire Flare-->
+			<skill id="5826" level="1" use_type="Breath"/>	<!--Fire Breath-->
+		</skills>
+		<attributes>
+			<attack attribute="fire" value="100"/>
+		</attributes>
+	</npc>
+	<npc id="22538" name="Dragontroop Commander" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="46.5"/>
+		<set name="collision_radius" value="28"/>
+		<set name="level" value="95"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="321920.871586548"/>
+		<set name="baseHpRate" value="0.5"/>
+		<set name="baseHpReg" value="111.50705124295"/>
+		<set name="baseMpMax" value="22058"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="5883.7041177888"/>
+		<set name="basePDef" value="572.839225223529"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="4065.07551523469"/>
+		<set name="baseMDef" value="628.768339764706"/>
+		<set name="baseWalkSpd" value="55"/>
+		<set name="baseRunSpd" value="210"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="80"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="POLE"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="SOUL_BSPIRIT"/>
+		<faction names="des_dragon" range="1000"/>
+		<equip>
+			<rhand item_id="13978"/>	<!--Monster Only (Dragontroop Commander)-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="no_sleep_mode" value="true"/>
+			<set name="canSeeInSilentMove" value="true"/>
+			<set name="noRandomWalk" value="true"/>
+			<set name="transformChance" value="3"/>
+			<set name="transformOnDead" value="22545"/>
+			<set name="max_pursue_range" value="6000"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="10"/>	<!--Dragons-->
+			<skill id="5462" level="1"/>	<!--Fire Attack-->
+			<skill id="4410" level="17"/>	<!--Very Strong P. Atk.-->
+			<skill id="4411" level="17"/>	<!--Very Strong M. Atk.-->
+			<skill id="4412" level="14"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="14"/>	<!--Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="11"/>	<!--Spear-->
+			<skill id="5830" level="1" use_type="Skill01_ID"/>	<!--Polearm Thrust-->
+			<skill id="5827" level="5" use_type="Breath"/>	<!--Fireball-->
+			<skill id="5831" level="1" use_type="SelfRangeDD_ID"/>	<!--Polearm Swing-->
+		</skills>
+		<attributes>
+			<attack attribute="fire" value="100"/>
+		</attributes>
+	</npc>
+	<npc id="22539" name="Dragontroop Commando" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="46.5"/>
+		<set name="collision_radius" value="28"/>
+		<set name="level" value="95"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="321920.871586548"/>
+		<set name="baseHpRate" value="0.5"/>
+		<set name="baseHpReg" value="112.558039826218"/>
+		<set name="baseMpMax" value="22058"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="5827.40072171705"/>
+		<set name="basePDef" value="562.931629835294"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="4002.76724651153"/>
+		<set name="baseMDef" value="617.893411764706"/>
+		<set name="baseWalkSpd" value="55"/>
+		<set name="baseRunSpd" value="210"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="80"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="POLE"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="SOUL_BSPIRIT"/>
+		<faction names="des_dragon" range="1000"/>
+		<equip>
+			<rhand item_id="13978"/>	<!--Monster Only (Dragontroop Commander)-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="no_sleep_mode" value="true"/>
+			<set name="canSeeInSilentMove" value="true"/>
+			<set name="noRandomWalk" value="true"/>
+			<set name="transformChance" value="3"/>
+			<set name="transformOnDead" value="22545"/>
+			<set name="max_pursue_range" value="6000"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="10"/>	<!--Dragons-->
+			<skill id="5462" level="1"/>	<!--Fire Attack-->
+			<skill id="4410" level="17"/>	<!--Very Strong P. Atk.-->
+			<skill id="4411" level="17"/>	<!--Very Strong M. Atk.-->
+			<skill id="4412" level="14"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="14"/>	<!--Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="11"/>	<!--Spear-->
+			<skill id="5830" level="1" use_type="Skill01_ID"/>	<!--Polearm Thrust-->
+			<skill id="5827" level="4" use_type="Breath"/>	<!--Fireball-->
+			<skill id="5831" level="1" use_type="SelfRangeDD_ID"/>	<!--Polearm Swing-->
+		</skills>
+		<attributes>
+			<attack attribute="fire" value="100"/>
+		</attributes>
+	</npc>
+	<npc id="22540" name="Dragontroop Centurion" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="42"/>
+		<set name="collision_radius" value="22"/>
+		<set name="level" value="95"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="321920.871586548"/>
+		<set name="baseHpRate" value="0.5"/>
+		<set name="baseHpReg" value="113.419259781018"/>
+		<set name="baseMpMax" value="22058"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="5770.14557436436"/>
+		<set name="basePDef" value="552.978032"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="3940.26143244462"/>
+		<set name="baseMDef" value="606.967992"/>
+		<set name="baseWalkSpd" value="56"/>
+		<set name="baseRunSpd" value="210"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.45"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="SOUL_BSPIRIT"/>
+		<faction names="des_dragon" range="1000"/>
+		<equip>
+			<rhand item_id="13979"/>	<!--Monster Only (Dragontroop Commando)-->
+			<lhand item_id="13980"/>	<!--Monster Only (Dragontroop Defender)-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="no_sleep_mode" value="true"/>
+			<set name="canSeeInSilentMove" value="true"/>
+			<set name="noRandomWalk" value="true"/>
+			<set name="transformChance" value="3"/>
+			<set name="transformOnDead" value="22545"/>
+			<set name="max_pursue_range" value="6000"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="10"/>	<!--Dragons-->
+			<skill id="5462" level="1"/>	<!--Fire Attack-->
+			<skill id="4410" level="14"/>	<!--Strong P. Atk.-->
+			<skill id="4411" level="14"/>	<!--Strong M. Atk.-->
+			<skill id="4412" level="17"/>	<!--Very Strong P. Def.-->
+			<skill id="4413" level="18"/>	<!--Extremely Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="5274" level="5" use_type="Skill01_ID"/>	<!--Power Shot-->
+			<skill id="5827" level="4" use_type="Breath"/>	<!--Fireball-->
+			<skill id="5832" level="1" use_type="SelfRangeDD_ID"/>	<!--Aggression Aura-->
+		</skills>
+		<attributes>
+			<attack attribute="fire" value="100"/>
+		</attributes>
+	</npc>
+	<npc id="22541" name="Dragontroop Infantry" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="42"/>
+		<set name="collision_radius" value="22"/>
+		<set name="level" value="94"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="313367.483038276"/>
+		<set name="baseHpRate" value="0.5"/>
+		<set name="baseHpReg" value="114.399578021039"/>
+		<set name="baseMpMax" value="21690"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="5746.81895750842"/>
+		<set name="basePDef" value="546.2"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="3924.33235398589"/>
+		<set name="baseMDef" value="599.528184"/>
+		<set name="baseWalkSpd" value="56"/>
+		<set name="baseRunSpd" value="210"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.45"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="SOUL_BSPIRIT"/>
+		<faction names="des_dragon" range="1000"/>
+		<equip>
+			<rhand item_id="13979"/>	<!--Monster Only (Dragontroop Commando)-->
+			<lhand item_id="13980"/>	<!--Monster Only (Dragontroop Defender)-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="no_sleep_mode" value="true"/>
+			<set name="canSeeInSilentMove" value="true"/>
+			<set name="noRandomWalk" value="true"/>
+			<set name="transformChance" value="3"/>
+			<set name="transformOnDead" value="22545"/>
+			<set name="max_pursue_range" value="6000"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="10"/>	<!--Dragons-->
+			<skill id="5462" level="1"/>	<!--Fire Attack-->
+			<skill id="4410" level="14"/>	<!--Strong P. Atk.-->
+			<skill id="4411" level="14"/>	<!--Strong M. Atk.-->
+			<skill id="4412" level="17"/>	<!--Very Strong P. Def.-->
+			<skill id="4413" level="18"/>	<!--Extremely Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="5274" level="5" use_type="Skill01_ID"/>	<!--Power Shot-->
+			<skill id="5827" level="3" use_type="Breath"/>	<!--Fireball-->
+			<skill id="5832" level="1" use_type="SelfRangeDD_ID"/>	<!--Aggression Aura-->
+		</skills>
+		<attributes>
+			<attack attribute="fire" value="100"/>
+		</attributes>
+	</npc>
+	<npc id="22542" name="Dragontroop Archmage" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Mystic"/>
+		<set name="collision_height" value="39.5"/>
+		<set name="collision_radius" value="28"/>
+		<set name="level" value="95"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="321920.871586548"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="112.558039826218"/>
+		<set name="baseMpMax" value="33087"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="5827.40072171705"/>
+		<set name="basePDef" value="562.931629835294"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="4002.76724651153"/>
+		<set name="baseMDef" value="617.893411764706"/>
+		<set name="baseWalkSpd" value="92"/>
+		<set name="baseRunSpd" value="170"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="SOUL_BSPIRIT"/>
+		<faction names="des_dragon" range="1000"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="no_sleep_mode" value="true"/>
+			<set name="canSeeInSilentMove" value="true"/>
+			<set name="noRandomWalk" value="true"/>
+			<set name="transformChance" value="3"/>
+			<set name="transformOnDead" value="22545"/>
+			<set name="max_pursue_range" value="6000"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="10"/>	<!--Dragons-->
+			<skill id="5462" level="1"/>	<!--Fire Attack-->
+			<skill id="4410" level="17"/>	<!--Very Strong P. Atk.-->
+			<skill id="4411" level="19"/>	<!--Extremely Strong M. Atk.-->
+			<skill id="4412" level="14"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="14"/>	<!--Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="5312" level="5" use_type="Skill01_ID"/>	<!--Blaze-->
+			<skill id="5829" level="5" use_type="Skill02_ID"/>	<!--Fire Flare-->
+			<skill id="5827" level="4" use_type="Breath"/>	<!--Fireball-->
+			<skill id="5833" level="1" use_type="Buff"/>	<!--Shield-->
+		</skills>
+		<attributes>
+			<attack attribute="fire" value="100"/>
+		</attributes>
+	</npc>
+	<npc id="22543" name="Dragontroop Wizard" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Mystic"/>
+		<set name="collision_height" value="39.5"/>
+		<set name="collision_radius" value="28"/>
+		<set name="level" value="95"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="321920.871586548"/>
+		<set name="baseHpRate" value="0.5"/>
+		<set name="baseHpReg" value="113.419259781018"/>
+		<set name="baseMpMax" value="33087"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="5770.14557436436"/>
+		<set name="basePDef" value="552.978032"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="3940.26143244462"/>
+		<set name="baseMDef" value="606.967992"/>
+		<set name="baseWalkSpd" value="92"/>
+		<set name="baseRunSpd" value="170"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="SOUL_BSPIRIT"/>
+		<faction names="des_dragon" range="1000"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="no_sleep_mode" value="true"/>
+			<set name="canSeeInSilentMove" value="true"/>
+			<set name="noRandomWalk" value="true"/>
+			<set name="transformChance" value="3"/>
+			<set name="transformOnDead" value="22545"/>
+			<set name="max_pursue_range" value="6000"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="10"/>	<!--Dragons-->
+			<skill id="5462" level="1"/>	<!--Fire Attack-->
+			<skill id="4410" level="14"/>	<!--Strong P. Atk.-->
+			<skill id="4411" level="14"/>	<!--Strong M. Atk.-->
+			<skill id="4412" level="14"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="14"/>	<!--Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="5312" level="5" use_type="Skill01_ID"/>	<!--Blaze-->
+			<skill id="5829" level="4" use_type="Skill02_ID"/>	<!--Fire Flare-->
+			<skill id="5827" level="4" use_type="Breath"/>	<!--Fireball-->
+			<skill id="5833" level="1" use_type="Buff"/>	<!--Shield-->
+		</skills>
+		<attributes>
+			<attack attribute="fire" value="100"/>
+		</attributes>
+	</npc>
+	<npc id="22544" name="Dragontroop Magic Blader" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Mystic"/>
+		<set name="collision_height" value="34.5"/>
+		<set name="collision_radius" value="25"/>
+		<set name="level" value="94"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="313367.483038276"/>
+		<set name="baseHpRate" value="0.5"/>
+		<set name="baseHpReg" value="114.399578021039"/>
+		<set name="baseMpMax" value="32535"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="5746.81895750842"/>
+		<set name="basePDef" value="546.2"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="3924.33235398589"/>
+		<set name="baseMDef" value="599.528184"/>
+		<set name="baseWalkSpd" value="82"/>
+		<set name="baseRunSpd" value="170"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="SOUL_BSPIRIT"/>
+		<faction names="des_dragon" range="1000"/>
+		<equip>
+			<rhand item_id="13981"/>	<!--Monster Only (Dragontoop Tactician)-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="no_sleep_mode" value="true"/>
+			<set name="canSeeInSilentMove" value="true"/>
+			<set name="noRandomWalk" value="true"/>
+			<set name="transformChance" value="3"/>
+			<set name="transformOnDead" value="22545"/>
+			<set name="max_pursue_range" value="6000"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="10"/>	<!--Dragons-->
+			<skill id="5462" level="1"/>	<!--Fire Attack-->
+			<skill id="4410" level="14"/>	<!--Strong P. Atk.-->
+			<skill id="4411" level="14"/>	<!--Strong M. Atk.-->
+			<skill id="4412" level="14"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="14"/>	<!--Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="5312" level="5" use_type="Skill01_ID"/>	<!--Blaze-->
+			<skill id="5829" level="4" use_type="Skill02_ID"/>	<!--Fire Flare-->
+			<skill id="5827" level="3" use_type="Breath"/>	<!--Fireball-->
+			<skill id="5834" level="1" use_type="Buff"/>	<!--Magic Barrier-->
+		</skills>
+		<attributes>
+			<attack attribute="fire" value="100"/>
+		</attributes>
+	</npc>
+	<npc id="22545" name="Dark Dragoness" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="66"/>
+		<set name="collision_radius" value="60"/>
+		<set name="level" value="95"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="321920.871586548"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="111.50705124295"/>
+		<set name="baseMpMax" value="22058"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="5883.7041177888"/>
+		<set name="basePDef" value="572.839225223529"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="4065.07551523469"/>
+		<set name="baseMDef" value="628.768339764706"/>
+		<set name="baseWalkSpd" value="46"/>
+		<set name="baseRunSpd" value="160"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.49"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="SOUL_BSPIRIT"/>
+		<faction names="des_dragon" range="1000"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="no_sleep_mode" value="true"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="10"/>	<!--Dragons-->
+			<skill id="5467" level="1"/>	<!--Dark Attack-->
+			<skill id="4410" level="14"/>	<!--Strong P. Atk.-->
+			<skill id="4411" level="14"/>	<!--Strong M. Atk.-->
+			<skill id="4412" level="19"/>	<!--Extremely Strong P. Def.-->
+			<skill id="4413" level="14"/>	<!--Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4045" level="1"/>	<!--Full Magic Attack Resistance-->
+			<skill id="5328" level="5" use_type="Skill01_ID"/>	<!--Unholy Strike-->
+			<skill id="5828" level="1" use_type="Skill02_ID"/>	<!--Unholy Flare-->
+			<skill id="5827" level="5" use_type="Breath"/>	<!--Fireball-->
+		</skills>
+		<attributes>
+			<attack attribute="unholy" value="100"/>
+		</attributes>
+	</npc>
+	<npc id="22546" name="Berserker" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="55"/>
+		<set name="collision_radius" value="50"/>
+		<set name="level" value="93"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="312844.449201519"/>
+		<set name="baseHpRate" value="0.5"/>
+		<set name="baseHpReg" value="115.295936105422"/>
+		<set name="baseMpMax" value="21324"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="5679.07860126925"/>
+		<set name="basePDef" value="539.312128"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="3878.0744848375"/>
+		<set name="baseMDef" value="591.967824"/>
+		<set name="baseWalkSpd" value="100"/>
+		<set name="baseRunSpd" value="200"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="5"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.57"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="SOUL_BSPIRIT"/>
+		<faction names="des_dragon" range="1000"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="no_sleep_mode" value="true"/>
+			<set name="canSeeInSilentMove" value="true"/>
+			<set name="noRandomWalk" value="true"/>
+			<set name="transformChance" value="3"/>
+			<set name="transformOnDead" value="22545"/>
+			<set name="max_pursue_range" value="6000"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="10"/>	<!--Dragons-->
+			<skill id="5462" level="1"/>	<!--Fire Attack-->
+			<skill id="4410" level="20"/>	<!--Extremely Strong P. Atk.-->
+			<skill id="4411" level="14"/>	<!--Strong M. Atk.-->
+			<skill id="4412" level="9"/>	<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="9"/>	<!--Slightly Weak M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="1"/>	<!--Bare Hands-->
+			<skill id="5274" level="5" use_type="Skill01_ID"/>	<!--Power Shot-->
+			<skill id="4211" level="9" use_type="Buff"/>	<!--Might-->
+		</skills>
+		<attributes>
+			<attack attribute="fire" value="100"/>
+		</attributes>
+	</npc>
+	<npc id="22547" name="Dragontroop Healer" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Priest"/>
+		<set name="collision_height" value="34.5"/>
+		<set name="collision_radius" value="25"/>
+		<set name="level" value="93"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="312844.449201519"/>
+		<set name="baseHpRate" value="0.5"/>
+		<set name="baseHpReg" value="115.295936105422"/>
+		<set name="baseMpMax" value="31986"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="5679.07860126925"/>
+		<set name="basePDef" value="539.312128"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="3878.0744848375"/>
+		<set name="baseMDef" value="591.967824"/>
+		<set name="baseWalkSpd" value="82"/>
+		<set name="baseRunSpd" value="170"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="SOUL_BSPIRIT"/>
+		<faction names="des_dragon" range="1000"/>
+		<equip>
+			<rhand item_id="13981"/>	<!--Monster Only (Dragontoop Tactician)-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="no_sleep_mode" value="true"/>
+			<set name="canSeeInSilentMove" value="true"/>
+			<set name="noRandomWalk" value="true"/>
+			<set name="transformChance" value="3"/>
+			<set name="transformOnDead" value="22545"/>
+			<set name="max_pursue_range" value="6000"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="10"/>	<!--Dragons-->
+			<skill id="5462" level="1"/>	<!--Fire Attack-->
+			<skill id="4410" level="14"/>	<!--Strong P. Atk.-->
+			<skill id="4411" level="14"/>	<!--Strong M. Atk.-->
+			<skill id="4412" level="14"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="14"/>	<!--Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="5835" level="1" use_type="Skill01_ID"/>	<!--Major Heal-->
+			<skill id="5836" level="1" use_type="Skill02_ID"/>	<!--Greater Heal-->
+			<skill id="4608" level="2" use_type="Buff"/>	<!--Berserker Spirit-->
+		</skills>
+		<attributes>
+			<attack attribute="fire" value="100"/>
+		</attributes>
+	</npc>
+	<npc id="22548" name="Dragontroop Lancer" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Ranger"/>
+		<set name="collision_height" value="46.5"/>
+		<set name="collision_radius" value="25"/>
+		<set name="level" value="94"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="313367.483038276"/>
+		<set name="baseHpRate" value="0.5"/>
+		<set name="baseHpReg" value="114.399578021039"/>
+		<set name="baseMpMax" value="21690"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="80"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="5746.81895750842"/>
+		<set name="basePDef" value="546.2"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="3924.33235398589"/>
+		<set name="baseMDef" value="599.528184"/>
+		<set name="baseWalkSpd" value="89"/>
+		<set name="baseRunSpd" value="220"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="1100"/>
+		<set name="baseRandDam" value="5"/>
+		<set name="baseAttackType" value="BOW"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="1500"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="SOUL_BSPIRIT"/>
+		<faction names="des_dragon" range="1000"/>
+		<equip>
+			<rhand item_id="13843"/>	<!--Draconic Peltast Weapon-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="no_sleep_mode" value="true"/>
+			<set name="canSeeInSilentMove" value="true"/>
+			<set name="noRandomWalk" value="true"/>
+			<set name="transformChance" value="3"/>
+			<set name="transformOnDead" value="22545"/>
+			<set name="max_pursue_range" value="6000"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="10"/>	<!--Dragons-->
+			<skill id="5462" level="1"/>	<!--Fire Attack-->
+			<skill id="4412" level="12"/>	<!--Slightly Strong P. Def.-->
+			<skill id="4413" level="12"/>	<!--Slightly Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="9"/>	<!--Bow-->
+			<skill id="5837" level="1" use_type="Skill01_ID"/>	<!--Double Throw Javelin-->
+			<skill id="5838" level="1" use_type="Skill02_ID"/>	<!--Throw Javelin-->
+		</skills>
+		<attributes>
+			<attack attribute="fire" value="100"/>
+		</attributes>
+	</npc>
+	<npc id="22549" name="Dragontroop Lancer" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Ranger"/>
+		<set name="collision_height" value="46.5"/>
+		<set name="collision_radius" value="25"/>
+		<set name="level" value="94"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="313367.483038276"/>
+		<set name="baseHpRate" value="0.5"/>
+		<set name="baseHpReg" value="114.399578021039"/>
+		<set name="baseMpMax" value="21690"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="80"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="5746.81895750842"/>
+		<set name="basePDef" value="546.2"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="3924.33235398589"/>
+		<set name="baseMDef" value="599.528184"/>
+		<set name="baseWalkSpd" value="89"/>
+		<set name="baseRunSpd" value="220"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="1100"/>
+		<set name="baseRandDam" value="5"/>
+		<set name="baseAttackType" value="BOW"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="1500"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="SOUL_BSPIRIT"/>
+		<faction names="des_dragon" range="1000"/>
+		<equip>
+			<rhand item_id="13843"/>	<!--Draconic Peltast Weapon-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="no_sleep_mode" value="true"/>
+			<set name="canSeeInSilentMove" value="true"/>
+			<set name="noRandomWalk" value="true"/>
+			<set name="transformChance" value="3"/>
+			<set name="transformOnDead" value="22545"/>
+			<set name="max_pursue_range" value="6000"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="10"/>	<!--Dragons-->
+			<skill id="5462" level="1"/>	<!--Fire Attack-->
+			<skill id="4412" level="12"/>	<!--Slightly Strong P. Def.-->
+			<skill id="4413" level="12"/>	<!--Slightly Strong M. Def.-->
+			<skill id="4441" level="5"/>	<!--Greater Mental Attack Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="9"/>	<!--Bow-->
+			<skill id="5837" level="1" use_type="Skill01_ID"/>	<!--Double Throw Javelin-->
+			<skill id="5838" level="1" use_type="Skill02_ID"/>	<!--Throw Javelin-->
+		</skills>
+		<attributes>
+			<attack attribute="fire" value="100"/>
+		</attributes>
+	</npc>
+	<npc id="22550" name="Savage Warrior" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="48.5"/>
+		<set name="collision_radius" value="27"/>
+		<set name="level" value="93"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="312844.449201519"/>
+		<set name="baseHpRate" value="0.5"/>
+		<set name="baseHpReg" value="69.074398826847"/>
+		<set name="baseMpMax" value="21324"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="4149.83975268227"/>
+		<set name="basePDef" value="525.233168"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="2833.8026342934"/>
+		<set name="baseMDef" value="576.514248"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="200"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="20"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="9"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="SOUL_BSPIRIT"/>
+		<faction names="des_dragon" range="1000"/>
+		<equip>
+			<rhand item_id="13987"/>	<!--Monster Only (Savage Warrior)-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="no_sleep_mode" value="true"/>
+			<set name="transformChance" value="3"/>
+			<set name="transformOnDead" value="22545"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+			<skill id="5467" level="1"/>	<!--Dark Attack-->
+			<skill id="4410" level="14"/>	<!--Strong P. Atk.-->
+			<skill id="4411" level="14"/>	<!--Strong M. Atk.-->
+			<skill id="4412" level="14"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="14"/>	<!--Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="5"/>	<!--Blunt Weapon-->
+			<skill id="5274" level="5" use_type="Skill01_ID"/>	<!--Power Shot-->
+			<skill id="5309" level="5" use_type="Skill02_ID"/>	<!--Bleed-->
+			<skill id="5202" level="9" use_type="SelfRangeDD_ID"/>	<!--Stun-->
+		</skills>
+		<attributes>
+			<attack attribute="unholy" value="100"/>
+		</attributes>
+	</npc>
+	<npc id="22551" name="Priest of Darkness" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Mystic"/>
+		<set name="collision_height" value="44"/>
+		<set name="collision_radius" value="19"/>
+		<set name="level" value="93"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="312844.449201519"/>
+		<set name="baseHpRate" value="0.5"/>
+		<set name="baseHpReg" value="69.5153124125026"/>
+		<set name="baseMpMax" value="31986"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="4090.13416907694"/>
+		<set name="basePDef" value="518.05528"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="2793.03141458148"/>
+		<set name="baseMDef" value="568.635576"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="170"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="SOUL_BSPIRIT"/>
+		<faction names="des_dragon" range="1000"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="no_sleep_mode" value="true"/>
+			<set name="transformChance" value="3"/>
+			<set name="transformOnDead" value="22545"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+			<skill id="5467" level="1"/>	<!--Dark Attack-->
+			<skill id="4410" level="14"/>	<!--Strong P. Atk.-->
+			<skill id="4411" level="14"/>	<!--Strong M. Atk.-->
+			<skill id="4412" level="14"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="14"/>	<!--Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="5328" level="5" use_type="Skill01_ID"/>	<!--Unholy Strike-->
+			<skill id="5828" level="1" use_type="Skill02_ID"/>	<!--Unholy Flare-->
+		</skills>
+		<attributes>
+			<attack attribute="unholy" value="100"/>
+		</attributes>
+	</npc>
+	<npc id="22552" name="Mutated Drake" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="53.5"/>
+		<set name="collision_radius" value="48"/>
+		<set name="level" value="93"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="312844.449201519"/>
+		<set name="baseHpRate" value="0.5"/>
+		<set name="baseHpReg" value="116.187487396794"/>
+		<set name="baseMpMax" value="21324"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="5606.1418676707"/>
+		<set name="basePDef" value="532.320976"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="3828.26821037257"/>
+		<set name="baseMDef" value="584.294088"/>
+		<set name="baseWalkSpd" value="46"/>
+		<set name="baseRunSpd" value="200"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="SOUL_BSPIRIT"/>
+		<faction names="des_dragon" range="1000"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="no_sleep_mode" value="true"/>
+			<set name="transformChance" value="3"/>
+			<set name="transformOnDead" value="22545"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="10"/>	<!--Dragons-->
+			<skill id="5462" level="1"/>	<!--Fire Attack-->
+			<skill id="4410" level="14"/>	<!--Strong P. Atk.-->
+			<skill id="4411" level="14"/>	<!--Strong M. Atk.-->
+			<skill id="4412" level="14"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="14"/>	<!--Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="5274" level="5" use_type="Skill01_ID"/>	<!--Power Shot-->
+		</skills>
+		<attributes>
+			<attack attribute="fire" value="100"/>
+		</attributes>
+	</npc>
+	<npc id="22553" name="Large Crystal Core" title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="140"/>
+		<set name="collision_radius" value="62"/>
+		<set name="level" value="75"/>
+		<set name="rewardExp" value="8087"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="852"/>
+		<set name="baseHpMax" value="2676.65854"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1507.8"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="794.70901"/>
+		<set name="basePDef" value="319.24623"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="542.68324"/>
+		<set name="baseMDef" value="233.61053"/>
+		<set name="baseWalkSpd" value="1"/>
+		<set name="baseRunSpd" value="1"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<ai_params>
+			<set name="isFlying" value="true"/>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="2"/>	<!--Magic Creatures-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+		</skills>
+	</npc>
+	<npc id="22554" name="Small Crystal Core" title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="140"/>
+		<set name="collision_radius" value="62"/>
+		<set name="level" value="75"/>
+		<set name="rewardExp" value="8087"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="852"/>
+		<set name="baseHpMax" value="2676.65854"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1507.8"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="794.70901"/>
+		<set name="basePDef" value="319.24623"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="542.68324"/>
+		<set name="baseMDef" value="233.61053"/>
+		<set name="baseWalkSpd" value="1"/>
+		<set name="baseRunSpd" value="1"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<ai_params>
+			<set name="isFlying" value="true"/>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="2"/>	<!--Magic Creatures-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+		</skills>
+	</npc>
+	<npc id="22555" name="Small Crystal Core" title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="140"/>
+		<set name="collision_radius" value="62"/>
+		<set name="level" value="75"/>
+		<set name="rewardExp" value="8087"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="852"/>
+		<set name="baseHpMax" value="2676.65854"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1507.8"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="794.70901"/>
+		<set name="basePDef" value="319.24623"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="542.68324"/>
+		<set name="baseMDef" value="233.61053"/>
+		<set name="baseWalkSpd" value="1"/>
+		<set name="baseRunSpd" value="1"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<ai_params>
+			<set name="isFlying" value="true"/>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="2"/>	<!--Magic Creatures-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+		</skills>
+	</npc>
+	<npc id="22556" name="Small Crystal Core" title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="140"/>
+		<set name="collision_radius" value="62"/>
+		<set name="level" value="75"/>
+		<set name="rewardExp" value="8087"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="852"/>
+		<set name="baseHpMax" value="2676.65854"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1507.8"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="794.70901"/>
+		<set name="basePDef" value="319.24623"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="542.68324"/>
+		<set name="baseMDef" value="233.61053"/>
+		<set name="baseWalkSpd" value="1"/>
+		<set name="baseRunSpd" value="1"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<ai_params>
+			<set name="isFlying" value="true"/>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="2"/>	<!--Magic Creatures-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+		</skills>
+	</npc>
+	<npc id="22557" name="Defense Mechanism" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="133.5"/>
+		<set name="collision_radius" value="86"/>
+		<set name="level" value="75"/>
+		<set name="rewardExp" value="8087"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="852"/>
+		<set name="baseHpMax" value="2676.65854"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1507.8"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="794.70901"/>
+		<set name="basePDef" value="319.24623"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="542.68324"/>
+		<set name="baseMDef" value="233.61053"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="300"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<ai_params>
+			<set name="isFlying" value="true"/>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="2"/>	<!--Magic Creatures-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4045" level="1"/>	<!--Full Magic Attack Resistance-->
+			<skill id="5961" level="1" use_type="Skill01_ID"/>	<!--Barrier Thunder Storm-->
+		</skills>
+	</npc>
+	<npc id="22558" name="Defense Battery" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="133.5"/>
+		<set name="collision_radius" value="86"/>
+		<set name="level" value="75"/>
+		<set name="rewardExp" value="8087"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="852"/>
+		<set name="baseHpMax" value="2676.65854"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1507.8"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="794.70901"/>
+		<set name="basePDef" value="319.24623"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="542.68324"/>
+		<set name="baseMDef" value="233.61053"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="300"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<ai_params>
+			<set name="isFlying" value="true"/>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="2"/>	<!--Magic Creatures-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4045" level="1"/>	<!--Full Magic Attack Resistance-->
+			<skill id="5962" level="1" use_type="Skill01_ID"/>	<!--Air Defense Cannon-->
+		</skills>
+	</npc>
+	<npc id="22593" name="Dragontroop Magic Blader" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Mystic"/>
+		<set name="collision_height" value="34.5"/>
+		<set name="collision_radius" value="25"/>
+		<set name="level" value="94"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="313367.483038276"/>
+		<set name="baseHpRate" value="0.5"/>
+		<set name="baseHpReg" value="114.399578021039"/>
+		<set name="baseMpMax" value="32535"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="5746.81895750842"/>
+		<set name="basePDef" value="546.2"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="3924.33235398589"/>
+		<set name="baseMDef" value="599.528184"/>
+		<set name="baseWalkSpd" value="82"/>
+		<set name="baseRunSpd" value="170"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="SOUL_BSPIRIT"/>
+		<faction names="des_dragon" range="1000"/>
+		<equip>
+			<rhand item_id="13981"/>	<!--Monster Only (Dragontoop Tactician)-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="no_sleep_mode" value="true"/>
+			<set name="canSeeInSilentMove" value="true"/>
+			<set name="noRandomWalk" value="true"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="10"/>	<!--Dragons-->
+			<skill id="5462" level="1"/>	<!--Fire Attack-->
+			<skill id="4410" level="14"/>	<!--Strong P. Atk.-->
+			<skill id="4411" level="14"/>	<!--Strong M. Atk.-->
+			<skill id="4412" level="14"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="18"/>	<!--Extremely Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="5312" level="5" use_type="Skill01_ID"/>	<!--Blaze-->
+			<skill id="5829" level="4" use_type="Skill02_ID"/>	<!--Fire Flare-->
+			<skill id="5827" level="3" use_type="Breath"/>	<!--Fireball-->
+			<skill id="5834" level="1" use_type="Buff"/>	<!--Magic Barrier-->
+		</skills>
+		<attributes>
+			<attack attribute="fire" value="100"/>
+		</attributes>
+	</npc>
+	<npc id="22596" name="Dragontroop Centurion" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="42"/>
+		<set name="collision_radius" value="22"/>
+		<set name="level" value="95"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="321920.871586548"/>
+		<set name="baseHpRate" value="0.5"/>
+		<set name="baseHpReg" value="113.419259781018"/>
+		<set name="baseMpMax" value="22058"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="5770.14557436436"/>
+		<set name="basePDef" value="552.978032"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="3940.26143244462"/>
+		<set name="baseMDef" value="606.967992"/>
+		<set name="baseWalkSpd" value="56"/>
+		<set name="baseRunSpd" value="210"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.45"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="SOUL_BSPIRIT"/>
+		<faction names="des_dragon" range="1000"/>
+		<equip>
+			<rhand item_id="13979"/>	<!--Monster Only (Dragontroop Commando)-->
+			<lhand item_id="13980"/>	<!--Monster Only (Dragontroop Defender)-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="no_sleep_mode" value="true"/>
+			<set name="canSeeInSilentMove" value="true"/>
+			<set name="noRandomWalk" value="true"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="10"/>	<!--Dragons-->
+			<skill id="5462" level="1"/>	<!--Fire Attack-->
+			<skill id="4410" level="14"/>	<!--Strong P. Atk.-->
+			<skill id="4411" level="14"/>	<!--Strong M. Atk.-->
+			<skill id="4412" level="17"/>	<!--Very Strong P. Def.-->
+			<skill id="4413" level="18"/>	<!--Extremely Strong M. Def.-->
+			<skill id="4441" level="5"/>	<!--Greater Mental Attack Resistance-->
+			<skill id="4071" level="5"/>	<!--Bow/Crossbow Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="5274" level="5" use_type="Skill01_ID"/>	<!--Power Shot-->
+			<skill id="5827" level="4" use_type="Breath"/>	<!--Fireball-->
+			<skill id="5832" level="1" use_type="SelfRangeDD_ID"/>	<!--Aggression Aura-->
+		</skills>
+		<attributes>
+			<attack attribute="fire" value="100"/>
+		</attributes>
+	</npc>
+	<npc id="22597" name="Dragontroop Infantry" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="42"/>
+		<set name="collision_radius" value="22"/>
+		<set name="level" value="94"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="313367.483038276"/>
+		<set name="baseHpRate" value="0.5"/>
+		<set name="baseHpReg" value="114.399578021039"/>
+		<set name="baseMpMax" value="21690"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="5746.81895750842"/>
+		<set name="basePDef" value="546.2"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="3924.33235398589"/>
+		<set name="baseMDef" value="599.528184"/>
+		<set name="baseWalkSpd" value="56"/>
+		<set name="baseRunSpd" value="210"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.45"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="SOUL_BSPIRIT"/>
+		<faction names="des_dragon" range="1000"/>
+		<equip>
+			<rhand item_id="13979"/>	<!--Monster Only (Dragontroop Commando)-->
+			<lhand item_id="13980"/>	<!--Monster Only (Dragontroop Defender)-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="no_sleep_mode" value="true"/>
+			<set name="canSeeInSilentMove" value="true"/>
+			<set name="noRandomWalk" value="true"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="10"/>	<!--Dragons-->
+			<skill id="5462" level="1"/>	<!--Fire Attack-->
+			<skill id="4410" level="14"/>	<!--Strong P. Atk.-->
+			<skill id="4411" level="14"/>	<!--Strong M. Atk.-->
+			<skill id="4412" level="17"/>	<!--Very Strong P. Def.-->
+			<skill id="4413" level="18"/>	<!--Extremely Strong M. Def.-->
+			<skill id="4441" level="5"/>	<!--Greater Mental Attack Resistance-->
+			<skill id="4071" level="5"/>	<!--Bow/Crossbow Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="5274" level="5" use_type="Skill01_ID"/>	<!--Power Shot-->
+			<skill id="5827" level="3" use_type="Breath"/>	<!--Fireball-->
+			<skill id="5832" level="1" use_type="SelfRangeDD_ID"/>	<!--Aggression Aura-->
+		</skills>
+		<attributes>
+			<attack attribute="fire" value="100"/>
+		</attributes>
+	</npc>
+</list>

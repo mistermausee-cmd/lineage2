@@ -1,0 +1,201 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<list>
+<!-- By Evil_dnk -->
+	<instance id="162" name="Kimerian - Hard" maxChannels="10" collapseIfEmpty="10" timelimit="120" dispelBuffs="true">
+		<collapse on-party-dismiss="true" timer="60"/>
+		<level min="90"/>
+		<party min="1" max="1"/>
+		<return loc="208088 87352 -1052"/>
+		<teleport loc="222807 72073 1640"/>
+		<remove itemId="0" count="1" necessary="false"/>
+		<give itemId="0" count="0"/>
+		<quest id="0"/>
+		<reuse resetReuse="* */2 * * *" setUponEntry="true" sharedReuseGroup="0"/>
+		<spawns>	
+			<spawn mobId="25748" type="point" respawn="0"><!--Fairy Warrior-->
+				<coords loc="224478 71457 1632 24036" />
+				<coords loc="223531 70445 1632 28492" />
+				<coords loc="224274 71148 1632 22112" />
+				<coords loc="224054 71072 1632 23816" />
+				<coords loc="224274 71148 1632 22112" />
+				<coords loc="223824 70843 1632 21108" />
+				<coords loc="223937 70987 1632 23064" />
+				<coords loc="224254 71376 1632 22068" />
+				<coords loc="223543 70808 1632 26832" />
+				<coords loc="223948 71096 1632 21500" />
+				<coords loc="223752 70928 1632 26032" />
+				<coords loc="224478 71457 1632 24036" />
+				<coords loc="223531 70445 1632 28492" />
+				<coords loc="224042 71254 1632 27248" />
+				<coords loc="223574 70669 1632 26504" />
+				<coords loc="224254 71376 1632 22068" />
+				<coords loc="223697 70781 1632 27044" />
+				<coords loc="223937 70987 1632 23064" />
+				<coords loc="224383 71303 1632 22568" />
+				<coords loc="223798 71085 1632 22760" />
+				<coords loc="224767 71530 1648 22376" />
+				<coords loc="223358 70406 1632 26936" />
+				<coords loc="224054 71072 1632 23816" />
+				<coords loc="224583 71365 1632 20508" />
+				<coords loc="223948 71096 1632 21500" />
+				<coords loc="223448 70562 1632 26296" />
+				<coords loc="223574 70669 1632 26504" />
+				<coords loc="224583 71365 1632 20508" />
+				<coords loc="223448 70562 1632 26296" />
+				<coords loc="224042 71254 1632 27248" />
+				<coords loc="224767 71530 1648 22376" />
+				<coords loc="224054 71072 1632 23816" />
+				<coords loc="223358 70406 1632 26936" />
+				<coords loc="223697 70781 1632 27044" />
+				<coords loc="223798 71085 1632 22760" />
+				<coords loc="224383 71303 1632 22568" />
+			</spawn>			
+			<spawn mobId="32915" type="point" respawn="0"><!--Wisp-->
+				<coords loc="224884 71570 1656 27853" />
+				<coords loc="222752 70376 1656 32073" />
+				<coords loc="224894 71490 1656 7947" />
+				<coords loc="222782 70346 1648 4710" />
+				<coords loc="225098 72902 1504 7665" />
+				<coords loc="222892 70446 1656 43833" />
+				<coords loc="222742 70376 1656 11968" />
+				<coords loc="223704 72686 1680 30194" />
+				<coords loc="223684 72746 1704 53989" />
+				<coords loc="222902 70506 1656 818" />
+				<coords loc="225088 72862 1504 60597" />
+				<coords loc="225208 72952 1496 51203" />
+				<coords loc="223694 72686 1680 59422" />
+				<coords loc="223734 72596 1680 49701" />
+				<coords loc="224864 71480 1656 32650" />
+				<coords loc="223021 70430 1656 13272" />
+				<coords loc="222688 72880 1336 46312" />
+				<coords loc="222464 70480 1648 0" />
+				<coords loc="222400 70160 1584 57920" />
+				<coords loc="222784 72928 1352 3448" />
+				<coords loc="224864 71480 1656 32650" />
+				<coords loc="222752 70376 1656 32073" />
+				<coords loc="224894 71490 1656 7947" />
+				<coords loc="223364 71598 1648 0" />
+				<coords loc="222782 70346 1648 4710" />
+				<coords loc="225098 72902 1504 7665" />
+				<coords loc="222892 70446 1656 43833" />
+				<coords loc="222742 70376 1656 11968" />
+				<coords loc="223704 72686 1680 30194" />
+				<coords loc="223684 72746 1704 53989" />
+				<coords loc="222902 70506 1656 818" />
+				<coords loc="225088 72862 1504 60597" />
+				<coords loc="225208 72952 1496 51203" />
+				<coords loc="223694 72686 1680 59422" />
+				<coords loc="223734 72596 1680 49701" />
+			</spawn>
+			<spawn mobId="32913" type="point" respawn="0"><!--Fairy Rebel-->
+				<coords loc="223664 72256 1632 51636" />
+				<coords loc="223792 72400 1632 49180" />
+				<coords loc="224240 72528 1632 41780" />
+				<coords loc="222496 71376 1632 0" />
+				<coords loc="224128 72720 1624 46516" />
+				<coords loc="222995 71687 1664 56168" />
+				<coords loc="222558 70954 1632 0" />
+				<coords loc="223137 72234 1672 52680" />
+				<coords loc="224850 72315 1616 49768" />
+				<coords loc="223024 71621 1656 0" />
+				<coords loc="222690 71915 1664 60964" />
+				<coords loc="223824 70843 1632 21108" />
+				<coords loc="224257 72393 1632 49708" />
+				<coords loc="222640 70785 1656 61732" />
+				<coords loc="223752 70928 1632 26032" />
+				<coords loc="223247 71920 1664 57796" />
+				<coords loc="223543 70808 1632 26832" />
+				<coords loc="223888 72576 1632 46128" />
+				<coords loc="222624 71664 1632 0" />
+				<coords loc="222558 71198 1632 0" />
+				<coords loc="222794 71296 1632 0" />
+				<coords loc="222548 71718 1640 62032" />
+				<coords loc="222666 71492 1632 0" />
+				<coords loc="222864 71562 1648 64192" />
+				<coords loc="223511 72299 1648 48996" />
+				<coords loc="223586 72139 1632 49588" />
+				<coords loc="222645 71317 1632 0" />
+				<coords loc="223843 72255 1632 49364" />
+				<coords loc="224052 72287 1632 52340" />
+				<coords loc="224691 72463 1688 46184" />
+				<coords loc="224107 72552 1632 50260" />
+				<coords loc="222784 71440 1632 0" />
+				<coords loc="222624 71056 1632 0" />
+				<coords loc="222720 71200 1632 0" />
+				<coords loc="224318 72684 1632 50512" />
+				<coords loc="222720 71568 1632 0" />
+				<coords loc="223664 72528 1664 52500" />
+				<coords loc="223488 72128 1632 47088" />
+				<coords loc="222721 71082 1632 0" />
+				<coords loc="223280 72288 1672 51964" />
+				<coords loc="223664 72256 1632 51636" />
+				<coords loc="222624 71664 1632 0" />
+				<coords loc="223280 72288 1672 51964" />
+				<coords loc="223888 72576 1632 46128" />
+				<coords loc="222496 71376 1632 0" />
+				<coords loc="224128 72720 1624 46516" />
+				<coords loc="223792 72400 1632 49180" />
+				<coords loc="224240 72528 1632 41780" />
+				<coords loc="222558 70954 1632 0" />
+				<coords loc="223488 72128 1632 47088" />
+				<coords loc="222784 71440 1632 0" />
+				<coords loc="223664 72528 1664 52500" />
+				<coords loc="222720 71200 1632 0" />
+				<coords loc="224850 72315 1616 49768" />
+				<coords loc="222624 71056 1632 0" />
+				<coords loc="222721 71082 1632 0" />
+				<coords loc="222720 71568 1632 0" />
+				<coords loc="224318 72684 1632 50512" />
+				<coords loc="224107 72552 1632 50260" />
+				<coords loc="222666 71492 1632 0" />
+				<coords loc="223511 72299 1648 48996" />
+				<coords loc="224052 72287 1632 52340" />
+				<coords loc="224691 72463 1688 46184" />
+				<coords loc="223586 72139 1632 49588" />
+				<coords loc="222864 71562 1648 64192" />
+				<coords loc="223843 72255 1632 49364" />
+				<coords loc="222645 71317 1632 0" />
+				<coords loc="224257 72393 1632 49708" />
+				<coords loc="222548 71718 1640 62032" />
+				<coords loc="222558 71198 1632 0" />
+				<coords loc="222794 71296 1632 0" />
+				<coords loc="222995 71687 1664 56168" />
+				<coords loc="223137 72234 1672 52680" />
+				<coords loc="222993 71924 1664 23678" />
+			</spawn>
+			<spawn mobId="25754" type="point" respawn="0"><!--Treekin Defender-->
+				<coords loc="224580 68752 1576 4060" />
+				<coords loc="224677 68588 1584 10232" />
+				<coords loc="225008 68560 1576 15916" />
+			</spawn>
+			<spawn mobId="25757" type="point" respawn="0"><!--Double Nightmare-->
+				<coords loc="223864 70718 1632 24908" />
+				<coords loc="224268 71051 1632 24052" />
+			</spawn>
+			
+			<spawn mobId="25756" type="point" respawn="0"><!--Beorning Berserker-->
+				<coords loc="224825 68578 1576 15544" />
+				<coords loc="225356 68682 1576 24304" />
+			</spawn>
+			<spawn mobId="25755" type="point" respawn="0"><!--Centaur Archer-->
+				<coords loc="224159 70786 1632 24580" />
+				<coords loc="224369 70874 1632 24028" />
+				<coords loc="224067 70615 1632 24908" />
+				<coords loc="223910 70496 1632 23764" />
+			</spawn>
+			<spawn mobId="32916" type="point" respawn="0"><!--Large Wisp-->
+				<coords loc="222968 72769 1424 50487" />
+				<coords loc="222704 72699 1416 8167" />
+				<coords loc="222396 72489 1416 45895" />
+				<coords loc="222748 72524 1480 13792" />
+				<coords loc="222572 72419 1512 48141" />
+			</spawn>
+	</spawns>		
+	<doors>
+		<door id="26200100"/>
+	</doors>
+	<zones>
+			<zone name="[kimerian_10306_h]" active="true"/>
+		</zones>
+</instance>
+</list>

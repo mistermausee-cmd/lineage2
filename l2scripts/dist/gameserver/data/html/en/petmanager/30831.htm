@@ -1,0 +1,21 @@
+<html><head>
+Pet Manager Nelson:<br>
+Raising pets has become very popular these days, whit pet centers opening up all over. Hunters Village is no exception -- we may be small, but how can you talk about anything related to animals without thinking of this place?.<br>
+<Button ALIGN=LEFT ICON="NORMAL" action="link petmanager/pet_help.htm">Listen to instructions about how to raise a pet.</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Buy 1">Purchase pet items.</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Multisell 212">Exchange pet equipment for higher-grade one.</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Multisell 221">Exchange the hatchling equipment with the strider equipment.</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="link petmanager/pet_evolution.htm">Evolve pet.</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="link petmanager/pet_manager_trade_ticket.htm">Exchange the pet trade ticket with a pet.</button>
+#if ($SERVICES_CHANGE_PET_NAME_ENABLED)
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_services.petevolve.exchange:showErasePetName">Remove Pet's Name.</button>
+#end
+#if ($SERVICES_EXCHANGE_BABY_PET_ENABLED)
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_services.petevolve.exchange:showBabyPetExchange">Exchange Improved Baby pet.</button>
+#end
+#if ($SERVICES_RIDE_HIRE_ENABLED)
+<Button ALIGN=LEFT ICON="NORMAL" action="link scripts/services/ride-prices.htm">Ride hire mountable pet.</button>
+#end
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_TerritoryStatus">See the lord and get the tax rate information.</button>
+<Button ALIGN=LEFT ICON="QUEST" action="bypass -h talk_select">Quest</button>
+</head></html>

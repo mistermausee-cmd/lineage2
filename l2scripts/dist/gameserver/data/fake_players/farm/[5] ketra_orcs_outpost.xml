@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE farm SYSTEM "fake_player.dtd">
+<!--AUTHOR: Bonux-->
+<farm name="Ketra Orcs Outpost" min_level="76" max_level="84">
+	<zones>
+		<zone>
+			<polygon>
+				<coords loc="147256 -69144 -4100 -3200"/>
+				<coords loc="148024 -65672 -4100 -3200"/>
+				<coords loc="146632 -65464 -4100 -3200"/>
+				<coords loc="145624 -68264 -4100 -3200"/>
+				<coords loc="135267 -72929 -4100 -3200"/>
+				<coords loc="137465 -84318 -4100 -3200"/>
+				<coords loc="154449 -86316 -4100 -3200"/>
+				<coords loc="154049 -71331 -4100 -3200"/>
+			</polygon>
+		</zone>
+		<spawn_points>
+			<coords loc="146999 -67068 -3648 0"/>
+		</spawn_points>
+	</zones>
+	<on_obtain_max_level>
+		<wait min_delay="1000" max_delay="3000"/>
+		<random_action>
+			<use_item id="10650"/>	<!--Используем SoE-->
+			<ordinary_actions>
+				<wait min_delay="2000" max_delay="3000"/>
+				<random_action>
+					<use_community bypass="_cbbsteleport_1"/>
+					<use_community bypass="_cbbsteleport_2"/>
+				</random_action>
+			</ordinary_actions>
+		</random_action>
+	</on_obtain_max_level>
+	<go_to_town min_farm_time="1800" max_farm_time="3600">
+		<random_action>
+			<use_item id="10650"/>	<!--Используем SoE-->
+			<teleport_to_closest_town/> <!--Просто улетаем в ближайший город-->
+			<ordinary_actions>
+				<wait min_delay="2000" max_delay="3000"/>
+				<random_action>
+					<use_community bypass="_cbbsteleport_1"/>
+					<use_community bypass="_cbbsteleport_2"/>
+				</random_action>
+			</ordinary_actions>
+		</random_action>
+	</go_to_town>
+</farm>

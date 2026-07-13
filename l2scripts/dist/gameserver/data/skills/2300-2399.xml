@@ -1,0 +1,2424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="2300" levels="1" name="Hair Style Change Potion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="8673"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2301" levels="1" name="Hair Style Change Potion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="8674"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2302" levels="1" name="Hair Style Change Potion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="8675"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2303" levels="1" name="Hair Style Change Potion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="8676"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2304" levels="1" name="Hair Style Change Potion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="8677"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2305" levels="1" name="Primeval Potion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="potion_of_genesis"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<p_defence_trait name="shock" value="15"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2306" levels="3" name="Blue Primeval Crystal">
+		<table name="#power">5000 10000 20000</table>
+		<table name="#itemConsumeId">8954 8955 8956</table>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="hitTime" value="200"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="#itemConsumeId"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="1902">
+			<and>
+				<player minLevel="76"/>
+				<player max_level="85"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_sp" value="#power"/>
+		</for>
+	</skill>
+	<skill id="2307" levels="1" name="Scroll: Cancel Petrification">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<effect name="i_dispel_by_slot_probability">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="dispel_chance" value="99"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2308" levels="36" name="Event Item">
+		<!--
+			Description:
+			Lvl 1-36 Name - Event Item
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="P"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="8980" min_count="1" max_count="1"/>	<!--Shadow Item: Composite Bow-->
+				<item id="17" min_count="1000" max_count="1000"/>	<!--Wooden Arrow-->
+			</group>
+		</restoration>
+		<restoration level="2">
+			<group chance="100.0">
+				<item id="8989" min_count="1" max_count="1"/>	<!--Shadow Item: Gastraphetes-->
+				<item id="1341" min_count="1000" max_count="1000"/>	<!--Bone Arrow-->
+			</group>
+		</restoration>
+		<restoration level="3">
+			<group chance="100.0">
+				<item id="8997" min_count="1" max_count="1"/>	<!--Shadow Item: Akat Long Bow-->
+				<item id="1342" min_count="1000" max_count="1000"/>	<!--Steel Arrow-->
+			</group>
+		</restoration>
+		<restoration level="4">
+			<group chance="100.0">
+				<item id="9008" min_count="1" max_count="1"/>	<!--Shadow Item: Dark Elven Long Bow-->
+				<item id="1343" min_count="1000" max_count="1000"/>	<!--Silver Arrow-->
+			</group>
+		</restoration>
+		<restoration level="5">
+			<group chance="100.0">
+				<item id="9016" min_count="1" max_count="1"/>	<!--Shadow Item: Carnage Bow-->
+				<item id="1344" min_count="1000" max_count="1000"/>	<!--Mithril Arrow-->
+			</group>
+		</restoration>
+		<restoration level="6">
+			<group chance="100.0">
+				<item id="9027" min_count="1" max_count="1"/>	<!--Shadow Item: Soul Bow-->
+				<item id="1344" min_count="1000" max_count="1000"/>	<!--Mithril Arrow-->
+			</group>
+		</restoration>
+		<restoration level="7">
+			<group chance="100.0">
+				<item id="9030" min_count="1" max_count="1"/>	<!--Shadow Item: Bronze Breastplate-->
+				<item id="9031" min_count="1" max_count="1"/>	<!--Shadow Item: Bronze Gaiters-->
+				<item id="9038" min_count="1" max_count="1"/>	<!--Shadow Item: Boots-->
+				<item id="9039" min_count="1" max_count="1"/>	<!--Shadow Item: Bracer-->
+				<item id="9037" min_count="1" max_count="1"/>	<!--Shadow Item: Hard Leather Helmet-->
+				<item id="9036" min_count="1" max_count="1"/>	<!--Shadow Item: Bone Shield-->
+			</group>
+		</restoration>
+		<restoration level="8">
+			<group chance="100.0">
+				<item id="9040" min_count="1" max_count="1"/>	<!--Shadow Item: Mithril Breastplate-->
+				<item id="9041" min_count="1" max_count="1"/>	<!--Shadow Item: Mithril Gaiters-->
+				<item id="9042" min_count="1" max_count="1"/>	<!--Shadow Item: Gauntlet-->
+				<item id="9043" min_count="1" max_count="1"/>	<!--Shadow Item: Iron Boots-->
+				<item id="9044" min_count="1" max_count="1"/>	<!--Shadow Item: Hoplon-->
+				<item id="9053" min_count="1" max_count="1"/>	<!--Shadow Item: Helmet-->
+			</group>
+		</restoration>
+		<restoration level="9">
+			<group chance="100.0">
+				<item id="9054" min_count="1" max_count="1"/>	<!--Shadow Item: Composite Armor-->
+				<item id="9055" min_count="1" max_count="1"/>	<!--Shadow Item: Composite Boots-->
+				<item id="9056" min_count="1" max_count="1"/>	<!--Shadow Item: Composite Shield-->
+				<item id="9057" min_count="1" max_count="1"/>	<!--Shadow Item: Composite Helmet-->
+				<item id="9128" min_count="1" max_count="1"/>	<!--Shadow Item: Mithril Gauntlet-->
+			</group>
+		</restoration>
+		<restoration level="10">
+			<group chance="100.0">
+				<item id="9067" min_count="1" max_count="1"/>	<!--Shadow Item: Zubei\'s Breastplate-->
+				<item id="9068" min_count="1" max_count="1"/>	<!--Shadow Item: Zubei\'s Gaiters-->
+				<item id="9069" min_count="1" max_count="1"/>	<!--Shadow Item: Zubei\'s Helmet-->
+				<item id="9070" min_count="1" max_count="1"/>	<!--Shadow Item: Zubei\'s Shield-->
+				<item id="9071" min_count="1" max_count="1"/>	<!--Shadow Item: Zubei\'s Gauntlet-->
+				<item id="9072" min_count="1" max_count="1"/>	<!--Shadow Item: Zubei\'s Boots-->
+			</group>
+		</restoration>
+		<restoration level="11">
+			<group chance="100.0">
+				<item id="9081" min_count="1" max_count="1"/>	<!--Shadow Item: Dark Crystal Breastplate-->
+				<item id="9082" min_count="1" max_count="1"/>	<!--Shadow Item: Dark Crystal Gaiters-->
+				<item id="9083" min_count="1" max_count="1"/>	<!--Shadow Item: Dark Crystal Helmet-->
+				<item id="9084" min_count="1" max_count="1"/>	<!--Shadow Item: Dark Crystal Shield-->
+				<item id="9085" min_count="1" max_count="1"/>	<!--Shadow Item: Dark Crystal Gloves-->
+				<item id="9086" min_count="1" max_count="1"/>	<!--Shadow Item: Dark Crystal Boots-->
+			</group>
+		</restoration>
+		<restoration level="12">
+			<group chance="100.0">
+				<item id="9094" min_count="1" max_count="1"/>	<!--Shadow Item: Majestic Plate Armor-->
+				<item id="9095" min_count="1" max_count="1"/>	<!--Shadow Item: Majestic Circlet-->
+				<item id="9096" min_count="1" max_count="1"/>	<!--Shadow Item: Majestic Gauntlet-->
+				<item id="9097" min_count="1" max_count="1"/>	<!--Shadow Item: Majestic Boots-->
+				<item id="9129" min_count="1" max_count="1"/>	<!--Shadow Item: Shield of Nightmare-->
+			</group>
+		</restoration>
+		<restoration level="13">
+			<group chance="100.0">
+				<item id="9032" min_count="1" max_count="1"/>	<!--Shadow Item: Hard Leather Shirt-->
+				<item id="9033" min_count="1" max_count="1"/>	<!--Shadow Item: Hard Leather Gaiters-->
+				<item id="9037" min_count="1" max_count="1"/>	<!--Shadow Item: Hard Leather Helmet-->
+				<item id="9038" min_count="1" max_count="1"/>	<!--Shadow Item: Boots-->
+				<item id="9039" min_count="1" max_count="1"/>	<!--Shadow Item: Bracer-->
+			</group>
+		</restoration>
+		<restoration level="14">
+			<group chance="100.0">
+				<item id="9045" min_count="1" max_count="1"/>	<!--Shadow Item: Reinforced Leather Shirt-->
+				<item id="9046" min_count="1" max_count="1"/>	<!--Shadow Item: Reinforced Leather Gaiters-->
+				<item id="9047" min_count="1" max_count="1"/>	<!--Shadow Item: Reinforced Leather Gloves-->
+				<item id="9048" min_count="1" max_count="1"/>	<!--Shadow Item: Reinforced Leather Boots-->
+				<item id="9053" min_count="1" max_count="1"/>	<!--Shadow Item: Helmet-->
+			</group>
+		</restoration>
+		<restoration level="15">
+			<group chance="100.0">
+				<item id="9058" min_count="1" max_count="1"/>	<!--Shadow Item: Theca Leather Armor-->
+				<item id="9059" min_count="1" max_count="1"/>	<!--Shadow Item: Theca Leather Gaiters-->
+				<item id="9060" min_count="1" max_count="1"/>	<!--Shadow Item: Theca Leather Boots-->
+				<item id="9061" min_count="1" max_count="1"/>	<!--Shadow Item: Theca Leather Gloves-->
+				<item id="9066" min_count="1" max_count="1"/>	<!--Shadow Item: Shining Circlet-->
+			</group>
+		</restoration>
+		<restoration level="16">
+			<group chance="100.0">
+				<item id="9073" min_count="1" max_count="1"/>	<!--Shadow Item: Zubei\'s Leather Shirt-->
+				<item id="9074" min_count="1" max_count="1"/>	<!--Shadow Item: Zubei\'s Leather Gaiters-->
+				<item id="9075" min_count="1" max_count="1"/>	<!--Shadow Item: Zubei\'s Gauntlet-->
+				<item id="9076" min_count="1" max_count="1"/>	<!--Shadow Item: Zubei\'s Boots-->
+				<item id="9069" min_count="1" max_count="1"/>	<!--Shadow Item: Zubei\'s Helmet-->
+			</group>
+		</restoration>
+		<restoration level="17">
+			<group chance="100.0">
+				<item id="9087" min_count="1" max_count="1"/>	<!--Shadow Item: Dark Crystal Leather Armor-->
+				<item id="9088" min_count="1" max_count="1"/>	<!--Shadow Item: Dark Crystal Leggings-->
+				<item id="9089" min_count="1" max_count="1"/>	<!--Shadow Item: Dark Crystal Gloves-->
+				<item id="9090" min_count="1" max_count="1"/>	<!--Shadow Item: Dark Crystal Boots-->
+				<item id="9083" min_count="1" max_count="1"/>	<!--Shadow Item: Dark Crystal Helmet-->
+			</group>
+		</restoration>
+		<restoration level="18">
+			<group chance="100.0">
+				<item id="9098" min_count="1" max_count="1"/>	<!--Shadow Item: Majestic Leather Armor-->
+				<item id="9099" min_count="1" max_count="1"/>	<!--Shadow Item: Majestic Gauntlet-->
+				<item id="9100" min_count="1" max_count="1"/>	<!--Shadow Item: Majestic Boots-->
+				<item id="9095" min_count="1" max_count="1"/>	<!--Shadow Item: Majestic Circlet-->
+			</group>
+		</restoration>
+		<restoration level="19">
+			<group chance="100.0">
+				<item id="9034" min_count="1" max_count="1"/>	<!--Shadow Item: Tunic of Magic-->
+				<item id="9035" min_count="1" max_count="1"/>	<!--Shadow Item: Stockings of Magic-->
+				<item id="9037" min_count="1" max_count="1"/>	<!--Shadow Item: Hard Leather Helmet-->
+				<item id="9038" min_count="1" max_count="1"/>	<!--Shadow Item: Boots-->
+				<item id="9036" min_count="1" max_count="1"/>	<!--Shadow Item: Bone Shield-->
+				<item id="9039" min_count="1" max_count="1"/>	<!--Shadow Item: Bracer-->
+			</group>
+		</restoration>
+		<restoration level="20">
+			<group chance="100.0">
+				<item id="9049" min_count="1" max_count="1"/>	<!--Shadow Item: Tunic of Knowledge-->
+				<item id="9050" min_count="1" max_count="1"/>	<!--Shadow Item: Stockings of Knowledge-->
+				<item id="9051" min_count="1" max_count="1"/>	<!--Shadow Item: Gloves of Knowledge-->
+				<item id="9052" min_count="1" max_count="1"/>	<!--Shadow Item: Boots of Knowledge-->
+				<item id="9053" min_count="1" max_count="1"/>	<!--Shadow Item: Helmet-->
+				<item id="9044" min_count="1" max_count="1"/>	<!--Shadow Item: Hoplon-->
+			</group>
+		</restoration>
+		<restoration level="21">
+			<group chance="100.0">
+				<item id="9062" min_count="1" max_count="1"/>	<!--Shadow Item: Demon\'s Tunic-->
+				<item id="9063" min_count="1" max_count="1"/>	<!--Shadow Item: Demon\'s Stockings-->
+				<item id="9064" min_count="1" max_count="1"/>	<!--Shadow Item: Demon\'s Boots-->
+				<item id="9065" min_count="1" max_count="1"/>	<!--Shadow Item: Demon\'s Gloves-->
+				<item id="9066" min_count="1" max_count="1"/>	<!--Shadow Item: Shining Circlet-->
+				<item id="9056" min_count="1" max_count="1"/>	<!--Shadow Item: Composite Shield-->
+			</group>
+		</restoration>
+		<restoration level="22">
+			<group chance="100.0">
+				<item id="9077" min_count="1" max_count="1"/>	<!--Shadow Item: Tunic of Zubei-->
+				<item id="9078" min_count="1" max_count="1"/>	<!--Shadow Item: Stockings of Zubei-->
+				<item id="9079" min_count="1" max_count="1"/>	<!--Shadow Item: Zubei\'s Gauntlet-->
+				<item id="9080" min_count="1" max_count="1"/>	<!--Shadow Item: Zubei\'s Boots-->
+				<item id="9069" min_count="1" max_count="1"/>	<!--Shadow Item: Zubei\'s Helmet-->
+				<item id="9070" min_count="1" max_count="1"/>	<!--Shadow Item: Zubei\'s Shield-->
+			</group>
+		</restoration>
+		<restoration level="23">
+			<group chance="100.0">
+				<item id="9091" min_count="1" max_count="1"/>	<!--Shadow Item: Dark Crystal Robe-->
+				<item id="9092" min_count="1" max_count="1"/>	<!--Shadow Item: Dark Crystal Gloves-->
+				<item id="9093" min_count="1" max_count="1"/>	<!--Shadow Item: Dark Crystal Boots-->
+				<item id="9084" min_count="1" max_count="1"/>	<!--Shadow Item: Dark Crystal Shield-->
+				<item id="9083" min_count="1" max_count="1"/>	<!--Shadow Item: Dark Crystal Helmet-->
+			</group>
+		</restoration>
+		<restoration level="24">
+			<group chance="100.0">
+				<item id="9101" min_count="1" max_count="1"/>	<!--Shadow Item: Majestic Robe-->
+				<item id="9102" min_count="1" max_count="1"/>	<!--Shadow Item: Majestic Gauntlet-->
+				<item id="9103" min_count="1" max_count="1"/>	<!--Shadow Item: Majestic Boots-->
+				<item id="9095" min_count="1" max_count="1"/>	<!--Shadow Item: Majestic Circlet-->
+				<item id="9129" min_count="1" max_count="1"/>	<!--Shadow Item: Shield of Nightmare-->
+			</group>
+		</restoration>
+		<restoration level="25">
+			<group chance="100.0">
+				<item id="1835" min_count="1000" max_count="1000"/>	<!--Soulshot: No Grade-->
+				<item id="8622" min_count="10" max_count="10"/>	<!--Elixir of Life (No Grade)-->
+			</group>
+		</restoration>
+		<restoration level="26">
+			<group chance="100.0">
+				<item id="1463" min_count="1000" max_count="1000"/>	<!--Soulshot (D-Grade)-->
+				<item id="8623" min_count="10" max_count="10"/>	<!--Elixir of Life (D-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="27">
+			<group chance="100.0">
+				<item id="1464" min_count="1000" max_count="1000"/>	<!--Soulshot (C-Grade)-->
+				<item id="8624" min_count="10" max_count="10"/>	<!--Elixir of Life (C-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="28">
+			<group chance="100.0">
+				<item id="1465" min_count="500" max_count="500"/>	<!--Soulshot (B-Grade)-->
+				<item id="8625" min_count="7" max_count="7"/>	<!--Elixir of Life (B-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="29">
+			<group chance="100.0">
+				<item id="1466" min_count="300" max_count="300"/>	<!--Soulshot (A-Grade)-->
+				<item id="8626" min_count="7" max_count="7"/>	<!--Elixir of Life (A-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="30">
+			<group chance="100.0">
+				<item id="1466" min_count="300" max_count="300"/>	<!--Soulshot (A-Grade)-->
+				<item id="8627" min_count="5" max_count="5"/>	<!--Elixir of Life (S-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="31">
+			<group chance="100.0">
+				<item id="2509" min_count="1000" max_count="1000"/>	<!--Spiritshot: No Grade-->
+				<item id="8622" min_count="10" max_count="10"/>	<!--Elixir of Life (No Grade)-->
+			</group>
+		</restoration>
+		<restoration level="32">
+			<group chance="100.0">
+				<item id="2510" min_count="1000" max_count="1000"/>	<!--Spiritshot (D-Grade)-->
+				<item id="8623" min_count="10" max_count="10"/>	<!--Elixir of Life (D-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="33">
+			<group chance="100.0">
+				<item id="2511" min_count="1000" max_count="1000"/>	<!--Spiritshot (C-Grade)-->
+				<item id="8624" min_count="10" max_count="10"/>	<!--Elixir of Life (C-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="34">
+			<group chance="100.0">
+				<item id="2512" min_count="500" max_count="500"/>	<!--Spiritshot (B-Grade)-->
+				<item id="8625" min_count="7" max_count="7"/>	<!--Elixir of Life (B-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="35">
+			<group chance="100.0">
+				<item id="2513" min_count="300" max_count="300"/>	<!--Spiritshot (A-Grade)-->
+				<item id="8626" min_count="7" max_count="7"/>	<!--Elixir of Life (A-Grade)-->
+			</group>
+		</restoration>
+		<restoration level="36">
+			<group chance="100.0">
+				<item id="2513" min_count="300" max_count="300"/>	<!--Spiritshot (A-Grade)-->
+				<item id="8627" min_count="5" max_count="5"/>	<!--Elixir of Life (S-Grade)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2309" levels="1" name="Pig Chest">
+		<!--
+			Description: Эвентовый предмет, при вскрытии которого выпадает 1 Golden Apiga.
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="70.0">
+				<item id="9143" min_count="1" max_count="1"/>	<!--Golden Apiga-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2310" levels="1" name="Scroll: Guidance (Event)">
+		<!--
+			Description: Increases Accuracy. Effect 3.
+		-->
+		<set name="icon" value="icon.etc_scroll_white_i00"/>
+		<set name="hitTime" value="4000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="hit_up"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9146"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="pAccCombat" value="4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2311" levels="1" name="Scroll: Death Whisper (Event)">
+		<!--
+			Description: Increases critical attack power. Effect 3.
+		-->
+		<set name="icon" value="icon.etc_scroll_white_i00"/>
+		<set name="hitTime" value="4000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="critical_dmg_up"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9147"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="p_critical_damage_per" value="35"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2312" levels="1" name="Scroll: Focus (Event)">
+		<!--
+			Description: Increases critical attack rate. Effect 3.
+		-->
+		<set name="icon" value="icon.etc_scroll_white_i00"/>
+		<set name="hitTime" value="4000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="critical_prob_up"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9148"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="pCritRate" value="30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2313" levels="1" name="Scroll: Acumen (Event)">
+		<!--
+			Description: Increases Casting Spd. Effect 3.
+		-->
+		<set name="icon" value="icon.etc_scroll_white_i00"/>
+		<set name="hitTime" value="4000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="casting_time_down"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9149"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="mAtkSpd" value="1.3"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2314" levels="1" name="Scroll: Haste (Event)">
+		<!--
+			Description: Increases Atk. Spd. Effect 2.
+		-->
+		<set name="icon" value="icon.etc_scroll_white_i00"/>
+		<set name="hitTime" value="4000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="attack_time_down"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9150"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="pAtkSpd" value="1.33"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2315" levels="1" name="Scroll: Agility (Event)">
+		<!--
+			Description: Increases Evasion. Effect 3.
+		-->
+		<set name="icon" value="icon.etc_scroll_white_i00"/>
+		<set name="hitTime" value="4000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="avoid_up"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9151"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="pEvasRate" value="4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2316" levels="1" name="Scroll: Empower (Event)">
+		<!--
+			Description: Increases M. Atk. Effect 3.
+		-->
+		<set name="icon" value="icon.etc_scroll_white_i00"/>
+		<set name="hitTime" value="4000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="ma_up"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9152"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="mAtk" value="1.75"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2317" levels="1" name="Scroll: Might (Event)">
+		<!--
+			Description: Increases P. Atk. Effect 3.
+		-->
+		<set name="icon" value="icon.etc_scroll_white_i00"/>
+		<set name="hitTime" value="4000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="pa_up"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9153"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="pAtk" value="1.15"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2318" levels="1" name="Scroll: Wind Walk (Event)">
+		<!--
+			Description: Increases Speed. Effect 2.
+		-->
+		<set name="icon" value="icon.etc_scroll_white_i00"/>
+		<set name="hitTime" value="4000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="speed_up"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9154"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="runSpd" value="33"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2319" levels="1" name="Scroll: Shield (Event)">
+		<!--
+			Description: Increases P. Def. Effect 3.
+		-->
+		<set name="icon" value="icon.etc_scroll_white_i00"/>
+		<set name="hitTime" value="4000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="pd_up"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9155"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="pDef" value="1.15"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2320" levels="1" name="Blessed Scroll of Escape (Event)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="200"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9156"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2321" levels="1" name="Blessed Scroll of Resurrection (Event)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="1000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9157"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="power" value="100"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_CORPSE_PLAYER"/>
+		<set name="corpse" value="true"/>
+		<set name="skillType" value="RESURRECT"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2322" levels="1" name="Chest Key (Event)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9205"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="HARDCODED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="2323" levels="1" name="Red Philosopher\'s Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9171"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="P"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="2.5">
+				<item id="9177" min_count="1" max_count="1"/>	<!--Shadow Item - Teddy Bear Hat-->
+			</group>
+			<group chance="2.5">
+				<item id="9184" min_count="1" max_count="1"/>	<!--Shadow Item - Teddy Bear Hat-->
+			</group>
+			<group chance="2.5">
+				<item id="9191" min_count="1" max_count="1"/>	<!--Shadow Item - Teddy Bear Hat-->
+			</group>
+			<group chance="2.5">
+				<item id="9198" min_count="1" max_count="1"/>	<!--Shadow Item - Teddy Bear Hat-->
+			</group>
+			<group chance="6.6">
+				<item id="9153" min_count="3" max_count="3"/>	<!--Scroll of Might (Event)-->
+			</group>
+			<group chance="6.6">
+				<item id="9146" min_count="3" max_count="3"/>	<!--Scroll of Guidance (Event)-->
+			</group>
+			<group chance="6.8">
+				<item id="9150" min_count="3" max_count="3"/>	<!--Scroll of Haste (Event)-->
+			</group>
+			<group chance="7.0">
+				<item id="9156" min_count="1" max_count="1"/>	<!--Blessed Scroll of Escape (Event)-->
+			</group>
+			<group chance="2.0">
+				<item id="9157" min_count="1" max_count="1"/>	<!--Blessed Scroll of Resurrection (Event)-->
+			</group>
+			<group chance="45.997">
+				<item id="9206" min_count="10" max_count="10"/>	<!--Greater Healing Potion (Event)-->
+			</group>
+			<group chance="15.0">
+				<item id="9207" min_count="5" max_count="5"/>	<!--Quick Healing Potion (Event)-->
+			</group>
+			<group chance="0.0015">
+				<item id="8678" min_count="1" max_count="1"/>	<!--Sirra\'s Blade-->
+			</group>
+			<group chance="0.0015">
+				<item id="8682" min_count="1" max_count="1"/>	<!--Naga Storm-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2324" levels="1" name="Blue Philosopher\'s Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9172"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="P"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="2.5">
+				<item id="9178" min_count="1" max_count="1"/>	<!--Shadow Item - Piggy Hat-->
+			</group>
+			<group chance="2.5">
+				<item id="9185" min_count="1" max_count="1"/>	<!--Shadow Item - Piggy Hat-->
+			</group>
+			<group chance="2.5">
+				<item id="9192" min_count="1" max_count="1"/>	<!--Shadow Item - Piggy Hat-->
+			</group>
+			<group chance="2.5">
+				<item id="9199" min_count="1" max_count="1"/>	<!--Shadow Item - Piggy Hat-->
+			</group>
+			<group chance="6.6">
+				<item id="9147" min_count="3" max_count="3"/>	<!--Scroll of Death Whisper (Event)-->
+			</group>
+			<group chance="6.6">
+				<item id="9151" min_count="3" max_count="3"/>	<!--Scroll of Agility (Event)-->
+			</group>
+			<group chance="6.8">
+				<item id="9149" min_count="3" max_count="3"/>	<!--Scroll of Acumen (Event)-->
+			</group>
+			<group chance="7.0">
+				<item id="9156" min_count="1" max_count="1"/>	<!--Blessed Scroll of Escape (Event)-->
+			</group>
+			<group chance="2.0">
+				<item id="9157" min_count="1" max_count="1"/>	<!--Blessed Scroll of Resurrection (Event)-->
+			</group>
+			<group chance="45.997">
+				<item id="9206" min_count="10" max_count="10"/>	<!--Greater Healing Potion (Event)-->
+			</group>
+			<group chance="15.0">
+				<item id="9207" min_count="5" max_count="5"/>	<!--Quick Healing Potion (Event)-->
+			</group>
+			<group chance="0.0015">
+				<item id="8685" min_count="1" max_count="1"/>	<!--Sobekk\'s Hurricane-->
+			</group>
+			<group chance="0.0015">
+				<item id="8679" min_count="1" max_count="1"/>	<!--Sword of Ipos-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2325" levels="1" name="Orange Philosopher\'s Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9173"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="P"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="2.5">
+				<item id="9180" min_count="1" max_count="1"/>	<!--Shadow Item - Wizard Hat-->
+			</group>
+			<group chance="2.5">
+				<item id="9187" min_count="1" max_count="1"/>	<!--Shadow Item - Wizard Hat-->
+			</group>
+			<group chance="2.5">
+				<item id="9194" min_count="1" max_count="1"/>	<!--Shadow Item - Wizard Hat-->
+			</group>
+			<group chance="2.5">
+				<item id="9201" min_count="1" max_count="1"/>	<!--Shadow Item - Wizard Hat-->
+			</group>
+			<group chance="6.6">
+				<item id="9149" min_count="3" max_count="3"/>	<!--Scroll of Acumen (Event)-->
+			</group>
+			<group chance="6.6">
+				<item id="9155" min_count="3" max_count="3"/>	<!--Scroll of Shield (Event)-->
+			</group>
+			<group chance="6.8">
+				<item id="9150" min_count="3" max_count="3"/>	<!--Scroll of Haste (Event)-->
+			</group>
+			<group chance="7.0">
+				<item id="9156" min_count="1" max_count="1"/>	<!--Blessed Scroll of Escape (Event)-->
+			</group>
+			<group chance="2.0">
+				<item id="9157" min_count="1" max_count="1"/>	<!--Blessed Scroll of Resurrection (Event)-->
+			</group>
+			<group chance="45.997">
+				<item id="9206" min_count="10" max_count="10"/>	<!--Greater Healing Potion (Event)-->
+			</group>
+			<group chance="15.0">
+				<item id="9207" min_count="5" max_count="5"/>	<!--Quick Healing Potion (Event)-->
+			</group>
+			<group chance="0.0015">
+				<item id="8688" min_count="1" max_count="1"/>	<!--Daimon Crystal-->
+			</group>
+			<group chance="0.0015">
+				<item id="8680" min_count="1" max_count="1"/>	<!--Barakiel\'s Axe-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2326" levels="1" name="Black Philosopher\'s Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9174"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="P"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="2.5">
+				<item id="9182" min_count="1" max_count="1"/>	<!--Shadow Item - Romantic Chapeau-->
+			</group>
+			<group chance="2.5">
+				<item id="9189" min_count="1" max_count="1"/>	<!--Shadow Item - Romantic Chapeau-->
+			</group>
+			<group chance="2.5">
+				<item id="9196" min_count="1" max_count="1"/>	<!--Shadow Item - Romantic Chapeau-->
+			</group>
+			<group chance="2.5">
+				<item id="9203" min_count="1" max_count="1"/>	<!--Shadow Item - Romantic Chapeau-->
+			</group>
+			<group chance="6.6">
+				<item id="9148" min_count="3" max_count="3"/>	<!--Scroll of Focus (Event)-->
+			</group>
+			<group chance="6.6">
+				<item id="9146" min_count="3" max_count="3"/>	<!--Scroll of Guidance (Event)-->
+			</group>
+			<group chance="6.8">
+				<item id="9154" min_count="3" max_count="3"/>	<!--Scroll of Wind Walk (Event)-->
+			</group>
+			<group chance="7.0">
+				<item id="9156" min_count="1" max_count="1"/>	<!--Blessed Scroll of Escape (Event)-->
+			</group>
+			<group chance="2.0">
+				<item id="9157" min_count="1" max_count="1"/>	<!--Blessed Scroll of Resurrection (Event)-->
+			</group>
+			<group chance="45.997">
+				<item id="9206" min_count="10" max_count="10"/>	<!--Greater Healing Potion (Event)-->
+			</group>
+			<group chance="15.0">
+				<item id="9207" min_count="5" max_count="5"/>	<!--Quick Healing Potion (Event)-->
+			</group>
+			<group chance="0.0015">
+				<item id="8681" min_count="1" max_count="1"/>	<!--Behemoth\'s Tuning Fork-->
+			</group>
+			<group chance="0.0015">
+				<item id="8687" min_count="1" max_count="1"/>	<!--Cabrio\'s Hand-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2327" levels="1" name="White Philosopher\'s Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9175"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="P"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="2.5">
+				<item id="9183" min_count="1" max_count="1"/>	<!--Shadow Item - Iron Circlet-->
+			</group>
+			<group chance="2.5">
+				<item id="9190" min_count="1" max_count="1"/>	<!--Shadow Item - Iron Circlet-->
+			</group>
+			<group chance="2.5">
+				<item id="9197" min_count="1" max_count="1"/>	<!--Shadow Item - Iron Circlet-->
+			</group>
+			<group chance="2.5">
+				<item id="9204" min_count="1" max_count="1"/>	<!--Shadow Item - Iron Circlet-->
+			</group>
+			<group chance="6.6">
+				<item id="9152" min_count="3" max_count="3"/>	<!--Scroll of Empower (Event)-->
+			</group>
+			<group chance="6.6">
+				<item id="9155" min_count="3" max_count="3"/>	<!--Scroll of Shield (Event)-->
+			</group>
+			<group chance="6.8">
+				<item id="9147" min_count="3" max_count="3"/>	<!--Scroll of Death Whisper (Event)-->
+			</group>
+			<group chance="7.0">
+				<item id="9156" min_count="1" max_count="1"/>	<!--Blessed Scroll of Escape (Event)-->
+			</group>
+			<group chance="2.0">
+				<item id="9157" min_count="1" max_count="1"/>	<!--Blessed Scroll of Resurrection (Event)-->
+			</group>
+			<group chance="45.997">
+				<item id="9206" min_count="10" max_count="10"/>	<!--Greater Healing Potion (Event)-->
+			</group>
+			<group chance="15.0">
+				<item id="9207" min_count="5" max_count="5"/>	<!--Quick Healing Potion (Event)-->
+			</group>
+			<group chance="0.0015">
+				<item id="8685" min_count="1" max_count="1"/>	<!--Sobekk\'s Hurricane-->
+			</group>
+			<group chance="0.0015">
+				<item id="8683" min_count="1" max_count="1"/>	<!--Tiphon\'s Spear-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2328" levels="1" name="Green Philosopher\'s Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9176"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="P"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="2.5">
+				<item id="9179" min_count="1" max_count="1"/>	<!--Shadow Item - Jester Hat-->
+			</group>
+			<group chance="2.5">
+				<item id="9186" min_count="1" max_count="1"/>	<!--Shadow Item - Jester Hat-->
+			</group>
+			<group chance="2.5">
+				<item id="9193" min_count="1" max_count="1"/>	<!--Shadow Item - Jester Hat-->
+			</group>
+			<group chance="2.5">
+				<item id="9200" min_count="1" max_count="1"/>	<!--Shadow Item - Jester Hat-->
+			</group>
+			<group chance="6.6">
+				<item id="9148" min_count="3" max_count="3"/>	<!--Scroll of Focus (Event)-->
+			</group>
+			<group chance="6.6">
+				<item id="9152" min_count="3" max_count="3"/>	<!--Scroll of Empower (Event)-->
+			</group>
+			<group chance="6.8">
+				<item id="9154" min_count="3" max_count="3"/>	<!--Scroll of Wind Walk (Event)-->
+			</group>
+			<group chance="7.0">
+				<item id="9156" min_count="1" max_count="1"/>	<!--Blessed Scroll of Escape (Event)-->
+			</group>
+			<group chance="2.0">
+				<item id="9157" min_count="1" max_count="1"/>	<!--Blessed Scroll of Resurrection (Event)-->
+			</group>
+			<group chance="45.997">
+				<item id="9206" min_count="10" max_count="10"/>	<!--Greater Healing Potion (Event)-->
+			</group>
+			<group chance="15.0">
+				<item id="9207" min_count="5" max_count="5"/>	<!--Quick Healing Potion (Event)-->
+			</group>
+			<group chance="0.0015">
+				<item id="8686" min_count="1" max_count="1"/>	<!--Themis\' Tongue-->
+			</group>
+			<group chance="0.0015">
+				<item id="8684" min_count="1" max_count="1"/>	<!--Shyeed\'s Bow-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2329" levels="4" name="Fire Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="2330" levels="4" name="Water Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="2331" levels="4" name="Wind Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="2332" levels="4" name="Earth Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="2333" levels="4" name="Holy Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="2334" levels="4" name="Dark Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="2335" levels="1" name="Fire Resistance Potion">
+		<!--
+			Last modify:	10.12.2007
+			Description: Resistance to the element of fire is increased.
+		-->
+		<set name="icon" value="icon.etc_fire_potion_i00"/>
+		<set name="reuseDelay" value="6000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="attribute_potion"/>
+		<set name="magicLevel" value="76"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect>
+				<add stat="defenceFire" value="30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2336" levels="1" name="Water Resistance Potion">
+		<!--
+			Last modify:	10.12.2007
+			Description: Resistance to the element of water is increased.
+		-->
+		<set name="icon" value="icon.etc_water_potion_i00"/>
+		<set name="reuseDelay" value="6000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="attribute_potion"/>
+		<set name="magicLevel" value="76"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect>
+				<add stat="defenceWater" value="30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2337" levels="1" name="Wind Resistance Potion">
+		<!--
+			Last modify:	10.12.2007
+			Description: Resistance to the element of wind is increased.
+		-->
+		<set name="icon" value="icon.etc_wind_potion_i00"/>
+		<set name="reuseDelay" value="6000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="attribute_potion"/>
+		<set name="magicLevel" value="76"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect>
+				<add stat="defenceWind" value="30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2338" levels="1" name="Earth Resistance Potion">
+		<!--
+			Last modify:	10.12.2007
+			Description: Resistance to the element of earth is increased.
+		-->
+		<set name="icon" value="icon.etc_earth_potion_i00"/>
+		<set name="reuseDelay" value="6000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="attribute_potion"/>
+		<set name="magicLevel" value="76"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect>
+				<add stat="defenceEarth" value="30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2339" levels="1" name="Holy Attack Resistance Potion">
+		<!--
+			Last modify:	10.12.2007
+			Description: Increases the resistance to holy element.
+		-->
+		<set name="icon" value="icon.etc_holy_potion_i00"/>
+		<set name="reuseDelay" value="6000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="attribute_potion"/>
+		<set name="magicLevel" value="76"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect>
+				<add stat="defenceHoly" value="30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2340" levels="1" name="Dark Attack Resistance Potion">
+		<!--
+			Last modify:	10.12.2007
+			Description: Increases the resistance to dark element.
+		-->
+		<set name="icon" value="icon.etc_unholy_potion_i00"/>
+		<set name="reuseDelay" value="6000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="attribute_potion"/>
+		<set name="magicLevel" value="76"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect>
+				<add stat="defenceUnholy" value="30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2341" levels="1" name="Caravaner\'s Remedy">
+		<!--
+			Last modify:	18.02.2009
+			Description: Immune to desert heat.
+		-->
+		<set name="icon" value="icon.etc_lesser_potion_red_i00"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="hot_ground"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect/>
+		</for>
+	</skill>
+	<skill id="2342" levels="1" name="Ballista Bomb">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="castRange" value="150"/>
+		<set name="hitTime" value="5000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9688"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="power" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+		<set name="nextAction" value="none"/>
+	</skill>
+	<skill id="2343" levels="1" name="Gate Key: Kamael">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="8000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9703"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="HARDCODED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="2344" levels="1" name="Gate Key: Archives">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="8000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9704"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="HARDCODED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="2345" levels="1" name="Gate Key: Observation">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="8000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9705"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="HARDCODED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="2346" levels="1" name="Gate Key: Spicula">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="8000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9706"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="HARDCODED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="2347" levels="1" name="Enuma Elish Key">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="8000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9707"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="HARDCODED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="2348" levels="1" name="Prahnah Key">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="8000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9708"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="HARDCODED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="2349" levels="1" name="Gate Key: Arviterre">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="8000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9709"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="HARDCODED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="2350" levels="1" name="Leopold Key">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="8000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9710"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="HARDCODED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="2351" levels="1" name="Gate Key: Prediction">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="8000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9711"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="HARDCODED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="2352" levels="1" name="Gate Key: Nornil">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="8000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9712"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="HARDCODED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="2353" levels="1" name="Nornil\'s Power">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="ride_state" value="NONE"/>
+		<set name="magicLevel" value="85"/>
+		<set name="itemConsumeId" value="9713"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="2354" levels="1" name="Gate Key: Darkness">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="8000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9685"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="HARDCODED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="2355" levels="1" name="Gate Key: Destruction">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="8000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9686"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="HARDCODED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="2356" levels="1" name="Gate Key: Blood">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="8000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9687"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="HARDCODED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="2357" levels="1" name="Fiery Demon Blood">
+		<set name="icon" value="icon.etc_lesser_potion_red_i00"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="hitTime" value="100"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="evil_blood"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect/>
+		</for>
+	</skill>
+	<skill id="2358" levels="1" name="Holy Water">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="2359" levels="1" name="Magic Bottle">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="2360" levels="1" name="Water Dragon Claw">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE"/>
+		<set name="magicLevel" value="1"/>
+		<set name="itemConsumeId" value="9700"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2361" levels="1" name="Evolving Wolf Food">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="PET_FEED"/>
+		<set name="operate_type" value="A2"/>
+		<set name="feed_power" value="1100;1100;0"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="2362" levels="1" name="Prison Gate Key">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="8000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10015"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="HARDCODED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="2363" levels="1" name="Underground Warehouse Key">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="8000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10016"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="HARDCODED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="2364" levels="1" name="Blessed Scroll of Escape: Fortress">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="200"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10130"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="fortress" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2365" levels="1" name="Scroll of Escape: Fortress">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="20000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10129"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="fortress" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2366" levels="1" name="Blue Coral Key">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="8000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9698"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="HARDCODED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="2367" levels="1" name="Red Coral Key">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="8000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9699"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="HARDCODED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="2368" levels="1" name="Spirit of the Lake">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="8000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="itemConsumeId" value="9689"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2369" levels="1" name="Water Dragon Scale">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE"/>
+		<set name="magicLevel" value="1"/>
+		<set name="itemConsumeId" value="9691"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2370" levels="1" name="Transformation Scroll: Pig">
+		<!--
+			Need correct:   addSkills
+			Last modify:	20.01.2008
+			Description: Transforms into cute pig.
+			Item 9897 description: Scroll of Transformation that transforms you into a pig for 30 minutes. It will have no effect if used while a pet or servitor is summoned or while in a transformed state.
+		-->
+		<set name="icon" value="icon.skilltransform3"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="9897"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="isHandler" value="true"/>
+		<set name="operate_type" value="A2"/>
+		<cond>
+			<player can_transform="104"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="104"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2371" levels="1" name="Transformation Scroll: Onyx Beast">
+		<!--
+			Last modify:	20.01.2008
+			Description: Transform into an Onyx Beast.
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10131"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="isHandler" value="true"/>
+		<set name="operate_type" value="A2"/>
+		<cond>
+			<player can_transform="1"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="1"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2372" levels="1" name="Transformation Scroll: Doom Wraith">
+		<!--
+			Last modify:	20.01.2008
+			Description: Transform into a Death Blader.
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10132"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="isHandler" value="true"/>
+		<set name="operate_type" value="A2"/>
+		<cond>
+			<player can_transform="2"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="2"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2373" levels="1" name="Transformation Scroll: Grail Apostle">
+		<!--
+			Last modify:	22.01.2008
+			Description: Transform into a Grail Apostle.
+		-->
+		<set name="icon" value="icon.skilltransform2"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10133"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond>
+			<player can_transform="201"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="201"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2374" levels="1" name="Transformation Scroll: Unicorn">
+		<!--
+			Last modify:	22.01.2008
+			Description: Transform into a Unicorn.
+		-->
+		<set name="icon" value="icon.skilltransform2"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10134"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond>
+			<player can_transform="204"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="204"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2375" levels="1" name="Transformation Scroll: Lilim Knight">
+		<!--
+			Last modify:	23.01.2008
+			Description: Transform into a Lilim Knight.
+		-->
+		<set name="icon" value="icon.skilltransform2"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10135"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond>
+			<player can_transform="207"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="207"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2376" levels="1" name="Transformation Scroll: Golem Guardian">
+		<!--
+			Last modify:	23.01.2008
+			Description: Transform into a Golem Guardian.
+		-->
+		<set name="icon" value="icon.skilltransform2"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10136"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond>
+			<player can_transform="210"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="210"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2377" levels="1" name="Transformation Scroll: Inferno Drake">
+		<!--
+			Last modify:	25.01.2008
+			Description: Transform into a Inferno Drake.
+		-->
+		<set name="icon" value="icon.skilltransform2"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10137"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond>
+			<player can_transform="213"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="213"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2378" levels="1" name="Transformation Scroll: Dragon Bomber">
+		<!--
+			Last modify:	25.01.2008
+			Description: Transform into a Dragon Bomber.
+		-->
+		<set name="icon" value="icon.skilltransform2"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10138"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond>
+			<player can_transform="216"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="216"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2379" levels="1" name="Wind">
+		<set name="icon" value="icon.etc_scroll_white_i00"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="speed_up"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="runSpd" value="33"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2380" levels="1" name="Shield">
+		<set name="icon" value="icon.etc_scroll_white_i00"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="pd_up"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="pDef" value="1.15"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2381" levels="1" name="Magic Barrier">
+		<set name="icon" value="icon.etc_scroll_white_i00"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="md_up"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="mDef" value="1.23"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2382" levels="1" name="Blessed Shield">
+		<set name="icon" value="icon.etc_scroll_white_i00"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="6"/>
+		<set name="abnormal_type" value="shield_prob_up"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="rShld" value="1.3"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2383" levels="1" name="Haste">
+		<set name="icon" value="icon.etc_scroll_white_i00"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="attack_time_down"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="pAtkSpd" value="1.15"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2384" levels="1" name="Acumen">
+		<set name="icon" value="icon.etc_scroll_white_i00"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="casting_time_down"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="mAtkSpd" value="1.15"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2385" levels="1" name="Empower">
+		<set name="icon" value="icon.etc_scroll_white_i00"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="ma_up"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="mAtk" value="1.55"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2386" levels="1" name="Divine Power">
+		<set name="icon" value="icon.etc_scroll_white_i00"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="heal_power_up"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="healPower" value="1.15"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2387" levels="1" name="Might">
+		<set name="icon" value="icon.etc_scroll_white_i00"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="pa_up"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="pAtk" value="1.15"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2388" levels="1" name="Focus">
+		<set name="icon" value="icon.etc_scroll_white_i00"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="critical_prob_up"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="pCritRate" value="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2389" levels="1" name="Guidance">
+		<set name="icon" value="icon.etc_scroll_white_i00"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="hit_up"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="pAccCombat" value="2"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2390" levels="1" name="Berserker Spirit">
+		<set name="icon" value="icon.etc_scroll_white_i00"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="berserker"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="mAtk" value="1.16"/>
+				<mul stat="pAtk" value="1.08"/>
+				<mul stat="pDef" value="0.92"/>
+				<mul stat="mDef" value="0.85"/>
+				<mul stat="mAtkSpd" value="1.08"/>
+				<mul stat="pAtkSpd" value="1.08"/>
+				<add stat="runSpd" value="8"/>
+				<sub stat="pEvasRate" value="4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2391" levels="1" name="Clarity">
+		<set name="icon" value="icon.etc_scroll_white_i00"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="cheap_magic"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="mpConsum" value="0.96"/>
+				<mul stat="mpConsumePhysical" value="0.9"/>
+				<mul stat="mpDanceConsume" value="0.9"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2392" levels="1" name="Blessed Scroll of Escape (Battleground)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="200"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="113">
+			<zone type="SIEGE"/>
+		</cond>
+	</skill>
+	<skill id="2393" levels="1" name="Blessed Scroll of Resurrection (Battleground)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="1000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10150"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="power" value="100"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_CORPSE_PLAYER"/>
+		<set name="corpse" value="true"/>
+		<set name="skillType" value="RESURRECT"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="113">
+			<zone type="SIEGE"/>
+		</cond>
+	</skill>
+	<skill id="2394" levels="1" name="Transformation Scroll (Battleground)">
+		<!--
+			Need correct:   addSkills
+			Last modify:	20.01.2008
+			Description: Transform into a Pixy.
+		-->
+		<set name="icon" value="icon.etc_trans_4f_s_b_01"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="10151"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond>
+			<player can_transform="304"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="304"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2395" levels="1" name="Healing Potion (Battleground)">
+		<!--
+			Need correct:   reuseDelay, power
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="HEAL"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="113">
+			<zone type="SIEGE"/>
+		</cond>
+		<for>
+			<effect instant="true" name="RestoreHP" value="1500"/>
+		</for>
+	</skill>
+	<skill id="2396" levels="1" name="Mental Potion">
+		<!--
+			Need correct:   msg, reuseDelay
+			Last modify:	10.07.2008
+			Description: Increases resistance to Hold, Sleep, and Mental attacks. Effect 1.
+		-->
+		<set name="icon" value="icon.etc_lesser_potion_yellow_i00"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="hit_up"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="113">
+			<zone type="SIEGE"/>
+		</cond>
+		<for>
+			<effect>
+				<p_defence_trait name="hold" value="20"/>
+				<p_defence_trait name="derangement" value="20"/>
+				<p_defence_trait name="sleep" value="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2397" levels="1" name="Medusa Potion">
+		<!--
+			Description: Petrifies others so you don\'t receive physical/magical damage. Effect 1.
+		-->
+		<set name="icon" value="icon.etc_lesser_potion_yellow_i00"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_effect" value="FLESH_STONE"/>
+		<set name="abnormal_time" value="6"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="turn_stone"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="113">
+			<zone type="SIEGE"/>
+		</cond>
+		<for>
+			<effect name="Invulnerable"/>
+			<effect name="p_block_debuff"/>
+			<effect name="Petrification"/>
+		</for>
+	</skill>
+	<skill id="2398" levels="1" name="Quick Haste Potion">
+		<!--
+			Last modify:	06.07.2008
+		-->
+		<set name="icon" value="icon.etc_lesser_potion_yellow_i00"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="speed_up_special"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="113">
+			<zone type="SIEGE"/>
+		</cond>
+		<for>
+			<effect>
+				<add stat="runSpd" value="66"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2399" levels="1" name="Capture Rope">
+		<!--
+			Description: Instantly puts an enemy into hold. Targets will not receive any additional hold attack while the effect lasts.
+		-->
+		<set name="icon" value="icon.etc_braided_hemp_i00"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="25"/>
+		<set name="ride_state" value="NONE"/>
+		<set name="abnormal_effect" value="ROOT"/>
+		<set name="abnormal_time" value="7"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="root_physically"/>
+		<set name="magicLevel" value="75"/>
+		<set name="itemConsumeId" value="10159"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="lv_bonus_rate" value="2"/>
+		<set name="basic_property" value="magic_abnormal_resist"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="trait" value="HOLD"/>
+		<for>
+			<effect name="p_block_move">
+				<p_defence_trait name="hold" value="100"/>
+			</effect>
+		</for>
+	</skill>
+</list>

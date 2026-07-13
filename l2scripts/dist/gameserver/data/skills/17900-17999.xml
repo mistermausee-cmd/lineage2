@@ -1,0 +1,1193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="17900" levels="1" name="Giant\'s Lucky Enchant Stone: Armor (R-grade)">
+		<set name="icon" value="icon.giant_ench_armor_stone_r_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17901" levels="1" name="Giant\'s Lucky Enchant Stone: Weapon (R-grade)">
+		<set name="icon" value="icon.giant_ench_wp_stone_r_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17902" levels="1" name="Giant\'s Lucky Enchant Stone: Armor (R-grade)">
+		<set name="icon" value="icon.giant_ench_armor_stone_r_i02"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17903" levels="1" name="Giant\'s Lucky Enchant Stone: Weapon (R-grade)">
+		<set name="icon" value="icon.giant_ench_wp_stone_r_i02"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17904" levels="1" name="Windy Healing Potion">
+		<set name="icon" value="icon.etc_potion_scarlet_i00"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="hp_recover"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="power" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="HOT"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="RestoreHP" interval="3" value="60.6"/>
+		</for>
+	</skill>
+	<skill id="17905" levels="1" name="Major Windy Healing Potion">
+		<set name="icon" value="icon.etc_potion_scarlet_i00"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="hp_recover"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="power" value="2"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="HOT"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="RestoreHP" interval="3" value="116.5"/>
+		</for>
+	</skill>
+	<skill id="17906" levels="1" name="Greater Windy Healing Potion">
+		<set name="icon" value="icon.etc_potion_scarlet_i00"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="hp_recover"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="power" value="3"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="HOT"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="RestoreHP" interval="3" value="233"/>
+		</for>
+	</skill>
+	<skill id="17907" levels="1" name="Superior Windy Healing Potion">
+		<set name="icon" value="icon.etc_potion_scarlet_i00"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="hp_recover"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="power" value="4"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="HOT"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="RestoreHP" interval="3" value="394.6"/>
+		</for>
+	</skill>
+	<skill id="17908" levels="1" name="Supreme Windy Healing Potion">
+		<set name="icon" value="icon.etc_potion_scarlet_i00"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="abnormal_level" value="5"/>
+		<set name="abnormal_type" value="hp_recover"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="power" value="5"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="HOT"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="RestoreHP" interval="3" value="466.2"/>
+		</for>
+	</skill>
+	<skill id="17909" levels="1" name="Windy Quick Healing Potion">
+		<set name="icon" value="icon.etc_potion_gold_i00"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="HEAL"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect instant="true" name="RestoreHP" value="625">
+				<def name="cp_including" value="true"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="17910" levels="1" name="Major Windy Quick Healing Potion">
+		<set name="icon" value="icon.etc_potion_gold_i00"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="HEAL"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect instant="true" name="RestoreHP" value="1250">
+				<def name="cp_including" value="true"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="17911" levels="1" name="Greater Windy Quick Healing Potion">
+		<set name="icon" value="icon.etc_potion_gold_i00"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="HEAL"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect instant="true" name="RestoreHP" value="2500">
+				<def name="cp_including" value="true"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="17912" levels="1" name="Superior Windy Quick Healing Potion">
+		<set name="icon" value="icon.etc_potion_gold_i00"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="HEAL"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect instant="true" name="RestoreHP" value="3750">
+				<def name="cp_including" value="true"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="17913" levels="1" name="Supreme Windy Quick Healing Potion">
+		<set name="icon" value="icon.etc_potion_gold_i00"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="HEAL"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect instant="true" name="RestoreHP" value="5000">
+				<def name="cp_including" value="true"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="17914" levels="1" name="Low-grade Love Potion">
+		<set name="icon" value="icon.love_potion"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="hitTime" value="100"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="AWAKED_BUFF"/>
+		<set name="itemConsumeId" value="39476"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="instinct"/>
+		<for>
+			<effect>
+				<mul stat="pAtk" value="1.1"/>
+				<mul stat="mAtk" value="1.1"/>
+				<mul stat="pAtkSpd" value="1.1"/>
+				<mul stat="mAtkSpd" value="1.1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="17915" levels="1" name="Love Potion">
+		<set name="icon" value="icon.love_potion"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="hitTime" value="100"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="AWAKED_BUFF"/>
+		<set name="itemConsumeId" value="39477"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="instinct"/>
+		<for>
+			<effect>
+				<mul stat="pAtk" value="1.2"/>
+				<mul stat="mAtk" value="1.2"/>
+				<mul stat="pAtkSpd" value="1.2"/>
+				<mul stat="mAtkSpd" value="1.2"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="17916" levels="1" name="Mid-grade Love Potion">
+		<set name="icon" value="icon.love_potion"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="hitTime" value="100"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="AWAKED_BUFF"/>
+		<set name="itemConsumeId" value="39478"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="instinct"/>
+		<for>
+			<effect>
+				<mul stat="pAtk" value="1.3"/>
+				<mul stat="mAtk" value="1.3"/>
+				<mul stat="pAtkSpd" value="1.3"/>
+				<mul stat="mAtkSpd" value="1.3"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="17917" levels="1" name="High-grade Love Potion">
+		<set name="icon" value="icon.love_potion"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="hitTime" value="100"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="AWAKED_BUFF"/>
+		<set name="itemConsumeId" value="39479"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="instinct"/>
+		<for>
+			<effect>
+				<mul stat="pAtk" value="1.4"/>
+				<mul stat="mAtk" value="1.4"/>
+				<mul stat="pAtkSpd" value="1.4"/>
+				<mul stat="mAtkSpd" value="1.4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="17918" levels="1" name="Cruel Love Potion">
+		<set name="icon" value="icon.love_potion"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="hitTime" value="100"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="AWAKED_BUFF"/>
+		<set name="itemConsumeId" value="39480"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="buff_special_class"/>
+		<for>
+			<effect>
+				<triggers>
+					<trigger id="18010" level="1" type="ON_EXIT_EFFECT" chance="50"/>
+					<trigger id="18011" level="1" type="ON_EXIT_EFFECT" chance="50"/>
+					<trigger id="18012" level="1" type="ON_EXIT_EFFECT" chance="40"/>
+					<trigger id="18013" level="1" type="ON_EXIT_EFFECT" chance="40"/>
+					<trigger id="18014" level="1" type="ON_EXIT_EFFECT" chance="30"/>
+				</triggers>
+			</effect>
+		</for>
+	</skill>
+	<skill id="17919" levels="1" name="Super Elixir">
+		<set name="icon" value="icon.super_elixir_potion"/>
+		<set name="reuseDelay" value="1200000"/>
+		<set name="hitTime" value="100"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="1902">
+			<and>
+				<player minLevel="85"/>
+				<player max_level="105"/>
+			</and>
+		</cond>
+		<for>
+			<effect instant="true" name="RestoreHP" value="35">
+				<def name="ignore_bonuses" value="true"/>
+				<def name="percent" value="true"/>
+			</effect>
+			<effect instant="true" name="RestoreMP" value="20">
+				<def name="ignore_bonuses" value="true"/>
+				<def name="percent" value="true"/>
+			</effect>
+			<effect instant="true" name="RestoreCP" value="35">
+				<def name="ignore_bonuses" value="true"/>
+				<def name="percent" value="true"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="17920" levels="4" name="Windy Healing Potion">
+		<set name="icon" value="icon.etc_potion_scarlet_i00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17921" levels="4" name="Windy Quick Healing Potion">
+		<set name="icon" value="icon.etc_potion_gold_i00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17922" levels="5" name="Low-grade Love Potion">
+		<table name="#icon">icon.love_potion icon.love_potion icon.love_potion icon.love_potion icon.love_potion_party</table>
+		<set name="icon" value="#icon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17923" levels="1" name="Super Elixir">
+		<set name="icon" value="icon.super_elixir_potion"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17924" levels="3" name="Supreme Windy Healing Potion">
+		<table name="#icon">icon.etc_potion_scarlet_i00 icon.etc_potion_gold_i00 icon.love_potion</table>
+		<set name="icon" value="#icon"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17925" levels="2" name="Giant\'s Scroll: Enchant Armor (R-grade)">
+		<table name="#icon">icon.giant_scrl_of_ench_am_r icon.giant_scrl_of_ench_wp_r</table>
+		<set name="icon" value="#icon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17926" levels="2" name="Giant\'s Lucky Enchant Stone: Armor (R-grade)">
+		<table name="#icon">icon.giant_ench_armor_stone_r_i01 icon.giant_ench_wp_stone_r_i01</table>
+		<set name="icon" value="#icon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17927" levels="2" name="Windy Lucky Enchant Stone: Armor (R-grade)">
+		<table name="#icon">icon.giant_ench_armor_stone_r_i02 icon.giant_ench_wp_stone_r_i02</table>
+		<set name="icon" value="#icon"/>
+		<set name="reuseDelay" value="86400000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17928" levels="6" name="Lv. 1 Legendary MEN Dye (Luck)">
+		<table name="#icon">icon.lv1_unique_dye_men_luc icon.lv1_unique_dye_con_luc icon.lv1_unique_dye_wit_luc icon.lv1_unique_dye_dex_luc icon.lv1_unique_dye_int_luc icon.lv1_unique_dye_str_luc</table>
+		<set name="icon" value="#icon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17929" levels="6" name="Lv. 2 Legendary MEN Dye (Luck)">
+		<table name="#icon">icon.lv2_unique_dye_men_luc icon.lv2_unique_dye_con_luc icon.lv2_unique_dye_wit_luc icon.lv2_unique_dye_dex_luc icon.lv2_unique_dye_int_luc icon.lv2_unique_dye_str_luc</table>
+		<set name="icon" value="#icon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17930" levels="6" name="Lv. 3 Legendary MEN Dye (Luck)">
+		<table name="#icon">icon.lv3_unique_dye_men_luc icon.lv3_unique_dye_con_luc icon.lv3_unique_dye_wit_luc icon.lv3_unique_dye_dex_luc icon.lv3_unique_dye_int_luc icon.lv3_unique_dye_str_luc</table>
+		<set name="icon" value="#icon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17931" levels="6" name="Lv. 4 Legendary MEN Dye (Luck)">
+		<table name="#icon">icon.lv4_unique_dye_men_luc icon.lv4_unique_dye_con_luc icon.lv4_unique_dye_wit_luc icon.lv4_unique_dye_dex_luc icon.lv4_unique_dye_int_luc icon.lv4_unique_dye_str_luc</table>
+		<set name="icon" value="#icon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17932" levels="6" name="Lv. 1 Legendary MEN Dye (Charisma)">
+		<table name="#icon">icon.lv1_unique_dye_men_cha icon.lv1_unique_dye_con_cha icon.lv1_unique_dye_wit_cha icon.lv1_unique_dye_dex_cha icon.lv1_unique_dye_int_cha icon.lv1_unique_dye_str_cha</table>
+		<set name="icon" value="#icon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17933" levels="6" name="Lv. 2 Legendary MEN Dye (Charisma)">
+		<table name="#icon">icon.lv2_unique_dye_men_cha icon.lv2_unique_dye_con_cha icon.lv2_unique_dye_wit_cha icon.lv2_unique_dye_dex_cha icon.lv2_unique_dye_int_cha icon.lv2_unique_dye_str_cha</table>
+		<set name="icon" value="#icon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17934" levels="6" name="Lv. 3 Legendary MEN Dye (Charisma)">
+		<table name="#icon">icon.lv3_unique_dye_men_cha icon.lv3_unique_dye_con_cha icon.lv3_unique_dye_wit_cha icon.lv3_unique_dye_dex_cha icon.lv3_unique_dye_int_cha icon.lv3_unique_dye_str_cha</table>
+		<set name="icon" value="#icon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17935" levels="6" name="Lv. 4 Legendary MEN Dye (Charisma)">
+		<table name="#icon">icon.lv4_unique_dye_men_cha icon.lv4_unique_dye_con_cha icon.lv4_unique_dye_wit_cha icon.lv4_unique_dye_dex_cha icon.lv4_unique_dye_int_cha icon.lv4_unique_dye_str_cha</table>
+		<set name="icon" value="#icon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17936" levels="14" name="Lv. 5 Legendary MEN Dye (Luck)">
+		<table name="#icon">icon.lv5_unique_dye_men_luc icon.lv5_unique_dye_con_luc icon.lv5_unique_dye_wit_luc icon.lv5_unique_dye_dex_luc icon.lv5_unique_dye_int_luc icon.lv5_unique_dye_str_luc icon.lv5_unique_dye_men_cha icon.lv5_unique_dye_con_cha icon.lv5_unique_dye_wit_cha icon.lv5_unique_dye_dex_cha icon.lv5_unique_dye_int_cha icon.lv5_unique_dye_str_cha icon.lv5_unique_dye_cha_luc icon.lv5_unique_dye_luc_cha</table>
+		<set name="icon" value="#icon"/>
+		<set name="reuseDelay" value="7200000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17937" levels="3" name="Mid-grade Life Stone (R-grade)">
+		<table name="#icon">icon.r_mineral_special_i00 icon.r_mineral_rare_i00 icon.r_mineral_unique_i00</table>
+		<set name="icon" value="#icon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17938" levels="3" name="Mid-grade Life Stone (R95-grade)">
+		<table name="#icon">icon.r95_mineral_special_i00 icon.r95_mineral_rare_i00 icon.r95_mineral_unique_i00</table>
+		<set name="icon" value="#icon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17939" levels="3" name="Mid-grade Life Stone (R99-grade)">
+		<table name="#icon">icon.r99_mineral_special_i00 icon.r99_mineral_rare_i00 icon.r99_mineral_unique_i00</table>
+		<set name="icon" value="#icon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17940" levels="1" name="Life Stone: Giant\'s Power">
+		<set name="icon" value="icon.etc_small_bubble_i00"/>
+		<set name="reuseDelay" value="604800000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17941" levels="4" name="Lv. 1 Windy CHA Dye (Luck)">
+		<table name="#icon">icon.lv1_unique_dye_cha_luc icon.lv2_unique_dye_cha_luc icon.lv3_unique_dye_cha_luc icon.lv4_unique_dye_cha_luc</table>
+		<set name="icon" value="#icon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17942" levels="4" name="Lv. 1 Windy LUC Dye (Charisma)">
+		<table name="#icon">icon.lv1_unique_dye_luc_cha icon.lv2_unique_dye_luc_cha icon.lv3_unique_dye_luc_cha icon.lv4_unique_dye_luc_cha</table>
+		<set name="icon" value="#icon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17943" levels="2" name="Alchemy Cube">
+		<table name="#icon">icon.skill0000 icon.alchemy_mix_cube</table>
+		<set name="icon" value="#icon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17944" levels="1" name="Scroll of Escape: Talking Island Village">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="-113672;256008;-1532"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17945" levels="2" name="Escape - Hunter\'s Village Teleport">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="207249;87023;-1024"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17946" levels="2" name="Scroll of Escape: Magmeld">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="207249;87023;-1024"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17947" levels="1" name="Scroll of Escape: Town of Rune">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="44904;-48299;-792"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17948" levels="1" name="Scroll of Escape: Town of Aden">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="147080;27288;-2230"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17949" levels="1" name="Scroll of Escape: Town of Oren">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="83633;53064;-1456"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17950" levels="1" name="Scroll of Escape: Sea of Spores">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="64328;26803;-3768"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17951" levels="1" name="Scroll of Escape: Town of Aden">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="147448;22760;-2017"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17952" levels="1" name="Scroll of Escape: Forsaken Plains">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="174470;40112;-4144"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17953" levels="1" name="Scroll of Escape: Town of Aden">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="147080;27288;-2230"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17954" levels="1" name="Scroll of Escape: Fields of Massacre">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="183543;-14974;-2768"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17955" levels="1" name="Scroll of Escape: Town of Rune">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="36563;-49178;-1128"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17956" levels="1" name="Scroll of Escape: Swamp of Screams">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="70008;-49640;-3263"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17957" levels="1" name="Scroll of Escape: Town of Rune">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="36563;-49178;-1128"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17958" levels="1" name="Scroll of Escape: Forest of the Dead">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="52360;-53912;-3132"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17959" levels="1" name="Scroll of Escape: Town of Goddard">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="147705;-53066;-2731"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17960" levels="1" name="Scroll of Escape: Wall of Argos">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="164760;-48040;-3579"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17961" levels="1" name="Scroll of Escape: Town of Giran">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="86733;148616;-3400"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17962" levels="1" name="Scroll of Escape: Dragon Valley">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="72090;116824;-3688"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17963" levels="1" name="Alchemy Acquisition">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1500"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17964" levels="1" name="Master Alchemy: Failure">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1500"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17965" levels="1" name="Master Alchemy: Success">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1500"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17966" levels="1" name="Alchemy Cube: Random Success">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1500"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17967" levels="1" name="Low-grade Talisman Ingredient Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17968" levels="1" name="High-grade Tallisman Ingredient Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17969" levels="1" name="Low-grade Wind Dye Pack">
+		<set name="icon" value="icon.event_hero_treasure_box_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="39560"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="31.3"><item id="39381" min_count="5" max_count="5"/></group>
+			<group chance="28.6"><item id="39386" min_count="5" max_count="5"/></group>
+			<group chance="15.5"><item id="39382" min_count="5" max_count="5"/></group>
+			<group chance="13.9"><item id="39387" min_count="5" max_count="5"/></group>
+			<group chance="5.8"><item id="39383" min_count="5" max_count="5"/></group>
+			<group chance="4.9"><item id="39388" min_count="5" max_count="5"/></group>
+		</restoration>
+	</skill>
+	<skill id="17970" levels="1" name="Mid-grade Wind Dye Pack">
+		<set name="icon" value="icon.event_hero_treasure_box_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="39561"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="50"><item id="39389" min_count="5" max_count="5"/></group>
+			<group chance="50"><item id="39384" min_count="5" max_count="5"/></group>
+		</restoration>
+	</skill>
+	<skill id="17971" levels="1" name="High-grade Wind Dye Pack">
+		<set name="icon" value="icon.event_hero_treasure_box_i00"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="39562"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="50"><item id="39390" min_count="5" max_count="5"/></group>
+			<group chance="50"><item id="39385" min_count="5" max_count="5"/></group>
+		</restoration>
+	</skill>
+	<skill id="17972" levels="1" name="New Talisman Pack">
+		<set name="icon" value="icon.etc_treasure_box_i04"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="39563"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="25"><item id="39564" min_count="1" max_count="1"/></group>
+			<group chance="25"><item id="39565" min_count="1" max_count="1"/></group>
+			<group chance="25"><item id="39566" min_count="1" max_count="1"/></group>
+			<group chance="25"><item id="39567" min_count="1" max_count="1"/></group>
+		</restoration>
+	</skill>
+	<skill id="17973" levels="1" name="Talisman - Wind: P. Critical Damage">
+		<set name="icon" value="icon.r85_talisman_ca_up_passive"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="p_skill_critical_damage_per" value="10"/>
+		</for>
+	</skill>
+	<skill id="17974" levels="1" name="Talisman - Wind: M. Critical Damage">
+		<set name="icon" value="icon.r_talisman_mc_up_passive"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="p_magic_critical_dmg_per" value="10"/>
+		</for>
+	</skill>
+	<skill id="17975" levels="1" name="Talisman - Wind: Defense">
+		<set name="icon" value="icon.r85_talisman_pd_up_active"/>
+		<set name="reuseDelay" value="1200000"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pDef" value="1.03"/>	<!--TODO: Check value.-->
+			<mul stat="mDef" value="1.03"/> 	<!--TODO: Check value.-->
+		</for>
+	</skill>
+	<skill id="17976" levels="1" name="Talisman - Wind: Debuff Resistance">
+		<set name="icon" value="icon.r85_talisman_md_up_active"/>
+		<set name="reuseDelay" value="1200000"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="resist_abnormal_debuff" value="-15"/>	<!--TODO: Check value.-->
+		</for>
+	</skill>
+	<skill id="17978" levels="1" name="Equip Talisman - Insanity">
+		<set name="icon" value="icon.accessory_punishment_talisman_i01"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="MUSIC"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_time" value="-1"/>
+		<set name="abnormal_effect" value="D_TALI_DECO_P"/>
+		<set name="abnormal_type" value="seed_talisman"/>
+		<set name="abnormal_level" value="7"/>
+		<set name="isHideStartMessage" value="true"/>
+		<set name="isHideUseMessage" value="true"/>
+		<set name="apply_effects_on_summon" value="false"/>
+		<set name="apply_effects_on_pet" value="false"/>
+		<set name="isSelfDispellable" value="false"/>
+		<for>
+			<effect/>
+		</for>
+	</skill>
+	<skill id="17979" levels="1" name="Unequip Talisman - Insanity">
+		<set name="icon" value="icon.accessory_punishment_talisman_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17980" levels="1" name="Unseal Talisman - Insanity">
+		<set name="icon" value="icon.accessory_punishment_talisman_i01"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="coolTime" value="200"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17981" levels="1" name="Scroll of Escape: Gludin Village">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="-80712;149992;-3069"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17982" levels="1" name="Scroll of Escape: Windy Hill">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="-93368;89448;-3250"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17983" levels="1" name="Scroll of Escape: Gludin Village Temple">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="isHandler" value="true"/>
+		<set name="loc" value="-79310;150930;-3045"/>
+	</skill>
+	<skill id="17984" levels="1" name="Scroll of Escape: Orc Barracks">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="-85585;106831;-3544"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17985" levels="1" name="Scroll of Escape: Town of Dion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="15784;142968;-2731"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17986" levels="1" name="Scroll of Escape: Cruma Tower">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="16584;113432;-3606"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17987" levels="1" name="Scroll of Escape: Town of Dion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="15784;142968;-2731"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17988" levels="1" name="Scroll of Escape: Cruma Tower">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="16584;113432;-3606"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17989" levels="1" name="Scroll of Escape: Bloody Swampland">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="-16056;30504;-3651"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17990" levels="1" name="Scroll of Escape: Seed of Annihilation">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="-178600;154232;2546"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17991" levels="1" name="Scroll of Escape: Harnak Underground Ruins">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="-115976;236504;-3114"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17992" levels="1" name="Scroll of Escape: Kartia\'s Labyrinth">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="147450;27064;-2208"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17993" levels="1" name="Scroll of Escape: Fairy Settlement">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="220728;72424;1200"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17994" levels="1" name="Scroll of Escape: Garden of Genesis">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="212920;115272;-880"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17995" levels="1" name="Scroll of Escape: Prison of Darkness">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="207560;86616;-1000"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17996" levels="1" name="Scroll of Escape: Fortuna">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="206856;89992;-1008"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17997" levels="1" name="Scroll of Escape: Isle of Souls">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="-95272;52008;-2032"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17998" levels="1" name="Scroll of Escape: Nornil\'s Cave">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="-85908;37151;-2048"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="17999" levels="1" name="Scroll of Escape: Seal of Shilen">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<set name="loc" value="185912;20296;-3344"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+</list>

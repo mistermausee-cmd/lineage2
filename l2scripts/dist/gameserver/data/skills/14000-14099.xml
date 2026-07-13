@@ -1,0 +1,1639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="14001" levels="3" name="Cross Slash">
+		<table name="#magicLevel">95 96 97</table>
+		<table name="#mp_consume">85 86 86</table>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="2500"/>
+		<set name="castRange" value="150"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="power" value="40000"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14002" levels="3" name="Transfixion Attack">
+		<table name="#magicLevel">95 96 97</table>
+		<set name="icon" value="icon.skill0484"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="100"/>
+		<set name="mp_consume" value="20"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="power" value="40000"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14003" levels="3" name="Straight Slash">
+		<table name="#magicLevel">95 96 97</table>
+		<table name="#mp_consume">85 86 86</table>
+		<set name="icon" value="icon.skill0122"/>
+		<set name="reuseDelay" value="2500"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="abnormal_time" value="20"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="absorb"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="power" value="40000"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="DRAIN"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14004" levels="3" name="Front Elven Bow">
+		<table name="#magicLevel">95 96 97</table>
+		<table name="#mp_consume">85 86 86</table>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="castRange" value="150"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="power" value="40000"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14005" levels="3" name="Battlefront Slash">
+		<table name="#magicLevel">95 96 97</table>
+		<table name="#mp_consume">85 86 86</table>
+		<set name="icon" value="icon.skill0320"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="150"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="power" value="40000"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14006" levels="3" name="Shield Stun">
+		<table name="#magicLevel">95 96 97</table>
+		<table name="#mp_consume">85 86 86</table>
+		<set name="icon" value="icon.skill0092"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="coolTime" value="300"/>
+		<set name="castRange" value="150"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="abnormal_effect" value="STUN"/>
+		<set name="abnormal_time" value="3"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="stun"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="power" value="40000"/>
+		<set name="lv_bonus_rate" value="2"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+		<set name="trait" value="SHOCK"/>
+		<for>
+			<effect name="Stun">
+				<p_defence_trait name="hold" value="100"/>
+				<p_defence_trait name="knockback" value="100"/>
+				<p_defence_trait name="airbind" value="100"/>
+				<p_defence_trait name="shock" value="100"/>
+				<p_defence_trait name="sleep" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14007" levels="3" name="Power Blow">
+		<table name="#magicLevel">95 96 97</table>
+		<table name="#mp_consume">85 86 86</table>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="castRange" value="250"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="power" value="40000"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14008" levels="3" name="Power Zeppelin">
+		<table name="#magicLevel">95 96 97</table>
+		<set name="icon" value="icon.skill0493"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="1000"/>
+		<set name="hitTime" value="100"/>
+		<set name="mp_consume" value="20"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="power" value="40000"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14009" levels="3" name="Electric Shock">
+		<table name="#magicLevel">95 96 97</table>
+		<table name="#mp_consume">78 78 79</table>
+		<set name="icon" value="icon.skill1172"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="castRange" value="150"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="operate_type" value="A2"/>
+		<set name="power" value="2000"/>
+	</skill>
+	<skill id="14010" levels="3" name="Electric Range">
+		<table name="#mp_consume">78 78 79</table>
+		<set name="icon" value="icon.skill0279"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="1000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_AREA"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="operate_type" value="A2"/>
+		<set name="power" value="3500"/>
+	</skill>
+	<skill id="14011" levels="3" name="Electric Staff">
+		<table name="#dot">-2000 -2250 -2500</table>
+		<table name="#mp_consume">78 78 79</table>
+		<set name="icon" value="icon.skill1265"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="1000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="abnormal_effect" value="DOT_BLEEDING"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="abnormal_type" value="bleeding"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="lv_bonus_rate" value="2"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="subordination_abnormal" value="bleeding"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="DOT"/>
+		<set name="operate_type" value="A2"/>
+		<set name="power" value="90"/>
+		<set name="trait" value="BLEED"/>
+		<for>
+			<effect name="t_hp" interval="5" value="#dot">
+				<mul stat="runSpd" value="0.8"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14012" levels="3" name="Iron Deal">
+		<table name="#magicLevel">95 96 97</table>
+		<table name="#mp_consume">85 86 86</table>
+		<set name="icon" value="icon.skill0320"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="300"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="power" value="40000"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14013" levels="3" name="Iron Drop Deal">
+		<table name="#magicLevel">95 96 97</table>
+		<table name="#mp_consume">85 86 86</table>
+		<set name="icon" value="icon.skill0320"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="200"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="power" value="40000"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14014" levels="3" name="Power Front Slash">
+		<table name="#mp_consume">85 86 86</table>
+		<set name="icon" value="icon.skill0320"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="150"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="abnormal_time" value="20"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="absorb"/>
+		<set name="magicLevel" value="104"/>
+		<set name="power" value="40000"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="DRAIN"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14015" levels="1" name="Circle Slash">
+		<set name="icon" value="icon.skill0036"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="86"/>
+		<set name="magicLevel" value="98"/>
+		<set name="power" value="40000"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14016" levels="1" name="Elven Bow Range">
+		<set name="icon" value="icon.skill0320"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="250"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="86"/>
+		<set name="magicLevel" value="98"/>
+		<set name="power" value="40000"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14017" levels="1" name="Thunder Storm">
+		<set name="icon" value="icon.skill0048"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="300"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="86"/>
+		<set name="abnormal_effect" value="STUN"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="stun"/>
+		<set name="magicLevel" value="98"/>
+		<set name="power" value="40000"/>
+		<set name="lv_bonus_rate" value="2"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+		<set name="trait" value="SHOCK"/>
+		<for>
+			<effect name="Stun"/>
+		</for>
+	</skill>
+	<skill id="14018" levels="1" name="Downward Blow">
+		<set name="icon" value="icon.skill0320"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="300"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="86"/>
+		<set name="magicLevel" value="98"/>
+		<set name="power" value="40000"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14019" levels="1" name="Ice Chill Spell">
+		<set name="icon" value="icon.skill1184"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="79"/>
+		<set name="magicLevel" value="98"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="power" value="3000"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14020" levels="1" name="Ice Wall">
+		<set name="icon" value="icon.skill1184"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="1000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="79"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="stun"/>
+		<set name="magicLevel" value="98"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="power" value="3000"/>
+		<set name="lv_bonus_rate" value="2"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="operate_type" value="A2"/>
+		<set name="trait" value="SHOCK"/>
+		<for>
+			<effect name="Stun"/>
+		</for>
+	</skill>
+	<skill id="14021" levels="1" name="Ice Chill Range">
+		<set name="icon" value="icon.skill1184"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="79"/>
+		<set name="abnormal_time" value="30"/>
+		<set name="abnormal_level" value="7"/>
+		<set name="abnormal_type" value="bleeding"/>
+		<set name="magicLevel" value="98"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="lv_bonus_rate" value="2"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="subordination_abnormal" value="bleeding"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="DOT"/>
+		<set name="operate_type" value="A2"/>
+		<set name="power" value="90"/>
+		<for>
+			<effect name="t_hp" interval="5" value="-1500">
+				<mul stat="runSpd" value="0.8"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14022" levels="1" name="Ice Drop">
+		<set name="icon" value="icon.skill1184"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="1000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="79"/>
+		<set name="magicLevel" value="98"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="power" value="3000"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14023" levels="1" name="Hero\'s Teleport">
+		<set name="icon" value="icon.skill0793"/>
+		<set name="reuseDelay" value="1500"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="20"/>
+		<set name="abnormal_time" value="1"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="fly_away"/>
+		<set name="affect_range" value="350"/>
+		<set name="magicLevel" value="99"/>
+		<set name="activateRate" value="45"/>
+		<set name="power" value="90"/>
+		<set name="lv_bonus_rate" value="1"/>
+		<set name="trait" value="SHOCK"/>
+		<set name="target" value="TARGET_AURA"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="KnockBack"/>
+		</for>
+	</skill>
+	<skill id="14024" levels="1" name="Ancient Hero\'s Roar">
+		<set name="icon" value="icon.skill0320"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="300"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="87"/>
+		<set name="abnormal_time" value="3"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="fly_away"/>
+		<set name="power" value="90"/>
+		<set name="trait" value="SHOCK"/>
+		<set name="magicLevel" value="99"/>
+		<set name="lv_bonus_rate" value="1"/>
+		<set name="target" value="TARGET_AURA"/>
+		<set name="affect_range" value="350"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="Fear"/>
+		</for>
+	</skill>
+	<skill id="14025" levels="1" name="Hero\'s Arrow Shaft">
+		<set name="icon" value="icon.skill0772"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="87"/>
+		<set name="magicLevel" value="99"/>
+		<set name="target" value="TARGET_AURA"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="affect_range" value="350"/>
+		<set name="power" value="1500"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14026" levels="1" name="Hero\'s Sword Energy">
+		<set name="icon" value="icon.skill0122"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="1500"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_AREA"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="power" value="150000"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14027" levels="1" name="Hero\'s Rage">
+		<set name="icon" value="icon.skill0122"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="1500"/>
+		<set name="abnormal_time" value="7"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="absorb"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_AURA"/>
+		<set name="affect_range" value="350"/>
+		<set name="power" value="100000"/>
+		<set name="activateRate" value="90"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="Stun"/>
+		</for>
+	</skill>
+	<skill id="14028" levels="1" name="Hero\'s Influence">
+		<set name="icon" value="icon.skill0024"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="castRange" value="2000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="87"/>
+		<set name="magicLevel" value="99"/>
+		<set name="power" value="3000"/>
+		<set name="target" value="TARGET_AURA"/>
+		<set name="affect_range" value="450"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14029" levels="1" name="Hero\'s Influence">
+		<set name="icon" value="icon.skill0024"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="castRange" value="2000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="87"/>
+		<set name="magicLevel" value="99"/>
+		<set name="power" value="3000"/>
+		<set name="target" value="TARGET_AURA"/>
+		<set name="affect_range" value="450"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14030" levels="1" name="Hero\'s Magic">
+		<set name="icon" value="icon.skill1230"/>
+		<set name="castRange" value="1000"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="79"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14031" levels="1" name="Hero\'s Magic">
+		<set name="icon" value="icon.skill1230"/>
+		<set name="castRange" value="1000"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="79"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14032" levels="1" name="Red Net">
+		<set name="icon" value="icon.skill14032"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="85"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="activateRate" value="90"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="stun"/>
+		<set name="lv_bonus_rate" value="2"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="trait" value="SHOCK"/>
+		<set name="power" value="10000"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="Stun"/>
+		</for>
+	</skill>
+	<skill id="14033" levels="1" name="Vital Spot Attack">
+		<set name="icon" value="icon.skill0016"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="300"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="85"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+		<set name="magicLevel" value="95"/>
+		<set name="power" value="60000"/>
+	</skill>
+	<skill id="14034" levels="1" name="Waist Slash">
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="300"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="85"/>
+		<set name="abnormal_effect" value="DOT_BLEEDING"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="bleeding"/>
+		<set name="lv_bonus_rate" value="2"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="subordination_abnormal" value="bleeding"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="DOT"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="t_hp" interval="5" value="-1500">
+				<mul stat="runSpd" value="0.8"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14035" levels="1" name="Octavis\' Obedience">
+		<set name="icon" value="icon.skill0045"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="3000"/>
+		<set name="magicLevel" value="95"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="power" value="40000"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14036" levels="1" name="Vulnerability Attack">
+		<set name="icon" value="icon.skill0484"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="20"/>
+		<set name="magicLevel" value="95"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+		<set name="power" value="60000"/>
+	</skill>
+	<skill id="14037" levels="1" name="Front Foot Attack">
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="castRange" value="150"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="85"/>
+		<set name="magicLevel" value="95"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="power" value="40000"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14038" levels="1" name="Power Strike">
+		<set name="icon" value="icon.skill0320"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="castRange" value="150"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="86"/>
+		<set name="magicLevel" value="98"/>
+		<set name="power" value="40000"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14039" levels="1" name="Curse Shock">
+		<set name="icon" value="icon.skill0100"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="86"/>
+		<set name="abnormal_effect" value="STUN"/>
+		<set name="abnormal_time" value="9"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="stun"/>
+		<set name="magicLevel" value="98"/>
+		<set name="power" value="40000"/>
+		<set name="lv_bonus_rate" value="2"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+		<set name="trait" value="SHOCK"/>
+		<for>
+			<effect name="Stun"/>
+		</for>
+	</skill>
+	<skill id="14040" levels="6" name="Power Strike">
+		<table name="#magicLevel">90 91 92 93 94 95</table>
+		<table name="#mp_consume">83 83 84 84 84 84</table>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="power" value="40000"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14041" levels="1" name="Teleport">
+		<set name="icon" value="icon.skill1448"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="100"/>
+		<set name="magicLevel" value="90"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="power" value="40000"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14042" levels="6" name="Disarm">
+		<table name="#magicLevel">90 91 92 93 94 95</table>
+		<table name="#mp_consume">83 83 84 84 84 84</table>
+		<set name="icon" value="icon.skill0485"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="abnormal_effect" value="DOT_BLEEDING"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="disarm"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="skillType" value="DOT"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="t_hp" interval="5" value="-1500">
+				<mul stat="runSpd" value="0.8"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14043" levels="6" name="Double Blow">
+		<table name="#magicLevel">90 91 92 93 94 95</table>
+		<table name="#mp_consume">83 83 84 84 84 84</table>
+		<set name="icon" value="icon.skill0005"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="power" value="40000"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14044" levels="1" name="Teleport">
+		<set name="icon" value="icon.skill1448"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="100"/>
+		<set name="abnormal_effect" value="STUN"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="pd_up"/>
+		<set name="magicLevel" value="90"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="power" value="40000"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="Stun"/>
+		</for>
+	</skill>
+	<skill id="14045" levels="6" name="Fairy Attack">
+		<table name="#magicLevel">90 91 92 93 94 95</table>
+		<table name="#mp_consume">75 75 77 77 77 77</table>
+		<set name="icon" value="icon.skill1147"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="power" value="40000"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14046" levels="6" name="Fairy Curse Gloom">
+		<table name="#magicLevel">90 91 92 93 94 95</table>
+		<table name="#mp_consume">75 75 77 77 77 77</table>
+		<set name="icon" value="icon.skill1263"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="abnormal_time" value="30"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="md_down"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="lv_bonus_rate" value="2"/>
+		<set name="basic_property" value="magic_abnormal_resist"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="mDef" value="0.85"/>
+				<sub stat="defenceFire" value="15"/>
+				<sub stat="defenceWater" value="15"/>
+				<sub stat="defenceWind" value="15"/>
+				<sub stat="defenceEarth" value="15"/>
+				<sub stat="defenceHoly" value="15"/>
+				<sub stat="defenceUnholy" value="15"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14047" levels="6" name="Fairy Curse Poison">
+		<table name="#magicLevel">90 91 92 93 94 95</table>
+		<table name="#mp_consume">75 75 77 77 77 77</table>
+		<set name="icon" value="icon.skill1168"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="abnormal_effect" value="DOT_POISON"/>
+		<set name="abnormal_time" value="30"/>
+		<set name="abnormal_level" value="8"/>
+		<set name="abnormal_type" value="poison"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="subordination_abnormal" value="poison"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="trait" value="POISON"/>
+		<for>
+			<effect name="t_hp" interval="3" value="500"/>
+		</for>
+	</skill>
+	<skill id="14048" levels="1" name="Fairy Acumen">
+		<set name="icon" value="icon.skill1085"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="75"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="casting_time_down"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="mAtkSpd" value="1.3"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14049" levels="1" name="Fairy Heal">
+		<set name="icon" value="icon.skill1258"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="80"/>
+		<set name="magicLevel" value="94"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="HEAL"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect instant="true" name="RestoreHP" value="1500"/>
+		</for>
+	</skill>
+	<skill id="14050" levels="4" name="Power Strike">
+		<table name="#magicLevel">92 93 94 95</table>
+		<table name="#mp_consume">83 84 83 84</table>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="power" value="40000"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14051" levels="4" name="Decrease P. Def.">
+		<table name="#magicLevel">92 93 94 95</table>
+		<set name="icon" value="icon.skill0116"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="75"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="pa_down"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="basic_property" value="magic_abnormal_resist"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="pDef" value="0.7"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14052" levels="4" name="Rush">
+		<table name="#power">12411 12977 7072 7461</table>
+		<table name="#magicLevel">92 93 94 95</table>
+		<set name="icon" value="icon.skill0484"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="100"/>
+		<set name="mp_consume" value="20"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="power" value="#power"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14053" levels="4" name="Mace Downward Strike">
+		<table name="#magicLevel">92 93 94 95</table>
+		<table name="#mp_consume">83 84 84 84</table>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_AURA"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="power" value="40000"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14054" levels="4" name="Wood Upward Strike">
+		<table name="#magicLevel">92 93 94 95</table>
+		<table name="#mp_consume">83 84 84 84</table>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="5000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_AURA"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="power" value="40000"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14055" levels="4" name="Power Shot">
+		<table name="#magicLevel">92 93 94 95</table>
+		<table name="#mp_consume">83 84 84 84</table>
+		<set name="icon" value="icon.skill0056"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="power" value="40000"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14056" levels="4" name="Power Arrow">
+		<table name="#magicLevel">92 93 94 95</table>
+		<set name="icon" value="icon.skill0924"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1500"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="power" value="40000"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14057" levels="1" name="Teleport">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="5000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14058" levels="2" name="X Strike">
+		<table name="#magicLevel">91 94</table>
+		<table name="#mp_consume">83 84</table>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="100"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="power" value="40000"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14059" levels="2" name="Sneer Attack">
+		<table name="#magicLevel">91 94</table>
+		<table name="#mp_consume">83 84</table>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="power" value="40000"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14060" levels="2" name="Hold">
+		<table name="#magicLevel">91 94</table>
+		<table name="#mp_consume">75 77</table>
+		<set name="icon" value="icon.skill1201"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="abnormal_effect" value="ROOT"/>
+		<set name="abnormal_time" value="30"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="root_magically"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="trait" value="HOLD"/>
+		<set name="lv_bonus_rate" value="2"/>
+		<set name="basic_property" value="magic_abnormal_resist"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="p_block_move">
+				<p_defence_trait name="hold" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14061" levels="2" name="Frontal Brandish">
+		<table name="#magicLevel">92 95</table>
+		<table name="#mp_consume">84 85</table>
+		<set name="icon" value="icon.skill0320"/>
+		<set name="reuseDelay" value="8000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="power" value="40000"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14062" levels="2" name="Sleep">
+		<table name="#magicLevel">92 95</table>
+		<table name="#mp_consume">77 78</table>
+		<set name="icon" value="icon.skill1069"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="abnormal_effect" value="SLEEP"/>
+		<set name="abnormal_time" value="6"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="sleep"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="lv_bonus_rate" value="2"/>
+		<set name="basic_property" value="magic_abnormal_resist"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="SLEEP"/>
+		<set name="operate_type" value="A2"/>
+		<set name="trait" value="SLEEP"/>
+		<for>
+			<effect name="Sleep">
+				<p_defence_trait name="sleep" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14063" levels="1" name="Fatal Rush">
+		<set name="icon" value="icon.skill0484"/>
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="100"/>
+		<set name="mp_consume" value="20"/>
+		<set name="magicLevel" value="95"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14064" levels="1" name="Wisp Heal">
+		<set name="icon" value="icon.skill1258"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="castRange" value="600"/>
+		<set name="mp_consume" value="75"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="HEAL"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect instant="true" name="RestoreHP" value="378"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="poison"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14065" levels="1" name="Wisp Heal">
+		<set name="icon" value="icon.skill1258"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="castRange" value="600"/>
+		<set name="mp_consume" value="75"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect instant="true" name="RestoreHP" value="378"/>
+			<effect instant="true" name="RestoreMP" value="378"/>
+		</for>
+	</skill>
+	<skill id="14066" levels="11" name="Blind Light">
+		<table name="#magicLevel">85 86 87 88 89 90 91 92 93 94 95</table>
+		<table name="#mp_consume">74 74 75 75 75 77 77 77 77 78 78</table>
+		<set name="icon" value="icon.skill1381"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="abnormal_effect" value="TURN_FLEE"/>
+		<set name="abnormal_time" value="6"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="turn_flee"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="basic_property" value="magic_abnormal_resist"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="activateRate" value="35"/>
+		<set name="operate_type" value="A2"/>
+		<set name="trait" value="DERANGEMENT"/>
+		<for>
+			<effect name="Fear"/>
+		</for>
+	</skill>
+	<skill id="14067" levels="11" name="Blind Light">
+		<table name="#magicLevel">85 86 87 88 89 90 91 92 93 94 95</table>
+		<set name="icon" value="icon.skill1381"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="80"/>
+		<set name="abnormal_effect" value="TURN_FLEE"/>
+		<set name="abnormal_time" value="7"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="turn_flee"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="basic_property" value="magic_abnormal_resist"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="activateRate" value="35"/>
+		<set name="operate_type" value="A2"/>
+		<set name="trait" value="DERANGEMENT"/>
+		<for>
+			<effect name="Fear"/>
+		</for>
+	</skill>
+	<skill id="14068" levels="6" name="Garden Inducement">
+		<table name="#magicLevel">90 91 92 93 94 95</table>
+		<table name="#mp_consume">77 78 78 78 78 78</table>
+		<set name="icon" value="icon.skill1239"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="300"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="power" value="3000"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14069" levels="6" name="Garden Dark Magic">
+		<table name="#magicLevel">90 91 92 93 94 95</table>
+		<table name="#mp_consume">77 78 78 78 78 78</table>
+		<set name="icon" value="icon.skill0279"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="200"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="paralyze"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="lv_bonus_rate" value="2"/>
+		<set name="basic_property" value="magic_abnormal_resist"/>
+		<set name="trait" value="PARALYZE"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="Paralyze"/>
+		</for>
+	</skill>
+	<skill id="14070" levels="6" name="Branch Straightening">
+		<table name="#magicLevel">90 91 92 93 94 95</table>
+		<table name="#mp_consume">77 78 78 78 78 78</table>
+		<set name="icon" value="icon.skill0096"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="castRange" value="200"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="abnormal_effect" value="DOT_BLEEDING"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="abnormal_level" value="10"/>
+		<set name="abnormal_type" value="bleeding"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="lv_bonus_rate" value="2"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="subordination_abnormal" value="bleeding"/>
+		<set name="trait" value="BLEED"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="DOT"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="t_hp" interval="1" value="500"/>
+		</for>
+	</skill>
+	<skill id="14071" levels="6" name="Destroyer\'s Friction">
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="77"/>
+		<set name="abnormal_time" value="1"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="knockdown"/>
+		<set name="activateRate" value="80"/>
+		<set name="lv_bonus_rate" value="1"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<def name="fly_radius" value="55"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14072" levels="6" name="Gardener Blow">
+		<table name="#magicLevel">90 91 92 93 94 95</table>
+		<set name="icon" value="icon.skill4037"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="100"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="77"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="pa_down"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="lv_bonus_rate" value="2"/>
+		<set name="basic_property" value="magic_abnormal_resist"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="pDef" value="0.7"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14073" levels="6" name="Garden Destroyer Slash">
+		<table name="#magicLevel">90 91 92 93 94 95</table>
+		<table name="#mp_consume">84 84 85 85 85 85</table>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="60"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="power" value="40000"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14074" levels="1" name="Garden Destroyer Slash">
+		<set name="icon" value="icon.skill0048"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="mp_consume" value="84"/>
+		<set name="abnormal_effect" value="STUN"/>
+		<set name="abnormal_time" value="30"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="stun"/>
+		<set name="magicLevel" value="90"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="trait" value="SHOCK"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="Stun"/>
+		</for>
+	</skill>
+	<skill id="14075" levels="1" name="Harmful Trap">
+		<set name="icon" value="icon.skill0127"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="mp_consume" value="84"/>
+		<set name="abnormal_time" value="180"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="speed_down"/>
+		<set name="magicLevel" value="90"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<sub stat="runSpd" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14076" levels="1" name="Harmful Trap">
+		<set name="icon" value="icon.skill1206"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="mp_consume" value="84"/>
+		<set name="abnormal_time" value="180"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="max_hp_up"/>
+		<set name="magicLevel" value="90"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="pAtkSpd" value="0.7"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14077" levels="6" name="Gardener Slash">
+		<table name="#magicLevel">90 91 92 93 94 95</table>
+		<table name="#mp_consume">77 78 78 78 78 78</table>
+		<set name="icon" value="icon.skill0070"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="castRange" value="200"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="power" value="3000"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14078" levels="6" name="Pirate Gardener Shock">
+		<table name="#magicLevel">90 91 92 93 94 95</table>
+		<table name="#mp_consume">84 85 85 85 85 85</table>
+		<set name="icon" value="icon.skill0048"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="castRange" value="200"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="abnormal_effect" value="STUN"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="stun"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="lv_bonus_rate" value="2"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="trait" value="SHOCK"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="Stun"/>
+		</for>
+	</skill>
+	<skill id="14079" levels="1" name="Garden Reflect">
+		<set name="icon" value="icon.skill4095"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="dmg_shield"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="reflectDam" value="25"/>
+				<add stat="reflectBowDam" value="25"/>
+				<add stat="reflectPSkillDam" value="25"/>
+				<add stat="reflectMSkillDam" value="25"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14080" levels="1" name="Self Defense">
+		<set name="icon" value="icon.skill0110"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="84"/>
+		<set name="abnormal_effect" value="ULTIMATE_DEFENCE"/>
+		<set name="abnormal_time" value="2"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="pd_up_special"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="pDef" value="5000"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14081" levels="6" name="Garden Judgment">
+		<table name="#magicLevel">90 91 92 93 94 95</table>
+		<table name="#mp_consume">84 84 85 85 85 85</table>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="80"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="power" value="40000"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14082" levels="6" name="Gardener\'s Wrath">
+		<table name="#magicLevel">90 91 92 93 94 95</table>
+		<table name="#mp_consume">84 84 85 85 85 85</table>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="castRange" value="150"/>
+		<set name="hitTime" value="5000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="power" value="40000"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14083" levels="1" name="Garden Elixir">
+		<set name="icon" value="icon.skill0922"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="hitTime" value="100"/>
+		<set name="abnormal_effect" value="FLESH_STONE"/>
+		<set name="abnormal_time" value="6"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="turn_stone"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="affect_range" value="150"/>
+		<set name="skillType" value="PARALYZE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="Invulnerable"/>
+			<effect name="Petrification">
+				<set stat="regHp" value="0"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14084" levels="6" name="Garden Range Bleed">
+		<table name="#magicLevel">90 91 92 93 94 95</table>
+		<table name="#mp_consume">77 78 78 78 78 78</table>
+		<set name="icon" value="icon.skill0096"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="castRange" value="200"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="abnormal_effect" value="DOT_BLEEDING"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="abnormal_level" value="10"/>
+		<set name="abnormal_type" value="bleeding"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="lv_bonus_rate" value="2"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="subordination_abnormal" value="bleeding"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="DOT"/>
+		<set name="operate_type" value="A2"/>
+		<set name="trait" value="BLEED"/>
+		<for>
+			<effect name="t_hp" interval="5" value="-500">
+				<mul stat="runSpd" value="0.8"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14085" levels="1" name="Protection">
+		<set name="icon" value="icon.skill1258"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="200"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="77"/>
+		<set name="magicLevel" value="90"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="power" value="40000"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14086" levels="1" name="Apherus Gate Key Discovery">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="magicLevel" value="90"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14087" levels="6" name="Apherus\' Binding">
+		<table name="#mp_consume">84 84 85 85 85 85</table>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="abnormal_time" value="20"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="absorb"/>
+		<set name="power" value="40000"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="overHit" value="true"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14088" levels="1" name="Garden Apherus Recovery">
+		<set name="icon" value="icon.skill1268"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="10000"/>
+		<set name="mp_consume" value="1"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="vampiric_attack"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="absorbDam" value="9"/>
+				<add stat="absorbBowDam" value="9"/>
+				<add stat="absorbPSkillDam" value="9"/>
+				<add stat="absorbMSkillDam" value="9"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14089" levels="5" name="Reflect">
+		<table name="#magicLevel">90 91 92 93 94</table>
+		<table name="#mp_consume">84 84 85 85 85</table>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="castRange" value="100"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="power" value="3000"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14090" levels="6" name="Apherus Paralysis">
+		<table name="#magicLevel">90 91 92 93 94 95</table>
+		<set name="icon" value="icon.skill014090"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="castRange" value="200"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="64"/>
+		<set name="abnormal_time" value="3"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="paralyze"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="lv_bonus_rate" value="1"/>
+		<set name="basic_property" value="magic_abnormal_resist"/>
+		<set name="trait" value="PARALYZE"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="Paralyze"/>
+		</for>
+	</skill>
+	<skill id="14091" levels="6" name="Rose Poison">
+		<table name="#magicLevel">90 91 92 93 94 95</table>
+		<set name="icon" value="icon.skill1069"/>
+		<set name="hitTime" value="100"/>
+		<set name="mp_consume" value="78"/>
+		<set name="abnormal_effect" value="STUN"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="stun"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="trait" value="SLEEP"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="Stun">
+				<p_defence_trait name="shock" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14092" levels="6" name="Entangle">
+		<table name="#magicLevel">90 91 92 93 94 95</table>
+		<table name="#mp_consume">77 78 78 78 78 78</table>
+		<set name="icon" value="icon.skill1201"/>
+		<set name="hitTime" value="100"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="abnormal_effect" value="ROOT"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="root_magically"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="trait" value="HOLD"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="p_block_move">
+				<p_defence_trait name="hold" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="14093" levels="5" name="Sakum Follower Blow">
+		<table name="#magicLevel">25 26 27 28 29</table>
+		<table name="#mp_consume">24 25 26 27 28</table>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="castRange" value="80"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="power" value="40000"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14094" levels="5" name="Sakum Follower Blow">
+		<table name="#magicLevel">30 31 32 33 34</table>
+		<table name="#mp_consume">24 25 26 27 28</table>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="castRange" value="80"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="power" value="40000"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14095" levels="1" name="Sakum Chaos">
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="castRange" value="80"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="38"/>
+		<set name="magicLevel" value="40"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="power" value="40000"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14096" levels="1" name="Sakum Feeler Blow">
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="castRange" value="80"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="38"/>
+		<set name="magicLevel" value="40"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="power" value="40000"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14097" levels="6" name="Fear of the Basilisk">
+		<table name="#magicLevel">30 31 32 33 34 35</table>
+		<table name="#mp_consume">28 28 29 30 32 33</table>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="castRange" value="80"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="power" value="40000"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14098" levels="6" name="Sahara Blow">
+		<table name="#magicLevel">30 31 32 33 34 35</table>
+		<table name="#mp_consume">28 28 29 30 32 33</table>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="castRange" value="80"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="power" value="40000"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="14099" levels="6" name="Lachik Front Foot Attack">
+		<table name="#magicLevel">85 86 87 88 89 90</table>
+		<table name="#mp_consume">84 84 84 85 85 85</table>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="castRange" value="80"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="power" value="40000"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+</list>

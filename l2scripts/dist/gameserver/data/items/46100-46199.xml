@@ -1,0 +1,991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<etcitem id="46100" name="Treasure Map - High Priest Raymond">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_map_yellow_i04"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="46101" name="Treasure Map - Turek Orc\'s Legacy">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_map_yellow_i05"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="46102" name="Zaken\'s Treasure Chest">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_jewel_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="handler" value="SkillsReduce"/>
+		<skills>
+			<skill id="18398" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="46103" name="Leona Blackbird\'s Treasure Chest">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_jewel_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="handler" value="SkillsReduce"/>
+		<skills>
+			<skill id="18399" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="46104" name="Beora\'s Treasure Chest">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_jewel_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="handler" value="SkillsReduce"/>
+		<skills>
+			<skill id="18400" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="46105" name="Gladiator\'s Treasure Chest">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_jewel_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="handler" value="SkillsReduce"/>
+		<skills>
+			<skill id="18401" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="46106" name="Raymond\'s Treasure Chest">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_jewel_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="handler" value="SkillsReduce"/>
+		<skills>
+			<skill id="18402" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="46107" name="Turek Orc\'s Treasure Chest">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_jewel_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="handler" value="SkillsReduce"/>
+		<skills>
+			<skill id="18403" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="46108" name="Drake Maul Appearance Stone" add_name="30-day">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_twohand_blunt"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46109" name="Freya\'s Staff Appearance Stone" add_name="30-day">
+		<set name="icon" value="icon.shape_shifting_magic_twohand_blunt_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46110" name="Spezion\'s Claw Appearance Stone" add_name="30-day">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_dualfist"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46111" name="Maliss Stormer Appearance Stone" add_name="30-day">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_pole"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46112" name="Steregos\' Dagger Appearance Stone" add_name="30-day">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_dagger"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46113" name="Ron\'s Dual Blunt Weapon Appearance Stone" add_name="30-day">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_dualblunt"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46114" name="Drake Maul Appearance Stone">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_twohand_blunt"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46115" name="Freya\'s Staff Appearance Stone">
+		<set name="icon" value="icon.shape_shifting_magic_twohand_blunt_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46116" name="Spezion\'s Claw Appearance Stone">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_dualfist"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46117" name="Maliss Stormer Appearance Stone">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_pole"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46118" name="Steregos\' Dagger Appearance Stone">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_dagger"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46119" name="Ron\'s Dual Blunt Weapon Appearance Stone">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_dualblunt"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46120" name="Little Girls\' Hat Appearance Stone" add_name="30-day">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_hair2"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46121" name="Little Boy\'s Hat Appearance Stone" add_name="30-day">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_hair2"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46122" name="Little Girls\' Hat Appearance Stone">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_hair2"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46123" name="Little Boy\'s Hat Appearance Stone">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_hair2"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46124" name="Uniform Hat Appearance Stone" add_name="30-day">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_hair2"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46125" name="Afro - Gold Appearance Stone" add_name="30-day">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_hair2"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46126" name="Afro - Pink Appearance Stone" add_name="30-day">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_hair2"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46127" name="Uniform Hat Appearance Stone">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_hair2"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46128" name="Afro - Gold Appearance Stone">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_hair2"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46129" name="Afro - Pink Appearance Stone">
+		<set name="icon" value="BranchSys3.Icon.g_shape_shifting_hair2"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46130" name="Spirit Evil Thought Piece">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="icon" value="icon.etc_ertheia_prophecy_device_piece"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<weapon id="46131" name="Kelbim Exclusive Weapon">
+		<set name="crystal_type" value="D"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="type" value="BOW"/>
+		<set name="weight" value="300"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="rnd_dam" value="5"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="5"/>
+			<add stat="mAtk" order="0x10" value="5"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<etcitem id="46132" name="Blackbird Seal">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_piece_holy_light"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="46133" name="Dark Atelia Neutralizer">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_potion_yellow_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="46134" name="Blackbird Report - Glenkinchie">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_scroll_gray_i00"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="46135" name="Blackbird Report - Hurak">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_scroll_gray_i00"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="46136" name="Blackbird Report - Laffian">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_scroll_gray_i00"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="46137" name="Blackbird Report - Sherry">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_scroll_gray_i00"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="46138" name="Low-grade Honorary Member Certificate">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_london_olympic_bronze"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="46139" name="Low-grade Honorary Member Certificate">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_london_olympic_bronze"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="46140" name="Low-grade Honorary Member Certificate">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_london_olympic_bronze"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="46141" name="Mid-grade Honorary Member Certificate">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_london_olympic_silver"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="46142" name="Stronghold Flag Repair Supplies">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_piece_of_cloth_white_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="46143" name="Stronghold Repair Tools">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_squares_gray_i00"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="46144" name="Kelbim\'s Armor Piece">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_plate_black_i00"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="46145" name="Black Atelia Powder">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_powder_black_i00"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="46146" name="Atelia Fortress Stronghold I Teleport Device" add_name="24-hr">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_mechanic_box_i00"/>
+		<set name="weight" value="150"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46147" name="Atelia Fortress Stronghold II Teleport Device" add_name="24-hr">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_mechanic_box_i00"/>
+		<set name="weight" value="150"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46148" name="Atelia Fortress Stronghold III Teleport Device" add_name="24-hr">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_mechanic_box_i00"/>
+		<set name="weight" value="150"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46149" name="Atelia Fortress Stronghold IV Teleport Device" add_name="24-hr">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_mechanic_box_i00"/>
+		<set name="weight" value="150"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46150" name="Superior Giant\'s Codex Chapter 1">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.codex_of_incuse"/>
+		<set name="weight" value="10"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46151" name="Superior Giant\'s Codex - Mastery Chapter 1">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.codex_of_incuse_dexterity"/>
+		<set name="weight" value="10"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46152" name="Superior Giant\'s Codex - Discipline Chapter 1">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.codex_of_incuse_training"/>
+		<set name="weight" value="10"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46153" name="Immortal Scroll Chapter 1">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.esagira_telepo_01"/>
+		<set name="weight" value="10"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46154" name="Superior Giant\'s Codex Chapter 2">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.codex_of_incuse"/>
+		<set name="weight" value="10"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46155" name="Superior Giant\'s Codex - Mastery Chapter 2">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.codex_of_incuse_dexterity"/>
+		<set name="weight" value="10"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46156" name="Superior Giant\'s Codex - Discipline Chapter 2">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.codex_of_incuse_training"/>
+		<set name="weight" value="10"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46157" name="Immortal Scroll Chapter 2">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.esagira_telepo_01"/>
+		<set name="weight" value="10"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46158" name="Scroll of Escape: Blackbird Campsite">
+		<set name="icon" value="icon.etc_scroll_of_return_i00"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="SCROLL"/>
+		<skills>
+			<skill id="18426" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="46159" name="Mid-grade Honorary Member Certificate">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_london_olympic_silver"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46160" name="Mid-grade Honorary Member Certificate">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_london_olympic_silver"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46161" name="Mid-grade Honorary Member Certificate">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_london_olympic_silver"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46162" name="Mid-grade Honorary Member Certificate">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_london_olympic_silver"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46163" name="High-grade Honorary Member Certificate">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_london_olympic_gold"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46164" name="Aden Vanguard Reward Box">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_box_of_adventure_3_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="handler" value="SkillsReduce"/>
+		<skills>
+			<skill id="18428" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="46165" name="Ferin\'s Reward Box">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_box_of_adventure_3_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="handler" value="SkillsReduce"/>
+		<skills>
+			<skill id="18428" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="46166" name="Barton\'s Letter">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_letter_envelope_i00"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="46167" name="Hayuk\'s Letter">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_letter_envelope_i00"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="46168" name="Elise\'s Letter">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_letter_envelope_i00"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="46169" name="Eliyah\'s Letter">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_letter_envelope_i00"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<etcitem id="46170" name="Atelia Fortress Protection Box" add_name="Event">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="BranchSys.br_bright_gold_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46171" name="Garden of the Spirits Protection Box" add_name="Event">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="BranchSys.br_gold_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46172" name="Drew Protection Box" add_name="Event">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="BranchSys.br_silver_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46173" name="Male Swimsuit No.1 Appearance Stone" add_name="30-day">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="BranchSys3.lcon.g_scrl_change_co_swimsuit_01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46174" name="Male Swimsuit No.2 Appearance Stone" add_name="30-day">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="BranchSys3.lcon.g_scrl_change_co_swimsuit_01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46175" name="Bikini No.1 Appearance Stone" add_name="30-day">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="BranchSys3.lcon.g_scrl_change_co_swimsuit_01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46176" name="Bikini No.2 Appearance Stone" add_name="30-day">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="BranchSys3.lcon.g_scrl_change_co_swimsuit_01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46177" name="Soul Bottle Pack">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_elite_marguene_collection_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46178" name="Heavenly Cocktail">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_fruit_cocktail_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<armor id="46179" name="Male Swimwear No.1">
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.london_olympic_bikini"/>
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="1000"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+	</armor>
+	<armor id="46180" name="Male Swimwear No.2">
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.london_olympic_bikini"/>
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="1000"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+	</armor>
+	<armor id="46181" name="Bikini No.1">
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.london_olympic_bikini"/>
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="1000"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+	</armor>
+	<armor id="46182" name="Bikini No.2">
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.london_olympic_bikini"/>
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="1000"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+	</armor>
+	<etcitem id="46183" name="Joyful Birthday Pack">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.event_hero_treasure_box_i00"/>
+		<set name="weight" value="100"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46184" name="Happy Birthday Potion">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_potion_blue_i00"/>
+		<set name="weight" value="80"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<armor id="46185" name="Agathion - Anakim Holy Barrier">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys3.iconItem.g_agathion_anakim"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="LEFT_BRACELET"/>
+		</equip>
+		<skills>
+			<skill id="3267" level="1"/>
+			<skill id="18443" level="1"/>
+			<skill id="17551" level="1"/>
+			<skill id="17567" level="1"/>
+			<skill id="18442" level="1"/>
+		</skills>
+	</armor>
+	<armor id="46186" name="Agathion - Anakim Holy Barrier" add_name="30-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys3.iconItem.g_agathion_anakim"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="LEFT_BRACELET"/>
+		</equip>
+		<skills>
+			<skill id="3267" level="1"/>
+			<skill id="18443" level="1"/>
+			<skill id="17551" level="1"/>
+			<skill id="17567" level="1"/>
+			<skill id="18442" level="1"/>
+		</skills>
+	</armor>
+	<etcitem id="46187" name="Agathion - Anakim Holy Barrier Pack" add_name="30-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.event_high_oriental_park_i00"/>
+		<set name="weight" value="10"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46188" name="Agathion - Anakim Holy Barrier Pack">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.event_high_oriental_park_i00"/>
+		<set name="weight" value="10"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46189" name="Vampiric Style Appearance Stone">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="BranchSys3.icon1.g_scrl_change_chest"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46190" name="Vampiric Style Appearance Stone" add_name="30-day">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="BranchSys3.icon1.g_scrl_change_chest"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46191" name="Vampiric Style Appearance Stone Pack">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.event_high_oriental_park_i00"/>
+		<set name="weight" value="10"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<armor id="46192" name="Vampiric Outfit">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys3.iconArmar.g_co_vampiric_u_i00"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+	</armor>
+	<armor id="46193" name="Physical Reflect Shirt">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.reflect_attack_shirt"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="130"/>
+		<enchant_options>
+			<level value="0">
+				<option id="32839"/>
+			</level>
+			<level value="1">
+				<option id="32840"/>
+			</level>
+			<level value="2">
+				<option id="32841"/>
+			</level>
+			<level value="3">
+				<option id="32842"/>
+			</level>
+			<level value="4">
+				<option id="32843"/>
+			</level>
+			<level value="5">
+				<option id="32844"/>
+			</level>
+			<level value="6">
+				<option id="32845"/>
+			</level>
+			<level value="7">
+				<option id="32846"/>
+			</level>
+			<level value="8">
+				<option id="32847"/>
+			</level>
+			<level value="9">
+				<option id="32848"/>
+			</level>
+			<level value="10">
+				<option id="32849"/>
+			</level>
+		</enchant_options>
+		<equip>
+			<slot id="UNDERWEAR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="28"/>
+		</for>
+	</armor>
+	<armor id="46194" name="Magical Reflect Shirt">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.reflect_magic_shirt"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="130"/>
+		<enchant_options>
+			<level value="0">
+				<option id="32850"/>
+			</level>
+			<level value="1">
+				<option id="32851"/>
+			</level>
+			<level value="2">
+				<option id="32852"/>
+			</level>
+			<level value="3">
+				<option id="32853"/>
+			</level>
+			<level value="4">
+				<option id="32854"/>
+			</level>
+			<level value="5">
+				<option id="32855"/>
+			</level>
+			<level value="6">
+				<option id="32856"/>
+			</level>
+			<level value="7">
+				<option id="32857"/>
+			</level>
+			<level value="8">
+				<option id="32858"/>
+			</level>
+			<level value="9">
+				<option id="32859"/>
+			</level>
+			<level value="10">
+				<option id="32860"/>
+			</level>
+		</enchant_options>
+		<equip>
+			<slot id="UNDERWEAR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="28"/>
+		</for>
+	</armor>
+	<etcitem id="46195" name="Shiny Elemental Shirt Bag">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.ainharard_bac"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="EXTRACTABLE"/>
+		<capsuled_items>
+			<capsuled_item id="37718" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_item id="34627" min_count="10" max_count="10" chance="100.0"/>
+		</capsuled_items>
+	</etcitem>
+	<etcitem id="46196" name="Reflect Attack T-shirt Bag">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.reflect_attack_bac"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="EXTRACTABLE"/>
+		<capsuled_items>
+			<capsuled_item id="37718" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_item id="34627" min_count="10" max_count="10" chance="100.0"/>
+		</capsuled_items>
+	</etcitem>
+	<etcitem id="46197" name="Reflect Magic T-shirt Bag">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.reflect_magic_bac"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="EXTRACTABLE"/>
+		<capsuled_items>
+			<capsuled_item id="37718" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_item id="34627" min_count="10" max_count="10" chance="100.0"/>
+		</capsuled_items>
+	</etcitem>
+	<etcitem id="46198" name="Gold Medal">
+		<set name="commissionable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="price" value="2000000000"/>
+		<set name="icon" value="icon.etc_event_medal_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="46199" name="Halloween Appearance Stone" add_name="7-day">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="BranchSys3.icon1.g_scrl_change_chest"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+</list>

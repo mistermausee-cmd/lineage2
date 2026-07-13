@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="17500" levels="1" name="Fairy Antennae: M. Def.">
+		<set name="icon" value="icon.accessory_hair_feeler_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mDef" value="1.05"/>
+		</for>
+	</skill>
+	<skill id="17501" levels="1" name="Fairy Antennae: Evasion">
+		<set name="icon" value="icon.accessory_hair_feeler_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pEvasRate" value="5"/>
+		</for> 	
+	</skill>
+	<skill id="17502" levels="1" name="Fairy Antennae: P. Atk.">
+		<set name="icon" value="icon.accessory_hair_feeler_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.05"/>
+		</for> 	
+	</skill>
+	<skill id="17503" levels="1" name="Fairy Antennae: M. Atk.">
+		<set name="icon" value="icon.accessory_hair_feeler_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="1.1"/>
+		</for> 
+	</skill>
+	<skill id="17504" levels="1" name="Fairy Antennae: Accuracy">
+		<set name="icon" value="icon.accessory_hair_feeler_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAccCombat" value="5"/>
+		</for>
+	</skill>
+	<skill id="17505" levels="1" name="Chapeau: STR">
+		<set name="icon" value="icon.accessory_archer_hat_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="STR" value="3"/>
+		</for>
+	</skill>
+	<skill id="17506" levels="1" name="Chapeau: DEX">
+		<set name="icon" value="icon.accessory_archer_hat_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="DEX" value="3"/>
+		</for>
+	</skill>
+	<skill id="17507" levels="1" name="Chapeau: CON">
+		<set name="icon" value="icon.accessory_archer_hat_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="CON" value="3"/>
+		</for>
+	</skill>
+	<skill id="17508" levels="1" name="Chapeau: MEN">
+		<set name="icon" value="icon.accessory_archer_hat_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="MEN" value="3"/>
+		</for>
+	</skill>
+	<skill id="17509" levels="1" name="Chapeau: INT">
+		<set name="icon" value="icon.accessory_archer_hat_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="INT" value="3"/>
+		</for> 
+	</skill>
+	<skill id="17510" levels="1" name="Chapeau: WIT">
+		<set name="icon" value="icon.accessory_archer_hat_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="WIT" value="3"/>
+		</for> 	
+	</skill>
+	<skill id="17511" levels="1" name="Chapeau: Critical Rate">
+		<set name="icon" value="icon.accessory_archer_hat_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pCritRate" value="50"/>
+		</for> 	
+	</skill>
+	<skill id="17512" levels="1" name="Chapeau: Critical Damage">
+		<set name="icon" value="icon.accessory_archer_hat_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="p_critical_damage_diff" value="90"/>
+			<add stat="p_magic_critical_dmg_diff" value="68"/>
+		</for> 	
+	</skill>
+	<skill id="17513" levels="1" name="Chapeau: P. Def.">
+		<set name="icon" value="icon.accessory_archer_hat_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pDef" value="1.05"/>
+		</for>
+	</skill>
+	<skill id="17514" levels="1" name="Chapeau: M. Def.">
+		<set name="icon" value="icon.accessory_archer_hat_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mDef" value="1.05"/>
+		</for>
+	</skill>
+	<skill id="17515" levels="1" name="Chapeau: Evasion">
+		<set name="icon" value="icon.accessory_archer_hat_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pEvasRate" value="5"/>
+		</for> 	
+	</skill>
+	<skill id="17516" levels="1" name="Chapeau: P. Atk.">
+		<set name="icon" value="icon.accessory_archer_hat_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.05"/>
+		</for> 	
+	</skill>
+	<skill id="17517" levels="1" name="Chapeau: M. Atk.">
+		<set name="icon" value="icon.accessory_archer_hat_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="1.1"/>
+		</for> 
+	</skill>
+	<skill id="17518" levels="1" name="Chapeau: Accuracy">
+		<set name="icon" value="icon.accessory_archer_hat_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAccCombat" value="5"/>
+		</for>
+	</skill>
+	<skill id="17519" levels="1" name="Artisan\'s Goggles: STR">
+		<set name="icon" value="icon.accessory_dwarf_goggle_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="STR" value="3"/>
+		</for>
+	</skill>
+	<skill id="17520" levels="1" name="Artisan\'s Goggles: DEX">
+		<set name="icon" value="icon.accessory_dwarf_goggle_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="DEX" value="3"/>
+		</for>
+	</skill>
+	<skill id="17521" levels="1" name="Artisan\'s Goggles: CON">
+		<set name="icon" value="icon.accessory_dwarf_goggle_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="CON" value="3"/>
+		</for>
+	</skill>
+	<skill id="17522" levels="1" name="Artisan\'s Goggles: MEN">
+		<set name="icon" value="icon.accessory_dwarf_goggle_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="MEN" value="3"/>
+		</for>
+	</skill>
+	<skill id="17523" levels="1" name="Artisan\'s Goggles: INT">
+		<set name="icon" value="icon.accessory_dwarf_goggle_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="INT" value="3"/>
+		</for> 
+	</skill>
+	<skill id="17524" levels="1" name="Artisan\'s Goggles: WIT">
+		<set name="icon" value="icon.accessory_dwarf_goggle_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="WIT" value="3"/>
+		</for> 	
+	</skill>
+	<skill id="17525" levels="1" name="Artisan\'s Goggles: Critical Rate">
+		<set name="icon" value="icon.accessory_dwarf_goggle_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pCritRate" value="50"/>
+		</for> 	
+	</skill>
+	<skill id="17526" levels="1" name="Artisan\'s Goggles: Critical Damage">
+		<set name="icon" value="icon.accessory_dwarf_goggle_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="p_critical_damage_diff" value="90"/>
+			<add stat="p_magic_critical_dmg_diff" value="68"/>
+		</for> 	
+	</skill>
+	<skill id="17527" levels="1" name="Artisan\'s Goggles: P. Def.">
+		<set name="icon" value="icon.accessory_dwarf_goggle_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pDef" value="1.05"/>
+		</for>
+	</skill>
+	<skill id="17528" levels="1" name="Artisan\'s Goggles: M. Def.">
+		<set name="icon" value="icon.accessory_dwarf_goggle_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mDef" value="1.05"/>
+		</for>
+	</skill>
+	<skill id="17529" levels="1" name="Artisan\'s Goggles: Evasion">
+		<set name="icon" value="icon.accessory_dwarf_goggle_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pEvasRate" value="5"/>
+		</for> 	
+	</skill>
+	<skill id="17530" levels="1" name="Artisan\'s Goggles: P. Atk.">
+		<set name="icon" value="icon.accessory_dwarf_goggle_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.05"/>
+		</for> 	
+	</skill>
+	<skill id="17531" levels="1" name="Artisan\'s Goggles: M. Atk.">
+		<set name="icon" value="icon.accessory_dwarf_goggle_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="1.1"/>
+		</for> 
+	</skill>
+	<skill id="17532" levels="1" name="Artisan\'s Goggles: Accuracy">
+		<set name="icon" value="icon.accessory_dwarf_goggle_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAccCombat" value="5"/>
+		</for>
+	</skill>
+	<skill id="17533" levels="1" name="Arrow-pierced Apple: STR">
+		<set name="icon" value="icon.accessory_arrow_apple_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="STR" value="3"/>
+		</for>
+	</skill>
+	<skill id="17534" levels="1" name="Arrow-pierced Apple: DEX">
+		<set name="icon" value="icon.accessory_arrow_apple_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="DEX" value="3"/>
+		</for>
+	</skill>
+	<skill id="17535" levels="1" name="Arrow-pierced Apple: CON">
+		<set name="icon" value="icon.accessory_arrow_apple_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="CON" value="3"/>
+		</for>
+	</skill>
+	<skill id="17536" levels="1" name="Arrow-pierced Apple: MEN">
+		<set name="icon" value="icon.accessory_arrow_apple_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="MEN" value="3"/>
+		</for>
+	</skill>
+	<skill id="17537" levels="1" name="Arrow-pierced Apple: INT">
+		<set name="icon" value="icon.accessory_arrow_apple_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="INT" value="3"/>
+		</for> 
+	</skill>
+	<skill id="17538" levels="1" name="Arrow-pierced Apple: WIT">
+		<set name="icon" value="icon.accessory_arrow_apple_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="WIT" value="3"/>
+		</for> 	
+	</skill>
+	<skill id="17539" levels="1" name="Arrow-pierced Apple: Critical Rate">
+		<set name="icon" value="icon.accessory_arrow_apple_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pCritRate" value="50"/>
+		</for> 	
+	</skill>
+	<skill id="17540" levels="1" name="Arrow-pierced Apple: Critical Damage">
+		<set name="icon" value="icon.accessory_arrow_apple_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="p_critical_damage_diff" value="90"/>
+			<add stat="p_magic_critical_dmg_diff" value="68"/>
+		</for> 	
+	</skill>
+	<skill id="17541" levels="1" name="Arrow-pierced Apple: P. Def.">
+		<set name="icon" value="icon.accessory_arrow_apple_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pDef" value="1.05"/>
+		</for>
+	</skill>
+	<skill id="17542" levels="1" name="Arrow-pierced Apple: M. Def.">
+		<set name="icon" value="icon.accessory_arrow_apple_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mDef" value="1.05"/>
+		</for>
+	</skill>
+	<skill id="17543" levels="1" name="Arrow-pierced Apple: Evasion">
+		<set name="icon" value="icon.accessory_arrow_apple_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pEvasRate" value="5"/>
+		</for> 	
+	</skill>
+	<skill id="17544" levels="1" name="Arrow-pierced Apple: P. Atk.">
+		<set name="icon" value="icon.accessory_arrow_apple_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.05"/>
+		</for> 	
+	</skill>
+	<skill id="17545" levels="1" name="Arrow-pierced Apple: M. Atk.">
+		<set name="icon" value="icon.accessory_arrow_apple_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="1.1"/>
+		</for> 
+	</skill>
+	<skill id="17546" levels="1" name="Arrow-pierced Apple: Accuracy">
+		<set name="icon" value="icon.accessory_arrow_apple_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAccCombat" value="5"/>
+		</for>
+	</skill>
+	<skill id="17547" levels="1" name="Agathion Teleport: Town of Aden">
+		<set name="icon" value="icon.noblessescape_scroll_i00"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="townId" value="16"/>
+	</skill>
+	<skill id="17548" levels="1" name="Agathion Teleport: Town of Rune">
+		<set name="icon" value="icon.noblessescape_scroll_i00"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="townId" value="18"/>
+	</skill>
+	<skill id="17549" levels="1" name="Agathion Teleport: Town of Giran">
+		<set name="icon" value="icon.noblessescape_scroll_i00"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="townId" value="10"/>
+	</skill>
+	<skill id="17550" levels="1" name="Agathion Teleport: Heine">
+		<set name="icon" value="icon.noblessescape_scroll_i00"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="townId" value="12"/>
+	</skill>
+	<skill id="17551" levels="2" name="Balanced Power">
+		<set name="icon" value="icon.skill_agathion_special"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="INT" value="1"/>
+			<add order="0x10" stat="DEX" value="1"/>
+			<add order="0x10" stat="WIT" value="1"/>
+			<add order="0x10" stat="MEN" value="1"/>
+			<add order="0x10" stat="CON" value="1"/>
+			<add order="0x10" stat="STR" value="1"/>
+		</for>
+	</skill>
+	<skill id="17552" levels="1" name="Attribute Enchant">
+		<set name="icon" value="icon.skill_agathion_special"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17553" levels="1" name="Lady\'s Hairpin Pendant Pouch">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17554" levels="1" name="Party Mask Pendant Pouch">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17555" levels="1" name="Monocle Pendant Pouch">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17556" levels="1" name="Maiden\'s Hairpin Pendant Pouch">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17557" levels="1" name="Forget-me-not Hairpin Pendant Pouch">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17558" levels="1" name="Daisy Hairpin Pendant Pouch">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17559" levels="1" name="Little Angel Wings Pendant Pouch">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17560" levels="1" name="Fairy Antennae Pendant Pouch">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17561" levels="1" name="Chapeau Pendant Pouch">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17562" levels="1" name="Artisan\'s Goggles Pendant Pouch">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17563" levels="1" name="Arrow-pierced Apple Pendant Pouch">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17564" levels="1" name="Pirate\'s Eyepatch Pendant Pouch">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17565" levels="1" name="Outlaw\'s Eyepatch Pendant Pouch">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17566" levels="1" name="Party Hat Pendant Pouch">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17567" levels="1" name="Enchant Attribute Attack">
+		<set name="icon" value="icon.skill_agathion_special"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="attackFire" value="30"/>
+			<add stat="attackWater" value="30"/>
+			<add stat="attackWind" value="30"/>
+			<add stat="attackEarth" value="30"/>
+			<add stat="attackHoly" value="30"/>
+			<add stat="attackUnholy" value="30"/>
+		</for>
+	</skill>
+	<skill id="17568" levels="1" name="Enchant Attribute Defense">
+		<set name="icon" value="icon.skill_agathion_special"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="defenceFire" value="30"/>
+			<add stat="defenceWater" value="30"/>
+			<add stat="defenceWind" value="30"/>
+			<add stat="defenceEarth" value="30"/>
+			<add stat="defenceHoly" value="30"/>
+			<add stat="defenceUnholy" value="30"/>
+		</for>
+	</skill>
+	<skill id="17569" levels="1" name="Expertise Rune (D-grade)">
+		<set name="icon" value="br_cashtex.skill.br_cash_rune_of_exp_buff_1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<set order="0x100" stat="additional_expertise_index" value="1"/>
+		</for>
+	</skill>
+	<skill id="17570" levels="1" name="Expertise Rune (C-grade)">
+		<set name="icon" value="br_cashtex.skill.br_cash_rune_of_exp_buff_1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<set order="0x100" stat="additional_expertise_index" value="2"/>
+		</for>
+	</skill>
+	<skill id="17571" levels="1" name="Expertise Rune (B-grade)">
+		<set name="icon" value="br_cashtex.skill.br_cash_rune_of_exp_buff_1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<set order="0x100" stat="additional_expertise_index" value="3"/>
+		</for>
+	</skill>
+	<skill id="17572" levels="1" name="Expertise Rune (A-grade)">
+		<set name="icon" value="br_cashtex.skill.br_cash_rune_of_exp_buff_1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<set order="0x100" stat="additional_expertise_index" value="4"/>
+		</for>
+	</skill>
+	<skill id="17573" levels="1" name="Expertise Rune (S-grade)">
+		<set name="icon" value="br_cashtex.skill.br_cash_rune_of_exp_buff_1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<set order="0x100" stat="additional_expertise_index" value="5"/>
+		</for>
+	</skill>
+	<skill id="17574" levels="1" name="Expertise Rune (S80-grade)">
+		<set name="icon" value="br_cashtex.skill.br_cash_rune_of_exp_buff_1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<set order="0x100" stat="additional_expertise_index" value="6"/>
+		</for>
+	</skill>
+	<skill id="17575" levels="1" name="Expertise Rune (R-grade)">
+		<set name="icon" value="br_cashtex.skill.br_cash_rune_of_exp_buff_1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<set order="0x100" stat="additional_expertise_index" value="8"/>
+		</for>
+	</skill>
+	<skill id="17576" levels="1" name="Expertise Rune (R95-grade)">
+		<set name="icon" value="br_cashtex.skill.br_cash_rune_of_exp_buff_1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<set order="0x100" stat="additional_expertise_index" value="9"/>
+		</for>
+	</skill>
+	<skill id="17577" levels="1" name="Expertise Rune (R99-grade)">
+		<set name="icon" value="br_cashtex.skill.br_cash_rune_of_exp_buff_1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<set order="0x100" stat="additional_expertise_index" value="10"/>
+		</for>
+	</skill>
+	<skill id="17578" levels="1" name="Blue Mackerel Appearance Stone: One-handed Sword (30-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17579" levels="1" name="Trumpetfish Appearance Stone: Dagger (30-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17580" levels="1" name="Shark Appearance Stone: Two-handed Sword (30-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17581" levels="1" name="Squid Appearance Stone: Spear (30-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17582" levels="1" name="Sea Horse Appearance Stone: Two-handed Magic Blunt Weapon (30-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17583" levels="1" name="Lobster Appearance Stone: Fist Weapon (30-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17584" levels="1" name="Giant Crab Appearance Stone: Bow (30-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17585" levels="1" name="Crayfish Appearance Stone: Crossbow (30-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17586" levels="1" name="Starfish Appearance Stone: Sigil (30-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17587" levels="1" name="Turtle Appearance Stone: Shield (30-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17588" levels="1" name="Blue Mackerel Appearance Stone: Dualsword (30-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17589" levels="1" name="Blue Mackerel Appearance Stone: Dual Blunt Weapon (30-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17590" levels="1" name="Trumpetfish Appearance Stone: Dual Dagger (30-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17591" levels="1" name="Blue Mackerel Appearance Stone: One-handed Blunt Weapon (30-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17592" levels="1" name="Blue Mackerel Appearance Stone: One-handed Sword">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17593" levels="1" name="Trumpetfish Appearance Stone: Dagger">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17594" levels="1" name="Shark Appearance Stone: Two-handed Sword">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17595" levels="1" name="Squid Appearance Stone: Spear">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17596" levels="1" name="Sea Horse Appearance Stone: Two-handed Magic Blunt Weapon">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17597" levels="1" name="Lobster Appearance Stone: Fist Weapon">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17598" levels="1" name="Giant Crab Appearance Stone: Bow">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17599" levels="1" name="Crayfish Appearance Stone: Crossbow">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+</list>

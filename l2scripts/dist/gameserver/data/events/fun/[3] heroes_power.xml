@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "events.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<!--формат даты HH:mm dd.MM.yyyy-->
+	<event id="3" name="Heroes Power" impl="Fun">
+		<parameter name="start_time_pattern" value="18:00 08.04.2012" />
+		<parameter name="stop_time_pattern" value="18:15 21.04.2012" />
+		<on_start>
+			<spawn name="spawn_group"/>
+		</on_start>
+		<on_stop>
+			<despawn name="spawn_group"/>
+		</on_stop>
+		<objects name="spawn_group">
+			<spawn_ex name="heroes_power_event"/>
+		</objects>
+	</event>
+</list>

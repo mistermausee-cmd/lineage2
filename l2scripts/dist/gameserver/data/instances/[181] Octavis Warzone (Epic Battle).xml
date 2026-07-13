@@ -1,0 +1,29 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<list>
+	<instance id="181" name="Octavis Warzone (Epic Battle)" maxChannels="10" collapseIfEmpty="5" timelimit="120" dispelBuffs="true">
+		<level min="97"/>
+		<party min="21" max="49"/>
+		<return loc="210611 50503 -8399"/>
+		<teleport loc="210651 119052 -9996"/>
+		<reuse resetReuse="30 6 * * 3,6" setUponEntry="false" sharedReuseGroup="0"/>
+		<doors>
+			<door id="26210001" opened="false"/>
+			<door id="26210002" opened="false"/>
+			<door id="26210101" opened="false"/>
+			<door id="26210102" opened="false"/>
+			<door id="26210103" opened="false"/>
+			<door id="26210104" opened="false"/>
+			<door id="26210105" opened="false"/>
+			<door id="26210106" opened="false"/>
+		</doors>
+		<zones>
+			<zone name="[octavis_epic]" active="true"/>
+		</zones>
+		<spawns>
+			<group name="octavis_firsts_stage" spawned="false"/>
+			<group name="octavis_hard_firsts_stage" spawned="false"/>
+			<group name="octavis_second_stage" spawned="false"/>
+			<group name="octavis_hard_second_stage" spawned="false"/>
+		</spawns>
+	</instance>
+</list>

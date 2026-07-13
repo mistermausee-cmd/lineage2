@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="30600" levels="1" name="Heavy Hit">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="30601" levels="1" name="Heavy Hit">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="30602" levels="1" name="Eviscerator Aura">
+		<set name="icon" value="icon.icon_lender"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="AU"/>
+		<set name="target" value="TARGET_SELF"/>
+		<for>
+			<effect name="p_aura">
+				<def name="id" value="30603"/>	<!--Eviscerator Aura-->
+			</effect>
+		</for>
+	</skill>
+	<skill id="30603" levels="1" name="Eviscerator Force">
+		<set name="icon" value="icon.icon_lender_01"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="abnormal_time" value="11"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="synergy_ranger"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="MUSIC"/>
+		<set name="operate_type" value="A6"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_PARTY"/>
+		<set name="effectPoint" value="2"/>
+		<set name="affect_range" value="1600"/>
+		<for>
+			<effect>
+				<add stat="pCritRate" value="1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="30604" levels="1" name="Block Eviscerator Force">
+		<set name="icon" value="icon.icon_lender"/>
+		<set name="magicLevel" value="85"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="30605" levels="1" name="Sayha\'s Seer Aura">
+		<set name="icon" value="icon.icon_Er_wizard"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="AU"/>
+		<set name="target" value="TARGET_SELF"/>
+		<for>
+			<effect name="p_aura">
+				<def name="id" value="30606"/>	<!--Sayha's Seer Aura-->
+			</effect>
+		</for>
+	</skill>
+	<skill id="30606" levels="1" name="Sayha\'s Seer Force">
+		<set name="icon" value="icon.icon_Er_wizard_01"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="abnormal_time" value="11"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="synergy_ruler"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="MUSIC"/>
+		<set name="operate_type" value="A6"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_PARTY"/>
+		<set name="effectPoint" value="2"/>
+		<set name="affect_range" value="1600"/>
+		<for>
+			<effect>
+				<add stat="mCritRate" value="1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="30607" levels="1" name="Block Sayha\'s Seer Force">
+		<set name="icon" value="icon.icon_Er_wizard"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="30608" levels="5" name="Fury of Eviscerator">
+		<table name="#pAtk">1.05 1.1 1.15 1.2 </table>
+		<table name="#p_attack_trait_knockdown">0 0 0 0 50</table>
+		<set name="icon" value="icon.skill30509"/>
+		<set name="hitTime" value="300"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<mul stat="pAtk" value="#pAtk"/>
+				<p_attack_trait name="knockdown" value="#p_attack_trait_knockdown"/>
+			</effect>
+		</for>
+	</skill>
+</list>

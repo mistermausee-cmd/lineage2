@@ -1,0 +1,2659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="2600" levels="1" name="Gran Kain\'s Echo Crystal - Theme of Solitude">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2601" levels="1" name="Gran Kain\'s Echo Crystal - Theme of Festival">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2602" levels="1" name="Gran Kain\'s Echo Crystal - Theme of Celebration">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2603" levels="1" name="Gran Kain\'s Echo Crystal - Theme of Comedy">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2604" levels="1" name="Gran Kain\'s Firecracker">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13268"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2605" levels="1" name="Gran Kain\'s Large Firecracker">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13269"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2606" levels="1" name="Gran Kain\'s Gift Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="86400000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="0.813">
+				<item id="13259" min_count="1" max_count="1"/>	<!--Gran Kain\'s Blessed Scroll of Resurrection-->
+			</group>
+			<group chance="1.626">
+				<item id="13258" min_count="1" max_count="1"/>	<!--Gran Kain\'s Blessed Scroll of Escape-->
+			</group>
+			<group chance="16.26">
+				<item id="13260" min_count="1" max_count="1"/>	<!--Gran Kain\'s Squeaking Shoes-->
+			</group>
+			<group chance="4.645">
+				<item id="13261" min_count="10" max_count="10"/>	<!--Gran Kain\'s Echo Crystal - Theme of Journey-->
+			</group>
+			<group chance="4.645">
+				<item id="13262" min_count="10" max_count="10"/>	<!--Gran Kain\'s Echo Crystal - Theme of Battle-->
+			</group>
+			<group chance="4.645">
+				<item id="13263" min_count="10" max_count="10"/>	<!--Gran Kain\'s Echo Crystal - Theme of Love-->
+			</group>
+			<group chance="4.645">
+				<item id="13264" min_count="10" max_count="10"/>	<!--Gran Kain\'s Echo Crystal - Theme of Solitude-->
+			</group>
+			<group chance="4.645">
+				<item id="13265" min_count="10" max_count="10"/>	<!--Gran Kain\'s Echo Crystal - Theme of the Feast-->
+			</group>
+			<group chance="4.645">
+				<item id="13266" min_count="10" max_count="10"/>	<!--Gran Kain\'s Echo Crystal - Theme of Celebration-->
+			</group>
+			<group chance="4.645">
+				<item id="13267" min_count="10" max_count="10"/>	<!--Gran Kain\'s Echo Crystal - Theme of Comedy-->
+			</group>
+			<group chance="32.526">
+				<item id="13268" min_count="10" max_count="10"/>	<!--Gran Kain\'s Firework-->
+			</group>
+			<group chance="16.26">
+				<item id="13269" min_count="10" max_count="10"/>	<!--Gran Kain\'s Large Firework-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2607" levels="1" name="Pailaka Door Key">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13150"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="HARDCODED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2608" levels="3" name="Blue Crystal of Fantasy">
+		<!--.
+			Last modify:	19.11.2008
+			Description:	1 level - 50000, 2 level - 100000, 3 level - 200000.
+		-->
+		<table name="#power">5000 10000 20000</table>
+		<table name="#itemConsumeId">13386 13387 13388</table>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="hitTime" value="200"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="#itemConsumeId"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_sp" value="#power"/>
+		</for>
+	</skill>
+	<skill id="2609" levels="20" name="Scroll of Escape: Talking Island Village">
+		<table name="#loc">
+			-114558;253605;-1536
+			44992;49214;-3061
+			11265;15862;-4586
+			-44048;-113552;-240
+			115196;-178199;-916
+			-80831;149808;-3040
+			-12728;122726;-3112
+			15633;142962;-2696
+			17860;170191;-3496
+			83378;147999;-3400
+			105760;113064;-3176
+			111388;219331;-3544
+			82916;53210;-1488
+			85289;16225;-3672
+			117052;76884;-2688
+			146818;25807;-2008
+			147922;-55316;-2728
+			43840;-47779;-792
+			87326;-143370;-1319
+			-118092;46955;342
+		</table>
+		<table name="#itemConsumeId">13395 13396 13397 13398 13399 13400 13401 13402 13403 13404 13405 13406 13407 13408 13409 13410 13411 13412 13413 13414</table>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="20000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="#itemConsumeId"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="loc" value="#loc"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2610" levels="1" name="Register Bookmark (Event)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13301"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2611" levels="1" name="Large Firecracker">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2612" levels="1" name="Large Firecracker">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2613" levels="1" name="Large Firecracker">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2614" levels="1" name="Large Firecracker">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2615" levels="1" name="Shards of Broken Darkness">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13853"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="13854" min_count="1" max_count="1"/>	<!--Destroyed Light Fragment Powder-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2616" levels="1" name="Bond Sealant">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="1000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="invincibility"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2617" levels="1" name="Stun Planter">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="1000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="60"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="pa_up"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2618" levels="1" name="Stun Land Mine">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="1000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="60"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="pa_up"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2619" levels="1" name="Extra Pass: Kamaloka (Hall of the Abyss) (Event)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13297"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2620" levels="1" name="Extra Pass: Near Kamaloka (Event)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13298"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2621" levels="1" name="Extra Pass: Kamaloka (Labyrinth of the Abyss) (Event)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13299"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2622" levels="1" name="Summon Life-size Decoy">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="75"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2623" levels="1" name="Alkaline Therapy">
+		<set name="icon" value="icon.etc_potion_of_acumen2_i00"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="multi_buff_a"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2624" levels="1" name="Life Aid Banding">
+		<set name="icon" value="icon.etc_piece_of_cloth_white_i00"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="4"/>
+		<set name="abnormal_type" value="resist_bleeding"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<p_defence_trait name="bleed" value="70"/>
+				<p_defence_trait name="poison" value="70"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2625" levels="1" name="Embalming">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="bleeding"/>
+				<def name="max_abnormal_level" value="8"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2626" levels="1" name="Lighting Incense">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="poison"/>
+				<def name="max_abnormal_level" value="8"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2627" levels="1" name="Elixir Miracle">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="poison"/>
+				<def name="max_abnormal_level" value="8"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="bleeding"/>
+				<def name="max_abnormal_level" value="8"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="deathworm"/>
+				<def name="max_abnormal_level" value="4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2628" levels="1" name="Structure Scarab">
+		<set name="icon" value="icon.etc_beetle_i00"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="resurrection_special"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13776"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2629" levels="1" name="Ancient Treasure Sack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2630" levels="1" name="Presentation - Collect Items">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="6000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="skillType" value="EXTRACT_STONE"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="flyingTransformUsage" value="true"/>
+		<set name="isHideUseMessage" value="true"/>
+		<set name="npcIds" value="18684;18685;18686;18687;18688;18689;18690;18691;18692"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="2631" levels="1" name="Transformation Scroll: Frog">
+		<set name="icon" value="icon.skilltransform3"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2632" levels="1" name="Transformation Scroll: Young Child">
+		<set name="icon" value="icon.skilltransform3"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2633" levels="1" name="Elmoreden\'s Holy Water">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2634" levels="1" name="Court Wizard\'s Blessing">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2635" levels="1" name="Blessing of Fire">
+		<!--
+			Last modify:	04.08.2009
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="holy_attack"/>
+		<set name="magicLevel" value="25"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add order="0x60" stat="attackFire" value="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2636" levels="1" name="Blessing of Earth">
+		<!--
+			Last modify:	04.08.2009
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="holy_attack"/>
+		<set name="magicLevel" value="25"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add order="0x60" stat="attackEarth" value="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2637" levels="1" name="Scroll: Enchant Weapon (Event)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2638" levels="1" name="5th Anniversary Event Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13422"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="16.6">
+				<item id="9546" min_count="1" max_count="1"/>	<!--Fire Stone-->
+			</group>
+			<group chance="16.6">
+				<item id="9547" min_count="1" max_count="1"/>	<!--Water Stone-->
+			</group>
+			<group chance="16.6">
+				<item id="9548" min_count="1" max_count="1"/>	<!--Earth Stone-->
+			</group>
+			<group chance="16.6">
+				<item id="9549" min_count="1" max_count="1"/>	<!--Wind Stone-->
+			</group>
+			<group chance="16.6">
+				<item id="9550" min_count="1" max_count="1"/>	<!--Dark Stone-->
+			</group>
+			<group chance="17.0">
+				<item id="9551" min_count="1" max_count="1"/>	<!--Holy Stone-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2639" levels="1" name="5th Anniversary Event Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13423"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="16.6">
+				<item id="9546" min_count="2" max_count="2"/>	<!--Fire Stone-->
+			</group>
+			<group chance="16.6">
+				<item id="9547" min_count="2" max_count="2"/>	<!--Water Stone-->
+			</group>
+			<group chance="16.6">
+				<item id="9548" min_count="2" max_count="2"/>	<!--Earth Stone-->
+			</group>
+			<group chance="16.6">
+				<item id="9549" min_count="2" max_count="2"/>	<!--Wind Stone-->
+			</group>
+			<group chance="16.6">
+				<item id="9550" min_count="2" max_count="2"/>	<!--Dark Stone-->
+			</group>
+			<group chance="17.0">
+				<item id="9551" min_count="2" max_count="2"/>	<!--Holy Stone-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2640" levels="1" name="5th Anniversary Event Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13424"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="9.0">
+				<item id="10260" min_count="1" max_count="1"/>	<!--Alacrity Juice-->
+			</group>
+			<group chance="9.0">
+				<item id="10261" min_count="1" max_count="1"/>	<!--Accuracy Juice-->
+			</group>
+			<group chance="9.0">
+				<item id="10262" min_count="1" max_count="1"/>	<!--Critical Hit Juice-->
+			</group>
+			<group chance="9.0">
+				<item id="10263" min_count="1" max_count="1"/>	<!--Critical Rate Juice-->
+			</group>
+			<group chance="9.0">
+				<item id="10264" min_count="1" max_count="1"/>	<!--Casting Spd. Juice-->
+			</group>
+			<group chance="9.0">
+				<item id="10265" min_count="1" max_count="1"/>	<!--Evasion Juice-->
+			</group>
+			<group chance="9.0">
+				<item id="10266" min_count="1" max_count="1"/>	<!--M. Atk. Juice-->
+			</group>
+			<group chance="9.0">
+				<item id="10267" min_count="1" max_count="1"/>	<!--Power Juice-->
+			</group>
+			<group chance="9.0">
+				<item id="10268" min_count="1" max_count="1"/>	<!--Speed Juice-->
+			</group>
+			<group chance="9.0">
+				<item id="10269" min_count="1" max_count="1"/>	<!--Defense Juice-->
+			</group>
+			<group chance="10.0">
+				<item id="10270" min_count="1" max_count="1"/>	<!--MP Consumption Juice-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2641" levels="1" name="5th Anniversary Event Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13425"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="9.0">
+				<item id="10260" min_count="2" max_count="2"/>	<!--Alacrity Juice-->
+			</group>
+			<group chance="9.0">
+				<item id="10261" min_count="2" max_count="2"/>	<!--Accuracy Juice-->
+			</group>
+			<group chance="9.0">
+				<item id="10262" min_count="2" max_count="2"/>	<!--Critical Hit Juice-->
+			</group>
+			<group chance="9.0">
+				<item id="10263" min_count="2" max_count="2"/>	<!--Critical Rate Juice-->
+			</group>
+			<group chance="9.0">
+				<item id="10264" min_count="2" max_count="2"/>	<!--Casting Spd. Juice-->
+			</group>
+			<group chance="9.0">
+				<item id="10265" min_count="2" max_count="2"/>	<!--Evasion Juice-->
+			</group>
+			<group chance="9.0">
+				<item id="10266" min_count="2" max_count="2"/>	<!--M. Atk. Juice-->
+			</group>
+			<group chance="9.0">
+				<item id="10267" min_count="2" max_count="2"/>	<!--Power Juice-->
+			</group>
+			<group chance="9.0">
+				<item id="10268" min_count="2" max_count="2"/>	<!--Speed Juice-->
+			</group>
+			<group chance="9.0">
+				<item id="10269" min_count="2" max_count="2"/>	<!--Defense Juice-->
+			</group>
+			<group chance="10.0">
+				<item id="10270" min_count="2" max_count="2"/>	<!--MP Consumption Juice-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2642" levels="1" name="5th Anniversary Event Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13426"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="9.0">
+				<item id="10260" min_count="3" max_count="3"/>	<!--Alacrity Juice-->
+			</group>
+			<group chance="9.0">
+				<item id="10261" min_count="3" max_count="3"/>	<!--Accuracy Juice-->
+			</group>
+			<group chance="9.0">
+				<item id="10262" min_count="3" max_count="3"/>	<!--Critical Hit Juice-->
+			</group>
+			<group chance="9.0">
+				<item id="10263" min_count="3" max_count="3"/>	<!--Critical Rate Juice-->
+			</group>
+			<group chance="9.0">
+				<item id="10264" min_count="3" max_count="3"/>	<!--Casting Spd. Juice-->
+			</group>
+			<group chance="9.0">
+				<item id="10265" min_count="3" max_count="3"/>	<!--Evasion Juice-->
+			</group>
+			<group chance="9.0">
+				<item id="10266" min_count="3" max_count="3"/>	<!--M. Atk. Juice-->
+			</group>
+			<group chance="9.0">
+				<item id="10267" min_count="3" max_count="3"/>	<!--Power Juice-->
+			</group>
+			<group chance="9.0">
+				<item id="10268" min_count="3" max_count="3"/>	<!--Speed Juice-->
+			</group>
+			<group chance="9.0">
+				<item id="10269" min_count="3" max_count="3"/>	<!--Defense Juice-->
+			</group>
+			<group chance="10.0">
+				<item id="10270" min_count="3" max_count="3"/>	<!--MP Consumption Juice-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2643" levels="1" name="5th Anniversary Event Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13427"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="7.14">
+				<item id="7122" min_count="1" max_count="1"/>	<!--Scroll of Escape: Gludin Village-->
+			</group>
+			<group chance="7.14">
+				<item id="7123" min_count="1" max_count="1"/>	<!--Scroll of Escape: Town of Gludio-->
+			</group>
+			<group chance="7.14">
+				<item id="7124" min_count="1" max_count="1"/>	<!--Scroll of Escape: Town of Dion-->
+			</group>
+			<group chance="7.14">
+				<item id="7125" min_count="1" max_count="1"/>	<!--Scroll of Escape: Floran Village-->
+			</group>
+			<group chance="7.14">
+				<item id="7126" min_count="1" max_count="1"/>	<!--Scroll of Escape: Town of Giran-->
+			</group>
+			<group chance="7.14">
+				<item id="7127" min_count="1" max_count="1"/>	<!--Scroll of Escape: Hardin\'s Academy-->
+			</group>
+			<group chance="7.14">
+				<item id="7128" min_count="1" max_count="1"/>	<!--Scroll of Escape: Heine-->
+			</group>
+			<group chance="7.14">
+				<item id="7129" min_count="1" max_count="1"/>	<!--Scroll of Escape: Town of Oren-->
+			</group>
+			<group chance="7.18">
+				<item id="7130" min_count="1" max_count="1"/>	<!--Scroll of Escape: Ivory Tower-->
+			</group>
+			<group chance="7.14">
+				<item id="7131" min_count="1" max_count="1"/>	<!--Scroll of Escape: Hunters Village-->
+			</group>
+			<group chance="7.14">
+				<item id="7132" min_count="1" max_count="1"/>	<!--Scroll of Escape: Town of Aden-->
+			</group>
+			<group chance="7.14">
+				<item id="7133" min_count="1" max_count="1"/>	<!--Scroll of Escape: Town of Goddard-->
+			</group>
+			<group chance="7.14">
+				<item id="7134" min_count="1" max_count="1"/>	<!--Scroll of Escape: Rune Township-->
+			</group>
+			<group chance="7.14">
+				<item id="7135" min_count="1" max_count="1"/>	<!--Scroll of Escape: Town of Schuttgart-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2644" levels="1" name="5th Anniversary Event Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13428"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="7.14">
+				<item id="7122" min_count="2" max_count="2"/>	<!--Scroll of Escape: Gludin Village-->
+			</group>
+			<group chance="7.14">
+				<item id="7123" min_count="2" max_count="2"/>	<!--Scroll of Escape: Town of Gludio-->
+			</group>
+			<group chance="7.14">
+				<item id="7124" min_count="2" max_count="2"/>	<!--Scroll of Escape: Town of Dion-->
+			</group>
+			<group chance="7.14">
+				<item id="7125" min_count="2" max_count="2"/>	<!--Scroll of Escape: Floran Village-->
+			</group>
+			<group chance="7.14">
+				<item id="7126" min_count="2" max_count="2"/>	<!--Scroll of Escape: Town of Giran-->
+			</group>
+			<group chance="7.14">
+				<item id="7127" min_count="2" max_count="2"/>	<!--Scroll of Escape: Hardin\'s Academy-->
+			</group>
+			<group chance="7.14">
+				<item id="7128" min_count="2" max_count="2"/>	<!--Scroll of Escape: Heine-->
+			</group>
+			<group chance="7.14">
+				<item id="7129" min_count="2" max_count="2"/>	<!--Scroll of Escape: Town of Oren-->
+			</group>
+			<group chance="7.18">
+				<item id="7130" min_count="2" max_count="2"/>	<!--Scroll of Escape: Ivory Tower-->
+			</group>
+			<group chance="7.14">
+				<item id="7131" min_count="2" max_count="2"/>	<!--Scroll of Escape: Hunters Village-->
+			</group>
+			<group chance="7.14">
+				<item id="7132" min_count="2" max_count="2"/>	<!--Scroll of Escape: Town of Aden-->
+			</group>
+			<group chance="7.14">
+				<item id="7133" min_count="2" max_count="2"/>	<!--Scroll of Escape: Town of Goddard-->
+			</group>
+			<group chance="7.14">
+				<item id="7134" min_count="2" max_count="2"/>	<!--Scroll of Escape: Rune Township-->
+			</group>
+			<group chance="7.14">
+				<item id="7135" min_count="2" max_count="2"/>	<!--Scroll of Escape: Town of Schuttgart-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="2645" levels="1" name="Multi-Colored Honey Rice Cake">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13420"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2646" levels="1" name="Honey Wheat Cake">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13421"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2647" levels="1" name="Energy Star Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13277"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="power" value="25"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="REFILL"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2648" levels="1" name="High-quality Energy Star Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13278"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2649" levels="9" name="Scroll of Escape: Gludin Village">
+		<table name="#loc">
+			-80831;149808;-3040
+			15633;142962;-2696
+			83378;147999;-3400
+			111388;219331;-3544
+			82916;53210;-1488
+			146818;25807;-2008
+			147922;-55316;-2728
+			43840;-47779;-792
+			87326;-143370;-1319
+		</table>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="200"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="loc" value="#loc"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RECALL"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="2650" levels="1" name="Summon Imperial Phoenix">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="81"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="14200"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="912"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="912"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2651" levels="1" name="Deflect Magic">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="81"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="14207"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="913"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="913"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2652" levels="1" name="Song of Purification">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="81"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="14198"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="914"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="914"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2653" levels="1" name="Dance of Berserker">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="81"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="14199"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="915"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="915"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2654" levels="1" name="Final Secret">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="81"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="14208"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="917"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="917"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2655" levels="1" name="Maximum Force Focus">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="81"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="14201"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="918"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="918"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2656" levels="1" name="Maximum Sonic Focus">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="81"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="14202"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="919"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="919"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2657" levels="1" name="Hide">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="81"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="14209"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="922"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="922"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2658" levels="1" name="Dual Dagger Mastery">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="81"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="14210"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="923"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="923"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2659" levels="1" name="Seven Arrow">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="81"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="14211"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="924"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="924"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2660" levels="1" name="Enlightenment">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="81"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="14212"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="1532"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="1532"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2661" levels="1" name="Enlightenment">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="81"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="14213"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="1533"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="1533"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2662" levels="1" name="Chant of Movement">
+		<!--
+			Description: Combines a party member\'s moving speed increase and evasion increase effects for a more advanced movement increase effect. For 40 minutes, increases moving speed by 33% and evasion by 4.
+		-->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="72"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="14214"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="1535"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="1535"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2663" levels="1" name="Combat of Pa\'agrio">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="70"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="14215"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="1536"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="1536"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2664" levels="1" name="Critical of Pa\'agrio">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="74"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="14216"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="1537"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="1537"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2665" levels="1" name="Condition of Pa\'agrio">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="72"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="14217"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="1538"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="1538"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2666" levels="1" name="Dual Blow">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="81"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="14218"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="928"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="928"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2667" levels="1" name="Spirit of the Cat">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="81"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="14204"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="929"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="929"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2668" levels="1" name="Spirit of the Phantom">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="81"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="14206"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="930"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="930"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2669" levels="1" name="Spirit of the Unicorn">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="81"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="14205"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="931"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="931"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2670" levels="1" name="Transformation Scroll: Red">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: Transforms caster into a member of the red team.
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skilltransform3"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2671" levels="1" name="Transformation Scroll: Blue">
+		<!--  Automatically generated from The Gracia Final client files.
+			  Description: Transforms caster into a member of the blue team.
+			  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+			  created 16-4-2009  22:35
+		-->
+		<set name="icon" value="icon.skilltransform3"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="3600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2672" levels="1" name="Gludio Human Mercenary">
+		<!--
+			  Last modify: 24.05.2009
+			  Description: Transforms into a human mercenary.
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="31"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="itemConsumeId" value="13569"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="2955">
+			<zone type="SIEGE"/> <!-- TODO: Territory -->
+		</cond>
+		<cond>
+			<player can_transform="10"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="10"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2673" levels="1" name="Gludio Elf Mercenary">
+		<!--
+			  Last modify: 24.05.2009
+			  Description: Transforms into an Elf mercenary.
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="31"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="itemConsumeId" value="13570"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="2955">
+			<zone type="SIEGE"/> <!-- TODO: Territory -->
+		</cond>
+		<cond>
+			<player can_transform="11"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="11"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2674" levels="1" name="Gludio Dark Elf Mercenary">
+		<!--
+			  Last modify: 24.05.2009
+			  Description: Transforms into a Dark Elf mercenary.
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="31"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="itemConsumeId" value="13571"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="2955">
+			<zone type="SIEGE"/> <!-- TODO: Territory -->
+		</cond>
+		<cond>
+			<player can_transform="12"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="12"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2675" levels="1" name="Gludio Orc Mercenary">
+		<!--
+			  Last modify: 24.05.2009
+			  Description: Transforms into an Orc mercenary.
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="31"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="itemConsumeId" value="13572"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="2955">
+			<zone type="SIEGE"/> <!-- TODO: Territory -->
+		</cond>
+		<cond>
+			<player can_transform="13"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="13"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2676" levels="1" name="Gludio Dwarf Mercenary">
+		<!--
+			  Last modify: 24.05.2009
+			  Description: Transforms into a Dwarf mercenary.
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="31"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="itemConsumeId" value="13573"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="2955">
+			<zone type="SIEGE"/> <!-- TODO: Territory -->
+		</cond>
+		<cond>
+			<player can_transform="14"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="14"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2677" levels="1" name="Gludio Kamael Mercenary">
+		<!--
+			  Last modify: 24.05.2009
+			  Description: Transforms into a Kamael mercenary.
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="31"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="itemConsumeId" value="13574"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="2955">
+			<zone type="SIEGE"/> <!-- TODO: Territory -->
+		</cond>
+		<cond>
+			<player can_transform="15"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="15"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2678" levels="1" name="Gludio Royal Guard Captain">
+		<!--
+			  Last modify: 24.05.2009
+			  Description: Transforms into a Royal Guard Captain.
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="31"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="itemConsumeId" value="13575"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="2955">
+			<zone type="SIEGE"/> <!-- TODO: Territory -->
+		</cond>
+		<cond>
+			<player can_transform="16"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="16"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2679" levels="1" name="Gludio Archer Captain">
+		<!--
+			  Last modify: 24.05.2009
+			  Description: Transforms into an Archer Captain.
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="31"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="itemConsumeId" value="13576"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="2955">
+			<zone type="SIEGE"/> <!-- TODO: Territory -->
+		</cond>
+		<cond>
+			<player can_transform="17"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="17"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2680" levels="1" name="Gludio Wizard Captain">
+		<!--
+			  Last modify: 24.05.2009
+			  Description: Transforms into a Magic Leader.
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="31"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="itemConsumeId" value="13577"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="2955">
+			<zone type="SIEGE"/> <!-- TODO: Territory -->
+		</cond>
+		<cond>
+			<player can_transform="18"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="18"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2681" levels="1" name="Gludio Kamael Guard Captain">
+		<!--
+			  Last modify: 24.05.2009
+			  Description: Transforms into a Kamael guard captain.
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="31"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="itemConsumeId" value="13578"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="2955">
+			<zone type="SIEGE"/> <!-- TODO: Territory -->
+		</cond>
+		<cond>
+			<player can_transform="19"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="19"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2682" levels="1" name="Gludio Knight of Dawn">
+		<!--
+			  Last modify: 24.05.2009
+			  Description: Transforms into a Knight of Dawn.
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="31"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="itemConsumeId" value="13579"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="2955">
+			<zone type="SIEGE"/> <!-- TODO: Territory -->
+		</cond>
+		<cond>
+			<player can_transform="20"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="20"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2683" levels="1" name="Gludio Fortress Commander">
+		<!--
+			  Last modify: 24.05.2009
+			  Description: Transforms into a Fortress Captain.
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="31"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="itemConsumeId" value="13580"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="2955">
+			<zone type="SIEGE"/> <!-- TODO: Territory -->
+		</cond>
+		<cond>
+			<player can_transform="21"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="21"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2684" levels="1" name="Dion Human Mercenary">
+		<!--
+			  Last modify: 24.05.2009
+			  Description: Transforms into a human mercenary.
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="31"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="itemConsumeId" value="13581"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="2955">
+			<zone type="SIEGE"/> <!-- TODO: Territory -->
+		</cond>
+		<cond>
+			<player can_transform="10"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="10"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2685" levels="1" name="Dion Elf Mercenary">
+		<!--
+			  Last modify: 24.05.2009
+			  Description: Transforms into an Elf mercenary.
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="31"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="itemConsumeId" value="13582"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="2955">
+			<zone type="SIEGE"/> <!-- TODO: Territory -->
+		</cond>
+		<cond>
+			<player can_transform="11"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="11"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2686" levels="1" name="Dion Dark Elf Mercenary">
+		<!--
+			  Last modify: 24.05.2009
+			  Description: Transforms into a Dark Elf mercenary.
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="31"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="itemConsumeId" value="13583"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="2955">
+			<zone type="SIEGE"/> <!-- TODO: Territory -->
+		</cond>
+		<cond>
+			<player can_transform="12"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="12"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2687" levels="1" name="Dion Orc Mercenary">
+		<!--
+			  Last modify: 24.05.2009
+			  Description: Transforms into an Orc mercenary.
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="31"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="itemConsumeId" value="13584"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="2955">
+			<zone type="SIEGE"/> <!-- TODO: Territory -->
+		</cond>
+		<cond>
+			<player can_transform="13"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="13"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2688" levels="1" name="Dion Dwarf Mercenary">
+		<!--
+			  Last modify: 24.05.2009
+			  Description: Transforms into a Dwarf mercenary.
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="31"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="itemConsumeId" value="13585"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="2955">
+			<zone type="SIEGE"/> <!-- TODO: Territory -->
+		</cond>
+		<cond>
+			<player can_transform="14"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="14"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2689" levels="1" name="Dion Kamael Mercenary">
+		<!--
+			  Last modify: 24.05.2009
+			  Description: Transforms into a Kamael mercenary.
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="31"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="itemConsumeId" value="13586"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="2955">
+			<zone type="SIEGE"/> <!-- TODO: Territory -->
+		</cond>
+		<cond>
+			<player can_transform="15"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="15"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2690" levels="1" name="Dion Royal Guard Captain">
+		<!--
+			  Last modify: 24.05.2009
+			  Description: Transforms into a Royal Guard Captain.
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="31"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="itemConsumeId" value="13587"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="2955">
+			<zone type="SIEGE"/> <!-- TODO: Territory -->
+		</cond>
+		<cond>
+			<player can_transform="16"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="16"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2691" levels="1" name="Dion Archer Captain">
+		<!--
+			  Last modify: 24.05.2009
+			  Description: Transforms into an Archer Captain.
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="31"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="itemConsumeId" value="13588"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="2955">
+			<zone type="SIEGE"/> <!-- TODO: Territory -->
+		</cond>
+		<cond>
+			<player can_transform="17"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="17"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2692" levels="1" name="Dion Wizard Captain">
+		<!--
+			  Last modify: 24.05.2009
+			  Description: Transforms into a Magic Leader.
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="31"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="itemConsumeId" value="13589"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="2955">
+			<zone type="SIEGE"/> <!-- TODO: Territory -->
+		</cond>
+		<cond>
+			<player can_transform="18"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="18"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2693" levels="1" name="Dion Kamael Guard Captain">
+		<!--
+			  Last modify: 24.05.2009
+			  Description: Transforms into a Kamael guard captain.
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="31"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="itemConsumeId" value="13590"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="2955">
+			<zone type="SIEGE"/> <!-- TODO: Territory -->
+		</cond>
+		<cond>
+			<player can_transform="19"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="19"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2694" levels="1" name="Dion Knight of Dawn">
+		<!--
+			  Last modify: 24.05.2009
+			  Description: Transforms into a Knight of Dawn.
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="31"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="itemConsumeId" value="13591"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="2955">
+			<zone type="SIEGE"/> <!-- TODO: Territory -->
+		</cond>
+		<cond>
+			<player can_transform="20"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="20"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2695" levels="1" name="Dion Fortress Commander">
+		<!--
+			  Last modify: 24.05.2009
+			  Description: Transforms into a Fortress Captain.
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="31"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="itemConsumeId" value="13592"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="2955">
+			<zone type="SIEGE"/> <!-- TODO: Territory -->
+		</cond>
+		<cond>
+			<player can_transform="21"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="21"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2696" levels="1" name="Giran Human Mercenary">
+		<!--
+			  Last modify: 24.05.2009
+			  Description: Transforms into a human mercenary.
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="31"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="itemConsumeId" value="13593"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="2955">
+			<zone type="SIEGE"/> <!-- TODO: Territory -->
+		</cond>
+		<cond>
+			<player can_transform="10"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="10"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2697" levels="1" name="Giran Elf Mercenary">
+		<!--
+			  Last modify: 24.05.2009
+			  Description: Transforms into an Elf mercenary.
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="31"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="itemConsumeId" value="13594"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="2955">
+			<zone type="SIEGE"/> <!-- TODO: Territory -->
+		</cond>
+		<cond>
+			<player can_transform="11"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="11"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2698" levels="1" name="Giran Dark Elf Mercenary">
+		<!--
+			  Last modify: 24.05.2009
+			  Description: Transforms into a Dark Elf mercenary.
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="31"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="itemConsumeId" value="13595"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="2955">
+			<zone type="SIEGE"/> <!-- TODO: Territory -->
+		</cond>
+		<cond>
+			<player can_transform="12"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="12"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2699" levels="1" name="Giran Orc Mercenary">
+		<!--
+			  Last modify: 24.05.2009
+			  Description: Transforms into an Orc mercenary.
+		-->
+		<set name="icon" value="icon.skilltransform1"/>
+		<set name="reuseDelay" value="14400000"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="31"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="transform"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="itemConsumeId" value="13596"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<cond msgId="2955">
+			<zone type="SIEGE"/> <!-- TODO: Territory -->
+		</cond>
+		<cond>
+			<player can_transform="13"/>
+		</cond>
+		<for>
+			<effect name="Transformation" value="13"/>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="changebody"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="turn_stone"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_special_multi"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+</list>

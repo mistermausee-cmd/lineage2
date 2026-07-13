@@ -1,0 +1,21 @@
+<html><head>
+Pet Manager Joey:<br>
+The most important thing to remember when raising a pet is love. For a loving master, a pet will carry immense burdens, fight ferociously and prove their loyalty a thousand times over...<br>
+<Button ALIGN=LEFT ICON="NORMAL" action="link petmanager/pet_help.htm">Listen to instructions about how to raise a pet.</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Buy 1">Purchase pet items.</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Multisell 212">Exchange pet equipment for higher-grade one.</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Multisell 221">Exchange the Hatchling's equipment with the equipment for strider.</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="link petmanager/pet_evolution.htm">Evolve pet.</button>
+<Button ALIGN=LEFT ICON="NORMAL" action="link petmanager/pet_manager_trade_ticket.htm">Exchange the pet trade ticket with a pet.</button>
+#if ($SERVICES_CHANGE_PET_NAME_ENABLED)
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_services.petevolve.exchange:showErasePetName">Remove Pet's Name.</button>
+#end
+#if ($SERVICES_EXCHANGE_BABY_PET_ENABLED)
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_services.petevolve.exchange:showBabyPetExchange">Exchange Improved Baby pet.</button>
+#end
+#if ($SERVICES_RIDE_HIRE_ENABLED)
+<Button ALIGN=LEFT ICON="NORMAL" action="link scripts/services/ride-prices.htm">Ride hire mountable pet.</button>
+#end
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_TerritoryStatus">See the Lord and get the tax rate information.</button>
+<Button ALIGN=LEFT ICON="QUEST" action="bypass -h talk_select">Quest</button>
+</head></html>

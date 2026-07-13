@@ -1,0 +1,1398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="13700" levels="12" name="Item Skill: Damage Reflect">
+		<table name="#resistReflect">3 4 5 8 9 10 10 13 15 15 17 20</table>
+		<table name="#magicLevel">75 85 86 88 90 92 94 96 98 101 103 105</table>
+		<table name="#mp_consume">50 50 50 60 60 60 60 60 60 60 60 60</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="abnormal_item"/>		
+		<set name="magicType" value="SPECIAL"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="reflectDam" value="20"/>
+				<add stat="reflectBowDam" value="20"/>
+				<add stat="reflectPSkillDam" value="20"/>
+				<add stat="reflectMSkillDam" value="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="13701" levels="12" name="Item Skill: Disable Target">
+		<table name="#magicLevel">85</table>
+		<table name="#abnormal_time">3 4 5 3 4 5 4 5 6 4 5 6</table>
+		<table name="#mp_consume">50 50 50 60 60 60 60 60 60 60 60 60</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="abnormal_item"/>		
+		<set name="magicType" value="SPECIAL"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="p_block_target"/>
+		</for>
+	</skill>
+	<skill id="13702" levels="12" name="Item Skill: Invincibility">
+		<table name="#magicLevel">85</table>
+		<table name="#abnormal_time">3 4 5 3 4 5 4 5 6 4 5 6</table>
+		<table name="#mp_consume">50 50 50 60 60 60 60 60 60 60 60 60</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="abnormal_item"/>		
+		<set name="magicType" value="SPECIAL"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="Invulnerable"/>
+			<effect name="p_block_debuff"/>
+		</for>
+	</skill>
+	<skill id="13703" levels="12" name="Item Skill: Power Eruption">
+		<table name="#magicLevel">85</table>
+		<table name="#power">4250 4724 5250 13478 14976 16641 18864 20961 23291 21019 23355 25951</table>
+		<table name="#mp_consume">50 50 50 60 60 60 60 60 60 60 60 60</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="power" value="#power"/>
+		<set name="target" value="TARGET_AURA"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="affect_range" value="200"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13704" levels="12" name="Item Skill: Power Multi Shot">
+		<table name="#power">4250 4724 5250 13478 14976 16641 18864 20961 23291 21019 23355 25951</table>
+		<table name="#magicLevel">85</table>
+		<table name="#mp_consume">50 50 50 60 60 60 60 60 60 60 60 60</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="1100"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="power" value="#power"/>
+		<set name="target" value="TARGET_AREA"/>
+		<set name="affect_range" value="100"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13705" levels="12" name="Item Skill: Power Shot">
+		<table name="#magicLevel">85</table>
+		<table name="#power">5466 6074 6750 17329 19255 21395 24255 26950 29945 27025 30028 33365</table>
+		<table name="#mp_consume">50 50 50 60 60 60 60 60 60 60 60 60</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="1100"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="power" value="#power"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13706" levels="12" name="Item Skill: Power Storm">
+		<table name="#magicLevel">85</table>
+		<table name="#power">4250 4724 5250 13478 14976 16641 18864 20961 23291 21019 23355 25951</table>
+		<table name="#mp_consume">50 50 50 60 60 60 60 60 60 60 60 60</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="power" value="#power"/>
+		<set name="target" value="TARGET_AREA"/>
+		<set name="affect_range" value="100"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13707" levels="12" name="Item Skill: Power Strike">
+		<table name="#magicLevel">85</table>
+		<table name="#power">6074 6750 7500 19255 21395 23773 26950 29945 33273 30028 33365 37073</table>
+		<table name="#mp_consume">50 50 50 60 60 60 60 60 60 60 60 60</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="power" value="#power"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13708" levels="12" name="Item Skill: Aerial Yoke">
+		<table name="#magicLevel">75 85 86 88 90 92 94 96 98 99</table>
+		<table name="#abnormal_time">3 4 5 3 4 5 3 4 5 3 4 5</table>
+		<table name="#mp_consume">50 50 50 60 60 60 60 60 60 60 60 60</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="target" value="TARGET_AREA"/>
+		<set name="abnormal_effect" value="AIRBIND"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_type" value="airbind"/>
+		<set name="fly_radius" value="90"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="operate_type" value="A2"/>
+		<set name="activateRate" value="80"/>
+		<set name="affect_range" value="200"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="trait" value="AIRBIND"/>
+		<for>
+			<effect name="FlyUp"/>
+		</for>
+	</skill>
+	<skill id="13709" levels="12" name="Item Skill: Fear">
+		<table name="#magicLevel">75 85 86 88 90 92 94 96 98 101</table>
+		<table name="#abnormal_time">3 4 5 3 4 5 3 4 5 3 4 5</table>
+		<table name="#mp_consume">50 50 50 60 60 60 60 60 60 60 60 60</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="fly_away"/>
+		<set name="trait" value="DERANGEMENT"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_AREA"/>
+		<set name="activateRate" value="60"/>
+		<set name="affect_range" value="200"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="Fear"/>
+		</for>
+	</skill>
+	<skill id="13710" levels="12" name="Item Skill: Hold">
+		<table name="#magicLevel">75 85 86 88 90 92 94 96 98 101</table>
+		<table name="#abnormal_time">3 4 5 3 4 5 3 4 5 3 4 5</table>
+		<table name="#mp_consume">50 50 50 60 60 60 60 60 60 60 60 60</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_effect" value="ROOT"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="root_magically"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="SPECIAL"/>		
+		<set name="target" value="TARGET_AREA"/>
+		<set name="activateRate" value="80"/>
+		<set name="skillType" value="ROOT"/>
+		<set name="affect_range" value="200"/>
+		<set name="operate_type" value="A2"/>
+		<set name="trait" value="HOLD"/>
+		<for>
+			<effect name="p_block_move"/>
+		</for>
+	</skill>
+	<skill id="13711" levels="12" name="Item Skill: Knock Down">
+		<table name="#magicLevel">75 85 86 88 90 92 94 96 98 101</table>
+		<table name="#abnormal_time">3 4 5 3 4 5 3 4 5 3 4 5</table>
+		<table name="#mp_consume">50 50 50 60 60 60 60 60 60 60 60 60</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="knockdown"/>
+		<set name="abnormal_effect" value="KNOCKDOWN"/>
+		<set name="activateRate" value="60"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="SPECIAL"/>		
+		<set name="target" value="TARGET_AREA"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="trait" value="KNOCKDOWN"/>
+		<set name="affect_range" value="200"/>
+		<for>
+			<effect name="KnockDown">
+				<def name="fly_radius" value="75"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="13712" levels="12" name="Item Skill: Paralyze">
+		<table name="#magicLevel">75 85 86 88 90 92 94 96 98 101</table>
+		<table name="#abnormal_time">3 4 5 3 4 5 3 4 5 3 4 5</table>
+		<table name="#mp_consume">50 50 50 60 60 60 60 60 60 60 60 60</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="activateRate" value="60"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="paralyze"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="SPECIAL"/>		
+		<set name="target" value="TARGET_AREA"/>
+		<set name="skillType" value="PARALYZE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="trait" value="PARALYZE"/>
+		<set name="affect_range" value="200"/>
+		<for>
+			<effect name="Paralyze"/>
+		</for>		
+	</skill>
+	<skill id="13713" levels="12" name="Item Skill: Silence">
+		<table name="#magicLevel">75 85 86 88 90 92 94 96 98 101</table>
+		<table name="#abnormal_time">3 4 5 3 4 5 3 4 5 3 4 5</table>
+		<table name="#mp_consume">50 50 50 60 60 60 60 60 60 60 60 60</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_effect" value="SILENCE"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="silence"/>
+		<set name="magicLevel" value="#magicLevel"/>	
+		<set name="magicType" value="SPECIAL"/>		
+		<set name="target" value="TARGET_AREA"/>
+		<set name="skillType" value="MUTE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="activateRate" value="60"/>
+		<set name="affect_range" value="200"/>
+		<set name="trait" value="DERANGEMENT"/>
+		<for>
+			<effect name="Mute"/>
+		</for>		
+	</skill>
+	<skill id="13714" levels="12" name="Item Skill: Sleep">
+		<table name="#magicLevel">75 85 86 88 90 92 94 96 98 101</table>
+		<table name="#abnormal_time">3 4 5 3 4 5 3 4 5 3 4 5</table>
+		<table name="#mp_consume">50 50 50 60 60 60 60 60 60 60 60 60</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_effect" value="SLEEP"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="sleep"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_AREA"/>
+		<set name="magicType" value="SPECIAL"/>		
+		<set name="skillType" value="SLEEP"/>
+		<set name="operate_type" value="A2"/>
+		<set name="activateRate" value="60"/>
+		<set name="trait" value="SLEEP"/>
+		<set name="affect_range" value="200"/>		
+		<for>
+			<effect name="Sleep"/>
+		</for>
+	</skill>
+	<skill id="13715" levels="12" name="Item Skill: Slow">
+		<table name="#magicLevel">75 85 86 88 90 92 94 96 98 101 103 105</table>
+		<table name="#runSpd">30 40 50 40 50 60 50 60 70 60 70 80</table>
+		<table name="#mp_consume">50 50 50 60 60 60 60 60 60 60 60 60</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="speed_down"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="SPECIAL"/>		
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="activateRate" value="60"/>
+		<set name="target" value="TARGET_AREA"/>
+		<set name="affect_range" value="200"/>	
+		<for>
+			<effect>
+				<sub order="0x60" stat="runSpd" value="#runSpd"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="13716" levels="12" name="Item Skill: Stun">
+		<table name="#magicLevel">75 85 86 88 90 92 94 96 98 101 103 105</table>
+		<table name="#abnormal_time">3 4 5 3 4 5 3 4 5 3 4 5</table>
+		<table name="#mp_consume">50 50 50 60 60 60 60 60 60 60 60 60</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_effect" value="STUN"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="stun"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="SPECIAL"/>		
+		<set name="target" value="TARGET_AREA"/>
+		<set name="skillType" value="STUN"/>
+		<set name="operate_type" value="A2"/>
+		<set name="trait" value="SHOCK"/>
+		<set name="affect_range" value="200"/>
+		<for>
+			<effect name="Stun"/>
+		</for>
+	</skill>
+	<skill id="13717" levels="4" name="Item Skill: Cancel Target">
+		<table name="#magicLevel">75 85 86 88</table>
+		<table name="#mp_consume">50 60 60 60</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="target" value="TARGET_AREA"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="affect_range" value="200"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="i_target_cancel" chance="60"/>
+		</for>		
+	</skill>
+	<skill id="13718" levels="12" name="Item Skill: Aerial Yoke">
+		<table name="#magicLevel">75 85 86 88 90 92 94 96 98 99</table>
+		<table name="#abnormal_time">3 4 5 3 4 5 3 4 5 3 4 5</table>
+		<table name="#mp_consume">50 50 50 60 60 60 60 60 60 60 60 60</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="20000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="abnormal_effect" value="AIRBIND"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_type" value="airbind"/>
+		<set name="fly_radius" value="90"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="operate_type" value="A2"/>
+		<set name="activateRate" value="80"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="trait" value="AIRBIND"/>
+		<for>
+			<effect name="FlyUp"/>
+		</for>
+	</skill>
+	<skill id="13719" levels="12" name="Item Skill: Fear">
+		<table name="#magicLevel">75 85 86 88 90 92 94 96 98 101</table>
+		<table name="#abnormal_time">3 4 5 3 4 5 3 4 5 3 4 5</table>
+		<table name="#mp_consume">50 50 50 60 60 60 60 60 60 60 60 60</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="20000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="fly_away"/>
+		<set name="trait" value="DERANGEMENT"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="activateRate" value="60"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="Fear"/>
+		</for>
+	</skill>
+	<skill id="13720" levels="12" name="Item Skill: Silence">
+		<table name="#magicLevel">75 85 86 88 90 92 94 96 98 101 103 105</table>
+		<table name="#abnormal_time">3 4 5 3 4 5 3 4 5 3 4 5</table>
+		<table name="#mp_consume">50 50 50 60 60 60 60 60 60 60 60 60</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="20000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_effect" value="SILENCE"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="silence"/>
+		<set name="magicLevel" value="#magicLevel"/>	
+		<set name="magicType" value="SPECIAL"/>		
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="MUTE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="activateRate" value="60"/>
+		<set name="trait" value="DERANGEMENT"/>
+		<for>
+			<effect name="Mute"/>
+		</for>
+	</skill>
+	<skill id="13721" levels="12" name="Item Skill: Sleep">
+		<table name="#magicLevel">75 85 86 88 90 92 94 96 98 101</table>
+		<table name="#abnormal_time">3 4 5 3 4 5 3 4 5 3 4 5</table>
+		<table name="#mp_consume">50 50 50 60 60 60 60 60 60 60 60 60</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="20000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_effect" value="SLEEP"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="sleep"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="magicType" value="SPECIAL"/>		
+		<set name="skillType" value="SLEEP"/>
+		<set name="operate_type" value="A2"/>
+		<set name="activateRate" value="60"/>
+		<set name="trait" value="SLEEP"/>
+		<for>
+			<effect name="Sleep"/>
+		</for>
+	</skill>
+	<skill id="13722" levels="12" name="Item Skill: Slow">
+		<table name="#magicLevel">75 85 86 88 90 92 94 96 98 101 103 105</table>
+		<table name="#runSpd">30 40 50 40 50 60 50 60 70 60 70 80</table>
+		<table name="#mp_consume">50 50 50 60 60 60 60 60 60 60 60 60</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="20000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="10"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="speed_down"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="SPECIAL"/>		
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="activateRate" value="60"/>
+		<set name="target" value="TARGET_ONE"/>
+		<for>
+			<effect>
+				<sub order="0x60" stat="runSpd" value="#runSpd"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="13723" levels="12" name="Item Skill: Stun">
+		<table name="#magicLevel">75 85 86 88 90 92 94 96 98 101 103 105</table>
+		<table name="#abnormal_time">3 4 5 3 4 5 3 4 5 3 4 5</table>
+		<table name="#mp_consume">50 50 50 60 60 60 60 60 60 60 60 60</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="20000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_effect" value="STUN"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="stun"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="SPECIAL"/>		
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="STUN"/>
+		<set name="operate_type" value="A2"/>
+		<set name="trait" value="SHOCK"/>
+		<for>
+			<effect name="Stun"/>
+		</for>
+	</skill>
+	<skill id="13724" levels="12" name="Item Skill: Hold">
+		<table name="#magicLevel">75 85 86 88 90 92 94 96 98 101</table>
+		<table name="#abnormal_time">3 4 5 3 4 5 3 4 5 3 4 5</table>
+		<table name="#mp_consume">50 50 50 60 60 60 60 60 60 60 60 60</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="20000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="abnormal_effect" value="ROOT"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="root_magically"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="SPECIAL"/>		
+		<set name="target" value="TARGET_ONE"/>
+		<set name="activateRate" value="80"/>
+		<set name="skillType" value="ROOT"/>
+		<set name="operate_type" value="A2"/>
+		<set name="trait" value="HOLD"/>
+		<for>
+			<effect name="p_block_move"/>
+		</for>
+	</skill>
+	<skill id="13725" levels="12" name="Item Skill: Knock Down">
+		<table name="#magicLevel">75 85 86 88 90 92 94 96 98 101</table>
+		<table name="#abnormal_time">3 4 5 3 4 5 3 4 5 3 4 5</table>
+		<table name="#mp_consume">50 50 50 60 60 60 60 60 60 60 60 60</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="20000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="knockdown"/>
+		<set name="abnormal_effect" value="KNOCKDOWN"/>
+		<set name="activateRate" value="60"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="SPECIAL"/>		
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="trait" value="KNOCKDOWN"/>
+		<for>
+			<effect name="KnockDown">
+				<def name="fly_radius" value="75"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="13726" levels="12" name="Item Skill: Paralyze">
+		<table name="#magicLevel">75 85 86 88 90 92 94 96 98 101</table>
+		<table name="#abnormal_time">3 4 5 3 4 5 3 4 5 3 4 5</table>
+		<table name="#mp_consume">50 50 50 60 60 60 60 60 60 60 60 60</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="20000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="activateRate" value="60"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="paralyze"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="SPECIAL"/>		
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PARALYZE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="trait" value="PARALYZE"/>
+		<for>
+			<effect name="Paralyze"/>
+		</for>	
+	</skill>
+	<skill id="13727" levels="4" name="Item Skill: Trick">
+		<table name="#magicLevel">75 85 86 88</table>
+		<table name="#mp_consume">50 60 60 60</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="20000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="i_target_cancel" chance="60"/>
+		</for>		
+	</skill>
+	<skill id="13728" levels="12" name="Item Skill: Wind Circle">
+		<table name="#magicLevel">75 85 86 88 90 92 94 96 98 101</table>
+		<table name="#power">62 69 77 98 109 122 122 136 152 132 147 164</table>
+		<table name="#mp_consume">60 60 60 80 80 80 80 80 80 80 80 80</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="power" value="#power"/>
+		<set name="target" value="TARGET_AREA"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="affect_range" value="200"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13729" levels="12" name="Item Skill: Wind Flare">
+		<table name="#magicLevel">75 85 86 88 90 92 94 96 98 101</table>
+		<table name="#power">89 99 111 141 157 175 173 193 215 186 207 231</table>
+		<table name="#mp_consume">60 60 60 80 80 80 80 80 80 80 80 80</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="power" value="#power"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13730" levels="12" name="Item Skill: Wind Flash">
+		<table name="#magicLevel">75 85 86 88 90 92 94 96 98 101</table>
+		<table name="#power">62 69 77 98 109 122 122 136 152 132 147 164</table>
+		<table name="#mp_consume">60 60 60 80 80 80 80 80 80 80 80 80</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="power" value="#power"/>
+		<set name="target" value="TARGET_AREA"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="affect_range" value="200"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13731" levels="12" name="Item Skill: Wind Storm">
+		<table name="#magicLevel">75 85 86 88 90 92 94 96 98 101</table>
+		<table name="#power">62 69 77 98 109 122 122 136 152 132 147 164</table>
+		<table name="#mp_consume">60 60 60 80 80 80 80 80 80 80 80 80</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="1100"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="power" value="#power"/>
+		<set name="target" value="TARGET_AREA"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="affect_range" value="200"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13732" levels="12" name="Item Skill: Wind Strike">
+		<table name="#magicLevel">75 85 86 88 90 92 94 96 98 101</table>
+		<table name="#power">80 89 99 126 141 157 159 177 197 171 191 213</table>
+		<table name="#mp_consume">60 60 60 80 80 80 80 80 80 80 80 80</table>
+		<set name="icon" value="icon.skill3123"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="1100"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="power" value="#power"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="13733" levels="12" name="Item Skill: Atk. Spd. Increase">
+		<table name="#pAtkSpd">1.03 1.04 1.05 1.03 1.04 1.05 1.05 1.06 1.07 1.08 1.09 1.1</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtkSpd" value="#pAtkSpd"/>
+		</for>
+	</skill>
+	<skill id="13734" levels="12" name="Item Skill: Max CP Increase">
+		<table name="#maxCp">1.03 1.04 1.05 1.03 1.04 1.05 1.05 1.06 1.07 1.08 1.09 1.1</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxCp" value="#maxCp"/>
+		</for>
+	</skill>
+	<skill id="13735" levels="12" name="Item Skill: Damage Reflect">
+		<table name="#reflectDam">1.03 1.04 1.05 1.08 1.09 1.1 1.1 1.13 1.15 1.15 1.17 1.2</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="reflectDam" value="#reflectDam"/>
+			<add stat="reflectBowDam" value="#reflectDam"/>
+			<add stat="reflectPSkillDam" value="#reflectDam"/>
+			<add stat="reflectMSkillDam" value="#reflectDam"/>
+		</for>
+	</skill>
+	<skill id="13736" levels="9" name="Item Skill: XP Bonus">
+		<table name="#exp_rate_multiplier">0.03 0.04 0.05 0.05 0.06 0.07 0.08 0.09 0.1</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="exp_rate_multiplier" value="#exp_rate_multiplier"/>
+		</for>
+	</skill>
+	<skill id="13737" levels="12" name="Item Skill: Max XP Increase">
+		<table name="#maxHp">1.03 1.04 1.05 1.03 1.04 1.05 1.05 1.06 1.07 1.08 1.09 1.1</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="#maxHp"/>
+		</for>
+	</skill>
+	<skill id="13738" levels="12" name="Item Skill: MP Consumption Decrease">
+		<table name="#mpConsum">1.03 1.04 1.05 1.03 1.04 1.05 1.05 1.06 1.07 1.08 1.09 1.1</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mpConsum" value="#mpConsum"/>
+		</for>
+	</skill>
+	<skill id="13739" levels="12" name="Item Skill: M. Atk. Increase">
+		<table name="#mAtk">1.03 1.04 1.05 1.03 1.04 1.05 1.05 1.06 1.07 1.08 1.09 1.1</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="#mAtk"/>
+		</for>
+	</skill>
+	<skill id="13740" levels="12" name="Item Skill: M. Def. Increase">
+		<table name="#mDef">1.03 1.04 1.05 1.03 1.04 1.05 1.05 1.06 1.07 1.08 1.09 1.1</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mDef" value="#mDef"/>
+		</for>
+	</skill>
+	<skill id="13741" levels="12" name="Item Skill: Max MP Increase">
+		<table name="#maxMp">1.03 1.04 1.05 1.03 1.04 1.05 1.05 1.06 1.07 1.08 1.09 1.1</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxMp" value="#maxMp"/>
+		</for>
+	</skill>
+	<skill id="13742" levels="12" name="Item Skill: Casting Spd. Increase">
+		<table name="#mAtkSpd">1.03 1.04 1.05 1.03 1.04 1.05 1.05 1.06 1.07 1.08 1.09 1.1</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtkSpd" value="#mAtkSpd"/>
+		</for>
+	</skill>
+	<skill id="13743" levels="12" name="Item Skill: MP Consumption Decrease">
+		<table name="#mpConsumePhysical">1.03 1.04 1.05 1.03 1.04 1.05 1.05 1.06 1.07 1.08 1.09 1.1</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mpConsumePhysical" value="#mpConsumePhysical"/>
+		</for>
+	</skill>
+	<skill id="13744" levels="12" name="Item Skill: P. Atk. Increase">
+		<table name="#pAtk">1.03 1.04 1.05 1.03 1.04 1.05 1.05 1.06 1.07 1.08 1.09 1.1</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="#pAtk"/>
+		</for>
+	</skill>
+	<skill id="13745" levels="12" name="Item Skill: P. Def. Increase">
+		<table name="#pDef">1.03 1.04 1.05 1.03 1.04 1.05 1.05 1.06 1.07 1.08 1.09 1.1</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pDef" value="#pDef"/>
+		</for>
+	</skill>
+	<skill id="13746" levels="9" name="Item Skill: PvE Damage Decrease">
+		<table name="#pvePhysDefenceBonus">1.03 1.04 1.05 1.05 1.06 1.07 1.08 1.09 1.1</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDefenceBonus" value="#pvePhysDefenceBonus"/>
+			<mul stat="pvePhysSkillDefenceBonus" value="#pvePhysDefenceBonus"/>
+			<mul stat="pveMagicSkillDefenceBonus" value="#pvePhysDefenceBonus"/>
+		</for>
+	</skill>
+	<skill id="13747" levels="9" name="Item Skill: PvE Damage Increase">
+		<table name="#pvePhysDmgBonus">1.03 1.04 1.05 1.05 1.06 1.07 1.08 1.09 1.1</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDmgBonus" value="#pvePhysDmgBonus"/>
+			<mul stat="pveMagicSkillDmgBonus" value="#pvePhysDmgBonus"/>
+			<mul stat="pvePhysSkillDmgBonus" value="#pvePhysDmgBonus"/>
+		</for>
+	</skill>
+	<skill id="13748" levels="9" name="Item Skill: PvP Damage Decrease">
+		<table name="#pvpPhysDefenceBonus">1.03 1.04 1.05 1.05 1.06 1.07 1.08 1.09 1.1</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDefenceBonus" value="#pvpPhysDefenceBonus"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="#pvpPhysDefenceBonus"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="#pvpPhysDefenceBonus"/>
+		</for>
+	</skill>
+	<skill id="13749" levels="9" name="Item Skill: PvP Damage Increase">
+		<table name="#pvpPhysDmgBonus">1.03 1.04 1.05 1.05 1.06 1.07 1.08 1.09 1.1</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDmgBonus" value="#pvpPhysDmgBonus"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="#pvpPhysDmgBonus"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="#pvpPhysDmgBonus"/>
+		</for>
+	</skill>
+	<skill id="13750" levels="9" name="Item Skill: SP Bonus">
+		<table name="#sp_rate_multiplier">0.03 0.04 0.05 0.05 0.06 0.07 0.08 0.09 0.1</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="sp_rate_multiplier" value="#sp_rate_multiplier"/>
+		</for>
+	</skill>
+	<skill id="13751" levels="12" name="Item Skill: Spd. Increase">
+		<table name="#runSpd">8 9 10 10 15 20 15 20 25 20 25 10</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="runSpd" value="#runSpd"/>
+		</for>
+	</skill>
+	<skill id="13752" levels="12" name="Item Skill: Vampiric Rage">
+		<table name="#absorbDam">1.03 1.04 1.05 1.03 1.04 1.05 1.05 1.06 1.07 1.08 1.09 1.1</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="absorbDam" value="#absorbDam"/>
+			<add stat="absorbBowDam" value="#absorbDam"/>
+			<add stat="absorbPSkillDam" value="#absorbDam"/>
+			<add stat="absorbMSkillDam" value="#absorbDam"/>
+		</for>
+	</skill>
+	<skill id="13753" levels="40" name="Item Skill: Attack Attribute Bonus">
+		<table name="#atr">5 6 7 8 9 10 11 12 15 30 5 7 9 50 13 17 20 25 11 15 5 7 9 11 13 15 20 25 30 60 10 12 30 14 16 18 20 25 35 70</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="attackFire" value="#atr"/>
+			<add stat="attackWater" value="#atr"/>
+			<add stat="attackWind" value="#atr"/>
+			<add stat="attackEarth" value="#atr"/>
+			<add stat="attackHoly" value="#atr"/>
+			<add stat="attackUnholy" value="#atr"/>
+		</for>
+	</skill>
+	<skill id="13754" levels="6" name="Item Skill: Aerial Yoke, Petrification Resistance">
+		<table name="#p_defence_trait_airbind">3 4 5 6 6 7</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_defence_trait name="airbind" value="#p_defence_trait_airbind"/>
+			<p_defence_trait name="paralyze" value="#p_defence_trait_airbind"/><!--TODO Petrification Resistance
+			У нас Petrification идет в скилах как паралич 
+			-->
+		</for>
+	</skill>
+	<skill id="13755" levels="6" name="Item Skill: Pull, Petrification Resistance">
+		<table name="#p_defence_trait_pull">3 4 5 6 6 7</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_defence_trait name="pull" value="#p_defence_trait_pull"/>
+			<p_defence_trait name="paralyze" value="#p_defence_trait_pull"/><!--TODO Petrification Resistance
+			У нас Petrification идет в скилах как паралич 
+			-->
+		</for>
+	</skill>
+	<skill id="13756" levels="6" name="Item Skill: Knock Back/Knock Down, Petrification Resistance">
+		<table name="#Resist">3 4 5 6 6 7</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_defence_trait name="knockdown" value="#Resist"/>
+			<p_defence_trait name="knockback" value="#Resist"/>
+			<p_defence_trait name="paralyze" value="#Resist"/><!--TODO Petrification Resistance
+			У нас Petrification идет в скилах как паралич 
+			-->
+		</for>
+	</skill>
+	<skill id="13757" levels="6" name="Item Skill: Poison, Petrification Resistance">
+		<table name="#p_defence_trait_poison">3 4 5 6 6 7</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_defence_trait name="poison" value="#p_defence_trait_poison"/>
+			<p_defence_trait name="paralyze" value="#p_defence_trait_poison"/><!--TODO Petrification Resistance
+			У нас Petrification идет в скилах как паралич 
+			-->
+		</for>
+	</skill>
+	<skill id="13758" levels="40" name="Item Skill: M. Skill Critical Damage Increase">
+		<table name="#mCritDamage">1 1 1 1 1 2 2 2 3 5 1 1 2 2 2 2 3 3 3 7 2 2 2 3 3 3 3 3 5 1 2 2 3 3 4 4 5 8 15</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="p_magic_critical_dmg_per" order="0x40" value="#mCritDamage"/>
+		</for>
+	</skill>
+	<skill id="13759" levels="40" name="Item Skill: M. Skill Critical Rate Increase">
+		<table name="#mCritRate">1 1 1 2 2 2 3 4 5 10 2 2 3 3 4 4 5 5 8 15 2 3 3 4 4 5 5 6 10 20 3 4 5 6 7 8 9 10 15 30</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="mCritRate" value="#mCritRate"/>
+		</for>
+	</skill>
+	<skill id="13760" levels="11" name="Item Skill: M. Evasion">
+		<table name="#mEvasRate">1 2 1 2 3 1 2 3 1 2 3</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="mEvasRate" value="#mEvasRate"/>
+		</for>
+	</skill>
+	<skill id="13761" levels="6" name="Item Skill: Paralysis, Petrification Resistance">
+		<table name="#Resist">3 4 5 6 6 7</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_defence_trait name="paralyze" value="#Resist"/><!--TODO Petrification Resistance
+			У нас Petrification идет в скилах как паралич 
+			-->
+		</for>
+	</skill>
+	<skill id="13762" levels="40" name="Item Skill: P. Skill Critical Rate Increase">
+		<table name="#SkillCritChanceMod">0.55 0.65 0.85 1.05 1.25 1.5 1.75 2 2.5 5 0.825 0.975 1.275 1.575 1.875 2.25 2.625 3 3.75 7.5 1.1 1.3 1.7 2.1 2.5 3 3.5 4 5 10 1.65 1.95 2.55 3.15 3.75 4.5 5.25 6 7.5 15</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x30" stat="SkillCritChanceMod" value="#SkillCritChanceMod"/>
+		</for>		
+	</skill>
+	<skill id="13763" levels="12" name="Item Skill: Petrification Resistance">
+		<table name="#Resist">1 2 1 2 4 1 2 3 4 2 3 5</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_defence_trait name="paralyze" value="#Resist"/><!--TODO Petrification Resistance
+			У нас Petrification идет в скилах как паралич 
+			-->
+		</for>
+	</skill>
+	<skill id="13764" levels="34" name="Item Skill: Petrification Success Rate Increase">
+		<table name="#p_attack_trait_paralyze">1 2 3 4 5 10 2 3 4 5 6 7 8 10 20 2 3 4 5 6 7 8 10 12 25 3 5 6 7 9 10 12 15 30</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_attack_trait name="paralyze" value="#p_attack_trait_paralyze"/><!--TODO Petrification Power
+			У нас Petrification идет в скилах как паралич 
+			-->
+		</for>		
+	</skill>
+	<skill id="13765" levels="6" name="Item Skill: Stun, Petrifaction Resistance">
+		<table name="#p_defence_trait_shock">3 4 5 6 6 7</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_defence_trait name="shock" value="#p_defence_trait_shock"/>
+			<p_defence_trait name="paralyze" value="#p_defence_trait_shock"/>	<!--TODO Petrification Resistance
+			У нас Petrification идет в скилах как паралич 
+			-->
+		</for>
+	</skill>
+	<skill id="13766" levels="6" name="Item Skill: Sleep, Petrification Resistance">
+		<table name="#p_defence_trait_sleep">3 4 5 6 6 7</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_defence_trait name="sleep" value="#p_defence_trait_sleep"/>
+			<p_defence_trait name="paralyze" value="#p_defence_trait_sleep"/>	<!--TODO Petrification Resistance
+			У нас Petrification идет в скилах как паралич 
+			-->
+		</for>
+	</skill>
+	<skill id="13767" levels="6" name="Item Skill: Mental Attack, Petrification Resistance">
+		<table name="#p_defence_trait_derangement">3 4 5 6 6 7</table>
+		<table name="#p_defence_trait_paralyze">3 4 5 6 6 7</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_defence_trait name="derangement" value="#p_defence_trait_derangement"/>
+			<p_defence_trait name="paralyze" value="#p_defence_trait_paralyze"/>	<!--TODO Petrification Resistance
+			У нас Petrification идет в скилах как паралич 
+			-->
+		</for>
+	</skill>
+	<skill id="13768" levels="6" name="Item Skill: Bleed, Petrification Resistance">
+		<table name="#p_defence_trait_bleed">3 4 5 6 6 7</table>
+		<table name="#p_defence_trait_paralyze">3 4 5 6 6 7</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_defence_trait name="bleed" value="#p_defence_trait_bleed"/>
+			<p_defence_trait name="paralyze" value="#p_defence_trait_paralyze"/>	<!--TODO Petrification Resistance
+			У нас Petrification идет в скилах как паралич 
+			-->
+		</for>
+	</skill>
+	<skill id="13769" levels="6" name="Item Skill: Hold, Petrification Resistance">
+		<table name="#p_defence_trait_hold">3 4 5 6 6 7</table>
+		<set name="icon" value="icon.skill3238"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_defence_trait name="hold" value="#p_defence_trait_hold"/>
+			<p_defence_trait name="paralyze" value="#p_defence_trait_hold"/>	<!--TODO Petrification Resistance
+			У нас Petrification идет в скилах как паралич 
+			-->
+		</for>
+	</skill>
+	<skill id="13770" levels="1" name="Exalted Tiara">
+		<set name="icon" value="icon.accessory_noblesse2_tiara_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="attackFire" value="50"/>
+			<add stat="attackWater" value="50"/>
+			<add stat="attackWind" value="50"/>
+			<add stat="attackEarth" value="50"/>
+			<add stat="attackHoly" value="50"/>
+			<add stat="attackUnholy" value="50"/>
+		</for>
+	</skill>
+	<skill id="13771" levels="1" name="Exalted Cloak">
+		<set name="icon" value="icon.cloak_noblesse2_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="STR" value="1"/>
+			<add order="0x10" stat="DEX" value="1"/>
+			<add order="0x10" stat="CON" value="1"/>
+			<add order="0x10" stat="INT" value="1"/>
+			<add order="0x10" stat="WIT" value="1"/>
+			<add order="0x10" stat="MEN" value="1"/>
+			<add order="0x10" stat="CHA" value="1"/>
+			<add order="0x10" stat="LUC" value="1"/>
+		</for>
+	</skill>
+	<skill id="13772" levels="1" name="Replica Tiara">
+		<set name="icon" value="icon.accessory_noblesse2_tiara_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="attackFire" value="30"/>
+			<add stat="attackWater" value="30"/>
+			<add stat="attackWind" value="30"/>
+			<add stat="attackEarth" value="30"/>
+			<add stat="attackHoly" value="30"/>
+			<add stat="attackUnholy" value="30"/>
+		</for>
+	</skill>
+	<skill id="13773" levels="1" name="Additional Ability Health">
+		<set name="icon" value="icon.weapon_R99_dagger_pvp_i10"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="13774" levels="1" name="Additional Ability Health">
+		<set name="icon" value="icon.weapon_R99_onehand_sword_pvp_i10"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="13775" levels="1" name="Additional Ability Health">
+		<set name="icon" value="icon.weapon_R99_twohand_sword_pvp_i10"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="13776" levels="1" name="Additional Ability Health">
+		<set name="icon" value="icon.weapon_R99_onehand_blunt_pvp_i10"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="13777" levels="1" name="Additional Ability Health">
+		<set name="icon" value="icon.weapon_R99_fist_pvp_i10"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="13778" levels="1" name="Additional Ability Health">
+		<set name="icon" value="icon.weapon_R99_spear_pvp_i10"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="13779" levels="1" name="Additional Ability Health">
+		<set name="icon" value="icon.weapon_R99_bow_pvp_i10"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="13780" levels="1" name="Additional Ability Health">
+		<set name="icon" value="icon.weapon_R99_crossbow_pvp_i10"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="13781" levels="1" name="Additional Ability Health">
+		<set name="icon" value="icon.weapon_R99_onehand_magic_sword_pvp_i10"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="13782" levels="1" name="Additional Ability Health">
+		<set name="icon" value="icon.weapon_R99_onehand_magic_blunt_pvp_i10"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="13783" levels="1" name="Additional Ability Health">
+		<set name="icon" value="icon.weapon_R99_twohand_magic_blunt_pvp_i10"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="13784" levels="1" name="Additional Ability Health">
+		<set name="icon" value="icon.weapon_R99_dual_sword_pvp_i10"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="13785" levels="1" name="Additional Ability Health">
+		<set name="icon" value="icon.weapon_R99_dual_dagger_pvp_i10"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="13786" levels="1" name="Additional Ability Health">
+		<set name="icon" value="icon.weapon_R99_dual_blunt_pvp_i10"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="13787" levels="1" name="Additional Ability Health">
+		<set name="icon" value="icon.weapon_R99_dagger_pve_i00"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="13788" levels="1" name="Additional Ability Health">
+		<set name="icon" value="icon.weapon_R99_onehand_sword_pve_i00"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="13789" levels="1" name="Additional Ability Health">
+		<set name="icon" value="icon.weapon_R99_twohand_sword_pve_i00"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="13790" levels="1" name="Additional Ability Health">
+		<set name="icon" value="icon.weapon_R99_onehand_blunt_pve_i00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="13791" levels="1" name="Additional Ability Health">
+		<set name="icon" value="icon.weapon_R99_fist_pve_i00"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="13792" levels="1" name="Additional Ability Health">
+		<set name="icon" value="icon.weapon_R99_spear_pve_i00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="13793" levels="1" name="Additional Ability Health">
+		<set name="icon" value="icon.weapon_R99_bow_pve_i00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="13794" levels="1" name="Additional Ability Health">
+		<set name="icon" value="icon.weapon_R99_crossbow_pve_i00"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="13795" levels="1" name="Additional Ability Health">
+		<set name="icon" value="icon.weapon_R99_onehand_magic_sword_pve_i00"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="13796" levels="1" name="Additional Ability Health">
+		<set name="icon" value="icon.weapon_R99_onehand_magic_blunt_pve_i00"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="13797" levels="1" name="Additional Ability Health">
+		<set name="icon" value="icon.weapon_R99_twohand_magic_blunt_pve_i00"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="13798" levels="1" name="Additional Ability Health">
+		<set name="icon" value="icon.weapon_R99_dual_sword_pve_i00"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="13799" levels="1" name="Additional Ability Health">
+		<set name="icon" value="icon.weapon_R99_dual_dagger_pve_i00"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+		</for>
+	</skill>
+</list>

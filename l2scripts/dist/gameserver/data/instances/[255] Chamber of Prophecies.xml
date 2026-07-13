@@ -1,0 +1,32 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<!--Wind's of Fate: Choices-->
+	<instance id="255" name="Chamber of Prophecies" maxChannels="20" collapseIfEmpty="1" timelimit="30" dispelBuffs="false">
+		<level min="85"/>
+		<return loc="-78696 251000 -2998"/>
+		<teleport loc="-88504 186552 -10476"/>
+		<remove itemId="0" count="0" necessary="false"/>
+		<give itemId="0" count="0"/>
+		<quest id="10753"/>
+		<reuse resetReuse="* * * * *" setUponEntry="true" sharedReuseGroup="0"/>
+		<spawns>
+			<group name="q10753_16_instance_halter_1" spawned="true"/>
+			<group name="q10753_16_instance_halter_2" spawned="false"/>
+			<group name="q10753_16_instance_grail" spawned="false"/>
+			<group name="q10753_16_instance_wizard" spawned="false"/>
+			<group name="wof_room1" spawned="false"/>
+			<group name="wof_room2" spawned="false"/>
+			<group name="wof_room2_1" spawned="false"/>
+			<group name="wof_room3" spawned="false"/>
+			<group name="wof_room3_2" spawned="false"/>
+			<group name="wof_room4" spawned="false"/>
+		</spawns>
+		<doors>
+			<door id="17230101" opened="false"/>
+			<door id="17230102" opened="false"/>
+			<door id="17230103" opened="false"/>
+			<door id="17230104" opened="false"/>
+		</doors>
+	</instance>
+</list>

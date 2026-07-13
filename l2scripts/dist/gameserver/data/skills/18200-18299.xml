@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="18200" levels="1" name="Red Save Card (R-grade)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18201" levels="1" name="Red Save Card (R95-grade)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18202" levels="1" name="Red Save Card (R99-grade)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18203" levels="1" name="Royal Blue Save Card (R-grade)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18204" levels="1" name="Royal Blue Save Card (R95-grade)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18205" levels="1" name="Royal Blue Save Card (R99-grade)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18206" levels="1" name="Royal Red Save Card (R-grade)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18207" levels="1" name="Royal Red Save Card (R95-grade)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18208" levels="1" name="Royal Red Save Card (R99-grade)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18209" levels="1" name="Dandy\'s Home Run Ball">
+		<set name="icon" value="icon.ev_dinos_baseball"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18210" levels="1" name="Alien Power">
+		<set name="icon" value="Icon.ev_invasion_debuff"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="castRange" value="1200"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18211" levels="1" name="Entrance Pass: Spezion (Epic)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="isHandler" value="true"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="i_refresh_instance" value="196"/>
+		</for>
+	</skill>
+	<skill id="18212" levels="1" name="Entrance Pass: Baylor">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="isHandler" value="true"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="i_refresh_instance" value="166"/>
+		</for>
+	</skill>
+	<skill id="18213" levels="1" name="Entrance Pass: Kartia\'s Labyrinth Lv. 95 Party">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="isHandler" value="true"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="i_refresh_instance" value="210"/>
+		</for>
+	</skill>
+	<skill id="18214" levels="1" name="Transformation Potion: L2B2">
+		<set name="icon" value="Icon.ev_invasion_debuff"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18215" levels="1" name="Alien\'s Nano Cannister">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18216" levels="1" name="Appearance Stone: Formal Wear (30-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18217" levels="5" name="Flame Spear">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="300"/>
+		<set name="hitTime" value="800"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18218" levels="5" name="Fire Stigma">
+		<set name="icon" value="icon.etc_fire_rune_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18219" levels="1" name="Defense Decrease">
+		<set name="icon" value="icon.skill0122"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="coolTime" value="500"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18220" levels="1" name="Scroll of Escape: Blazing Swamp">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18221" levels="1" name="Invincibility">
+		<set name="icon" value="icon.skill1418"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18222" levels="1" name="Extra Pass - Nightmare Kamaloka">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18223" levels="1" name="Kokko\'s Love">
+		<set name="icon" value="icon.event_altair_enchant_scroll_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="br_event_buf1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect>
+				<add stat="attackFire" value="100"/>
+				<add stat="attackWater" value="100"/>
+				<add stat="attackWind" value="100"/>
+				<add stat="attackEarth" value="100"/>
+				<add stat="attackHoly" value="100"/>
+				<add stat="attackUnholy" value="100"/>
+				<mul stat="pAtk" value="1.2"/>
+				<mul stat="mAtk" value="1.3"/>
+				<mul stat="pAtkSpd" value="1.1"/>
+				<mul stat="mAtkSpd" value="1.1"/>
+				<mul stat="maxHp" value="1.1"/>
+				<mul stat="maxMp" value="1.1"/>
+				<mul stat="maxCp" value="1.1"/>
+				<mul stat="pDef" value="1.1"/>
+				<mul stat="mDef" value="1.1"/>
+				<add stat="runSpd" value="10"/>
+				<mul stat="mpConsum" value="0.9"/>
+				<mul stat="mpConsumePhysical" value="0.9"/>
+				<mul stat="mpDanceConsume" value="0.9"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18224" levels="1" name="Appearance Stone: Zorro Hat (90-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18225" levels="1" name="Appearance Stone: Top Hat (90-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18226" levels="1" name="Appearance Stone: Napoleon Hat (90-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18227" levels="1" name="Appearance Stone: Ruthless Tribe Mask (90-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18228" levels="1" name="Cool Hat Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18229" levels="1" name="Appearance Stone: Zorro Hat (1-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18230" levels="1" name="Appearance Stone: Top Hat (1-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18231" levels="1" name="Appearance Stone: Napoleon Hat (1-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18232" levels="1" name="Appearance Stone: Ruthless Tribe Mask (1-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18233" levels="1" name="Harp\'s Reward Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18234" levels="1" name="Damaged PK Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18235" levels="1" name="Intact PK Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18236" levels="1" name="Damaged Reputation Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18237" levels="1" name="Intact Reputation Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18238" levels="1" name="Damaged Elcyum Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18239" levels="1" name="Intact Elcyum Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18240" levels="1" name="Flash Grenade">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="300"/>
+		<set name="hitTime" value="1200"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18241" levels="1" name="Mackerel">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18242" levels="1" name="Minnow">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18243" levels="1" name="Flatfish">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18244" levels="1" name="Mandarin Fish">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18245" levels="1" name="Rockfish">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18246" levels="1" name="Goldfish">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18247" levels="1" name="Salmon">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18248" levels="1" name="Eel">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18249" levels="1" name="Fresh Marlin">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18250" levels="1" name="Fresh Catfish">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18251" levels="1" name="Fresh Tuna">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18252" levels="1" name="Fresh Carp">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18253" levels="1" name="Whale">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18254" levels="1" name="Wooden Treasure Chest">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="85.0">
+				<item id="45575" min_count="1" max_count="1"/>
+			</group>
+			<group chance="50.0">
+				<item id="45576" min_count="1" max_count="1"/>
+			</group>
+		</restoration>
+	</skill>
+	<skill id="18255" levels="1" name="Silver Treasure Chest">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="40.0">
+				<item id="45577" min_count="1" max_count="1"/>
+			</group>
+			<group chance="75.0">
+				<item id="45576" min_count="1" max_count="1"/>
+			</group>
+			<group chance="15.0">
+				<item id="45494" min_count="1" max_count="1"/>
+			</group>
+			<group chance="1.0">
+				<item id="8034" min_count="1" max_count="1"/>
+			</group>
+		</restoration>
+	</skill>
+	<skill id="18256" levels="1" name="Golden Treasure Chest">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="85.0">
+				<item id="46369" min_count="1" max_count="1"/>
+			</group>
+			<group chance="50.0">
+				<item id="45574" min_count="1" max_count="1"/>
+			</group>
+			<group chance="30.0">
+				<item id="45573" min_count="1" max_count="1"/>
+			</group>
+		</restoration>
+	</skill>
+	<skill id="18257" levels="1" name="Zodiac Agathion Pack (15-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18258" levels="1" name="Radiant Zodiac Agathion Pack (30-day">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18259" levels="1" name="Twinkling Zodiac Agathion Pack (30-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="45536" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="45554" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="45542" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="45563" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="45560" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="45539" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="45551" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="45545" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="45569" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="45557" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="45566" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="45548" min_count="1" max_count="1"/>
+			</group>
+		</restoration>
+	</skill>
+	<skill id="18260" levels="1" name="Special Bait Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18261" levels="1" name="SP Scroll Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="40.0">
+				<item id="39373" min_count="1" max_count="1"/>
+			</group>
+			<group chance="75.0">
+				<item id="17185" min_count="1" max_count="1"/>
+			</group>
+			<group chance="15.0">
+				<item id="17277" min_count="1" max_count="1"/>
+			</group>
+		</restoration>
+	</skill>
+	<skill id="18262" levels="1" name="Zodiac Agathion Pack (15-day)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="10.0">
+				<item id="45487" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="45556" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="45544" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="45562" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="45538" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="45541" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="45553" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="45547" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="45571" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="45565" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="45559" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="45568" min_count="1" max_count="1"/>
+			</group>
+			<group chance="100.0">
+				<item id="45550" min_count="1" max_count="1"/>
+			</group>
+		</restoration>
+	</skill>
+	<skill id="18263" levels="1" name="Rodemai\'s Rune">
+		<set name="icon" value="icon.skill19226"/>
+		<set name="operate_type" value="P"/>
+		<set name="magicLevel" value="1"/>
+		<for>
+			<add stat="exp_rate_multiplier" value="0.07"/>
+			<add stat="sp_rate_multiplier" value="0.07"/>
+		</for>
+	</skill>
+	<skill id="18264" levels="1" name="Red Devils\' Fighting Spirit">
+		<set name="icon" value="branchsys2.br_soccer_ball_i00"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="castRange" value="1200"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18265" levels="5" name="Pippi\'s Love">
+		<set name="icon" value="icon.love_mark"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18266" levels="1" name="Spellbook: Fate of the Exalted">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="itemConsumeId" value="46036"/>	<!--Spellbook: Fate of the Exalted-->
+		<set name="itemConsumeCount" value="1"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="19229"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="19229"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18270" levels="1" name="Apocalypse Shaper Focus">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18271" levels="1" name="Apocalypse Cutter Focus">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18272" levels="1" name="Apocalypse Slasher Focus">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18273" levels="1" name="Apocalypse Avenger Focus">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18274" levels="1" name="Apocalypse Fighter Focus">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18275" levels="1" name="Apocalypse Stormer Damage Up">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18276" levels="1" name="Apocalypse Thrower Focus">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18277" levels="1" name="Apocalypse Shooter Focus">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18278" levels="1" name="Apocalypse Buster Acumen">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18279" levels="1" name="Apocalypse Caster Acumen">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18280" levels="1" name="Apocalypse Retributer Acumen">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18281" levels="1" name="Apocalypse Dualsword Damage Up">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18282" levels="1" name="Apocalypse Dual Dagger Focus">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18283" levels="1" name="Apocalypse Dual Blunt Weapon Damage Up">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+</list>

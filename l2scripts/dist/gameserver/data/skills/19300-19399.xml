@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="19300" levels="1" name="Reverse Mana Drain">
+		<set name="icon" value="icon.skill19299"/>
+		<set name="operate_type" value="A2"/>
+		<set name="skillType" value="HEAL_PERCENT"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="activateRate" value="100"/>		
+		<for>
+			<effect instant="true" name="RestoreMP" value="3">
+				<def name="percent" value="true"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="19301" levels="9" name="Acid Swarm">
+		<table name="#mp_consume">76 79 83 87 91 95 99 103 107</table>
+		<set name="icon" value="icon.skill19301"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="19302" levels="9" name="Thrown Acid Sworm">
+		<set name="icon" value="icon.skill19301"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="19303" levels="7" name="Right Angle Reverse">
+		<table name="#mp_consume">80 85 90 95 100 105 110</table>
+		<table name="#dot">-335 -393 -456 -491 -528 -605 -646 -668</table>
+		<table name="#abnormal_level">1 2 3 4 5 6 7</table>
+		<table name="#power">35530 41630 47730 52610 56030 58530 61030</table>
+		<set name="icon" value="icon.skill19303"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="80"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="#mp_consume"/>		
+		<set name="abnormal_effect" value="DOT_BLEEDING"/>		
+		<set name="abnormal_time" value="15"/>
+		<set name="abnormal_level" value="#abnormal_level"/>
+		<set name="abnormal_type" value="bleeding"/>		
+		<set name="power" value="#power"/>
+		<set name="criticalRate" value="40"/>		
+		<set name="nextAction" value="attack"/>
+		<set name="directHp" value="true"/>		
+		<set name="operate_type" value="A2"/>
+		<set name="overHit" value="true"/>
+		<set name="onCrit" value="true"/>
+		<set name="lethal1" value="20"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="blow" value="true"/>
+		<set name="SSBoost" value="2.0"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="fly_type" value="CHARGE"/>
+		<set name="fly_radius" value="80"/>
+		<set name="fly_animation_speed" value="333"/>
+		<set name="fly_position_degree" value="270"/>
+		<for>
+			<effect name="t_hp" interval="5" value="#dot"/>			
+		</for>
+	</skill>
+	<skill id="19304" levels="1" name="Easterly Wind Strike">
+		<set name="icon" value="icon.skill10705"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="19305" levels="7" name="Shadow Reverse">
+		<table name="#mp_consume">90 98 106 112 118 124 130</table>
+		<set name="icon" value="icon.skill19305"/>
+		<set name="reuseDelay" value="8000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="120"/>
+		<set name="hitTime" value="2029"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<table name="#power">38160 44710 51270 56510 60180 62870 65560</table>
+		<set name="abnormal_time" value="3"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="stun"/>		
+		<set name="activateRate" value="100"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isOffensive" value="true"/>
+		<set name="lethal1" value="15"/>
+		<set name="power" value="#power"/>
+		<for>
+			<effect instant="true" name="ShadowStep"/>			
+			<effect>
+				<sub stat="pAccCombat" value="5"/>
+			</effect>			
+		</for>
+	</skill>
+	<skill id="19306" levels="1" name="Coin of Maphr">
+		<set name="icon" value="icon.skill19306"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="36"/>
+		<set name="magicLevel" value="85"/>
+		<set name="target" value="TARGET_PARTY"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="itemConsumeId" value="57"/>
+		<set name="itemConsumeCount" value="7777"/>
+		<cond msgId="113">
+			<using kind="Dagger, Dual Dagger"/>
+		</cond>
+		<for>
+			<effect name="i_call_random_skill">
+				<def name="skills" value="19307-1;19308-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="19307" levels="2" name="Lucky Coin: Attack">
+		<set name="icon" value="icon.skill19307"/>
+		<set name="target" value="TARGET_PARTY"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="affect_range" value="1000"/>
+		<set name="abnormal_time" value="60"/>
+		<set name="abnormal_type" value="lucky_coin"/>
+		<set name="abnormal_level" value="1"/>
+		<for>
+			<effect>
+				<mul stat="pAtk" value="1.07"/>
+				<mul stat="mAtk" value="1.14"/>
+				<mul stat="p_skill_power" value="1.05"/>
+				<mul stat="mSkillPower" value="1.05"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="19308" levels="1" name="Lucky Coin: Defense">
+		<set name="icon" value="icon.skill19308"/>
+		<set name="target" value="TARGET_PARTY"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="affect_range" value="1000"/>
+		<set name="abnormal_effect" value="BIG_HEAD"/>
+		<set name="abnormal_time" value="60"/>
+		<set name="abnormal_type" value="lucky_coin"/>
+		<set name="abnormal_level" value="1"/>
+		<for>
+			<effect>
+				<mul stat="mDef" value="1.1"/>
+				<mul stat="mDef" value="1.1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="19309" levels="7" name="Reverse Plunder">
+		<table name="#mp_consume">90 98 106 112 118 124 130</table>
+		<set name="icon" value="icon.skill19309"/>
+		<set name="reuseDelay" value="7000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="2029"/>
+		<set name="mp_consume" value="#mp_consume"/>		
+		<table name="#power">36840 43170 49500 54560 58100 60700 63290</table>		
+		<set name="criticalRate" value="15"/>		
+		<set name="levelModifier" value="1"/>		
+		<set name="magicType" value="SPECIAL"/>
+		<set name="nextAction" value="attack"/>
+		<set name="operate_type" value="A2"/>		
+		<set name="skillType" value="PDAM"/>		
+		<set name="target" value="TARGET_ONE"/>		
+		<cond msgId="113">
+			<using kind="Dagger, Dual Dagger"/>
+		</cond>		
+		<for>
+			<effect name="i_plunder"/>
+			<effect name="i_p_attack" value="#power"/>
+		</for>		
+	</skill>
+	<skill id="19311" levels="3" name="Dwarven Flare Bluff">
+		<set name="icon" value="icon.skill0537"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="155"/>		
+		<set name="operate_type" value="A2"/>
+		<set name="affect_range" value="40"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="abnormal_time" value="3"/>
+		<set name="target" value="TARGET_AREA"/>
+		<set name="itemConsumeId" value="1785"/>
+		<set name="itemConsumeCount" value="2"/>		
+		<for>
+			<effect name="i_target_cancel" chance="100"/>
+			<self_effect name="p_block_target"/>			
+			
+		</for>
+	</skill>
+	<skill id="19312" levels="1" name="Holy Stance">
+		<set name="icon" value="icon.skill19312"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="TG"/>
+		<set name="toggle_group_id" value="1"/>
+		<set name="is_necessarytg" value="true"/>
+		<for>
+			<effect>
+				<set order="0x10" stat="skills_element_id" value="4"/>
+				<add stat="defenceHoly" value="100"/>
+				<mul stat="pvpPhysDefenceBonus" value="1.05"/>
+				<mul stat="pvpPhysSkillDefenceBonus" value="1.05"/>
+				<mul stat="pvpMagicSkillDefenceBonus" value="1.05"/>				
+				<mul stat="pvePhysDefenceBonus" value="1.05"/>
+				<mul stat="pvePhysSkillDefenceBonus" value="1.05"/>
+				<mul stat="pveMagicSkillDefenceBonus" value="1.05"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="19313" levels="1" name="Dark Stance">
+		<set name="icon" value="icon.skill19313"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="TG"/>
+		<set name="toggle_group_id" value="1"/>
+		<set name="is_necessarytg" value="true"/>
+		<for>
+			<effect>
+				<set order="0x10" stat="skills_element_id" value="5"/>
+				<mul stat="mSkillPower" value="1.05"/>
+				<add stat="defenceUnholy" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="19314" levels="11" name="Elemental Spike (Dark)">
+		<table name="#magicLevel">85 86 88 90 92 94 96 98 101 103 105</table>
+		<table name="#power">133 134 139 142 146 150 154 157 164 168 172</table>
+		<table name="#powerPvP">0</table>
+		<table name="#triggerSkillChance"> 80 81 82 83 84 85 86 87 88 </table>
+		<table name="#criticalRate">0</table>
+		<table name="#mp_consume">37 38 39 42 43 45 48 50 52 54 56</table>
+		<set name="icon" value="icon.skill11011"/>
+		<set name="coolTime" value="300"/>
+		<set name="castRange" value="1100"/>
+		<set name="hitTime" value="2279"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="element" value="unholy"/>
+		<set name="elementPower" value="50"/>
+		<set name="criticalRate" value="#criticalRate"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="operate_type" value="A2"/>
+		<set name="overHit" value="true"/>
+		<set name="power" value="#power"/>
+		<set name="powerPvP" value="#powerPvP"/>
+		<set name="reuse_skill_id" value="11011"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="target" value="TARGET_ONE"/>
+		<enchant_info type="1" name="Power">
+			<table name="#power" type="MUL">1.01 1.014 1.018 1.022 1.026 1.028 1.033 1.036 1.04 1.044 1.048 1.051 1.055 1.059 1.062 1.066 1.07 1.074 1.077 1.081</table>
+			<enchant_tables skill_level="7" enchant_levels="20"/>
+			<enchant_tables skill_level="8" enchant_levels="20"/>
+			<enchant_tables skill_level="9" enchant_levels="20"/>
+			<enchant_tables skill_level="10" enchant_levels="20"/>
+			<enchant_tables skill_level="11" enchant_levels="20"/>
+		</enchant_info>
+		<enchant_info type="2" name="Wild">
+			<table name="#criticalRate" type="ADD">1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20</table>
+			<enchant_tables skill_level="7" enchant_levels="20"/>
+			<enchant_tables skill_level="8" enchant_levels="20"/>
+			<enchant_tables skill_level="9" enchant_levels="20"/>
+			<enchant_tables skill_level="10" enchant_levels="20"/>
+			<enchant_tables skill_level="11" enchant_levels="20"/>
+		</enchant_info>
+		<enchant_info type="9" name="Recovery" available="false">
+			<enchant_tables skill_level="8" enchant_levels="10"/>
+		</enchant_info>
+		<triggers>
+			<trigger id="11077" level="1" type="ON_FINISH_CAST" chance="#triggerSkillChance" increasing="true"/>
+			<trigger id="19315" level="1" type="ON_FINISH_CAST" chance="15" increasing="true">
+				<or>
+					<player hasBuffId="11068"/>
+				</or>
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="19315" levels="4" name="Mana Burst">
+		<set name="icon" value="icon.skill11046"/>
+		<set name="reuseDelay" value="180000"/>
+		<set name="mp_consume" value="70"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF_CHARGER"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_time" value="15"/>
+		<table name="#matk">1.5 1.6 1.7 2</table>
+		<table name="#mAtkSpd">0 100 200 300</table>
+		<for>
+			<effect>
+				<mul stat="mAtk" value="#matk"/>
+				<add stat="mAtkSpd" value="#mAtkSpd"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="19316" levels="8" name="Elemental Final Storm (Dark)">
+		<table name="#magicLevel">85 87 89 91 93 95 97 99 101 103 105</table>
+		<table name="#power">262 270 277 285 292 299 307 315</table>
+		<table name="#powerPvP">0</table>
+		<table name="#criticalRate">0</table>
+		<table name="#mp_consume">264 276 288 300 315 324 336 351</table>
+		<set name="icon" value="icon.skill11040"/>
+		<set name="reuseDelay" value="6699"/>
+		<set name="coolTime" value="300"/>
+		<set name="castRange" value="1100"/>
+		<set name="hitTime" value="4780"/>
+		<set name="mp_consume" value="#mp_consume"/>
+		<set name="criticalRate" value="#criticalRate"/>
+		<set name="element" value="fire"/>
+		<set name="elementPower" value="80"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="operate_type" value="A2"/>
+		<set name="overHit" value="true"/>
+		<set name="power" value="#power"/>
+		<set name="powerPvP" value="#powerPvP"/>
+		<set name="reuse_skill_id" value="11040"/>
+		<set name="affect_range" value="100"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="target" value="TARGET_AREA"/>
+		<enchant_info type="1" name="Power">
+			<table name="#power" type="MUL">1.01 1.014 1.018 1.022 1.026 1.028 1.033 1.036 1.04 1.044 1.048 1.051 1.055 1.059 1.062 1.066 1.07 1.074 1.077 1.081</table>
+			<enchant_tables skill_level="7" enchant_levels="20"/>
+			<enchant_tables skill_level="8" enchant_levels="20"/>
+		</enchant_info>
+		<enchant_info type="2" name="Wild">
+			<table name="#criticalRate" type="ADD">1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20</table>
+			<enchant_tables skill_level="7" enchant_levels="20"/>
+			<enchant_tables skill_level="8" enchant_levels="20"/>
+		</enchant_info>
+		<enchant_info type="9" name="Recovery" available="false">
+			<enchant_tables skill_level="8" enchant_levels="10">
+				<table name="#reuseDelay">6400 6199 6000 5800 5599 5400 5199 5000 4800 4599</table>
+			</enchant_tables>
+		</enchant_info>
+	</skill>
+</list>

@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="22600" levels="1" name="Ancient Kartia\'s Labyrinth Origins">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="86400000"/>
+		<set name="hitTime" value="100"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22601" levels="1" name="Ancient Kartia\'s Labyrinth Origins">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="86400000"/>
+		<set name="hitTime" value="100"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22602" levels="1" name="Scroll: Decrease Vitality">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="200"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22603" levels="2" name="Expand Inventory Lv. 1">
+		<table name="#itemConsumeId">22900 22901</table>
+		<table name="#skillId">1372-1 1372-2</table>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="#itemConsumeId"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="#skillId"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="#skillId"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22604" levels="2" name="Expand Warehouse Lv. 1">
+		<table name="#itemConsumeId">22902 22903</table>
+		<table name="#skillId">1371-1 1371-2</table>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="13728"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="#skillId"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="#skillId"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22605" levels="1" name="Scroll: Enchant Power Shirt">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22606" levels="1" name="Blessed Scroll: Enchant Power Shirt">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22607" levels="1" name="Extra Pass">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22608" levels="1" name="Extra Pass">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22609" levels="1" name="Extra Pass">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22610" levels="1" name="Extra Pass">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22611" levels="1" name="Extra Pass">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22612" levels="1" name="Extra Pass">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22613" levels="1" name="Flower Shower">
+		<set name="icon" value="icon.item_normal16"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22614" levels="5" name="XP Rune III (Lv. 1-100+) 50%">
+		<set name="icon" value="br_cashtex.skill.br_cash_rune_of_exp_buff_5"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22615" levels="1" name="Honeymoon Ticket - Joy of Vitality">
+		<set name="icon" value="BranchSys2.Icon.br_weddin_ticket_i00"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="hitTime" value="100"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22616" levels="1" name="Summon Big Wedding Cake">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="magicLevel" value="85"/>
+		<set name="npcId" value="137"/>
+		<set name="operate_type" value="A2"/>
+		<set name="skillType" value="SUMMON"/>
+		<set name="target" value="TARGET_SELF"/>
+	</skill>
+	<skill id="22617" levels="1" name="Vitality Maintaining Potion">
+		<set name="icon" value="BranchSys2.icon.br_essence_rose_i00"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22618" levels="1" name="STR Dye Pack (R-grade)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22619" levels="1" name="DEX Dye Pack (R-grade)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22620" levels="1" name="CON Dye Pack (R-grade)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22621" levels="1" name="INT Dye Pack (R-grade)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22622" levels="1" name="WIT Dye Pack (R-grade)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22623" levels="1" name="MEN Dye Pack (R-grade)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22624" levels="1" name="Hair Accessory Restoration Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22625" levels="1" name="Easter Egg">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1" consume_item_id="23086">
+		<group chance="1">
+			<item id="21712" min_count="1" max_count="1"/>	<!--Серьга Бессмертного Закена-->
+		</group>
+		<group chance="10">
+			<item id="23087" min_count="1" max_count="1"/>	<!--Упаковка: Улучешнная Футболка Ольфа-->
+		</group>
+		<group chance="10">
+			<item id="33478" min_count="1" max_count="1"/>	<!--Свиток Разрушения: Модифицировать Оружие (R)-->
+		</group>
+		<group chance="10">
+			<item id="33479" min_count="1" max_count="1"/>	<!--Свиток Разрушения: Модифицировать Доспех (R)-->
+		</group>
+		<group chance="10">
+			<item id="34954" min_count="1" max_count="1"/>	<!--Коробка с Легендарной Краской Ур. 5-->
+		</group>
+		<group chance="10">
+			<item id="23490" min_count="1" max_count="1"/>	<!-- Энергия ПА - 1 час-->
+		</group>
+		<group chance="10">
+			<item id="13383" min_count="1" max_count="1"/>	<!-- Купон на Ожерелье Питомца (5 ч.)-->
+		</group>
+		<group chance="10">
+			<item id="21185" min_count="1" max_count="1"/>	<!-- Свиток Трансформации в Закена-->
+		</group>
+		<group chance="10">
+			<item id="21180" min_count="1" max_count="1"/>	<!-- Свиток Трансформации в Вероотступника-->
+		</group>
+		<group chance="10">
+			<item id="30297" min_count="1" max_count="1"/>	<!-- Кодекс Перерождения-->
+		</group>
+		<group chance="10">
+			<item id="19440" min_count="1" max_count="1"/>	<!-- Самоцвет: Ранг R-->
+		</group>
+		<group chance="10">
+			<item id="9157" min_count="1" max_count="1"/>	<!-- Свиток Благ. Воскрешения - Ивент-->
+		</group>
+		<group chance="10">
+			<item id="9156" min_count="1" max_count="1"/>	<!-- Свиток Благ. Телепорта - Ивент-->
+		</group>
+		<group chance="10">
+			<item id="22204" min_count="1" max_count="1"/>	<!-- Сундук Руды Стихий	u,Ивент-->
+		</group>
+		<group chance="10">
+			<item id="22968" min_count="1" max_count="1"/>	<!-- Упаковка: Браслет Черного Медведя (30 дн.)-->
+		</group>
+		</restoration>
+	</skill>
+	<skill id="22626" levels="1" name="Extra Pass">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22627" levels="1" name="Exorcist\'s Gift">
+		<set name="icon" value="icon.etc_grave_goods_i00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22628" levels="1" name="Einhasad\'s Gift">
+		<set name="icon" value="icon.event_july_seven_park_i00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22629" levels="1" name="Shilen\'s Gift">
+		<set name="icon" value="icon.event_big_july_seven_park_i00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22630" levels="1" name="Ghost Potion">
+		<set name="icon" value="icon.etc_int_symbol_i01"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="7200"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="AWAKED_BUFF"/>
+		<set name="isHandler" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_level" value="1"/>
+		<for>
+			<effect>
+				<mul stat="mAtk" value="1.85"/>
+				<mul stat="pAtk" value="1.2"/>
+				<add stat="runSpd" value="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22631" levels="2" name="Sweet Summer Slushie">
+		<set name="icon" value="BranchSys3.icon1.g_ev_sweet_icewater"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22632" levels="1" name="Beach Swimsuit Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22633" levels="1" name="Herina\'s Gift Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22634" levels="1" name="Soul Avatar\'s Large Placid">
+		<set name="icon" value="icon.skill0788"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22635" levels="1" name="Ninja Top Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22636" levels="1" name="Ninja Pants Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22637" levels="1" name="Ninja Gloves Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22638" levels="1" name="Ninja Shoes Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22639" levels="1" name="Tribal Warrior Top Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22640" levels="1" name="Tribal Warrior Pants Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22641" levels="1" name="Tribal Warrior Gloves Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22642" levels="1" name="Tribal Warrior Shoes Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22643" levels="1" name="Ninja Hair Accessory Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22644" levels="1" name="Tribal Warrior Hair Accessory Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22645" levels="1" name="Alien Mask">
+		<set name="icon" value="icon.etc_ev_draco_hair_acc"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="CON" value="2"/>
+			<add order="0x10" stat="MEN" value="2"/>
+			<add order="0x10" stat="INT" value="2"/>
+		</for>
+	</skill>
+	<skill id="22646" levels="1" name="Super Strong Giant\'s Mask">
+		<set name="icon" value="icon.etc_ev_draco_hair_acc"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="STR" value="2"/>
+			<add order="0x10" stat="CON" value="2"/>
+			<add order="0x10" stat="DEX" value="2"/>
+		</for>
+	</skill>
+	<skill id="22647" levels="1" name="Shriek Mask">
+		<set name="icon" value="icon.etc_ev_draco_hair_acc"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="CON" value="2"/>
+			<add order="0x10" stat="DEX" value="2"/>
+			<add order="0x10" stat="WIT" value="2"/>
+		</for>
+	</skill>
+	<skill id="22648" levels="1" name="Red Devil Mask">
+		<set name="icon" value="icon.etc_ev_draco_hair_acc"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="INT" value="2"/>
+			<add order="0x10" stat="MEN" value="2"/>
+			<add order="0x10" stat="WIT" value="2"/>
+		</for>
+	</skill>
+	<skill id="22649" levels="1" name="Mummy Mask">
+		<set name="icon" value="icon.etc_ev_draco_hair_acc"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="STR" value="2"/>
+			<add order="0x10" stat="DEX" value="2"/>
+			<add order="0x10" stat="WIT" value="2"/>
+		</for>
+	</skill>
+	<skill id="22650" levels="1" name="Transformation Scroll: Zombie">
+		<set name="icon" value="icon.skilltransform3"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22651" levels="1" name="Playful Hair Accessory Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="coolTime" value="200"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22652" levels="1" name="Drake Maul Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22653" levels="1" name="Freya\'s Staff Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22654" levels="1" name="Spezion\'s Claw Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22655" levels="1" name="Maliss Stormer Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22656" levels="1" name="Steregos\' Dagger Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22657" levels="1" name="Ron\'s Dual Blunt Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22658" levels="1" name="Darion\'s Hellblade Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22659" levels="1" name="Doll Blader\'s Butcher Blades Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22660" levels="1" name="Tiat\'s Claw of Destruction Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22661" levels="1" name="Aenkinel\'s Blades of Delusion Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22662" levels="1" name="Yehan Klanikus\' Blood Brother Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22663" levels="1" name="Mardil\'s Fan Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22664" levels="1" name="Monster Weapon Appearance Stone Pack A">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="coolTime" value="200"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22665" levels="1" name="Monster Weapon Appearance Stone Pack B">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="coolTime" value="200"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22666" levels="1" name="Soul Avatar\'s Giant Placid">
+		<set name="icon" value="icon.skill0788"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22667" levels="2" name="Apple Spritzer">
+		<set name="icon" value="BranchSys3.icon1.g_apfelschorle_germany"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22668" levels="1" name="Roasted Sausage">
+		<set name="icon" value="BranchSys3.icon1.g_bratwurst_germany"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22669" levels="1" name="Pretzel">
+		<set name="icon" value="BranchSys3.icon1.g_brezel_germany"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22670" levels="1" name="Snack Mix">
+		<set name="icon" value="BranchSys3.icon1.g_studentenfutter_germany"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22671" levels="1" name="Alluring Swimsuit Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22672" levels="1" name="Seductive Swimsuit Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22673" levels="1" name="Mourning for Pirate Captain Uthanka">
+		<set name="icon" value="BranchSys3.lcon.s_g_ring_of_uthanka"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22674" levels="1" name="Blessed Scroll: Enchant Elemental Shirt">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22675" levels="1" name="Blessed Scroll: Enchant Elemental Shirt Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22676" levels="1" name="Weapon Pack">
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="27565"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100">
+				<item id="37242" min_count="1" max_count="1"/>
+				<item id="37243" min_count="1" max_count="1"/>
+				<item id="37244" min_count="1" max_count="1"/>
+				<item id="37245" min_count="1" max_count="1"/>
+				<item id="37246" min_count="1" max_count="1"/>
+				<item id="37247" min_count="1" max_count="1"/>
+				<item id="37248" min_count="1" max_count="1"/>
+				<item id="37249" min_count="1" max_count="1"/>
+				<item id="37250" min_count="1" max_count="1"/>
+				<item id="37251" min_count="1" max_count="1"/>
+				<item id="37252" min_count="1" max_count="1"/>
+				<item id="37253" min_count="1" max_count="1"/>
+			</group>
+		</restoration>
+	</skill>
+	<skill id="22677" levels="1" name="Weapon Pack">
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="27566"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100">
+				<item id="37254" min_count="1" max_count="1"/>
+				<item id="37255" min_count="1" max_count="1"/>
+				<item id="37256" min_count="1" max_count="1"/>
+				<item id="37257" min_count="1" max_count="1"/>
+				<item id="37258" min_count="1" max_count="1"/>
+				<item id="37259" min_count="1" max_count="1"/>
+				<item id="37260" min_count="1" max_count="1"/>
+				<item id="37261" min_count="1" max_count="1"/>
+				<item id="37262" min_count="1" max_count="1"/>
+				<item id="37263" min_count="1" max_count="1"/>
+				<item id="37264" min_count="1" max_count="1"/>
+				<item id="37265" min_count="1" max_count="1"/>
+			</group>
+		</restoration>
+	</skill>
+	<skill id="22678" levels="1" name="Weapon Pack">
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="27567"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100">
+				<item id="37266" min_count="1" max_count="1"/>
+				<item id="37267" min_count="1" max_count="1"/>
+				<item id="37268" min_count="1" max_count="1"/>
+				<item id="37269" min_count="1" max_count="1"/>
+				<item id="37270" min_count="1" max_count="1"/>
+				<item id="37271" min_count="1" max_count="1"/>
+				<item id="37272" min_count="1" max_count="1"/>
+				<item id="37273" min_count="1" max_count="1"/>
+				<item id="37274" min_count="1" max_count="1"/>
+				<item id="37275" min_count="1" max_count="1"/>
+				<item id="37276" min_count="1" max_count="1"/>
+				<item id="37277" min_count="1" max_count="1"/>
+			</group>
+		</restoration>
+	</skill>
+	<skill id="22679" levels="1" name="Weapon Pack">
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="27568"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100">
+				<item id="37278" min_count="1" max_count="1"/>
+				<item id="37279" min_count="1" max_count="1"/>
+				<item id="37280" min_count="1" max_count="1"/>
+				<item id="37281" min_count="1" max_count="1"/>
+				<item id="37282" min_count="1" max_count="1"/>
+				<item id="37283" min_count="1" max_count="1"/>
+				<item id="37284" min_count="1" max_count="1"/>
+				<item id="37285" min_count="1" max_count="1"/>
+				<item id="37286" min_count="1" max_count="1"/>
+				<item id="37287" min_count="1" max_count="1"/>
+				<item id="37288" min_count="1" max_count="1"/>
+			</group>
+		</restoration>
+	</skill>
+	<skill id="22680" levels="1" name="Weapon Pack">
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="27568"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="100">
+				<item id="37289" min_count="1" max_count="1"/>
+				<item id="37290" min_count="1" max_count="1"/>
+				<item id="37291" min_count="1" max_count="1"/>
+				<item id="37292" min_count="1" max_count="1"/>
+				<item id="37293" min_count="1" max_count="1"/>
+				<item id="37294" min_count="1" max_count="1"/>
+				<item id="37295" min_count="1" max_count="1"/>
+				<item id="37296" min_count="1" max_count="1"/>
+				<item id="37297" min_count="1" max_count="1"/>
+				<item id="37298" min_count="1" max_count="1"/>
+				<item id="37299" min_count="1" max_count="1"/>
+			</group>
+		</restoration>
+	</skill>
+	<skill id="22681" levels="1" name="Armor Pack">
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="22682" levels="1" name="Armor Pack">
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="22683" levels="1" name="Armor Pack">
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="22684" levels="1" name="Armor Pack">
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="22685" levels="1" name="Armor Pack">
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="22686" levels="1" name="Blessed Scroll: Enchant Elemental Shirt Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22687" levels="1" name="Blessed Scroll: Enchant Elemental Shirt Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22688" levels="1" name="Blessed Scroll: Enchant Elemental Shirt Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22689" levels="1" name="Raid\'s Blessing">
+		<set name="icon" value="BranchSys2.icon.br_vitality_day_i00"/>
+		<set name="coolTime" value="300"/>
+		<set name="castRange" value="1500"/>
+		<set name="hitTime" value="699"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="22690" levels="1" name="Elven Radler">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<!--TODO: [Bonux] Шансы и ИД итемов перепроверить.-->
+			<group chance="12.0">
+				<item id="21175" min_count="1" max_count="1"/>	<!--Свиток Трансформации в Единорога-->
+			</group>
+			<group chance="12.0">
+				<item id="21179" min_count="1" max_count="1"/>	<!--Свиток Трансформации в Панцирного Дракона-->
+			</group>
+			<group chance="15.0">
+				<item id="34781" min_count="1" max_count="1"/>	<!--Благословенный Свиток воскрешения-->
+			</group>
+			<group chance="14.0">
+				<item id="9207" min_count="1" max_count="1"/>	<!--Быстродействующее Зелье Исцеления-->
+			</group>
+			<group chance="13.0">
+				<item id="22562" min_count="1" max_count="1"/>	<!--Эликсир HP (R)-->
+			</group>
+			<group chance="13.0">
+				<item id="22563" min_count="1" max_count="1"/>	<!--Эликсир MP (R)-->
+			</group>
+			<group chance="13.0">
+				<item id="22564" min_count="1" max_count="1"/>	<!--Эликсир CP (R)-->
+			</group>
+			<group chance="8.0">
+				<item id="23310" min_count="1" max_count="1"/>	<!--Пиво из Диона-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="22691" levels="1" name="Dion Pilsner">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<!--TODO: [Bonux] Шансы и ИД итемов перепроверить.-->
+			<group chance="45.0">
+				<item id="34067" min_count="1" max_count="1"/>	<!--Свиток: Модифицировать Доспех (A)-->
+			</group>
+			<group chance="25.0">
+				<item id="34066" min_count="1" max_count="1"/>	<!--Свиток: Модифицировать Оружие (A)-->
+			</group>
+			<group chance="18.0">
+				<item id="34001" min_count="1" max_count="1"/>	<!--Камень Жизни Высокого Качества (R)-->
+			</group>
+			<group chance="12.0">
+				<item id="23311" min_count="1" max_count="1"/>	<!--Королевский Напиток Гномов-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="22692" levels="1" name="Dwarven Royal Blue Cocktail">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<!--TODO: [Bonux] Шансы и ИД итемов перепроверить.-->
+			<group chance="45.0">
+				<item id="34075" min_count="1" max_count="1"/>	<!--Свиток: Модифицировать Доспех (S)-->
+			</group>
+			<group chance="25.0">
+				<item id="34786" min_count="1" max_count="1"/>	<!--Благословенный Свиток: Модифицировать Доспех (S)-->
+			</group>
+			<group chance="18.0">
+				<item id="34002" min_count="1" max_count="1"/>	<!--Камень Жизни Высшего Качества (R)-->
+			</group>
+			<group chance="12.0">
+				<item id="23312" min_count="1" max_count="1"/>	<!--Светлое Пиво из Адена-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="22693" levels="1" name="Aden White Beer">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<!--TODO: [Bonux] Шансы и ИД итемов перепроверить.-->
+			<group chance="18.0">
+				<item id="34788" min_count="1" max_count="1"/>	<!--Благословенный Свиток: Модифицировать Оружие (S)-->
+			</group>
+			<group chance="25.0">
+				<item id="34074" min_count="1" max_count="1"/>	<!--Свиток: Модифицировать Оружие (S)-->
+			</group>
+			<group chance="22.0">
+				<item id="34076" min_count="1" max_count="1"/>	<!--Свиток: Модифицировать Оружие (R)-->
+			</group>
+			<group chance="35.0">
+				<item id="34077" min_count="1" max_count="1"/>	<!--Свиток: Модифицировать Доспех (R)-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="22694" levels="1" name="Gran Kain\'s Delight">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<!--TODO: [Bonux] Шансы и ИД итемов перепроверить.-->
+			<group chance="25.0">
+				<item id="22302" min_count="1" max_count="1"/>	<!--Серьга Антараса - 3 дня-->
+			</group>
+			<group chance="20.0">
+				<item id="22303" min_count="1" max_count="1"/>	<!--Серьга Антараса - 7 дней-->
+			</group>
+			<group chance="5.0">
+				<item id="6656" min_count="1" max_count="1"/>	<!--Серьга Антараса-->
+			</group>
+			<group chance="25.0">
+				<item id="22304" min_count="1" max_count="1"/>	<!--Кольцо Баюма - 3 дня-->
+			</group>
+			<group chance="20.0">
+				<item id="22305" min_count="1" max_count="1"/>	<!--Кольцо Баюма - 7 дней-->
+			</group>
+			<group chance="5.0">
+				<item id="6658" min_count="1" max_count="1"/>	<!--Кольцо Баюма-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="22695" levels="1" name="Harp\'s Sealed Rune of Power">
+		<set name="icon" value="br_cashtex.skill.br_cash_rune_of_exp_buff_1"/>
+		<set name="operate_type" value="P"/>
+		<triggers>
+			<trigger id="22701" level="1" type="ATTACK" chance="5">
+				<player damage="50;0"/>
+			</trigger>
+		</triggers>
+		<for>
+			<add order="0x10" stat="STR" value="7"/>
+		</for>
+	</skill>
+	<skill id="22696" levels="1" name="Harp\'s Sealed Rune of Magic">
+		<set name="icon" value="br_cashtex.skill.br_cash_rune_of_exp_buff_1"/>
+		<set name="operate_type" value="P"/>
+		<triggers>
+			<trigger id="22702" level="1" type="OFFENSIVE_MAGICAL_SKILL_USE" chance="10"/>
+		</triggers>
+		<for>
+			<add order="0x10" stat="INT" value="7"/>
+		</for>
+	</skill>
+	<skill id="22697" levels="1" name="Flynt\'s Sealed Rune of Will">
+		<set name="icon" value="br_cashtex.skill.br_cash_rune_of_exp_buff_1"/>
+		<set name="operate_type" value="P"/>
+		<triggers>
+			<trigger id="22703" level="1" type="RECEIVE_DAMAGE" chance="5">
+				<player damage="50;0"/>
+			</trigger>
+		</triggers>
+		<for>
+			<add order="0x10" stat="CON" value="7"/>
+		</for>
+	</skill>
+	<skill id="22698" levels="1" name="Flynt\'s Sealed Rune of Destruction">
+		<set name="icon" value="br_cashtex.skill.br_cash_rune_of_exp_buff_1"/>
+		<set name="operate_type" value="P"/>
+		<triggers>
+			<trigger id="22704" level="1" type="OFFENSIVE_PHYSICAL_SKILL_USE" chance="5"/>
+		</triggers>
+		<for>
+			<add order="0x10" stat="STR" value="7"/>
+		</for>
+	</skill>
+	<skill id="22699" levels="1" name="Dr. Destroy\'s Sealed Rune of Skill">
+		<set name="icon" value="br_cashtex.skill.br_cash_rune_of_exp_buff_1"/>
+		<set name="operate_type" value="P"/>
+		<triggers>
+			<trigger id="22705" level="1" type="OFFENSIVE_PHYSICAL_SKILL_USE" chance="5"/>
+		</triggers>
+		<for>
+			<add order="0x10" stat="DEX" value="7"/>
+		</for>
+	</skill>
+</list>

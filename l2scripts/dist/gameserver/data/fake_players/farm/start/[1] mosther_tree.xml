@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE farm SYSTEM "fake_player.dtd">
+<!--AUTHOR: Bonux-->
+<farm name="Mother Tree" min_level="1" max_level="40" races="ELF">
+	<zones>
+		<zone>
+			<polygon>
+				<coords loc="45896 42104 -3550 -3350"/>
+				<coords loc="45304 41944 -3550 -3350"/>
+				<coords loc="44712 41496 -3550 -3350"/>
+				<coords loc="44312 40776 -3550 -3350"/>
+				<coords loc="44280 39816 -3550 -3350"/>
+				<coords loc="44568 39240 -3550 -3350"/>
+				<coords loc="45288 38584 -3550 -3350"/>
+				<coords loc="46008 38408 -3550 -3350"/>
+				<coords loc="46712 38504 -3550 -3350"/>
+				<coords loc="47176 38712 -3550 -3350"/>
+				<coords loc="47624 39128 -3550 -3350"/>
+				<coords loc="47976 39800 -3550 -3350"/>
+				<coords loc="48008 40712 -3550 -3350"/>
+				<coords loc="47608 41464 -3550 -3350"/>
+				<coords loc="46920 41976 -3550 -3350"/>
+				<coords loc="46296 42120 -3550 -3350"/>
+			</polygon>
+		</zone>
+		<spawn_points>
+			<coords loc="46045 41251 -3440 0"/>
+			<coords loc="46117 41247 -3440 0"/>
+			<coords loc="46182 41198 -3440 0"/>
+			<coords loc="46115 41141 -3440 0"/>
+			<coords loc="46048 41141 -3440 0"/>
+			<coords loc="45978 41196 -3440 0"/>
+		</spawn_points>
+	</zones>
+	<farm_monsters>
+		<npc id="18342"/>
+	</farm_monsters>
+	<on_obtain_max_level>
+		<wait min_delay="1000" max_delay="3000"/>
+		<random_action>
+			<ordinary_actions>
+				<wait min_delay="2000" max_delay="3000"/>
+				<use_community bypass="_cbbsteleport_14"/>
+			</ordinary_actions>
+			<ordinary_actions>
+				<move_to_point x="45960" y="43064" z="-3296" min_range="0" max_range="50"/>
+				<move_to_point x="45752" y="45176" z="-3024" min_range="0" max_range="50"/>
+				<random_action>
+					<use_item id="10650"/>	<!--Используем SoE-->
+					<ordinary_actions>
+						<move_to_point x="45576" y="47032" z="-2992" min_range="0" max_range="50"/>
+						<move_to_point x="45400" y="48872" z="-3056" min_range="50" max_range="150"/>
+					</ordinary_actions>
+				</random_action>
+			</ordinary_actions>
+		</random_action>
+	</on_obtain_max_level>
+</farm>

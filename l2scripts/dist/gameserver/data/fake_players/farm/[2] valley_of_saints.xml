@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE farm SYSTEM "fake_player.dtd">
+<!--AUTHOR: Bonux-->
+<farm name="Valley of Saints" min_level="60" max_level="70">
+	<zones>
+		<zone>
+			<polygon>
+				<coords loc="65336 -71720 -4000 -3400"/>
+				<coords loc="66104 -72056 -4000 -3400"/>
+				<coords loc="66568 -73160 -4000 -3400"/>
+				<coords loc="67640 -75368 -4000 -3400"/>
+				<coords loc="69112 -78120 -4000 -3400"/>
+				<coords loc="68248 -79288 -4000 -3400"/>
+				<coords loc="68312 -80440 -4000 -3400"/>
+				<coords loc="69080 -80552 -4000 -3400"/>
+				<coords loc="69416 -79240 -4000 -3400"/>
+				<coords loc="70056 -78520 -4000 -3400"/>
+				<coords loc="72408 -77336 -4000 -3400"/>
+				<coords loc="73928 -77048 -4000 -3400"/>
+				<coords loc="75416 -77192 -4000 -3400"/>
+				<coords loc="76488 -76856 -4000 -3400"/>
+				<coords loc="76856 -75480 -4000 -3400"/>
+				<coords loc="76024 -75144 -4000 -3400"/>
+				<coords loc="74024 -75368 -4000 -3400"/>
+				<coords loc="73912 -74328 -4000 -3400"/>
+				<coords loc="72936 -72296 -4000 -3400"/>
+				<coords loc="71144 -72632 -4000 -3400"/>
+				<coords loc="69416 -71256 -4000 -3400"/>
+				<coords loc="67672 -71000 -4000 -3400"/>
+				<coords loc="66264 -71080 -4000 -3400"/>
+				<coords loc="65304 -71304 -4000 -3400"/>
+			</polygon>
+		</zone>
+		<spawn_points>
+			<coords loc="65552 -71674 -3728 0"/>
+		</spawn_points>
+	</zones>
+	<on_obtain_max_level>
+		<wait min_delay="1000" max_delay="3000"/>
+		<random_action>
+			<use_item id="10650"/>	<!--Используем SoE-->
+			<ordinary_actions>
+				<wait min_delay="2000" max_delay="3000"/>
+				<random_action>
+					<use_community bypass="_cbbsteleport_1"/>
+					<use_community bypass="_cbbsteleport_2"/>
+				</random_action>
+			</ordinary_actions>
+		</random_action>
+	</on_obtain_max_level>
+</farm>
