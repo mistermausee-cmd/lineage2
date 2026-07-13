@@ -1,7 +1,3 @@
-root@denyyzyy:~/lineage2#
-root@denyyzyy:~/lineage2# mysql -u root -p0672602260 -e "SHOW DATABASES;" | grep l2jmobius
-mysql: [Warning] Using a password on the command line interface can be insecure.
-l2jmobius
 root@denyyzyy:~/lineage2# tail -n 40 server/game/log/*stdout*.log
 ==> server/game/log/2026-07-12_13-46-49_stdout.log <==
 [12/07 13:36:22] PrimeShopData have been reset.
@@ -465,34 +461,7 @@ Caused by: com.mysql.cj.exceptions.CJException: Access denied for user 'root'@'l
 
 [13/07 18:23:51] DatabaseIdManager: Could not execute cleanup query: DELETE FROM character_quests WHERE character_quests.charId NOT IN (SELECT charId FROM characters) - java.lang.RuntimeException: Unable to obtain a database connection.
 
-==> server/game/log/stdout.log <==
-        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:102)
-        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
-        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:81)
-        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:55)
-        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:65)
-        at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:914)
-        at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
-        at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:416)
-        at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
-        at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
-        at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144)
-        at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373)
-        at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210)
-        at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488)
-        at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:752)
-        at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:731)
-        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-        at java.base/java.lang.Thread.run(Thread.java:1474)
-Caused by: com.mysql.cj.exceptions.CJException: Access denied for user 'root'@'localhost'
-        at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-        at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-        at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
-        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
-        at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+==> server/game/log/2026-07-13_18-35-29_stdout.log <==
         at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:118)
         at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:854)
         at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:777)
@@ -504,6 +473,117 @@ Caused by: com.mysql.cj.exceptions.CJException: Access denied for user 'root'@'l
         at com.mysql.cj.NativeSession.connect(NativeSession.java:155)
         at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:854)
         ... 14 more
+[13/07 18:34:47] DatabaseIdManager: Cleaned 0 elements in 512 seconds.
+[13/07 18:34:47] DatabaseIdManager: Updated character online status.
+[13/07 18:34:47] DatabaseIdManager: Cleaned 0 expired timestamps.
+[13/07 18:34:47] IdManager: 102912 ids available.
+[13/07 18:34:47] ----------------------------------------=[ Scripting Engine ]
+[13/07 18:34:47] Loaded 805 files to exclude.
+[13/07 18:34:47] ---------------------------------------------------=[ World ]
+[13/07 18:34:48] World: (288 by 272) World Region Grid set up.
+[13/07 18:34:49] MapRegionData: Loaded 59 map regions.
+[13/07 18:34:49] ZoneManager 19 by 18 Zone Region Grid set up.
+[13/07 18:34:49] ZoneManager: Loaded 32 zone classes and 2922 zones.
+[13/07 18:34:49] ZoneManager: Last static id 210109.
+[13/07 18:34:50] DoorData: Loaded 1467 doors.
+[13/07 18:34:50] FenceData: Loaded 1 fences.
+[13/07 18:34:50] GlobalVariablesManager: Loaded 11 variables.
+[13/07 18:34:50] ----------------------------------------------------=[ Data ]
+[13/07 18:34:50] ActionData: Loaded 260 player actions.
+[13/07 18:34:50] CategoryData: Loaded 215 categories.
+[13/07 18:34:50] SecondaryAuthData: Loaded 328 forbidden passwords.
+[13/07 18:34:50] SayuneData: Loaded 84 maps.
+[13/07 18:34:50] ClanRewardData: Loaded 4 rewards for members online.
+[13/07 18:34:50] ClanRewardData: Loaded 4 rewards for hunting monsters.
+[13/07 18:34:50] DailyMissionMasterHandler: Loaded 10 handlers.
+[13/07 18:34:51] DailyMissionData: Loaded 59 one day rewards.
+[13/07 18:34:51] --------------------------------------------------=[ Skills ]
+[13/07 18:34:54] EffectMasterHandler: Loaded 375 effect handlers.
+[13/07 18:34:54] EnchantSkillGroupsData: Loaded 20 enchant routes, max enchant set to 20.
+[13/07 18:34:54] TransformData: Loaded 174 transform templates.
+[13/07 18:35:05] SkillData: Loaded 123552 Skills.
 
-[13/07 18:28:14] DatabaseIdManager: Could not execute cleanup query: DELETE FROM character_contacts WHERE character_contacts.charId NOT IN (SELECT charId FROM characters) - java.lang.RuntimeException: Unable to obtain a database connection.
+==> server/game/log/2026-07-13_18-44-31_stdout.log <==
+        at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:309)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+        at java.base/java.lang.Thread.runWith(Thread.java:1487)
+        at java.base/java.lang.Thread.run(Thread.java:1474)
+Exception in thread "L2jMobius ScheduledThread 8" java.lang.OutOfMemoryError: Java heap space
+        at java.base/java.util.concurrent.ConcurrentHashMap$KeySetView.iterator(ConcurrentHashMap.java:4655)
+        at org.l2jmobius.gameserver.model.World.forEachVisibleObject(World.java:678)
+        at org.l2jmobius.gameserver.model.actor.Creature.broadcastPacket(Creature.java:708)
+        at org.l2jmobius.gameserver.model.actor.Creature.broadcastPacket(Creature.java:701)
+        at org.l2jmobius.gameserver.model.actor.Creature.broadcastSkillPacket(Creature.java:720)
+        at org.l2jmobius.gameserver.model.skill.SkillCaster.startCasting(SkillCaster.java:357)
+        at org.l2jmobius.gameserver.model.skill.SkillCaster.run(SkillCaster.java:216)
+        at org.l2jmobius.gameserver.model.skill.SkillCaster.castSkill(SkillCaster.java:194)
+        at org.l2jmobius.gameserver.model.skill.SkillCaster.castSkill(SkillCaster.java:146)
+        at org.l2jmobius.gameserver.model.actor.Creature.doCast(Creature.java:1545)
+        at org.l2jmobius.gameserver.model.actor.instance.Monster.doCast(Monster.java:225)
+        at org.l2jmobius.gameserver.model.actor.Creature.doCast(Creature.java:1508)
+        at ai.areas.PrimevalIsle.PrimevalIsle.onEvent(PrimevalIsle.java:191)
+        at org.l2jmobius.gameserver.model.script.Quest.notifyEvent(Quest.java:660)
+        at org.l2jmobius.gameserver.model.script.QuestTimer$ScheduleTimerTask.run(QuestTimer.java:161)
+        at org.l2jmobius.commons.threads.ThreadPool$RunnableWrapper.run(ThreadPool.java:289)
+        at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+        at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:309)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+        at java.base/java.lang.Thread.runWith(Thread.java:1487)
+        at java.base/java.lang.Thread.run(Thread.java:1474)
+Exception in thread "L2jMobius ScheduledThread 6" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "L2jMobius ScheduledThread 9" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "L2jMobius ScheduledThread 12" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "L2jMobius ScheduledThread 2" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "L2jMobius ScheduledThread 7" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "L2jMobius ScheduledThread 2" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "L2jMobius ScheduledThread 3" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "L2jMobius ScheduledThread 15" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "L2jMobius ScheduledThread 10"
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "main"
+java.lang.OutOfMemoryError: Java heap space
+
+==> server/game/log/stdout.log <==
+        at org.l2jmobius.commons.threads.ThreadPool$RunnableWrapper.run(ThreadPool.java:289)
+        at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+        at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:309)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+        at java.base/java.lang.Thread.runWith(Thread.java:1487)
+        at java.base/java.lang.Thread.run(Thread.java:1474)
+Exception in thread "L2jMobius Thread 3" java.lang.OutOfMemoryError: Java heap space
+        at java.base/java.util.concurrent.ConcurrentHashMap$KeySetView.iterator(ConcurrentHashMap.java:4655)
+        at org.l2jmobius.gameserver.model.World.forEachVisibleObjectInRange(World.java:738)
+        at org.l2jmobius.gameserver.util.Broadcast.toKnownPlayersInRadius(Broadcast.java:145)
+        at org.l2jmobius.gameserver.model.actor.Npc.broadcastSay(Npc.java:1853)
+        at ai.areas.SelMahumTrainingGrounds.SelMahumSquad.onEventReceived(SelMahumSquad.java:286)
+        at org.l2jmobius.gameserver.model.script.Quest.notifyEventReceived(Quest.java:772)
+        at org.l2jmobius.gameserver.model.script.Quest.lambda$addEventReceivedId$0(Quest.java:1998)
+        at org.l2jmobius.gameserver.model.script.Quest$$Lambda/0x000000002263ed48.accept(Unknown Source)
+        at org.l2jmobius.gameserver.model.events.listeners.ConsumerEventListener.executeEvent(ConsumerEventListener.java:44)
+        at org.l2jmobius.gameserver.model.events.EventDispatcher.notifyToListeners(EventDispatcher.java:297)
+        at org.l2jmobius.gameserver.model.events.EventDispatcher.notifyEventToSingleContainer(EventDispatcher.java:188)
+        at org.l2jmobius.gameserver.model.events.EventDispatcher.lambda$notifyEventAsync$0(EventDispatcher.java:150)
+        at org.l2jmobius.gameserver.model.events.EventDispatcher$$Lambda/0x00000000226d96e8.run(Unknown Source)
+        at org.l2jmobius.commons.threads.ThreadPool$RunnableWrapper.run(ThreadPool.java:289)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+        at java.base/java.lang.Thread.runWith(Thread.java:1487)
+        at java.base/java.lang.Thread.run(Thread.java:1474)
+Exception in thread "L2jMobius Thread 8" Exception in thread "L2jMobius Thread 4" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "L2jMobius ScheduledThread 9" Exception in thread "L2jMobius Thread 5" Exception in thread "L2jMobius ScheduledThread 4" java.lang.OutOfMemoryError: Java heap space
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "L2jMobius Thread 7"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "L2jMobius Thread 3"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "L2jMobius Thread 8"
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "L2jMobius ScheduledThread 3" java.lang.OutOfMemoryError: Java heap space
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "L2jMobius Thread 2"
 root@denyyzyy:~/lineage2#
