@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Active network config: external (Internet) IP of the VPS. -->
+<gameserver address="74.248.38.44" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../data/xsd/ipconfig.xsd">
+	<!-- Localhost (local test on the VPS itself) -->
+	<define subnet="127.0.0.0/8" address="127.0.0.1" />
+	<!-- Internal LAN ranges -->
+	<define subnet="10.0.0.0/8" address="10.0.0.0" />
+	<define subnet="172.16.0.0/19" address="172.16.0.0" />
+	<define subnet="192.168.0.0/16" address="192.168.0.0" />
+	<define subnet="192.168.0.0/24" address="192.168.0.0" />
+	<define subnet="192.168.1.0/24" address="192.168.1.0" />
+</gameserver>
