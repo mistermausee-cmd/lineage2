@@ -1,26 +1,303 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/multisell.xsd">
 	<npcs>
-		<npc>-1</npc> <!-- CB -->
+		<npc>-1</npc>
 	</npcs>
+	<!-- ==== Прямые покупки ==== -->
 	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Energy of Destruction -->
-		<production count="1" id="35562" />
+		<ingredient id="57" count="100000000" />
+		<production id="46298" count="1" /> <!-- Новогодний Маг.Атк -->
 	</item>
 	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Mouse Coin -->
-		<ingredient count="50" id="10639" />
-		<!-- Giant's Energy -->
-		<production count="1" id="35563" />
+		<ingredient id="57" count="100000000" />
+		<production id="46297" count="1" /> <!-- Новогодний Физ.Атк -->
 	</item>
 	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Talisman - Destruction -->
-		<production count="1" id="34985" />
+		<ingredient id="57" count="100000000" />
+		<production id="46294" count="1" /> <!-- Новогодний Сила Крит Маг Умений -->
+	</item>
+	<item>
+		<ingredient id="57" count="100000000" />
+		<production id="46293" count="1" /> <!-- Новогодний Сила Крит Физ Умений -->
+	</item>
+	<item>
+		<ingredient id="57" count="100000000" />
+		<production id="32323" count="1" /> <!-- Обычный Маг.Атк -->
+	</item>
+	<item>
+		<ingredient id="57" count="100000000" />
+		<production id="32321" count="1" /> <!-- Обычный Скор.Маг -->
+	</item>
+	<item>
+		<ingredient id="57" count="100000000" />
+		<production id="32319" count="1" /> <!-- Обычный Физ.Атк -->
+	</item>
+	<item>
+		<ingredient id="57" count="100000000" />
+		<production id="32318" count="1" /> <!-- Обычный Скор.Атк -->
+	</item>
+	<item>
+		<ingredient id="57" count="100000000" />
+		<production id="46040" count="1" /> <!-- Талисман ИНТ -->
+	</item>
+	<item>
+		<ingredient id="57" count="100000000" />
+		<production id="46042" count="1" /> <!-- Талисман МДР -->
+	</item>
+	<item>
+		<ingredient id="57" count="100000000" />
+		<production id="46039" count="1" /> <!-- Талисман СИЛ -->
+	</item>
+	<item>
+		<ingredient id="57" count="100000000" />
+		<production id="46041" count="1" /> <!-- Талисман ЛВК -->
+	</item>
+	<item>
+		<ingredient id="57" count="100000000" />
+		<production id="17061" count="1" /> <!-- Все Параметры 7 дней -->
+	</item>
+	<item>
+		<ingredient id="57" count="100000000" />
+		<production id="46291" count="1" /> <!-- Новогодний Все Параметры +2 -->
+	</item>
+	<item>
+		<ingredient id="57" count="100000000" />
+		<production id="37715" count="1" /> <!-- Талисман Анаким -->
+	</item>
+	<item>
+		<ingredient id="57" count="100000000" />
+		<production id="37714" count="1" /> <!-- Талисман Лилит -->
+	</item>
+	<!-- ==== Цепочка "Разрушение" ==== -->
+	<item>
+		<ingredient id="57" count="100000000" />
+		<production id="34984" count="1" /> <!-- Талисман Бессмертия -->
+	</item>
+	<item>
+		<ingredient id="34984" count="1" />
+		<ingredient id="57" count="200000000" />
+		<production id="34985" count="1" /> <!-- Талисман Разрушения -->
+	</item>
+	<item>
+		<ingredient id="34985" count="1" />
+		<ingredient id="57" count="200000000" />
+		<production id="34986" count="1" /> <!-- Талисман Уничтожения -->
+	</item>
+	<item>
+		<ingredient id="34986" count="1" />
+		<ingredient id="57" count="200000000" />
+		<production id="34987" count="1" /> <!-- Талисман Огня -->
+	</item>
+	<item>
+		<ingredient id="34987" count="1" />
+		<ingredient id="57" count="200000000" />
+		<production id="34988" count="1" /> <!-- Талисман Желания -->
+	</item>
+	<item>
+		<ingredient id="34988" count="1" />
+		<ingredient id="57" count="200000000" />
+		<production id="34989" count="1" /> <!-- Талисман Вожделения -->
+	</item>
+	<item>
+		<ingredient id="34989" count="1" />
+		<ingredient id="57" count="200000000" />
+		<production id="39572" count="1" /> <!-- Талисман из Позолоченного Дерева -->
+	</item>
+	<!-- ==== Семь Печатей ==== -->
+	<item>
+		<ingredient id="37715" count="1" />
+		<ingredient id="37714" count="1" />
+		<ingredient id="57" count="500000000" />
+		<production id="37717" count="1" /> <!-- Талисман Семи Печатей -->
+	</item>
+	<!-- ==== Цепочка "Изобилие Высокого Качества" ==== -->
+	<item>
+		<ingredient id="57" count="100000000" />
+		<production id="26455" count="1" /> <!-- Талисман Изобилия Ур.1 (ВК) -->
+	</item>
+	<item>
+		<ingredient id="26455" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="26456" count="1" /> <!-- Талисман Изобилия Ур.2 (ВК) -->
+	</item>
+	<item>
+		<ingredient id="26456" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="26457" count="1" /> <!-- Талисман Изобилия Ур.3 (ВК) -->
+	</item>
+	<item>
+		<ingredient id="26457" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="26458" count="1" /> <!-- Талисман Изобилия Ур.4 (ВК) -->
+	</item>
+	<!-- ==== Цепочка "Сайха" ==== -->
+	<item>
+		<ingredient id="57" count="100000000" />
+		<production id="29057" count="1" /> <!-- Талисман Сайха Ур.1 -->
+	</item>
+	<item>
+		<ingredient id="29057" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="29058" count="1" /> <!-- Талисман Сайха Ур.2 -->
+	</item>
+	<item>
+		<ingredient id="29058" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="29059" count="1" /> <!-- Талисман Сайха Ур.3 -->
+	</item>
+	<item>
+		<ingredient id="29059" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="29060" count="1" /> <!-- Талисман Сайха Ур.4 -->
+	</item>
+	<item>
+		<ingredient id="29060" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="29061" count="1" /> <!-- Талисман Сайха Ур.5 -->
+	</item>
+	<item>
+		<ingredient id="29061" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="29062" count="1" /> <!-- Талисман Сайха Ур.6 -->
+	</item>
+	<item>
+		<ingredient id="29062" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="29063" count="1" /> <!-- Талисман Сайха Ур.7 -->
+	</item>
+	<item>
+		<ingredient id="29063" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="29064" count="1" /> <!-- Талисман Сайха Ур.8 -->
+	</item>
+	<item>
+		<ingredient id="29064" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="29065" count="1" /> <!-- Талисман Сайха Ур.9 -->
+	</item>
+	<item>
+		<ingredient id="29065" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="29066" count="1" /> <!-- Талисман Сайха Ур.10 -->
+	</item>
+	<!-- ==== Цепочка "Бенира" ==== -->
+	<item>
+		<ingredient id="57" count="100000000" />
+		<production id="39634" count="1" /> <!-- Талисман Бенира Ур.1 -->
+	</item>
+	<item>
+		<ingredient id="39634" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="39635" count="1" /> <!-- Талисман Бенира Ур.2 -->
+	</item>
+	<item>
+		<ingredient id="39635" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="39636" count="1" /> <!-- Талисман Бенира Ур.3 -->
+	</item>
+	<item>
+		<ingredient id="39636" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="39637" count="1" /> <!-- Талисман Бенира Ур.4 -->
+	</item>
+	<item>
+		<ingredient id="39637" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="39638" count="1" /> <!-- Талисман Бенира Ур.5 -->
+	</item>
+	<item>
+		<ingredient id="39638" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="39639" count="1" /> <!-- Талисман Бенира Ур.6 -->
+	</item>
+	<item>
+		<ingredient id="39639" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="39640" count="1" /> <!-- Талисман Бенира Ур.7 -->
+	</item>
+	<item>
+		<ingredient id="39640" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="39641" count="1" /> <!-- Талисман Бенира Ур.8 -->
+	</item>
+	<item>
+		<ingredient id="39641" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="39642" count="1" /> <!-- Талисман Бенира Ур.9 -->
+	</item>
+	<item>
+		<ingredient id="39642" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="39643" count="1" /> <!-- Талисман Бенира Ур.10 -->
+	</item>
+	<item>
+		<ingredient id="39643" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="39644" count="1" /> <!-- Талисман Бенира Ур.11 -->
+	</item>
+	<item>
+		<ingredient id="39644" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="39645" count="1" /> <!-- Талисман Бенира Ур.12 -->
+	</item>
+	<item>
+		<ingredient id="39645" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="39646" count="1" /> <!-- Талисман Бенира Ур.13 -->
+	</item>
+	<item>
+		<ingredient id="39646" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="39647" count="1" /> <!-- Талисман Бенира Ур.14 -->
+	</item>
+	<item>
+		<ingredient id="39647" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="39648" count="1" /> <!-- Талисман Бенира Ур.15 -->
+	</item>
+	<item>
+		<ingredient id="39648" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="39649" count="1" /> <!-- Талисман Бенира Ур.16 -->
+	</item>
+	<item>
+		<ingredient id="39649" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="39650" count="1" /> <!-- Талисман Бенира Ур.17 -->
+	</item>
+	<item>
+		<ingredient id="39650" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="39651" count="1" /> <!-- Талисман Бенира Ур.18 -->
+	</item>
+	<item>
+		<ingredient id="39651" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="39652" count="1" /> <!-- Талисман Бенира Ур.19 -->
+	</item>
+	<item>
+		<ingredient id="39652" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="39653" count="1" /> <!-- Талисман Бенира Ур.20 -->
+	</item>
+	<item>
+		<ingredient id="39653" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="39654" count="1" /> <!-- Талисман Бенира Ур.21 -->
+	</item>
+	<item>
+		<ingredient id="39654" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="39655" count="1" /> <!-- Талисман Бенира Ур.22 -->
+	</item>
+	<item>
+		<ingredient id="39655" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="39656" count="1" /> <!-- Талисман Бенира Ур.23 -->
+	</item>
+	<item>
+		<ingredient id="39656" count="1" />
+		<ingredient id="57" count="100000000" />
+		<production id="39657" count="1" /> <!-- Талисман Бенира Ур.24 -->
 	</item>
 </list>
