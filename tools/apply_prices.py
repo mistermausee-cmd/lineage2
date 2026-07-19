@@ -55,6 +55,10 @@ def round_nice(v):
 def sc(v):  # применить вариант-масштаб к «престиж/эндгейм» цене
     return round_nice(v * SCALE)
 
+def stage_num(n):  # номер стадии/уровня из имени (Stage N / Ур.N / Lv.N)
+    m = re.search(r'(?:Stage|Ур\.|Lv\.)\s*(\d+)', n)
+    return int(m.group(1)) if m else None
+
 # ---------- ПРАВИЛА ЦЕН ПО РАЗДЕЛАМ ----------
 # Возвращает цену адены для (multisell_id, production_id, is_upgrade).
 
@@ -100,9 +104,12 @@ def price_leveling(mid, pid):
 
 def price_epic(pid, up, n):
     it = INDEX.get(pid); npc = it["price"] if it else 0
-    # 1) Цепочки богов (Einhasad/GranKain/Paagrio/Eva/Sayha/Maphr — Stage/Ур.N) — премиум-тир
+    # 1) Цепочки богов (Einhasad/GranKain/Paagrio/Eva/Sayha/Maphr — Stage/Ур.N) —
+    #    ПРОГРЕССИВНО: старт доступный, топ очень дорогой (это сильнейшая бижа).
     if re.search(r"Ур\.\d", n) or re.search(r"Stage", n) or re.search(r"-Stage", n):
-        return sc(700*M) if not up else sc(350*M)
+        s = stage_num(n) or 1
+        step = {1:300, 2:300, 3:500, 4:800, 5:1200, 6:2000}.get(s, 300)  # доплата за стадию, млн
+        return sc(step * M)   # cum Stage6 ≈ 5.1 млрд
     # 2) Апгрейды классической эпики (Души/Благословенная/Бессмертная), кроме модерна
     if up:
         return sc(750*M)
@@ -130,61 +137,83 @@ def price_brooch_stone(pid, up, n):
 
 def price_talisman(pid, up, n):
     pid_i = int(pid)
-    # --- СТАРТ / временные / событийные — дёшево ---
-    if any(k in n for k in ["Christmas","Новогодн","Обычный","Все Параметры","7 дней"]) \
+    # --- ВРЕМЕННЫЕ / событийные / стартовые — символическая цена ---
+    if any(k in n for k in ["Christmas","Новогодн","Обычный","Все Параметры","7 дней","Event","дней"]) \
        or pid_i == 17061:
-        return round_nice(10*M)
-    # --- одиночные стат-талисманы (СИЛ/ИНТ/ЛВК/МДР, PC-exclusive) ---
+        return round_nice(1*M)
+    # --- одиночные стат-талисманы (СИЛ/ИНТ/ЛВК/МДР, PC-exclusive) — постоянные, мелкие ---
     if "Commendation" in n or pid_i in (46039,46040,46041,46042):
-        return round_nice(30*M)
-    # --- ПРЕМИУМ одиночные ---
+        return round_nice(20*M)
+    # --- ПРЕМИУМ одиночные (редкие, сильные) ---
     if "Seven Signs" in n or "Семи Печатей" in n: return sc(400*M)
     if any(k in n for k in ["Anakim","Lilith","Анаким","Лилит"]): return sc(150*M)
-    if "Insanity" in n or "Позолоченного" in n: return sc(400*M)   # финал Infinity-цепи
+    if "Insanity" in n or "Позолоченного" in n: return sc(500*M)   # финал Infinity-цепи (топ)
     # --- ЦЕПОЧКИ ---
-    if "Venir" in n or "Бенир" in n: return round_nice(20*M)       # 24 стадии → средне за шаг
-    if "Abundance" in n or "Изобил" in n: return round_nice(20*M)
-    if "Sayha" in n or "Сайха" in n:                                # 10 стадий, мощный конец
-        return round_nice(35*M) if up else round_nice(30*M)
+    if "Venir" in n or "Бенир" in n: return round_nice(12*M)       # Бенира: 24 стадии → дёшево-средне
+    if "Abundance" in n or "Изобил" in n: return round_nice(15*M)
+    if "Sayha" in n or "Сайха" in n:                                # 10 стадий, сильный (P.Def+2027 к Ур.10)
+        s = stage_num(n) or 1
+        step = {1:30,2:30,3:40,4:50,5:60,6:60,7:70,8:80,9:90,10:100}.get(s, 40)  # cum ≈ 610 млн
+        return round_nice(step * M)
     if "Infinity" in n or "Бессмерт" in n or "Talisman -" in n or up:  # Infinity→…→Insanity
         return round_nice(100*M) if up else round_nice(50*M)
     return round_nice(40*M)
 
-def price_bracelet(pid, up):
-    return round_nice(60*M) if up else round_nice(50*M)
+def price_bracelet(pid, up, n):
+    # Браслеты дают немного статов, их ценность — слоты под талисманы. Цены низкие.
+    if "Duo" in n or "Дуо" in n: return round_nice(8*M)
+    s = stage_num(n) or 1
+    step = {1:5, 2:8, 3:12, 4:18, 5:25, 6:35}.get(s, 10)   # доплата за стадию, млн
+    return round_nice(step * M)
+
+def price_belt(pid, up, n):
+    # Пояса: 1 хай-тир (Ruler's Authority: урон+8%, -9% получ.), рун-клипы средне, прочие низко.
+    if "Ruler's Authority" in n or "Полномочия Правителя" in n: return sc(350*M)
+    if any(k in n for k in ["Immortal Belt","Twilight Belt","Seraph Belt","Eternal Belt",
+                            "Бессмертия","Ада","Кадейры","Айдиоса"]):
+        return sc(80*M)                                    # R/R95/R99 рун-клипы (заточиваемые)
+    return round_nice(50*M)                                # прочие/декоративные пояса
 
 def price_agathion(pid, up):
     return round_nice(8*M) if up else round_nice(15*M)
 
 def price_dye(pid, n):
-    if any(k in n for k in ["Сопр","Защиты","Resistance"]): return round_nice(20*M)  # резист-краски
-    return round_nice(50*M)                                      # стат-краски (важные)
+    if any(k in n for k in ["Сопр","Защиты","Resistance"]): return round_nice(15*M)  # резист-краски
+    return round_nice(40*M)                                      # стат-краски (средний тир, хорошие статы)
 
 def price_enchant_scroll(pid, n):
     w = "Оружие" in n or "Weapon" in n
+    # --- точилки плащей (расходка, много штук) ---
+    if "Плащ" in n or "Cloak" in n:
+        if "Легендарн" in n or "Legendary" in n or "Ancient" in n or "Древн" in n: return round_nice(40*M)
+        return round_nice(20*M)
+    # --- точилки оружия/брони ---
     if "Священный" in n or "Divine" in n: return round_nice(150*M if w else 90*M)
     if "Благословенный Свиток" in n: return round_nice(60*M if w else 35*M)
     if "Камень" in n or "Кристалл" in n: return round_nice(80*M if w else 50*M)
     if "Свиток" in n and ("Оружие" in n or "Доспех" in n): return round_nice(20*M if w else 12*M)
-    return round_nice(30*M)  # плащ/футболка/диадема
+    return round_nice(30*M)  # футболка/диадема
 
 def price_hat(pid, up, n):
     # Сначала расходка: камни аугмента/духа/жизни и свитки модификации
     if "Свиток" in n or "Scroll" in n: return round_nice(40*M)   # свиток модификации диадемы
     if "Камень" in n or "Stone" in n:  return round_nice(100*M)  # камни духа/жизни/аугмента
-    # Диадемы (Circlet of Power) — ТОП-PvE хедгир: база→Драгоценная(Noble)→Радужная(Radiant)
+    # Диадемы (Circlet of Power) — прогрессивно: база даёт мало → топ (Радужная) переворачивает игру
     if "Диадема" in n or "Диадему" in n:
-        if "Радужная" in n: return sc(700*M)
-        if "Драгоценная" in n: return sc(400*M)
-        return sc(200*M)                               # базовая диадема
+        if "Радужная" in n: return sc(1000*M)          # Radiant: +15% крит.дмг, SkillPower+10%, HP/MP/CP+10%
+        if "Драгоценная" in n: return sc(400*M)        # Noble: напр. M.Atk+14%
+        return sc(100*M)                               # базовая диадема (скромно)
     return round_nice(30*M)                            # обычные шапки/нимбы/венцы
 
 def price_cloak(pid, up, n):
-    # Плащи (600025). Легендарные (заточка +20, слоты аугмента) — эндгейм; база/прямые — ниже.
-    if "Legendary" in n or "Легендарн" in n: return sc(600*M)
-    if "Камень Духа" in n or "Spirit Stone" in n: return sc(150*M)   # камни эффектов плаща
-    if "Radiant" in n or "Ослепительн" in n or "Холодной" in n: return sc(400*M)  # Сияющие (-15% урон)
-    return sc(250*M)                                   # прочие прямые плащи + база цепочек
+    # Плащи (600025). Почти все — СРЕДНИЙ тир (хорошие статы, не ломают игру).
+    # Исключение — ЛЕГЕНДАРНЫЕ Ancient (+20, слоты аугмента, до +200% PvE-урона) = эндгейм.
+    if "Legendary" in n or "Легендарн" in n: return sc(700*M)         # апгрейд база->Легендарный (эндгейм)
+    if "Камень Духа" in n or "Spirit Stone" in n: return sc(150*M)    # камни эффектов (аугмент) плаща
+    if any(k in n for k in ["Аден","Феррит","Эльмор","Эльмореден"]):  # база Ancient-цепочек
+        return sc(100*M)
+    if "Radiant" in n or "Ослепительн" in n or "Холодной" in n: return sc(100*M)  # Сияющие (-15% урон)
+    return sc(50*M)                                    # прочие прямые плащи (Света/Тьмы/Славы/Героя/Избранного)
 
 def price_flat(v):
     return round_nice(v)
@@ -203,15 +232,15 @@ def compute_price(mid, pid, up, n):
     if mid == 600090: return price_brooch(pid, up)
     if mid == 600091: return price_brooch_stone(pid, up, n)
     if mid == 600008: return price_talisman(pid, up, n)
-    if mid == 600044: return price_bracelet(pid, up)
+    if mid == 600044: return price_bracelet(pid, up, n)
     if mid in (600048,600028): return price_agathion(pid, up)
     if mid == 600032: return price_dye(pid, n)
     if mid == 600033: return round_nice(200*M) if "Certificate" in n else round_nice(100*M)
     if mid == 600034: return price_hat(pid, up, n)
     if mid == 600100: return price_enchant_scroll(pid, n)
     if mid == 600101: return round_nice(150*M)               # камни духа/аугмента (плащ/бижа/диадема)
-    if mid == 600102: return round_nice(200*M if "15" in n else 150*M)  # кристаллы души
-    if mid == 600011: return round_nice(3*M)                 # 5000 зарядов/шотов
+    if mid == 600102: return round_nice(150*M if "15" in n else 120*M)  # ensoul-кристаллы души
+    if mid == 600011: return round_nice(2*M)                 # 5000 зарядов/шотов (расходка)
     if mid == 600041:                                        # мат-лы драк.пушек
         if "Elcyum" in n: return round_nice(50*M)
         if "Dragon" in n: return round_nice(20*M)
@@ -222,12 +251,14 @@ def compute_price(mid, pid, up, n):
     if mid in (600104,600105,600106,600107): return round_nice(10*M)  # снаряга петов
     if mid == 600043: return round_nice(50*M)                # руны опыта
     if mid in (600108,600109,600110,600111): return round_nice(20*M)  # внешний вид
-    if mid == 600047: return round_nice(20*M)                # рубашки
+    if mid == 600047:                                        # рубашки (средний тир) + свитки футболок
+        if "Scroll" in n or "Свиток" in n: return round_nice(15*M)
+        return round_nice(40*M)
     if mid == 600025: return price_cloak(pid, up, n)         # плащи
-    if mid == 600026: return sc(100*M)                       # пояса
+    if mid == 600026: return price_belt(pid, up, n)          # пояса
     if mid == 600035: return round_nice(2*M)                 # бакалея/расходники
     if mid == 600057: return round_nice(1*M)                 # клан
-    if mid == 600112: return round_nice(5*M)                 # стрелы/болты
+    if mid == 600112: return round_nice(3*M)                 # стрелы/болты (расходка)
     return None
 
 # ---------- ОБРАБОТКА ФАЙЛОВ ----------
