@@ -334,6 +334,7 @@
 		</skills>
 	</item>
 	<item id="2515" name="Wolf Food" type="EtcItem">
+		<set name="is_sellable" val="false" />
 		<!-- When the hunger gauge of a wolf reaches 55% or below, its food will be consumed automatically. -->
 		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />

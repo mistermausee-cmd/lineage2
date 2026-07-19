@@ -419,6 +419,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="4038" name="Hatchling Food" type="EtcItem">
+		<set name="is_sellable" val="false" />
 		<!-- When the hunger gauge of a Hatchling reaches 55% or below, its food will be consumed automatically. -->
 		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />

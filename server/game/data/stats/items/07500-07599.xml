@@ -1131,6 +1131,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="7582" name="Baby Spice" type="EtcItem">
+		<set name="is_sellable" val="false" />
 		<!-- When the food gauge of a baby buffalo, a baby cougar or a baby kookaburra drops to 55% or below, this feed will be consumed automatically. -->
 		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />

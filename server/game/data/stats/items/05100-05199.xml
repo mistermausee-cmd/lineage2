@@ -923,6 +923,7 @@
 		<set name="commissionItemType" val="RECIPE" />
 	</item>
 	<item id="5168" name="Strider Food" type="EtcItem">
+		<set name="is_sellable" val="false" />
 		<!-- When the hunger gauge of a Strider reaches 55% or below, its food will be consumed automatically. -->
 		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
@@ -943,6 +944,7 @@
 		</skills>
 	</item>
 	<item id="5169" name="Deluxe Strider Food" type="EtcItem">
+		<set name="is_sellable" val="false" />
 		<!-- When the hunger gauge of a Strider reaches 55% or below, its food will be consumed automatically. Food consumption efficiency improves while riding a Strider. -->
 		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />

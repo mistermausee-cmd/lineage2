@@ -1158,6 +1158,7 @@
 		</stats>
 	</item>
 	<item id="9668" name="Great Wolf Food" type="EtcItem">
+		<set name="is_sellable" val="false" />
 		<!-- Automatically ingested when a Great Wolf's hunger gauge drops below 55%. -->
 		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />

@@ -1018,6 +1018,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="6643" name="Old Golden Spice" type="EtcItem">
+		<set name="is_sellable" val="false" />
 		<!-- Food for creatures on the Beast Farm. - When this food is fed to monsters that are capable of evolving, they will do so at various rates. Once a monster reaches a certain level of growth, it can then become a pet. This food also causes monsters to only drop Adena. -->
 		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
@@ -1033,6 +1034,7 @@
 		</skills>
 	</item>
 	<item id="6644" name="Old Crystal Spice" type="EtcItem">
+		<set name="is_sellable" val="false" />
 		<!-- Food for creatures on the Beast Farm. - When this food is fed to monsters that are capable of evolving, they will do so at various rates. Once a monster reaches a certain level of growth, it can then become a pet. This food also causes monsters to only drop materials. -->
 		<set name="icon" val="icon.etc_pouch_brown_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />

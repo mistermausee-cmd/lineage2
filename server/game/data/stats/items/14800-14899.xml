@@ -365,6 +365,7 @@
 		</skills>
 	</item>
 	<item id="14818" name="Enriched Pet Food" type="EtcItem">
+		<set name="is_sellable" val="false" />
 		<!-- Pet food for Great Wolves and Fenrirs. When your pet's hunger gauge drops below 55% they will be able to feed themselves automatically. -->
 		<set name="icon" val="icon.etc_pouch_red_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />

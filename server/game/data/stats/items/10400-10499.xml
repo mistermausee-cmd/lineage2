@@ -382,6 +382,7 @@
 		</skills>
 	</item>
 	<item id="10425" name="Improved Baby Pet Food" type="EtcItem">
+		<set name="is_sellable" val="false" />
 		<!-- Automatically consumed when an improved baby pet's hunger gauge drops below 55%. -->
 		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
