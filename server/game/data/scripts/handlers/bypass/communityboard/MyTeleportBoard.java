@@ -175,7 +175,7 @@ public class MyTeleportBoard implements IParseBoardHandler
 		final StringBuilder sb = new StringBuilder();
 		if (count == 0)
 		{
-			sb.append("<br><font color=\"808A99\">У вас пока нет меток. Встаньте в нужном месте, введите название и нажмите «Создать метку».</font><br>");
+			sb.append("<br><table width=470 border=0><tr><td align=center><font color=\"808A99\">У вас пока нет меток.<br1>Встаньте в нужном месте, введите название<br1>и нажмите кнопку «Создать метку».</font></td></tr></table><br>");
 		}
 		else
 		{

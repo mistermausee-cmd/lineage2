@@ -261,6 +261,21 @@ def menu_row(label, target, desc):
             f'\t\t\t\t\t\t\t\t\t\t<td width=320><font color="9AA4B0">{desc}</font></td>\n'
             '\t\t\t\t\t\t\t\t\t</tr>')
 
+def nav_footer(prev_target, next_target, menu_target="main.html"):
+    """Футер пагинации: 3 фиксированных слота (Назад | В меню | Далее) на одном уровне.
+       Отсутствующие направления остаются пустыми ячейками — позиции не смещаются."""
+    def gk_btn(label, target):
+        return (f'<button value="{label}" action="bypass _bbstop;gatekeeper/{target}" '
+                f'width=140 height=28 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">')
+    prev_c = gk_btn(PREV, prev_target) if prev_target else "&nbsp;"
+    menu_c = gk_btn("\u0412 \u043c\u0435\u043d\u044e", menu_target)
+    next_c = gk_btn(NEXT, next_target) if next_target else "&nbsp;"
+    return ('<table border=0 cellpadding=0 cellspacing=2><tr>'
+            f'<td width=150 align=center>{prev_c}</td>'
+            f'<td width=150 align=center>{menu_c}</td>'
+            f'<td width=150 align=center>{next_c}</td>'
+            '</tr></table>')
+
 def grid(cells, cols):
     out = ['\t\t\t\t\t\t\t\t<table border=0 cellpadding=2 cellspacing=2>']
     for i in range(0, len(cells), cols):
@@ -334,12 +349,8 @@ def gen():
     npf = len(low_pages)
     for idx, chunk in enumerate(low_pages, 1):
         cells = [tp_btn(k, farm_label(name, lo, hi), 250) for k, name, lo, hi, x, y, z in chunk]
-        footer = ""
-        if idx > 1:
-            footer += nav_btn(PREV, f"farm_low{idx-1}.html", 130, 28) + "&nbsp;"
-        footer += back_btn("main.html", "\u0412 \u043c\u0435\u043d\u044e", 130) + "&nbsp;"
-        if idx < npf:
-            footer += nav_btn(NEXT, f"farm_low{idx+1}.html", 130, 28)
+        footer = nav_footer(f"farm_low{idx-1}.html" if idx > 1 else None,
+                            f"farm_low{idx+1}.html" if idx < npf else None)
         sub = f"\u0417\u043e\u043d\u044b \u043e\u043f\u044b\u0442\u0430, \u0430\u0434\u0435\u043d\u044b \u0438 \u0434\u0440\u043e\u043f\u0430 \u00b7 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430 {idx} \u0438\u0437 {npf}"
         write(f"farm_low{idx}.html", shell("\u0424\u0410\u0420\u041c: \u0414\u041e 99 \u0423\u0420.", sub, grid(cells, 2), footer))
 
@@ -368,12 +379,8 @@ def gen():
     for idx, chunk in enumerate(chunks, 1):
         lo, hi = chunk[0][0], chunk[-1][0]
         cells = [tp_btn(f"rb{iid}", boss_label(name, lvl, 34), 250, 26) for lvl, iid, name, x, y, z in chunk]
-        footer = ""
-        if idx > 1:
-            footer += nav_btn(PREV, f"raids{idx-1}.html", 130, 28) + "&nbsp;"
-        footer += back_btn("main.html", "\u0412 \u043c\u0435\u043d\u044e", 130) + "&nbsp;"
-        if idx < n:
-            footer += nav_btn(NEXT, f"raids{idx+1}.html", 130, 28)
+        footer = nav_footer(f"raids{idx-1}.html" if idx > 1 else None,
+                            f"raids{idx+1}.html" if idx < n else None)
         sub = f"\u0423\u0440\u043e\u0432\u043d\u0438 {lo}-{hi} \u00b7 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430 {idx} \u0438\u0437 {n}"
         write(f"raids{idx}.html", shell(f"\u0420\u0415\u0419\u0414-\u0411\u041e\u0421\u0421\u042b (\u0423\u0440.{lo}-{hi})",
               sub, grid(cells, 2), footer))
