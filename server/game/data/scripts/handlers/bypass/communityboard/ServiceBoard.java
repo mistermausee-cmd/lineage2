@@ -35,6 +35,7 @@ import org.l2jmobius.gameserver.model.actor.Player;
 import org.l2jmobius.gameserver.model.clan.Clan;
 import org.l2jmobius.gameserver.model.clan.ClanAccess;
 import org.l2jmobius.gameserver.model.item.enums.ItemProcessType;
+import org.l2jmobius.gameserver.model.stats.Stat;
 import org.l2jmobius.gameserver.network.serverpackets.ActionFailed;
 import org.l2jmobius.gameserver.network.serverpackets.ShowBoard;
 import org.l2jmobius.gameserver.network.serverpackets.WareHouseDepositList;
@@ -151,55 +152,49 @@ public class ServiceBoard implements IParseBoardHandler
 		final Clan clan = player.getClan();
 		final String clanName = (clan != null) ? clan.getName() + " (ур. " + clan.getLevel() + ")" : "нет";
 
-		// Эффективные рейты игрока (с учётом премиума).
-		final float xp = RatesConfig.RATE_XP * (prem ? PremiumSystemConfig.PREMIUM_RATE_XP : 1f);
-		final float sp = RatesConfig.RATE_SP * (prem ? PremiumSystemConfig.PREMIUM_RATE_SP : 1f);
-		final float dropChance = RatesConfig.RATE_DEATH_DROP_CHANCE_MULTIPLIER * (prem ? PremiumSystemConfig.PREMIUM_RATE_DROP_CHANCE : 1f);
-		final float dropAmount = RatesConfig.RATE_DEATH_DROP_AMOUNT_MULTIPLIER * (prem ? PremiumSystemConfig.PREMIUM_RATE_DROP_AMOUNT : 1f);
-		final float spoilChance = RatesConfig.RATE_SPOIL_DROP_CHANCE_MULTIPLIER * (prem ? PremiumSystemConfig.PREMIUM_RATE_SPOIL_CHANCE : 1f);
-		final float adenaBase = RatesConfig.RATE_DROP_AMOUNT_BY_ID.getOrDefault(ADENA, 1f);
-		final float adenaPrem = prem ? PremiumSystemConfig.PREMIUM_RATE_DROP_AMOUNT_BY_ID.getOrDefault(ADENA, 1f) : 1f;
-		final float adena = adenaBase * adenaPrem;
+		// Множители премиума (1, если премиум не активен).
+		final double pXp = prem ? PremiumSystemConfig.PREMIUM_RATE_XP : 1;
+		final double pSp = prem ? PremiumSystemConfig.PREMIUM_RATE_SP : 1;
+		final double pDropAmt = prem ? PremiumSystemConfig.PREMIUM_RATE_DROP_AMOUNT : 1;
+		final double pDropChance = prem ? PremiumSystemConfig.PREMIUM_RATE_DROP_CHANCE : 1;
+		final double pSpoil = prem ? PremiumSystemConfig.PREMIUM_RATE_SPOIL_CHANCE : 1;
+		final double pAdena = prem ? PremiumSystemConfig.PREMIUM_RATE_DROP_AMOUNT_BY_ID.getOrDefault(ADENA, 1f) : 1;
 
-		// Левая колонка: персонаж + сервер.
-		final StringBuilder left = new StringBuilder();
-		left.append(sectionHeader("Персонаж"));
-		left.append("<table width=250 border=0 cellpadding=1 cellspacing=0>");
-		left.append(miniRow("Имя", player.getName()));
-		left.append(miniRow("Класс", className(player)));
-		left.append(miniRow("Уровень", Integer.toString(player.getLevel())));
-		left.append(miniRow("Клан", clanName));
-		left.append(miniRow("PvP / PK", player.getPvpKills() + " / " + player.getPkKills()));
-		left.append(miniRow("Онлайн", onlineTime(player.getOnlineTimeMillis())));
-		left.append(miniRow("Адена", fmt(player.getAdena())));
-		left.append("</table>");
-		left.append(sectionHeader("Сервер"));
-		left.append("<table width=250 border=0 cellpadding=1 cellspacing=0>");
-		left.append(miniRow("Хроники", "Grand Crusade"));
-		left.append(miniRow("Онлайн", Integer.toString(World.getInstance().getPlayers().size())));
-		left.append(miniRow("Премиум", premStatusShort(player)));
-		left.append("</table>");
+		// Персональные бонусы игрока (руны, предметы, вайталити) — из статов.
+		final double bXp = player.getStat().getExpBonusMultiplier();
+		final double bSp = player.getStat().getSpBonusMultiplier();
+		final double bAdena = player.getStat().getValue(Stat.BONUS_DROP_ADENA, 1);
+		final double bDropAmt = player.getStat().getValue(Stat.BONUS_DROP_AMOUNT, 1);
+		final double bDropChance = player.getStat().getValue(Stat.BONUS_DROP_RATE, 1);
+		final double bSpoil = player.getStat().getValue(Stat.BONUS_SPOIL_RATE, 1);
 
-		// Правая колонка: рейты игрока (с учётом премиума).
-		final StringBuilder right = new StringBuilder();
-		right.append(sectionHeader("Ваши рейты" + (prem ? " (премиум)" : "")));
-		right.append("<table width=250 border=0 cellpadding=1 cellspacing=0>");
-		right.append(miniRate("Опыт (XP)", xp, prem && (PremiumSystemConfig.PREMIUM_RATE_XP > 1f)));
-		right.append(miniRate("Мастерство (SP)", sp, prem && (PremiumSystemConfig.PREMIUM_RATE_SP > 1f)));
-		right.append(miniRate("Адена", adena, prem && (adenaPrem > 1f)));
-		right.append(miniRate("Кол-во дропа", dropAmount, prem && (PremiumSystemConfig.PREMIUM_RATE_DROP_AMOUNT > 1f)));
-		right.append(miniRate("Шанс дропа", dropChance, prem && (PremiumSystemConfig.PREMIUM_RATE_DROP_CHANCE > 1f)));
-		right.append(miniRate("Шанс спойла", spoilChance, false));
-		right.append("</table>");
-		right.append("<br><font color=\"696969\">Значения учитывают ваш премиум-статус.</font>");
+		final double baseAdena = RatesConfig.RATE_DROP_AMOUNT_BY_ID.getOrDefault(ADENA, 1f);
 
-		final String body = "<table width=515 border=0 cellspacing=0 cellpadding=0><tr>"
-			+ "<td width=255 valign=top>" + left + "</td>"
-			+ "<td width=5></td>"
-			+ "<td width=255 valign=top>" + right + "</td>"
-			+ "</tr></table>";
+		final StringBuilder b = new StringBuilder();
+		// --- Персонаж и сервер (по 2 пары в строке) ---
+		b.append(sectionHeader("Персонаж"));
+		b.append("<table width=505 border=0 cellpadding=2 cellspacing=0>");
+		b.append(pairRow("Имя", player.getName(), "Класс", className(player)));
+		b.append(pairRow("Уровень", Integer.toString(player.getLevel()), "Клан", clanName));
+		b.append(pairRow("PvP / PK", player.getPvpKills() + " / " + player.getPkKills(), "Онлайн", onlineTime(player.getOnlineTimeMillis())));
+		b.append(pairRow("Адена", fmt(player.getAdena()), "Премиум", premStatusShort(player)));
+		b.append(pairRow("Хроники", "Grand Crusade", "Игроков", Integer.toString(World.getInstance().getPlayers().size())));
+		b.append("</table>");
+		b.append(divider());
+		// --- Рейты (База × Премиум × Бонус = Итог) ---
+		b.append(sectionHeader("Ваши рейты"));
+		b.append("<table width=505 border=0 cellpadding=2 cellspacing=0>");
+		b.append(rateHead());
+		b.append(rateFull("Опыт (XP)", RatesConfig.RATE_XP, pXp, bXp));
+		b.append(rateFull("Мастерство (SP)", RatesConfig.RATE_SP, pSp, bSp));
+		b.append(rateFull("Адена", baseAdena, pAdena, bAdena));
+		b.append(rateFull("Дроп (кол-во)", RatesConfig.RATE_DEATH_DROP_AMOUNT_MULTIPLIER, pDropAmt, bDropAmt));
+		b.append(rateFull("Дроп (шанс)", RatesConfig.RATE_DEATH_DROP_CHANCE_MULTIPLIER, pDropChance, bDropChance));
+		b.append(rateFull("Спойл (шанс)", RatesConfig.RATE_SPOIL_DROP_CHANCE_MULTIPLIER, pSpoil, bSpoil));
+		b.append("</table>");
+		b.append("<br1><font color=\"696969\">Бонус — множитель от рун, предметов и вайталити. Итог = база \u00d7 премиум \u00d7 бонус.</font>");
 
-		return wrap("ИНФОРМАЦИЯ", "Сведения о персонаже, сервере и ваших рейтах", body,
+		return wrap("ИНФОРМАЦИЯ", "Персонаж, сервер и ваши персональные рейты", b.toString(),
 			"<font color=\"696969\">Lineage II \u2022 Grand Crusade</font>");
 	}
 
@@ -310,32 +305,59 @@ public class ServiceBoard implements IParseBoardHandler
 	{
 		final Clan clan = player.getClan();
 		final StringBuilder b = new StringBuilder();
-		b.append(sectionHeader("Личный склад"));
-		b.append("<table border=0 cellpadding=4 cellspacing=0><tr>");
-		b.append(whBtn("Положить предметы", "_bbswhpd"));
-		b.append(whBtn("Забрать предметы", "_bbswhpw"));
-		b.append("</tr></table>");
-		b.append(divider());
-		b.append(sectionHeader("Клановый склад"));
+
+		// --- Личный склад ---
+		b.append(whCard(
+			"ЛИЧНЫЙ СКЛАД",
+			"Личное хранилище. Предметов на складе: <font color=\"F0F0F0\">" + player.getWarehouse().getSize() + "</font>",
+			whBtn("Положить предметы", "_bbswhpd") + whBtn("Забрать предметы", "_bbswhpw")));
+
+		b.append("<br><center><img src=\"L2UI.SquareGray\" width=505 height=1></center><br>");
+
+		// --- Клановый склад ---
 		if (clan == null)
 		{
-			b.append("<br><font color=\"808A99\">Вы не состоите в клане.</font><br>");
+			b.append(whCard("КЛАНОВЫЙ СКЛАД",
+				"<font color=\"808A99\">Доступен только участникам клана.<br1>Вы не состоите в клане.</font>", ""));
 		}
 		else if (clan.getLevel() < 1)
 		{
-			b.append("<br><font color=\"808A99\">Клан должен быть 1 уровня или выше.</font><br>");
+			b.append(whCard("КЛАНОВЫЙ СКЛАД",
+				"<font color=\"808A99\">Клан «" + clan.getName() + "» должен быть 1 уровня или выше.</font>", ""));
 		}
 		else
 		{
-			b.append("<table border=0 cellpadding=4 cellspacing=0><tr>");
-			b.append(whBtn("Положить в клан-склад", "_bbswhcd"));
-			b.append(whBtn("Забрать из клан-склада", "_bbswhcw"));
-			b.append("</tr></table>");
-			b.append("<br><font color=\"696969\">Забирать со склада клана могут только участники с правом доступа.</font>");
+			final boolean canWithdraw = player.hasAccess(ClanAccess.ACCESS_WAREHOUSE);
+			String buttons = whBtn("Положить предметы", "_bbswhcd");
+			buttons += canWithdraw ? whBtn("Забрать предметы", "_bbswhcw") : whBtnDisabled("Нет доступа");
+			String desc = "Клан: <font color=\"F0F0F0\">" + clan.getName() + "</font>. Предметов: <font color=\"F0F0F0\">" + clan.getWarehouse().getSize() + "</font>";
+			if (!canWithdraw)
+			{
+				desc += "<br1><font color=\"696969\">Забирать предметы могут только участники с правом доступа к складу.</font>";
+			}
+			b.append(whCard("КЛАНОВЫЙ СКЛАД", desc, buttons));
 		}
 
 		return wrap("СКЛАД", "Быстрый доступ к личному и клановому складу", b.toString(),
 			"<font color=\"696969\">Lineage II \u2022 Grand Crusade</font>");
+	}
+
+	/** Карточка склада: крупный заголовок + описание + ряд кнопок по центру. */
+	private static String whCard(String title, String desc, String buttons)
+	{
+		final StringBuilder c = new StringBuilder();
+		c.append("<br><font name=\"hs12\" color=\"CDB67F\">").append(title).append("</font><br>");
+		c.append("<br1><font color=\"9AA4B0\">").append(desc).append("</font><br>");
+		if ((buttons != null) && !buttons.isEmpty())
+		{
+			c.append("<br><table border=0 cellpadding=4 cellspacing=0><tr>").append(buttons).append("</tr></table>");
+		}
+		return c.toString();
+	}
+
+	private static String whBtnDisabled(String label)
+	{
+		return "<td align=center><button value=\"" + label + "\" action=\"bypass _bbswh\" width=210 height=30 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF_Down\"></td>";
 	}
 
 	private void openPrivate(Player player, boolean deposit)
@@ -441,15 +463,39 @@ public class ServiceBoard implements IParseBoardHandler
 			+ "<td width=280 align=left><font color=\"F0F0F0\">" + value + "</font></td></tr>";
 	}
 
-	private static String miniRow(String label, String value)
+	private static String pairRow(String l1, String v1, String l2, String v2)
 	{
-		return "<tr><td><font color=\"B0A070\">" + label + ":</font> <font color=\"F0F0F0\">" + value + "</font></td></tr>";
+		return "<tr>"
+			+ "<td width=105 align=right><font color=\"B0A070\">" + l1 + ":&nbsp;</font></td>"
+			+ "<td width=150 align=left><font color=\"F0F0F0\">" + v1 + "</font></td>"
+			+ "<td width=100 align=right><font color=\"B0A070\">" + l2 + ":&nbsp;</font></td>"
+			+ "<td width=150 align=left><font color=\"F0F0F0\">" + v2 + "</font></td>"
+			+ "</tr>";
 	}
 
-	private static String miniRate(String label, float value, boolean boosted)
+	private static String rateHead()
 	{
-		final String col = boosted ? "70FFCA" : "F0F0F0";
-		return "<tr><td><font color=\"B0A070\">" + label + ":</font> <font color=\"" + col + "\">x" + rate(value) + "</font></td></tr>";
+		return "<tr>"
+			+ "<td width=145><font color=\"808A99\">Показатель</font></td>"
+			+ "<td width=90 align=center><font color=\"808A99\">База</font></td>"
+			+ "<td width=90 align=center><font color=\"808A99\">Премиум</font></td>"
+			+ "<td width=90 align=center><font color=\"808A99\">Бонус</font></td>"
+			+ "<td width=90 align=center><font color=\"808A99\">Итог</font></td>"
+			+ "</tr>";
+	}
+
+	private static String rateFull(String label, double base, double prem, double bonus)
+	{
+		final double total = base * prem * bonus;
+		final String premCell = (prem > 1.0001) ? "<font color=\"70FFCA\">x" + rateD(prem) + "</font>" : "<font color=\"696969\">\u2014</font>";
+		final String bonusCell = (bonus > 1.0001) ? "<font color=\"70FFCA\">x" + rateD(bonus) + "</font>" : "<font color=\"696969\">\u2014</font>";
+		return "<tr>"
+			+ "<td width=145><font color=\"B0A070\">" + label + "</font></td>"
+			+ "<td width=90 align=center><font color=\"9AA4B0\">x" + rateD(base) + "</font></td>"
+			+ "<td width=90 align=center>" + premCell + "</td>"
+			+ "<td width=90 align=center>" + bonusCell + "</td>"
+			+ "<td width=90 align=center><font color=\"CDB67F\">x" + rateD(total) + "</font></td>"
+			+ "</tr>";
 	}
 
 	private static String bonusRow(String label, float normal, float premium)
@@ -484,6 +530,20 @@ public class ServiceBoard implements IParseBoardHandler
 			return Integer.toString((int) v);
 		}
 		return String.format(java.util.Locale.US, "%.1f", v);
+	}
+
+	private static String rateD(double v)
+	{
+		if (Math.abs(v - Math.rint(v)) < 0.001)
+		{
+			return Integer.toString((int) Math.rint(v));
+		}
+		String s = String.format(java.util.Locale.US, "%.2f", v);
+		if (s.endsWith("0"))
+		{
+			s = s.substring(0, s.length() - 1);
+		}
+		return s;
 	}
 
 	private static String fmt(long value)
