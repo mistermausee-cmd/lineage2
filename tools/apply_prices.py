@@ -60,32 +60,32 @@ def sc(v):  # применить вариант-масштаб к «прести
 
 def price_weapon_full(pid):
     g = grade(pid)
-    return {"R": sc(120*M), "R95": sc(400*M), "R99": sc(1200*M)}.get(g, sc(120*M))
+    return {"R": sc(150*M), "R95": sc(500*M), "R99": sc(1500*M)}.get(g, sc(150*M))
 
-def price_weapon_blessed(pid):  # апгрейд
+def price_weapon_blessed(pid):  # апгрейд (доплата)
     g = grade(pid)
-    return {"R": sc(80*M), "R95": sc(250*M), "R99": sc(700*M)}.get(g, sc(120*M))
+    return {"R": sc(100*M), "R95": sc(300*M), "R99": sc(800*M)}.get(g, sc(150*M))
 
-def price_weapon_bloody(pid, up):  # 600062 Bloody Amaranthine R99
-    return sc(700*M) if up else sc(1500*M)
+def price_weapon_bloody(pid, up):  # 600062 Bloody Amaranthine R99 (PVE)
+    return sc(900*M) if up else sc(2000*M)
 
 def armor_set_price(pid, n):
     g = grade(pid)
-    if "Immortal" in n: return sc(15*M)
-    if "Twilight" in n: return sc(30*M)
-    if "Seraph" in n:   return sc(120*M)
-    if "Eternal" in n:  return sc(350*M)
-    return {"R": sc(30*M), "R95": sc(120*M), "R99": sc(350*M)}.get(g, sc(50*M))
+    if "Immortal" in n: return sc(20*M)
+    if "Twilight" in n: return sc(40*M)
+    if "Seraph" in n:   return sc(150*M)
+    if "Eternal" in n:  return sc(450*M)
+    return {"R": sc(40*M), "R95": sc(150*M), "R99": sc(450*M)}.get(g, sc(60*M))
 
-def armor_blessed_price(pid, n):  # апгрейд 600064
-    if "Immortal" in n or "Twilight" in n: return sc(20*M)
-    if "Seraph" in n: return sc(80*M)
-    if "Eternal" in n: return sc(250*M)
-    return sc(80*M)
+def armor_blessed_price(pid, n):  # апгрейд 600064 (доплата за часть)
+    if "Immortal" in n or "Twilight" in n: return sc(25*M)
+    if "Seraph" in n: return sc(100*M)
+    if "Eternal" in n: return sc(300*M)
+    return sc(100*M)
 
-def price_transcendent(mid, up):
+def price_transcendent(mid, up):  # Запредельный Lv.1-6 (доплата за часть)
     lv = {600066:1,600067:2,600068:3,600069:4,600070:5,600071:6}[mid]
-    base = {1:500*M, 2:800*M, 3:1200*M, 4:1800*M, 5:2600*M, 6:4000*M}[lv]
+    base = {1:600*M, 2:1000*M, 3:1500*M, 4:2200*M, 5:3200*M, 6:5000*M}[lv]
     return sc(base)
 
 def price_leveling(mid, pid):
@@ -99,19 +99,23 @@ def price_leveling(mid, pid):
     return round_nice(tbl[0] if is_w else tbl[1])  # прокачка НЕ масштабируется вариантом
 
 def price_epic(pid, up, n):
-    # цепочки богов (…Ур.N / Stage N)
-    if re.search(r"Ур\.\d", n) or re.search(r"Stage", n):
-        return sc(1000*M) if not up else sc(400*M)
-    if up:  # soul/blessed/immortal апгрейд классической эпики
+    it = INDEX.get(pid); npc = it["price"] if it else 0
+    # 1) Цепочки богов (Einhasad/GranKain/Paagrio/Eva/Sayha/Maphr — Stage/Ур.N) — премиум-тир
+    if re.search(r"Ур\.\d", n) or re.search(r"Stage", n) or re.search(r"-Stage", n):
+        return sc(700*M) if not up else sc(350*M)
+    # 2) Апгрейды классической эпики (Души/Благословенная/Бессмертная), кроме модерна
+    if up:
         return sc(750*M)
-    # полная покупка — тир по имени (RU+EN)
-    t2 = ["Баюма","Антараса","Валакаса","Фреи","Линдвиора","Таути",
-          "Baium","Antharas","Valakas","Freya","Lindvior","Tauti"]
-    t3 = ["Лилит","Начала","Власти","Истины","Властного","Искателя","Истхины","Октависа",
-          "Lilith","Ring of Insolence","Ring of Authority","Ring of Truth","Istina","Octavis"]
-    if any(k in n for k in t3): return sc(1500*M)
-    if any(k in n for k in t2): return sc(1000*M)
-    return sc(600*M)  # tier1: Ядра/Белефа/Закена/Фринтезы/КоролевыМуравьев/Орфен/Байлора/ЗемлЧервя
+    # 3) Модерн R-бижа (Истина/Октавис/Ring of Truth/Authority/Creation/Tauti/Lindvior) —
+    #    у неё реальная NPC-цена R-грейда; якорим цену к ней (×4, пол 250M)
+    if npc >= 30*M:
+        return max(sc(round_nice(npc * 4)), sc(250*M))
+    # 4) Классические грандбосс-эпики (низкая NPC, но культовые скиллы) — по престижу
+    top = ["Baium","Antharas","Valakas","Freya","Zaken","Frintezza",
+           "Queen Ant","Orfen","Baium's","Тиара"]
+    if any(k in n for k in top):
+        return sc(1000*M)
+    return sc(600*M)  # прочая классика: Core/Beleth/Baylor/Earthworm/Tauti(деш. NPC)
 
 def price_brooch(pid, up):
     m = {38766:300*M, 38767:700*M, 38768:1300*M, 26474:2200*M,
@@ -125,12 +129,26 @@ def price_brooch_stone(pid, up, n):
     return sc({1:80*M,2:120*M,3:200*M,4:350*M,5:550*M}.get(lv, 80*M))
 
 def price_talisman(pid, up, n):
-    if "Семи Печатей" in n or "Seven Signs" in n: return sc(300*M)
-    if any(k in n for k in ["Анаким","Лилит","Anakim","Lilith"]): return sc(150*M)
-    if any(k in n for k in ["Сайха","Бенира","Изобилия","Sayha","Benira","Abundance"]):
-        return round_nice(15*M)          # длинные цепочки — дёшево за шаг
-    if up: return round_nice(40*M)        # Бессмертия→…→Позолоченного
-    return round_nice(50*M)
+    pid_i = int(pid)
+    # --- СТАРТ / временные / событийные — дёшево ---
+    if any(k in n for k in ["Christmas","Новогодн","Обычный","Все Параметры","7 дней"]) \
+       or pid_i == 17061:
+        return round_nice(10*M)
+    # --- одиночные стат-талисманы (СИЛ/ИНТ/ЛВК/МДР, PC-exclusive) ---
+    if "Commendation" in n or pid_i in (46039,46040,46041,46042):
+        return round_nice(30*M)
+    # --- ПРЕМИУМ одиночные ---
+    if "Seven Signs" in n or "Семи Печатей" in n: return sc(400*M)
+    if any(k in n for k in ["Anakim","Lilith","Анаким","Лилит"]): return sc(150*M)
+    if "Insanity" in n or "Позолоченного" in n: return sc(400*M)   # финал Infinity-цепи
+    # --- ЦЕПОЧКИ ---
+    if "Venir" in n or "Бенир" in n: return round_nice(20*M)       # 24 стадии → средне за шаг
+    if "Abundance" in n or "Изобил" in n: return round_nice(20*M)
+    if "Sayha" in n or "Сайха" in n:                                # 10 стадий, мощный конец
+        return round_nice(35*M) if up else round_nice(30*M)
+    if "Infinity" in n or "Бессмерт" in n or "Talisman -" in n or up:  # Infinity→…→Insanity
+        return round_nice(100*M) if up else round_nice(50*M)
+    return round_nice(40*M)
 
 def price_bracelet(pid, up):
     return round_nice(60*M) if up else round_nice(50*M)
@@ -151,13 +169,22 @@ def price_enchant_scroll(pid, n):
     return round_nice(30*M)  # плащ/футболка/диадема
 
 def price_hat(pid, up, n):
+    # Сначала расходка: камни аугмента/духа/жизни и свитки модификации
+    if "Свиток" in n or "Scroll" in n: return round_nice(40*M)   # свиток модификации диадемы
+    if "Камень" in n or "Stone" in n:  return round_nice(100*M)  # камни духа/жизни/аугмента
+    # Диадемы (Circlet of Power) — ТОП-PvE хедгир: база→Драгоценная(Noble)→Радужная(Radiant)
     if "Диадема" in n or "Диадему" in n:
-        if "Радужная" in n: return sc(400*M)
-        if "Драгоценная" in n: return sc(250*M)
-        if "Свиток" in n: return round_nice(30*M)
-        return sc(150*M)
-    if "Камень" in n: return round_nice(100*M)
-    return round_nice(30*M)  # обычные шапки/нимбы
+        if "Радужная" in n: return sc(700*M)
+        if "Драгоценная" in n: return sc(400*M)
+        return sc(200*M)                               # базовая диадема
+    return round_nice(30*M)                            # обычные шапки/нимбы/венцы
+
+def price_cloak(pid, up, n):
+    # Плащи (600025). Легендарные (заточка +20, слоты аугмента) — эндгейм; база/прямые — ниже.
+    if "Legendary" in n or "Легендарн" in n: return sc(600*M)
+    if "Камень Духа" in n or "Spirit Stone" in n: return sc(150*M)   # камни эффектов плаща
+    if "Radiant" in n or "Ослепительн" in n or "Холодной" in n: return sc(400*M)  # Сияющие (-15% урон)
+    return sc(250*M)                                   # прочие прямые плащи + база цепочек
 
 def price_flat(v):
     return round_nice(v)
@@ -169,7 +196,7 @@ def compute_price(mid, pid, up, n):
     if mid == 600062: return price_weapon_bloody(pid, up)
     if mid == 600063: return armor_set_price(pid, n)
     if mid == 600064: return armor_blessed_price(pid, n)
-    if mid == 600065: return sc(500*M)                       # Bloody Eternal/часть
+    if mid == 600065: return sc(650*M)                       # Bloody Eternal/часть (PVE R99)
     if mid in (600066,600067,600068,600069,600070,600071): return price_transcendent(mid, up)
     if mid in (600052,600053,600054,600055): return price_leveling(mid, pid)
     if mid == 600030: return price_epic(pid, up, n)
@@ -182,7 +209,7 @@ def compute_price(mid, pid, up, n):
     if mid == 600033: return round_nice(200*M) if "Certificate" in n else round_nice(100*M)
     if mid == 600034: return price_hat(pid, up, n)
     if mid == 600100: return price_enchant_scroll(pid, n)
-    if mid == 600101: return round_nice(100*M)               # камни духа
+    if mid == 600101: return round_nice(150*M)               # камни духа/аугмента (плащ/бижа/диадема)
     if mid == 600102: return round_nice(200*M if "15" in n else 150*M)  # кристаллы души
     if mid == 600011: return round_nice(3*M)                 # 5000 зарядов/шотов
     if mid == 600041:                                        # мат-лы драк.пушек
@@ -196,7 +223,7 @@ def compute_price(mid, pid, up, n):
     if mid == 600043: return round_nice(50*M)                # руны опыта
     if mid in (600108,600109,600110,600111): return round_nice(20*M)  # внешний вид
     if mid == 600047: return round_nice(20*M)                # рубашки
-    if mid == 600025: return sc(150*M)                       # плащи
+    if mid == 600025: return price_cloak(pid, up, n)         # плащи
     if mid == 600026: return sc(100*M)                       # пояса
     if mid == 600035: return round_nice(2*M)                 # бакалея/расходники
     if mid == 600057: return round_nice(1*M)                 # клан
