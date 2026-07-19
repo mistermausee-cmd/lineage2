@@ -160,13 +160,17 @@ public class ServiceBoard implements IParseBoardHandler
 		final double pSpoil = prem ? PremiumSystemConfig.PREMIUM_RATE_SPOIL_CHANCE : 1;
 		final double pAdena = prem ? PremiumSystemConfig.PREMIUM_RATE_DROP_AMOUNT_BY_ID.getOrDefault(ADENA, 1f) : 1;
 
-		// Персональные бонусы игрока (руны, предметы, вайталити) — из статов.
-		final double bXp = player.getStat().getExpBonusMultiplier();
-		final double bSp = player.getStat().getSpBonusMultiplier();
+		// Персональные бонусы игрока от рун/предметов (БЕЗ вайталити — оно временное).
+		// В игре: итоговый опыт = RATE_XP * премиум * getExpBonusMultiplier(),
+		// где getExpBonusMultiplier() = вайталити * (BONUS_EXP/100). Здесь берём только
+		// постоянную часть (BONUS_EXP), а вайталити показываем отдельной строкой.
+		final double bXp = player.getStat().getValue(Stat.BONUS_EXP, 100) / 100.0;
+		final double bSp = player.getStat().getValue(Stat.BONUS_SP, 100) / 100.0;
 		final double bAdena = player.getStat().getValue(Stat.BONUS_DROP_ADENA, 1);
 		final double bDropAmt = player.getStat().getValue(Stat.BONUS_DROP_AMOUNT, 1);
 		final double bDropChance = player.getStat().getValue(Stat.BONUS_DROP_RATE, 1);
 		final double bSpoil = player.getStat().getValue(Stat.BONUS_SPOIL_RATE, 1);
+		final double vit = player.getStat().getVitalityExpBonus(); // временный множитель опыта
 
 		final double baseAdena = RatesConfig.RATE_DROP_AMOUNT_BY_ID.getOrDefault(ADENA, 1f);
 
@@ -192,7 +196,15 @@ public class ServiceBoard implements IParseBoardHandler
 		b.append(rateFull("Дроп (шанс)", RatesConfig.RATE_DEATH_DROP_CHANCE_MULTIPLIER, pDropChance, bDropChance));
 		b.append(rateFull("Спойл (шанс)", RatesConfig.RATE_SPOIL_DROP_CHANCE_MULTIPLIER, pSpoil, bSpoil));
 		b.append("</table>");
-		b.append("<br1><font color=\"696969\">Бонус — множитель от рун, предметов и вайталити. Итог = база \u00d7 премиум \u00d7 бонус.</font>");
+		final StringBuilder note = new StringBuilder();
+		note.append("<table width=505 border=0 cellpadding=0 cellspacing=0><tr><td height=6></td></tr>");
+		if (vit > 1.01)
+		{
+			note.append("<tr><td align=center><font color=\"70FFCA\">+ Вайталити (временно): опыт \u00d7").append(rateD(vit)).append("</font></td></tr>");
+		}
+		note.append("<tr><td align=center><font color=\"696969\">Итог = база \u00d7 премиум \u00d7 бонус (руны и предметы).</font></td></tr>");
+		note.append("</table>");
+		b.append(note);
 
 		return wrap("ИНФОРМАЦИЯ", "Персонаж, сервер и ваши персональные рейты", b.toString(),
 			"<font color=\"696969\">Lineage II \u2022 Grand Crusade</font>");
@@ -342,16 +354,23 @@ public class ServiceBoard implements IParseBoardHandler
 			"<font color=\"696969\">Lineage II \u2022 Grand Crusade</font>");
 	}
 
-	/** Карточка склада: крупный заголовок + описание + ряд кнопок по центру. */
+	/** Карточка склада: крупный заголовок + описание + ряд кнопок. Всё в таблице
+	 *  с явными высотами строк — кнопки и текст не накладываются. */
 	private static String whCard(String title, String desc, String buttons)
 	{
 		final StringBuilder c = new StringBuilder();
-		c.append("<br><font name=\"hs12\" color=\"CDB67F\">").append(title).append("</font><br>");
-		c.append("<br1><font color=\"9AA4B0\">").append(desc).append("</font><br>");
+		c.append("<table width=505 border=0 cellpadding=0 cellspacing=0>");
+		c.append("<tr><td height=12></td></tr>");
+		c.append("<tr><td height=24 align=center><font name=\"hs12\" color=\"CDB67F\">").append(title).append("</font></td></tr>");
+		c.append("<tr><td height=6></td></tr>");
+		c.append("<tr><td align=center><font color=\"9AA4B0\">").append(desc).append("</font></td></tr>");
 		if ((buttons != null) && !buttons.isEmpty())
 		{
-			c.append("<br><table border=0 cellpadding=4 cellspacing=0><tr>").append(buttons).append("</tr></table>");
+			c.append("<tr><td height=12></td></tr>");
+			c.append("<tr><td align=center><table border=0 cellpadding=4 cellspacing=0><tr>").append(buttons).append("</tr></table></td></tr>");
 		}
+		c.append("<tr><td height=6></td></tr>");
+		c.append("</table>");
 		return c.toString();
 	}
 
@@ -449,12 +468,19 @@ public class ServiceBoard implements IParseBoardHandler
 
 	private static String sectionHeader(String text)
 	{
-		return "<br><font name=\"hs10\" color=\"CDB67F\">" + text + "</font><br>";
+		// Заголовок в ячейке с явной высотой — крупный шрифт не наезжает на соседние строки.
+		return "<table width=505 border=0 cellpadding=0 cellspacing=0>"
+			+ "<tr><td height=8></td></tr>"
+			+ "<tr><td height=20 align=left><font name=\"hs10\" color=\"CDB67F\">&nbsp;" + text + "</font></td></tr>"
+			+ "<tr><td height=2></td></tr></table>";
 	}
 
 	private static String divider()
 	{
-		return "<br><img src=\"L2UI.SquareGray\" width=460 height=1><br>";
+		return "<table width=505 border=0 cellpadding=0 cellspacing=0>"
+			+ "<tr><td height=6></td></tr>"
+			+ "<tr><td align=center><img src=\"L2UI.SquareGray\" width=470 height=1></td></tr>"
+			+ "<tr><td height=6></td></tr></table>";
 	}
 
 	private static String row(String label, String value)
