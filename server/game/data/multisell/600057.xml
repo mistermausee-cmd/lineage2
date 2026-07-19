@@ -3,20 +3,38 @@
 	<npcs>
 		<npc>-1</npc>
 	</npcs>
+	<!-- ============================================================= -->
+	<!-- Предметы для повышения уровня клана у ClanMaster (NPC 9000).   -->
+	<!-- Требования из ядра (Clan.levelUpClan):                        -->
+	<!--   Ур.3 -> Proof of Blood (1419) x1                            -->
+	<!--   Ур.4 -> Proof of Alliance (3874) x1                         -->
+	<!--   Ур.5 -> Proof of Aspiration (3870) x1                       -->
+	<!--   Ур.9 -> Blood Oath (9910) x150                              -->
+	<!--   Ур.10 -> Blood Alliance (9911) x5                           -->
+	<!-- Knight's Epaulette (9912) — обмен на репутацию клана.         -->
+	<!-- ============================================================= -->
 	<item>
 		<ingredient id="57" count="1000000" />
-		<production id="9910" count="1" /> <!-- Blood Oath -->
+		<production id="1419" count="1" /> <!-- Proof of Blood (ап клана Ур.3) -->
 	</item>
 	<item>
 		<ingredient id="57" count="1000000" />
-		<production id="9911" count="1" /> <!-- Blood Alliance -->
+		<production id="3874" count="1" /> <!-- Proof of Alliance (ап клана Ур.4) -->
 	</item>
 	<item>
 		<ingredient id="57" count="1000000" />
-		<production id="9912" count="1" /> <!-- Knight's Epaulette -->
+		<production id="3870" count="1" /> <!-- Proof of Aspiration (ап клана Ур.5) -->
 	</item>
 	<item>
 		<ingredient id="57" count="1000000" />
-		<production id="1419" count="1" /> <!-- Proof of Blood -->
+		<production id="9910" count="1" /> <!-- Blood Oath (ап клана Ур.9, нужно 150) -->
+	</item>
+	<item>
+		<ingredient id="57" count="1000000" />
+		<production id="9911" count="1" /> <!-- Blood Alliance (ап клана Ур.10, нужно 5) -->
+	</item>
+	<item>
+		<ingredient id="57" count="1000000" />
+		<production id="9912" count="1" /> <!-- Knight's Epaulette (репутация клана) -->
 	</item>
 </list>
