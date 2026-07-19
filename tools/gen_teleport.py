@@ -234,6 +234,10 @@ def home_btn(label, w=250, h=30):
     return (f'<button value="{label}" action="bypass _bbstop;home.html" '
             f'width={w} height={h} back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">')
 
+def raw_btn(label, bypass, w=250, h=30):
+    return (f'<button value="{label}" action="bypass {bypass}" '
+            f'width={w} height={h} back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">')
+
 def grid(cells, cols):
     out = ['\t\t\t\t\t\t\t\t<table border=0 cellpadding=2 cellspacing=2>']
     for i in range(0, len(cells), cols):
@@ -266,6 +270,7 @@ def gen():
         nav_btn("\u0424\u0430\u0440\u043c: 99+ \u0443\u0440.", "farm_high.html"),
         nav_btn("\u0420\u0435\u0439\u0434-\u0431\u043e\u0441\u0441\u044b", "raids1.html"),
         nav_btn("\u0413\u0440\u0430\u043d\u0434-\u0431\u043e\u0441\u0441\u044b", "grandboss.html"),
+        raw_btn("\u041c\u043e\u0439 \u0442\u0435\u043b\u0435\u043f\u043e\u0440\u0442", "_bbsmytp"),
         home_btn("\u0413\u043b\u0430\u0432\u043d\u0430\u044f"),
     ]
     hub_inner = grid(hub_cells, 2)

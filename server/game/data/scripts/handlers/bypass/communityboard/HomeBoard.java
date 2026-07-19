@@ -198,7 +198,9 @@ public class HomeBoard implements IParseBoardHandler
 		else if (command.startsWith("_bbsteleport"))
 		{
 			final String teleBuypass = command.replace("_bbsteleport;", "");
-			if (player.getInventory().getInventoryItemCount(CommunityBoardConfig.COMMUNITYBOARD_CURRENCY, -1) < CommunityBoardConfig.COMMUNITYBOARD_TELEPORT_PRICE)
+			// Телепорты бесплатны до 99 уровня включительно, после - 100.000 адены.
+			final long teleportPrice = (player.getLevel() > 99) ? 100000 : 0;
+			if (player.getInventory().getInventoryItemCount(CommunityBoardConfig.COMMUNITYBOARD_CURRENCY, -1) < teleportPrice)
 			{
 				player.sendMessage("Not enough currency!");
 			}
@@ -206,7 +208,10 @@ public class HomeBoard implements IParseBoardHandler
 			{
 				player.disableAllSkills();
 				player.sendPacket(new ShowBoard());
-				player.destroyItemByItemId(ItemProcessType.FEE, CommunityBoardConfig.COMMUNITYBOARD_CURRENCY, CommunityBoardConfig.COMMUNITYBOARD_TELEPORT_PRICE, player, true);
+				if (teleportPrice > 0)
+				{
+					player.destroyItemByItemId(ItemProcessType.FEE, CommunityBoardConfig.COMMUNITYBOARD_CURRENCY, teleportPrice, player, true);
+				}
 				player.setInstanceById(0);
 				player.teleToLocation(CommunityBoardConfig.COMMUNITY_AVAILABLE_TELEPORTS.get(teleBuypass), 0);
 				ThreadPool.schedule(player::enableAllSkills, 3000);
