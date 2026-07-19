@@ -104,6 +104,7 @@ import handlers.bypass.communityboard.MailBoard;
 import handlers.bypass.communityboard.MemoBoard;
 import handlers.bypass.communityboard.MyTeleportBoard;
 import handlers.bypass.communityboard.RegionBoard;
+import handlers.bypass.communityboard.ServiceBoard;
 import handlers.bypass.npc.Augment;
 import handlers.bypass.npc.Buy;
 import handlers.bypass.npc.ChatLink;
@@ -519,6 +520,7 @@ public class MasterHandler
 			MailBoard.class,
 			MemoBoard.class,
 			MyTeleportBoard.class,
+			ServiceBoard.class,
 			RegionBoard.class,
 			DropSearchBoard.class,
 		},

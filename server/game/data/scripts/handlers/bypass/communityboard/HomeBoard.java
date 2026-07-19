@@ -23,12 +23,10 @@ package handlers.bypass.communityboard;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
-import java.util.concurrent.TimeUnit;
 import java.util.function.BiPredicate;
 import java.util.function.Predicate;
 
@@ -36,7 +34,6 @@ import org.l2jmobius.commons.database.DatabaseFactory;
 import org.l2jmobius.commons.threads.ThreadPool;
 import org.l2jmobius.gameserver.cache.HtmCache;
 import org.l2jmobius.gameserver.config.custom.CommunityBoardConfig;
-import org.l2jmobius.gameserver.config.custom.PremiumSystemConfig;
 import org.l2jmobius.gameserver.data.sql.ClanTable;
 import org.l2jmobius.gameserver.data.xml.BuyListData;
 import org.l2jmobius.gameserver.data.xml.ExperienceData;
@@ -45,8 +42,6 @@ import org.l2jmobius.gameserver.data.xml.SkillData;
 import org.l2jmobius.gameserver.data.xml.SkillTreeData;
 import org.l2jmobius.gameserver.handler.CommunityBoardHandler;
 import org.l2jmobius.gameserver.handler.IParseBoardHandler;
-import org.l2jmobius.gameserver.managers.PcCafePointsManager;
-import org.l2jmobius.gameserver.managers.PremiumManager;
 import org.l2jmobius.gameserver.model.actor.Creature;
 import org.l2jmobius.gameserver.model.actor.Player;
 import org.l2jmobius.gameserver.model.actor.Summon;
@@ -79,7 +74,8 @@ public class HomeBoard implements IParseBoardHandler
 	
 	private static final String[] CUSTOM_COMMANDS =
 	{
-		PremiumSystemConfig.PREMIUM_SYSTEM_ENABLED && CommunityBoardConfig.COMMUNITY_PREMIUM_SYSTEM_ENABLED ? "_bbspremium" : null,
+		// _bbspremium теперь обрабатывается в ServiceBoard (вкладка «Премиум»)
+		null,
 		CommunityBoardConfig.COMMUNITYBOARD_ENABLE_MULTISELLS ? "_bbsexcmultisell" : null,
 		CommunityBoardConfig.COMMUNITYBOARD_ENABLE_MULTISELLS ? "_bbsmultisell" : null,
 		CommunityBoardConfig.COMMUNITYBOARD_ENABLE_MULTISELLS ? "_bbssell" : null,
@@ -352,29 +348,7 @@ public class HomeBoard implements IParseBoardHandler
 				player.sendMessage("Your level is set to " + newLevel + "!");
 			}
 		}
-		else if (command.startsWith("_bbspremium"))
-		{
-			final String fullBypass = command.replace("_bbspremium;", "");
-			final String[] buypassOptions = fullBypass.split(",");
-			final int premiumDays = Integer.parseInt(buypassOptions[0]);
-			if ((premiumDays < 1) || (premiumDays > 30) || (player.getInventory().getInventoryItemCount(CommunityBoardConfig.COMMUNITY_PREMIUM_COIN_ID, -1) < (CommunityBoardConfig.COMMUNITY_PREMIUM_PRICE_PER_DAY * premiumDays)))
-			{
-				player.sendMessage("Not enough currency!");
-			}
-			else
-			{
-				player.destroyItemByItemId(ItemProcessType.FEE, CommunityBoardConfig.COMMUNITY_PREMIUM_COIN_ID, CommunityBoardConfig.COMMUNITY_PREMIUM_PRICE_PER_DAY * premiumDays, player, true);
-				PremiumManager.getInstance().addPremiumTime(player.getAccountName(), premiumDays, TimeUnit.DAYS);
-				player.sendMessage("Your account will now have premium status until " + new SimpleDateFormat("dd.MM.yyyy HH:mm").format(PremiumManager.getInstance().getPremiumExpiration(player.getAccountName())) + ".");
-				if (PremiumSystemConfig.PC_CAFE_RETAIL_LIKE)
-				{
-					PcCafePointsManager.getInstance().run(player);
-				}
-				
-				returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/premium/thankyou.html");
-			}
-		}
-		
+
 		if (returnHtml != null)
 		{
 			if (CommunityBoardConfig.CUSTOM_CB_ENABLED)
