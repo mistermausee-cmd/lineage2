@@ -54,7 +54,7 @@ public class MyTeleportBoard implements IParseBoardHandler
 	// Стоимость создания метки и телепорта.
 	private static final long MARK_PRICE = 1_000_000;
 	private static final long TELEPORT_HIGH_PRICE = 100_000;
-	private static final int MAX_MARKS = 12;
+	private static final int MAX_MARKS = 10;
 	private static final int NAME_MAX_LEN = 24;
 
 	// SQL
@@ -179,16 +179,16 @@ public class MyTeleportBoard implements IParseBoardHandler
 		}
 		else
 		{
-			sb.append("<table border=0 cellpadding=2 cellspacing=2 width=515>");
+			sb.append("<table border=0 cellpadding=1 cellspacing=2 width=515>");
 			for (int i = 0; i < ids.size(); i++)
 			{
 				final int markId = ids.get(i)[0];
 				final String name = names.get(i);
 				sb.append("<tr>");
 				sb.append("<td align=center><button value=\"").append(name).append("\" action=\"bypass _bbstpgo;").append(markId);
-				sb.append("\" width=380 height=27 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></td>");
+				sb.append("\" width=390 height=25 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></td>");
 				sb.append("<td align=center><button value=\"Удалить\" action=\"bypass _bbstpdel;").append(markId);
-				sb.append("\" width=110 height=27 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></td>");
+				sb.append("\" width=105 height=25 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></td>");
 				sb.append("</tr>");
 			}
 			sb.append("</table>");

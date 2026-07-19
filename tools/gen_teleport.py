@@ -238,6 +238,29 @@ def raw_btn(label, bypass, w=250, h=30):
     return (f'<button value="{label}" action="bypass {bypass}" '
             f'width={w} height={h} back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">')
 
+def clip(text, maxlen):
+    """Обрезает текст до maxlen символов с безопасным для клиента многоточием."""
+    if len(text) <= maxlen:
+        return text
+    return text[:maxlen - 2].rstrip() + ".."
+
+def boss_label(name, lvl, maxlen=34):
+    """Имя босса + уровень, гарантированно влезающее в кнопку 250px."""
+    suffix = f" ({lvl})"
+    avail = maxlen - len(suffix)
+    if len(name) > avail:
+        name = name[:avail - 2].rstrip() + ".."
+    return name + suffix
+
+def menu_row(label, target, desc):
+    """Строка меню хаба: кнопка + описание (стиль магазина)."""
+    return ('\t\t\t\t\t\t\t\t\t<tr>\n'
+            f'\t\t\t\t\t\t\t\t\t\t<td width=190><button value="{label}" '
+            f'action="bypass _bbstop;gatekeeper/{target}" width=180 height=30 '
+            'back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>\n'
+            f'\t\t\t\t\t\t\t\t\t\t<td width=320><font color="9AA4B0">{desc}</font></td>\n'
+            '\t\t\t\t\t\t\t\t\t</tr>')
+
 def grid(cells, cols):
     out = ['\t\t\t\t\t\t\t\t<table border=0 cellpadding=2 cellspacing=2>']
     for i in range(0, len(cells), cols):
@@ -257,27 +280,36 @@ def write(path, content):
 # ---------------------------------------------------------------------------
 def farm_label(name, lo, hi):
     rng = f"{lo}" if lo == hi else f"{lo}-{hi}"
-    return f"{name} (\u0423\u0440.{rng})"
+    suffix = f" (\u0423\u0440.{rng})"
+    if len(name) + len(suffix) > 34:
+        name = clip(name, 34 - len(suffix))
+    return f"{name}{suffix}"
 
 def gen():
     entries = []   # строки конфига
 
-    # ---- HUB ----
-    hub_cells = [
-        nav_btn("\u0413\u043e\u0440\u043e\u0434\u0430", "cities.html"),
-        nav_btn("\u0414\u0435\u0440\u0435\u0432\u043d\u0438", "villages.html"),
-        nav_btn("\u0424\u0430\u0440\u043c: \u0434\u043e 99 \u0443\u0440.", "farm_low1.html"),
-        nav_btn("\u0424\u0430\u0440\u043c: 99+ \u0443\u0440.", "farm_high.html"),
-        nav_btn("\u0420\u0435\u0439\u0434-\u0431\u043e\u0441\u0441\u044b", "raids1.html"),
-        nav_btn("\u0413\u0440\u0430\u043d\u0434-\u0431\u043e\u0441\u0441\u044b", "grandboss.html"),
-        raw_btn("\u041c\u043e\u0439 \u0442\u0435\u043b\u0435\u043f\u043e\u0440\u0442", "_bbsmytp"),
-        home_btn("\u0413\u043b\u0430\u0432\u043d\u0430\u044f"),
+    # ---- HUB (стиль магазина: кнопка + описание) ----
+    menu = [
+        ("\u0413\u043e\u0440\u043e\u0434\u0430", "cities.html",
+         "\u0412\u0441\u0435 \u0433\u043e\u0440\u043e\u0434\u0430 \u043a\u043e\u043d\u0442\u0438\u043d\u0435\u043d\u0442\u0430"),
+        ("\u0414\u0435\u0440\u0435\u0432\u043d\u0438", "villages.html",
+         "\u0421\u0442\u0430\u0440\u0442\u043e\u0432\u044b\u0435 \u0434\u0435\u0440\u0435\u0432\u043d\u0438 \u0432\u0441\u0435\u0445 \u0440\u0430\u0441"),
+        ("\u0424\u0430\u0440\u043c: \u0434\u043e 99 \u0443\u0440.", "farm_low1.html",
+         "\u0417\u043e\u043d\u044b \u043f\u0440\u043e\u043a\u0430\u0447\u043a\u0438, \u0440\u0430\u0437\u0431\u0438\u0442\u044b\u0435 \u043f\u043e \u0443\u0440\u043e\u0432\u043d\u044f\u043c"),
+        ("\u0424\u0430\u0440\u043c: 99+ \u0443\u0440.", "farm_high.html",
+         "\u041b\u0443\u0447\u0448\u0438\u0435 \u044d\u043d\u0434\u0433\u0435\u0439\u043c-\u0437\u043e\u043d\u044b \u0444\u0430\u0440\u043c\u0430"),
+        ("\u0420\u0435\u0439\u0434-\u0431\u043e\u0441\u0441\u044b", "raids1.html",
+         "\u041f\u043e\u043b\u0435\u0432\u044b\u0435 \u0440\u0435\u0439\u0434-\u0431\u043e\u0441\u0441\u044b \u0441 \u0443\u043a\u0430\u0437\u0430\u043d\u0438\u0435\u043c \u0443\u0440\u043e\u0432\u043d\u044f"),
+        ("\u0413\u0440\u0430\u043d\u0434-\u0431\u043e\u0441\u0441\u044b", "grandboss.html",
+         "\u042d\u043f\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0431\u043e\u0441\u0441\u044b \u0438 \u0432\u0445\u043e\u0434\u044b \u0432 \u0438\u043d\u0441\u0442\u0430\u043d\u0441\u044b"),
     ]
-    hub_inner = grid(hub_cells, 2)
+    hub_rows = '\n'.join(menu_row(l, t, d) for l, t, d in menu)
+    hub_inner = ('\t\t\t\t\t\t\t\t<table border=0 cellpadding=5 cellspacing=0 width=515>\n'
+                 + hub_rows + '\n\t\t\t\t\t\t\t\t</table>')
     hub = shell("\u0422\u0415\u041b\u0415\u041f\u041e\u0420\u0422",
                 "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044e \u043d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044f",
                 hub_inner,
-                '<font color="696969">Lineage II . Grand Crusade</font>')
+                '<font color="696969">Lineage II \u2022 Grand Crusade</font>')
     write("main.html", hub)
 
     # ---- ГОРОДА ----
@@ -299,13 +331,16 @@ def gen():
         entries.append(f"{k},{x},{y},{z}")
     PERF = 24
     low_pages = [FARM_LOW[i:i+PERF] for i in range(0, len(FARM_LOW), PERF)]
+    npf = len(low_pages)
     for idx, chunk in enumerate(low_pages, 1):
         cells = [tp_btn(k, farm_label(name, lo, hi), 250) for k, name, lo, hi, x, y, z in chunk]
         footer = ""
-        if idx < len(low_pages):
-            footer += nav_btn(NEXT, f"farm_low{idx+1}.html", 150, 28) + "&nbsp;"
-        footer += back_btn()
-        sub = f"\u041b\u0443\u0447\u0448\u0438\u0435 \u0437\u043e\u043d\u044b \u043e\u043f\u044b\u0442\u0430/\u0430\u0434\u0435\u043d\u044b/\u0434\u0440\u043e\u043f\u0430 (\u0441\u0442\u0440. {idx}/{len(low_pages)})"
+        if idx > 1:
+            footer += nav_btn(PREV, f"farm_low{idx-1}.html", 130, 28) + "&nbsp;"
+        footer += back_btn("main.html", "\u0412 \u043c\u0435\u043d\u044e", 130) + "&nbsp;"
+        if idx < npf:
+            footer += nav_btn(NEXT, f"farm_low{idx+1}.html", 130, 28)
+        sub = f"\u0417\u043e\u043d\u044b \u043e\u043f\u044b\u0442\u0430, \u0430\u0434\u0435\u043d\u044b \u0438 \u0434\u0440\u043e\u043f\u0430 \u00b7 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430 {idx} \u0438\u0437 {npf}"
         write(f"farm_low{idx}.html", shell("\u0424\u0410\u0420\u041c: \u0414\u041e 99 \u0423\u0420.", sub, grid(cells, 2), footer))
 
     # ---- ФАРМ 99+ ----
@@ -319,29 +354,29 @@ def gen():
     # ---- ГРАНД-БОССЫ ----
     for k, name, lvl, x, y, z in GRANDBOSS:
         entries.append(f"{k},{x},{y},{z}")
-    cells = [tp_btn(k, f"{name} ({lvl})", 250) for k, name, lvl, x, y, z in GRANDBOSS]
+    cells = [tp_btn(k, boss_label(name, lvl, 34), 250) for k, name, lvl, x, y, z in GRANDBOSS]
     write("grandboss.html", shell("\u0413\u0420\u0410\u041d\u0414-\u0411\u041e\u0421\u0421\u042b",
           "\u041e\u0442\u043a\u0440\u044b\u0442\u044b\u0435 \u2014 \u043a \u0430\u0440\u0435\u043d\u0435; \u0438\u043d\u0441\u0442\u0430\u043d\u0441\u044b \u2014 \u043a NPC-\u0432\u0445\u043e\u0434\u0443",
           grid(cells, 2), back_btn()))
 
-    # ---- РЕЙД-БОССЫ (пагинация по 30, 3 колонки) ----
+    # ---- РЕЙД-БОССЫ (пагинация по 22, 2 колонки, имена обрезаются под кнопку) ----
     for lvl, iid, name, x, y, z in RAIDS:
         entries.append(f"rb{iid},{x},{y},{z}")
-    PER = 30
+    PER = 22
     chunks = [RAIDS[i:i+PER] for i in range(0, len(RAIDS), PER)]
     n = len(chunks)
     for idx, chunk in enumerate(chunks, 1):
         lo, hi = chunk[0][0], chunk[-1][0]
-        cells = [tp_btn(f"rb{iid}", f"{name} ({lvl})", 165) for lvl, iid, name, x, y, z in chunk]
+        cells = [tp_btn(f"rb{iid}", boss_label(name, lvl, 34), 250, 26) for lvl, iid, name, x, y, z in chunk]
         footer = ""
         if idx > 1:
             footer += nav_btn(PREV, f"raids{idx-1}.html", 130, 28) + "&nbsp;"
+        footer += back_btn("main.html", "\u0412 \u043c\u0435\u043d\u044e", 130) + "&nbsp;"
         if idx < n:
-            footer += nav_btn(NEXT, f"raids{idx+1}.html", 130, 28) + "&nbsp;"
-        footer += back_btn("main.html", "\u0412 \u043c\u0435\u043d\u044e", 130)
-        sub = f"\u0423\u0440\u043e\u0432\u043d\u0438 {lo}-{hi} . \u0441\u0442\u0440. {idx}/{n}"
+            footer += nav_btn(NEXT, f"raids{idx+1}.html", 130, 28)
+        sub = f"\u0423\u0440\u043e\u0432\u043d\u0438 {lo}-{hi} \u00b7 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430 {idx} \u0438\u0437 {n}"
         write(f"raids{idx}.html", shell(f"\u0420\u0415\u0419\u0414-\u0411\u041e\u0421\u0421\u042b (\u0423\u0440.{lo}-{hi})",
-              sub, grid(cells, 3), footer))
+              sub, grid(cells, 2), footer))
 
     return entries, n
 
