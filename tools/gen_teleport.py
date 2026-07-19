@@ -137,17 +137,7 @@ GRANDBOSS = [
 ]
 
 # ---------------------------------------------------------------------------
-# 6. УСЛУГИ NPC (Аден-хаб, verified coords)
-# ---------------------------------------------------------------------------
-SERVICES = [
-    ("nClassMaster","Смена класса / Подкласс (Аден)",  147728, 27408, -2198),
-    ("nBeauty",     "Салон Красоты / Краски (Аден)",   146515, 27810, -2264),
-    ("nWarehouse",  "Склад (Аден)",                    148859, 27258, -2184),
-    ("nBlacksmith", "Кузнец / Заточка (Замок Аден)",   147908, 5595, -880),
-]
-
-# ---------------------------------------------------------------------------
-# 7. РЕЙД-БОССЫ — все мировые спавны, русские имена по id
+# 6. РЕЙД-БОССЫ — все мировые спавны, русские имена по id
 # ---------------------------------------------------------------------------
 def load_ru():
     with open(RU_JSON, encoding="utf-8") as f:
@@ -155,6 +145,17 @@ def load_ru():
     return {k: v.get("name", "") for k, v in d.items()}
 
 RU = load_ru()
+
+# Официальные руофф-имена по английскому названию (клиент l2scripts: NpcName-e + NpcName-RU)
+EN2RU_PATH = os.path.join(BASE, "tools/_ru/en2ru.json")
+try:
+    with open(EN2RU_PATH, encoding="utf-8") as f:
+        EN2RU = json.load(f)
+except FileNotFoundError:
+    EN2RU = {}
+
+def _norm(s):
+    return " ".join(s.lower().replace("'", "").split())
 
 def load_raids():
     """Возвращает [(lvl, id, RUname, x, y, z)] отсортированный по уровню."""
@@ -166,7 +167,8 @@ def load_raids():
         if not m:
             continue
         lvl, iid, enname, x, y, z = m.groups()
-        ru = RU.get(iid) or translate_name(enname)
+        # 1) руофф-имя по id клиента; 2) руофф-имя по англ.названию; 3) перевод
+        ru = RU.get(iid) or EN2RU.get(_norm(enname)) or translate_name(enname)
         rows.append((int(lvl), iid, ru, int(x), int(y), int(z)))
     rows.sort(key=lambda r: (r[0], r[2]))
     return rows
@@ -264,7 +266,6 @@ def gen():
         nav_btn("\u0424\u0430\u0440\u043c: 99+ \u0443\u0440.", "farm_high.html"),
         nav_btn("\u0420\u0435\u0439\u0434-\u0431\u043e\u0441\u0441\u044b", "raids1.html"),
         nav_btn("\u0413\u0440\u0430\u043d\u0434-\u0431\u043e\u0441\u0441\u044b", "grandboss.html"),
-        nav_btn("\u0423\u0441\u043b\u0443\u0433\u0438 NPC", "services.html"),
         home_btn("\u0413\u043b\u0430\u0432\u043d\u0430\u044f"),
     ]
     hub_inner = grid(hub_cells, 2)
@@ -318,13 +319,6 @@ def gen():
           "\u041b\u043e\u0433\u043e\u0432\u0430 \u044d\u043f\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0431\u043e\u0441\u0441\u043e\u0432",
           grid(cells, 2), back_btn()))
 
-    # ---- УСЛУГИ ----
-    for k, l, x, y, z in SERVICES:
-        entries.append(f"{k},{x},{y},{z}")
-    write("services.html", shell("\u0423\u0421\u041b\u0423\u0413\u0418 NPC",
-          "\u0411\u044b\u0441\u0442\u0440\u044b\u0439 \u0434\u043e\u0441\u0442\u0443\u043f \u043a \u043a\u043b\u044e\u0447\u0435\u0432\u044b\u043c NPC",
-          grid([tp_btn(k, l, 320) for k, l, *_ in SERVICES], 1), back_btn()))
-
     # ---- РЕЙД-БОССЫ (пагинация по 30, 3 колонки) ----
     for lvl, iid, name, x, y, z in RAIDS:
         entries.append(f"rb{iid},{x},{y},{z}")
@@ -352,5 +346,5 @@ if __name__ == "__main__":
         f.write(";\\\n".join(entries) + ";")
     print(f"Точек телепорта: {len(entries)}")
     print(f"Рейд-боссов: {len(RAIDS)}  (страниц рейдов: {npages})")
-    print(f"Города:{len(CITIES)} Деревни:{len(VILLAGES)} Фарм<99:{len(FARM_LOW)} Фарм99+:{len(FARM_HIGH)} Гранд:{len(GRANDBOSS)} Услуги:{len(SERVICES)}")
+    print(f"Города:{len(CITIES)} Деревни:{len(VILLAGES)} Фарм<99:{len(FARM_LOW)} Фарм99+:{len(FARM_HIGH)} Гранд:{len(GRANDBOSS)}")
     print("Конфиг: tools/_teleport_list.txt")
