@@ -135,8 +135,10 @@ def price_epic(pid, up, n):
     return sc(600*M)  # прочая классика: Core/Beleth/Baylor/Earthworm/Tauti(деш. NPC)
 
 def price_brooch(pid, up):
-    m = {38766:300*M, 38767:700*M, 38768:1300*M, 26474:2200*M,
-         28358:3500*M, 28486:5000*M, 28488:5000*M, 28487:5000*M, 28530:300*M}
+    # ГЕОМЕТРИЧЕСКАЯ прогрессия: первая брошь доступна мид-тиру (даёт 2 слота под камни),
+    # каждый апгрейд (+слот/бонусы) кратно дороже — топ очень дорогой.
+    m = {38766:50*M, 38767:120*M, 38768:300*M, 26474:700*M,
+         28358:1500*M, 28486:3000*M, 28488:4000*M, 28487:5000*M, 28530:300*M}
     return sc(m.get(int(pid), 1000*M))
 
 def price_brooch_stone(pid, up, n):
@@ -163,7 +165,9 @@ def price_talisman(pid, up, n):
     if any(k in n for k in ["Anakim","Lilith","Анаким","Лилит"]): return sc(150*M)
     # --- ЦЕПОЧКИ ---
     if "Venir" in n or "Бенир" in n: return round_nice(25*M)       # Бенира: 24 стадии, 25M/улучшение
-    if "Abundance" in n or "Изобил" in n: return round_nice(15*M)
+    if "Abundance" in n or "Изобил" in n:                           # Изобилия — сильный, геом. прогрессия
+        s = stage_num(n) or 1
+        return sc({1:250, 2:500, 3:1000, 4:2000}.get(s, 250) * M)
     if "Sayha" in n or "Сайха" in n:                                # 10 стадий, сильный — прогрессия за уровень
         s = stage_num(n) or 1
         step = {1:30,2:40,3:55,4:75,5:100,6:130,7:165,8:205,9:250,10:300}.get(s, 40)  # cum ≈ 1.35 млрд
@@ -181,21 +185,24 @@ def price_bracelet(pid, up, n):
 def price_belt(pid, up, n):
     # Временные (3-7 дней) — символически
     if any(k in n for k in ["3-day","7-day","Anniversary","Mysterious","Таинственный","Юбилея","дней"]):
-        return round_nice(5*M)
-    # ХАЙ-тир: урон +7-8% (Ruler's Authority, Chef Monkey)
-    if any(k in n for k in ["Ruler's Authority","Полномочия Правителя","Chef Monkey","Обезьянки"]):
-        return sc(350*M)
+        return round_nice(10*M)
+    # ТОП: Ruler's Authority (урон +8%) — 1 млрд
+    if "Ruler's Authority" in n or "Полномочия Правителя" in n:
+        return sc(1000*M)
+    # Очень сильный: Chef Monkey (урон +7%)
+    if "Chef Monkey" in n or "Обезьянки" in n:
+        return sc(500*M)
     # СИЛЬНЫЕ: урон +5%/-5-6% (Nurka/Lidia/Gustav/Tiat/Ekimus)
     if any(k in n for k in ["Nurka","Lidia","Gustav","Нурки","Лидии","Густава",
                             "Tiat","Ekimus","Tiada","Тиады","Экимуса"]):
-        return sc(250*M)
+        return sc(350*M)
     # R/R95/R99 рун-клипы (заточиваемые)
     if any(k in n for k in ["Immortal Belt","Twilight Belt","Seraph Belt","Eternal Belt",
                             "Бессмертия","Ада","Кадейры","Айдиоса"]):
-        return sc(100*M)
+        return sc(150*M)
     if any(k in n for k in ["Istina","Octavis","Истхины","Октависа"]):
-        return sc(80*M)                                    # Истина/Октавис (recovery + слоты)
-    return round_nice(40*M)                                # grade/утилитарные/декоративные пояса
+        return sc(120*M)                                   # Истина/Октавис (recovery + слоты)
+    return round_nice(60*M)                                # grade/утилитарные/декоративные пояса
 
 def price_agathion(pid, up):
     return round_nice(8*M) if up else round_nice(15*M)
@@ -231,10 +238,10 @@ def price_hat(pid, up, n):
 def price_cloak(pid, up, n):
     # Плащи (600025). Почти все — СРЕДНИЙ тир (хорошие статы, не ломают игру).
     # Исключение — ЛЕГЕНДАРНЫЕ Ancient (+20, слоты аугмента, до +200% PvE-урона) = эндгейм.
-    if "Legendary" in n or "Легендарн" in n: return sc(700*M)         # апгрейд база->Легендарный (эндгейм)
+    if "Legendary" in n or "Легендарн" in n: return sc(1000*M)        # апгрейд база->Легендарный (эндгейм)
     if "Камень Духа" in n or "Spirit Stone" in n: return sc(150*M)    # камни эффектов (аугмент) плаща
     if any(k in n for k in ["Аден","Феррит","Эльмор","Эльмореден"]):  # база Ancient-цепочек (заточка +10)
-        return sc(250*M)
+        return sc(500*M)
     if "Radiant" in n or "Ослепительн" in n or "Холодной" in n: return sc(120*M)  # Сияющие (-15% урон)
     return sc(60*M)                                    # прочие прямые плащи (Света/Тьмы/Славы/Героя/Избранного)
 
@@ -309,13 +316,11 @@ def compute_price(mid, pid, up, n):
     if mid in (600105,600106,600107): return round_nice(10*M)  # снаряга петов (броня/бижа/оружие)
     if mid == 600043: return round_nice(50*M)                # руны опыта
     if mid in (600108,600109,600110,600111): return round_nice(20*M)  # внешний вид
-    if mid == 600047:                                        # рубашки (средний тир) + свитки футболок
+    if mid == 600047:                                        # футболки (хорошие статы) + свитки заточки
         if "Scroll" in n or "Свиток" in n:
             if "Shining" in n or "Сияющий" in n: return round_nice(40*M)
             return round_nice(30*M)                          # blessed/modify свитки футболок
-        if any(k in n for k in ["Pa'agrio","Sayha","Eva","Maphr","Elemental","Paagrio"]):
-            return round_nice(60*M)                          # элементальные рубашки (активки при +7)
-        return round_nice(50*M)                              # Power Shirt и пр.
+        return sc(250*M)                                     # футболки — 250 млн за штуку
     if mid == 600025: return price_cloak(pid, up, n)         # плащи
     if mid == 600026: return price_belt(pid, up, n)          # пояса
     if mid == 600035: return price_consumable(pid, n)        # бакалея/расходники-бафы
