@@ -189,3 +189,44 @@ HTML: `CommunityBoard/Custom/gatekeeper/*.html` (main, cities, villages, farm_lo
 
 > Для магазина — свои инструменты, но они УСТАРЕЛИ (см. предупреждение в `04_МАГАЗИН_ALTB.md`): магазин правится вручную.
 > `tools/_ru/`, `tools/_l2s/` — временные (gitignored), пересоздаются из ветки `system`.
+
+
+---
+
+## 8. Геодата (подключена)
+
+**Что это:** данные проходимости/высот мира (`.l2j`). Без них мобы проваливаются
+сквозь текстуры, криво ходят, ломается pathfinding.
+
+**Где в git:** файлы `*.l2j` НЕ хранятся (`.gitignore` → `server/game/data/geodata/*.l2j`).
+В репозитории лежит только `server/game/data/geodata/Readme.txt`.
+
+**Как ставится (один раз на сервере):**
+```bash
+bash server/game/download_geodata.sh
+```
+Скрипт скачивает **215 регионов (~650 МБ)** из репо
+[`bartty/mobius-geo`](https://github.com/bartty/mobius-geo) (геодата под L2J Mobius).
+Способ 1 — `git clone --depth 1 + sparse-checkout geodata` (быстро, ~15 сек);
+фолбэк — поштучно через `raw.githubusercontent`.
+
+**Формат / как движок её ищет:**
+- Имена файлов: `%d_%d.l2j` (напр. `20_18.l2j`) — константа `FILE_NAME_FORMAT`
+  в `org.l2jmobius.gameserver.geoengine.GeoEngine`.
+- Регион = 256×256 блоков; блок: 1 байт типа → `0` FlatBlock (1 short высота, →
+  плоский регион = 256·256·3 = **196608 байт**), `1` ComplexBlock (64 short),
+  `2` MultilayerBlock (переменная длина). Заголовка у файла нет.
+- Чтение: `loadRegion()` через `RandomAccessFile` + `FileChannel.map` (mmap),
+  парсит `new Region(ByteBuffer)`.
+
+**Проверка совместимости (как делали):** извлечь классы geoengine из
+`GameServer.jar`, скормить каждый `.l2j` в `new Region(buf)` и убедиться, что
+`buf.position() == size` (буфер прочитан ровно до конца, без исключений).
+Итог: **215/215 OK** — геодата `bartty/mobius-geo` совместима с этим `GameServer.jar`.
+
+**Конфиг:** `server/game/config/GeoEngine.ini`
+- `PathFinding = 2` — включено (значение по умолчанию в репо). Требует наличия
+  файлов геодаты, иначе лаги + ошибки в логах → пока не скачал, ставь `0`.
+- `GeoDataPath = ./data/geodata/`.
+
+**Память:** `server/game/java.cfg` уже `-Xmx8g -Xms2g` — с запасом, менять не надо.
