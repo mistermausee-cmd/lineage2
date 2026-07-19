@@ -85,6 +85,7 @@ public class HomeBoard implements IParseBoardHandler
 		CommunityBoardConfig.COMMUNITYBOARD_ENABLE_MULTISELLS ? "_bbssell" : null,
 		CommunityBoardConfig.COMMUNITYBOARD_ENABLE_TELEPORTS ? "_bbsteleport" : null,
 		CommunityBoardConfig.COMMUNITYBOARD_ENABLE_BUFFS ? "_bbsbuff" : null,
+		CommunityBoardConfig.COMMUNITYBOARD_ENABLE_BUFFS ? "_bbsunbuff" : null,
 		CommunityBoardConfig.COMMUNITYBOARD_ENABLE_HEAL ? "_bbsheal" : null,
 		CommunityBoardConfig.COMMUNITYBOARD_ENABLE_DELEVEL ? "_bbsdelevel" : null
 	};
@@ -259,6 +260,19 @@ public class HomeBoard implements IParseBoardHandler
 				}
 			}
 			
+			returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/" + page + ".html");
+		}
+		else if (command.startsWith("_bbsunbuff"))
+		{
+			final String page = command.replace("_bbsunbuff;", "");
+			player.stopAllEffects();
+			final Pet pet = player.getPet();
+			if (pet != null)
+			{
+				pet.stopAllEffects();
+			}
+			player.getServitors().values().forEach(s -> s.stopAllEffects());
+			player.sendMessage("All buffs have been removed.");
 			returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/" + page + ".html");
 		}
 		else if (command.startsWith("_bbsheal"))

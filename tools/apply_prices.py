@@ -352,7 +352,14 @@ def compute_price(mid, pid, up, n):
     if mid == 600025: return price_cloak(pid, up, n)         # плащи
     if mid == 600026: return price_belt(pid, up, n)          # пояса
     if mid == 600035: return price_consumable(pid, n)        # бакалея/расходники-бафы
-    if mid == 600057: return round_nice(1*M)                 # клан
+    if mid == 600057:                                        # клан: цены под ~2 млрд до 11 ур (прогрессия)
+        clan = {1419: 50*M,    # Proof of Blood      (ап Ур.3, x1) = 50M
+                3874: 100*M,   # Proof of Alliance   (ап Ур.4, x1) = 100M
+                3870: 150*M,   # Proof of Aspiration (ап Ур.5, x1) = 150M
+                9910: 5*M,     # Blood Oath          (ап Ур.9, x150) = 750M
+                9911: 190*M,   # Blood Alliance      (ап Ур.10, x5) = 950M
+                9912: 1*M}     # Knight's Epaulette  (репутация)
+        return clan.get(pid_i, 1*M)
     if mid == 600112: return 1                               # стрелы/болты — 1 адена (сделаны is_sellable=false)
     return None
 
@@ -406,7 +413,8 @@ def process(mid, write):
         # Исключение — категории по 1 адене (соски/болты/еда петов): им проставляется is_sellable=false.
         it = INDEX.get(pid)
         npc = it["price"] if it else 0
-        if npc > 0 and not up and mid not in (600011, 600104, 600112):
+        # Прокачка (600052-055) = строго NPC-цена, поэтому тоже без пола.
+        if npc > 0 and not up and mid not in (600011, 600104, 600112, 600052, 600053, 600054, 600055):
             newp = max(newp, round_nice(npc * 0.7))
         # текущая цена
         cur = None
