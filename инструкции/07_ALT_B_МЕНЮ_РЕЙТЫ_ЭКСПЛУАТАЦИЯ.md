@@ -198,17 +198,33 @@ HTML: `CommunityBoard/Custom/gatekeeper/*.html` (main, cities, villages, farm_lo
 **Что это:** данные проходимости/высот мира (`.l2j`). Без них мобы проваливаются
 сквозь текстуры, криво ходят, ломается pathfinding.
 
-**Где в git:** файлы `*.l2j` НЕ хранятся (`.gitignore` → `server/game/data/geodata/*.l2j`).
-В репозитории лежит только `server/game/data/geodata/Readme.txt`.
+**Где в git:** в ветке `main` файлы `*.l2j` НЕ хранятся (`.gitignore` →
+`server/game/data/geodata/*.l2j`), лежит только `Readme.txt`. Сама геодата
+хранится в ветке **`system`**, папка `geodata/` (220 регионов, ~820 МБ).
 
 **Как ставится (один раз на сервере):**
 ```bash
 bash server/game/download_geodata.sh
 ```
-Скрипт скачивает **215 регионов (~650 МБ)** из репо
-[`bartty/mobius-geo`](https://github.com/bartty/mobius-geo) (геодата под L2J Mobius).
-Способ 1 — `git clone --depth 1 + sparse-checkout geodata` (быстро, ~15 сек);
-фолбэк — поштучно через `raw.githubusercontent`.
+Скрипт качает **220 регионов (~820 МБ)** — геодату **Grand Crusade от L2Script**
+из ветки `system` этого же репо. Способ 1 — `git clone --depth 1 --branch system
++ sparse-checkout geodata` (~11 сек); фолбэк — поштучно через `raw.githubusercontent`.
+URL берётся из `remote.origin.url` (если это github.com), иначе — хардкод
+`github.com/mistermausee-cmd/lineage2`.
+
+**Выбор источника (сравнивали 2 набора):**
+| | L2Script (взяли) | bartty/mobius-geo |
+|---|---|---|
+| регионов | **220** | 215 |
+| хроники | **Grand Crusade** | общая Mobius (старее) |
+| покрытие | полное (+`12_22,26_17,27_15,27_16,27_17`) | нет этих 5 |
+| детализация общих 215 | flat 66% / complex 26% | flat 52% / **complex 40%** |
+| совместимость с движком | 220/220 OK | 215/215 OK |
+
+bartty чуть детальнее по горизонтали (больше complex-блоков), НО это общая
+геодата неясной хроники: на зонах, изменённых в GC, её точная геометрия
+может НЕ совпадать с клиентом. Для GC-сервера решают совпадение хроник +
+покрытие → L2Script.
 
 **Формат / как движок её ищет:**
 - Имена файлов: `%d_%d.l2j` (напр. `20_18.l2j`) — константа `FILE_NAME_FORMAT`
@@ -222,7 +238,9 @@ bash server/game/download_geodata.sh
 **Проверка совместимости (как делали):** извлечь классы geoengine из
 `GameServer.jar`, скормить каждый `.l2j` в `new Region(buf)` и убедиться, что
 `buf.position() == size` (буфер прочитан ровно до конца, без исключений).
-Итог: **215/215 OK** — геодата `bartty/mobius-geo` совместима с этим `GameServer.jar`.
+Итог: **220/220 OK** — геодата L2Script (ветка `system`) совместима с этим `GameServer.jar`.
+Для переписи типов блоков (flat/complex/multilayer) — replicate формат в Python
+(flat +2б, complex +128б, multilayer: 64 ячейки × [1б слои + слои·2б]).
 
 **Конфиг:** `server/game/config/GeoEngine.ini`
 - `PathFinding = 2` — включено (значение по умолчанию в репо). Требует наличия
