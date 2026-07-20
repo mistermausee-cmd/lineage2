@@ -19,6 +19,7 @@ package ai.areas.TalkingIsland;
 import org.l2jmobius.gameserver.model.actor.Npc;
 import org.l2jmobius.gameserver.model.actor.Player;
 import org.l2jmobius.gameserver.model.script.Script;
+import org.l2jmobius.gameserver.model.skill.holders.SkillHolder;
 import org.l2jmobius.gameserver.network.NpcStringId;
 import org.l2jmobius.gameserver.network.enums.ChatType;
 
@@ -30,21 +31,74 @@ public class Theodore extends Script
 {
 	// NPC
 	private static final int THEODORE = 32975;
+	// Custom services
+	// Exp/farm booster runes with a built-in time limit (auto-expire, no permanent clutter).
+	private static final int[] EXP_BOOSTERS =
+	{
+		23258, // XP Rune III 200% (7-day)
+		26414, // XP Rune IV 100% (7-day)
+		23987, // Rune of Bountiful Growth +20% (30-day)
+		45641, // Rodemai's Rune +7% (15-day)
+		22762, // Drop Rate Rune 200% (7-day)
+		23873, // Prestige Rune 100% (7-day)
+	};
+	// Mentor's Guidance: XP/SP +50% (VP_MENTOR_RUNE). Intended for characters below level 85.
+	private static final SkillHolder MENTOR_RUNE = new SkillHolder(9233, 1);
+	private static final int MENTOR_RUNE_MAX_LEVEL = 85;
 	
 	private Theodore()
 	{
 		addSpawnId(THEODORE);
+		addFirstTalkId(THEODORE);
 	}
 	
 	@Override
 	public String onEvent(String event, Npc npc, Player player)
 	{
-		if (event.equals("SPAM_TEXT") && (npc != null))
+		switch (event)
 		{
-			npc.broadcastSay(ChatType.NPC_GENERAL, NpcStringId.AND_NOW_YOUR_JOURNEY_BEGINS, 1000);
+			case "SPAM_TEXT":
+			{
+				if (npc != null)
+				{
+					npc.broadcastSay(ChatType.NPC_GENERAL, NpcStringId.AND_NOW_YOUR_JOURNEY_BEGINS, 1000);
+				}
+				return super.onEvent(event, npc, player);
+			}
+			case "give_boosters":
+			{
+				if (player == null)
+				{
+					return null;
+				}
+				for (int itemId : EXP_BOOSTERS)
+				{
+					giveItems(player, itemId, 1);
+				}
+				return "32975-boosters.html";
+			}
+			case "give_mentor_rune":
+			{
+				if (player == null)
+				{
+					return null;
+				}
+				if (player.getLevel() >= MENTOR_RUNE_MAX_LEVEL)
+				{
+					return "32975-mentor-no.html";
+				}
+				MENTOR_RUNE.getSkill().applyEffects(player, player);
+				return "32975-mentor.html";
+			}
 		}
 		
 		return super.onEvent(event, npc, player);
+	}
+	
+	@Override
+	public String onFirstTalk(Npc npc, Player player)
+	{
+		return "32975-menu.html";
 	}
 	
 	@Override

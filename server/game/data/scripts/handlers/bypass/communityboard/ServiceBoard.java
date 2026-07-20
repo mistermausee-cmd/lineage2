@@ -56,15 +56,15 @@ public class ServiceBoard implements IParseBoardHandler
 	{
 		{
 			3,
-			50_000_000
-		},
-		{
-			7,
 			100_000_000
 		},
 		{
+			7,
+			250_000_000
+		},
+		{
 			30,
-			350_000_000
+			500_000_000
 		}
 	};
 
@@ -262,8 +262,7 @@ public class ServiceBoard implements IParseBoardHandler
 		b.append("</tr></table>");
 		b.append("<br><font color=\"696969\">Премиум действует на все персонажи аккаунта и не передаётся.</font>");
 
-		return wrap("ПРЕМИУМ АККАУНТ", "Ускорьте развитие и добычу", b.toString(),
-			"<button value=\"Информация\" action=\"bypass _bbsinfo\" width=150 height=28 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\">");
+		return wrap("ПРЕМИУМ АККАУНТ", "Ускорьте развитие и добычу", b.toString(), "");
 	}
 
 	private void buyPremium(Player player, String command)
