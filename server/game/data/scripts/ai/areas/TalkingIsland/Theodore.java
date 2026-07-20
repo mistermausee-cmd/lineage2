@@ -22,6 +22,8 @@ import org.l2jmobius.gameserver.model.events.Containers;
 import org.l2jmobius.gameserver.model.events.EventType;
 import org.l2jmobius.gameserver.model.events.holders.actor.player.OnPlayerLevelChanged;
 import org.l2jmobius.gameserver.model.events.listeners.ConsumerEventListener;
+import org.l2jmobius.gameserver.model.item.enums.ItemProcessType;
+import org.l2jmobius.gameserver.model.item.instance.Item;
 import org.l2jmobius.gameserver.model.script.Script;
 import org.l2jmobius.gameserver.model.skill.holders.SkillHolder;
 import org.l2jmobius.gameserver.network.NpcStringId;
@@ -36,16 +38,23 @@ public class Theodore extends Script
 	// NPC
 	private static final int THEODORE = 32975;
 	// Custom services
-	// Exp/farm booster runes with a built-in time limit (auto-expire, no permanent clutter).
+	// Full set of booster runes from the Alt+B "Exp boosters" section. They are handed out with a
+	// forced 3-day lifetime (see setRemainingTime) so the original, full-duration runes stay in the shop.
 	private static final int[] EXP_BOOSTERS =
 	{
-		23258, // XP Rune III 200% (7-day)
-		26414, // XP Rune IV 100% (7-day)
-		23987, // Rune of Bountiful Growth +20% (30-day)
-		45641, // Rodemai's Rune +7% (15-day)
-		22762, // Drop Rate Rune 200% (7-day)
-		23873, // Prestige Rune 100% (7-day)
+		45641, // Rodemai's Rune (XP/SP +7%)
+		46250, // Blessed Venezia Rune (XP/SP +11%)
+		23987, // Rune of Bountiful Growth (XP/SP +20%)
+		46252, // Venezia Rune (XP/SP +22%)
+		26414, // XP Rune IV 100%
+		23873, // Prestige Rune 100% (drop/spoil/adena)
+		23258, // XP Rune III 200%
+		22762, // Drop Rate Rune 200%
+		36079, // Yum Yum Candy (XP/SP +25%)
+		36080, // Nom Nom Candy (XP/SP +25%)
 	};
+	// Handed-out boosters are limited to 3 days regardless of their template duration.
+	private static final long BOOSTER_DURATION_MS = 3L * 24 * 60 * 60 * 1000;
 	// Mentor's Guidance: XP/SP +50% (VP_MENTOR_RUNE). Intended for characters below level 85.
 	private static final SkillHolder MENTOR_RUNE = new SkillHolder(9233, 1);
 	private static final int MENTOR_RUNE_MAX_LEVEL = 85;
@@ -93,7 +102,11 @@ public class Theodore extends Script
 				}
 				for (int itemId : EXP_BOOSTERS)
 				{
-					giveItems(player, itemId, 1);
+					final Item rune = player.addItem(ItemProcessType.REWARD, itemId, 1, player, true);
+					if (rune != null)
+					{
+						rune.setRemainingTime(BOOSTER_DURATION_MS); // Limit the handed-out copy to 3 days.
+					}
 				}
 				return "32975-boosters.html";
 			}
