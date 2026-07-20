@@ -18,6 +18,10 @@ package ai.areas.TalkingIsland;
 
 import org.l2jmobius.gameserver.model.actor.Npc;
 import org.l2jmobius.gameserver.model.actor.Player;
+import org.l2jmobius.gameserver.model.events.Containers;
+import org.l2jmobius.gameserver.model.events.EventType;
+import org.l2jmobius.gameserver.model.events.holders.actor.player.OnPlayerLevelChanged;
+import org.l2jmobius.gameserver.model.events.listeners.ConsumerEventListener;
 import org.l2jmobius.gameserver.model.script.Script;
 import org.l2jmobius.gameserver.model.skill.holders.SkillHolder;
 import org.l2jmobius.gameserver.network.NpcStringId;
@@ -50,6 +54,22 @@ public class Theodore extends Script
 	{
 		addSpawnId(THEODORE);
 		addFirstTalkId(THEODORE);
+		// Remove the mentor rune buff once the character reaches the cap level (it is a "+50% XP up to Lv. 85" bonus).
+		Containers.Players().addListener(new ConsumerEventListener(Containers.Players(), EventType.ON_PLAYER_LEVEL_CHANGED, (OnPlayerLevelChanged event) -> onLevelChanged(event), this));
+	}
+	
+	private void onLevelChanged(OnPlayerLevelChanged event)
+	{
+		final Player player = event.getPlayer();
+		if ((player == null) || (player.getLevel() < MENTOR_RUNE_MAX_LEVEL))
+		{
+			return;
+		}
+		if (player.isAffectedBySkill(MENTOR_RUNE.getSkillId()))
+		{
+			player.stopSkillEffects(MENTOR_RUNE.getSkill());
+			player.sendMessage("Руна Наставника исчерпала силу: вы достигли 85 уровня.");
+		}
 	}
 	
 	@Override
