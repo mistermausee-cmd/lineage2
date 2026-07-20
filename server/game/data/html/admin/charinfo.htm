@@ -1,66 +1,66 @@
-<html><title>Information Panel: %name%</title><body>
+<html><title>Панель информации: %name%</title><body>
 <center>
 <table width=270>
 <tr>
-<td width=45><button value="Main" action="bypass admin_admin" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
-<td width=180><center>Player: %name%</center></td>
-<td width=45><button value="Back" action="bypass admin_show_characters 0" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td width=45><button value="Главная" action="bypass admin_admin" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td width=180><center>Игрок: %name%</center></td>
+<td width=45><button value="Назад" action="bypass admin_show_characters 0" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
 </tr>
 </table>
 <br>
 <table width=240>
 <tr>
-<td><button value="Go To" action="bypass -h admin_goto_char_menu %name%" width=65 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
-<td><button value="Kick" action="bypass -h admin_kick_menu %name%" width=65 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
-<td><button value="Ban Acc" action="bypass -h admin_ban_acc %account%" width=65 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
-<td><button value="Ban Chr" action="bypass -h admin_ban_char %name%" width=65 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Перейти" action="bypass -h admin_goto_char_menu %name%" width=65 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Кик" action="bypass -h admin_kick_menu %name%" width=65 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Бан Акк" action="bypass -h admin_ban_acc %account%" width=65 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Бан Перс" action="bypass -h admin_ban_char %name%" width=65 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
 </tr><tr>
-<td><button value="Recall" action="bypass admin_recall_char_menu %name%" width=65 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
-<td><button value="Skills" action="bypass admin_show_skills" width=65 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
-<td><button value="Edit" action="bypass admin_edit_character" width=65 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
-<td><button value="Class" action="bypass admin_setclass" width=65 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Призвать" action="bypass admin_recall_char_menu %name%" width=65 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Умения" action="bypass admin_show_skills" width=65 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Изменить" action="bypass admin_edit_character" width=65 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Класс" action="bypass admin_setclass" width=65 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
 </tr><tr>
-<td><button value="Lv/Exp/Sp" action="bypass admin_add_exp_sp_to_character" width=65 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
-<td><button value="Instance" action="bypass -h admin_instancezone %name%" width=65 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
-<td><button value="Effects" action="bypass admin_getbuffs %name%" width=65 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
-<td><button value="Party" action="bypass -h admin_partyinfo" width=65 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Ур/Оп/SP" action="bypass admin_add_exp_sp_to_character" width=65 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Инстанс" action="bypass -h admin_instancezone %name%" width=65 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Эффекты" action="bypass admin_getbuffs %name%" width=65 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Группа" action="bypass -h admin_partyinfo" width=65 height=18 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
 </tr>
 </table>
 <br>
 <table width=240 bgcolor="666666">
 <tr>
-<td>Account Name: </td><td><font color="LEVEL"><a action="bypass -h admin_find_account %name%">%account%</a></font></td>
+<td>Имя аккаунта: </td><td><font color="LEVEL"><a action="bypass -h admin_find_account %name%">%account%</a></font></td>
 </tr>
 <tr>
-<td>Account IP: </td><td><font color="LEVEL"><a action="bypass -h admin_find_ip %ip%">%ip%</a></font></td>
+<td>IP аккаунта: </td><td><font color="LEVEL"><a action="bypass -h admin_find_ip %ip%">%ip%</a></font></td>
 </tr>
 <tr> 
-<td>Hardware MAC: </td><td><font color="LEVEL"><a action="bypass -h admin_hwid">%hwid%</a></font></td>
+<td>MAC оборуд.: </td><td><font color="LEVEL"><a action="bypass -h admin_hwid">%hwid%</a></font></td>
 </tr> 
 <tr> 
-<td>Punishment: </td><td><font color="LEVEL"><a action="bypass -h admin_punishment player %name%">Info</a></font></td>
+<td>Наказание: </td><td><font color="LEVEL"><a action="bypass -h admin_punishment player %name%">Инфо</a></font></td>
 </tr> 
 <tr>
-<td>Client Protocol: </td><td><font color="LEVEL">%protocol%</font></td>
+<td>Протокол клиента: </td><td><font color="LEVEL">%protocol%</font></td>
 </tr>
 </table>
 <br>
 <br>
 <table width=240 bgcolor="666666">
 <tr>
-<td>Name:</td><td>%name%</td><td><button value="Refresh" action="bypass -h admin_character_info %name%" width=60 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td>Имя:</td><td>%name%</td><td><button value="Обновить" action="bypass -h admin_character_info %name%" width=60 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
 </tr>
 <tr>
-<td>Clan:</td><td>%clan%</td>
+<td>Клан:</td><td>%clan%</td>
 </tr>
 <tr>
-<td>Level:</td><td>%level%</td>
+<td>Уровень:</td><td>%level%</td>
 </tr>
 <tr>
-<td>Class:</td><td>%class%</td>
+<td>Класс:</td><td>%class%</td>
 </tr>
 <tr>
-<td>BaseClass:</td><td>%baseclass%</td>
+<td>Баз. класс:</td><td>%baseclass%</td>
 </tr>
 <tr>
 <td>CP:</td><td> <font color="LEVEL">%currentcp%</font> / %maxcp%</td>
@@ -72,7 +72,7 @@
 <td>MP:</td><td><font color="LEVEL">%currentmp%</font> / %maxmp%</td>
 </tr>
 <tr>
-<td>Weight:</td><td>%currentload% / %maxload%</td>
+<td>Вес:</td><td>%currentload% / %maxload%</td>
 </tr>
 <tr>
 <td>EXP:</td><td>%xp%</td>
@@ -81,56 +81,56 @@
 <td>SP:</td><td>%sp%</td>
 </tr>
 <tr>
-<td>Noblesse:</td><td>%noblesse%</td>
+<td>Ноблесс:</td><td>%noblesse%</td>
 </tr>
 <tr>
-<td>Instance:</td><td>%inst%</td>
-</tr>
-</table>
-<br><br>
-<table width=240 bgcolor="666666">
-<tr>
-<td>P. Atk:</td><td>%patk%</td><td>M. Atk:</td><td>%matk%</td>
-</tr>
-<tr>
-<td>P. Def:</td><td>%pdef%</td><td>M. Def:</td><td>%mdef%</td>
-</tr>
-<tr>
-<td>Accuracy:</td><td>%accuracy%</td><td>Evasion:</td><td>%evasion%</td>
-</tr>
-<tr>
-<td>Crit Rate:</td><td>%critical%</td><td>Speed:</td><td>%runspeed%</td>
-</tr>
-<tr>
-<td>Atk. Spd.:</td><td>%patkspd%</td><td>Casting Spd.:</td><td>%matkspd%</td>
+<td>Инстанс:</td><td>%inst%</td>
 </tr>
 </table>
 <br><br>
 <table width=240 bgcolor="666666">
 <tr>
-<td>HP Regen:</td><td>%hpregen%</td>
+<td>Физ. атака:</td><td>%patk%</td><td>Маг. атака:</td><td>%matk%</td>
 </tr>
 <tr>
-<td>MP Regen:</td><td>%mpregen%</td>
+<td>Физ. защита:</td><td>%pdef%</td><td>Маг. защита:</td><td>%mdef%</td>
 </tr>
 <tr>
-<td>CP Regen:</td><td>%cpregen%</td>
+<td>Точность:</td><td>%accuracy%</td><td>Уклонение:</td><td>%evasion%</td>
+</tr>
+<tr>
+<td>Крит:</td><td>%critical%</td><td>Скорость:</td><td>%runspeed%</td>
+</tr>
+<tr>
+<td>Скор. атаки:</td><td>%patkspd%</td><td>Скор. каста:</td><td>%matkspd%</td>
+</tr>
+</table>
+<br><br>
+<table width=240 bgcolor="666666">
+<tr>
+<td>Реген HP:</td><td>%hpregen%</td>
+</tr>
+<tr>
+<td>Реген MP:</td><td>%mpregen%</td>
+</tr>
+<tr>
+<td>Реген CP:</td><td>%cpregen%</td>
 </tr>
 </table>
 <br>
 <table width=240>
 <tr>
-<td>PvP Kills: </td><td>%pvpkills%</td>
-<td>Reputation: </td><td>%reputation%</td>
+<td>PvP убийств: </td><td>%pvpkills%</td>
+<td>Репутация: </td><td>%reputation%</td>
 </tr>
 <tr>
-<td>PK Kills: </td><td>%pkkills%</td>
-<td>PvP Flag: </td><td>%pvpflag%</td>
+<td>PK убийств: </td><td>%pkkills%</td>
+<td>PvP флаг: </td><td>%pvpflag%</td>
 </tr>
 </table>
 <br>
-Coordinates: %x% %y% %z%<br1>
-Heading: %heading%<br1>
+Координаты: %x% %y% %z%<br1>
+Направление: %heading%<br1>
 AI: %ai%
 %autoplay%
 </center>

@@ -1,0 +1,89 @@
+<html><title>Админка — Оглавление</title><body>
+<center>
+<table width=270 border=0 bgcolor="444444">
+<tr>
+<td><button value="Главная" action="bypass admin_admin" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Персонаж" action="bypass admin_admin6" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Игра" action="bypass admin_admin2" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="ГМ" action="bypass admin_admin7" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table>
+<br>
+<font name="hs12" color="CDB67F">ОГЛАВЛЕНИЕ АДМИН-ПАНЕЛИ</font><br>
+<table width=270><tr>
+<td><font color="LEVEL">Ввод (id/имя/коорд.):</font></td>
+<td><edit var="qbox" width=110 height=15></td>
+</tr></table>
+<img src="L2UI.SquareGray" width=260 height=1><br>
+
+<font color="LEVEL">Панели</font><br1>
+<table width=270>
+<tr>
+<td><button value="Главная" action="bypass admin_admin" width=82 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Персонаж" action="bypass admin_admin6" width=82 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Игра" action="bypass admin_admin2" width=82 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+<tr>
+<td><button value="ГМ" action="bypass admin_admin7" width=82 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Сервер" action="bypass admin_admin4" width=82 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Эффекты" action="bypass admin_admin3" width=82 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table>
+<br1>
+<font color="LEVEL">Частые действия</font><br1>
+<table width=270>
+<tr>
+<td><button value="Создать предмет" action="bypass -h admin_create_item $qbox" width=125 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Телепорт (коорд.)" action="bypass -h admin_move_to $qbox" width=125 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+<tr>
+<td><button value="Заспавнить NPC" action="bypass -h admin_spawn_monster $qbox" width=125 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Найти игрока" action="bypass -h admin_find_character $qbox" width=125 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+<tr>
+<td><button value="К игроку" action="bypass -h admin_goto_char_menu $qbox" width=125 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Призвать игрока" action="bypass -h admin_recall_char_menu $qbox" width=125 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table>
+<br1>
+<font color="LEVEL">Экономика и услуги</font><br1>
+<table width=270>
+<tr>
+<td><button value="ГМ-магазин" action="bypass admin_gmshop" width=82 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Заточка" action="bypass admin_enchant" width=82 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Премиум" action="bypass -h admin_premium_menu" width=82 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+<tr>
+<td><button value="PC очки" action="bypass -h admin_pccafepoints" width=82 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="NCoins" action="bypass -h admin_primepoints" width=82 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td></td>
+</tr>
+</table>
+<br1>
+<font color="LEVEL">Боссы, события, олимпиада</font><br1>
+<table width=270>
+<tr>
+<td><button value="Гранд-боссы" action="bypass -h admin_grandboss" width=125 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="События" action="bypass admin_event_menu" width=125 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+<tr>
+<td><button value="Олимпиада" action="bypass -h admin_checkolympiad" width=125 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Назначить героя" action="bypass -h admin_sethero" width=125 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table>
+<br1>
+<font color="LEVEL">Сервер и мир</font><br1>
+<table width=270>
+<tr>
+<td><button value="Инфо сервера" action="bypass -h admin_serverinfo" width=82 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Конфиг" action="bypass -h admin_config_server" width=82 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Анонсы" action="bypass -h admin_announces list" width=82 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+<tr>
+<td><button value="Инстансы" action="bypass admin_html instancezone.htm" width=82 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Перезагрузка" action="bypass admin_html reload.htm" width=82 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Помощь" action="bypass admin_help" width=82 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table>
+</center>
+</body></html>
