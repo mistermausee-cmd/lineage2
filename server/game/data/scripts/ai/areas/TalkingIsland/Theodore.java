@@ -38,8 +38,8 @@ public class Theodore extends Script
 	// NPC
 	private static final int THEODORE = 32975;
 	// Custom services
-	// Full set of booster runes from the Alt+B "Exp boosters" section. They are handed out with a
-	// forced 3-day lifetime (see setRemainingTime) so the original, full-duration runes stay in the shop.
+	// Full set of booster runes from the Alt+B "Exp boosters" section. Handed out with a forced
+	// 3-day lifetime (see setRemainingTime), so the original, full-duration runes stay in the shop.
 	private static final int[] EXP_BOOSTERS =
 	{
 		45641, // Rodemai's Rune (XP/SP +7%)
@@ -58,6 +58,13 @@ public class Theodore extends Script
 	// Mentor's Guidance: XP/SP +50% (VP_MENTOR_RUNE). Intended for characters below level 85.
 	private static final SkillHolder MENTOR_RUNE = new SkillHolder(9233, 1);
 	private static final int MENTOR_RUNE_MAX_LEVEL = 85;
+	// Mentee Certificate (graduation diploma). Given at level 85+.
+	private static final int MENTEE_CERTIFICATE = 33800;
+	private static final int CERTIFICATE_MIN_LEVEL = 85;
+	// Per-character flags (persisted in character_variables) so each service can be claimed only once.
+	private static final String VAR_BOOSTERS = "THEODORE_BOOSTERS_CLAIMED";
+	private static final String VAR_MENTOR_RUNE = "THEODORE_MENTOR_RUNE_CLAIMED";
+	private static final String VAR_CERTIFICATE = "THEODORE_CERTIFICATE_CLAIMED";
 	
 	private Theodore()
 	{
@@ -100,6 +107,10 @@ public class Theodore extends Script
 				{
 					return null;
 				}
+				if (player.getVariables().hasVariable(VAR_BOOSTERS))
+				{
+					return "32975-once.html";
+				}
 				for (int itemId : EXP_BOOSTERS)
 				{
 					final Item rune = player.addItem(ItemProcessType.REWARD, itemId, 1, player, true);
@@ -108,6 +119,7 @@ public class Theodore extends Script
 						rune.setRemainingTime(BOOSTER_DURATION_MS); // Limit the handed-out copy to 3 days.
 					}
 				}
+				player.getVariables().set(VAR_BOOSTERS, true);
 				return "32975-boosters.html";
 			}
 			case "give_mentor_rune":
@@ -120,8 +132,31 @@ public class Theodore extends Script
 				{
 					return "32975-mentor-no.html";
 				}
+				if (player.getVariables().hasVariable(VAR_MENTOR_RUNE))
+				{
+					return "32975-once.html";
+				}
 				MENTOR_RUNE.getSkill().applyEffects(player, player);
+				player.getVariables().set(VAR_MENTOR_RUNE, true);
 				return "32975-mentor.html";
+			}
+			case "give_certificate":
+			{
+				if (player == null)
+				{
+					return null;
+				}
+				if (player.getLevel() < CERTIFICATE_MIN_LEVEL)
+				{
+					return "32975-cert-no.html";
+				}
+				if (player.getVariables().hasVariable(VAR_CERTIFICATE))
+				{
+					return "32975-once.html";
+				}
+				giveItems(player, MENTEE_CERTIFICATE, 1);
+				player.getVariables().set(VAR_CERTIFICATE, true);
+				return "32975-cert.html";
 			}
 		}
 		
