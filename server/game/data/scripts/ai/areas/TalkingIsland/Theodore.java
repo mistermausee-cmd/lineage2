@@ -25,6 +25,7 @@ import org.l2jmobius.gameserver.model.actor.Player;
 import org.l2jmobius.gameserver.model.events.Containers;
 import org.l2jmobius.gameserver.model.events.EventType;
 import org.l2jmobius.gameserver.model.events.holders.actor.player.OnPlayerLevelChanged;
+import org.l2jmobius.gameserver.model.events.holders.actor.player.OnPlayerLogin;
 import org.l2jmobius.gameserver.model.events.listeners.ConsumerEventListener;
 import org.l2jmobius.gameserver.model.item.enums.ItemProcessType;
 import org.l2jmobius.gameserver.model.item.instance.Item;
@@ -82,6 +83,28 @@ public class Theodore extends Script
 		addFirstTalkId(THEODORE);
 		// Remove the mentor rune buff once the character reaches the cap level (it is a "+50% XP up to Lv. 85" bonus).
 		Containers.Players().addListener(new ConsumerEventListener(Containers.Players(), EventType.ON_PLAYER_LEVEL_CHANGED, (OnPlayerLevelChanged event) -> onLevelChanged(event), this));
+		// The mentor rune is applied as a skill effect with infinite duration (abnormalTime = -1). Such
+		// self-buffs are NOT persisted to character_skills_save, so they vanish on server restart/relog.
+		// Re-apply it on login for characters that claimed it and are still below the cap level.
+		Containers.Players().addListener(new ConsumerEventListener(Containers.Players(), EventType.ON_PLAYER_LOGIN, (OnPlayerLogin event) -> onPlayerLogin(event), this));
+	}
+	
+	private void onPlayerLogin(OnPlayerLogin event)
+	{
+		final Player player = event.getPlayer();
+		if (player == null)
+		{
+			return;
+		}
+		// Only restore for characters that actually claimed the rune and are still under the cap level.
+		if (!player.getVariables().hasVariable(VAR_MENTOR_RUNE) || (player.getLevel() >= MENTOR_RUNE_MAX_LEVEL))
+		{
+			return;
+		}
+		if (!player.isAffectedBySkill(MENTOR_RUNE.getSkillId()))
+		{
+			MENTOR_RUNE.getSkill().applyEffects(player, player);
+		}
 	}
 	
 	private void onLevelChanged(OnPlayerLevelChanged event)
