@@ -47,7 +47,9 @@ import org.l2jmobius.gameserver.model.actor.Player;
 import org.l2jmobius.gameserver.model.actor.Summon;
 import org.l2jmobius.gameserver.model.actor.instance.Pet;
 import org.l2jmobius.gameserver.model.item.enums.ItemProcessType;
+import org.l2jmobius.gameserver.model.skill.BuffInfo;
 import org.l2jmobius.gameserver.model.skill.Skill;
+import org.l2jmobius.gameserver.model.skill.enums.SkillFinishType;
 import org.l2jmobius.gameserver.model.skill.holders.SkillLearn;
 import org.l2jmobius.gameserver.model.zone.ZoneId;
 import org.l2jmobius.gameserver.network.serverpackets.BuyList;
@@ -266,14 +268,27 @@ public class HomeBoard implements IParseBoardHandler
 		else if (command.startsWith("_bbsunbuff"))
 		{
 			final String page = command.replace("_bbsunbuff;", "");
-			player.stopAllEffects();
+			final List<Creature> targets = new ArrayList<>(4);
+			targets.add(player);
 			final Pet pet = player.getPet();
 			if (pet != null)
 			{
-				pet.stopAllEffects();
+				targets.add(pet);
 			}
-			player.getServitors().values().forEach(s -> s.stopAllEffects());
-			player.sendMessage("All buffs have been removed.");
+			player.getServitors().values().forEach(targets::add);
+			
+			for (Creature target : targets)
+			{
+				// Removes buffs and regular debuffs.
+				target.stopAllEffects();
+				// stopAllEffects() keeps abnormals flagged stayAfterDeath (e.g. the Raid Curse - skills
+				// 4215 / 4515), so strip any remaining debuffs explicitly to also clear negative effects.
+				for (BuffInfo info : target.getEffectList().getDebuffs())
+				{
+					target.stopSkillEffects(SkillFinishType.REMOVED, info.getSkill().getId());
+				}
+			}
+			player.sendMessage("All buffs and negative effects have been removed.");
 			returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/" + page + ".html");
 		}
 		else if (command.startsWith("_bbsheal"))
