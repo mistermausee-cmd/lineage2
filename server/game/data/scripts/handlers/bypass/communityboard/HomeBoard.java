@@ -277,15 +277,29 @@ public class HomeBoard implements IParseBoardHandler
 			}
 			player.getServitors().values().forEach(targets::add);
 			
+			// Negative effects that survive a normal cleanse because they are flagged irreplaceableBuff
+			// (Skill.isStayAfterDeath() returns true for those). Force-removed explicitly below:
+			// Raid Curse (4215, 4515) and Shilen's Breath / Weakened Shilen's Breath, all levels (14571, 23344).
+			final int[] persistentDebuffs =
+			{
+				4215,
+				4515,
+				14571,
+				23344
+			};
 			for (Creature target : targets)
 			{
-				// Removes buffs and regular debuffs.
+				// Removes standard buffs and debuffs (skips irreplaceable abnormals).
 				target.stopAllEffects();
-				// stopAllEffects() keeps abnormals flagged stayAfterDeath (e.g. the Raid Curse - skills
-				// 4215 / 4515), so strip any remaining debuffs explicitly to also clear negative effects.
+				// Strip any remaining debuffs (irreplaceable ones survive stopAllEffects), clearing negative effects.
 				for (BuffInfo info : target.getEffectList().getDebuffs())
 				{
 					target.stopSkillEffects(SkillFinishType.REMOVED, info.getSkill().getId());
+				}
+				// Explicit safety net for the known persistent curses / Shilen's Breath regardless of level.
+				for (int skillId : persistentDebuffs)
+				{
+					target.stopSkillEffects(SkillFinishType.REMOVED, skillId);
 				}
 			}
 			player.sendMessage("All buffs and negative effects have been removed.");
