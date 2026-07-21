@@ -16,6 +16,10 @@
  */
 package ai.areas.TalkingIsland;
 
+import java.util.concurrent.TimeUnit;
+
+import org.l2jmobius.gameserver.config.custom.PremiumSystemConfig;
+import org.l2jmobius.gameserver.managers.PremiumManager;
 import org.l2jmobius.gameserver.model.actor.Npc;
 import org.l2jmobius.gameserver.model.actor.Player;
 import org.l2jmobius.gameserver.model.events.Containers;
@@ -61,10 +65,16 @@ public class Theodore extends Script
 	// Mentee Certificate (graduation diploma). Given at level 85+.
 	private static final int MENTEE_CERTIFICATE = 33800;
 	private static final int CERTIFICATE_MIN_LEVEL = 85;
+	// Free premium status handed out by Theodore. Premium is account-wide, so this service is
+	// limited to ONCE PER ACCOUNT (account_variables) instead of per-character - otherwise a player
+	// could relog alts on the same account to stack premium repeatedly.
+	private static final int PREMIUM_DAYS = 3;
 	// Per-character flags (persisted in character_variables) so each service can be claimed only once.
 	private static final String VAR_BOOSTERS = "THEODORE_BOOSTERS_CLAIMED";
 	private static final String VAR_MENTOR_RUNE = "THEODORE_MENTOR_RUNE_CLAIMED";
 	private static final String VAR_CERTIFICATE = "THEODORE_CERTIFICATE_CLAIMED";
+	// Per-account flag (persisted in account_variables) - premium can be claimed only once per account.
+	private static final String VAR_PREMIUM = "THEODORE_PREMIUM_CLAIMED";
 	
 	private Theodore()
 	{
@@ -157,6 +167,26 @@ public class Theodore extends Script
 				giveItems(player, MENTEE_CERTIFICATE, 1);
 				player.getVariables().set(VAR_CERTIFICATE, true);
 				return "32975-cert.html";
+			}
+			case "give_premium":
+			{
+				if (player == null)
+				{
+					return null;
+				}
+				if (!PremiumSystemConfig.PREMIUM_SYSTEM_ENABLED)
+				{
+					return "32975-premium-off.html";
+				}
+				// Once per ACCOUNT: premium applies to the whole account, not a single character.
+				if (player.getAccountVariables().hasVariable(VAR_PREMIUM))
+				{
+					return "32975-premium-once.html";
+				}
+				PremiumManager.getInstance().addPremiumTime(player.getAccountName(), PREMIUM_DAYS, TimeUnit.DAYS);
+				player.getAccountVariables().set(VAR_PREMIUM, true);
+				player.getAccountVariables().storeMe();
+				return "32975-premium.html";
 			}
 		}
 		
