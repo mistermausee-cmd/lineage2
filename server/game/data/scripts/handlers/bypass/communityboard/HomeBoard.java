@@ -67,6 +67,8 @@ public class HomeBoard implements IParseBoardHandler
 	// SQL Queries
 	private static final String COUNT_FAVORITES = "SELECT COUNT(*) AS favorites FROM `bbs_favorites` WHERE `playerId`=?";
 	private static final String NAVIGATION_PATH = "data/html/CommunityBoard/Custom/navigation.html";
+	// Shilen's Breath (GD death penalty) skill id - cleared specially in the unbuff handler.
+	private static final int SHILENS_BREATH_SKILL = 14571;
 	
 	private static final String[] COMMANDS =
 	{
@@ -277,29 +279,48 @@ public class HomeBoard implements IParseBoardHandler
 			}
 			player.getServitors().values().forEach(targets::add);
 			
-			// Negative effects that survive a normal cleanse because they are flagged irreplaceableBuff
-			// (Skill.isStayAfterDeath() returns true for those). Force-removed explicitly below:
-			// Raid Curse (4215, 4515) and Shilen's Breath / Weakened Shilen's Breath, all levels (14571, 23344).
+			// Curses that survive a normal cleanse because they are flagged irreplaceableBuff
+			// (Skill.isStayAfterDeath() returns true). They have no end-effect chain, so one forced
+			// removal clears them: Raid Curse (4215, 4515) and Weakened Shilen's Breath (23344).
 			final int[] persistentDebuffs =
 			{
 				4215,
 				4515,
-				14571,
 				23344
 			};
 			for (Creature target : targets)
 			{
 				// Removes standard buffs and debuffs (skips irreplaceable abnormals).
 				target.stopAllEffects();
-				// Strip any remaining debuffs (irreplaceable ones survive stopAllEffects), clearing negative effects.
+				// Strip remaining debuffs (irreplaceable ones survive stopAllEffects). Shilen's Breath (14571)
+				// is skipped here and handled below, because a single removal only lowers it by one stage.
 				for (BuffInfo info : target.getEffectList().getDebuffs())
 				{
-					target.stopSkillEffects(SkillFinishType.REMOVED, info.getSkill().getId());
+					final int skillId = info.getSkill().getId();
+					if (skillId != SHILENS_BREATH_SKILL)
+					{
+						target.stopSkillEffects(SkillFinishType.REMOVED, skillId);
+					}
 				}
-				// Explicit safety net for the known persistent curses / Shilen's Breath regardless of level.
 				for (int skillId : persistentDebuffs)
 				{
 					target.stopSkillEffects(SkillFinishType.REMOVED, skillId);
+				}
+			}
+			// Shilen's Breath (death penalty) decays only ONE stage per removal: its end-effect re-applies the
+			// next-lower stage ~200ms later (async). Schedule spaced removals (>200ms apart) to fully clear all
+			// stages down to 0 (stage 1 has no end-effect, so the last removal ends the chain). Player-only.
+			if (player.getEffectList().getBuffInfoBySkillId(SHILENS_BREATH_SKILL) != null)
+			{
+				for (int i = 0; i < 6; i++)
+				{
+					ThreadPool.schedule(() ->
+					{
+						if (player.isOnline() && (player.getEffectList().getBuffInfoBySkillId(SHILENS_BREATH_SKILL) != null))
+						{
+							player.stopSkillEffects(SkillFinishType.REMOVED, SHILENS_BREATH_SKILL);
+						}
+					}, i * 250L);
 				}
 			}
 			player.sendMessage("All buffs and negative effects have been removed.");

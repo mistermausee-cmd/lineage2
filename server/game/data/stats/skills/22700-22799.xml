@@ -301,6 +301,11 @@
 		<conditions>
 			<condition name="CanUseVitalityIncreaseItem" />
 		</conditions>
+		<effects>
+			<effect name="VitalityPointUp"> <!-- Replenishes Vitality to max (MAX_VITALITY_POINTS = 140000). -->
+				<value>140000</value>
+			</effect>
+		</effects>
 	</skill>
 	<skill id="22712" toLevel="1" name="Vitality Recovering Potion">
 		<!-- For 30 min., Vitality is replenished with XP gain through hunting. Effect remains even after death. -->
