@@ -208,9 +208,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="time" val="43200" />
-		<conditions msgId="2453">
-			<player cloakStatus="true" />
-		</conditions>
+		<!-- Custom: cloakStatus (armor-set cloak-slot unlock) requirement removed so the shop cloak can be worn without a cloak-enabling armor set. -->
 		<conditions>
 			<player level="80" />
 		</conditions>
