@@ -263,7 +263,11 @@ public class Q10753_WindsOfFateChoices extends Quest
 			}
 			case "30758-04.html":
 			{
-				if (qs.isCond(8))
+				// Allow both the first run (cond 8) and a RETRY (cond 9): if the previous boxes despawned before
+				// the player collected 4 belongings (unlucky 35% rolls), the "one more chance" button in
+				// 30758-06.html / 30758-05.html re-spawns them. The isScriptValue(0) guard prevents double-spawning
+				// while a batch of boxes is still active.
+				if ((qs.isCond(8) || qs.isCond(9)) && npc.isScriptValue(0))
 				{
 					npc.setScriptValue(1);
 					player.sendPacket(new ExSendUIEvent(player, false, false, 180, 1, NpcStringId.REMAINING_TIME));
