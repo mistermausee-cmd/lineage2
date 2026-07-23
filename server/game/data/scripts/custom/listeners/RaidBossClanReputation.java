@@ -21,8 +21,8 @@ import org.l2jmobius.gameserver.model.script.Script;
  */
 public class RaidBossClanReputation extends Script
 {
-	// Reputation granted per raid boss level. Example: level 99 boss -> 990 points.
-	private static final int REPUTATION_PER_LEVEL = 10;
+	// Reputation granted per raid boss level. Example: level 99 boss -> 2970 points.
+	private static final int REPUTATION_PER_LEVEL = 30;
 
 	private RaidBossClanReputation()
 	{
