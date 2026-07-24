@@ -1,6 +1,8 @@
 /*
- * Custom (solo server): grants Clan Reputation Points when a clan member kills
- * a raid boss. The amount scales with the raid boss level.
+ * Custom (solo server): grants reputation when a raid boss is killed.
+ *  - Personal Fame to the killer (any player).
+ *  - Clan Reputation Points to the killer's clan (if any).
+ * Both amounts scale with the raid boss level.
  */
 package custom.listeners;
 
@@ -14,15 +16,18 @@ import org.l2jmobius.gameserver.model.events.listeners.ConsumerEventListener;
 import org.l2jmobius.gameserver.model.script.Script;
 
 /**
- * Raid Boss -> Clan Reputation.<br>
- * When a member of a clan lands the killing blow on a raid boss (or grand boss),
- * the clan receives Clan Reputation Points equal to (boss level * REPUTATION_PER_LEVEL).<br>
+ * Raid Boss -> Reputation rewards.<br>
+ * When a player lands the killing blow on a raid boss (or grand boss):<br>
+ * - the player personally gains Fame ("личная репутация") = boss level * FAME_PER_LEVEL;<br>
+ * - the player's clan (if any) gains Clan Reputation = boss level * CLAN_REP_PER_LEVEL.<br>
  * Raid minions are ignored.
  */
 public class RaidBossClanReputation extends Script
 {
-	// Reputation granted per raid boss level. Example: level 99 boss -> 2970 points.
-	private static final int REPUTATION_PER_LEVEL = 30;
+	// Clan Reputation Points granted per raid boss level (goes to the clan pool).
+	private static final int CLAN_REP_PER_LEVEL = 30;
+	// Personal Fame granted per raid boss level (goes to the killer, capped at MaxPersonalFamePoints).
+	private static final int FAME_PER_LEVEL = 10;
 
 	private RaidBossClanReputation()
 	{
@@ -50,15 +55,24 @@ public class RaidBossClanReputation extends Script
 			return;
 		}
 
+		final int level = target.getLevel();
+
+		// 1) Personal Fame ("личная репутация") - granted to the killer regardless of clan.
+		final int fame = Math.max(1, level * FAME_PER_LEVEL);
+		player.setFame(player.getFame() + fame);
+		player.sendMessage("Личная Слава +" + fame + " за победу над рейд-боссом (ур. " + level + ").");
+
+		// 2) Clan Reputation ("репутация клана") - granted to the killer's clan, if any.
 		final Clan clan = player.getClan();
-		if (clan == null)
+		if (clan != null)
 		{
-			return;
+			final int reputation = Math.max(1, level * CLAN_REP_PER_LEVEL);
+			clan.addReputationScore(reputation);
+			player.sendMessage("Клан получил " + reputation + " Очков Славы за победу над рейд-боссом (ур. " + level + ").");
 		}
 
-		final int reputation = Math.max(1, target.getLevel() * REPUTATION_PER_LEVEL);
-		clan.addReputationScore(reputation);
-		player.sendMessage("Клан получил " + reputation + " Очков Славы за победу над рейд-боссом (ур. " + target.getLevel() + ").");
+		// Refresh the client so the Fame value updates immediately.
+		player.broadcastUserInfo();
 	}
 
 	public static void main(String[] args)
