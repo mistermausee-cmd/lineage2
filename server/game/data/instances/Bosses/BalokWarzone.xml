@@ -10,12 +10,7 @@
 		<exit type="ORIGIN" />
 	</locations>
 	<conditions>
-		<condition type="Party">
-			<param name="html" value="condNoParty.html" />
-		</condition>
-		<condition type="PartyLeader">
-			<param name="html" value="condNoPartyLeader.html" />
-		</condition>
+		<!-- Групповые условия входа убраны: разрешён соло-вход -->
 		<condition type="GroupMin">
 			<param name="limit" value="1" />
 		</condition>

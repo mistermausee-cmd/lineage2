@@ -29,12 +29,7 @@
 		<location name="teleportZone3_loc" x="-120861" y="-14149" z="-11427" />
 	</parameters>
 	<conditions>
-		<condition type="Party" showMessageAndHtml="true">
-			<param name="html" value="33647-7.htm" />
-		</condition>
-		<condition type="PartyLeader" showMessageAndHtml="true">
-			<param name="html" value="33647-7.htm" />
-		</condition>
+		<!-- Групповые условия входа убраны: разрешён соло-вход -->
 		<condition type="GroupMin">
 			<param name="limit" value="1" />
 		</condition>

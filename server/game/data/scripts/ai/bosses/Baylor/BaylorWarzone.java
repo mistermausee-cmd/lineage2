@@ -116,13 +116,10 @@ public class BaylorWarzone extends InstanceScript
 					enterInstance(member, npc, TEMPLATE_ID);
 				}
 			}
-			else if (player.isGM())
-			{
-				enterInstance(player, npc, TEMPLATE_ID);
-			}
 			else
 			{
-				player.sendPacket(SystemMessageId.YOU_ARE_NOT_CURRENTLY_IN_A_PARTY_SO_YOU_CANNOT_ENTER);
+				// Соло-вход разрешён (групповое ограничение снято)
+				enterInstance(player, npc, TEMPLATE_ID);
 			}
 		}
 		

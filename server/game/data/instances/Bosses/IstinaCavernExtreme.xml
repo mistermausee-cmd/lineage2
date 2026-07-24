@@ -10,9 +10,7 @@
 		<exit type="ORIGIN" />
 	</locations>
 	<conditions>
-		<condition type="Party" />
-		<condition type="CommandChannel" />
-		<condition type="CommandChannelLeader" />
+		<!-- Групповые условия входа убраны: разрешён соло-вход -->
 		<condition type="GroupMin">
 			<param name="limit" value="1" />
 		</condition>
