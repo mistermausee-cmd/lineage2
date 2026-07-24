@@ -78,18 +78,22 @@ public class Daichir extends Script
 					return "30537-2.html";
 				}
 				
-				if (!player.isInParty())
+				// Solo server: allow entry without a party / command channel / alliance.
+				final List<Player> members;
+				if (player.isInParty())
 				{
-					return "30537-3.html";
+					final Party party = player.getParty();
+					final boolean isInCC = party.isInCommandChannel();
+					members = (isInCC) ? party.getCommandChannel().getMembers() : party.getMembers();
+					final boolean isPartyLeader = (isInCC) ? party.getCommandChannel().isLeader(player) : party.isLeader(player);
+					if (!isPartyLeader)
+					{
+						return "30537-3.html";
+					}
 				}
-				
-				final Party party = player.getParty();
-				final boolean isInCC = party.isInCommandChannel();
-				final List<Player> members = (isInCC) ? party.getCommandChannel().getMembers() : party.getMembers();
-				final boolean isPartyLeader = (isInCC) ? party.getCommandChannel().isLeader(player) : party.isLeader(player);
-				if (!isPartyLeader)
+				else
 				{
-					return "30537-3.html";
+					members = java.util.Collections.singletonList(player);
 				}
 				
 				if ((members.size() < GrandBossConfig.TRASKEN_MIN_PLAYERS) || (members.size() > GrandBossConfig.TRASKEN_MAX_PLAYERS))
