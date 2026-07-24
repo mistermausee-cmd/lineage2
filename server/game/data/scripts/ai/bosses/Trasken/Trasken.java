@@ -725,7 +725,7 @@ public class Trasken extends Script
 			case BIG_TIE:
 			{
 				_killsTie.incrementAndGet();
-				if ((_killsTie.get() == 27) && (_statusZone == 0))
+				if ((_killsTie.get() >= 1) && (_statusZone == 0)) // solo: было 27
 				{
 					_statusZone = 1;
 					nextStage(_statusZone);
@@ -735,7 +735,7 @@ public class Trasken extends Script
 			case TRADJAN:
 			{
 				_killsTradjan.incrementAndGet();
-				if ((_killsTradjan.get() == 18) && (_statusZone == 1))
+				if ((_killsTradjan.get() >= 1) && (_statusZone == 1)) // solo: было 18
 				{
 					_statusZone = 2;
 					nextStage(_statusZone);
@@ -809,8 +809,8 @@ public class Trasken extends Script
 				_collapseTask = null;
 			}
 			
-			final int time = 540000;
-			zone.getPlayersInside().forEach(temp -> temp.sendPacket(new ExSendUIEvent(temp, false, false, 540, 0, NpcStringId.REMAINING_TIME)));
+			final int time = 3600000; // solo: 60 мин (было 540000 = 9 мин)
+			zone.getPlayersInside().forEach(temp -> temp.sendPacket(new ExSendUIEvent(temp, false, false, 3600, 0, NpcStringId.REMAINING_TIME)));
 			_collapseTask = ThreadPool.schedule(() -> fail(true), time);
 		}
 	}
