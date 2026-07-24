@@ -298,7 +298,7 @@
 		<magicCriticalRate>5</magicCriticalRate>
 		<magicLevel>85</magicLevel>
 		<reuseDelay>600000</reuseDelay>
-		<staticReuse>true</staticReuse>
+		<!-- Соло-сервер: staticReuse убран, чтобы снижение КД от предметов действовало на "Дикость" (Savage) -->
 		<effects>
 			<effect name="PhysicalAttack">
 				<amount>10</amount>
