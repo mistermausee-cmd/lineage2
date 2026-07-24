@@ -729,6 +729,7 @@ public class Trasken extends Script
 				{
 					_statusZone = 1;
 					nextStage(_statusZone);
+					despawnMobs(TIE, BIG_TIE); // solo: убрать недобитые щупальца
 				}
 				break;
 			}
@@ -739,9 +740,8 @@ public class Trasken extends Script
 				{
 					_statusZone = 2;
 					nextStage(_statusZone);
+					despawnMobs(TRADJAN); // solo: убрать недобитых Traджан
 				}
-				
-				npc.getSpawn().startRespawn();
 				break;
 			}
 			case TAIL_TRASKEN:
@@ -762,20 +762,17 @@ public class Trasken extends Script
 			case LAVRA_2:
 			case LAVRA_3:
 			{
-				npc.getSpawn().startRespawn();
-				break;
+				break; // solo: без респавна
 			}
 			case VICTIM_EARTWORMS_1:
 			case VICTIM_EARTWORMS_2:
 			case VICTIM_EARTWORMS_3:
 			{
-				npc.getSpawn().startRespawn();
-				break;
+				break; // solo: без респавна
 			}
 			case DIGISTIVE:
 			{
-				npc.getSpawn().startRespawn();
-				break;
+				break; // solo: без респавна
 			}
 		}
 	}
@@ -828,6 +825,42 @@ public class Trasken extends Script
 					creature.broadcastPacket(new OnEventTrigger(info, false));
 				}
 			}, 900000);
+		}
+	}
+	
+	private void despawnMobs(int... ids)
+	{
+		final java.util.List<Creature> toRemove = new java.util.ArrayList<>();
+		for (NoSummonFriendZone zone : new NoSummonFriendZone[]
+		{
+			_zoneLair,
+			_zoneLair2
+		})
+		{
+			if (zone == null)
+			{
+				continue;
+			}
+			for (Creature c : zone.getCharactersInside())
+			{
+				if ((c != null) && c.isMonster())
+				{
+					final int npcId = c.asMonster().getId();
+					for (int id : ids)
+					{
+						if (npcId == id)
+						{
+							toRemove.add(c);
+							break;
+						}
+					}
+				}
+			}
+		}
+		for (Creature c : toRemove)
+		{
+			c.asMonster().getSpawn().stopRespawn();
+			c.deleteMe();
 		}
 	}
 	
