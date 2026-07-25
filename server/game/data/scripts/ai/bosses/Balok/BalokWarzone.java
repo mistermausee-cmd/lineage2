@@ -160,6 +160,15 @@ public class BalokWarzone extends InstanceScript
 				}
 				case "stage_last_send_minions":
 				{
+					// Все миньоны мертвы -> снимаем неуязвимость с Балока и выходим.
+					if (_minionList.isEmpty())
+					{
+						if (_balok != null)
+						{
+							_balok.stopSkillEffects(INVINCIBILITY_ACTIVATION.getSkill());
+						}
+						break;
+					}
 					final Npc minion = _minionList.get(getRandom(_minionList.size()));
 					if (minion != null)
 					{
@@ -220,7 +229,7 @@ public class BalokWarzone extends InstanceScript
 				{
 					final Npc minion = addSpawn(MINION, a[0], a[1], a[2], a[3], false, 0, false, world.getId());
 					_minionList.add(minion);
-					INVINCIBILITY_ACTIVATION.getSkill().applyEffects(minion, minion);
+					// Миньоны сделаны убиваемыми: неуязвимость на них больше не накладывается.
 					world.setStatus(2);
 				}
 			}
@@ -229,7 +238,12 @@ public class BalokWarzone extends InstanceScript
 			{
 				if (npc.isScriptValue(0))
 				{
-					INVINCIBILITY_ACTIVATION.getSkill().applyEffects(npc, npc);
+					// Неуязвимость Балока имеет смысл, только пока живы миньоны (их убийство её снимает).
+					// Если игрок уже перебил всех миньонов, босс не должен застрять в вечной неуязвимости.
+					if (!_minionList.isEmpty())
+					{
+						INVINCIBILITY_ACTIVATION.getSkill().applyEffects(npc, npc);
+					}
 					npc.setScriptValue(1);
 				}
 				

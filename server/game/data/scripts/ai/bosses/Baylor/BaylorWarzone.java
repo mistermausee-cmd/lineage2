@@ -53,6 +53,7 @@ public class BaylorWarzone extends InstanceScript
 	// Skills
 	private static final SkillHolder INVIS_NPC_SOCIAL_SKILL = new SkillHolder(5401, 1);
 	private static final SkillHolder BAYLOR_SOCIAL_SKILL = new SkillHolder(5402, 1);
+	private static final SkillHolder BAYLOR_INVINCIBILITY = new SkillHolder(5225, 1); // Неуязвимость Байлора
 	
 	// Locations
 	private static final Location BATTLE_PORT = new Location(153567, 143319, -12736);
@@ -68,6 +69,7 @@ public class BaylorWarzone extends InstanceScript
 		addInstanceCreatedId(TEMPLATE_ID);
 		addSpawnId(INVISIBLE_NPC_1);
 		addSpellFinishedId(INVISIBLE_NPC_1);
+		addSpellFinishedId(BAYLOR);
 		addCreatureSeeId(INVISIBLE_NPC_1);
 		setCreatureKillId(this::onBossKill, BAYLOR);
 	}
@@ -311,6 +313,11 @@ public class BaylorWarzone extends InstanceScript
 					npc.doCast(INVIS_NPC_SOCIAL_SKILL.getSkill());
 					break;
 				}
+				case "STOP_BAYLOR_INVINCIBILITY":
+				{
+					npc.stopSkillEffects(BAYLOR_INVINCIBILITY.getSkill());
+					break;
+				}
 			}
 		}
 	}
@@ -318,6 +325,17 @@ public class BaylorWarzone extends InstanceScript
 	@Override
 	public void onSpellFinished(Npc npc, Player player, Skill skill)
 	{
+		// Байлор: его неуязвимость (5225) держится только 10 секунд вместо 10 минут.
+		// Для любых заклинаний Байлора выходим раньше, чтобы не сработала очистка интро-сцены.
+		if (npc.getId() == BAYLOR)
+		{
+			if ((skill != null) && (skill.getId() == BAYLOR_INVINCIBILITY.getSkillId()) && isInInstance(npc.getInstanceWorld()))
+			{
+				getTimers().addTimer("STOP_BAYLOR_INVINCIBILITY", 10000, npc, null);
+			}
+			return;
+		}
+		
 		final Instance world = npc.getInstanceWorld();
 		if (isInInstance(world))
 		{
